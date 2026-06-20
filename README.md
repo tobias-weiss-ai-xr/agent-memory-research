@@ -71,6 +71,9 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 
 #### Token-level
 
+- [2026/06] Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory. [[paper](https://arxiv.org/abs/2606.10677)]
+- [2026/04] Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework. [[paper](https://arxiv.org/abs/2604.01707)]
+- [2026/03] Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers. [[paper](https://arxiv.org/abs/2603.07670)]
 - [2026/01] Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning. [[paper](https://arxiv.org/abs/2601.04726)]
 - [2026/01] MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents. [[paper](https://arxiv.org/abs/2601.03236)]
 - [2026/01] EverMemOS: A Self-Organizing Memory Operating System for Structured Long-Horizon Reasoning. [[paper](https://arxiv.org/abs/2601.02163)]
@@ -106,8 +109,10 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2025/08] Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory. [[paper](https://arxiv.org/abs/2508.08997)]
 - [2025/07] MIRIX: Multi-Agent Memory System for LLM-Based Agents. [[paper](https://arxiv.org/abs/2507.07957)]
 - [2025/07] Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents. [[paper](https://arxiv.org/abs/2507.22925)]
+- [2025/07] MemoryAgentBench: Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions. [[paper](https://arxiv.org/abs/2507.05257)]
 - [2025/06] G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems. [[paper](https://arxiv.org/abs/2506.07398)]
 - [2025/06] Embodied Agents Meet Personalization: Exploring Memory Utilization for Personalized Assistance. [[paper](https://arxiv.org/abs/2505.16348)]
+- [2025/06] MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents. [[paper](https://arxiv.org/abs/2506.21605)] [[code](https://github.com/import-myself/Membench)]
 - [2025/05] MemGuide: Intent-Driven Memory Selection for Goal-Oriented Multi-Session LLM Agents. [[paper](https://arxiv.org/abs/2505.20231)]
 - [2025/05] Pre-training Limited Memory Language Models with Internal and External Knowledge. [[paper](https://arxiv.org/abs/2505.15962)]
 - [2025/05] Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding. [[paper](https://arxiv.org/abs/2501.00358)]
@@ -125,6 +130,7 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2024/10] Memolet: Reifying the Reuse of User-AI Conversational Memories. [[paper](https://doi.org/10.1145/3654777.3676388)]
 - [2024/10] From Isolated Conversations to Hierarchical Schemas: Dynamic Tree Memory Representation for LLMs. [[paper](https://arxiv.org/abs/2410.14052)]
 - [2024/10] Enhancing Long Context Performance in LLMs Through Inner Loop Query Mechanism. [[paper](https://arxiv.org/abs/2410.12859)]
+- [2024/10] LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. [[paper](https://arxiv.org/abs/2410.10813)] [[code](https://github.com/xiaowu0162/LongMemEval)]
 - [2024/09] Crafting Personalized Agents through Retrieval-Augmented Generation on Editable Memory Graphs. [[paper](https://arxiv.org/abs/2409.19401)]
 - [2024/07] Human-inspired Episodic Memory for Infinite Context LLMs. [[paper](https://openreview.net/forum?id=BI2int5SAC)]
 - [2024/07] Arigraph: Learning knowledge graph world models with episodic memory for llm agents. [[paper](https://arxiv.org/abs/2407.04363)]
@@ -177,6 +183,7 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 
 #### Latent
 
+- [2026/06] MRAgent: Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents. [[paper](https://arxiv.org/abs/2606.06036)] [[code](https://github.com/Ji-shuo/MRAgent)]
 - [2025/09] Similarity-Distance-Magnitude Activations. [[paper](https://arxiv.org/abs/2509.12760)]
 - [2025/08] Towards General Continuous Memory for Vision-Language Models. [[paper](https://arxiv.org/abs/2505.17670)]
 - [2025/03] M+: Extending MemoryLLM with Scalable Long-Term Memory. [[paper](https://arxiv.org/abs/2502.00592)]
@@ -190,7 +197,11 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 
 #### Token-level
 
+- [2026/06] AdMem: Advanced Memory for Task-solving Agents. [[paper](https://arxiv.org/abs/2606.06787)]
+- [2026/05] From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms. [[paper](https://arxiv.org/abs/2605.06716)]
+- [2026/05] LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues. [[paper](https://arxiv.org/abs/2605.12493)]
 - [2026/01] MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory. [[paper](https://arxiv.org/abs/2601.03192)]
+- [2026/01] FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory. [[paper](https://arxiv.org/abs/2601.18642)]
 - [2025/12] MemEvolve: Meta-Evolution of Agent Memory Systems. [[paper](https://arxiv.org/abs/2512.18746)]
 - [2025/12] Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution. [[paper](https://arxiv.org/abs/2512.10696)]
 - [2025/12] Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects. [[paper](https://arxiv.org/abs/2512.12818)]
@@ -248,12 +259,17 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 
 #### Latent
 
+- [2026/03] All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution. [[paper](https://arxiv.org/abs/2603.19595)] [[code](https://github.com/LvCan926/All-Mem)]
+- [2026/01] TeleMem: Building Long-Term and Multimodal Memory for Agentic AI. [[paper](https://arxiv.org/abs/2601.06037)]
 - [2025/11] Auto-scaling Continuous Memory for GUI Agent. [[paper](https://arxiv.org/abs/2510.09038)]
 
 ### Working Memory
 
 #### Token-level
 
+- [2026/06] MemRefine: LLM-Guided Compression for Long-Term Agent Memory. [[paper](https://arxiv.org/abs/2606.13177)]
+- [2026/03] CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems. [[paper](https://arxiv.org/abs/2603.15642)] [[code](https://github.com/PearlMody05/Cranimem)]
+- [2026/02] FluxMem: Choosing How to Remember: Adaptive Memory Structures for LLM Agents. [[paper](https://arxiv.org/abs/2602.14038)]
 - [2026/01] MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory. [[paper](https://arxiv.org/abs/2601.03192)]
 - [2026/01] Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents. [[paper](https://arxiv.org/abs/2601.01885)]
 - [2025/11] Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks. [[paper](https://arxiv.org/abs/2510.12635)]
@@ -271,11 +287,16 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 
 #### Parametric
 
+- [2026/02] Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning. [[paper](https://arxiv.org/abs/2602.18493)]
 - [2024/05] Various Lengths, Constant Speed: Efficient Language Modeling with Lightning Attention. [[paper](https://openreview.net/forum?id=5wm6TiUP4X)]
 - [2024/01] Efficient Streaming Language Models with Attention Sinks. [[paper](https://openreview.net/forum?id=NG7sS51zVF)]
 
 #### Latent
 
+- [2026/06] Engram: A Bi-Temporal Memory Engine for LLM Agents. [[paper](https://arxiv.org/abs/2606.09900)]
+- [2026/05] Human-Inspired Memory Architecture for LLM Agents. [[paper](https://arxiv.org/abs/2605.08538)]
+- [2026/04] SCM: Sleep-Consolidated Memory with Algorithmic Forgetting for Large Language Models. [[paper](https://arxiv.org/abs/2604.20943)]
+- [2026/01] Continuum Memory Architectures for Long-Horizon LLM Agents. [[paper](https://arxiv.org/abs/2601.09913)]
 - [2025/11] VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Models. [[paper](https://arxiv.org/abs/2511.11007)]
 - [2025/09] MemGen: Weaving Generative Latent Memory for Self-Evolving Agents. [[paper](https://arxiv.org/abs/2509.24704)]
 - [2025/09] Conflict-Aware Soft Prompting for Retrieval-Augmented Generation. [[paper](https://arxiv.org/abs/2508.15253)]

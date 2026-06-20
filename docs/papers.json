@@ -1,6 +1,45 @@
 {
   "papers": [
     {
+      "title": "Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory",
+      "date": "2026-06",
+      "url": "https://arxiv.org/abs/2606.10677",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework",
+      "date": "2026-04",
+      "url": "https://arxiv.org/abs/2604.01707",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers",
+      "date": "2026-03",
+      "url": "https://arxiv.org/abs/2603.07670",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
       "title": "Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning",
       "date": "2026-01",
       "url": "https://arxiv.org/abs/2601.04726",
@@ -456,6 +495,19 @@
       "tags": []
     },
     {
+      "title": "MemoryAgentBench: Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+      "date": "2025-07",
+      "url": "https://arxiv.org/abs/2507.05257",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
       "title": "G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems",
       "date": "2025-06",
       "url": "https://arxiv.org/abs/2506.07398",
@@ -477,6 +529,26 @@
       "authors": [],
       "venue": "",
       "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents",
+      "date": "2025-06",
+      "url": "https://arxiv.org/abs/2506.21605",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Haoran Tan",
+        "Zeyu Zhang",
+        "Chen Ma",
+        "Xu Chen",
+        "Quanyu Dai",
+        "Zhenhua Dong"
+      ],
+      "venue": "ACL 2025 Findings",
+      "code_url": "https://github.com/import-myself/Membench",
       "project_url": "",
       "abstract": "",
       "tags": []
@@ -698,6 +770,26 @@
       "authors": [],
       "venue": "",
       "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+      "date": "2024-10",
+      "url": "https://arxiv.org/abs/2410.10813",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Di Wu",
+        "Hongwei Wang",
+        "Wenhao Yu",
+        "Yuwei Zhang",
+        "Kai-Wei Chang",
+        "Dong Yu"
+      ],
+      "venue": "",
+      "code_url": "https://github.com/xiaowu0162/LongMemEval",
       "project_url": "",
       "abstract": "",
       "tags": []
@@ -1301,6 +1393,19 @@
       "tags": []
     },
     {
+      "title": "MRAgent: Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents",
+      "date": "2026-06",
+      "url": "https://arxiv.org/abs/2606.06036",
+      "category": "factual",
+      "subcategory": "latent",
+      "authors": [],
+      "venue": "",
+      "code_url": "https://github.com/Ji-shuo/MRAgent",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
       "title": "Similarity-Distance-Magnitude Activations",
       "date": "2025-09",
       "url": "https://arxiv.org/abs/2509.12760",
@@ -1405,9 +1510,61 @@
       "tags": []
     },
     {
+      "title": "AdMem: Advanced Memory for Task-solving Agents",
+      "date": "2026-06",
+      "url": "https://arxiv.org/abs/2606.06787",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.06716",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.12493",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
       "title": "MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory",
       "date": "2026-01",
       "url": "https://arxiv.org/abs/2601.03192",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory",
+      "date": "2026-01",
+      "url": "https://arxiv.org/abs/2601.18642",
       "category": "experiential",
       "subcategory": "token-level",
       "authors": [],
@@ -2081,11 +2238,81 @@
       "tags": []
     },
     {
+      "title": "All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution",
+      "date": "2026-03",
+      "url": "https://arxiv.org/abs/2603.19595",
+      "category": "experiential",
+      "subcategory": "latent",
+      "authors": [],
+      "venue": "",
+      "code_url": "https://github.com/LvCan926/All-Mem",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "TeleMem: Building Long-Term and Multimodal Memory for Agentic AI",
+      "date": "2026-01",
+      "url": "https://arxiv.org/abs/2601.06037",
+      "category": "experiential",
+      "subcategory": "latent",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
       "title": "Auto-scaling Continuous Memory for GUI Agent",
       "date": "2025-11",
       "url": "https://arxiv.org/abs/2510.09038",
       "category": "experiential",
       "subcategory": "latent",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "MemRefine: LLM-Guided Compression for Long-Term Agent Memory",
+      "date": "2026-06",
+      "url": "https://arxiv.org/abs/2606.13177",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Minjae Kim",
+        "Jinheon Baek",
+        "Soyeong Jeong",
+        "Sung Ju Hwang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems",
+      "date": "2026-03",
+      "url": "https://arxiv.org/abs/2603.15642",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [],
+      "venue": "",
+      "code_url": "https://github.com/PearlMody05/Cranimem",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "FluxMem: Choosing How to Remember: Adaptive Memory Structures for LLM Agents",
+      "date": "2026-02",
+      "url": "https://arxiv.org/abs/2602.14038",
+      "category": "working",
+      "subcategory": "token-level",
       "authors": [],
       "venue": "",
       "code_url": "",
@@ -2276,6 +2503,19 @@
       "tags": []
     },
     {
+      "title": "Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning",
+      "date": "2026-02",
+      "url": "https://arxiv.org/abs/2602.18493",
+      "category": "working",
+      "subcategory": "parametric",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
       "title": "Various Lengths, Constant Speed: Efficient Language Modeling with Lightning Attention",
       "date": "2024-05",
       "url": "https://openreview.net/forum?id=5wm6TiUP4X",
@@ -2294,6 +2534,58 @@
       "url": "https://openreview.net/forum?id=NG7sS51zVF",
       "category": "working",
       "subcategory": "parametric",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "Engram: A Bi-Temporal Memory Engine for LLM Agents",
+      "date": "2026-06",
+      "url": "https://arxiv.org/abs/2606.09900",
+      "category": "working",
+      "subcategory": "latent",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "Human-Inspired Memory Architecture for LLM Agents",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.08538",
+      "category": "working",
+      "subcategory": "latent",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "SCM: Sleep-Consolidated Memory with Algorithmic Forgetting for Large Language Models",
+      "date": "2026-04",
+      "url": "https://arxiv.org/abs/2604.20943",
+      "category": "working",
+      "subcategory": "latent",
+      "authors": [],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": []
+    },
+    {
+      "title": "Continuum Memory Architectures for Long-Horizon LLM Agents",
+      "date": "2026-01",
+      "url": "https://arxiv.org/abs/2601.09913",
+      "category": "working",
+      "subcategory": "latent",
       "authors": [],
       "venue": "",
       "code_url": "",
