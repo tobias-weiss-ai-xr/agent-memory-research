@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Memory Paper List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #3b82f6;
+            --primary-green: #22c55e;
+            --primary-purple: #a855f7;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+            --radius: 8px;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --border-color: #334155;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--bg-primary);
+            padding: 2rem 0;
+            box-shadow: var(--shadow-sm);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .survey-link {
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .survey-link:hover {
+            text-decoration: underline;
+        }
+
+        .stats-bar {
+            background-color: var(--bg-primary);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .main-content {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .sidebar {
+            flex: 0 0 280px;
+            background-color: var(--bg-primary);
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+
+        .filter-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .filter-group {
+            margin-bottom: 1rem;
+        }
+
+        .filter-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            font-size: 0.9rem;
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .checkbox-item input {
+            width: 16px;
+            height: 16px;
+        }
+
+        .checkbox-item label {
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+
+        .category-factual {
+            color: var(--primary-blue);
+        }
+
+        .category-experiential {
+            color: var(--primary-green);
+        }
+
+        .category-working {
+            color: var(--primary-purple);
+        }
+
+        .toggle-switch {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .toggle-switch input {
+            width: 40px;
+            height: 20px;
+        }
+
+        .sort-dropdown {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            font-size: 0.9rem;
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        .clear-filters {
+            width: 100%;
+            padding: 0.75rem;
+            background-color: var(--primary-blue);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-size: 0.9rem;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+
+        .clear-filters:hover {
+            background-color: #2563eb;
+        }
+
+        .papers-container {
+            flex: 1;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .results-count {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .load-more {
+            padding: 0.75rem 1.5rem;
+            background-color: var(--primary-blue);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .load-more:hover {
+            background-color: #2563eb;
+        }
+
+        .load-more:disabled {
+            background-color: var(--text-secondary);
+            cursor: not-allowed;
+        }
+
+        .paper-card {
+            background-color: var(--bg-primary);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid var(--border-color);
+        }
+
+        .paper-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .paper-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .paper-date {
+            background-color: var(--bg-secondary);
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .paper-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .paper-title a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .paper-title a:hover {
+            color: var(--primary-blue);
+        }
+
+        .paper-authors {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .paper-venue {
+            display: inline-block;
+            background-color: var(--bg-secondary);
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-right: 0.5rem;
+        }
+
+        .paper-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .badge-category-factual {
+            background-color: rgba(59, 130, 246, 0.1);
+            color: var(--primary-blue);
+        }
+
+        .badge-category-experiential {
+            background-color: rgba(34, 197, 94, 0.1);
+            color: var(--primary-green);
+        }
+
+        .badge-category-working {
+            background-color: rgba(168, 85, 247, 0.1);
+            color: var(--primary-purple);
+        }
+
+        .badge-subcategory-token {
+            background-color: rgba(59, 130, 246, 0.05);
+            color: var(--primary-blue);
+        }
+
+        .badge-subcategory-parametric {
+            background-color: rgba(34, 197, 94, 0.05);
+            color: var(--primary-green);
+        }
+
+        .badge-subcategory-latent {
+            background-color: rgba(168, 85, 247, 0.05);
+            color: var(--primary-purple);
+        }
+
+        .paper-links {
+            margin: 1rem 0;
+        }
+
+        .paper-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-right: 1rem;
+        }
+
+        .paper-link:hover {
+            text-decoration: underline;
+        }
+
+        .paper-abstract {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin-top: 1rem;
+            max-height: 60px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .paper-abstract.expanded {
+            max-height: none;
+        }
+
+        .abstract-toggle {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+            padding: 0.5rem;
+            text-align: center;
+            cursor: pointer;
+            color: var(--primary-blue);
+            font-size: 0.85rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            background-color: var(--bg-primary);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .empty-state-icon {
+            font-size: 3rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .empty-state-text {
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .empty-state-subtext {
+            color: var(--text-secondary);
+        }
+
+        footer {
+            background-color: var(--bg-primary);
+            padding: 2rem 0;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+            margin-top: 2rem;
+        }
+
+        .footer-content {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .footer-links {
+            margin-top: 1rem;
+        }
+
+        .footer-links a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .loading-state {
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .loading-spinner {
+            border: 4px solid var(--border-color);
+            border-top: 4px solid var(--primary-blue);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                flex: 0 0 100%;
+                position: static;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Agent Memory Paper List</h1>
+                <p class="subtitle">A curated collection of papers on memory in AI agents</p>
+                <p class="subtitle">Part of the survey: <a href="https://arxiv.org/abs/2512.13564" class="survey-link" target="_blank">Memory in the Age of AI Agents: A Survey</a></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="stats-bar" id="statsBar">
+            <div class="stat-item">
+                <div class="stat-value" id="totalPapers">0</div>
+                <div class="stat-label">Total Papers</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="factualPapers">0</div>
+                <div class="stat-label">Factual</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="experientialPapers">0</div>
+                <div class="stat-label">Experiential</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="workingPapers">0</div>
+                <div class="stat-label">Working</div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="filter-section">
+                    <h3 class="filter-title">Filters</h3>
+                    
+                    <div class="filter-group">
+                        <label class="filter-label">Search</label>
+                        <input type="text" class="search-input" id="searchInput" placeholder="Search papers...">
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="filter-label">Categories</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="categoryFactual" checked>
+                                <label for="categoryFactual" class="category-factual">Factual</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="categoryExperiential" checked>
+                                <label for="categoryExperiential" class="category-experiential">Experiential</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="categoryWorking" checked>
+                                <label for="categoryWorking" class="category-working">Working</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="filter-label">Subcategories</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="subcategoryToken" checked>
+                                <label for="subcategoryToken">
+                                    <i class="fas fa-database"></i> Token-level
+                                </label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="subcategoryParametric" checked>
+                                <label for="subcategoryParametric">
+                                    <i class="fas fa-brain"></i> Parametric
+                                </label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="subcategoryLatent" checked>
+                                <label for="subcategoryLatent">
+                                    <i class="fas fa-cloud"></i> Latent
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="filter-label">Date Range</label>
+                        <select class="sort-dropdown" id="yearFilter">
+                            <option value="all">All Years (2020-2026)</option>
+                            <option value="2026">2026</option>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="filter-label">Has Code</label>
+                        <div class="toggle-switch">
+                            <input type="checkbox" id="hasCodeFilter">
+                            <label for="hasCodeFilter">Show only papers with code</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="filter-label">Sort</label>
+                        <select class="sort-dropdown" id="sortFilter">
+                            <option value="newest">Newest First</option>
+                            <option value="oldest">Oldest First</option>
+                            <option value="title">Title A-Z</option>
+                        </select>
+                    </div>
+
+                    <button class="clear-filters" id="clearFilters">Clear Filters</button>
+                </div>
+            </aside>
+
+            <main class="papers-container">
+                <div id="loadingState" class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Loading papers...</p>
+                </div>
+
+                <div id="emptyState" class="empty-state" style="display: none;">
+                    <div class="empty-state-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="empty-state-text">No papers found</div>
+                    <div class="empty-state-subtext">Try adjusting your filters</div>
+                </div>
+
+                <div id="papersList"></div>
+
+                <div class="results-header">
+                    <div class="results-count" id="resultsCount"></div>
+                    <button class="load-more" id="loadMore" style="display: none;">Load More</button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Agent Memory Paper List - A curated resource for researchers in AI memory</p>
+                <div class="footer-links">
+                    <a href="https://github.com/tobias-weiss-ai-xr/Agent-Memory-Paper-List" target="_blank">GitHub Repo</a>
+                    <a href="https://github.com/tobias-weiss-ai-xr/Agent-Memory-Paper-List/blob/main/CONTRIBUTING.md" target="_blank">Contribute</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // State management
+            let allPapers = [];
+            let filteredPapers = [];
+            let currentPage = 0;
+            const papersPerPage = 50;
+            let isLoadingMore = false;
+
+            // DOM elements
+            const loadingState = document.getElementById('loadingState');
+            const emptyState = document.getElementById('emptyState');
+            const papersList = document.getElementById('papersList');
+            const resultsCount = document.getElementById('resultsCount');
+            const loadMoreBtn = document.getElementById('loadMore');
+            const searchInput = document.getElementById('searchInput');
+            const yearFilter = document.getElementById('yearFilter');
+            const hasCodeFilter = document.getElementById('hasCodeFilter');
+            const sortFilter = document.getElementById('sortFilter');
+            const clearFiltersBtn = document.getElementById('clearFilters');
+
+            // Category filters
+            const categoryFactual = document.getElementById('categoryFactual');
+            const categoryExperiential = document.getElementById('categoryExperiential');
+            const categoryWorking = document.getElementById('categoryWorking');
+
+            // Subcategory filters
+            const subcategoryToken = document.getElementById('subcategoryToken');
+            const subcategoryParametric = document.getElementById('subcategoryParametric');
+            const subcategoryLatent = document.getElementById('subcategoryLatent');
+
+            // Stats elements
+            const totalPapersEl = document.getElementById('totalPapers');
+            const factualPapersEl = document.getElementById('factualPapers');
+            const experientialPapersEl = document.getElementById('experientialPapers');
+            const workingPapersEl = document.getElementById('workingPapers');
+
+            // Load papers from JSON file
+            async function loadPapers() {
+                try {
+                    const response = await fetch('papers.json');
+                    if (!response.ok) {
+                        throw new Error('Failed to load papers.json');
+                    }
+                    const data = await response.json();
+                    allPapers = data.papers || [];
+                    updateStats();
+                    applyFilters();
+                    loadingState.style.display = 'none';
+                } catch (error) {
+                    loadingState.innerHTML = `
+                        <div class="empty-state-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="empty-state-text">Error loading papers</div>
+                        <div class="empty-state-subtext">${error.message}</div>
+                    `;
+                }
+            }
+
+            // Update statistics
+            function updateStats() {
+                totalPapersEl.textContent = allPapers.length;
+                factualPapersEl.textContent = allPapers.filter(p => p.category === 'factual').length;
+                experientialPapersEl.textContent = allPapers.filter(p => p.category === 'experiential').length;
+                workingPapersEl.textContent = allPapers.filter(p => p.category === 'working').length;
+            }
+
+            // Apply filters
+            function applyFilters() {
+                const searchTerm = searchInput.value.toLowerCase();
+                const selectedYear = yearFilter.value;
+                const showOnlyWithCode = hasCodeFilter.checked;
+                const selectedCategories = [];
+                if (categoryFactual.checked) selectedCategories.push('factual');
+                if (categoryExperiential.checked) selectedCategories.push('experiential');
+                if (categoryWorking.checked) selectedCategories.push('working');
+                
+                const selectedSubcategories = [];
+                if (subcategoryToken.checked) selectedSubcategories.push('token-level');
+                if (subcategoryParametric.checked) selectedSubcategories.push('parametric');
+                if (subcategoryLatent.checked) selectedSubcategories.push('latent');
+
+                filteredPapers = allPapers.filter(paper => {
+                    // Search filter
+                    const searchMatch = !searchTerm || 
+                        paper.title.toLowerCase().includes(searchTerm) ||
+                        (paper.authors && paper.authors.some(author => author.toLowerCase().includes(searchTerm))) ||
+                        paper.abstract.toLowerCase().includes(searchTerm) ||
+                        (paper.tags && paper.tags.some(tag => tag.toLowerCase().includes(searchTerm)));
+
+                    // Category filter
+                    const categoryMatch = selectedCategories.length === 0 || selectedCategories.includes(paper.category);
+
+                    // Subcategory filter
+                    const subcategoryMatch = selectedSubcategories.length === 0 || selectedSubcategories.includes(paper.subcategory);
+
+                    // Year filter
+                    const yearMatch = selectedYear === 'all' || paper.date.startsWith(selectedYear);
+
+                    // Code filter
+                    const codeMatch = !showOnlyWithCode || paper.code_url;
+
+                    return searchMatch && categoryMatch && subcategoryMatch && yearMatch && codeMatch;
+                });
+
+                // Sort papers
+                const sortValue = sortFilter.value;
+                if (sortValue === 'newest') {
+                    filteredPapers.sort((a, b) => b.date.localeCompare(a.date));
+                } else if (sortValue === 'oldest') {
+                    filteredPapers.sort((a, b) => a.date.localeCompare(b.date));
+                } else if (sortValue === 'title') {
+                    filteredPapers.sort((a, b) => a.title.localeCompare(b.title));
+                }
+
+                currentPage = 0;
+                displayPapers();
+            }
+
+            // Display papers
+            function displayPapers() {
+                const start = currentPage * papersPerPage;
+                const end = start + papersPerPage;
+                const papersToShow = filteredPapers.slice(start, end);
+
+                if (start === 0) {
+                    papersList.innerHTML = '';
+                }
+
+                papersToShow.forEach(paper => {
+                    const paperCard = createPaperCard(paper);
+                    papersList.appendChild(paperCard);
+                });
+
+                // Update results count
+                resultsCount.textContent = `Showing ${Math.min(end, filteredPapers.length)} of ${filteredPapers.length} papers`;
+
+                // Show/hide load more button
+                if (end < filteredPapers.length) {
+                    loadMoreBtn.style.display = 'block';
+                } else {
+                    loadMoreBtn.style.display = 'none';
+                }
+
+                // Show empty state if no papers
+                if (filteredPapers.length === 0) {
+                    emptyState.style.display = 'block';
+                    papersList.style.display = 'none';
+                } else {
+                    emptyState.style.display = 'none';
+                    papersList.style.display = 'block';
+                }
+            }
+
+            // Create paper card element
+            function createPaperCard(paper) {
+                const card = document.createElement('div');
+                card.className = 'paper-card';
+
+                // Date badge
+                const dateBadge = document.createElement('div');
+                dateBadge.className = 'paper-date';
+                dateBadge.textContent = paper.date;
+
+                // Title
+                const title = document.createElement('div');
+                title.className = 'paper-title';
+                const titleLink = document.createElement('a');
+                titleLink.href = paper.url;
+                titleLink.target = '_blank';
+                titleLink.textContent = paper.title;
+                title.appendChild(titleLink);
+
+                // Authors
+                const authors = document.createElement('div');
+                authors.className = 'paper-authors';
+                if (paper.authors && paper.authors.length > 0) {
+                    authors.textContent = `by ${paper.authors.join(', ')}`;
+                }
+
+                // Venue
+                const venue = document.createElement('div');
+                venue.className = 'paper-venue';
+                if (paper.venue) {
+                    venue.textContent = paper.venue;
+                }
+
+                // Badges
+                const badges = document.createElement('div');
+                badges.className = 'paper-badges';
+
+                // Category badge
+                const categoryBadge = document.createElement('span');
+                categoryBadge.className = `badge badge-category-${paper.category}`;
+                categoryBadge.textContent = paper.category;
+                badges.appendChild(categoryBadge);
+
+                // Subcategory badge
+                const subcategoryBadge = document.createElement('span');
+                subcategoryBadge.className = `badge badge-subcategory-${paper.subcategory}`;
+                subcategoryBadge.textContent = paper.subcategory;
+                badges.appendChild(subcategoryBadge);
+
+                // Links
+                const links = document.createElement('div');
+                links.className = 'paper-links';
+
+                if (paper.code_url) {
+                    const codeLink = document.createElement('a');
+                    codeLink.className = 'paper-link';
+                    codeLink.href = paper.code_url;
+                    codeLink.target = '_blank';
+                    codeLink.innerHTML = '<i class="fas fa-code"></i> Code';
+                    links.appendChild(codeLink);
+                }
+
+                if (paper.project_url) {
+                    const projectLink = document.createElement('a');
+                    projectLink.className = 'paper-link';
+                    projectLink.href = paper.project_url;
+                    projectLink.target = '_blank';
+                    projectLink.innerHTML = '<i class="fas fa-external-link-alt"></i> Project';
+                    links.appendChild(projectLink);
+                }
+
+                // Abstract
+                const abstract = document.createElement('div');
+                abstract.className = 'paper-abstract';
+                if (paper.abstract) {
+                    const lines = paper.abstract.split('\n');
+                    abstract.textContent = lines[0] + (lines.length > 1 ? ' ' + lines[1] : '');
+                    
+                    if (lines.length > 2) {
+                        const toggle = document.createElement('div');
+                        toggle.className = 'abstract-toggle';
+                        toggle.textContent = 'Show more';
+                        toggle.addEventListener('click', function() {
+                            abstract.classList.toggle('expanded');
+                            toggle.textContent = abstract.classList.contains('expanded') ? 'Show less' : 'Show more';
+                        });
+                        abstract.appendChild(toggle);
+                    }
+                }
+
+                // Assemble card
+                const header = document.createElement('div');
+                header.className = 'paper-header';
+                header.appendChild(dateBadge);
+                header.appendChild(title);
+
+                card.appendChild(header);
+                if (paper.authors && paper.authors.length > 0) card.appendChild(authors);
+                if (paper.venue) card.appendChild(venue);
+                card.appendChild(badges);
+                if (links.children.length > 0) card.appendChild(links);
+                if (paper.abstract) card.appendChild(abstract);
+
+                return card;
+            }
+
+            // Event listeners
+            searchInput.addEventListener('input', debounce(applyFilters, 300));
+            yearFilter.addEventListener('change', applyFilters);
+            hasCodeFilter.addEventListener('change', applyFilters);
+            sortFilter.addEventListener('change', applyFilters);
+            categoryFactual.addEventListener('change', applyFilters);
+            categoryExperiential.addEventListener('change', applyFilters);
+            categoryWorking.addEventListener('change', applyFilters);
+            subcategoryToken.addEventListener('change', applyFilters);
+            subcategoryParametric.addEventListener('change', applyFilters);
+            subcategoryLatent.addEventListener('change', applyFilters);
+            clearFiltersBtn.addEventListener('click', clearFilters);
+            loadMoreBtn.addEventListener('click', loadMore);
+
+            // Clear filters
+            function clearFilters() {
+                searchInput.value = '';
+                yearFilter.value = 'all';
+                hasCodeFilter.checked = false;
+                sortFilter.value = 'newest';
+                categoryFactual.checked = true;
+                categoryExperiential.checked = true;
+                categoryWorking.checked = true;
+                subcategoryToken.checked = true;
+                subcategoryParametric.checked = true;
+                subcategoryLatent.checked = true;
+                applyFilters();
+            }
+
+            // Load more papers
+            function loadMore() {
+                isLoadingMore = true;
+                loadMoreBtn.textContent = 'Loading...';
+                loadMoreBtn.disabled = true;
+                
+                setTimeout(() => {
+                    currentPage++;
+                    displayPapers();
+                    isLoadingMore = false;
+                    loadMoreBtn.textContent = 'Load More';
+                    loadMoreBtn.disabled = false;
+                }, 300);
+            }
+
+            // Debounce function
+            function debounce(func, wait) {
+                let timeout;
+                return function executedFunction(...args) {
+                    const later = () => {
+                        clearTimeout(timeout);
+                        func(...args);
+                    };
+                    clearTimeout(timeout);
+                    timeout = setTimeout(later, wait);
+                };
+            }
+
+            // Load papers on page load
+            loadPapers();
+        });
+    </script>
+</body>
+</html>
