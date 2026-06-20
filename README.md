@@ -7,11 +7,11 @@
 
 [![Survey Paper](https://img.shields.io/badge/Survey-2512.13564-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2512.13564)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-2512.13564-292929.svg?logo=huggingface)](https://huggingface.co/papers/2512.13564)
-[![GitHub](https://img.shields.io/badge/GitHub-tobias--weiss--ai--xr/Agent--Memory--Paper--List-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/Agent-Memory-Paper-List)
-[![Codeberg](https://img.shields.io/badge/Codeberg-graphwiz--ai/Agent--Memory--Paper--List-2185D0.svg?logo=codeberg)](https://codeberg.org/graphwiz-ai/Agent-Memory-Paper-List)
-[![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen.svg?logo=github)](https://tobias-weiss-ai-xr.github.io/Agent-Memory-Paper-List/)
+[![GitHub](https://img.shields.io/badge/GitHub-tobias--weiss--ai--xr/agent--memory--research-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-memory-research)
+[![Codeberg](https://img.shields.io/badge/Codeberg-graphwiz--ai/agent--memory--research-2185D0.svg?logo=codeberg)](https://codeberg.org/graphwiz-ai/agent-memory-research)
+[![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen.svg?logo=github)](https://tobias-weiss-ai-xr.github.io/agent-memory-research/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/Agent-Memory-Paper-List/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/Agent-Memory-Paper-List/actions/workflows/validate.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/agent-memory-research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/agent-memory-research/actions/workflows/validate.yml)
 
 </div>
 
@@ -322,5 +322,5 @@ If you find this repository helpful, please cite the original survey paper:
 
 ## ⭐️ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=tobias-weiss-ai-xr/Agent-Memory-Paper-List&type=date&legend=top-left)](https://www.star-history.com/#Shichun-Liu/Agent-Memory-Paper-List&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=tobias-weiss-ai-xr/agent-memory-research&type=date&legend=top-left)](https://www.star-history.com/#Shichun-Liu/Agent-Memory-Paper-List&type=date&legend=top-left)
 
