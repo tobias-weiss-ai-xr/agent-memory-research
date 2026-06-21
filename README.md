@@ -5,8 +5,10 @@
 
 <div align="center">
 
-[![Survey Paper](https://img.shields.io/badge/Survey-2512.13564-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2512.13564)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-2512.13564-292929.svg?logo=huggingface)](https://huggingface.co/papers/2512.13564)
+[![Survey Paper (Original)](https://img.shields.io/badge/Survey_%28Original%29-2512.13564-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2512.13564)
+[![Hugging Face (Original)](https://img.shields.io/badge/HF_%28Original%29-2512.13564-292929.svg?logo=huggingface)](https://huggingface.co/papers/2512.13564)
+[![Survey Paper (Extended)](https://img.shields.io/badge/Survey_%28Extended%29-10.5281%2Fzenodo.20780690-004D40.svg?logo=zenodo)](https://doi.org/10.5281/zenodo.20780690)
+[![Dataset](https://img.shields.io/badge/Dataset-10.5281%2Fzenodo.20780696-004D40.svg?logo=zenodo)](https://doi.org/10.5281/zenodo.20780696)
 [![GitHub](https://img.shields.io/badge/GitHub-tobias--weiss--ai--xr/agent--memory--research-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-memory-research)
 [![Codeberg](https://img.shields.io/badge/Codeberg-graphwiz--ai/agent--memory--research-2185D0.svg?logo=codeberg)](https://codeberg.org/graphwiz-ai/agent-memory-research)
 [![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen.svg?logo=github)](https://tobias-weiss-ai-xr.github.io/agent-memory-research/)
@@ -32,6 +34,7 @@ This fork adds:
 - **Contributor guardrails**: CONTRIBUTING.md, issue/PR templates, URL normalization rules
 
 ## 📢 News
+- [2026/06] 📄 **Extended survey released!** See [Agent Memory Research in 2026: A Data-Driven Survey and Extended Taxonomy](paper/main.pdf) — 19 pages, 220 papers, expanded 6-dimension taxonomy
 - [2026/06] 🔧 Refactored to data-driven architecture: `papers.yaml` → `generate_readme.py` → `README.md`
 - [2026/06] 🤖 Added automation: paper validator, metadata fetcher, new paper discovery
 - [2026/06] 🌐 Added GitHub Pages site with filtering by category, date, and keyword search

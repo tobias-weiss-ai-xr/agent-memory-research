@@ -6,7 +6,8 @@ authors:
     given-names: "Tobias"
     orcid: "https://orcid.org/0009-0007-1417-8044"
     affiliation: "graphwiz.ai"
-doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.20780709
+concept-doi: 10.5281/zenodo.20780690
 date-released: 2026-06-21
 url: "https://github.com/tobias-weiss-ai-xr/agent-memory-research"
 repository-code: "https://github.com/tobias-weiss-ai-xr/agent-memory-research"
