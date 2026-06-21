@@ -1,0 +1,68 @@
+\section{The 2026 Landscape: Emerging Themes and Key Systems}
+\label{sec:landscape}
+
+Since the publication of the original survey by Liu et al.~\cite{Unknown2025MemoryAgeAIAgents}, the field of agent memory has experienced remarkable growth. Between January and June 2026 alone, 21 new papers have been added to our dataset, bringing the total to 220 curated entries. These new contributions extend the boundaries of the original taxonomy and reveal several emergent themes that merit detailed analysis.
+
+\subsection{Themes in the 2026 Literature}
+
+The 21 new papers cluster around seven distinct themes. Many papers span multiple themes, reflecting the increasing maturity and cross-pollination of the field.
+
+\textbf{Temporal Dynamics.} Four papers explicitly model the temporal dimension of memory. Zep~\cite{Unknown2025Zep} introduces a temporal knowledge graph architecture, FadeMem~\cite{Unknown2026FadeMem} proposes biologically-inspired forgetting curves, Engram~\cite{Unknown2026Engram} employs bi-temporal modeling with valid-time and transaction-time dimensions, and SCM~\cite{Unknown2026SCM} implements sleep-consolidated memory with NREM/REM-like cycles.
+
+\textbf{Multimodality.} Fourteen papers incorporate multimodal signals. MemVerse~\cite{Unknown2025MemVerse} and WorldMM~\cite{Unknown2025WorldMM} extend memory to video understanding, while TeleMem~\cite{Unknown2026TeleMem} builds long-term multimodal memory for agentic AI. VisMem~\cite{Unknown2025VisMem} introduces latent vision memory for vision-language models, and MemoryVLA~\cite{Unknown2025MemoryVLA} integrates perceptual-cognitive memory into robotic manipulation.
+
+\textbf{Graph and Structured Representations.} Six papers leverage graph-based memory. MAGMA~\cite{Unknown2026MAGMA} proposes multi-graph architectures, Zep~\cite{Unknown2025Zep} uses temporal knowledge graphs, MRAgent~\cite{Unknown2026MRAgent} introduces reconstruction-based graph memory, and Engram~\cite{Unknown2026Engram} combines bi-temporal graphs with dual-process retrieval.
+
+\textbf{Biologically and Neurocognitively Inspired Design.} Fourteen papers draw inspiration from cognitive science. CraniMem~\cite{Unknown2026CraniMem} implements neurocognitive gating with a bounded episodic buffer and knowledge graph. SCM~\cite{Unknown2026SCM} models sleep consolidation cycles. FadeMem~\cite{Unknown2026FadeMem} uses biological forgetting curves. The Human-Inspired Memory Architecture~\cite{Unknown2026HumanInspiredMemoryA} explicitly maps cognitive processes to system components.
+
+\textbf{Lifelong and Continual Learning.} Eighteen papers address persistent, self-evolving memory. All-Mem~\cite{Unknown2026AllMem} introduces lifelong topology evolution inspired by continual learning. MemRL~\cite{Unknown2026MemRL} applies runtime reinforcement learning on episodic memory. Continuum Memory~\cite{Unknown2026ContinuumMemoryArchi} proposes architectures for unbounded horizon agents.
+
+\textbf{Benchmarking and Evaluation.} Four new benchmarks have been introduced: LongMemEval-V2~\cite{Unknown2026LongMemEvalV2} extends the original benchmark to web agent scenarios, while MemBench~\cite{Tan2025MemBench}, MemoryAgentBench~\cite{Unknown2025MemoryAgentBench}, and LongMemEval~\cite{Wu2024LongMemEval} each address different facets of memory evaluation.
+
+\textbf{Retrieval Fusion.} Three papers explore multi-signal retrieval. Mem0~\cite{Unknown2025Mem0} combines semantic, BM25, and entity matching in a unified retrieval pipeline. MRAgent~\cite{Unknown2026MRAgent} reconstructs memory rather than retrieving it directly. Engram~\cite{Unknown2026Engram} fuses graph traversal with semantic search.
+
+\subsection{Key Systems in Detail}
+
+We now examine eight representative systems that illustrate the architectural diversity and innovation in the 2026 landscape. Table~\ref{tab:landscape_comparison} provides a systematic comparison.
+
+\begin{table}[t]
+\centering
+\caption{Comparison of key 2026 agent memory systems.}
+\label{tab:landscape_comparison}
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Paper} & \textbf{Architecture} & \textbf{Memory Ops} & \textbf{Retrieval Strategy} & \textbf{Key Innovation} \\
+\midrule
+Mem0~\cite{Unknown2025Mem0} & Token-level, ADD-only & Create, Read, Update & Multi-signal (semantic, BM25, entity) & Single-pass token-efficient algorithm, 92.5 LoCoMo \\
+FluxMem~\cite{Unknown2026FluxMem} & Adaptive token-level & Gated write, selective read & Beta Mixture Model probabilistic gate & Adaptive memory structure selection per query \\
+SCM~\cite{Unknown2026SCM} & Latent consolidation & NREM/REM cycles, 4D tagging & Importance-weighted retrieval & Algorithmic forgetting with sleep-inspired consolidation \\
+Engram~\cite{Unknown2026Engram} & Bi-temporal KG & Dual-process write & Graph traversal + semantic search & Temporal KG with valid/transaction time \\
+All-Mem~\cite{Unknown2026AllMem} & Topology-evolving latent & Dynamic node add/merge & Graph-based propagation & Lifelong topology evolution \\
+CraniMem~\cite{Unknown2026CraniMem} & Neurocognitive gating & Bounded write, structured retrieval & Gated episodic + KG query & Bounded episodic buffer with cranial gating \\
+UMA~\cite{Unknown2026LearningtoRemember} & Parametric RL & CRUD via RL policy & End-to-end learned retrieval & End-to-end RL for memory operations \\
+MemRefine~\cite{Kim2026MemRefine} & Token-level with budget & LLM-judged compression & Budget-constrained retrieval & Storage-budgeted LLM-guided compression \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Mem0~\cite{Unknown2025Mem0}} introduces a token-efficient algorithm achieving 92.5 on the LoCoMo benchmark while consuming approximately 7K tokens per retrieval. Its single-pass ADD-only architecture avoids the computational overhead of iterative memory consolidation, and its multi-signal retrieval pipeline combines semantic similarity, BM25 keyword matching, and entity recognition for robust recall.
+
+\textbf{FluxMem~\cite{Unknown2026FluxMem}} addresses a fundamental question: how should an agent decide what to remember? It employs a Beta Mixture Model as a probabilistic gate that dynamically selects between multiple memory structures based on query characteristics, enabling adaptive memory management without manual tuning.
+
+\textbf{SCM~\cite{Unknown2026SCM}} (Sleep-Consolidated Memory) draws inspiration from neuroscience, implementing NREM (slow-wave) and REM (rapid eye movement) consolidation cycles. During NREM phases, important memories are strengthened through replay; during REM phases, weak or irrelevant memories are pruned. A 4-dimensional importance tagging system (recency, frequency, relevance, emotional salience) guides this process.
+
+\textbf{Engram~\cite{Unknown2026Engram}} introduces a bi-temporal knowledge graph engine that maintains both valid time (when a fact is true in the world) and transaction time (when the fact was stored). This dual-process architecture enables agents to reason about temporal relationships and handle conflicting information across time windows.
+
+\textbf{All-Mem~\cite{Unknown2026AllMem}} treats memory as a dynamically evolving topology rather than a static store. Inspired by continual learning, it supports adding new memory nodes and merging redundant ones as the agent accumulates experience, maintaining a compact yet expressive representation.
+
+\textbf{CraniMem~\cite{Unknown2026CraniMem}} implements a neurocognitive gating mechanism inspired by the brain's prefrontal cortex. A bounded episodic buffer stores recent experiences, while long-term knowledge is maintained in a knowledge graph. The gating mechanism determines which information flows between these stores, preventing catastrophic interference.
+
+\textbf{UMA~\cite{Unknown2026LearningtoRemember}} (Learning to Remember) takes a radically different approach: it treats memory operations (create, read, update, delete) as actions in a reinforcement learning framework. The agent learns a CRUD policy through end-to-end RL, evaluated on the Ledger-QA benchmark. This represents the first fully learned memory management policy.
+
+\textbf{MemRefine~\cite{Kim2026MemRefine}} addresses the practical challenge of storage-bounded memory management. It uses an LLM judge to evaluate the importance of memories and selectively compresses or discards low-value entries, maintaining high performance under strict token budgets.
+
+\subsection{Distribution Across the Extended Taxonomy}
+
+The new papers populate the extended taxonomy unevenly. Factual/token-level remains the most active cell with 90 papers, reflecting the continued dominance of retrieval-augmented approaches. The most significant growth is in working/latent (26 papers, up from approximately 20), driven by the explosion of KV cache compression and continuous memory techniques. The three sparsest cells remain experiential/latent (3 papers, up from 1) and working/parametric (3 papers, up from 2), indicating persistent research gaps.
+

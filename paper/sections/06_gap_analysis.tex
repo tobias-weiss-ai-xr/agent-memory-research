@@ -1,0 +1,46 @@
+\section{Gap Analysis and Research Roadmap}
+\label{sec:gap-analysis}
+
+The extended taxonomy reveals several persistent research gaps that are invisible in the original $3\times 3 \times 3$ formulation. We identify three categories of gaps---sparse taxonomy cells, missing evaluation infrastructure, and open problems---and propose a concrete research roadmap.
+
+\subsection{Sparse Taxonomy Cells}
+
+Three cells remain critically underpopulated despite the addition of 21 new papers.
+
+\textbf{Experiential/Latent (3 papers).} Only SCM~\cite{Unknown2026SCM}, Memory as Action~\cite{Unknown2025MemoryasAction}, and All-Mem~\cite{Unknown2026AllMem} operate in this cell. Latent representations of subjective experience---memories encoded as continuous hidden states that capture the agent's own history---remain a difficult open challenge. The difficulty is twofold: latent representations lack the interpretability of token-level storage, and the absence of an explicit symbolic structure makes targeted retrieval of specific experiences nearly impossible.
+
+\textbf{Working/Parametric (3 papers).} Only Agentic Memory~\cite{Unknown2026AgenticMemory}, UMA~\cite{Unknown2026LearningtoRemember}, and MemRefine~\cite{Kim2026MemRefine} address parametric mechanisms for working memory management. Most working memory systems rely on token-level compression or latent-state manipulation, and the idea of fine-tuning or adapting model weights at runtime for context management remains largely unexplored.
+
+\textbf{Experiential/Parametric (8 papers).} This cell contains ExpeL~\cite{Unknown2023ExpeL}, Reflexion~\cite{Unknown2023Reflexion}, and a few others, but the low count relative to Factual/Token-level (90 papers) and Factual/Latent (30 papers) is striking. The field appears to privilege factual knowledge storage over experiential learning via weight updates, possibly reflecting the computational cost and stability risks of parametric updates during deployment.
+
+\subsection{Missing Evaluation Infrastructure}
+
+Our analysis reveals significant gaps in how agent memory is evaluated, which we detail in Section~\ref{sec:benchmarks}. The overarching problem is fragmentation: 18 benchmark-focused papers in our dataset describe 14 distinct evaluation protocols, none of which spans more than three of the 27 taxonomy cells.
+
+Beyond fragmentation, three specific gaps stand out. First, no existing benchmark explicitly evaluates temporal reasoning---queries such as ``What did the agent know at time T?'' or ``How has the agent's understanding of topic X evolved?'' are absent. Second, multimodal memory evaluation is limited to bespoke task-specific protocols with no standardized dataset or metric. Third, there is no evaluation framework for multi-agent memory sharing, an increasingly important capability for team-based agent deployments.
+
+\subsection{Six Open Problems}
+
+We identify six open problems that define a concrete research agenda for the field.
+
+\textbf{Problem 1: The Memory--Reasoning Trade-off.} Every memory system consumes resources---tokens, latency, storage---that could otherwise be used for reasoning. The optimal allocation between remembering and reasoning depends on task, domain, and deployment constraints. We lack a formal framework for characterizing this trade-off or for designing systems that dynamically balance it.
+
+\textbf{Problem 2: Compositional Memory.} Most systems store and retrieve atomic units---a user preference, a past observation, a conversation turn. Real-world knowledge is compositional: a cooking agent remembers not just individual recipes but the relationship between ingredients, substitutions, and techniques. Compositional memory that supports inference over stored content remains largely unsolved.
+
+\textbf{Problem 3: Long-Horizon Stability.} Existing systems are typically evaluated over dozens to hundreds of interaction turns. Real-world agent deployments may span millions of turns over months or years. How do memory systems behave under such sustained operation? Do retrieval precision, storage efficiency, and response quality degrade over time? No published study addresses this question.
+
+\textbf{Problem 4: Privacy and Forgetting.} The right to be forgotten is a legal requirement in many jurisdictions. Only a handful of papers discuss memory deletion~\cite{Unknown2024FromIsolatedConversa,Unknown2025UnveilingPrivacyRisk}, and none propose a principled framework for selective forgetting that balances privacy with utility.
+
+\textbf{Problem 5: Multi-Agent Memory.} When multiple agents share a memory system---whether collaborating on a task or serving different users---how should conflicts be resolved, access controlled, and shared knowledge maintained? Memory sharing~\cite{Unknown2024MemorySharingforLarg,Unknown2025Mem2Ego} and multi-agent memory are in their infancy.
+
+\textbf{Problem 6: Cross-Modality Transfer.} Can a memory that was formed in one modality (e.g., reading a text) be useful in another (e.g., recognizing a scene)? Early work on multimodal memory~\cite{Unknown2025VisMem,Unknown2026TeleMem} hints at positive transfer, but the conditions under which cross-modal transfer occurs are not understood.
+
+\subsection{Research Roadmap}
+
+Based on the above analysis, we propose a research roadmap organized into three horizons.
+
+\textbf{Short-term (0--12 months).} Priority should be given to developing a unified benchmark suite that spans all 27 taxonomy cells. Key design requirements include (a) separate evaluation of temporal, multimodal, and multi-agent capabilities, (b) controlled isolation of memory-specific from reasoning-specific variance, and (c) support for long-horizon evaluation over at least $10^4$ interaction turns. Concurrently, we recommend that researchers in sparse cells---particularly Experiential/Latent and Working/Parametric---conduct ablation studies using the extended taxonomy dimensions to identify which design choices drive performance gains.
+
+\textbf{Medium-term (12--24 months).} The field should invest in two complementary directions: (1) compositional memory architectures that support inference over stored content, potentially leveraging the graph-structured representations emerging in systems like MAGMA~\cite{Unknown2026MAGMA} and Engram~\cite{Unknown2026Engram}, and (2) formal models of the memory--reasoning trade-off, informed by information theory or resource-rational analysis, that can guide architectural decisions without exhaustive empirical search.
+
+\textbf{Long-term (24--48 months).} We envision three transformative goals: (a) memory systems that operate continuously over multi-year deployments with bounded storage and stable retrieval quality, (b) legally compliant selective forgetting with formal privacy guarantees, and (c) cross-modal memory architectures that transfer knowledge between text, vision, audio, and embodied experience as fluidly as human episodic memory.

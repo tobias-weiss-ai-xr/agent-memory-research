@@ -1,0 +1,100 @@
+This is BibTeX, Version 0.99d (TeX Live 2026/dev/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Warning--empty journal in Kim2026MemRefine
+Warning--empty journal in DBLP:journals/corr/abs-2512-13564
+Warning--empty journal in Unknown2025MemoryAgeAIAgents
+Warning--empty journal in Unknown2013ELLA
+Warning--empty journal in Unknown2021EditingFactualKnowle
+Warning--empty journal in Unknown2022MemorizingTransforme
+Warning--empty journal in Unknown2022XMem
+Warning--empty journal in Unknown2023ExpeL
+Warning--empty journal in Unknown2023Generativeagents
+Warning--empty journal in Unknown2023MemGPT
+Warning--empty journal in Unknown2023Reflexion
+Warning--empty journal in Unknown2024AgentWorkflowMemory
+Warning--empty journal in Unknown2024FromIsolatedConversa
+Warning--empty journal in Unknown2024HippoRAG
+Warning--empty journal in Unknown2024MemorySharingforLarg
+Warning--empty journal in Unknown2024SelfUpdatableLargeLa
+Warning--empty journal in Unknown2025AgentEvolver
+Warning--empty journal in Unknown2025EmbodiedVideoAgent
+Warning--empty journal in Unknown2025M
+Warning--empty journal in Unknown2025MEM1
+Warning--empty journal in Unknown2025Mem0
+Warning--empty journal in Unknown2025Mem2Ego
+Warning--empty journal in Unknown2025MemEvolve
+Warning--empty journal in Unknown2025MemVerse
+Warning--empty journal in Unknown2025Memento
+Warning--empty journal in Unknown2025MemoryAgentBench
+Warning--empty journal in Unknown2025MemoryVLA
+Warning--empty journal in Unknown2025MemoryasAction
+Warning--empty journal in Unknown2025SGMem
+Warning--empty journal in Unknown2025Sculptor
+Warning--empty journal in Unknown2025SeeingListeningRemem
+Warning--empty journal in Unknown2025TimeVLM
+Warning--empty journal in Unknown2025Titans
+Warning--empty journal in Unknown2025UnveilingPrivacyRisk
+Warning--empty journal in Unknown2025VisMem
+Warning--empty journal in Unknown2025WorldMM
+Warning--empty journal in Unknown2025Zep
+Warning--empty journal in Unknown2026AgenticMemory
+Warning--empty journal in Unknown2026AllMem
+Warning--empty journal in Unknown2026ContinuumMemoryArchi
+Warning--empty journal in Unknown2026CraniMem
+Warning--empty journal in Unknown2026Engram
+Warning--empty journal in Unknown2026FadeMem
+Warning--empty journal in Unknown2026FluxMem
+Warning--empty journal in Unknown2026HumanInspiredMemoryA
+Warning--empty journal in Unknown2026LearningtoRemember
+Warning--empty journal in Unknown2026LongMemEvalV2
+Warning--empty journal in Unknown2026MAGMA
+Warning--empty journal in Unknown2026MRAgent
+Warning--empty journal in Unknown2026MemRL
+Warning--empty journal in Unknown2026SCM
+Warning--empty journal in Unknown2026TeleMem
+Warning--empty journal in Wu2024LongMemEval
+You've used 54 entries,
+            2773 wiz_defined-function locations,
+            868 strings with 14087 characters,
+and the built_in function-call counts, 18751 in all, are:
+= -- 1736
+> -- 739
+< -- 49
++ -- 322
+- -- 225
+* -- 1279
+:= -- 3067
+add.period$ -- 266
+call.type$ -- 54
+change.case$ -- 237
+chr.to.int$ -- 11
+cite$ -- 161
+duplicate$ -- 1031
+empty$ -- 1626
+format.name$ -- 279
+if$ -- 3817
+int.to.chr$ -- 44
+int.to.str$ -- 1
+missing$ -- 54
+newline$ -- 382
+num.names$ -- 216
+pop$ -- 525
+preamble$ -- 1
+purify$ -- 183
+quote$ -- 0
+skip$ -- 669
+stack$ -- 0
+substring$ -- 108
+swap$ -- 50
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 594
+warning$ -- 53
+while$ -- 162
+width$ -- 0
+write$ -- 810
+(There were 53 warnings)

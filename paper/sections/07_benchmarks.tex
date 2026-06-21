@@ -1,0 +1,58 @@
+\section{Benchmark Survey and Comparison}
+\label{sec:benchmarks}
+
+The rapid growth of agent memory research has been accompanied by a corresponding proliferation of evaluation benchmarks. Our dataset includes 18 benchmark-focused papers proposing 14 distinct evaluation protocols. We survey the major benchmarks, identify their coverage gaps, and propose design requirements for a unified evaluation framework.
+
+\subsection{Major Benchmarks}
+
+\textbf{LongMemEval~\cite{Wu2024LongMemEval}.} The first dedicated benchmark for long-term interactive memory in chat assistants, evaluating 500 question--answer pairs across five categories: personal information, interest, event, interaction, and conversation history. It operates exclusively in the Factual/Token-level cell, measuring how accurately an agent can recall user-specific facts after conversation turns. Its successor, LongMemEval-V2~\cite{Unknown2026LongMemEvalV2}, extends coverage to experiential memory by evaluating web agents that must remember task outcomes and environmental observations. However, it remains text-only and does not test temporal reasoning.
+
+\textbf{MemBench~\cite{Tan2025MemBench}.} Proposes comprehensive evaluation across multiple memory dimensions---factual accuracy, temporal consistency, personalization, and instruction following. It introduces multi-turn interaction sessions with controlled information injection, enabling measurement of both memory precision and memory-induced behavioral change. MemBench spans the Factual and Working function cells but does not cover Experiential memory, limiting its coverage to 11 of 27 taxonomy cells.
+
+\textbf{MemoryAgentBench~\cite{Unknown2025MemoryAgentBench}.} Addresses a critical confound in memory evaluation: separating memory-specific capabilities from the agent's general reasoning ability. It uses incremental multi-turn interactions where each turn introduces controlled new information, and isolates memory performance by comparing agent responses with and without the memory system. This design yields a purer measure of memory system contribution than end-to-end task completion metrics.
+
+\textbf{LoCoMo (Long Context Memory).} The LoCoMo benchmark evaluates long-context conversational memory through a curated set of multi-turn dialogues with information density controlled across turns. It has been adopted by several systems including Mem0~\cite{Unknown2025Mem0} (92.5 score) and Memento~\cite{Unknown2025Memento}, making it the most commonly reported benchmark across token-level factual memory systems. Its limitation is narrow scope: it evaluates only Factual/Token-level memory with no temporal, multimodal, or experiential dimensions.
+
+\textbf{Ledger-QA.} A question-answering benchmark designed for episodic memory evaluation. It tests whether an agent can recall specific past episodes (``What did the user say about X in session Y?'') and reason across episodes (``How did the user's preference for Z change over time?''). UMA~\cite{Unknown2026LearningtoRemember} uses Ledger-QA to evaluate its RL-based memory policy, and it remains one of the few benchmarks that touches the Experiential function cell.
+
+\subsection{Coverage Analysis}
+
+Table~\ref{tab:benchmark_coverage} maps each benchmark to the taxonomy cells it evaluates.\footnote{Full mapping with per-cell question counts available in Appendix~\ref{app:benchmark-comparison}.}
+
+\begin{table}[t]
+\centering
+\caption{Benchmark coverage of taxonomy cells. ``P'' indicates primary coverage, ``S'' secondary coverage.}
+\label{tab:benchmark_coverage}
+\small
+\begin{tabular}{lccccccccc}
+\toprule
+\multirow{2}{*}{\textbf{Benchmark}} & \multicolumn{3}{c}{\textbf{Factual}} & \multicolumn{3}{c}{\textbf{Experiential}} & \multicolumn{3}{c}{\textbf{Working}} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10}
+ & T & P & L & T & P & L & T & P & L \\
+\midrule
+LongMemEval & P & -- & -- & -- & -- & -- & -- & -- & -- \\
+LongMemEval-V2 & P & -- & -- & S & -- & -- & -- & -- & -- \\
+MemBench & P & -- & S & -- & -- & -- & P & -- & -- \\
+MemoryAgentBench & P & S & -- & S & -- & -- & -- & -- & -- \\
+LoCoMo & P & -- & -- & -- & -- & -- & -- & -- & -- \\
+Ledger-QA & -- & -- & -- & P & -- & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The coverage analysis reveals three patterns. First, Factual/Token-level is the most evaluated cell (6 benchmarks), consistent with it being the most populated cell in the taxonomy. Second, no benchmark covers Experiential/Parametric, Experiential/Latent, Working/Parametric, or Working/Latent---precisely the cells we identified as sparse in Section~\ref{sec:gap-analysis}. Third, no benchmark evaluates temporal dynamics, multimodal capabilities, or biological realism, confirming that the three new dimensions we propose in Section~\ref{sec:taxonomy} have no corresponding evaluation infrastructure.
+
+\subsection{Design Requirements for Unified Evaluation}
+
+Based on the gaps identified above, we propose the following design requirements for a unified agent memory benchmark:
+
+\begin{enumerate}
+  \item \textbf{Full taxonomy coverage.} The benchmark must generate evaluation questions for each of the 27 taxonomy cells, with question counts proportional to the relative importance of each cell (as determined by community agreement, not dataset size).
+  \item \textbf{Temporal reasoning.} The benchmark must include questions that require temporal reasoning---decay-aware queries, bi-temporal point-in-time queries, and trend detection---to evaluate the Temporal Dynamics dimension.
+  \item \textbf{Multimodal evaluation.} The benchmark must include vision, audio, and text modalities, with both within-modality and cross-modality retrieval tasks.
+  \item \textbf{Biological inspiration assessment.} The benchmark must include metrics that distinguish between systems using cognitive metaphors, neuro-inspired mechanisms, and brain-architecture fidelity, enabling evaluation of the Biological Inspiration dimension.
+  \item \textbf{Long-horizon evaluation.} The benchmark must support evaluation over at least $10^4$ interaction turns with controlled information injection, novelty decay, and information overlap to simulate real-world deployment conditions.
+  \item \textbf{Memory-specific isolation.} Following MemoryAgentBench~\cite{Unknown2025MemoryAgentBench}, the benchmark must control for the agent's reasoning ability by comparing performance with and without the memory system under test.
+\end{enumerate}
+
+We release a preliminary specification for such a benchmark in the project repository and invite community contributions to its development.

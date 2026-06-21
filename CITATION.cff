@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Agent Memory Research in 2026: A Data-Driven Survey and Extended Taxonomy"
+authors:
+  - family-names: "Weiß"
+    given-names: "Tobias"
+    orcid: "https://orcid.org/0009-0007-1417-8044"
+    affiliation: "graphwiz.ai"
+doi: 10.5281/zenodo.XXXXXXX
+date-released: 2026-06-21
+url: "https://github.com/tobias-weiss-ai-xr/agent-memory-research"
+repository-code: "https://github.com/tobias-weiss-ai-xr/agent-memory-research"
+keywords:
+  - "agent memory"
+  - "large language models"
+  - "LLM agents"
+  - "survey"
+  - "taxonomy"
+license: MIT
+type: article

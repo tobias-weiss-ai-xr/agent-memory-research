@@ -1,0 +1,32 @@
+\section{Background: The Original Taxonomy}
+\label{sec:background}
+
+\citet{DBLP:journals/corr/abs-2512-13564} defined agent memory as a system that records, retains, and retrieves information distinct from the short-term context window and from retrieval-augmented generation (RAG). They organized the design space into three orthogonal axes, each with three subtypes, yielding 27 taxonomy cells.
+
+\subsection{Forms: What Carries Memory}
+
+\textbf{Token-level memory} stores information as discrete, interpretable tokens in external data structures. It is further divided into Flat (unordered key--value stores), Planar (list- or table-based), and Hierarchical (tree- or graph-based) organizations. Token-level memory is the most common paradigm, used in systems such as MemGPT~\cite{Unknown2023MemGPT}, Generative Agents~\cite{Unknown2023Generativeagents}, and MEM1~\cite{Unknown2025MEM1}.
+
+\textbf{Parametric memory} encodes information directly into model weights through training, fine-tuning, or editing. Subtypes include Internal (weights updated via gradient-based methods) and External (adapter modules, hypernetworks). Examples span knowledge editing~\cite{Unknown2021EditingFactualKnowle}, adapter-based lifelong learning~\cite{Unknown2013ELLA}, and self-updatable models~\cite{Unknown2024SelfUpdatableLargeLa}.
+
+\textbf{Latent memory} operates in the hidden state space of neural networks. Subtypes include Generate (compressing context into a single hidden vector), Reuse (attending to past hidden states as in the Memorizing Transformer~\cite{Unknown2022MemorizingTransforme}), and Transform (continuous-space memory updates as in Titans~\cite{Unknown2025Titans} and M+~\cite{Unknown2025M}).
+
+\subsection{Functions: Why Agents Need Memory}
+
+\textbf{Factual memory} stores objective knowledge about the user and environment, including user profiles, world knowledge, and domain facts. Subtypes are User (personalization) and Environment (world knowledge). Papers in this category include Mem0~\cite{Unknown2025Mem0} and Zep~\cite{Unknown2025Zep}.
+
+\textbf{Experiential memory} captures subjective experiences, insights, and skills acquired through interaction. Subtypes include Case (episode-specific), Strategy (plan-level), Skill (procedure-level), and Hybrid combinations. Representative works include ExpeL~\cite{Unknown2023ExpeL}, Reflexion~\cite{Unknown2023Reflexion}, and Agent Workflow Memory~\cite{Unknown2024AgentWorkflowMemory}.
+
+\textbf{Working memory} manages the agent's active context---what information to retain, compress, or discard during a task. Subtypes include Single-turn (within a single interaction) and Multi-turn (across interactions). Examples include Memory as Action~\cite{Unknown2025MemoryasAction}, Sculptor~\cite{Unknown2025Sculptor}, and Agentic Memory~\cite{Unknown2026AgenticMemory}.
+
+\subsection{Dynamics: How Memory Evolves}
+
+\textbf{Formation} concerns how raw experience is transformed into structured memory entries. Subtypes include Summarization, Distillation, Structured extraction, Latent encoding, and Parametric integration.
+
+\textbf{Evolution} governs how stored memory changes over time. It encompasses Consolidation (merging and abstracting), Updating (modifying specific entries), and Forgetting (removing or decaying entries).
+
+\textbf{Retrieval} defines how relevant memory is accessed at inference time. It includes Retrieval mechanisms (exact, semantic, hybrid) and Query Construction (how queries are formed from the current context).
+
+\subsection{Scope and Limitations}
+
+The original survey covered roughly 200 papers up to January 2026. It identified several promising future directions: automation of memory management, integration with reinforcement learning, extension to multimodal settings, multi-agent memory sharing, and trustworthiness (privacy, bias, adversarial robustness). As we show in the following sections, the first half of 2026 has seen substantial progress along precisely these axes, motivating an extension to the taxonomy itself.
