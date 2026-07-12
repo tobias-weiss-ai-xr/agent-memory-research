@@ -2436,3 +2436,212 @@ papers:
   project_url: ''
   abstract: ''
   tags: []
+- title: 'GAM: Hierarchical Graph-based Agentic Memory for LLM Agents'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.12285
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ACL 2026
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'MemoBrain: Executive Memory as an Agentic Brain for Reasoning'
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.08079
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: ACL 2026 Findings
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Learning How to Remember: A Meta-Cognitive Management Method for Structured and Transferable Agent Memory'
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.07470
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ACL 2026 Findings
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.08224
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.22085
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.21649
+  category: factual
+  subcategory: latent
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'RaMem: Contextual Reinstatement for Long-term Agentic Memory'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.22844
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: https://github.com/weiyang930/RaMem-Release.git
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'MemProbe: Probing Long-Term Agent Memory via Hidden User-State Recovery'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.24595
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: https://github.com/sora1998/MemProbe
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Are We Ready For An Agent-Native Memory System?'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.24775
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'SelfMem: Self-Optimizing Memory for AI Agents'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.03726
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.08716
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'ElasticMem: Latent Memory as a Learnable Resource for LLM Agents'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.30690
+  category: factual
+  subcategory: latent
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Rosetta Memory: Adaptive Memory for Cross-LLM Agents'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.07711
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents'
+  date: 2026-02
+  url: https://arxiv.org/abs/2602.01869
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'BudgetMem: Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory'
+  date: 2026-02
+  url: https://arxiv.org/abs/2602.06025
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: https://github.com/ViktorAxelsen/BudgetMem
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'UMEM: Unified Memory Extraction and Management Framework for Generalizable Memory'
+  date: 2026-02
+  url: https://arxiv.org/abs/2602.10652
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Neural Paging: Learning Context Management Policies for Turing-Complete Agents'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.02228
+  category: working
+  subcategory: latent
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'EMPO2: Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization'
+  date: 2026-02
+  url: https://arxiv.org/abs/2602.23008
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Joint Agent Memory and Exploration Learning via Novelty Signals'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.01528
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []

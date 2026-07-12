@@ -75,7 +75,13 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 #### Token-level
 
 - [2026/06] Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory. [[paper](https://arxiv.org/abs/2606.10677)]
+- [2026/06] RaMem: Contextual Reinstatement for Long-term Agentic Memory. [[paper](https://arxiv.org/abs/2606.22844)] [[code](https://github.com/weiyang930/RaMem-Release.git)]
+- [2026/06] MemProbe: Probing Long-Term Agent Memory via Hidden User-State Recovery. [[paper](https://arxiv.org/abs/2606.24595)] [[code](https://github.com/sora1998/MemProbe)]
+- [2026/06] Are We Ready For An Agent-Native Memory System?. [[paper](https://arxiv.org/abs/2606.24775)]
+- [2026/06] Rosetta Memory: Adaptive Memory for Cross-LLM Agents. [[paper](https://arxiv.org/abs/2606.07711)]
 - [2026/04] Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework. [[paper](https://arxiv.org/abs/2604.01707)]
+- [2026/04] Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering. [[paper](https://arxiv.org/abs/2604.08224)]
+- [2026/04] Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents. [[paper](https://arxiv.org/abs/2604.22085)]
 - [2026/03] Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers. [[paper](https://arxiv.org/abs/2603.07670)]
 - [2026/01] Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning. [[paper](https://arxiv.org/abs/2601.04726)]
 - [2026/01] MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents. [[paper](https://arxiv.org/abs/2601.03236)]
@@ -187,6 +193,8 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 #### Latent
 
 - [2026/06] MRAgent: Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents. [[paper](https://arxiv.org/abs/2606.06036)] [[code](https://github.com/Ji-shuo/MRAgent)]
+- [2026/06] EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory. [[paper](https://arxiv.org/abs/2606.21649)]
+- [2026/05] ElasticMem: Latent Memory as a Learnable Resource for LLM Agents. [[paper](https://arxiv.org/abs/2605.30690)]
 - [2025/09] Similarity-Distance-Magnitude Activations. [[paper](https://arxiv.org/abs/2509.12760)]
 - [2025/08] Towards General Continuous Memory for Vision-Language Models. [[paper](https://arxiv.org/abs/2505.17670)]
 - [2025/03] M+: Extending MemoryLLM with Scalable Long-Term Memory. [[paper](https://arxiv.org/abs/2502.00592)]
@@ -203,6 +211,10 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2026/06] AdMem: Advanced Memory for Task-solving Agents. [[paper](https://arxiv.org/abs/2606.06787)]
 - [2026/05] From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms. [[paper](https://arxiv.org/abs/2605.06716)]
 - [2026/05] LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues. [[paper](https://arxiv.org/abs/2605.12493)]
+- [2026/04] GAM: Hierarchical Graph-based Agentic Memory for LLM Agents. [[paper](https://arxiv.org/abs/2604.12285)]
+- [2026/02] ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents. [[paper](https://arxiv.org/abs/2602.01869)]
+- [2026/02] UMEM: Unified Memory Extraction and Management Framework for Generalizable Memory. [[paper](https://arxiv.org/abs/2602.10652)]
+- [2026/01] MCMA: Learning How to Remember: A Meta-Cognitive Management Method for Structured and Transferable Agent Memory. [[paper](https://arxiv.org/abs/2601.07470)]
 - [2026/01] MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory. [[paper](https://arxiv.org/abs/2601.03192)]
 - [2026/01] FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory. [[paper](https://arxiv.org/abs/2601.18642)]
 - [2025/12] MemEvolve: Meta-Evolution of Agent Memory Systems. [[paper](https://arxiv.org/abs/2512.18746)]
@@ -270,10 +282,16 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 
 #### Token-level
 
+- [2026/07] SelfMem: Self-Optimizing Memory for AI Agents. [[paper](https://arxiv.org/abs/2607.03726)]
+- [2026/07] Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents. [[paper](https://arxiv.org/abs/2607.08716)]
 - [2026/06] MemRefine: LLM-Guided Compression for Long-Term Agent Memory. [[paper](https://arxiv.org/abs/2606.13177)]
+- [2026/06] Joint Agent Memory and Exploration Learning via Novelty Signals. [[paper](https://arxiv.org/abs/2606.01528)]
 - [2026/03] CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems. [[paper](https://arxiv.org/abs/2603.15642)] [[code](https://github.com/PearlMody05/Cranimem)]
 - [2026/02] FluxMem: Choosing How to Remember: Adaptive Memory Structures for LLM Agents. [[paper](https://arxiv.org/abs/2602.14038)]
+- [2026/02] BudgetMem: Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory. [[paper](https://arxiv.org/abs/2602.06025)] [[code](https://github.com/ViktorAxelsen/BudgetMem)]
+- [2026/02] EMPO2: Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization. [[paper](https://arxiv.org/abs/2602.23008)]
 - [2026/01] MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory. [[paper](https://arxiv.org/abs/2601.03192)]
+- [2026/01] MemoBrain: Executive Memory as an Agentic Brain for Reasoning. [[paper](https://arxiv.org/abs/2601.08079)]
 - [2026/01] Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents. [[paper](https://arxiv.org/abs/2601.01885)]
 - [2025/11] Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks. [[paper](https://arxiv.org/abs/2510.12635)]
 - [2025/11] IterResearch: Rethinking Long-Horizon Agents via Markovian State Reconstruction. [[paper](https://arxiv.org/abs/2511.07327)]
@@ -299,6 +317,7 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2026/06] Engram: A Bi-Temporal Memory Engine for LLM Agents. [[paper](https://arxiv.org/abs/2606.09900)]
 - [2026/05] Human-Inspired Memory Architecture for LLM Agents. [[paper](https://arxiv.org/abs/2605.08538)]
 - [2026/04] SCM: Sleep-Consolidated Memory with Algorithmic Forgetting for Large Language Models. [[paper](https://arxiv.org/abs/2604.20943)]
+- [2026/03] Neural Paging: Learning Context Management Policies for Turing-Complete Agents. [[paper](https://arxiv.org/abs/2603.02228)]
 - [2026/01] Continuum Memory Architectures for Long-Horizon LLM Agents. [[paper](https://arxiv.org/abs/2601.09913)]
 - [2025/11] VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Models. [[paper](https://arxiv.org/abs/2511.11007)]
 - [2025/09] MemGen: Weaving Generative Latent Memory for Self-Evolving Agents. [[paper](https://arxiv.org/abs/2509.24704)]
