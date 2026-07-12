@@ -2645,3 +2645,223 @@ papers:
   project_url: ''
   abstract: ''
   tags: []
+- title: 'SimpleMem: Efficient Lifelong Memory for LLM Agents'
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.02553
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: 'ICLR 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'AutoMem: Automated Learning of Memory as a Cognitive Skill'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.01224
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.05690
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Look Back to Reason Forward: Revisitable Memory for Long-Context LLM Agents'
+  date: 2025-09
+  url: https://arxiv.org/abs/2509.23040
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: 'ICLR 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Toward a Theory of Hierarchical Memory for Language Agents'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.21564
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'MemFactory: Unified Inference & Training Framework for Agent Memory'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.29493
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents'
+  date: 2026-02
+  url: https://arxiv.org/abs/2603.03296
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: 'ICML 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents'
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.14287
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: 'ACL 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.26622
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: 'ACL 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'LiCoMemory: Lightweight and Cognitive Agentic Memory for Efficient Long-Term Reasoning'
+  date: 2025-11
+  url: https://arxiv.org/abs/2511.01448
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: 'Findings ACL 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning'
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.18204
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: 'Findings ACL 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Fine-Mem: Fine-Grained Feedback Alignment for Long-Horizon Memory Management'
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.08435
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: 'ACL 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'MemSearch-o1: Empowering Large Language Models with Reasoning-Aligned Memory Growth in Agentic Search'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.17265
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: 'ACL 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Hierarchical Memory Orchestration for Personalized Persistent Agents'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.01670
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.11768
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior'
+  date: 2025-05
+  url: https://arxiv.org/abs/2505.16067
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: 'ACL 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Lightweight LLM Agent Memory with Small Language Models'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.07798
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: 'ACL 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.29961
+  category: working
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Continuum Memory Architectures for Long-Horizon LLM Agents'
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.09913
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'E-mem: Multi-agent based Episodic Context Reconstruction for LLM Agent Memory'
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.21714
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []

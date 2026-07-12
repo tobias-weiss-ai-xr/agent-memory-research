@@ -33,17 +33,17 @@ a:hover { text-decoration: underline; }
 <body>
 
 <h1>Agent Memory Research Papers</h1>
-<p style="color: #8b949e; margin-bottom: 16px;">Analysis of 239 papers on memory for LLM agents</p>
+<p style="color: #8b949e; margin-bottom: 16px;">Analysis of 259 papers on memory for LLM agents</p>
 
 <div class="stats-grid">
-  <div class="stat-card"><div class="num">239</div><div class="label">Total Papers</div></div>
-  <div class="stat-card"><div class="num">123</div><div class="label">Factual Memory</div></div>
+  <div class="stat-card"><div class="num">259</div><div class="label">Total Papers</div></div>
+  <div class="stat-card"><div class="num">136</div><div class="label">Factual Memory</div></div>
   <div class="stat-card"><div class="num">63</div><div class="label">Experiential Memory</div></div>
-  <div class="stat-card"><div class="num">53</div><div class="label">Working Memory</div></div>
+  <div class="stat-card"><div class="num">60</div><div class="label">Working Memory</div></div>
 </div>
 
 <div class="stats-grid">
-  <div class="stat-card"><div class="num">173</div><div class="label">Token-level</div></div>
+  <div class="stat-card"><div class="num">193</div><div class="label">Token-level</div></div>
   <div class="stat-card"><div class="num">25</div><div class="label">Parametric</div></div>
   <div class="stat-card"><div class="num">41</div><div class="label">Latent</div></div>
 </div>
@@ -59,23 +59,41 @@ a:hover { text-decoration: underline; }
   <div class="chart-box"><canvas id="subcatChart"></canvas></div>
 </div>
 
-<h2>Publication Timeline</h2>
+<h2>Publication Timeline (Monthly)</h2>
 <div class="chart-box full">
 <canvas id="timelineChart"></canvas>
 </div>
 
+<h2>Cumulative Growth</h2>
+<div class="chart-box full">
+<canvas id="cumulativeChart"></canvas>
+</div>
+
+<h2>Category Trends Over Time</h2>
+<div class="chart-box full">
+<canvas id="stackedTimelineChart"></canvas>
+</div>
+
+<h2>Venue Distribution</h2>
+<div class="chart-box full">
+<canvas id="venueChart"></canvas>
+</div>
+
 <h2>Date Ranges by Category</h2>
 <div class="stats-grid">
-  <div class="stat-card"><div class="num">2013-02 – 2026-06</div><div class="label">Factual (123 papers)</div></div>
+  <div class="stat-card"><div class="num">2013-02 – 2026-06</div><div class="label">Factual (136 papers)</div></div>
   <div class="stat-card"><div class="num">2023-02 – 2026-06</div><div class="label">Experiential (63 papers)</div></div>
-  <div class="stat-card"><div class="num">2022-07 – 2026-07</div><div class="label">Working (53 papers)</div></div>
+  <div class="stat-card"><div class="num">2022-07 – 2026-07</div><div class="label">Working (60 papers)</div></div>
 </div>
 
 <h2>20 Most Recent Papers</h2>
 <table>
 <thead><tr><th>Date</th><th>Title</th><th>Category</th><th>Subcategory</th></tr></thead>
-<tbody><tr><td>2026-07</td><td><a href="https://arxiv.org/abs/2607.03726" target="_blank">SelfMem: Self-Optimizing Memory for AI Agents</a></td><td>working</td><td>token-level</td></tr>
+<tbody>
+<tr><td>2026-07</td><td><a href="https://arxiv.org/abs/2607.03726" target="_blank">SelfMem: Self-Optimizing Memory for AI Agents</a></td><td>working</td><td>token-level</td></tr>
 <tr><td>2026-07</td><td><a href="https://arxiv.org/abs/2607.08716" target="_blank">Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents</a></td><td>working</td><td>token-level</td></tr>
+<tr><td>2026-07</td><td><a href="https://arxiv.org/abs/2607.01224" target="_blank">AutoMem: Automated Learning of Memory as a Cognitive Skill</a></td><td>working</td><td>token-level</td></tr>
+<tr><td>2026-07</td><td><a href="https://arxiv.org/abs/2607.05690" target="_blank">Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents</a></td><td>working</td><td>token-level</td></tr>
 <tr><td>2026-06</td><td><a href="https://arxiv.org/abs/2606.10677" target="_blank">Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory</a></td><td>factual</td><td>token-level</td></tr>
 <tr><td>2026-06</td><td><a href="https://arxiv.org/abs/2606.06036" target="_blank">MRAgent: Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents</a></td><td>factual</td><td>latent</td></tr>
 <tr><td>2026-06</td><td><a href="https://arxiv.org/abs/2606.06787" target="_blank">AdMem: Advanced Memory for Task-solving Agents</a></td><td>experiential</td><td>token-level</td></tr>
@@ -87,31 +105,37 @@ a:hover { text-decoration: underline; }
 <tr><td>2026-06</td><td><a href="https://arxiv.org/abs/2606.24775" target="_blank">Are We Ready For An Agent-Native Memory System?</a></td><td>factual</td><td>token-level</td></tr>
 <tr><td>2026-06</td><td><a href="https://arxiv.org/abs/2606.07711" target="_blank">Rosetta Memory: Adaptive Memory for Cross-LLM Agents</a></td><td>factual</td><td>token-level</td></tr>
 <tr><td>2026-06</td><td><a href="https://arxiv.org/abs/2606.01528" target="_blank">Joint Agent Memory and Exploration Learning via Novelty Signals</a></td><td>working</td><td>token-level</td></tr>
+<tr><td>2026-06</td><td><a href="https://arxiv.org/abs/2606.29961" target="_blank">DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation</a></td><td>working</td><td>token-level</td></tr>
 <tr><td>2026-05</td><td><a href="https://arxiv.org/abs/2605.06716" target="_blank">From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms</a></td><td>experiential</td><td>token-level</td></tr>
 <tr><td>2026-05</td><td><a href="https://arxiv.org/abs/2605.12493" target="_blank">LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues</a></td><td>experiential</td><td>token-level</td></tr>
 <tr><td>2026-05</td><td><a href="https://arxiv.org/abs/2605.08538" target="_blank">Human-Inspired Memory Architecture for LLM Agents</a></td><td>working</td><td>latent</td></tr>
 <tr><td>2026-05</td><td><a href="https://arxiv.org/abs/2605.30690" target="_blank">ElasticMem: Latent Memory as a Learnable Resource for LLM Agents</a></td><td>factual</td><td>latent</td></tr>
-<tr><td>2026-04</td><td><a href="https://arxiv.org/abs/2604.01707" target="_blank">Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework</a></td><td>factual</td><td>token-level</td></tr>
-<tr><td>2026-04</td><td><a href="https://arxiv.org/abs/2604.20943" target="_blank">SCM: Sleep-Consolidated Memory with Algorithmic Forgetting for Large Language Models</a></td><td>working</td><td>latent</td></tr>
-<tr><td>2026-04</td><td><a href="https://arxiv.org/abs/2604.12285" target="_blank">GAM: Hierarchical Graph-based Agentic Memory for LLM Agents</a></td><td>experiential</td><td>token-level</td></tr>
 </tbody>
 </table>
 
 <script>
 const catLabels = ["factual", "experiential", "working"];
-const catValues = [123, 63, 53];
+const catValues = [136, 63, 60];
 const catColors = ["#58a6ff", "#3fb950", "#d29922"];
 
 const subcatLabels = ["token-level", "parametric", "latent"];
-const subcatValues = [173, 25, 41];
+const subcatValues = [193, 25, 41];
 const subcatColors = ["#58a6ff", "#3fb950", "#d29922"];
 
 const tlLabels = ["2013-02", "2020-02", "2021-04", "2021-10", "2021-12", "2022-07", "2022-08", "2023-02", "2023-03", "2023-04", "2023-05", "2023-06", "2023-07", "2023-08", "2023-10", "2023-11", "2024-01", "2024-03", "2024-04", "2024-05", "2024-06", "2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07"];
-const tlFactual = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-const tlExperiential = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-const tlWorking = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const tlFactual = [1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 4, 0, 2, 5, 6, 1, 1, 3, 1, 4, 2, 5, 1, 1, 7, 1, 1, 7, 2, 1, 4, 3, 3, 7, 8, 9, 6, 7, 7, 1, 4, 6, 1, 7, 0];
+const tlExperiential = [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 3, 0, 1, 0, 0, 0, 1, 1, 2, 0, 1, 2, 0, 1, 2, 2, 2, 5, 0, 2, 2, 2, 9, 6, 3, 4, 2, 1, 1, 2, 1, 0];
+const tlWorking = [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 3, 1, 1, 1, 0, 1, 0, 1, 0, 0, 3, 1, 2, 1, 1, 1, 1, 5, 5, 4, 0, 6, 4, 2, 2, 1, 4, 4];
 
-const heatData = [[96, 16, 11], [54, 6, 3], [23, 3, 27]];
+const cumFactual = [1, 2, 3, 4, 5, 5, 5, 5, 5, 8, 12, 12, 14, 19, 25, 26, 27, 30, 31, 35, 37, 42, 43, 44, 51, 52, 53, 60, 62, 63, 67, 70, 73, 80, 88, 97, 103, 110, 117, 118, 122, 128, 129, 136, 136];
+const cumExperiential = [0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 3, 4, 5, 8, 8, 9, 9, 9, 9, 10, 11, 13, 13, 14, 16, 16, 17, 19, 21, 23, 28, 28, 30, 32, 34, 43, 49, 52, 56, 58, 59, 60, 62, 63, 63];
+const cumWorking = [0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 3, 4, 4, 4, 4, 5, 8, 9, 10, 11, 11, 12, 12, 13, 13, 13, 16, 17, 19, 20, 21, 22, 23, 28, 33, 37, 37, 43, 47, 49, 51, 52, 56, 60];
+
+const heatData = [[109, 16, 11], [54, 6, 3], [30, 3, 27]];
+
+const venueLabels = ["ACL 2026", "ACL 2026 Findings", "ICLR 2026", "Findings ACL 2026", "ACL 2025 Findings", "ICML 2026", "Unknown/None"];
+const venueValues = [7, 2, 2, 2, 1, 1, 244];
+const venueColors = ['#58a6ff','#3fb950','#d29922','#f0883e','#db6d8a','#7ee787','#a5d6ff','#79c0ff','#8b949e','#6e7681','#484f58','#30363d'];
 
 new Chart(document.getElementById('catChart'), {
   type: 'bar',
@@ -170,8 +194,71 @@ new Chart(document.getElementById('timelineChart'), {
     interaction: { mode: 'index', intersect: false },
     plugins: { legend: { labels: { color: '#8b949e' } } },
     scales: {
-      x: { ticks: { color: '#8b949e', maxTicksLimit: 20 }, grid: { color: '#21262d' } },
+      x: { ticks: { color: '#8b949e', maxTicksLimit: 25 }, grid: { color: '#21262d' } },
       y: { beginAtZero: true, ticks: { stepSize: 1, color: '#8b949e' }, grid: { color: '#21262d' } }
+    }
+  }
+});
+
+new Chart(document.getElementById('cumulativeChart'), {
+  type: 'line',
+  data: {
+    labels: tlLabels,
+    datasets: [
+      { label: 'Factual', data: cumFactual, borderColor: '#58a6ff', backgroundColor: 'rgba(88,166,255,0.05)', fill: true, tension: 0.3, pointRadius: 1 },
+      { label: 'Experiential', data: cumExperiential, borderColor: '#3fb950', backgroundColor: 'rgba(63,185,80,0.05)', fill: true, tension: 0.3, pointRadius: 1 },
+      { label: 'Working', data: cumWorking, borderColor: '#d29922', backgroundColor: 'rgba(210,153,34,0.05)', fill: true, tension: 0.3, pointRadius: 1 }
+    ]
+  },
+  options: {
+    responsive: true,
+    interaction: { mode: 'index', intersect: false },
+    plugins: { legend: { labels: { color: '#8b949e' } } },
+    scales: {
+      x: { ticks: { color: '#8b949e', maxTicksLimit: 25 }, grid: { color: '#21262d' } },
+      y: { beginAtZero: true, ticks: { stepSize: 10, color: '#8b949e' }, grid: { color: '#21262d' } }
+    }
+  }
+});
+
+new Chart(document.getElementById('stackedTimelineChart'), {
+  type: 'bar',
+  data: {
+    labels: tlLabels,
+    datasets: [
+      { label: 'Factual', data: tlFactual, backgroundColor: '#58a6ff', borderRadius: 2 },
+      { label: 'Experiential', data: tlExperiential, backgroundColor: '#3fb950', borderRadius: 2 },
+      { label: 'Working', data: tlWorking, backgroundColor: '#d29922', borderRadius: 2 }
+    ]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      x: { stacked: true, ticks: { color: '#8b949e', maxTicksLimit: 25 }, grid: { color: '#21262d' } },
+      y: { stacked: true, beginAtZero: true, ticks: { stepSize: 1, color: '#8b949e' }, grid: { color: '#21262d' } }
+    },
+    plugins: { legend: { labels: { color: '#8b949e' } } }
+  }
+});
+
+new Chart(document.getElementById('venueChart'), {
+  type: 'bar',
+  data: {
+    labels: venueLabels,
+    datasets: [{
+      label: 'Papers',
+      data: venueValues,
+      backgroundColor: venueColors.slice(0, venueLabels.length),
+      borderRadius: 4
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { beginAtZero: true, ticks: { stepSize: 1, color: '#8b949e' }, grid: { color: '#21262d' } },
+      y: { ticks: { color: '#8b949e' }, grid: { color: '#21262d' } }
     }
   }
 });
