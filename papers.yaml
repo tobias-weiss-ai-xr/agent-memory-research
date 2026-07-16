@@ -2909,3 +2909,212 @@ papers:
   project_url: ''
   abstract: ''
   tags: []
+- title: 'AdaMEM: Test-Time Adaptive Memory for Language Agents'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.05684
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: 'ICML 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.23127
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Nous: A Predictive World Model for Long-Term Agent Memory'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.22030
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'AdaMem: Learning What to Remember for Personalized Long-Horizon LLM Agents'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.21144
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.06448
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Memory-Orchestrated Semantic System (MOSS): An Auditable Agentic Memory Architecture'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.04391
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.13157
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Experience Memory Graph: One-Shot Error Correction for Agents'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.13884
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'AgentCL: Toward Rigorous Evaluation of Continual Learning in Language Agents'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.02461
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.13941
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.03354
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.01007
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.16496
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation (xMemory)'
+  date: 2026-02
+  url: https://arxiv.org/abs/2602.02007
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks'
+  date: 2026-02
+  url: https://arxiv.org/abs/2602.16313
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Position: Modular Memory is the Key to Continual Learning Agents'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.01761
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: 'ICML 2026'
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.04853
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'Memory in the Age of AI Agents'
+  date: 2025-12
+  url: https://arxiv.org/abs/2512.13564
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'MemoryBench: A Benchmark for Memory and Continual Learning in LLM Systems'
+  date: 2025-10
+  url: https://arxiv.org/abs/2510.17281
+  category: factual
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
