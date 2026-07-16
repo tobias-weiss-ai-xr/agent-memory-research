@@ -2865,3 +2865,47 @@ papers:
   project_url: ''
   abstract: ''
   tags: []
+- title: 'MemCon: Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.13591
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'MILES: Modular Instruction Memory with Learnable Selection for Self-Improving LLM Reasoning'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.06974
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.09297
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []
+- title: 'ActMem: Bridging the Gap Between Memory Retrieval and Reasoning in LLM Agents'
+  date: 2026-02
+  url: https://arxiv.org/abs/2603.00026
+  category: experiential
+  subcategory: token-level
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ''
+  tags: []

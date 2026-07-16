@@ -275,7 +275,7 @@
     "abstract": ""
   },
   {
-    "title": "Mem-\u03b1: Learning Memory Construction via Reinforcement Learning",
+    "title": "Mem-α: Learning Memory Construction via Reinforcement Learning",
     "date": "2025-09",
     "url": "https://arxiv.org/abs/2509.25911",
     "category": "factual",
@@ -539,7 +539,7 @@
     "abstract": ""
   },
   {
-    "title": "R\u00b3Mem: Bridging Memory Retention and Retrieval via Reversible Compression",
+    "title": "R³Mem: Bridging Memory Retention and Retrieval via Reversible Compression",
     "date": "2025-02",
     "url": "https://arxiv.org/abs/2502.15957",
     "category": "factual",
@@ -902,7 +902,7 @@
     "abstract": ""
   },
   {
-    "title": "S\u00b3: Social-network Simulation System with Large Language Model-Empowered Agents",
+    "title": "S³: Social-network Simulation System with Large Language Model-Empowered Agents",
     "date": "2023-07",
     "url": "https://arxiv.org/abs/2307.14984",
     "category": "factual",
@@ -1221,7 +1221,7 @@
     "abstract": ""
   },
   {
-    "title": "Memory\u00b3: Language Modeling with Explicit Memory",
+    "title": "Memory³: Language Modeling with Explicit Memory",
     "date": "2024-07",
     "url": "https://arxiv.org/abs/2407.01178",
     "category": "factual",
@@ -1430,7 +1430,7 @@
     "abstract": ""
   },
   {
-    "title": "H\u00b2R: Hierarchical Hindsight Reflection for Multi-Task LLM Agents",
+    "title": "H²R: Hierarchical Hindsight Reflection for Multi-Task LLM Agents",
     "date": "2025-10",
     "url": "https://arxiv.org/abs/2509.12810",
     "category": "experiential",
@@ -2842,6 +2842,50 @@
     "date": "2026-01",
     "url": "https://arxiv.org/abs/2601.21714",
     "category": "factual",
+    "subcategory": "token-level",
+    "venue": "",
+    "code_url": "",
+    "project_url": "",
+    "abstract": ""
+  },
+  {
+    "title": "MemCon: Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents",
+    "date": "2026-07",
+    "url": "https://arxiv.org/abs/2607.13591",
+    "category": "experiential",
+    "subcategory": "token-level",
+    "venue": "",
+    "code_url": "",
+    "project_url": "",
+    "abstract": ""
+  },
+  {
+    "title": "MILES: Modular Instruction Memory with Learnable Selection for Self-Improving LLM Reasoning",
+    "date": "2026-07",
+    "url": "https://arxiv.org/abs/2607.06974",
+    "category": "experiential",
+    "subcategory": "token-level",
+    "venue": "",
+    "code_url": "",
+    "project_url": "",
+    "abstract": ""
+  },
+  {
+    "title": "TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA",
+    "date": "2026-03",
+    "url": "https://arxiv.org/abs/2603.09297",
+    "category": "experiential",
+    "subcategory": "token-level",
+    "venue": "",
+    "code_url": "",
+    "project_url": "",
+    "abstract": ""
+  },
+  {
+    "title": "ActMem: Bridging the Gap Between Memory Retrieval and Reasoning in LLM Agents",
+    "date": "2026-02",
+    "url": "https://arxiv.org/abs/2603.00026",
+    "category": "experiential",
     "subcategory": "token-level",
     "venue": "",
     "code_url": "",

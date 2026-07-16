@@ -221,12 +221,16 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 
 #### Token-level
 
+- [2026/07] MemCon: Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents. [[paper](https://arxiv.org/abs/2607.13591)]
+- [2026/07] MILES: Modular Instruction Memory with Learnable Selection for Self-Improving LLM Reasoning. [[paper](https://arxiv.org/abs/2607.06974)]
 - [2026/06] AdMem: Advanced Memory for Task-solving Agents. [[paper](https://arxiv.org/abs/2606.06787)]
 - [2026/05] From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms. [[paper](https://arxiv.org/abs/2605.06716)]
 - [2026/05] LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues. [[paper](https://arxiv.org/abs/2605.12493)]
 - [2026/04] GAM: Hierarchical Graph-based Agentic Memory for LLM Agents. [[paper](https://arxiv.org/abs/2604.12285)]
+- [2026/03] TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA. [[paper](https://arxiv.org/abs/2603.09297)]
 - [2026/02] ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents. [[paper](https://arxiv.org/abs/2602.01869)]
 - [2026/02] UMEM: Unified Memory Extraction and Management Framework for Generalizable Memory. [[paper](https://arxiv.org/abs/2602.10652)]
+- [2026/02] ActMem: Bridging the Gap Between Memory Retrieval and Reasoning in LLM Agents. [[paper](https://arxiv.org/abs/2603.00026)]
 - [2026/01] MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory. [[paper](https://arxiv.org/abs/2601.03192)]
 - [2026/01] FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory. [[paper](https://arxiv.org/abs/2601.18642)]
 - [2026/01] Learning How to Remember: A Meta-Cognitive Management Method for Structured and Transferable Agent Memory. [[paper](https://arxiv.org/abs/2601.07470)]
