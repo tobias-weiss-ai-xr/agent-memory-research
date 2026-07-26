@@ -90,6 +90,7 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2025/12] WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning. [[paper](https://arxiv.org/abs/2512.02425)]
 - [2025/12] Memoria: A Scalable Agentic Memory Framework for Personalized Conversational AI. [[paper](https://arxiv.org/abs/2512.12686)]
 - [2025/12] Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects. [[paper](https://arxiv.org/abs/2512.12818)]
+- [2025/12] Memory in the Age of AI Agents. [[paper](https://arxiv.org/abs/2512.13564)]
 - [2025/11] A Simple Yet Strong Baseline for Long-Term Conversational Memory of LLM Agents. [[paper](https://arxiv.org/abs/2511.17208)]
 - [2025/11] General Agentic Memory Via Deep Research. [[paper](https://arxiv.org/abs/2511.18423)]
 - [2025/11] O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents. [[paper](https://arxiv.org/abs/2511.13593)]
@@ -102,6 +103,7 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2025/10] Pre-Storage Reasoning for Episodic Memory: Shifting Inference Burden to Memory for Personalized Dialogue. [[paper](https://arxiv.org/abs/2509.10852)]
 - [2025/10] LightMem: Lightweight and Efficient Memory-Augmented Generation. [[paper](https://arxiv.org/abs/2510.18866)]
 - [2025/10] RGMem: Renormalization Group-based Memory Evolution for Language Agent User Profile. [[paper](https://arxiv.org/abs/2510.16392)]
+- [2025/10] MemoryBench: A Benchmark for Memory and Continual Learning in LLM Systems. [[paper](https://arxiv.org/abs/2510.17281)]
 - [2025/09] Mem-α: Learning Memory Construction via Reinforcement Learning. [[paper](https://arxiv.org/abs/2509.25911)]
 - [2025/09] SGMem: Sentence Graph Memory for Long-Term Conversational Agents. [[paper](https://arxiv.org/abs/2509.21212)]
 - [2025/09] Nemori: Self-Organizing Agent Memory Inspired by Cognitive Science. [[paper](https://arxiv.org/abs/2508.03341)]
@@ -588,7 +590,15 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 
 #### Token-level
 
+- [2026/07] MemCon: Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents. [[paper](https://arxiv.org/abs/2607.13591)]
+- [2026/07] MILES: Modular Instruction Memory with Learnable Selection for Self-Improving LLM Reasoning. [[paper](https://arxiv.org/abs/2607.06974)]
+- [2026/07] Memory-Orchestrated Semantic System (MOSS): An Auditable Agentic Memory Architecture. [[paper](https://arxiv.org/abs/2607.04391)]
+- [2026/07] Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents. [[paper](https://arxiv.org/abs/2607.13157)]
+- [2026/07] Experience Memory Graph: One-Shot Error Correction for Agents. [[paper](https://arxiv.org/abs/2607.13884)]
 - [2026/06] AdMem: Advanced Memory for Task-solving Agents. [[paper](https://arxiv.org/abs/2606.06787)]
+- [2026/06] AdaMEM: Test-Time Adaptive Memory for Language Agents. [[paper](https://arxiv.org/abs/2606.05684)]
+- [2026/06] Nous: A Predictive World Model for Long-Term Agent Memory. [[paper](https://arxiv.org/abs/2606.22030)]
+- [2026/06] AdaMem: Learning What to Remember for Personalized Long-Horizon LLM Agents. [[paper](https://arxiv.org/abs/2606.21144)]
 - [2026/05] From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms. [[paper](https://arxiv.org/abs/2605.06716)]
 - [2026/05] LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues. [[paper](https://arxiv.org/abs/2605.12493)]
 - [2026/01] MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory. [[paper](https://arxiv.org/abs/2601.03192)]
