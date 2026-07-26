@@ -42,9 +42,10 @@ def load_existing_papers(yaml_path):
 def search_arxiv(query, months, start=0, max_results=100):
     now = datetime.now(timezone.utc).replace(tzinfo=None)
     cutoff = now - timedelta(days=months * 30)
-    date_filter = cutoff.strftime("%Y-%m-%d")
+    date_start = cutoff.strftime("%Y%m%d0000")
+    date_end = now.strftime("%Y%m%d") + "2359"
 
-    full_query = f"({query}) AND submittedDate:[{date_filter}0000 TO {now.strftime('%Y-%m-%d')}2359]"
+    full_query = f"({query}) AND submittedDate:[{date_start} TO {date_end}]"
     try:
         resp = requests.get(
             ARXIV_SEARCH_API.format(requests.utils.quote(full_query), start, max_results),
