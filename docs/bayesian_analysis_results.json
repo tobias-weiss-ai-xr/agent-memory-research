@@ -1,0 +1,87 @@
+{
+  "total_papers": 952,
+  "year_range": [
+    2011,
+    2026
+  ],
+  "overall_growth": {
+    "rate_percent": 138.65474956583114,
+    "ci_low_percent": 76.08695652173918,
+    "ci_high_percent": 204.93827160493825,
+    "r_squared": 0.9862054912536935
+  },
+  "category_results": {
+    "factual": {
+      "total": 490,
+      "proportion": 0.5141361256544502,
+      "prop_ci": [
+        0.48295511653990963,
+        0.5463367058582078
+      ],
+      "growth_rate_percent": 129.34798842348357,
+      "growth_ci_percent": [
+        84.61538461538464,
+        166.66666666666652
+      ],
+      "r_squared": 0.9927086892369706
+    },
+    "experiential": {
+      "total": 176,
+      "proportion": 0.18534031413612564,
+      "prop_ci": [
+        0.1615158498715994,
+        0.21080199441857048
+      ],
+      "growth_rate_percent": 110.92909501881891,
+      "growth_ci_percent": [
+        -7.142857142857128,
+        407.6923076923075
+      ],
+      "r_squared": 0.8360568066397361
+    },
+    "working": {
+      "total": 273,
+      "proportion": 0.2869109947643979,
+      "prop_ci": [
+        0.25894650885784526,
+        0.31632201002327676
+      ],
+      "growth_rate_percent": 183.74866698163493,
+      "growth_ci_percent": [
+        150.0,
+        249.09090909090898
+      ],
+      "r_squared": 0.9957261919363429
+    }
+  },
+  "change_point": {
+    "year": 2013,
+    "confidence": NaN,
+    "rate_before": 1.0,
+    "rate_after": 105.66666666666667,
+    "acceleration_factor": 96.06060606060606
+  },
+  "sparse_cells": [
+    {
+      "cell": "experiential/latent",
+      "count": 13,
+      "proportion": 0.01365546218487395
+    },
+    {
+      "cell": "experiential/parametric",
+      "count": 10,
+      "proportion": 0.01050420168067227
+    },
+    {
+      "cell": "working/parametric",
+      "count": 3,
+      "proportion": 0.0031512605042016808
+    }
+  ],
+  "predictions": {
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030": 0.0
+  }
+}

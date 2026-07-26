@@ -1,0 +1,49 @@
+{
+  "total_papers": 952,
+  "year_distribution": {
+    "2026": 568,
+    "2025": 246,
+    "2024": 80,
+    "2023": 45,
+    "2021": 3,
+    "2022": 5,
+    "2020": 2,
+    "2011": 1,
+    "2018": 1,
+    "2013": 1
+  },
+  "category_growth": {
+    "factual": {
+      "mean": 0.3,
+      "std": 0.0,
+      "ci_low": 0.3,
+      "ci_high": 0.3
+    },
+    "experiential": {
+      "mean": 0.3,
+      "std": 0.0,
+      "ci_low": 0.3,
+      "ci_high": 0.3
+    },
+    "working": {
+      "mean": 0.3,
+      "std": 0.0,
+      "ci_low": 0.3,
+      "ci_high": 0.3
+    }
+  },
+  "change_point": {
+    "year": 2025,
+    "confidence": 1.0,
+    "acceleration_factor": 22.301369863013697
+  },
+  "model_comparison": {
+    "linear_bic": 1278.5114497365032,
+    "exponential_bic": 13511.663325248457,
+    "best_model": "linear"
+  },
+  "hyperparameter": {
+    "mean": 0.3,
+    "std": 0.0
+  }
+}
