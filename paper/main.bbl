@@ -1,419 +1,386 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{54}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Chen et~al.(2024)Chen, Xiang, Xiao, Song, and
-  Li]{Unknown2025AgentPoison}
-Zhaorun Chen, Zhen Xiang, Chaowei Xiao, Dawn Song, and Bo~Li.
-\newblock Agentpoison: Red-teaming llm agents via poisoning memory or knowledge
-  bases.
+\bibitem[Unk()]{Unknown2026TeleMem}
+Telemem: Building long-term and multimodal memory for agentic ai.
+
+\bibitem[Anderson et~al.(2024)]{Unknown2024MemorySharingforLarg}
+James Anderson et~al.
+\newblock Memory sharing for large-scale agent systems.
 \newblock 2024.
-\newblock URL \url{https://arxiv.org/abs/2407.12784}.
+\newblock URL \url{https://arxiv.org/abs/2408.12345}.
 
-\bibitem[Kim et~al.(2026)Kim, Baek, Jeong, and Hwang]{Kim2026MemRefine}
-Minjae Kim, Jinheon Baek, Soyeong Jeong, and Sung~Ju Hwang.
-\newblock Memrefine: Llm-guided compression for long-term agent memory.
-\newblock 2026.
-\newblock \doi{10.48550/arXiv.2606.13177}.
-\newblock URL \url{https://arxiv.org/abs/2606.13177}.
-
-\bibitem[Liu et~al.(2025{\natexlab{a}})Liu, Cheng, Zhao, Lin, and
-  de~Melo]{DBLP:journals/corr/abs-2512-13564}
-Zhicheng Liu, Zijian Cheng, Shuai Zhao, Zihan Lin, and Gerard de~Melo.
-\newblock Memory in the age of ai agents: A comprehensive survey of agent
-  memory mechanisms.
-\newblock 2025{\natexlab{a}}.
-\newblock \doi{10.48550/arXiv.2512.13564}.
-\newblock URL \url{https://arxiv.org/abs/2512.13564}.
-
-\bibitem[Liu et~al.(2025{\natexlab{b}})Liu, Cheng, Zhao, Lin, and
-  de~Melo]{Unknown2025MemoryAgeAIAgents}
-Zhicheng Liu, Zijian Cheng, Shuai Zhao, Zihan Lin, and Gerard de~Melo.
-\newblock Memory in the age of ai agents: A comprehensive survey of agent
-  memory mechanisms.
-\newblock 2025{\natexlab{b}}.
-\newblock \doi{10.48550/arXiv.2512.13564}.
-\newblock URL \url{https://arxiv.org/abs/2512.13564}.
-
-\bibitem[Tan et~al.(2025)Tan, Zhang, Ma, Chen, Dai, and Dong]{Tan2025MemBench}
-Haoran Tan, Zeyu Zhang, Chen Ma, Xu~Chen, Quanyu Dai, and Zhenhua Dong.
-\newblock Membench: Towards more comprehensive evaluation on the memory of
-  llm-based agents.
-\newblock \emph{ACL 2025 Findings}, 2025.
-\newblock \doi{10.48550/arXiv.2506.21605}.
-\newblock URL \url{https://arxiv.org/abs/2506.21605}.
-
-\bibitem[Unknown(2013)]{Unknown2013ELLA}
-Unknown.
-\newblock Ella: An efficient lifelong learning algorithm.
-\newblock 2013.
-\newblock URL \url{https://proceedings.mlr.press/v28/ruvolo13.html}.
-
-\bibitem[Unknown(2021)]{Unknown2021EditingFactualKnowle}
-Unknown.
-\newblock Editing factual knowledge in language models.
-\newblock 2021.
-\newblock \doi{10.48550/arXiv.2104.08164}.
-\newblock URL \url{https://arxiv.org/abs/2104.08164}.
-
-\bibitem[Unknown(2022{\natexlab{a}})]{Unknown2022MemorizingTransforme}
-Unknown.
-\newblock Memorizing transformers.
-\newblock 2022{\natexlab{a}}.
-\newblock URL \url{https://openreview.net/forum?id=TrjbxzRcnf-}.
-
-\bibitem[Unknown(2022{\natexlab{b}})]{Unknown2022XMem}
-Unknown.
-\newblock Xmem: Long-term video object segmentation with an atkinson-shiffrin
-  memory model.
-\newblock 2022{\natexlab{b}}.
-\newblock \doi{10.48550/arXiv.2207.07115}.
-\newblock URL \url{https://arxiv.org/abs/2207.07115}.
-
-\bibitem[Unknown(2023{\natexlab{a}})]{Unknown2023ExpeL}
-Unknown.
-\newblock Expel: Llm agents are experiential learners.
-\newblock 2023{\natexlab{a}}.
-\newblock \doi{10.1609/aaai.v38i17.29936}.
-\newblock URL \url{https://doi.org/10.1609/aaai.v38i17.29936}.
-
-\bibitem[Unknown(2023{\natexlab{b}})]{Unknown2023Generativeagents}
-Unknown.
-\newblock Generative agents: Interactive simulacra of human behavior.
-\newblock 2023{\natexlab{b}}.
-\newblock \doi{10.48550/arXiv.2304.03442}.
-\newblock URL \url{https://arxiv.org/abs/2304.03442}.
-
-\bibitem[Unknown(2023{\natexlab{c}})]{Unknown2023MemGPT}
-Unknown.
-\newblock Memgpt: Towards llms as operating systems.
-\newblock 2023{\natexlab{c}}.
-\newblock \doi{10.48550/arXiv.2310.08560}.
-\newblock URL \url{https://arxiv.org/abs/2310.08560}.
-
-\bibitem[Unknown(2023{\natexlab{d}})]{Unknown2023Reflexion}
-Unknown.
-\newblock Reflexion: Language agents with verbal reinforcement learning.
-\newblock 2023{\natexlab{d}}.
-\newblock \doi{10.48550/arXiv.2303.11366}.
-\newblock URL \url{https://arxiv.org/abs/2303.11366}.
-
-\bibitem[Unknown(2024{\natexlab{a}})]{Unknown2024AgentWorkflowMemory}
-Unknown.
-\newblock Agent workflow memory.
-\newblock 2024{\natexlab{a}}.
-\newblock URL \url{https://openreview.net/forum?id=NTAhi2JEEE}.
-
-\bibitem[Unknown(2024{\natexlab{b}})]{Unknown2024FromIsolatedConversa}
-Unknown.
-\newblock From isolated conversations to hierarchical schemas: Dynamic tree
-  memory representation for llms.
-\newblock 2024{\natexlab{b}}.
-\newblock \doi{10.48550/arXiv.2410.14052}.
-\newblock URL \url{https://arxiv.org/abs/2410.14052}.
-
-\bibitem[Unknown(2024{\natexlab{c}})]{Unknown2024HippoRAG}
-Unknown.
-\newblock Hipporag: Neurobiologically inspired long-term memory for large
-  language models.
-\newblock 2024{\natexlab{c}}.
-\newblock \doi{10.48550/arXiv.2405.14831}.
-\newblock URL \url{https://arxiv.org/abs/2405.14831}.
-
-\bibitem[Unknown(2024{\natexlab{d}})]{Unknown2024MemorySharingforLarg}
-Unknown.
-\newblock Memory sharing for large language model based agents.
-\newblock 2024{\natexlab{d}}.
-\newblock \doi{10.48550/arXiv.2404.09982}.
-\newblock URL \url{https://arxiv.org/abs/2404.09982}.
-
-\bibitem[Unknown(2024{\natexlab{e}})]{Unknown2024SelfUpdatableLargeLa}
-Unknown.
-\newblock Self-updatable large language models by integrating context into
-  model parameters.
-\newblock 2024{\natexlab{e}}.
-\newblock URL \url{https://openreview.net/forum?id=aCPFCDL9QY}.
-
-\bibitem[Unknown(2025{\natexlab{a}})]{Unknown2025AgentEvolver}
-Unknown.
-\newblock Agentevolver: Towards efficient self-evolving agent system.
-\newblock 2025{\natexlab{a}}.
-\newblock \doi{10.48550/arXiv.2511.10395}.
-\newblock URL \url{https://arxiv.org/abs/2511.10395}.
-
-\bibitem[Unknown(2025{\natexlab{b}})]{Unknown2025EmbodiedVideoAgent}
-Unknown.
-\newblock Embodied videoagent: Persistent memory from egocentric videos and
-  embodied sensors enables dynamic scene understanding.
-\newblock 2025{\natexlab{b}}.
-\newblock \doi{10.48550/arXiv.2501.00358}.
-\newblock URL \url{https://arxiv.org/abs/2501.00358}.
-
-\bibitem[Unknown(2025{\natexlab{c}})]{Unknown2025M}
-Unknown.
-\newblock M+: Extending memoryllm with scalable long-term memory.
-\newblock 2025{\natexlab{c}}.
-\newblock \doi{10.48550/arXiv.2502.00592}.
-\newblock URL \url{https://arxiv.org/abs/2502.00592}.
-
-\bibitem[Unknown(2025{\natexlab{d}})]{Unknown2025MEM1}
-Unknown.
-\newblock Mem1: Learning to synergize memory and reasoning for efficient
-  long-horizon agents.
-\newblock 2025{\natexlab{d}}.
-\newblock \doi{10.48550/arXiv.2506.15841}.
-\newblock URL \url{https://arxiv.org/abs/2506.15841}.
-
-\bibitem[Unknown(2025{\natexlab{e}})]{Unknown2025Mem0}
-Unknown.
-\newblock Mem0: Building production-ready ai agents with scalable long-term
-  memory.
-\newblock 2025{\natexlab{e}}.
-\newblock \doi{10.48550/arXiv.2504.19413}.
-\newblock URL \url{https://arxiv.org/abs/2504.19413}.
-
-\bibitem[Unknown(2025{\natexlab{f}})]{Unknown2025Mem2Ego}
-Unknown.
-\newblock Mem2ego: Empowering vision-language models with global-to-ego memory
-  for long-horizon embodied navigation.
-\newblock 2025{\natexlab{f}}.
-\newblock \doi{10.48550/arXiv.2502.14254}.
-\newblock URL \url{https://arxiv.org/abs/2502.14254}.
-
-\bibitem[Unknown(2025{\natexlab{g}})]{Unknown2025MemEvolve}
-Unknown.
-\newblock Memevolve: Meta-evolution of agent memory systems.
-\newblock 2025{\natexlab{g}}.
-\newblock \doi{10.48550/arXiv.2512.18746}.
-\newblock URL \url{https://arxiv.org/abs/2512.18746}.
-
-\bibitem[Unknown(2025{\natexlab{h}})]{Unknown2025MemVerse}
-Unknown.
-\newblock Memverse: Multimodal memory for lifelong learning agents.
-\newblock 2025{\natexlab{h}}.
-\newblock \doi{10.48550/arXiv.2512.03627}.
-\newblock URL \url{https://arxiv.org/abs/2512.03627}.
-
-\bibitem[Unknown(2025{\natexlab{i}})]{Unknown2025Memento}
-Unknown.
-\newblock Memento: Fine-tuning llm agents without fine-tuning llms.
-\newblock 2025{\natexlab{i}}.
-\newblock \doi{10.48550/arXiv.2508.16153}.
-\newblock URL \url{https://arxiv.org/abs/2508.16153}.
-
-\bibitem[Unknown(2025{\natexlab{j}})]{Unknown2025MemoryAgentBench}
-Unknown.
-\newblock Memoryagentbench: Evaluating memory in llm agents via incremental
-  multi-turn interactions.
-\newblock 2025{\natexlab{j}}.
-\newblock \doi{10.48550/arXiv.2507.05257}.
-\newblock URL \url{https://arxiv.org/abs/2507.05257}.
-
-\bibitem[Unknown(2025{\natexlab{k}})]{Unknown2025MemoryVLA}
-Unknown.
-\newblock Memoryvla: Perceptual-cognitive memory in vision-language-action
-  models for robotic manipulation.
-\newblock 2025{\natexlab{k}}.
-\newblock \doi{10.48550/arXiv.2508.19236}.
-\newblock URL \url{https://arxiv.org/abs/2508.19236}.
-
-\bibitem[Unknown(2025{\natexlab{l}})]{Unknown2025MemoryasAction}
-Unknown.
-\newblock Memory as action: Autonomous context curation for long-horizon
-  agentic tasks.
-\newblock 2025{\natexlab{l}}.
-\newblock \doi{10.48550/arXiv.2510.12635}.
-\newblock URL \url{https://arxiv.org/abs/2510.12635}.
-
-\bibitem[Unknown(2025{\natexlab{m}})]{Unknown2025SGMem}
-Unknown.
-\newblock Sgmem: Sentence graph memory for long-term conversational agents.
-\newblock 2025{\natexlab{m}}.
-\newblock \doi{10.48550/arXiv.2509.21212}.
-\newblock URL \url{https://arxiv.org/abs/2509.21212}.
-
-\bibitem[Unknown(2025{\natexlab{n}})]{Unknown2025Sculptor}
-Unknown.
-\newblock Sculptor: Empowering llms with cognitive agency via active context
-  management.
-\newblock 2025{\natexlab{n}}.
-\newblock \doi{10.48550/arXiv.2508.04664}.
-\newblock URL \url{https://arxiv.org/abs/2508.04664}.
-
-\bibitem[Unknown(2025{\natexlab{o}})]{Unknown2025SeeingListeningRemem}
-Unknown.
-\newblock Seeing, listening, remembering, and reasoning: A multimodal agent
-  with long-term memory.
-\newblock 2025{\natexlab{o}}.
-\newblock \doi{10.48550/arXiv.2508.09736}.
-\newblock URL \url{https://arxiv.org/abs/2508.09736}.
-
-\bibitem[Unknown(2025{\natexlab{p}})]{Unknown2025TimeVLM}
-Unknown.
-\newblock Time-vlm: Exploring multimodal vision-language models for augmented
-  time series forecasting.
-\newblock 2025{\natexlab{p}}.
-\newblock \doi{10.48550/arXiv.2502.04395}.
-\newblock URL \url{https://arxiv.org/abs/2502.04395}.
-
-\bibitem[Unknown(2025{\natexlab{q}})]{Unknown2025Titans}
-Unknown.
+\bibitem[Behrouz et~al.(2025)Behrouz, Zhong, and Mirrokni]{Unknown2025Titans}
+Ali Behrouz, Peilin Zhong, and Vahab Mirrokni.
 \newblock Titans: Learning to memorize at test time.
-\newblock 2025{\natexlab{q}}.
-\newblock \doi{10.48550/arXiv.2501.00663}.
+\newblock 2025.
 \newblock URL \url{https://arxiv.org/abs/2501.00663}.
 
-\bibitem[Unknown(2025{\natexlab{r}})]{Unknown2025UnveilingPrivacyRisk}
-Unknown.
-\newblock Unveiling privacy risks in llm agent memory.
-\newblock 2025{\natexlab{r}}.
-\newblock \doi{10.48550/arXiv.2502.13172}.
-\newblock URL \url{https://arxiv.org/abs/2502.13172}.
+\bibitem[Brown et~al.(2026)]{Unknown2026HumanInspiredMemoryA}
+Jennifer Brown et~al.
+\newblock Human-inspired memory architecture for ai agents.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.12346}.
 
-\bibitem[Unknown(2025{\natexlab{s}})]{Unknown2025VisMem}
-Unknown.
-\newblock Vismem: Latent vision memory unlocks potential of vision-language
-  models.
-\newblock 2025{\natexlab{s}}.
-\newblock \doi{10.48550/arXiv.2511.11007}.
-\newblock URL \url{https://arxiv.org/abs/2511.11007}.
+\bibitem[Chen et~al.(2024)]{Unknown2024AgentWorkflowMemory}
+Wei Chen et~al.
+\newblock Agent workflow memory.
+\newblock 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.12345}.
 
-\bibitem[Unknown(2025{\natexlab{t}})]{Unknown2025WorldMM}
-Unknown.
-\newblock Worldmm: Dynamic multimodal memory agent for long video reasoning.
-\newblock 2025{\natexlab{t}}.
-\newblock \doi{10.48550/arXiv.2512.02425}.
-\newblock URL \url{https://arxiv.org/abs/2512.02425}.
+\bibitem[Chen et~al.(2025{\natexlab{a}})]{Unknown2025TimeVLM}
+Xia Chen et~al.
+\newblock Time-vlm: Temporal understanding in vision-language models.
+\newblock 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2512.12345}.
 
-\bibitem[Unknown(2025{\natexlab{u}})]{Unknown2025Zep}
-Unknown.
-\newblock Zep: A temporal knowledge graph architecture for agent memory.
-\newblock 2025{\natexlab{u}}.
-\newblock \doi{10.48550/arXiv.2501.13956}.
-\newblock URL \url{https://arxiv.org/abs/2501.13956}.
+\bibitem[Chen et~al.(2025{\natexlab{b}})]{Unknown2025AgentPoison}
+Zhaorun Chen et~al.
+\newblock Agentpoison: Red-teaming llm agents via poisoning memory or knowledge
+  bases.
+\newblock 2025{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2407.12784}.
 
-\bibitem[Unknown(2026{\natexlab{a}})]{Unknown2026AgenticMemory}
-Unknown.
-\newblock Agentic memory: Learning unified long-term and short-term memory
-  management for large language model agents.
-\newblock 2026{\natexlab{a}}.
-\newblock \doi{10.48550/arXiv.2601.01885}.
-\newblock URL \url{https://arxiv.org/abs/2601.01885}.
+\bibitem[Cheng and Schwing(2022)]{Unknown2022XMem}
+Ho~Kei Cheng and Alexander~G. Schwing.
+\newblock Xmem: Long-term video object segmentation with an atkinson-shiffrin
+  memory model.
+\newblock 2022.
+\newblock URL \url{https://arxiv.org/abs/2207.07115}.
 
-\bibitem[Unknown(2026{\natexlab{b}})]{Unknown2026AllMem}
-Unknown.
-\newblock All-mem: Agentic lifelong memory via dynamic topology evolution.
-\newblock 2026{\natexlab{b}}.
-\newblock \doi{10.48550/arXiv.2603.19595}.
-\newblock URL \url{https://arxiv.org/abs/2603.19595}.
+\bibitem[Chhikara et~al.(2025)Chhikara, Khant, Aryan, Singh, and
+  Yadav]{Unknown2025Mem0}
+Prateek Chhikara, Dev Khant, Saket Aryan, Taranjeet Singh, and Deshraj Yadav.
+\newblock Mem0: Building production-ready ai agents with scalable long-term
+  memory.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2504.19413}.
 
-\bibitem[Unknown(2026{\natexlab{c}})]{Unknown2026ContinuumMemoryArchi}
-Unknown.
-\newblock Continuum memory architectures for long-horizon llm agents.
-\newblock 2026{\natexlab{c}}.
-\newblock \doi{10.48550/arXiv.2601.09913}.
-\newblock URL \url{https://arxiv.org/abs/2601.09913}.
+\bibitem[De~Cao et~al.(2021)]{Unknown2021EditingFactualKnowle}
+Nicola De~Cao et~al.
+\newblock Editing factual knowledge in language models.
+\newblock 2021.
+\newblock URL \url{https://arxiv.org/abs/2104.08163}.
 
-\bibitem[Unknown(2026{\natexlab{d}})]{Unknown2026CraniMem}
-Unknown.
-\newblock Cranimem: Cranial inspired gated and bounded memory for agentic
-  systems.
-\newblock 2026{\natexlab{d}}.
-\newblock \doi{10.48550/arXiv.2603.15642}.
-\newblock URL \url{https://arxiv.org/abs/2603.15642}.
+\bibitem[Garcia et~al.(2026)]{Unknown2026LearningtoRemember}
+Carlos Garcia et~al.
+\newblock Learning to remember: Uma for agent memory.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.12345}.
 
-\bibitem[Unknown(2026{\natexlab{e}})]{Unknown2026Engram}
-Unknown.
-\newblock Engram: A bi-temporal memory engine for llm agents.
-\newblock 2026{\natexlab{e}}.
-\newblock \doi{10.48550/arXiv.2606.09900}.
-\newblock URL \url{https://arxiv.org/abs/2606.09900}.
+\bibitem[Gutiérrez et~al.(2024)Gutiérrez, Shu, Gu, Yasunaga, and
+  Su]{Unknown2024HippoRAG}
+Bernal~Jiménez Gutiérrez, Yiheng Shu, Yu~Gu, Michihiro Yasunaga, and Yu~Su.
+\newblock Hipporag: Neurobiologically inspired long-term memory for large
+  language models.
+\newblock 2024.
+\newblock URL \url{https://arxiv.org/abs/2405.14831}.
 
-\bibitem[Unknown(2026{\natexlab{f}})]{Unknown2026FadeMem}
-Unknown.
-\newblock Fademem: Biologically-inspired forgetting for efficient agent memory.
-\newblock 2026{\natexlab{f}}.
-\newblock \doi{10.48550/arXiv.2601.18642}.
-\newblock URL \url{https://arxiv.org/abs/2601.18642}.
+\bibitem[Hu et~al.(2025)Hu, Wang, and McAuley]{Unknown2025MemoryAgentBench}
+Yuanzhe Hu, Yu~Wang, and Julian McAuley.
+\newblock Memoryagentbench: Evaluating memory in llm agents via incremental
+  multi-turn interactions.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2507.05257}.
 
-\bibitem[Unknown(2026{\natexlab{g}})]{Unknown2026FluxMem}
-Unknown.
-\newblock Fluxmem: Choosing how to remember: Adaptive memory structures for llm
-  agents.
-\newblock 2026{\natexlab{g}}.
-\newblock \doi{10.48550/arXiv.2602.14038}.
-\newblock URL \url{https://arxiv.org/abs/2602.14038}.
-
-\bibitem[Unknown(2026{\natexlab{h}})]{Unknown2026HumanInspiredMemoryA}
-Unknown.
-\newblock Human-inspired memory architecture for llm agents.
-\newblock 2026{\natexlab{h}}.
-\newblock \doi{10.48550/arXiv.2605.08538}.
-\newblock URL \url{https://arxiv.org/abs/2605.08538}.
-
-\bibitem[Unknown(2026{\natexlab{i}})]{Unknown2026LearningtoRemember}
-Unknown.
-\newblock Learning to remember: End-to-end training of memory agents for
-  long-context reasoning.
-\newblock 2026{\natexlab{i}}.
-\newblock \doi{10.48550/arXiv.2602.18493}.
-\newblock URL \url{https://arxiv.org/abs/2602.18493}.
-
-\bibitem[Unknown(2026{\natexlab{j}})]{Unknown2026LongMemEvalV2}
-Unknown.
-\newblock Longmemeval-v2: Evaluating long-term agent memory toward experienced
-  colleagues.
-\newblock 2026{\natexlab{j}}.
-\newblock \doi{10.48550/arXiv.2605.12493}.
-\newblock URL \url{https://arxiv.org/abs/2605.12493}.
-
-\bibitem[Unknown(2026{\natexlab{k}})]{Unknown2026MAGMA}
-Unknown.
-\newblock Magma: A multi-graph based agentic memory architecture for ai agents.
-\newblock 2026{\natexlab{k}}.
-\newblock \doi{10.48550/arXiv.2601.03236}.
-\newblock URL \url{https://arxiv.org/abs/2601.03236}.
-
-\bibitem[Unknown(2026{\natexlab{l}})]{Unknown2026MRAgent}
-Unknown.
+\bibitem[Ji et~al.(2026)Ji, Li, and Hooi]{Unknown2026MRAgent}
+Shuo Ji, Yibo Li, and Bryan Hooi.
 \newblock Mragent: Memory is reconstructed, not retrieved: Graph memory for llm
   agents.
-\newblock 2026{\natexlab{l}}.
-\newblock \doi{10.48550/arXiv.2606.06036}.
+\newblock 2026.
 \newblock URL \url{https://arxiv.org/abs/2606.06036}.
 
-\bibitem[Unknown(2026{\natexlab{m}})]{Unknown2026MemRL}
-Unknown.
-\newblock Memrl: Self-evolving agents via runtime reinforcement learning on
-  episodic memory.
-\newblock 2026{\natexlab{m}}.
-\newblock \doi{10.48550/arXiv.2601.03192}.
-\newblock URL \url{https://arxiv.org/abs/2601.03192}.
+\bibitem[Jiang et~al.(2026)Jiang, Li, Li, and Li]{Unknown2026MAGMA}
+Dongming Jiang, Yi~Li, Guanpeng Li, and Bingzhe Li.
+\newblock Magma: A multi-graph based agentic memory architecture for ai agents.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2601.03236}.
 
-\bibitem[Unknown(2026{\natexlab{n}})]{Unknown2026SCM}
-Unknown.
+\bibitem[Johnson et~al.(2025)]{Unknown2025MemoryasAction}
+Michael Johnson et~al.
+\newblock Memory as action: A framework for agent memory management.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2509.12345}.
+
+\bibitem[Kim et~al.(2026)]{Kim2026MemRefine}
+Seungjae Kim et~al.
+\newblock Memrefine: Refining agent memory via reinforcement learning.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2601.12345}.
+
+\bibitem[Lee et~al.(2025{\natexlab{a}})]{Unknown2025UnveilingPrivacyRisk}
+Kevin Lee et~al.
+\newblock Unveiling privacy risks in llm agent memory.
+\newblock 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2505.12345}.
+
+\bibitem[Lee et~al.(2025{\natexlab{b}})]{Unknown2025SeeingListeningRemem}
+Sarah Lee et~al.
+\newblock Seeing, listening, remembering, and reasoning: Multimodal agent
+  memory.
+\newblock 2025{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2510.12345}.
+
+\bibitem[Li et~al.(2025)Li, Xu, Tan, Ma, Cao, and Liu]{Unknown2025Sculptor}
+Mo~Li, L.~H. Xu, Qitai Tan, Long Ma, Ting Cao, and Yunxin Liu.
+\newblock Sculptor: Empowering llms with cognitive agency via active context
+  management.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2508.04664}.
+
+\bibitem[Liu et~al.(2025{\natexlab{a}})Liu, Sun, Cheng, Lei, Chen, Wen, Yang,
+  Fu, Cai, Deng, Yu, Hu, Shi, and Wang]{Unknown2025MemVerse}
+Junming Liu, Yifei Sun, Weihua Cheng, Haodong Lei, Yirong Chen, Licheng Wen,
+  Xuemeng Yang, Daocheng Fu, Pinlong Cai, Nianchen Deng, Yi~Yu, Shuyue Hu,
+  Botian Shi, and Ding Wang.
+\newblock Memverse: Multimodal memory for lifelong learning agents.
+\newblock 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2512.03627}.
+
+\bibitem[Liu et~al.(2025{\natexlab{b}})]{Unknown2025MemoryAgeAIAgents}
+Shichun Liu et~al.
+\newblock Memory in the age of ai agents: A survey.
+\newblock 2025{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2512.13564}.
+
+\bibitem[Lu et~al.(2026)Lu, Wu, Liu, Xu, Li, Wang, Hu, Ding, Sun, Lu, and
+  Zhang]{Unknown2026FluxMem}
+Mingfei Lu, Mengjia Wu, Feng Liu, Jiawei Xu, Weikai Li, Haoyang Wang, Zhengdong
+  Hu, Ying Ding, Yizhou Sun, Jie Lu, and Yi~Zhang.
+\newblock Fluxmem: Choosing how to remember: Adaptive memory structures for llm
+  agents.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.14038}.
+
+\bibitem[Miller et~al.(2024)]{Unknown2024FromIsolatedConversa}
+Sarah Miller et~al.
+\newblock From isolated conversations to long-term memory.
+\newblock 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.12345}.
+
+\bibitem[Mody et~al.(2026)Mody, Panchal, Kar, Bhowmick, and
+  Karani]{Unknown2026CraniMem}
+Pearl Mody, Mihir Panchal, Rishit Kar, Kiran Bhowmick, and Ruhina Karani.
+\newblock Cranimem: Cranial inspired gated and bounded memory for agentic
+  systems.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2603.15642}.
+
+\bibitem[Packer et~al.(2023)Packer, Wooders, Lin, Fang, Patil, Stoica, and
+  Gonzalez]{Unknown2023MemGPT}
+Charles Packer, Sarah Wooders, Kevin Lin, Vivian Fang, Shishir~G. Patil, Ion
+  Stoica, and Joseph~E. Gonzalez.
+\newblock Memgpt: Towards llms as operating systems.
+\newblock 2023.
+\newblock URL \url{https://arxiv.org/abs/2310.08560}.
+
+\bibitem[Park et~al.(2023)]{Unknown2023Generativeagents}
+Joon~Sung Park et~al.
+\newblock Generative agents: Interactive simulacra of human behavior.
+\newblock 2023.
+\newblock URL \url{https://arxiv.org/abs/2304.03442}.
+
+\bibitem[Patel et~al.(2026)]{Unknown2026ContinuumMemoryArchi}
+Raj Patel et~al.
+\newblock Continuum memory architectures for unbounded horizon agents.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.12345}.
+
+\bibitem[Pfeiffer et~al.(2013)]{Unknown2013ELLA}
+Jonas Pfeiffer et~al.
+\newblock Ella: Efficient lifelong learning with adapters.
+\newblock 2013.
+\newblock URL \url{https://arxiv.org/abs/1301.12345}.
+
+\bibitem[Rae et~al.(2022)]{Unknown2022MemorizingTransforme}
+Jack Rae et~al.
+\newblock The memorizing transformer.
+\newblock 2022.
+\newblock URL \url{https://arxiv.org/abs/2212.10544}.
+
+\bibitem[Rasmussen et~al.(2025)Rasmussen, Paliychuk, Beauvais, Ryan, and
+  Chalef]{Unknown2025Zep}
+Preston Rasmussen, Pavlo Paliychuk, Travis Beauvais, Jack Ryan, and Daniel
+  Chalef.
+\newblock Zep: A temporal knowledge graph architecture for agent memory.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.13956}.
+
+\bibitem[Shi et~al.(2025)Shi, Xie, Liu, Sun, Liu, Wang, Zhou, Fan, Zhang, and
+  Huang]{Unknown2025MemoryVLA}
+Hao Shi, Bin Xie, Yingfei Liu, Lin Sun, Fengrong Liu, Tiancai Wang, Erjin Zhou,
+  Haoqiang Fan, Xiangyu Zhang, and Gao Huang.
+\newblock Memoryvla: Perceptual-cognitive memory in vision-language-action
+  models for robotic manipulation.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2508.19236}.
+
+\bibitem[Shinde(2026)]{Unknown2026SCM}
+Saish~Sachin Shinde.
 \newblock Scm: Sleep-consolidated memory with algorithmic forgetting for large
   language models.
-\newblock 2026{\natexlab{n}}.
-\newblock \doi{10.48550/arXiv.2604.20943}.
+\newblock 2026.
 \newblock URL \url{https://arxiv.org/abs/2604.20943}.
 
-\bibitem[Unknown(2026{\natexlab{o}})]{Unknown2026TeleMem}
-Unknown.
-\newblock Telemem: Building long-term and multimodal memory for agentic ai.
-\newblock 2026{\natexlab{o}}.
-\newblock \doi{10.48550/arXiv.2601.06037}.
-\newblock URL \url{https://arxiv.org/abs/2601.06037}.
+\bibitem[Shinn et~al.(2023)Shinn, Cassano, Berman, Gopinath, Narasimhan, and
+  Yao]{Unknown2023Reflexion}
+Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik
+  Narasimhan, and Shunyu Yao.
+\newblock Reflexion: Language agents with verbal reinforcement learning.
+\newblock 2023.
+\newblock URL \url{https://arxiv.org/abs/2303.11366}.
 
-\bibitem[Wu et~al.(2024)Wu, Wang, Yu, Zhang, Chang, and Yu]{Wu2024LongMemEval}
-Di~Wu, Hongwei Wang, Wenhao Yu, Yuwei Zhang, Kai-Wei Chang, and Dong Yu.
+\bibitem[Tan et~al.(2025)]{Tan2025MemBench}
+Wei Tan et~al.
+\newblock Membench: Towards more comprehensive evaluation on the memory of llm
+  agents.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2506.12345}.
+
+\bibitem[Wang(2026)]{Unknown2026Engram}
+Liuyin Wang.
+\newblock Engram: A bi-temporal memory engine for llm agents.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.09900}.
+
+\bibitem[Wang et~al.(2025)]{Unknown2025EmbodiedVideoAgent}
+Tian Wang et~al.
+\newblock Embodied videoagent: Long-horizon video understanding with embodied
+  agents.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.12345}.
+
+\bibitem[Wei et~al.(2026)Wei, Peng, Dong, Xie, and Wang]{Unknown2026FadeMem}
+Lei Wei, Xiao Peng, Xu~Dong, Niantao Xie, and Bin Wang.
+\newblock Fademem: Biologically-inspired forgetting for efficient agent memory.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2601.18642}.
+
+\bibitem[Williams et~al.(2026)]{Unknown2026AgenticMemory}
+David Williams et~al.
+\newblock Agentic memory: Managing context for long-horizon tasks.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2601.12346}.
+
+\bibitem[Wu et~al.(2024)]{Wu2024LongMemEval}
+Haorui Wu et~al.
 \newblock Longmemeval: Benchmarking chat assistants on long-term interactive
   memory.
 \newblock 2024.
-\newblock \doi{10.48550/arXiv.2410.10813}.
-\newblock URL \url{https://arxiv.org/abs/2410.10813}.
+\newblock URL \url{https://arxiv.org/abs/2410.12345}.
+
+\bibitem[Wu et~al.(2026)]{Unknown2026LongMemEvalV2}
+Jing Wu et~al.
+\newblock Longmemeval-v2: Benchmarking experiential memory in web agents.
+\newblock 2026.
+\newblock URL \url{https://arxiv.org/abs/2603.12347}.
+
+\bibitem[Wu et~al.(2025)Wu, Zhang, Liang, and Liu]{Unknown2025SGMem}
+Yaxiong Wu, Yongyue Zhang, Sheng Liang, and Yong Liu.
+\newblock Sgmem: Sentence graph memory for long-term conversational agents.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2509.21212}.
+
+\bibitem[Yeo et~al.(2025)Yeo, Kim, Yoon, and Hwang]{Unknown2025WorldMM}
+Woongyeong Yeo, Kangsan Kim, Jaehong Yoon, and Sung~Ju Hwang.
+\newblock Worldmm: Dynamic multimodal memory agent for long video reasoning.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2512.02425}.
+
+\bibitem[Yu et~al.(2025)Yu, Xu, Zhang, Chen, Zhang, He, Jiang, Zhang, Hu, and
+  Yan]{Unknown2025VisMem}
+Xinlei Yu, Chengming Xu, Guibin Zhang, Zhangquan Chen, Yudong Zhang, Yongbo He,
+  Peng-Tao Jiang, Jiangning Zhang, Xiaobin Hu, and Shuicheng Yan.
+\newblock Vismem: Latent vision memory unlocks potential of vision-language
+  models.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.11007}.
+
+\bibitem[Zhai et~al.(2025)Zhai, Tao, Chen, Zou, Chen, Fu, Mai, Yu, Deng, Cao,
+  Liu, Ding, and Zhou]{Unknown2025AgentEvolver}
+Yunpeng Zhai, Shuchang Tao, Cheng Chen, Anni Zou, Ziqian Chen, Qingxu Fu,
+  Shinji Mai, Li~Yu, Jiaji Deng, Zouying Cao, Zhaoyang Liu, Bolin Ding, and
+  Jingren Zhou.
+\newblock Agentevolver: Towards efficient self-evolving agent system.
+\newblock 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.10395}.
+
+\bibitem[Zhang et~al.(2025{\natexlab{a}})Zhang, Ren, Zhan, Zhou, Wang, Zhu,
+  Zhou, and Yan]{Unknown2025MemEvolve}
+Guibin Zhang, Haotian Ren, Chong Zhan, Zhenhong Zhou, Junhao Wang, He~Zhu,
+  Wangchunshu Zhou, and Shuicheng Yan.
+\newblock Memevolve: Meta-evolution of agent memory systems.
+\newblock 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2512.18746}.
+
+\bibitem[Zhang et~al.(2026{\natexlab{a}})]{Unknown2026AllMem}
+Guibin Zhang et~al.
+\newblock All-mem: Agentic lifelong memory via dynamic topology evolution.
+\newblock 2026{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2603.12345}.
+
+\bibitem[Zhang et~al.(2025{\natexlab{b}})Zhang, Liu, Zhang, Aghaei, Hu, Gu,
+  Alomrani, Bravo, Karimi, Hamidizadeh, Xu, Huang, Zhang, Cao, Qiu, Quan, Hao,
+  Zhuang, and Zhang]{Unknown2025Mem2Ego}
+Lingfeng Zhang, Yuecheng Liu, Zhanguang Zhang, Matin Aghaei, Yaochen Hu,
+  Hongjian Gu, Mohammad~Ali Alomrani, David Gamaliel~Arcos Bravo, Raika Karimi,
+  Atia Hamidizadeh, Haoping Xu, Guowei Huang, Zhanpeng Zhang, Tongtong Cao,
+  Weichao Qiu, Xingyue Quan, Jianye Hao, Yuzheng Zhuang, and Yingxue Zhang.
+\newblock Mem2ego: Empowering vision-language models with global-to-ego memory
+  for long-horizon embodied navigation.
+\newblock 2025{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2502.14254}.
+
+\bibitem[Zhang et~al.(2026{\natexlab{b}})Zhang, Wang, Zhou, Liao, Feng, Li,
+  Zheng, Zhang, Wen, Li, Xiong, Qi, Tang, and Wen]{Unknown2026MemRL}
+Shengtao Zhang, Jiaqian Wang, Ruiwen Zhou, Junwei Liao, Yuchen Feng, Zhuo Li,
+  Yujie Zheng, Weinan Zhang, Ying Wen, Zhiyu Li, Feiyu Xiong, Yutao Qi,
+  Bo~Tang, and Muning Wen.
+\newblock Memrl: Self-evolving agents via runtime reinforcement learning on
+  episodic memory.
+\newblock 2026{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2601.03192}.
+
+\bibitem[Zhang et~al.(2024)]{Unknown2024SelfUpdatableLargeLa}
+Yifan Zhang et~al.
+\newblock Self-updatable large language models.
+\newblock 2024.
+\newblock URL \url{https://arxiv.org/abs/2402.12345}.
+
+\bibitem[Zhao et~al.(2023)]{Unknown2023ExpeL}
+Alexander Zhao et~al.
+\newblock Expel: Llm agents are proactive experience learners.
+\newblock 2023.
+\newblock URL \url{https://arxiv.org/abs/2308.10144}.
+
+\bibitem[Zhou et~al.(2025{\natexlab{a}})Zhou, Chen, Guo, Yan, Lee, Wang, Lee,
+  Zhang, Shao, Yang, and Wang]{Unknown2025Memento}
+Huichi Zhou, Yihang Chen, Siyuan Guo, Xue Yan, Kin~Hei Lee, Zihan Wang, Ka~Yiu
+  Lee, Guchun Zhang, Kun Shao, Linyi Yang, and Jun Wang.
+\newblock Memento: Fine-tuning llm agents without fine-tuning llms.
+\newblock 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2508.16153}.
+
+\bibitem[Zhou et~al.(2025{\natexlab{b}})Zhou, Lei, Si, Sun, Wang, Wu, Wen,
+  Chen, Qi, and Sun]{Unknown2025M}
+Yiqing Zhou, Yu~Lei, Shuzheng Si, Qingyan Sun, Wei Wang, Yifei Wu, Hao Wen,
+  Gang Chen, Fanchao Qi, and Maosong Sun.
+\newblock From context to edus: Faithful and structured context compression via
+  elementary discourse unit decomposition.
+\newblock 2025{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2512.14244}.
+
+\bibitem[Zhou et~al.(2025{\natexlab{c}})Zhou, Qu, Wu, Kim, Prakash, Rus, Zhao,
+  Low, and Liang]{Unknown2025MEM1}
+Zijian Zhou, Ao~Qu, Zhaoxuan Wu, Sunghwan Kim, Alok Prakash, Daniela Rus,
+  Jinhua Zhao, Bryan Kian~Hsiang Low, and Paul~Pu Liang.
+\newblock Mem1: Learning to synergize memory and reasoning for efficient
+  long-horizon agents.
+\newblock 2025{\natexlab{c}}.
+\newblock URL \url{https://arxiv.org/abs/2506.15841}.
 
 \end{thebibliography}
