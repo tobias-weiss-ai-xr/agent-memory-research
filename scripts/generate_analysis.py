@@ -3,30 +3,15 @@
 import json
 import re
 import os
+import yaml
 from collections import Counter, defaultdict
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # ── 1. Parse papers.yaml ──────────────────────────────────────────────
-entries = []
-current = None
-with open(os.path.join(BASE, 'papers.yaml')) as f:
-    for line in f:
-        m = re.match(r'^-\s+title:\s+(.*)', line)
-        if m:
-            if current: entries.append(current)
-            raw = m.group(1).strip()
-            if len(raw) >= 2 and raw[0] == "'" and raw[-1] == "'": raw = raw[1:-1]
-            current = {'title': raw}
-            continue
-        if current is None: continue
-        for key in ('date','category','subcategory','venue','url','code_url','project_url','abstract'):
-            m2 = re.match(r'\s+' + key + r':\s+(.*)', line)
-            if m2:
-                val = m2.group(1).strip()
-                if len(val) >= 2 and val[0] == "'" and val[-1] == "'": val = val[1:-1]
-                current[key] = val
-if current: entries.append(current)
+with open(os.path.join(BASE, 'papers.yaml'), encoding='utf-8') as f:
+    _data = yaml.safe_load(f)
+entries = _data.get('papers', [])
 print(f'Parsed {len(entries)} papers')
 
 # ── 2. Statistics ─────────────────────────────────────────────────────
@@ -538,6 +523,6 @@ drawHeatmap();
 </body>
 </html>'''
 
-with open(os.path.join(BASE, 'docs', 'graph_analysis.html'), 'w') as f:
+with open(os.path.join(BASE, 'docs', 'graph_analysis.html'), 'w', encoding='utf-8') as f:
     f.write(HTML)
 print(f'Wrote docs/graph_analysis.html ({len(HTML)} bytes)')
