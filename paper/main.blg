@@ -1,8 +1,11 @@
-This is BibTeX, Version 0.99d (TeX Live 2026/dev/Arch Linux)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: plainnat.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
+Warning--empty journal in Unknown2025AgentPoison
 Warning--empty journal in Kim2026MemRefine
 Warning--empty journal in DBLP:journals/corr/abs-2512-13564
 Warning--empty journal in Unknown2025MemoryAgeAIAgents
@@ -56,45 +59,45 @@ Warning--empty journal in Unknown2026MemRL
 Warning--empty journal in Unknown2026SCM
 Warning--empty journal in Unknown2026TeleMem
 Warning--empty journal in Wu2024LongMemEval
-You've used 54 entries,
+You've used 55 entries,
             2773 wiz_defined-function locations,
-            868 strings with 14087 characters,
-and the built_in function-call counts, 18751 in all, are:
-= -- 1736
-> -- 739
+            873 strings with 14311 characters,
+and the built_in function-call counts, 19277 in all, are:
+= -- 1778
+> -- 787
 < -- 49
-+ -- 322
-- -- 225
-* -- 1279
-:= -- 3067
-add.period$ -- 266
-call.type$ -- 54
-change.case$ -- 237
-chr.to.int$ -- 11
-cite$ -- 161
-duplicate$ -- 1031
-empty$ -- 1626
-format.name$ -- 279
-if$ -- 3817
++ -- 338
+- -- 240
+* -- 1327
+:= -- 3154
+add.period$ -- 270
+call.type$ -- 55
+change.case$ -- 245
+chr.to.int$ -- 12
+cite$ -- 164
+duplicate$ -- 1051
+empty$ -- 1657
+format.name$ -- 295
+if$ -- 3921
 int.to.chr$ -- 44
 int.to.str$ -- 1
-missing$ -- 54
-newline$ -- 382
-num.names$ -- 216
-pop$ -- 525
+missing$ -- 55
+newline$ -- 388
+num.names$ -- 220
+pop$ -- 542
 preamble$ -- 1
-purify$ -- 183
+purify$ -- 190
 quote$ -- 0
-skip$ -- 669
+skip$ -- 686
 stack$ -- 0
-substring$ -- 108
+substring$ -- 110
 swap$ -- 50
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 594
-warning$ -- 53
-while$ -- 162
+type$ -- 605
+warning$ -- 54
+while$ -- 165
 width$ -- 0
-write$ -- 810
-(There were 53 warnings)
+write$ -- 823
+(There were 54 warnings)

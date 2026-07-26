@@ -5,7 +5,7 @@ Most paper surveys are static artifacts: the authors manually curate a list, wri
 
 \subsection{Single Source of Truth}
 
-All paper metadata is stored in \texttt{papers.yaml} in the repository root. Each entry includes title, date (YYYY-MM), URL, taxonomy category (factual, experiential, or working), subcategory (token-level, parametric, or latent), authors, venue, code URL, project URL, abstract, and tags. The YAML format was chosen because it is human-readable, diffable, and easy to version-control. As of July 2026, \texttt{papers.yaml} contains 282 entries spanning from 2013 to 2026.
+All paper metadata is stored in \texttt{papers.yaml} in the repository root. Each entry includes title, date (YYYY-MM), URL, taxonomy category (factual, experiential, or working), subcategory (token-level, parametric, or latent), authors, venue, code URL, project URL, abstract, and tags. The YAML format was chosen because it is human-readable, diffable, and easy to version-control. As of July 2026, \texttt{papers.yaml} contains 952 entries spanning from 2011 to 2026.
 
 This single file drives all downstream outputs through a deterministic generation pipeline.
 
@@ -29,9 +29,9 @@ Three Python scripts implement the pipeline:
 
 \texttt{validate\_papers.py} performs comprehensive structural and semantic validation. It checks that all URLs are reachable (or at least well-formed), normalizes arXiv URLs to a canonical form (e.g., ensuring \texttt{abs/} paths), detects potential duplicates by comparing normalized titles and URLs, and verifies that category--subcategory assignments follow the taxonomy's allowlist. It is designed to run on every pull request.
 
-\texttt{fetch\_metadata.py} enriches \texttt{papers.yaml} by querying arXiv's OAI-PMH API and Semantic Scholar for missing fields: author lists, publication venue, abstract text, and DOI. It respects rate limits and caches results locally to avoid redundant queries. This script is run periodically to fill in entries that were added with minimal metadata.
+\texttt{fetch\_metadata.py} enriches \texttt{papers.yaml} by querying arXiv's OAI-PMH API and Semantic Scholar for missing fields: author lists, publication venue, abstract text, and DOI. A bulk variant (\texttt{fetch\_metadata\_bulk.py}) uses arXiv's \texttt{id\_list} batch endpoint to fetch up to 50 papers per request, enabling enrichment of the full corpus in minutes rather than hours. These scripts respect rate limits and are run periodically to fill in entries that were added with minimal metadata.
 
-\texttt{fetch\_new\_papers.py} implements arXiv-based discovery. Given a date range and a set of search keywords (e.g., ``agent memory,'' ``episodic memory,'' ``long-term memory''), it queries the arXiv API for new submissions, filters by relevance to agent memory, and outputs candidate entries for human review. This reduces the manual effort of staying current: the script surfaces candidates, and the curator accepts, rejects, or modifies each one.
+\texttt{fetch\_new\_papers.py} implements arXiv-based discovery. Given a date range and a set of search keywords (e.g., ``agent memory,'' ``episodic memory,'' ``long-term memory''), it queries the arXiv API for new submissions, filters by relevance to agent memory, and outputs candidate entries for human review. This reduces the manual effort of staying current: the script surfaces candidates, and the curator accepts, rejects, or modifies each one. The current corpus was assembled through multiple rounds of such discovery, augmented by OpenAlex, CrossRef, and Semantic Scholar citation-network traversal.
 
 \subsection{Continuous Integration}
 

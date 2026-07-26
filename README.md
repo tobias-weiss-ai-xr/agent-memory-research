@@ -34,6 +34,7 @@ This fork adds:
 - **Contributor guardrails**: CONTRIBUTING.md, issue/PR templates, URL normalization rules
 
 ## 📢 News
+- [2026/07] 📄 **Extended survey revised!** Updated to 952 papers (498 since Feb 2026). Added two new theme clusters (security/adversarial robustness, efficiency/compression) to the taxonomy. See [paper/main.pdf](paper/main.pdf) — 18 pages
 - [2026/07] 📚 **Added 787 new papers!** Discovered via 200+ arXiv API queries, OpenAlex, CrossRef, and Semantic Scholar citation networks across 16 search rounds. Now 953 entries (896 unique arXiv papers).
 - [2026/07] 📚 **Added 357 new papers!** Discovered via 100+ arXiv API queries across 13 search rounds covering memory architectures, security, benchmarks, consolidation, forgetting, embodied agents, prospective memory, and July 2026 releases. Now 616 entries (573 unique arXiv papers).
 - [2026/07] 📚 **Added 264 new papers!** Discovered via 80+ arXiv API queries across 10 search rounds covering memory architectures, security, benchmarks, consolidation, forgetting, embodied agents, and more.
