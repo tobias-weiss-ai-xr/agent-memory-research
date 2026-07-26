@@ -19489,7 +19489,7 @@ papers:
 - title: 'Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems'
   date: 2026-07
   url: https://arxiv.org/abs/2607.14611
-  category: working
+  category: factual
   subcategory: token-level
   authors:
   - Soham Gadgil
@@ -19519,7 +19519,7 @@ papers:
     Deception in Agentic AI'
   date: 2026-07
   url: https://arxiv.org/abs/2607.19433
-  category: working
+  category: factual
   subcategory: token-level
   authors:
   - Om Narayan
@@ -19616,7 +19616,7 @@ papers:
     in LLM Agents'
   date: 2026-07
   url: https://arxiv.org/abs/2607.14651
-  category: working
+  category: factual
   subcategory: token-level
   authors:
   - Jifeng Gao
@@ -19651,7 +19651,7 @@ papers:
     Personal Agents'
   date: 2026-07
   url: https://arxiv.org/abs/2607.05189
-  category: working
+  category: factual
   subcategory: token-level
   authors:
   - Yechao Zhang
@@ -19692,7 +19692,7 @@ papers:
     Agent Memory'
   date: 2026-07
   url: https://arxiv.org/abs/2607.05029
-  category: working
+  category: factual
   subcategory: token-level
   authors:
   - Neeraj Karamchandani
