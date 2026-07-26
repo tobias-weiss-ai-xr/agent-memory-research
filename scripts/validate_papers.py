@@ -104,7 +104,7 @@ def main():
         print(f"ERROR: {yaml_path} not found", flush=True)
         sys.exit(1)
 
-    with open(yaml_path, "r") as f:
+    with open(yaml_path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f) or {}
 
     errors, warnings, fixed = validate_papers(data, fix=args.fix)
@@ -120,7 +120,7 @@ def main():
             print(f"  - {w}", flush=True)
 
     if fixed > 0:
-        with open(yaml_path, "w") as f:
+        with open(yaml_path, "w", encoding="utf-8") as f:
             yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
         print(f"FIXED: {fixed} URL(s) normalized", flush=True)
 

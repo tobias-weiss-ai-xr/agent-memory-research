@@ -82,7 +82,7 @@ def main():
         print(f"ERROR: {yaml_path} not found", flush=True)
         sys.exit(1)
 
-    with open(yaml_path, "r") as f:
+    with open(yaml_path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f) or {}
 
     papers = data.get("papers", [])
@@ -145,7 +145,7 @@ def main():
         time.sleep(API_DELAY)
 
     if not args.dry_run and updated > 0:
-        with open(yaml_path, "w") as f:
+        with open(yaml_path, "w", encoding="utf-8") as f:
             yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
         print(f"\nUpdated {updated} field(s) in {yaml_path}", flush=True)
     elif args.dry_run:
