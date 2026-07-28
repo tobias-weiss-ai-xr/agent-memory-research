@@ -14,6 +14,7 @@
 [![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen.svg?logo=github)](https://tobias-weiss-ai-xr.github.io/agent-memory-research/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?)](LICENSE)
 [![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/agent-memory-research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/agent-memory-research/actions/workflows/validate.yml)
+[![Benchmark](https://img.shields.io/badge/Benchmark-AMBench-004D40.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-memory-bench)
 
 </div>
 
