@@ -35,8 +35,14 @@ for idx, cat in enumerate(cats):
 # Vertical line at Jan 2026 cutoff
 cutoff_x = years.index(2026) + 0.5
 ax.axvline(x=cutoff_x, color="red", linestyle="--", linewidth=1, alpha=0.7)
-ax.text(cutoff_x + 0.1, ax.get_ylim()[1] * 0.9, "Original Survey\nCutoff (Jan 2026)",
-        fontsize=7, color="red", va="top")
+ax.text(
+    cutoff_x + 0.1,
+    ax.get_ylim()[1] * 0.9,
+    "Original Survey\nCutoff (Jan 2026)",
+    fontsize=7,
+    color="red",
+    va="top",
+)
 
 ax.set_xlabel("Year", fontsize=10)
 ax.set_ylabel("Number of Papers", fontsize=10)
@@ -47,7 +53,15 @@ ax.legend(fontsize=8, loc="upper left")
 ax.set_xlim(-0.5, len(years) - 0.5)
 
 plt.tight_layout()
-out = base / "paper/figures/fig3_timeline.pdf"
-out.parent.mkdir(parents=True, exist_ok=True)
-plt.savefig(out, bbox_inches="tight")
-print(f"Saved {out}")
+out_pdf = base / "paper/figures/fig3_timeline.pdf"
+out_png = base / "paper/figures/fig3_timeline.png"
+out_png_web = (
+    base.parent
+    / "next-tobias-weiss-org/public/images/research/agent-memory-fig3-timeline.png"
+)
+out_pdf.parent.mkdir(parents=True, exist_ok=True)
+out_png_web.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out_pdf, bbox_inches="tight")
+plt.savefig(out_png, bbox_inches="tight", dpi=150)
+plt.savefig(out_png_web, bbox_inches="tight", dpi=150)
+print(f"Saved {out_pdf}")

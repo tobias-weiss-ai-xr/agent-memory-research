@@ -34,10 +34,10 @@ This fork adds:
 - **Contributor guardrails**: CONTRIBUTING.md, issue/PR templates, URL normalization rules
 
 ## 📢 News
-- [2026/07] 📄 **Extended survey revised!** Updated to 952 papers (498 since Feb 2026). Added two new theme clusters (security/adversarial robustness, efficiency/compression) to the taxonomy. See [paper/main.pdf](paper/main.pdf) — 18 pages
+- [2026/07] 📄 **Extended survey revised!** Updated to 1,049 papers (595 since Feb 2026). Added two new theme clusters (security/adversarial robustness, efficiency/compression) to the taxonomy. See [paper/main.pdf](paper/main.pdf) — 18 pages
+- [2026/07] 📚 **Added 83 new papers!** Discovered via arXiv API queries for ``agent memory'', ``memory system'' agent, and ``long-term memory'' agent. Now 1,049 entries.
 - [2026/07] 📚 **Added 787 new papers!** Discovered via 200+ arXiv API queries, OpenAlex, CrossRef, and Semantic Scholar citation networks across 16 search rounds. Now 953 entries (896 unique arXiv papers).
 - [2026/07] 📚 **Added 357 new papers!** Discovered via 100+ arXiv API queries across 13 search rounds covering memory architectures, security, benchmarks, consolidation, forgetting, embodied agents, prospective memory, and July 2026 releases. Now 616 entries (573 unique arXiv papers).
-- [2026/07] 📚 **Added 264 new papers!** Discovered via 80+ arXiv API queries across 10 search rounds covering memory architectures, security, benchmarks, consolidation, forgetting, embodied agents, and more.
 - [2026/06] 📄 **Extended survey released!** See [Agent Memory Research in 2026: A Data-Driven Survey and Extended Taxonomy](paper/main.pdf) — 19 pages, 259 papers, expanded 6-dimension taxonomy
 - [2026/06] 🔧 Refactored to data-driven architecture: `papers.yaml` → `generate_readme.py` → `README.md`
 - [2026/06] 🤖 Added automation: paper validator, metadata fetcher, new paper discovery
@@ -530,6 +530,10 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2025/06] Hybrid Multi-Agent GraphRAG for E-Government: Towards a Trustworthy AI Assistant. [[paper](https://doi.org/https://doi.org/10.3390/app15116315)]
 - [2024/01] ATM: Adversarial Tuning Multi-agent System Makes a Robust Retrieval-Augmented Generator. [[paper](https://doi.org/https://doi.org/10.18653/v1/2024.emnlp-main.610)]
 - [2024/05] Episodic Question Answering for Cognitive Agents. [[paper](https://doi.org/https://doi.org/10.21203/rs.3.rs-4351479/v1)]
+- [2026/07] ConsistencyGate: Preventing Memory Contamination in LLM Agents via Self-Consistency Admission Control. [[paper](https://arxiv.org/abs/2607.22962)]
+- [2026/07] From Cognitive Architectures to Language Agents: A Mechanism-Level Review of Lineage, Convergence, and Migration Gaps. [[paper](https://arxiv.org/abs/2607.23942)]
+- [2026/07] Isolated but Exposed: Persistence-Based Memory Extraction Attack on LLM Agents. [[paper](https://arxiv.org/abs/2607.23444)]
+- [2026/07] The Chronos Vulnerability: A Taxonomy of Temporal Persistence and Memory-Based Deception in Agentic AI. [[paper](https://arxiv.org/abs/2607.19433)]
 
 #### Parametric
 
@@ -584,6 +588,8 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2025/10] Are Agents Probabilistic Automata? A Trace-Based, Memory-Constrained Theory of Agentic AI. [[paper](https://arxiv.org/abs/2510.23487)]
 - [2024/03] Efficient Episodic Memory Utilization of Cooperative Multi-Agent Reinforcement Learning. [[paper](https://openreview.net/forum?id=LjivA1SLZ6)]
 - [2021/12] Detecting Local Insights from Global Labels: Supervised & Zero-Shot Sequence Labeling via a Convolutional Decomposition. [[paper](https://doi.org/10.1162/coli_a_00416)]
+- [2026/07] Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory. [[paper](https://arxiv.org/abs/2607.24368)]
+- [2026/07] LazyMem: Retrieve Broadly, Construct Selectively for Efficient Long-Term Agent Memory. [[paper](https://arxiv.org/abs/2607.22690)]
 
 ### Experiential Memory
 
@@ -742,6 +748,22 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2023/05] CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning of Large Language Models. [[paper](https://doi.org/10.18653/v1/2023.findings-emnlp.462)]
 - [2026/05] SECREFLECT: Reliable Context Evolution for Autonomous Cyber Agents via Pre-Memory Reflection Validation. [[paper](https://doi.org/https://doi.org/10.21203/rs.3.rs-9843491/v1)]
 - [2026/01] What Deserves Memory: Adaptive Memory Distillation for LLM Agents. [[paper](https://doi.org/https://doi.org/10.18653/v1/2026.acl-long.1607)]
+- [2026/07] MemVLN: Episodic and Procedural Memory for Vision-and-Language Navigation. [[paper](https://arxiv.org/abs/2607.23504)]
+- [2026/07] Beyond Episodic Evaluation: Memory Architectural Bottlenecks in Sequential Embodied Question Answering. [[paper](https://arxiv.org/abs/2607.21571)]
+- [2026/07] Memory-Driven Self-Disclosure and Relational Turning Points: A Longitudinal Multimodal Study of Human-AI Interaction. [[paper](https://arxiv.org/abs/2607.14593)]
+- [2026/07] VTM-Nav: Harnessing Cross-Episode Experience for Object-Goal Navigation with Hierarchical Visual-Topological Memory. [[paper](https://arxiv.org/abs/2607.14514)]
+- [2026/07] MAPS: Modeling Co-Existing Subjective Perspectives and Shared Meaning in Multi-Agent Cognitive Dialogue. [[paper](https://arxiv.org/abs/2607.14110)]
+- [2026/07] An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory. [[paper](https://arxiv.org/abs/2607.11707)]
+- [2026/07] Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs. [[paper](https://arxiv.org/abs/2606.23283)]
+- [2026/07] StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance. [[paper](https://arxiv.org/abs/2606.14571)]
+- [2026/07] Selective QA over Conflicting Multi-Source Personal Memory: A Diagnostic Testbed and Method Comparison. [[paper](https://arxiv.org/abs/2605.30087)]
+- [2026/07] Beyond Recall: Behavioral Specification as an Interpretive Layer for AI Personalization. [[paper](https://arxiv.org/abs/2605.28969)]
+- [2026/07] Personal Visual Memory from Explicit and Implicit Evidence. [[paper](https://arxiv.org/abs/2605.28806)]
+- [2026/07] The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems. [[paper](https://arxiv.org/abs/2605.21997)]
+- [2026/07] Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture. [[paper](https://arxiv.org/abs/2604.27045)]
+- [2026/07] StructMem: Structured Memory for Long-Horizon Behavior in LLMs. [[paper](https://arxiv.org/abs/2604.21748)]
+- [2026/07] VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents. [[paper](https://arxiv.org/abs/2603.23840)]
+- [2026/07] Mind Your HEARTBEAT! Claw Background Execution Inherently Enables Silent Memory Pollution. [[paper](https://arxiv.org/abs/2603.23064)]
 
 #### Parametric
 
@@ -755,6 +777,7 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2026/05] FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast. [[paper](https://arxiv.org/abs/2605.16233)]
 - [2026/03] APEX-EM: Non-Parametric Online Learning for Autonomous Agents via Structured Procedural-Episodic Experience Replay. [[paper](https://arxiv.org/abs/2603.29093)]
 - [2023/06] A Machine with Short-Term, Episodic, and Semantic Memory Systems. [[paper](https://doi.org/10.1609/aaai.v37i1.25075)]
+- [2026/07] WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction. [[paper](https://arxiv.org/abs/2605.29341)]
 
 #### Latent
 
@@ -771,6 +794,8 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2026/06] ConMem: Structured Memory-Guided Adaptation in Training-Free Multi-Agent Systems. [[paper](https://arxiv.org/abs/2606.08702)]
 - [2026/03] Temporal Memory for Resource-Constrained Agents: Continual Learning via Stochastic Compress-Add-Smooth. [[paper](https://arxiv.org/abs/2604.00067)]
 - [2026/01] Experience-Driven Multi-Agent Systems Are Training-free Context-aware Earth Observers. [[paper](https://arxiv.org/abs/2602.02559)]
+- [2026/07] MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents. [[paper](https://arxiv.org/abs/2607.24097)]
+- [2026/06] Profile-Graph Memory for LLM Agents: Implicit Cross-Entity Traversal through Narrative Profiles. [[paper](https://arxiv.org/abs/2607.19359)]
 
 ### Working Memory
 
@@ -996,12 +1021,82 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2024/05] Retrieval-Augmented Generation and LLM Agents for Biomimicry Design Solutions. [[paper](https://doi.org/https://doi.org/10.1609/aaaiss.v3i1.31210)]
 - [2025/01] GeAR: Graph-enhanced Agent for Retrieval-augmented Generation. [[paper](https://doi.org/https://doi.org/10.18653/v1/2025.findings-acl.624)]
 - [2025/01] ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents. [[paper](https://doi.org/https://doi.org/10.18653/v1/2025.emnlp-main.464)]
+- [2026/07] ACM: Agentic Context Management for Long Horizon Tasks. [[paper](https://arxiv.org/abs/2607.23809)]
+- [2026/07] Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV. [[paper](https://arxiv.org/abs/2607.23693)]
+- [2026/07] Supra Cognitive Modes: A Routed Architecture for Agent Memory. [[paper](https://arxiv.org/abs/2607.19096)]
+- [2026/07] ContainmentBench: Trace-Based Evaluation of Post-Injection Containment in Tool-Using LLM Agents. [[paper](https://arxiv.org/abs/2607.23999)]
+- [2026/07] ReCon: A Resource-Constrained Benchmark for LLM-Based Cybersecurity Compliance Across Ingestion and Retrieval Pipelines. [[paper](https://arxiv.org/abs/2607.22885)]
+- [2026/07] SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent. [[paper](https://arxiv.org/abs/2607.22562)]
+- [2026/07] Ground Truth First: A Longitudinal Evaluation Instrument for Agent Memory, and the Tenure Crossover in Memory-Architecture Rankings. [[paper](https://arxiv.org/abs/2607.21962)]
+- [2026/07] Encoding Invisible Causation for Bridge Diagnostic Agents: Triple-Guided Retrieval-Augmented Fine-Tuning with QLoRA. [[paper](https://arxiv.org/abs/2607.21680)]
+- [2026/07] AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems. [[paper](https://arxiv.org/abs/2607.21604)]
+- [2026/07] Causal-AgentIR: Self-Evolving Causal Memory for Adaptive Image Restoration Agents. [[paper](https://arxiv.org/abs/2607.21125)]
+- [2026/07] Workflow-Localized Mechanism Learning: Attribution-Guided Repair and Knowledge Reuse for Structured Agent Skills. [[paper](https://arxiv.org/abs/2607.20999)]
+- [2026/07] TraceDev: A Traceability-Driven Multi-agent Framework for Requirement-to-Code Development. [[paper](https://arxiv.org/abs/2607.18886)]
+- [2026/07] Formal Verification of an Out-of-Order Multiprocessor against an In-Order Weak-Memory ISA. [[paper](https://arxiv.org/abs/2607.18727)]
+- [2026/07] Learnable Sequential Memory in Coupled Oscillator Networks. [[paper](https://arxiv.org/abs/2607.18439)]
+- [2026/07] A Calculus of Discernment: Decision-Relevant Insight, Sequence Value, and Forgetting as Higher-Order Learning. [[paper](https://arxiv.org/abs/2607.18275)]
+- [2026/07] HyMCache: A KV Cache Framework for Multi-Turn LLM Serving with CXL-Hybrid Memory. [[paper](https://arxiv.org/abs/2607.18141)]
+- [2026/07] RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning. [[paper](https://arxiv.org/abs/2607.18060)]
+- [2026/07] Evidence-in-the-Loop: Trace-Driven Optimization for Customer-Service LLM Agents. [[paper](https://arxiv.org/abs/2607.18039)]
+- [2026/07] PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution. [[paper](https://arxiv.org/abs/2607.16636)]
+- [2026/07] Self-Evolving Just-In-Time Memory for Proactive Embodied Safety. [[paper](https://arxiv.org/abs/2607.16247)]
+- [2026/07] SkillNav: Score-Level Skill Intervention for Zero-Shot Object Goal Navigation. [[paper](https://arxiv.org/abs/2607.15758)]
+- [2026/07] Are LLM-Generated GPU Kernels Production-Ready? A Trace-Driven Benchmark and Optimization Agent. [[paper](https://arxiv.org/abs/2607.14541)]
+- [2026/07] CatalogAgent: A Supervisor-mediated Self-Learning System Enabling Context Engineering for GenAI Models. [[paper](https://arxiv.org/abs/2607.14396)]
+- [2026/07] AI Agents Do Not Fail Alone:The Context Fails First. [[paper](https://arxiv.org/abs/2607.14275)]
+- [2026/07] Zero2Skill: Bootstrapping Robot Skills through Autonomous Data Collection, Training, and Deployment. [[paper](https://arxiv.org/abs/2607.14047)]
+- [2026/07] SPyCE: Skill-Policy Co-evolution for Multimodal Agents. [[paper](https://arxiv.org/abs/2607.13854)]
+- [2026/07] SkillComm: Skill-Driven Semantic Communication for Sequential Workflows via Incremental Token Transmission. [[paper](https://arxiv.org/abs/2607.11972)]
+- [2026/07] Self-Healing Coordination in Cognitive Swarm Agents with Bloch-Type Perceptual Memory. [[paper](https://arxiv.org/abs/2607.11960)]
+- [2026/07] Forgetting Our Way to Shared Meaning: Effects of Forgetting on Conceptual Alignment in a Non-Partnership Coordination Game. [[paper](https://arxiv.org/abs/2607.11787)]
+- [2026/07] Heterogeneous Agent Cohorts for Safe Open-Ended Exploration with Runtime Constraint Memory. [[paper](https://arxiv.org/abs/2607.11226)]
+- [2026/07] Feedback-Coupled Memory Systems in Continuous Time. [[paper](https://arxiv.org/abs/2607.09714)]
+- [2026/07] MemDelta: Controlled Baselines and Hidden Confounds in Agent Memory Evaluation. [[paper](https://arxiv.org/abs/2606.29914)]
+- [2026/07] MemLeak: Diagnosing Information Leaks in Multimodal Agent Memory. [[paper](https://arxiv.org/abs/2606.29788)]
+- [2026/07] When Does Overlap Help? OSU-Mem and a Cell-Conditional Analysis of Trajectory Memory for LLM Agents. [[paper](https://arxiv.org/abs/2606.28376)]
+- [2026/07] Reclaim Evaluation: A Lossy Memory Is Worse Than an Empty One. [[paper](https://arxiv.org/abs/2606.25449)]
+- [2026/07] RAVEN: Long-Horizon Reasoning &amp; Navigation with a Visuo-Spatio-Temporal Memory. [[paper](https://arxiv.org/abs/2606.25206)]
+- [2026/07] MemTrace: Probing What Final Accuracy Misses in Long-Term Memory. [[paper](https://arxiv.org/abs/2606.17328)]
+- [2026/07] eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents. [[paper](https://arxiv.org/abs/2606.03374)]
+- [2026/07] PhotoCraft: Agentic Reasoning with Hierarchical Self-Evolving Memory for Deep Image Search. [[paper](https://arxiv.org/abs/2606.03099)]
+- [2026/07] Don&#39;t Ask the LLM to Track Freshness: A Deterministic Recipe for Memory Conflict Resolution. [[paper](https://arxiv.org/abs/2606.01435)]
+- [2026/07] MRMMIA: Membership Inference Attacks on Memory in Chat Agents. [[paper](https://arxiv.org/abs/2605.27825)]
+- [2026/07] MemConflict: Evaluating Long-Term Memory Systems Under Memory Conflicts. [[paper](https://arxiv.org/abs/2605.20926)]
+- [2026/07] Robo-Cortex: A Self-Evolving Embodied Agent via Dual-Grain Cognitive Memory and Autonomous Knowledge Induction. [[paper](https://arxiv.org/abs/2605.18729)]
+- [2026/07] SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?. [[paper](https://arxiv.org/abs/2605.17789)]
+- [2026/07] LASAR: Towards Spatio-temporal Reasoning with Latent Cognitive Map. [[paper](https://arxiv.org/abs/2605.16899)]
+- [2026/07] The Trap of Trajectory: Towards Understanding and Mitigating Spurious Correlations in Agentic Memory. [[paper](https://arxiv.org/abs/2605.09330)]
+- [2026/07] MemCompiler: Compile, Don&#39;t Inject -- State-Conditioned Memory for Embodied Agents. [[paper](https://arxiv.org/abs/2605.07594)]
+- [2026/07] MiA-Signature: Approximating Global Activation for Long-Context Understanding. [[paper](https://arxiv.org/abs/2605.06416)]
+- [2026/07] From Unstructured Recall to Schema-Grounded Memory: Reliable AI Memory via Iterative, Schema-Aware Extraction. [[paper](https://arxiv.org/abs/2604.27906)]
+- [2026/07] Contextual Agentic Memory is a Memo, Not True Memory. [[paper](https://arxiv.org/abs/2604.27707)]
+- [2026/07] BrainMem: Brain-Inspired Evolving Memory for Embodied Agent Task Planning. [[paper](https://arxiv.org/abs/2604.16331)]
+- [2026/07] MemExplorer: Navigating the Heterogeneous Memory Design Space for Agentic Inference NPUs. [[paper](https://arxiv.org/abs/2604.16007)]
+- [2026/07] FragFuse: Bypassing Access Control of Large Language Model Agents via Memory-Based Query Fragmentation and Fusion. [[paper](https://arxiv.org/abs/2606.15609)]
+- [2026/07] Memory-Induced Tool-Drift in LLM Agents. [[paper](https://arxiv.org/abs/2605.24941)]
+- [2026/07] MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing. [[paper](https://arxiv.org/abs/2605.02199)]
+- [2026/07] Automatic Ontology Construction Using LLMs as an External Layer of Memory, Verification, and Planning for Hybrid Intelligent Systems. [[paper](https://arxiv.org/abs/2604.20795)]
+- [2026/07] Dual-Timescale Memory in a Spiking Neuron-Astrocyte Network for Efficient Navigation. [[paper](https://arxiv.org/abs/2604.15391)]
+- [2026/07] MemX: A Local-First Long-Term Memory System for AI Assistants. [[paper](https://arxiv.org/abs/2603.16171)]
+- [2026/07] KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization. [[paper](https://arxiv.org/abs/2603.10085)]
+- [2026/07] LifeBench: A Benchmark for Long-Horizon Multi-Source Memory. [[paper](https://arxiv.org/abs/2603.03781)]
+- [2026/07] EventMemAgent: Hierarchical Event-Centric Memory for Online Video Understanding with Adaptive Tool Use. [[paper](https://arxiv.org/abs/2602.15329)]
+- [2026/07] STaR: Scalable Task-Conditioned Retrieval for Long-Horizon Multimodal Robot Memory. [[paper](https://arxiv.org/abs/2602.09255)]
+- [2026/07] How Implicit Bias Accumulates and Propagates in LLM Long-term Memory. [[paper](https://arxiv.org/abs/2602.01558)]
 
 #### Parametric
 
 - [2026/02] Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning. [[paper](https://arxiv.org/abs/2602.18493)]
 - [2024/05] Various Lengths, Constant Speed: Efficient Language Modeling with Lightning Attention. [[paper](https://openreview.net/forum?id=5wm6TiUP4X)]
 - [2024/01] Efficient Streaming Language Models with Attention Sinks. [[paper](https://openreview.net/forum?id=NG7sS51zVF)]
+- [2026/07] MemTX: Transactional Belief Commit for Stateful Agent Memory. [[paper](https://arxiv.org/abs/2607.23929)]
+- [2026/07] The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL. [[paper](https://arxiv.org/abs/2607.19749)]
+- [2026/07] Memory Merge DQN: Sensitivity Weighted Target Updates for Stable Value Learning. [[paper](https://arxiv.org/abs/2607.19397)]
+- [2026/07] In-Context Reinforcement Learning under Non-Stationarity: A Survey. [[paper](https://arxiv.org/abs/2607.11906)]
+- [2026/07] MolMem: Memory-Augmented Agentic Reinforcement Learning for Sample-Efficient Molecular Optimization. [[paper](https://arxiv.org/abs/2604.12237)]
+- [2026/07] Social Hippocampus Memory Learning. [[paper](https://arxiv.org/abs/2603.25614)]
+- [2026/07] Explore with Long-term Memory: A Benchmark and Multimodal LLM-based Reinforcement Learning Framework for Embodied Exploration. [[paper](https://arxiv.org/abs/2601.10744)]
 
 #### Latent
 
@@ -1058,6 +1153,8 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2024/03] Focused Transformer: Contrastive Training for Context Scaling. [[paper](https://papers.nips.cc/paper_files/paper/2023/hash/8511d06d5590f4bda24d42087802cc81-Abstract-Conference.html)]
 - [2023/06] H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models. [[paper](https://papers.nips.cc/paper_files/paper/2023/hash/6ceefa7b15572587b78ecfcebb2827f8-Abstract-Conference.html)]
 - [2022/08] Memorizing Transformers. [[paper](https://openreview.net/forum?id=TrjbxzRcnf-)]
+- [2026/07] Co-Evolving Graph and Text Memory for Training-Free Multi-Hop Question Answering. [[paper](https://arxiv.org/abs/2607.23278)]
+- [2026/07] Short-Term-to-Long-Term Memory Transfer for Knowledge Graphs under Partial Observability. [[paper](https://arxiv.org/abs/2605.22142)]
 
 ## 📖 Citation
 

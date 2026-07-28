@@ -32,16 +32,31 @@ ax.set_yticklabels(cat_labels, fontsize=10)
 
 for i in range(3):
     for j in range(3):
-        ax.text(j, i, str(grid[i, j]), ha="center", va="center",
-                fontsize=16, fontweight="bold",
-                color="white" if grid[i, j] > grid.max() / 2 else "black")
+        ax.text(
+            j,
+            i,
+            str(grid[i, j]),
+            ha="center",
+            va="center",
+            fontsize=16,
+            fontweight="bold",
+            color="white" if grid[i, j] > grid.max() / 2 else "black",
+        )
 
 cbar = fig.colorbar(im, ax=ax, shrink=0.8)
 cbar.set_label("Number of Papers", fontsize=9)
 ax.set_title("Paper Distribution Across Taxonomy Cells", fontsize=11, fontweight="bold")
 
 plt.tight_layout()
-out = base / "paper/figures/fig2_heatmap.pdf"
-out.parent.mkdir(parents=True, exist_ok=True)
-plt.savefig(out, bbox_inches="tight")
-print(f"Saved {out}")
+out_pdf = base / "paper/figures/fig2_heatmap.pdf"
+out_png = base / "paper/figures/fig2_heatmap.png"
+out_png_web = (
+    base.parent
+    / "next-tobias-weiss-org/public/images/research/agent-memory-fig2-heatmap.png"
+)
+out_pdf.parent.mkdir(parents=True, exist_ok=True)
+out_png_web.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out_pdf, bbox_inches="tight")
+plt.savefig(out_png, bbox_inches="tight", dpi=150)
+plt.savefig(out_png_web, bbox_inches="tight", dpi=150)
+print(f"Saved {out_pdf}")

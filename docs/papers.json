@@ -19180,6 +19180,2055 @@
       "project_url": "",
       "abstract": "",
       "tags": []
+    },
+    {
+      "title": "Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.24368",
+      "category": "factual",
+      "subcategory": "latent",
+      "authors": [
+        "Ruizhe Li",
+        "Mingxuan Du",
+        "Benfeng Xu",
+        "Zhendong Mao"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "benchmark",
+        "implicit-association",
+        "long-term memory",
+        "agent memory",
+        "retrieval"
+      ]
+    },
+    {
+      "title": "MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.24097",
+      "category": "experiential",
+      "subcategory": "latent",
+      "authors": [
+        "Yiwen Ma",
+        "Songjun Tu",
+        "Qichao Zhang",
+        "Dong Li",
+        "Linjing Li",
+        "Dongbin Zhao"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "memory-augmented LLM",
+        "memory traces",
+        "reinforcement learning",
+        "post-retrieval",
+        "evidence grounding"
+      ]
+    },
+    {
+      "title": "MemTX: Transactional Belief Commit for Stateful Agent Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.23929",
+      "category": "working",
+      "subcategory": "parametric",
+      "authors": [
+        "Xiaoyang Li",
+        "Yiqi Wang",
+        "Haohui Lu",
+        "Zhi Chen",
+        "Mo Li",
+        "Pingan Song",
+        "Taotao Cai"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "transactional memory",
+        "belief commit",
+        "stateful agents",
+        "LLM agents",
+        "consistency"
+      ]
+    },
+    {
+      "title": "ACM: Agentic Context Management for Long Horizon Tasks",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.23809",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Xiaochuan Li",
+        "Ryan Ming",
+        "Meng Chu",
+        "Shuai Shao",
+        "Rong Jin",
+        "Chenyan Xiong"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "context management",
+        "long-horizon tasks",
+        "agent memory",
+        "context compression",
+        "short-term memory"
+      ]
+    },
+    {
+      "title": "LazyMem: Retrieve Broadly, Construct Selectively for Efficient Long-Term Agent Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.22690",
+      "category": "factual",
+      "subcategory": "latent",
+      "authors": [
+        "Jing Yu",
+        "Yibo Zhao",
+        "Jiaming Zhang",
+        "Xiang Li"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "long-term memory",
+        "query-time construction",
+        "selective retention",
+        "LLM agents",
+        "reinforcement learning"
+      ]
+    },
+    {
+      "title": "ConsistencyGate: Preventing Memory Contamination in LLM Agents via Self-Consistency Admission Control",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.22962",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Yan Zhang",
+        "Shibo Li"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "memory contamination",
+        "admission control",
+        "self-consistency",
+        "LLM agents",
+        "hallucination prevention"
+      ]
+    },
+    {
+      "title": "MemVLN: Episodic and Procedural Memory for Vision-and-Language Navigation",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.23504",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Yuqi Liu",
+        "Shengju Qian",
+        "Tianyuan Qu",
+        "Mingxian Lin",
+        "Zixuan Wang",
+        "Xin Wang",
+        "Bei Yu",
+        "Jiaya Jia"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "VLN",
+        "episodic memory",
+        "procedural memory",
+        "vision-and-language navigation",
+        "LLM",
+        "real-time inference"
+      ]
+    },
+    {
+      "title": "Co-Evolving Graph and Text Memory for Training-Free Multi-Hop Question Answering",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.23278",
+      "category": "working",
+      "subcategory": "latent",
+      "authors": [
+        "Hieu Man",
+        "Thien Huu Nguyen"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "multi-hop QA",
+        "graph memory",
+        "text memory",
+        "training-free",
+        "working memory",
+        "co-evolution"
+      ]
+    },
+    {
+      "title": "Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.23693",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Zefeng Cai",
+        "Zerui Cai"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "KV cache",
+        "event memory",
+        "sparse memory",
+        "long-horizon agents",
+        "semantic materialization"
+      ]
+    },
+    {
+      "title": "From Cognitive Architectures to Language Agents: A Mechanism-Level Review of Lineage, Convergence, and Migration Gaps",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.23942",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Haodi Fan",
+        "Zucong Lan"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "cognitive architectures",
+        "language agents",
+        "survey",
+        "memory mechanisms",
+        "review",
+        "agent runtimes"
+      ]
+    },
+    {
+      "title": "Isolated but Exposed: Persistence-Based Memory Extraction Attack on LLM Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.23444",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Xinyu Gao",
+        "Wenyu Chen",
+        "Xiangtao Meng",
+        "Li Wang",
+        "Chuanchao Zang",
+        "Jianing Wang",
+        "Zheng Li",
+        "Shanqing Guo"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "security",
+        "memory extraction",
+        "adversarial",
+        "LLM agents",
+        "long-term memory",
+        "privacy"
+      ]
+    },
+    {
+      "title": "Profile-Graph Memory for LLM Agents: Implicit Cross-Entity Traversal through Narrative Profiles",
+      "date": "2026-06",
+      "url": "https://arxiv.org/abs/2607.19359",
+      "category": "experiential",
+      "subcategory": "latent",
+      "authors": [
+        "Shengtong Zhu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "long-term memory",
+        "multi-hop",
+        "profile-graph",
+        "narrative memory",
+        "LLM agents",
+        "MemHop"
+      ]
+    },
+    {
+      "title": "Supra Cognitive Modes: A Routed Architecture for Agent Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.19096",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Joshua Tobkin",
+        "David Yang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "routed architecture",
+        "agent memory",
+        "cognitive modes",
+        "retrieval",
+        "multi-hop"
+      ]
+    },
+    {
+      "title": "The Chronos Vulnerability: A Taxonomy of Temporal Persistence and Memory-Based Deception in Agentic AI",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.19433",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Om Narayan",
+        "Ramkinker Singh",
+        "Praveen Baskar"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "",
+      "tags": [
+        "security",
+        "memory attacks",
+        "persistence",
+        "taxonomy",
+        "agentic AI"
+      ]
+    },
+    {
+      "title": "ContainmentBench: Trace-Based Evaluation of Post-Injection Containment in Tool-Using LLM Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.23999",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Wenhao Lan",
+        "Shan Li",
+        "Xinhua Lai",
+        "Meiqi Wu",
+        "Junbin Yang",
+        "Haihua Shen"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Tool-using LLM agents",
+      "tags": [
+        "benchmark",
+        "security"
+      ]
+    },
+    {
+      "title": "ReCon: A Resource-Constrained Benchmark for LLM-Based Cybersecurity Compliance Across Ingestion and Retrieval Pipelines",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.22885",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Rohit Negi",
+        "Rishik Jain",
+        "Soumyo V Chakarborty",
+        "Amit Negi",
+        "Sandeep K Shukla"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;required in the regulations or standards necessitates extensive manual effort. The advent of Generative AI tools such as Large Language Models (LLMs) led to use of LLMs and Agentic",
+      "tags": [
+        "benchmark",
+        "security",
+        "retrieval"
+      ]
+    },
+    {
+      "title": "SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.22562",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Ning Yang",
+        "Siqi Li",
+        "Miaoxin Shen",
+        "Yuan Zhou",
+        "Meng Zhang",
+        "Tong Li",
+        "Haijun Zhang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Managing long-context dependencies remains a primary bottleneck in LLM agents",
+      "tags": [
+        "forgetting"
+      ]
+    },
+    {
+      "title": "Ground Truth First: A Longitudinal Evaluation Instrument for Agent Memory, and the Tenure Crossover in Memory-Architecture Rankings",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.21962",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Quentin Spencer"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Benchmarks for LLM-agent",
+      "tags": [
+        "benchmark"
+      ]
+    },
+    {
+      "title": "Encoding Invisible Causation for Bridge Diagnostic Agents: Triple-Guided Retrieval-Augmented Fine-Tuning with QLoRA",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.21680",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Takato Yasuno"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;for use in autonomous bridge diagnostic agents",
+      "tags": [
+        "retrieval"
+      ]
+    },
+    {
+      "title": "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.21604",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Nilesh Prasad Pandey",
+        "Jason Kong",
+        "Lanxiang Hu",
+        "Quanling Zhao",
+        "Yujie Zhao",
+        "Onat Gungor",
+        "Hao Zhang",
+        "Tajana Rosing"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Memory",
+      "tags": []
+    },
+    {
+      "title": "Beyond Episodic Evaluation: Memory Architectural Bottlenecks in Sequential Embodied Question Answering",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.21571",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Zikui Cai",
+        "Kaushal Janga",
+        "Tan Dat Dao",
+        "Seungjae Lee",
+        "Shivin Dass",
+        "Mingyo Seo",
+        "Kaiyu Yue",
+        "Mintong Kang",
+        "Nandhu Pillai",
+        "Monte Hoover",
+        "Aadi Palnitkar",
+        "Ruchit Rawal",
+        "Ruijie Zheng",
+        "Bo Li",
+        "Yuke Zhu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Embodied question answering (EQA) is traditionally evaluated under an episodic formulation, where agents",
+      "tags": [
+        "benchmark"
+      ]
+    },
+    {
+      "title": "Causal-AgentIR: Self-Evolving Causal Memory for Adaptive Image Restoration Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.21125",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Hu Gao",
+        "Yulong Chen",
+        "Lizhuang Ma"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Image restoration agents",
+      "tags": []
+    },
+    {
+      "title": "Workflow-Localized Mechanism Learning: Attribution-Guided Repair and Knowledge Reuse for Structured Agent Skills",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.20999",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Zibin Lin",
+        "Shengli Zhang",
+        "Taotao Wang",
+        "Yihan Xia",
+        "Deen Ma",
+        "Guofu Liao"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Agent",
+      "tags": []
+    },
+    {
+      "title": "The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.19749",
+      "category": "working",
+      "subcategory": "parametric",
+      "authors": [
+        "Gurp Nijjer"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Model-based reinforcement-learning agents",
+      "tags": [
+        "forgetting"
+      ]
+    },
+    {
+      "title": "Memory Merge DQN: Sensitivity Weighted Target Updates for Stable Value Learning",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.19397",
+      "category": "working",
+      "subcategory": "parametric",
+      "authors": [
+        "Adrian Ly",
+        "Richard Dazeley",
+        "Peter Vamplew",
+        "Sunil Aryal",
+        "Francisco Cruz"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;parameter history. This can produce sudden changes in the bootstrap target and may remove value function structure that remains useful later in training. This paper introduces Memory",
+      "tags": []
+    },
+    {
+      "title": "TraceDev: A Traceability-Driven Multi-agent Framework for Requirement-to-Code Development",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.18886",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Mingyu Chen",
+        "Yakun Zhang",
+        "Zihao Xie",
+        "Yixing Luo",
+        "Jinrui Xu",
+        "Cuiyun Gao",
+        "Kaiqi Zhao",
+        "Yunming Ye"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;mechanisms, making it difficult to precisely align and validate generated code against original requirements. To address these limitations, we propose TraceDev, a multi-agent",
+      "tags": []
+    },
+    {
+      "title": "Formal Verification of an Out-of-Order Multiprocessor against an In-Order Weak-Memory ISA",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.18727",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Janggun Lee",
+        "Jeehoon Kang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;piece of modern hardware, and their verification must solve the following challenges. First, inter-core interleaving, in which the order their reads and writes reach shared memory",
+      "tags": []
+    },
+    {
+      "title": "Learnable Sequential Memory in Coupled Oscillator Networks",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.18439",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Taosha Guo",
+        "Fabio Pasqualetti"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "The Hopfield network established that static memories",
+      "tags": []
+    },
+    {
+      "title": "A Calculus of Discernment: Decision-Relevant Insight, Sequence Value, and Forgetting as Higher-Order Learning",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.18275",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Suyash Mishra"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;with consolidation as its conjugate. We state the central open problem (a non-trivial attractor with a spectral gap) and test the forgetting theory: operationalising APOHA as an agent",
+      "tags": [
+        "forgetting"
+      ]
+    },
+    {
+      "title": "HyMCache: A KV Cache Framework for Multi-Turn LLM Serving with CXL-Hybrid Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.18141",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Hakbeom Jang",
+        "Inho Song",
+        "Sam H. Noh",
+        "Jongryool Kim"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Long-context, multi-turn, and agentic",
+      "tags": []
+    },
+    {
+      "title": "RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.18060",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Jinbang Huang",
+        "Yuanzhao Hu",
+        "Zhiyuan Li",
+        "Ran Qi",
+        "Yixin Xiao",
+        "Zhanguang Zhang",
+        "Mark Coates",
+        "Tongtong Cao",
+        "Yingxue Zhang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;predefined skills with fixed applicability. We propose RoboHarness, a unified framework that encapsulates independently developed robot control systems as reusable agentic",
+      "tags": []
+    },
+    {
+      "title": "Evidence-in-the-Loop: Trace-Driven Optimization for Customer-Service LLM Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.18039",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Chunming Wu",
+        "Dafei Qiu",
+        "Congde Yuan",
+        "Charles Quan",
+        "Jun Wu",
+        "Suipeng Li",
+        "Mo Wu",
+        "Gavin Xie",
+        "Hope Chen",
+        "Max Yao"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;releases, yet large language models must not bypass evidence boundaries, policy rules, or human-handoff safeguards. We present an \\textbf{Evidence-Grounded Customer-Service Agent",
+      "tags": [
+        "rl"
+      ]
+    },
+    {
+      "title": "PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.16636",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Yang Liu",
+        "Weixing Chen",
+        "Xinshuai Song",
+        "Tao Pu",
+        "Siwen Mo",
+        "Yongjie Bai",
+        "Zihao Chen",
+        "Qianran Sun",
+        "Liruo Zhong",
+        "Ying Shen",
+        "Liang Lin"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Vision-language-action models, world models, and agentic",
+      "tags": [
+        "multimodal"
+      ]
+    },
+    {
+      "title": "Self-Evolving Just-In-Time Memory for Proactive Embodied Safety",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.16247",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Bingrui Sima",
+        "Lizhong Wang",
+        "Xiaoya Lu",
+        "Kun He",
+        "Xiao Yang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "While Vision-Language Models (VLMs) have empowered embodied agents",
+      "tags": [
+        "multimodal"
+      ]
+    },
+    {
+      "title": "SkillNav: Score-Level Skill Intervention for Zero-Shot Object Goal Navigation",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.15758",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Ruijie Sang",
+        "Yiqun Duan",
+        "Pinhan Fu",
+        "Ruilin Wang",
+        "Wei Sui",
+        "Xianda Guo"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Vision-Language Model (VLM) agents",
+      "tags": [
+        "multimodal"
+      ]
+    },
+    {
+      "title": "Memory-Driven Self-Disclosure and Relational Turning Points: A Longitudinal Multimodal Study of Human-AI Interaction",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.14593",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Ryuichi Sumida",
+        "Mao Saeki",
+        "Masaki Eguchi",
+        "Sadahiro Yoshikawa",
+        "Koji Inoue",
+        "Tatsuya Kawahara",
+        "Yoichi Matsuyama"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;AI systems are designed for repeated use, a central question is how a series of interactions becomes a relationship. We present a longitudinal multimodal study of a memory",
+      "tags": [
+        "multimodal"
+      ]
+    },
+    {
+      "title": "Are LLM-Generated GPU Kernels Production-Ready? A Trace-Driven Benchmark and Optimization Agent",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.14541",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Lingyun Yang",
+        "Yuxiao Wang",
+        "Shenghao Liang",
+        "Linfeng Yang",
+        "Daocheng Ying",
+        "Chunbo You",
+        "Rui Zhang",
+        "Luping Wang",
+        "Yinghao Yu",
+        "Guodong Yang",
+        "Liping Zhang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;deployed workloads. We present Atrex-Bench, a benchmark whose 30 operators and 440 shapes are sampled directly from full-cluster production inference traces of compute-limited, memory",
+      "tags": [
+        "benchmark"
+      ]
+    },
+    {
+      "title": "VTM-Nav: Harnessing Cross-Episode Experience for Object-Goal Navigation with Hierarchical Visual-Topological Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.14514",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Xiaoran Xu",
+        "Yupeng Wu",
+        "Tianyu Xue",
+        "Yifan Xu",
+        "Xuanran Dong",
+        "Xiaoshan Yang",
+        "Changsheng Xu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Training-free ObjectNav agents",
+      "tags": []
+    },
+    {
+      "title": "CatalogAgent: A Supervisor-mediated Self-Learning System Enabling Context Engineering for GenAI Models",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.14396",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Zhu Cheng",
+        "Zhenming Wang",
+        "Yu",
+        "Tang",
+        "Dan Liu",
+        "Bryan Zhang",
+        "Athanasios N. Nikolakopoulos",
+        "Pranav Souri Itabada",
+        "Jing Zhang",
+        "Chih-Chi Chou",
+        "Peng Gao",
+        "Fatemeh Mansoori",
+        "Bharat Bojja",
+        "Sarath Chander",
+        "Sameer Thombare"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;them -- they face challenges when the Generator and Evaluator produce conflicting outputs, as either component can make mistakes. We introduce \\texttt{CatalogAgent}, a novel agentic",
+      "tags": []
+    },
+    {
+      "title": "AI Agents Do Not Fail Alone:The Context Fails First",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.14275",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Fouad Bousetouane"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Context engineering has become central to building reliable AI agents",
+      "tags": []
+    },
+    {
+      "title": "MAPS: Modeling Co-Existing Subjective Perspectives and Shared Meaning in Multi-Agent Cognitive Dialogue",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.14110",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Molood Arman",
+        "Clément Bonnafous"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;emotions, and subjective cognitive styles. Yet current AI dialogue systems often enforce semantic uniformity, sacrificing diversity and interpretability. We present MAPS (Multi-Agent",
+      "tags": []
+    },
+    {
+      "title": "Zero2Skill: Bootstrapping Robot Skills through Autonomous Data Collection, Training, and Deployment",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.14047",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Boyuan Wang",
+        "Zhenyuan Zhang",
+        "Zhiqin Yang",
+        "Peijun Gu",
+        "Shuya Wang",
+        "Xiaofeng Wang",
+        "Xianghui Ze",
+        "Yifan Chang",
+        "Guosheng Zhao",
+        "Jiangnan Shao",
+        "Guan Huang",
+        "Hengyu Liu",
+        "Yonggang Zhang",
+        "Wei Xue",
+        "Chunyuan Guan"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;whenever the same failure recurs, so oversight cost grows with session length rather than with the number of distinct problems. We present Zero2Skill, a human-robot symbiotic agentic",
+      "tags": []
+    },
+    {
+      "title": "SPyCE: Skill-Policy Co-evolution for Multimodal Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.13854",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Ru Zhang",
+        "Weijie Qiu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Multimodal agents",
+      "tags": [
+        "multimodal",
+        "rl"
+      ]
+    },
+    {
+      "title": "SkillComm: Skill-Driven Semantic Communication for Sequential Workflows via Incremental Token Transmission",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.11972",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Ziyang Meng",
+        "Lu Lu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;channel constraints. Existing DeepJSCC and prompt-guided visual transmitters usually treat each task as an independent full-token transmission, with limited reuse of execution memory",
+      "tags": []
+    },
+    {
+      "title": "Self-Healing Coordination in Cognitive Swarm Agents with Bloch-Type Perceptual Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.11960",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Jyotiranjan Beuria"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;model based on self-regulated perceptual dynamics, we ask whether the Bloch-type slow-fast architecture can support self-healing coordination in cognitive swarm agents",
+      "tags": []
+    },
+    {
+      "title": "In-Context Reinforcement Learning under Non-Stationarity: A Survey",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.11906",
+      "category": "working",
+      "subcategory": "parametric",
+      "authors": [
+        "A Run",
+        "Ziluo Ding"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "The development of decision-pretrained transformers, algorithm distillation, long-context meta-RL, and retrieval-augmented agents",
+      "tags": [
+        "retrieval",
+        "rl"
+      ]
+    },
+    {
+      "title": "Forgetting Our Way to Shared Meaning: Effects of Forgetting on Conceptual Alignment in a Non-Partnership Coordination Game",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.11787",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Landon Liu",
+        "Mary Kelly",
+        "Alan Tsang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Shared meaning in language requires people to learn and agree on categories. We ask how characteristics of agents",
+      "tags": [
+        "forgetting"
+      ]
+    },
+    {
+      "title": "An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.11707",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Ahmed Omar Salim Adnan",
+        "Yogananda Manjunath",
+        "Shivanjali Khare"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;mainly focus on isolated messages, which renders them inadequate against this evolving threat. This paper extends single-message phishing detection and presents an explainable agentic",
+      "tags": []
+    },
+    {
+      "title": "Heterogeneous Agent Cohorts for Safe Open-Ended Exploration with Runtime Constraint Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.11226",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Tengjiao Liu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "LLM agents",
+      "tags": []
+    },
+    {
+      "title": "Feedback-Coupled Memory Systems in Continuous Time",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.09714",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Stefano Grassi"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "The Feedback-Coupled Memory",
+      "tags": []
+    },
+    {
+      "title": "MemDelta: Controlled Baselines and Hidden Confounds in Agent Memory Evaluation",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.29914",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Kuan Wang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Agent",
+      "tags": [
+        "benchmark"
+      ]
+    },
+    {
+      "title": "MemLeak: Diagnosing Information Leaks in Multimodal Agent Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.29788",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Kuan Wang",
+        "Chao Zhang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "When a multimodal AI agent",
+      "tags": [
+        "multimodal"
+      ]
+    },
+    {
+      "title": "When Does Overlap Help? OSU-Mem and a Cell-Conditional Analysis of Trajectory Memory for LLM Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.28376",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Mellow Baixuan Chen",
+        "Xiangguo Sun"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Long-horizon large language model (LLM) agents",
+      "tags": []
+    },
+    {
+      "title": "Reclaim Evaluation: A Lossy Memory Is Worse Than an Empty One",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.25449",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Alex Kwon"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;with a length-matched control ruling out &#34;more text.&#34; We map where the fix fails, show the failure compounds through memory loops, and replicate across three deployed memory",
+      "tags": [
+        "benchmark"
+      ]
+    },
+    {
+      "title": "RAVEN: Long-Horizon Reasoning &amp; Navigation with a Visuo-Spatio-Temporal Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.25206",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Yixun Hu",
+        "Zhicheng Zheng",
+        "Lihan Zha",
+        "Chunwei Xing",
+        "Rajdeep Singh",
+        "Omar Hossain",
+        "Antonio Loquercio",
+        "Dhruv Shah"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;memory that preserves fine-grained visual semantics, grounds observations in space and time, and enables efficient storage and retrieval. In this paper, we propose RAVEN, an agentic",
+      "tags": [
+        "retrieval"
+      ]
+    },
+    {
+      "title": "Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.23283",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Hongxun Ding",
+        "Xiang Yu",
+        "Chengbing Wang",
+        "Jianfei Xiao",
+        "Keqin Bao",
+        "Wenjie Wang",
+        "Xiangnan He"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Memory",
+      "tags": [
+        "benchmark",
+        "retrieval"
+      ]
+    },
+    {
+      "title": "MemTrace: Probing What Final Accuracy Misses in Long-Term Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.17328",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Xianxuan Long",
+        "Zhikai Chen",
+        "Shenglai Zeng",
+        "Shouren Wang",
+        "Kai Guo",
+        "Jiliang Tang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "LLM agents",
+      "tags": []
+    },
+    {
+      "title": "StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.14571",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Guanming Liu",
+        "Yuqi Ren",
+        "Hansu Gu",
+        "Peng Zhang",
+        "Weihang Wang",
+        "Jiahao Liu",
+        "Ning Gu",
+        "Tun Lu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "A central role of personal-agent",
+      "tags": [
+        "benchmark"
+      ]
+    },
+    {
+      "title": "eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.03374",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "A. Haroon Rasheed",
+        "Maria Kabtoul"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "We present eMEM (Embodied Memory), a hybrid graph-based memory",
+      "tags": []
+    },
+    {
+      "title": "PhotoCraft: Agentic Reasoning with Hierarchical Self-Evolving Memory for Deep Image Search",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.03099",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Kailin Lyu",
+        "Zhiqiang Yuan",
+        "Jianwei He",
+        "Qiwei Yan",
+        "Xuanbo Su",
+        "Nanxing Hu",
+        "Yang Liu",
+        "Ce Hao",
+        "Shengqian Qin",
+        "Lianyu Hu",
+        "Jinchao Zhang",
+        "Jie Zhou"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Deep Image Search requires multi-step reasoning over rich contextual cues, such as time, location, and event relations. However, most existing LLM-based agents",
+      "tags": [
+        "retrieval"
+      ]
+    },
+    {
+      "title": "Don&#39;t Ask the LLM to Track Freshness: A Deterministic Recipe for Memory Conflict Resolution",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.01435",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Vikas Reddy",
+        "Sumanth Challaram"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "LLM-based memory",
+      "tags": []
+    },
+    {
+      "title": "Selective QA over Conflicting Multi-Source Personal Memory: A Diagnostic Testbed and Method Comparison",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.30087",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Tiancheng Yang",
+        "Matthias Schonlau",
+        "Ilia Sucholutsky"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Emerging personal AI agents",
+      "tags": []
+    },
+    {
+      "title": "WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.29341",
+      "category": "experiential",
+      "subcategory": "parametric",
+      "authors": [
+        "Chengzhi Liu",
+        "Yuzhe Yang",
+        "Sophia Xiao Pu",
+        "Yepeng Liu",
+        "Lin Long",
+        "Yichen Guo",
+        "Nuo Chen",
+        "Zhaotian Weng",
+        "Elena Kochkina",
+        "Simerjot Kaur",
+        "Charese Smiley",
+        "Xiaomo Liu",
+        "James Zou",
+        "Sheng Liu",
+        "Yuheng Bu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Multimodal large language models are increasingly deployed as long-horizon agents",
+      "tags": [
+        "multimodal"
+      ]
+    },
+    {
+      "title": "Beyond Recall: Behavioral Specification as an Interpretive Layer for AI Personalization",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.28969",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Aarik Gulaya"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "If an AI agent",
+      "tags": []
+    },
+    {
+      "title": "Personal Visual Memory from Explicit and Implicit Evidence",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.28806",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Viet Nguyen",
+        "Thao Nguyen",
+        "Vishal M. Patel",
+        "Yuheng Li"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Long-term memory is increasingly important for personalized AI agents",
+      "tags": []
+    },
+    {
+      "title": "MRMMIA: Membership Inference Attacks on Memory in Chat Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.27825",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Kai Chen",
+        "Yan Pang",
+        "Tianhao Wang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;become a standard tool to measure privacy leakage in machine learning systems. Prior work has primarily focused on training corpora or retrieval databases. However, MIAs against agent",
+      "tags": [
+        "security",
+        "retrieval"
+      ]
+    },
+    {
+      "title": "The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.21997",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Yohei Nakajima"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Most agent",
+      "tags": []
+    },
+    {
+      "title": "MemConflict: Evaluating Long-Term Memory Systems Under Memory Conflicts",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.20926",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Zhen Tao",
+        "Jinxiang Zhao",
+        "Peng Liu",
+        "Dinghao Xi",
+        "Yanfang Chen",
+        "Wei Xu",
+        "Zhiyu Li"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Long-term memory",
+      "tags": []
+    },
+    {
+      "title": "Robo-Cortex: A Self-Evolving Embodied Agent via Dual-Grain Cognitive Memory and Autonomous Knowledge Induction",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.18729",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Nga Teng Chan",
+        "Yi Zhang",
+        "Yechi Liu",
+        "Renwen Cui",
+        "Fanhu Zeng",
+        "Zeyuan Ding",
+        "Xiancong Ren",
+        "Zhang Zhang",
+        "Qifeng Chen",
+        "Jian Liu",
+        "Yong Dai",
+        "Xiaozhu Ju"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "The ability to navigate and interact with complex environments is central to real-world embodied agents",
+      "tags": []
+    },
+    {
+      "title": "SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.17789",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Olukunle Owolabi"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Memory",
+      "tags": []
+    },
+    {
+      "title": "LASAR: Towards Spatio-temporal Reasoning with Latent Cognitive Map",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.16899",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Jinzhou Tang",
+        "Sidi Liu",
+        "Waikit Xiu",
+        "Weixing Chen",
+        "Keze Wang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "A fundamental challenge in embodied AI is verifying if agents",
+      "tags": []
+    },
+    {
+      "title": "The Trap of Trajectory: Towards Understanding and Mitigating Spurious Correlations in Agentic Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.09330",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Luoxi Tang",
+        "Rupali Rajendra Vaje",
+        "Yuqiao Meng",
+        "Sakshi Sunil Narkar",
+        "Weicheng Ma",
+        "Zeyu Ding",
+        "Dazheng Zhang",
+        "Zhaohan Xi"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Agentic",
+      "tags": []
+    },
+    {
+      "title": "MemCompiler: Compile, Don&#39;t Inject -- State-Conditioned Memory for Embodied Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.07594",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Xin Ding",
+        "Xinrui Wang",
+        "Yifan Yang",
+        "Hao Wu",
+        "Shiqi Jiang",
+        "Qianxi Zhang",
+        "Liang Mi",
+        "Hanxin Zhu",
+        "Kun Li",
+        "Yunxin Liu",
+        "Zhibo Chen",
+        "Ting Cao"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Existing memory",
+      "tags": []
+    },
+    {
+      "title": "MiA-Signature: Approximating Global Activation for Long-Context Understanding",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.06416",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Yuqing Li",
+        "Jiangnan Li",
+        "Mo Yu",
+        "Zheng Lin",
+        "Weiping Wang",
+        "Jie Zhou"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "A growing body of work in cognitive science suggests that reportable conscious access is associated with \\emph{global ignition} over distributed memory",
+      "tags": []
+    },
+    {
+      "title": "From Unstructured Recall to Schema-Grounded Memory: Reliable AI Memory via Iterative, Schema-Aware Extraction",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2604.27906",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Alex Petrov",
+        "Alexander Gusak",
+        "Denis Mukha",
+        "Dima Korolev"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;as text, embed them, and ask the model to recover relevant context later. This design is useful for thematic recall, but it is mismatched to the kinds of memory that agents",
+      "tags": []
+    },
+    {
+      "title": "Contextual Agentic Memory is a Memo, Not True Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2604.27707",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Binyan Xu",
+        "Xilin Dai",
+        "Kehuan Zhang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Current agentic",
+      "tags": []
+    },
+    {
+      "title": "Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2604.27045",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Samuel L Pugh",
+        "Eric Yang",
+        "Alexander Muir Sutherland",
+        "Alessandra Breschi"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "As Large Language Model (LLM) agents",
+      "tags": []
+    },
+    {
+      "title": "StructMem: Structured Memory for Long-Horizon Behavior in LLMs",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2604.21748",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Buqiang Xu",
+        "Yijun Chen",
+        "Jizhan Fang",
+        "Ruobin Zhong",
+        "Yunzhi Yao",
+        "Yuqi Zhu",
+        "Lun Du",
+        "Shumin Deng"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Long-term conversational agents",
+      "tags": []
+    },
+    {
+      "title": "BrainMem: Brain-Inspired Evolving Memory for Embodied Agent Task Planning",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2604.16331",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Xiaoyu Ma",
+        "Lianyu Hu",
+        "Wenbing Tang",
+        "Zixuan Hu",
+        "Zeqin Liao",
+        "Zhizhen Wu",
+        "Yang Liu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Embodied task planning requires agents",
+      "tags": []
+    },
+    {
+      "title": "MemExplorer: Navigating the Heterogeneous Memory Design Space for Agentic Inference NPUs",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2604.16007",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Haoran Wu",
+        "Zeyu Cao",
+        "Yao Lai",
+        "Binglei Lou",
+        "Jiayi Nie",
+        "Can Xiao",
+        "Timi Adeniran",
+        "Przemyslaw Forys",
+        "Kauser Johar",
+        "Catriona Wright",
+        "Junyi Liu",
+        "Kai Shi",
+        "Nicholas D. Lane",
+        "Rika Antonova",
+        "Jianyi Cheng"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Emerging agentic",
+      "tags": []
+    },
+    {
+      "title": "FragFuse: Bypassing Access Control of Large Language Model Agents via Memory-Based Query Fragmentation and Fusion",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2606.15609",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Zixin Rao",
+        "Wentian Zhu",
+        "Chan Aristella Lu",
+        "Zhaorun Chen",
+        "Wei Niu",
+        "Le Guan",
+        "Bo Li",
+        "Zhen Xiang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Large language model (LLM) agents",
+      "tags": [
+        "retrieval"
+      ]
+    },
+    {
+      "title": "Memory-Induced Tool-Drift in LLM Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.24941",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Mahavir Dabas",
+        "Jihyun Jeong",
+        "Ming Jin",
+        "Ruoxi Jia"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Modern LLM agents",
+      "tags": []
+    },
+    {
+      "title": "Short-Term-to-Long-Term Memory Transfer for Knowledge Graphs under Partial Observability",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.22142",
+      "category": "working",
+      "subcategory": "latent",
+      "authors": [
+        "Taewoon Kim",
+        "Vincent François-Lavet",
+        "Michael Cochez"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;We study this transfer process in a temporal knowledge-graph memory setting and cast it as a neuro-symbolic value-based decision problem: for each observed triple, the agent",
+      "tags": []
+    },
+    {
+      "title": "MEMAUDIT: An Exact Package-Oracle Evaluation Protocol for Budgeted Long-Term LLM Memory Writing",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2605.02199",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Nishant Bhargava",
+        "Rodrigo Sobral Barrento"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Long-term LLM agents",
+      "tags": [
+        "benchmark"
+      ]
+    },
+    {
+      "title": "Automatic Ontology Construction Using LLMs as an External Layer of Memory, Verification, and Planning for Hybrid Intelligent Systems",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2604.20795",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Pavel Salovskii",
+        "Iuliia Gorshkova"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;transforming the system into a generation-verification-correction pipeline. The proposed architecture addresses key limitations of current LLM-based systems, including lack of long",
+      "tags": []
+    },
+    {
+      "title": "Dual-Timescale Memory in a Spiking Neuron-Astrocyte Network for Efficient Navigation",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2604.15391",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Yuliya Tsybina",
+        "Evgenia Antonova",
+        "Sergey Shchanikov",
+        "Vsevolod Kulagin",
+        "Alexey Mikhaylov",
+        "Victor Kazantsev",
+        "Vyacheslav Demin",
+        "Susanna Gordleeva"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Biological agents",
+      "tags": []
+    },
+    {
+      "title": "MolMem: Memory-Augmented Agentic Reinforcement Learning for Sample-Efficient Molecular Optimization",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2604.12237",
+      "category": "working",
+      "subcategory": "parametric",
+      "authors": [
+        "Ziqing Wang",
+        "Yibo Wen",
+        "Abhishek Pandy",
+        "Han Liu",
+        "Kaize Ding"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;require many oracle calls, while methods that leverage external knowledge tend to reuse familiar templates and struggle on challenging objectives. A key missing piece is long",
+      "tags": [
+        "retrieval",
+        "rl"
+      ]
+    },
+    {
+      "title": "Social Hippocampus Memory Learning",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2603.25614",
+      "category": "working",
+      "subcategory": "parametric",
+      "authors": [
+        "Liping Yi",
+        "Zhiming Zhao",
+        "Qinghua Hu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Social learning highlights that learning agents",
+      "tags": []
+    },
+    {
+      "title": "VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2603.23840",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Yuhao Chen",
+        "Yi Xu",
+        "Xinyun Ding",
+        "Xiang Fang",
+        "Shuochen Liu",
+        "Luxi Lin",
+        "Qingyu Zhang",
+        "Ya Li",
+        "Quan Liu",
+        "Tong Xu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "With the growing demand for intelligent in-vehicle experiences, vehicle-based agents",
+      "tags": [
+        "benchmark"
+      ]
+    },
+    {
+      "title": "Mind Your HEARTBEAT! Claw Background Execution Inherently Enables Silent Memory Pollution",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2603.23064",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Yechao Zhang",
+        "Shiqian Zhao",
+        "Jie Zhang",
+        "Gelei Deng",
+        "Jiawen Zhang",
+        "Xiaogeng Liu",
+        "Chaowei Xiao",
+        "Tianwei Zhang"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "We identify a critical security vulnerability in mainstream Claw personal AI agents",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "title": "MemX: A Local-First Long-Term Memory System for AI Assistants",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2603.16171",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Lizheng Sun"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "We present MemX, a local-first long",
+      "tags": []
+    },
+    {
+      "title": "KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2603.10085",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Qitong Sun",
+        "Jun Han",
+        "Tianlin Li",
+        "Zhe Tang",
+        "Sheng Chen",
+        "Fei Yang",
+        "Aishan Liu",
+        "Xianglong Liu",
+        "Yang Liu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;insight is to replace implicit heuristics with expert optimization skills that are knowledge-driven and aware of task trajectories. Specifically, we present KernelSkill, a multi-agent",
+      "tags": []
+    },
+    {
+      "title": "LifeBench: A Benchmark for Long-Horizon Multi-Source Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2603.03781",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Zihao Cheng",
+        "Weixin Wang",
+        "Yu Zhao",
+        "Ziyang Ren",
+        "Jiaxuan Chen",
+        "Ruiyang Xu",
+        "Shuai Huang",
+        "Yang Chen",
+        "Guowei Li",
+        "Mengshi Wang",
+        "Yi Xie",
+        "Ren Zhu",
+        "Zeren Jiang",
+        "Keda Lu",
+        "Yihong Li"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Long",
+      "tags": [
+        "benchmark"
+      ]
+    },
+    {
+      "title": "EventMemAgent: Hierarchical Event-Centric Memory for Online Video Understanding with Adaptive Tool Use",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2602.15329",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Siwei Wen",
+        "Zhangcheng Wang",
+        "Xingjian Zhang",
+        "Lei Huang",
+        "Wenjun Wu"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;between maintaining long-range context and capturing the fine-grained details necessary for complex tasks. To address this, we introduce EventMemAgent, an active online video agent",
+      "tags": [
+        "multimodal"
+      ]
+    },
+    {
+      "title": "STaR: Scalable Task-Conditioned Retrieval for Long-Horizon Multimodal Robot Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2602.09255",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Mingfeng Yuan",
+        "Hao Zhang",
+        "Mahan Mohammadi",
+        "Runhao Li",
+        "Jinjun Shan",
+        "Steven L. Waslander"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "&hellip;and manufacturing facilities, and outdoor settings such as agricultural and roadway operations. A core challenge is to build a scalable long-horizon memory that supports an agentic",
+      "tags": [
+        "multimodal",
+        "retrieval"
+      ]
+    },
+    {
+      "title": "How Implicit Bias Accumulates and Propagates in LLM Long-term Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2602.01558",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Yiming Ma",
+        "Lixu Wang",
+        "Lionel Z. Wang",
+        "Hongkun Yang",
+        "Haoming Sun",
+        "Xin Xu",
+        "Jiaqi Wu",
+        "Bin Chen",
+        "Wei Dong"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Long",
+      "tags": []
+    },
+    {
+      "title": "Explore with Long-term Memory: A Benchmark and Multimodal LLM-based Reinforcement Learning Framework for Embodied Exploration",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2601.10744",
+      "category": "working",
+      "subcategory": "parametric",
+      "authors": [
+        "Sen Wang",
+        "Bangwei Liu",
+        "Zhenkun Gao",
+        "Lizhuang Ma",
+        "Xuhong Wang",
+        "Yuan Xie",
+        "Xin Tan"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "An ideal embodied agent",
+      "tags": [
+        "benchmark",
+        "multimodal",
+        "rl"
+      ]
     }
   ]
 }

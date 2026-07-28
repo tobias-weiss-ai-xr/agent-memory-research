@@ -1,7 +1,7 @@
 \section{Extended Taxonomy}
 \label{sec:taxonomy}
 
-The $3\times 3 \times 3$ taxonomy introduced by \citet{DBLP:journals/corr/abs-2512-13564} captures the design space of agent memory along three well-motivated axes: storage form, functional purpose, and lifecycle stage. It has proven durable enough to accommodate all 952 papers in our dataset. However, our analysis of the 498 papers published since February 2026---as well as re-examination of earlier works---reveals nine cross-cutting themes that the original axes do not explicitly surface. These themes span multiple taxonomy cells and represent distinct design considerations that are invisible when papers are classified solely by form, function, and dynamics.
+The $3\times 3 \times 3$ taxonomy introduced by \citet{DBLP:journals/corr/abs-2512-13564} captures the design space of agent memory along three well-motivated axes: storage form, functional purpose, and lifecycle stage. It has proven durable enough to accommodate all 1,049 papers in our dataset. However, our analysis of the 595 papers published since February 2026---as well as re-examination of earlier works---reveals nine cross-cutting themes that the original axes do not explicitly surface. These themes span multiple taxonomy cells and represent distinct design considerations that are invisible when papers are classified solely by form, function, and dynamics.
 
 In response, we propose three new orthogonal dimensions that augment the original taxonomy. These are additions, not replacements: a paper classified as Factual/Token-level/Formation retains that classification, but now additionally receives coordinates along the Temporal Dynamics, Modality, and Biological Inspiration axes. Figure~\ref{fig:taxonomy} visualizes the full extended taxonomy.
 
@@ -45,7 +45,7 @@ This dimension captures how a memory system models the passage of time and its e
 This dimension captures the sensory channels a memory system handles:
 
 \begin{description}[nosep]
-  \item[Text-only.] Memory stores and retrieves textual information only. The majority of papers in our dataset (approximately 89\%) fall into this level, though the multimodal share has grown from 7\% to roughly 10\% as the corpus expanded.
+  \item[Text-only.] Memory stores and retrieves textual information only. The majority of papers in our dataset (approximately 89\%) fall into this level, though the multimodal share has grown from 7\% to roughly 11\% as the corpus expanded.
   \item[Multimodal-in.] Memory accepts non-text inputs (images, video, audio) but stores and retrieves textual descriptions or summaries. Examples: MemVerse~\cite{Unknown2025MemVerse}, WorldMM~\cite{Unknown2025WorldMM}.
   \item[Multimodal-out.] Memory stores non-text representations (visual features, audio embeddings) and retrieves them for downstream tasks. Examples: VisMem~\cite{Unknown2025VisMem}, MemoryVLA~\cite{Unknown2025MemoryVLA}, TeleMem~\cite{Unknown2026TeleMem}.
   \item[Full-multimodal.] Memory operates across text, vision, audio, and embodiment simultaneously with cross-modal retrieval. Examples: Seeing/Listening/Remembering/Reasoning~\cite{Unknown2025SeeingListeningRemem}, Embodied VideoAgent~\cite{Unknown2025EmbodiedVideoAgent}.
@@ -87,13 +87,13 @@ This dimension captures how deeply a memory system engages with biological cogni
 
 \subsection{Impact on Taxonomy Coverage}
 
-Figure~\ref{fig:heatmap} shows the distribution of papers across the original $3\times 3 \times 3$ cells, overlaid with the new dimensions. The addition of the three new axes reveals previously invisible structure. For example, the Experiential/Token-level cell, which contains 153 papers, spans all four levels of the Biological Inspiration dimension---most are Cognitive-metaphor, but FadeMem (Neuro-inspired) and SCM (Brain-architecture) represent qualitatively different approaches within the same form--function cell.
+Figure~\ref{fig:heatmap} shows the distribution of papers across the original $3\times 3 \times 3$ cells, overlaid with the new dimensions. The addition of the three new axes reveals previously invisible structure. For example, the Experiential/Token-level cell, which contains 169 papers, spans all four levels of the Biological Inspiration dimension---most are Cognitive-metaphor, but FadeMem (Neuro-inspired) and SCM (Brain-architecture) represent qualitatively different approaches within the same form--function cell.
 
 The extended taxonomy does not change the number of papers assigned to any original cell; rather, it adds resolution within each cell and enables cross-cell analyses along the new axes. For instance, it reveals that multimodal memory is concentrated in Working/Latent (VisMem, MemoryVLA, Time-VLM~\cite{Unknown2025TimeVLM}) and Factual/Token-level (MemVerse, WorldMM), leaving other cells underexplored---a pattern invisible in the original taxonomy.
 
 \subsection{Methodological Note}
 
-The assignment of new-dimension levels to papers is itself a data-driven process. We analyzed the 952 papers in \texttt{papers.yaml}, reading abstracts and, where necessary, full texts to determine the three additional coordinates. The resulting annotations are included in the data file for community verification and improvement. We expect these annotations to evolve as the field matures; the data-driven infrastructure described in Section~\ref{sec:methodology} is designed to accommodate such changes.
+The assignment of new-dimension levels to papers is itself a data-driven process. We analyzed the 1,049 papers in \texttt{papers.yaml}, reading abstracts and, where necessary, full texts to determine the three additional coordinates. The resulting annotations are included in the data file for community verification and improvement. We expect these annotations to evolve as the field matures; the data-driven infrastructure described in Section~\ref{sec:methodology} is designed to accommodate such changes.
 
 \begin{figure}[ht]
     \centering
