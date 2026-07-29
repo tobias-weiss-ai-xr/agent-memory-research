@@ -1,7 +1,7 @@
 {
-  "total_papers": 952,
+  "total_papers": 1047,
   "year_distribution": {
-    "2026": 568,
+    "2026": 663,
     "2025": 246,
     "2024": 80,
     "2023": 45,
@@ -35,11 +35,11 @@
   "change_point": {
     "year": 2025,
     "confidence": 1.0,
-    "acceleration_factor": 22.301369863013697
+    "acceleration_factor": 24.904109589041095
   },
   "model_comparison": {
-    "linear_bic": 1278.5114497365032,
-    "exponential_bic": 13511.663325248457,
+    "linear_bic": 1496.6785554873063,
+    "exponential_bic": 15169.382809763401,
     "best_model": "linear"
   },
   "hyperparameter": {

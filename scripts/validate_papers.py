@@ -21,6 +21,11 @@ LATEX_PATTERNS = [
     re.compile(r"\\\)"),
     re.compile(r"\^\d"),
 ]
+VANITY_DOMAINS = re.compile(
+    r"(researchsquare\.com|techrxiv\.org|preprints\.org|hal\.science|"
+    r"zenodo\.org/doi|rgdoi\.net)",
+    re.IGNORECASE,
+)
 
 
 def normalize_arxiv_url(url):
@@ -55,15 +60,21 @@ def validate_papers(data, fix=False):
 
         cat = paper.get("category", "")
         if cat and cat not in VALID_CATEGORIES:
-            errors.append(f"{prefix}invalid category '{cat}' — must be one of {sorted(VALID_CATEGORIES)}")
+            errors.append(
+                f"{prefix}invalid category '{cat}' — must be one of {sorted(VALID_CATEGORIES)}"
+            )
 
         sub = paper.get("subcategory", "")
         if sub and sub not in VALID_SUBCATEGORIES:
-            errors.append(f"{prefix}invalid subcategory '{sub}' — must be one of {sorted(VALID_SUBCATEGORIES)}")
+            errors.append(
+                f"{prefix}invalid subcategory '{sub}' — must be one of {sorted(VALID_SUBCATEGORIES)}"
+            )
 
         date = paper.get("date", "")
         if date and not DATE_PATTERN.match(date):
-            errors.append(f"{prefix}invalid date '{date}' — must be YYYY-MM format with month 01-12")
+            errors.append(
+                f"{prefix}invalid date '{date}' — must be YYYY-MM format with month 01-12"
+            )
 
         url = paper.get("url", "")
         if url:
@@ -89,14 +100,24 @@ def validate_papers(data, fix=False):
         if title:
             for pattern in LATEX_PATTERNS:
                 if pattern.search(title):
-                    warnings.append(f"{prefix}title contains possible LaTeX artifact: '{pattern.search(title).group()}'")
+                    warnings.append(
+                        f"{prefix}title contains possible LaTeX artifact: '{pattern.search(title).group()}'"
+                    )
+
+        url = paper.get("url", "")
+        if url and VANITY_DOMAINS.search(url):
+            warnings.append(
+                f"{prefix}URL points to non-peer-reviewed platform — verify venue quality"
+            )
 
     return errors, warnings, fixed
 
 
 def main():
     parser = argparse.ArgumentParser(description="Validate papers.yaml")
-    parser.add_argument("--fix", action="store_true", help="Auto-fix URL normalization issues")
+    parser.add_argument(
+        "--fix", action="store_true", help="Auto-fix URL normalization issues"
+    )
     args = parser.parse_args()
 
     yaml_path = Path(__file__).resolve().parent.parent / "papers.yaml"
@@ -121,13 +142,21 @@ def main():
 
     if fixed > 0:
         with open(yaml_path, "w", encoding="utf-8") as f:
-            yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+            yaml.dump(
+                data, f, default_flow_style=False, allow_unicode=True, sort_keys=False
+            )
         print(f"FIXED: {fixed} URL(s) normalized", flush=True)
 
     if not errors and not warnings:
-        print(f"OK: All {len(data.get('papers', []))} papers passed validation", flush=True)
+        print(
+            f"OK: All {len(data.get('papers', []))} papers passed validation",
+            flush=True,
+        )
     elif not errors:
-        print(f"OK: All {len(data.get('papers', []))} papers passed validation (with warnings)", flush=True)
+        print(
+            f"OK: All {len(data.get('papers', []))} papers passed validation (with warnings)",
+            flush=True,
+        )
 
     sys.exit(1 if errors else 0)
 

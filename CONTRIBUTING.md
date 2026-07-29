@@ -62,6 +62,8 @@ papers:
 
 A paper may belong to one category/subcategory combination. If a paper spans multiple, choose the **primary** contribution.
 
+> **Note on paper counts:** The total paper count in the header and README counts each unique (title, category, subcategory) triple. If the same paper appears under multiple categories, it is counted multiple times. For deduplicated counts, see `docs/metrics_analysis.md`.
+
 ## Deduplication Checklist
 
 Before adding a paper, check that it is not already in the list:
@@ -84,10 +86,26 @@ pip install -r requirements.txt
 | `python3 scripts/validate_papers.py --fix` | Validate and auto-fix URL normalization |
 | `python3 scripts/generate_readme.py` | Regenerate `README.md` from `papers.yaml` |
 | `python3 scripts/generate_readme.py --check` | Check if README is up-to-date (CI use) |
-| `python3 scripts/fetch_metadata.py` | Fetch authors/venue/abstract from arXiv and Semantic Scholar |
+| `python3 scripts/fetch_metadata.py` | Fetch authors/venue/abstract from arXiv and Semantic Scholar (sequential, ~3s/paper) |
 | `python3 scripts/fetch_metadata.py --dry-run` | Preview metadata fetches without modifying files |
+| `python3 scripts/fetch_metadata.py --paper-id N` | Fetch metadata for a single paper (1-based index) |
+| `python3 scripts/fetch_metadata_bulk.py` | Batch arXiv metadata fetch (~50 IDs/request, much faster) — skips papers that already have authors |
 | `python3 scripts/fetch_new_papers.py` | Discover new agent memory papers from arXiv |
 | `python3 scripts/fetch_new_papers.py --dry-run` | Preview new papers without creating anything |
+| `python3 scripts/export_bibtex.py` | Export all papers to BibTeX format |
+
+### Bulk Metadata Fetch
+
+The sequential `fetch_metadata.py` adds a 3s delay per paper (~52 min for the full corpus).
+Use `fetch_metadata_bulk.py` instead for initial population — it batches arXiv API requests
+(~50 IDs/request) and skips papers that already have authors:
+
+```bash
+python3 scripts/fetch_metadata_bulk.py
+```
+
+After bulk fetch, use `fetch_metadata.py` for Semantic Scholar venue data on individual papers
+(e.g., papers with known conference publications).
 
 ## PR Process
 

@@ -35,8 +35,8 @@ This fork adds:
 - **Contributor guardrails**: CONTRIBUTING.md, issue/PR templates, URL normalization rules
 
 ## 📢 News
-- [2026/07] 📄 **Extended survey revised!** Updated to 1,049 papers (595 since Feb 2026). Added two new theme clusters (security/adversarial robustness, efficiency/compression) to the taxonomy. See [paper/main.pdf](paper/main.pdf) — 18 pages
-- [2026/07] 📚 **Added 83 new papers!** Discovered via arXiv API queries for ``agent memory'', ``memory system'' agent, and ``long-term memory'' agent. Now 1,049 entries.
+- [2026/07] 📄 **Extended survey revised!** Updated to 1,047 papers (593 since Feb 2026). Added two new theme clusters (security/adversarial robustness, efficiency/compression) to the taxonomy. See [paper/main.pdf](paper/main.pdf) — 18 pages
+- [2026/07] 📚 **Added 83 new papers!** Discovered via arXiv API queries for ``agent memory'', ``memory system'' agent, and ``long-term memory'' agent. Now 1,047 entries.
 - [2026/07] 📚 **Added 787 new papers!** Discovered via 200+ arXiv API queries, OpenAlex, CrossRef, and Semantic Scholar citation networks across 16 search rounds. Now 953 entries (896 unique arXiv papers).
 - [2026/07] 📚 **Added 357 new papers!** Discovered via 100+ arXiv API queries across 13 search rounds covering memory architectures, security, benchmarks, consolidation, forgetting, embodied agents, prospective memory, and July 2026 releases. Now 616 entries (573 unique arXiv papers).
 - [2026/06] 📄 **Extended survey released!** See [Agent Memory Research in 2026: A Data-Driven Survey and Extended Taxonomy](paper/main.pdf) — 19 pages, 259 papers, expanded 6-dimension taxonomy
@@ -534,7 +534,6 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2026/07] ConsistencyGate: Preventing Memory Contamination in LLM Agents via Self-Consistency Admission Control. [[paper](https://arxiv.org/abs/2607.22962)]
 - [2026/07] From Cognitive Architectures to Language Agents: A Mechanism-Level Review of Lineage, Convergence, and Migration Gaps. [[paper](https://arxiv.org/abs/2607.23942)]
 - [2026/07] Isolated but Exposed: Persistence-Based Memory Extraction Attack on LLM Agents. [[paper](https://arxiv.org/abs/2607.23444)]
-- [2026/07] The Chronos Vulnerability: A Taxonomy of Temporal Persistence and Memory-Based Deception in Agentic AI. [[paper](https://arxiv.org/abs/2607.19433)]
 
 #### Parametric
 
@@ -1024,7 +1023,6 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2025/01] ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents. [[paper](https://doi.org/https://doi.org/10.18653/v1/2025.emnlp-main.464)]
 - [2026/07] ACM: Agentic Context Management for Long Horizon Tasks. [[paper](https://arxiv.org/abs/2607.23809)]
 - [2026/07] Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV. [[paper](https://arxiv.org/abs/2607.23693)]
-- [2026/07] Supra Cognitive Modes: A Routed Architecture for Agent Memory. [[paper](https://arxiv.org/abs/2607.19096)]
 - [2026/07] ContainmentBench: Trace-Based Evaluation of Post-Injection Containment in Tool-Using LLM Agents. [[paper](https://arxiv.org/abs/2607.23999)]
 - [2026/07] ReCon: A Resource-Constrained Benchmark for LLM-Based Cybersecurity Compliance Across Ingestion and Retrieval Pipelines. [[paper](https://arxiv.org/abs/2607.22885)]
 - [2026/07] SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent. [[paper](https://arxiv.org/abs/2607.22562)]

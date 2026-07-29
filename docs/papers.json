@@ -19479,51 +19479,6 @@
       ]
     },
     {
-      "title": "Supra Cognitive Modes: A Routed Architecture for Agent Memory",
-      "date": "2026-07",
-      "url": "https://arxiv.org/abs/2607.19096",
-      "category": "working",
-      "subcategory": "token-level",
-      "authors": [
-        "Joshua Tobkin",
-        "David Yang"
-      ],
-      "venue": "",
-      "code_url": "",
-      "project_url": "",
-      "abstract": "",
-      "tags": [
-        "routed architecture",
-        "agent memory",
-        "cognitive modes",
-        "retrieval",
-        "multi-hop"
-      ]
-    },
-    {
-      "title": "The Chronos Vulnerability: A Taxonomy of Temporal Persistence and Memory-Based Deception in Agentic AI",
-      "date": "2026-07",
-      "url": "https://arxiv.org/abs/2607.19433",
-      "category": "factual",
-      "subcategory": "token-level",
-      "authors": [
-        "Om Narayan",
-        "Ramkinker Singh",
-        "Praveen Baskar"
-      ],
-      "venue": "",
-      "code_url": "",
-      "project_url": "",
-      "abstract": "",
-      "tags": [
-        "security",
-        "memory attacks",
-        "persistence",
-        "taxonomy",
-        "agentic AI"
-      ]
-    },
-    {
       "title": "ContainmentBench: Trace-Based Evaluation of Post-Injection Containment in Tool-Using LLM Agents",
       "date": "2026-07",
       "url": "https://arxiv.org/abs/2607.23999",
