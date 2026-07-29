@@ -4,6 +4,7 @@
 import argparse
 import json
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 import yaml
@@ -28,28 +29,72 @@ def load_papers(path):
 def render_paper_list(papers):
     lines = ["## 📚 Paper list", ""]
 
+    # Emoji TOC
     for cat in CATEGORY_ORDER:
-        lines.append(f"### {CATEGORY_DISPLAY[cat]}")
+        cat_display = CATEGORY_DISPLAY[cat]
+        cat_anchor = cat_display.lower().replace(" ", "-")
+        lines.append(f"- [📚 {cat_display}](#{cat_anchor})")
+        for sub in SUBCATEGORY_ORDER:
+            group = [
+                p for p in papers if p["category"] == cat and p["subcategory"] == sub
+            ]
+            if not group:
+                continue
+            sub_display = sub.capitalize()
+            sub_anchor = sub.lower()
+            lines.append(f"  - [{sub_display}](#{sub_anchor})")
+    lines.append("")
+
+    for cat in CATEGORY_ORDER:
+        cat_display = CATEGORY_DISPLAY[cat]
+        lines.append(f"### {cat_display}")
         lines.append("")
 
         for sub in SUBCATEGORY_ORDER:
-            group = [p for p in papers if p["category"] == cat and p["subcategory"] == sub]
+            group = [
+                p for p in papers if p["category"] == cat and p["subcategory"] == sub
+            ]
             if not group:
                 continue
 
-            lines.append(f"#### {sub.capitalize()}")
+            sub_display = sub.capitalize()
+            lines.append(f"#### {sub_display}")
             lines.append("")
 
+            # Group by year
+            year_groups = defaultdict(list)
             for p in group:
-                date_display = p["date"].replace("-", "/")
-                title = p["title"]
-                url = p["url"]
-                entry = f"- [{date_display}] {title}. [[paper]({url})]"
-                code_url = p.get("code_url", "")
-                if code_url:
-                    entry += f" [[code]({code_url})]"
-                lines.append(entry)
+                year = p["date"][:4]
+                year_groups[year].append(p)
 
+            for year in sorted(year_groups.keys(), reverse=True):
+                lines.append(f"##### {year}")
+                lines.append("")
+
+                sorted_papers = sorted(
+                    year_groups[year], key=lambda p: p["date"], reverse=True
+                )
+                for p in sorted_papers:
+                    y = p["date"][:4]
+                    title = p["title"]
+                    url = p["url"]
+                    venue = p.get("venue", "")
+                    code_url = p.get("code_url", "")
+                    project_url = p.get("project_url", "")
+
+                    entry = f"- [{y}] **{title}**"
+                    if venue:
+                        entry += f" *{venue}*"
+                    entry += f" [[paper]({url})]"
+                    if code_url:
+                        entry += f" [[code]({code_url})]"
+                    if project_url:
+                        entry += f" [[project]({project_url})]"
+                    lines.append(entry)
+
+                lines.append("")
+
+            lines.append("[⬆ Back to top](#paper-list)")
             lines.append("")
 
     return "\n".join(lines)
@@ -65,7 +110,10 @@ def generate_readme(papers, readme_path, check_mode=False):
     end_idx = readme_text.find(end_marker)
 
     if start_idx == -1 or end_idx == -1:
-        print("Error: Could not find paper list or citation section in README.md", file=sys.stderr)
+        print(
+            "Error: Could not find paper list or citation section in README.md",
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     before = readme_text[:start_idx]
@@ -79,7 +127,10 @@ def generate_readme(papers, readme_path, check_mode=False):
             print("README.md is up-to-date.")
             sys.exit(0)
         else:
-            print("README.md is out-of-date. Run generate_readme.py without --check to update.", file=sys.stderr)
+            print(
+                "README.md is out-of-date. Run generate_readme.py without --check to update.",
+                file=sys.stderr,
+            )
             sys.exit(1)
 
     readme_path.write_text(new_readme, encoding="utf-8")
@@ -88,14 +139,24 @@ def generate_readme(papers, readme_path, check_mode=False):
 
 def generate_json(papers, json_path):
     json_path.parent.mkdir(parents=True, exist_ok=True)
-    json_path.write_text(json.dumps({"papers": papers}, ensure_ascii=False, indent=2), encoding="utf-8")
+    json_path.write_text(
+        json.dumps({"papers": papers}, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     print(f"Generated {json_path}")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate README.md and papers.json from papers.yaml")
-    parser.add_argument("--check", action="store_true", help="Check if README is up-to-date (exit 1 if not)")
-    parser.add_argument("--skip-json", action="store_true", help="Skip generating papers.json")
+    parser = argparse.ArgumentParser(
+        description="Generate README.md and papers.json from papers.yaml"
+    )
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="Check if README is up-to-date (exit 1 if not)",
+    )
+    parser.add_argument(
+        "--skip-json", action="store_true", help="Skip generating papers.json"
+    )
     args = parser.parse_args()
 
     base = Path(__file__).parent.parent
