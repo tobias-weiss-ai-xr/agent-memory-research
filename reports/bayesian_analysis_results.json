@@ -1,0 +1,42 @@
+{
+  "total_papers": 1047,
+  "year_distribution": {
+    "2026": 663,
+    "2025": 246,
+    "2024": 80,
+    "2023": 45,
+    "2021": 3,
+    "2022": 5,
+    "2020": 2,
+    "2011": 1,
+    "2018": 1,
+    "2013": 1
+  },
+  "growth_rate_percent": 165.02527568158814,
+  "growth_rate_ci": [
+    165.0252638742594,
+    165.02528859734764
+  ],
+  "category_proportions": {
+    "experiential": 0.18666666666666668,
+    "factual": 0.4819047619047619,
+    "working": 0.3314285714285714
+  },
+  "subcategory_counts": {
+    "factual/token-level": 455,
+    "factual/parametric": 20,
+    "factual/latent": 30,
+    "experiential/token-level": 169,
+    "experiential/parametric": 11,
+    "experiential/latent": 15,
+    "working/token-level": 282,
+    "working/parametric": 10,
+    "working/latent": 55
+  },
+  "predictions": {
+    "2027": 1757.1175776573978,
+    "2028": 4656.805703940576,
+    "2029": 12341.712154041052,
+    "2030": 32708.65665799921
+  }
+}
