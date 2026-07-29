@@ -15,6 +15,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?)](LICENSE)
 [![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/agent-memory-research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/agent-memory-research/actions/workflows/validate.yml)
 [![Benchmark](https://img.shields.io/badge/Benchmark-AMBench-004D40.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-memory-bench)
+[![Agentic VR Survey](https://img.shields.io/badge/Agentic_VR_Survey-004D40.svg?logo=arxiv)](https://github.com/tobias-weiss-ai-xr/agentic-vr-research)
 
 </div>
 
@@ -1154,6 +1155,14 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 - [2022/08] Memorizing Transformers. [[paper](https://openreview.net/forum?id=TrjbxzRcnf-)]
 - [2026/07] Co-Evolving Graph and Text Memory for Training-Free Multi-Hop Question Answering. [[paper](https://arxiv.org/abs/2607.23278)]
 - [2026/07] Short-Term-to-Long-Term Memory Transfer for Knowledge Graphs under Partial Observability. [[paper](https://arxiv.org/abs/2605.22142)]
+
+## 🔗 Related Projects
+
+### [AMBench](https://github.com/tobias-weiss-ai-xr/agent-memory-bench)
+A unified benchmark for agent memory systems covering all 27 taxonomy cells plus temporal, multimodal, security, and multi-agent dimensions. Includes a LiteLLM-compatible evaluation harness with 4 scoring strategies. See [agent-memory-bench](https://github.com/tobias-weiss-ai-xr/agent-memory-bench).
+
+### [Agentic VR Survey](https://github.com/tobias-weiss-ai-xr/agentic-vr-research)
+A living, data-driven survey of agentic AI in Virtual Reality, XR, and 3D environments. Curates 4,942 papers across a 3D taxonomy of agent type × environment × capability. See [agentic-vr-research](https://github.com/tobias-weiss-ai-xr/agentic-vr-research).
 
 ## 📖 Citation
 

@@ -61,4 +61,4 @@ jobs:
       - name: Discover new papers from arXiv
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python3 scripts/fetch_new_papers.py --months 1 --create-pr
+        run: python3 scripts/fetch/fetch_new_papers.py --months 1 --create-pr
