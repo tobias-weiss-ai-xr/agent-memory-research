@@ -13,12 +13,14 @@ import requests
 import yaml
 
 ARXIV_ID_PATTERN = re.compile(r"(\d{4}\.\d{4,5})")
-ARXIV_SEARCH_API = "http://export.arxiv.org/api/query?search_query={}&start={}&max_results={}"
+ARXIV_SEARCH_API = (
+    "http://export.arxiv.org/api/query?search_query={}&start={}&max_results={}"
+)
 QUERIES = [
-    "cat:cs.AI AND (abs:\"agent memory\" OR abs:\"memory-augmented agent\" OR abs:\"LLM memory\" OR abs:\"agent memor\")",
-    "cat:cs.AI AND (abs:\"long-term memory\" AND abs:\"agent\")",
-    "cat:cs.CL AND abs:\"memory management\" AND abs:\"LLM\" AND abs:\"agent\"",
-    "cat:cs.CL AND abs:\"experience replay\" AND abs:\"agent\" AND abs:\"language\"",
+    'cat:cs.AI AND (abs:"agent memory" OR abs:"memory-augmented agent" OR abs:"LLM memory" OR abs:"agent memor")',
+    'cat:cs.AI AND (abs:"long-term memory" AND abs:"agent")',
+    'cat:cs.CL AND abs:"memory management" AND abs:"LLM" AND abs:"agent"',
+    'cat:cs.CL AND abs:"experience replay" AND abs:"agent" AND abs:"language"',
 ]
 
 
@@ -48,7 +50,9 @@ def search_arxiv(query, months, start=0, max_results=100):
     full_query = f"({query}) AND submittedDate:[{date_start} TO {date_end}]"
     try:
         resp = requests.get(
-            ARXIV_SEARCH_API.format(requests.utils.quote(full_query), start, max_results),
+            ARXIV_SEARCH_API.format(
+                requests.utils.quote(full_query), start, max_results
+            ),
             timeout=30,
         )
         resp.raise_for_status()
@@ -85,6 +89,9 @@ def format_yaml_entry(entry):
         f'    url: "{entry.get("url", "")}"',
         f'    category: ""  # TODO: factual | experiential | working',
         f'    subcategory: ""  # TODO: token-level | parametric | latent',
+        f'    temporal_dynamics: ""  # TODO: none | decay-based | consolidation-based | bi-temporal',
+        f'    modality: ""  # TODO: text-only | multimodal-in | multimodal-out | full-multimodal',
+        f'    biological_inspiration: ""  # TODO: none | cognitive-metaphor | neuro-inspired | brain-architecture',
     ]
     if entry.get("abstract"):
         abstract = entry["abstract"][:200].replace('"', '\\"')
@@ -93,17 +100,31 @@ def format_yaml_entry(entry):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Discover new agent memory papers from arXiv")
-    parser.add_argument("--months", type=int, default=3, help="Search papers from the last N months (default: 3)")
-    parser.add_argument("--dry-run", action="store_true", help="Preview without creating anything")
-    parser.add_argument("--create-pr", action="store_true", help="Create a GitHub PR with new papers")
+    parser = argparse.ArgumentParser(
+        description="Discover new agent memory papers from arXiv"
+    )
+    parser.add_argument(
+        "--months",
+        type=int,
+        default=3,
+        help="Search papers from the last N months (default: 3)",
+    )
+    parser.add_argument(
+        "--dry-run", action="store_true", help="Preview without creating anything"
+    )
+    parser.add_argument(
+        "--create-pr", action="store_true", help="Create a GitHub PR with new papers"
+    )
     args = parser.parse_args()
 
     yaml_path = Path(__file__).resolve().parent.parent / "papers.yaml"
     by_id, titles_lower = load_existing_papers(yaml_path)
 
     print(f"Loaded {len(by_id)} existing papers from papers.yaml", flush=True)
-    print(f"Searching arXiv for papers from the last {args.months} month(s)...", flush=True)
+    print(
+        f"Searching arXiv for papers from the last {args.months} month(s)...",
+        flush=True,
+    )
 
     all_new = []
     for qi, query in enumerate(QUERIES):
@@ -127,7 +148,9 @@ def main():
 
         time.sleep(3)
 
-    print(f"\nFound {len(all_new)} new papers ({len(by_id)} already in list)", flush=True)
+    print(
+        f"\nFound {len(all_new)} new papers ({len(by_id)} already in list)", flush=True
+    )
 
     if not all_new:
         print("No new papers to add.", flush=True)
@@ -149,34 +172,57 @@ def main():
         print(f"\nCreating branch '{branch_name}' and PR...", flush=True)
 
         try:
-            subprocess.run(["git", "checkout", "-b", branch_name], check=True, cwd=yaml_path.parent)
+            subprocess.run(
+                ["git", "checkout", "-b", branch_name], check=True, cwd=yaml_path.parent
+            )
             with open(yaml_path, "r") as f:
                 data = yaml.safe_load(f) or {}
             papers = data.get("papers", [])
             for entry in all_new:
-                papers.append({
-                    "title": entry.get("title", ""),
-                    "date": entry.get("date", ""),
-                    "url": entry.get("url", ""),
-                    "category": "",
-                    "subcategory": "",
-                    "abstract": entry.get("abstract", ""),
-                })
+                papers.append(
+                    {
+                        "title": entry.get("title", ""),
+                        "date": entry.get("date", ""),
+                        "url": entry.get("url", ""),
+                        "category": "",
+                        "subcategory": "",
+                        "abstract": entry.get("abstract", ""),
+                    }
+                )
             data["papers"] = papers
             with open(yaml_path, "w") as f:
-                yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
-            subprocess.run(["git", "add", "papers.yaml"], check=True, cwd=yaml_path.parent)
+                yaml.dump(
+                    data,
+                    f,
+                    default_flow_style=False,
+                    allow_unicode=True,
+                    sort_keys=False,
+                )
             subprocess.run(
-                ["git", "commit", "-m", f"Add {len(all_new)} new papers from arXiv discovery"],
+                ["git", "add", "papers.yaml"], check=True, cwd=yaml_path.parent
+            )
+            subprocess.run(
+                [
+                    "git",
+                    "commit",
+                    "-m",
+                    f"Add {len(all_new)} new papers from arXiv discovery",
+                ],
                 check=True,
                 cwd=yaml_path.parent,
             )
-            subprocess.run(["git", "push", "origin", branch_name], check=True, cwd=yaml_path.parent)
+            subprocess.run(
+                ["git", "push", "origin", branch_name], check=True, cwd=yaml_path.parent
+            )
             subprocess.run(
                 [
-                    "gh", "pr", "create",
-                    "--title", f"Add {len(all_new)} new papers from arXiv discovery",
-                    "--body", f"Automatically discovered {len(all_new)} new papers.\n\n**Please review taxonomy assignments.**",
+                    "gh",
+                    "pr",
+                    "create",
+                    "--title",
+                    f"Add {len(all_new)} new papers from arXiv discovery",
+                    "--body",
+                    f"Automatically discovered {len(all_new)} new papers.\n\n**Please review taxonomy assignments.**",
                 ],
                 check=True,
                 cwd=yaml_path.parent,
@@ -186,7 +232,10 @@ def main():
             print(f"ERROR: Failed to create PR: {e}", flush=True)
             sys.exit(1)
     else:
-        print("\nTo add these papers, re-run with --create-pr or manually add to papers.yaml", flush=True)
+        print(
+            "\nTo add these papers, re-run with --create-pr or manually add to papers.yaml",
+            flush=True,
+        )
 
 
 if __name__ == "__main__":

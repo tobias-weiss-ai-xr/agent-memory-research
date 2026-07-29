@@ -10,6 +10,14 @@ import yaml
 
 VALID_CATEGORIES = {"factual", "experiential", "working"}
 VALID_SUBCATEGORIES = {"token-level", "parametric", "latent"}
+VALID_TEMPORAL_DYNAMICS = {"none", "decay-based", "consolidation-based", "bi-temporal"}
+VALID_MODALITY = {"text-only", "multimodal-in", "multimodal-out", "full-multimodal"}
+VALID_BIO_INSPIRATION = {
+    "none",
+    "cognitive-metaphor",
+    "neuro-inspired",
+    "brain-architecture",
+}
 ARXIV_ID_PATTERN = re.compile(r"(\d{4}\.\d{4,5})(v\d+)?")
 ARXIV_URL_PATTERN = re.compile(r"^https://arxiv\.org/abs/\d{4}\.\d{4,5}$")
 ARXIV_DOI_PATTERN = re.compile(r"doi\.org/10\.48550/arXiv\.", re.IGNORECASE)
@@ -68,6 +76,24 @@ def validate_papers(data, fix=False):
         if sub and sub not in VALID_SUBCATEGORIES:
             errors.append(
                 f"{prefix}invalid subcategory '{sub}' — must be one of {sorted(VALID_SUBCATEGORIES)}"
+            )
+
+        temporal = paper.get("temporal_dynamics", "")
+        if temporal and temporal not in VALID_TEMPORAL_DYNAMICS:
+            errors.append(
+                f"{prefix}invalid temporal_dynamics '{temporal}' — must be one of {sorted(VALID_TEMPORAL_DYNAMICS)}"
+            )
+
+        modality = paper.get("modality", "")
+        if modality and modality not in VALID_MODALITY:
+            errors.append(
+                f"{prefix}invalid modality '{modality}' — must be one of {sorted(VALID_MODALITY)}"
+            )
+
+        bio = paper.get("biological_inspiration", "")
+        if bio and bio not in VALID_BIO_INSPIRATION:
+            errors.append(
+                f"{prefix}invalid biological_inspiration '{bio}' — must be one of {sorted(VALID_BIO_INSPIRATION)}"
             )
 
         date = paper.get("date", "")

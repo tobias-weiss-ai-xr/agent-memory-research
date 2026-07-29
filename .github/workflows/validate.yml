@@ -12,6 +12,8 @@ on:
       - 'papers.yaml'
       - 'scripts/'
       - 'requirements.txt'
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 06:00 UTC — discover new papers
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -38,3 +40,25 @@ jobs:
       - name: Check README is up-to-date
         continue-on-error: false
         run: python3 scripts/generate_readme.py --check
+
+  discover:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml requests
+
+      - name: Discover new papers from arXiv
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/fetch_new_papers.py --months 1 --create-pr
