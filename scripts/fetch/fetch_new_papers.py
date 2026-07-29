@@ -117,7 +117,7 @@ def main():
     )
     args = parser.parse_args()
 
-    yaml_path = Path(__file__).resolve().parent.parent / "papers.yaml"
+    yaml_path = Path(__file__).resolve().parent.parent.parent / "papers.yaml"
     by_id, titles_lower = load_existing_papers(yaml_path)
 
     print(f"Loaded {len(by_id)} existing papers from papers.yaml", flush=True)

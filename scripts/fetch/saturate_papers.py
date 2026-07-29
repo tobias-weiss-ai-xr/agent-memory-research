@@ -542,7 +542,7 @@ def run_round(yaml_path, data, papers, by_id, titles_lower, queries, round_num):
 
 
 def main():
-    yaml_path = Path(__file__).resolve().parent.parent / "papers.yaml"
+    yaml_path = Path(__file__).resolve().parent.parent.parent / "papers.yaml"
     data, papers, by_id, titles_lower = load_existing_papers(yaml_path)
 
     print(f"Loaded {len(papers)} existing papers", flush=True)
