@@ -18,6 +18,8 @@
 [![Agentic VR Survey](https://img.shields.io/badge/Agentic_VR_Survey-004D40.svg?logo=arxiv)](https://github.com/tobias-weiss-ai-xr/agentic-vr-research)
 [![Skill Survey](https://img.shields.io/badge/Skill_Survey-004D40.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-skill-research)
 [![Skill Bench](https://img.shields.io/badge/Skill_Bench-004D40.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-skill-bench)
+[![Learning Survey](https://img.shields.io/badge/Learning_Survey-004D40.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-learning-research)
+[![Learning Research](https://img.shields.io/badge/Learning_Research-004D40.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/learning-research)
 
 </div>
 
@@ -1490,6 +1492,17 @@ If you find this repository helpful, please cite the original survey paper:
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
+
+## 🔗 Related Projects
+
+| Project | Description |
+|---------|-------------|
+| [Agent Memory Bench](https://github.com/tobias-weiss-ai-xr/agent-memory-bench) | Benchmark for agent memory systems |
+| [Agentic VR Research](https://github.com/tobias-weiss-ai-xr/agentic-vr-research) | Survey of agentic VR systems |
+| [Agent Skill Research](https://github.com/tobias-weiss-ai-xr/agent-skill-research) | Survey of skill acquisition in AI agents |
+| [Agent Skill Bench](https://github.com/tobias-weiss-ai-xr/agent-skill-bench) | Benchmark for agent skill systems |
+| [Agent Learning Research](https://github.com/tobias-weiss-ai-xr/agent-learning-research) | Survey of learning in AI agents |
+| [Learning Research](https://github.com/tobias-weiss-ai-xr/learning-research) | Interdisciplinary survey of learning across all disciplines |
 
 ## ⭐️ Star History
 
