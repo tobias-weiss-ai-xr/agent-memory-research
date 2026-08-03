@@ -37700,3 +37700,35 @@ papers:
   tags:
   - auto-factual
   - auto-token-level
+- title: 'SEVerA: Verified Synthesis of Self-Evolving Agents'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.25111
+  category: experiential
+  subcategory: latent
+  authors:
+  - ''
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Formulates agentic code generation as a constrained learning problem,
+    combining hard formal specifications with soft objectives for self-evolving
+    LLM agents. Provides formal safety/correctness guarantees for autonomous execution.
+  tags:
+  - self-evolving
+  - verification
+- title: 'Ratchet: A Minimal Hygiene Recipe for Self-Evolving LLM Agents'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.22148
+  category: experiential
+  subcategory: latent
+  authors:
+  - ''
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Self-evolving skill libraries let frozen LLM agents accumulate reusable
+    knowledge without weight updates. Evaluates LLM-authored skill quality and
+    proposes a minimal hygiene recipe for reliable self-evolution.
+  tags:
+  - self-evolving
+  - skill-management
