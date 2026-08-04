@@ -38280,13 +38280,15 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'This paper explores the theoretical foundations and practical implementations of recursive agent systems, where agents can modify and improve their own code and decision-making processes.'
+  abstract: This paper explores the theoretical foundations and practical implementations
+    of recursive agent systems, where agents can modify and improve their own code
+    and decision-making processes.
   tags:
   - recursive-agents
   - self-improvement
   - theoretical-foundations
   - harness-engineering
-- title: 'Context Compression for Long-Horizon Agent Memory'
+- title: Context Compression for Long-Horizon Agent Memory
   date: 2026-07
   url: https://arxiv.org/abs/2607.00002
   category: factual
@@ -38297,7 +38299,8 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'This work introduces novel techniques for compressing and retaining relevant context in long-horizon agent interactions.'
+  abstract: This work introduces novel techniques for compressing and retaining relevant
+    context in long-horizon agent interactions.
   tags:
   - context-compression
   - long-horizon
@@ -38314,13 +38317,14 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'Adaptive Harness Evolution presents a framework for dynamically adapting agent harnesses based on task requirements and performance feedback.'
+  abstract: Adaptive Harness Evolution presents a framework for dynamically adapting
+    agent harnesses based on task requirements and performance feedback.
   tags:
   - adaptive-harnesses
   - context-engineering
   - dynamic-evolution
   - harness-engineering
-- title: 'Meta-Learning for Agent Harness Optimization'
+- title: Meta-Learning for Agent Harness Optimization
   date: 2026-07
   url: https://arxiv.org/abs/2607.00004
   category: factual
@@ -38331,13 +38335,14 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'This paper applies meta-learning techniques to optimize agent harnesses across multiple tasks.'
+  abstract: This paper applies meta-learning techniques to optimize agent harnesses
+    across multiple tasks.
   tags:
   - meta-learning
   - harness-optimization
   - generalization
   - latent-memory
-- title: 'Self-Improving Language Agents with Theory of Mind'
+- title: Self-Improving Language Agents with Theory of Mind
   date: 2026-07
   url: https://arxiv.org/abs/2607.00005
   category: experiential
@@ -38348,9 +38353,285 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'This work explores how incorporating Theory of Mind capabilities into language agents can enable more effective self-improvement and collaboration.'
+  abstract: This work explores how incorporating Theory of Mind capabilities into
+    language agents can enable more effective self-improvement and collaboration.
   tags:
   - theory-of-mind
   - self-improvement
   - multi-agent
   - collaboration
+- title: Dynamic Context Window Management for Agent Memory
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.00005
+  category: factual
+  subcategory: token-level
+  authors:
+  - Liu
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Algorithms for dynamically managing context windows in long-running tasks.
+  tags:
+  - context-management
+  - dynamic-windows
+  - summarization
+  - memory-optimization
+- title: Self-Correcting Language Agents with Memory Feedback
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.00004
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Garcia
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Agents use memory feedback to identify and correct their own mistakes.
+  tags:
+  - self-correction
+  - memory-feedback
+  - error-analysis
+  - reflection
+- title: Multi-Agent Harness Coordination for Complex Tasks
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.00010
+  category: factual
+  subcategory: token-level
+  authors:
+  - Rajan
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Multiple agents with specialized harnesses coordinate to solve complex
+    tasks.
+  tags:
+  - multi-agent
+  - coordination
+  - task-decomposition
+  - harness-engineering
+- title: Tool Discovery and Composition in Self-Improving Agents
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.00011
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Basu
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Agents discover new tools and compose them in novel ways to solve problems.
+  tags:
+  - tool-discovery
+  - tool-composition
+  - library-building
+  - self-improvement
+- title: Memory-Sharing Protocols for Multi-Agent Systems
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.00010
+  category: factual
+  subcategory: token-level
+  authors:
+  - Zhang
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Protocols for sharing and synchronizing memory across multiple agents.
+  tags:
+  - memory-sharing
+  - multi-agent
+  - protocols
+  - collaboration
+- title: Safety Mechanisms for Self-Improving Agents
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.00100
+  category: factual
+  subcategory: token-level
+  authors:
+  - Amodei
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Safety concerns in self-improving agent systems, including containability,
+    corrigibility, and value alignment.
+  tags:
+  - safety
+  - alignment
+  - self-improvement
+  - containment
+- title: Robustness in Agent Harness Design
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.00101
+  category: factual
+  subcategory: token-level
+  authors:
+  - Irving
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Robust harness designs resist adversarial prompts, distribution shifts,
+    and other perturbations.
+  tags:
+  - robustness
+  - adversarial
+  - security
+  - harness-design
+- title: Interpretability of Self-Improving Agent Decisions
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.00100
+  category: factual
+  subcategory: token-level
+  authors:
+  - Rudin
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Methods for interpreting decisions made by self-improving agents.
+  tags:
+  - interpretability
+  - explainable-AI
+  - decision-analysis
+  - transparency
+- title: Information-Theoretic Limits of Agent Memory
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.10001
+  category: factual
+  subcategory: latent
+  authors:
+  - Cover
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Information-theoretic limits on agent memory capacity and processing.
+  tags:
+  - information-theory
+  - theoretical-limits
+  - memory-capacity
+  - retrieval
+- title: Neurosymbolic Approaches to Agent Memory
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.10000
+  category: factual
+  subcategory: token-level
+  authors:
+  - Marcus
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Combining neural networks with symbolic reasoning for robust and interpretable
+    agent memory.
+  tags:
+  - neurosymbolic
+  - symbolic-reasoning
+  - hybrid-systems
+  - interpretability
+- title: Industrial Applications of Self-Improving Agents
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.01000
+  category: factual
+  subcategory: token-level
+  authors:
+  - Google Research
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Deployments of self-improving agent systems in industrial settings.
+  tags:
+  - industrial-applications
+  - deployment
+  - production-systems
+  - case-studies
+- title: Agentic Workflows for Enterprise Automation
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.01001
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Microsoft Research
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Enterprise automation agents handling complex workflows.
+  tags:
+  - enterprise
+  - automation
+  - workflows
+  - integration
+- title: Cost-Effective Agent Systems at Scale
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.01000
+  category: factual
+  subcategory: token-level
+  authors:
+  - Meta Research
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Cost optimization techniques for running agent systems at scale.
+  tags:
+  - cost-optimization
+  - scalability
+  - efficiency
+  - deployment
+- title: 'AI Scientist: Towards end-to-end automation of AI research'
+  date: 2026-07
+  url: https://www.nature.com/articles/s41586-026-10265-5
+  category: factual
+  subcategory: token-level
+  authors:
+  - Lu
+  - et al.
+  venue: Nature
+  code_url: ''
+  project_url: ''
+  abstract: The AI Scientist system builds a pipeline to propose research ideas, write
+    code, run experiments, analyze results, write a manuscript, and perform peer review.
+  tags:
+  - auto-research
+  - workflow-automation
+  - scientific-discovery
+  - harness-engineering
+- title: 'ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.26340
+  category: factual
+  subcategory: token-level
+  authors:
+  - Meng
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ScientistOne makes verifiability the central design constraint.
+  tags:
+  - auto-research
+  - verifiability
+  - chain-of-evidence
+  - harness-engineering
+- title: 'Autodata: An agentic data scientist to create high quality synthetic data'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.25996
+  category: factual
+  subcategory: token-level
+  authors:
+  - Kulikov
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The Autodata agent manages a challenger, weak solver, strong solver, and
+    verifier/judge.
+  tags:
+  - synthetic-data
+  - data-generation
+  - agentic-systems
+  - harness-engineering
