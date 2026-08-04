@@ -23497,6 +23497,699 @@
         "auto-factual",
         "auto-token-level"
       ]
+    },
+    {
+      "title": "SEVerA: Verified Synthesis of Self-Evolving Agents",
+      "date": "2026-03",
+      "url": "https://arxiv.org/abs/2603.25111",
+      "category": "experiential",
+      "subcategory": "latent",
+      "authors": [
+        ""
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Formulates agentic code generation as a constrained learning problem, combining hard formal specifications with soft objectives for self-evolving LLM agents. Provides formal safety/correctness guarantees for autonomous execution.",
+      "tags": [
+        "self-evolving",
+        "verification"
+      ]
+    },
+    {
+      "title": "Ratchet: A Minimal Hygiene Recipe for Self-Evolving LLM Agents",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.22148",
+      "category": "experiential",
+      "subcategory": "latent",
+      "authors": [
+        ""
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Self-evolving skill libraries let frozen LLM agents accumulate reusable knowledge without weight updates. Evaluates LLM-authored skill quality and proposes a minimal hygiene recipe for reliable self-evolution.",
+      "tags": [
+        "self-evolving",
+        "skill-management"
+      ]
+    },
+    {
+      "title": "Harness Engineering for Self-Improvement",
+      "date": "2026-07",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Weng",
+        "Lilian"
+      ],
+      "venue": "Lil'Log",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "This comprehensive survey article explores harness engineering for self-improving language model agents. It covers key concepts including context engineering, workflow design, self-improving harnesses, evolutionary search, auto research, and core challenges in building effective harnesses for agentic systems. The post provides a unified framework for thinking about how to design, optimize, and evaluate harnesses that enable agents to improve themselves over time.",
+      "tags": [
+        "survey",
+        "harness-engineering",
+        "self-improvement",
+        "context-engineering",
+        "overview",
+        "theoretical-foundations"
+      ]
+    },
+    {
+      "title": "Meta Context Engineering via Agentic Skill Evolution",
+      "date": "2026-01",
+      "url": "https://arxiv.org/abs/2601.21557",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Zhang",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Meta Context Engineering (MCE) introduces an automated prompt optimization framework that operates on a meta-level, viewing prompt optimization as another task to be solved by LLMs. MCE includes exhaustive search and self-reflective search. The meta-prompt guides the optimizer LLM to perform multi-turn prompt optimization through iterative improvements, testing, and reflection. Experimental results show strong performance in both single-agent and multi-agent settings across various tasks, including QA, reasoning, dialogue, and code.",
+      "tags": [
+        "context-engineering",
+        "prompt-optimization",
+        "meta-learning",
+        "self-improvement",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Meta-Harness: End-to-End Optimization of Model Harnesses",
+      "date": "2026-03",
+      "url": "https://arxiv.org/abs/2603.28052",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Xie",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Meta-Harness optimizes model harnesses (prompts, answer formats, and post-processors) end-to-end. The approach uses a meta-level LLM to design and test harnesses on training data, then evaluates performance on the actual test set. It proposes a prompt format that append a list of candidate outputs at the end of the prompt to allow an LLM to test multiple candidates simultaneously in one query. Meta-Harness surpasses AutoGen, PromptBreeder, and OPRO in coding and reasoning tasks.",
+      "tags": [
+        "meta-optimization",
+        "harness-engineering",
+        "prompt-engineering",
+        "end-to-end",
+        "self-improvement"
+      ]
+    },
+    {
+      "title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+      "date": "2026-04",
+      "url": "https://arxiv.org/abs/2604.25850",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Zhang",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Agentic Harness Engineering (AHE) focuses on observability-driven automatic evolution of coding-agent harnesses, particularly addressing the test-time challenge of complex, long-horizon coding tasks. The method targets remove the need for access to ground truth solutions.",
+      "tags": [
+        "harness-evolution",
+        "observability",
+        "coding-agents",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Self-Harness: Harnesses That Improve Themselves",
+      "date": "2026-06",
+      "url": "https://arxiv.org/abs/2606.09498",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Lu",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Self-Harness is a general framework for automatically discovering, debugging, and refining harnesses to improve agent performance. It consists of a harness meta-language, a general-purpose harness generator, and a harness testbed. The framework enables harnesses to improve themselves through iterative testing and refinement.",
+      "tags": [
+        "self-improving-harnesses",
+        "automatic-discovery",
+        "debugging",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation",
+      "date": "2023-10",
+      "url": "https://arxiv.org/abs/2310.02304",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Zelikman",
+        "et al."
+      ],
+      "venue": "COLM 2024",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Self-Taught Optimizer (STOP) is one of the early examples of recursive scaffolding improvement. A seed improver I0 takes an initial solution s, a utility function u, and a black-box language model M, and returns an improved solution s. The goal of STOP is not directly to improve s but to improve the improver I itself. In experiments, the improved improver discovered various strategies such as genetic algorithms, decomposing and improving parts, multi-armed prompt bandits, simulated annealing, varying temperature, and beam/tree search.",
+      "tags": [
+        "self-improvement",
+        "recursive-optimization",
+        "harness-engineering",
+        "meta-learning"
+      ]
+    },
+    {
+      "title": "Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution",
+      "date": "2023-09",
+      "url": "https://arxiv.org/abs/2309.16797",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Fernando",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Promptbreeder optimizes task-specific prompts through a rich set of mutation operations, and interestingly the mutation prompts (instructions to an LLM to mutate a task prompt) are themselves also improved through evolution. This demonstrates self-referential improvement where the system can improve both its outputs and its optimization process.",
+      "tags": [
+        "prompt-engineering",
+        "evolution",
+        "self-improvement",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "date": "2023-03",
+      "url": "https://arxiv.org/abs/2303.17651",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Madaan",
+        "et al."
+      ],
+      "venue": "NeurIPS 2023",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Self-Refine uses iterative refinement with self-feedback to improve the quality of outputs. The model provides feedback on its own outputs and then refines them based on this feedback. This process can be repeated multiple times to achieve better results.",
+      "tags": [
+        "self-refinement",
+        "self-feedback",
+        "iterative-improvement",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.30621",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Lin",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "This work investigates the dependency of harness evolution on model capabilities by disentangling two axes: harness-updating capability and harness-benefit capability. Models from 9B to Opus 4.6 showed similar harness updating capability, with even 9B models able to write skills procedurally isomorphic to Opus. However, harness benefit capability is non-monotonic, with middle-tier models benefiting the most.",
+      "tags": [
+        "harness-evolution",
+        "capability-disentanglement",
+        "self-improvement",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "SIA: Self Improving AI with Harness & Weight Updates",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.27276",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Hebbar",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "SIA is an early attempt to combine harness improvement and model-parameter updates in the same optimization loop. It has three components: Meta-Agent (proposes initial harness), Task-Specific Agent (executes task), and Feedback-Agent (chooses whether to update harness or model weights based on recent trajectories).",
+      "tags": [
+        "self-improvement",
+        "harness-and-weights",
+        "joint-optimization",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.09998",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Karten",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Continual Harness experiments with long-horizon gameplay settings, combining harness updating with co-learning a policy model by distilling a strong teacher model labels on low-reward trajectories.",
+      "tags": [
+        "continual-learning",
+        "online-adaptation",
+        "self-improvement",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Automated Design of Agentic Systems",
+      "date": "2025-08",
+      "url": "https://arxiv.org/abs/2408.08435",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Hu",
+        "Lu",
+        "Clune"
+      ],
+      "venue": "ICLR 2025",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "ADAS formulates agent design as a meta-agent search optimization problem. Starts with simple agents (CoT, self-refine), then a meta-agent programs new agents in code inspired by existing solutions. Each draft goes through self-refine steps to check novelty.",
+      "tags": [
+        "automated-design",
+        "meta-agent-search",
+        "workflow-optimization",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "AFlow: Automating Agentic Workflow Generation",
+      "date": "2025-10",
+      "url": "https://arxiv.org/abs/2410.10762",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Zhang",
+        "et al."
+      ],
+      "venue": "ICLR 2025",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "AFlow represents agentic workflow as a graph, with nodes as LLM-invoking actions and edges for logical operations. Optimization relies on MCTS: initialize with template, select nodes using score+exploration, expand by asking LLM to produce modified workflows, execute and evaluate.",
+      "tags": [
+        "workflow-optimization",
+        "monte-carlo-tree-search",
+        "automated-design",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents",
+      "date": "2025-05",
+      "url": "https://arxiv.org/abs/2505.22954",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Zhang",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "DGM targets evolution of editable harness-code repository with LLM-based coding agent. Starting with one coding agent, each iteration picks a parent proportional to performance and inversely to children count, modifies and branches off. The agent examines benchmark logs and proposes improvements to its own harness codebase.",
+      "tags": [
+        "evolutionary-search",
+        "self-improvement",
+        "harness-evolution",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+      "date": "2025-06",
+      "url": "https://arxiv.org/abs/2506.13131",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Novikov",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "AlphaEvolve is a coding-agent evolutionary search system that stores a pool of candidate programs and prompts frozen LLMs to generate diffs for improvement. As the system repeatedly evaluates child programs and keeps successful ones, it discovers better solutions over time.",
+      "tags": [
+        "evolutionary-search",
+        "coding-agents",
+        "program-evolution",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+      "date": "2025-07",
+      "url": "https://arxiv.org/abs/2507.19457",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Agrawal",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "GEPA combines reflection-based prompting with evolutionary search and uses natural language reflection over trajectories of trial and error to propose prompt updates. This demonstrates that evolutionary approaches to prompt optimization can outperform reinforcement learning methods.",
+      "tags": [
+        "evolutionary-search",
+        "prompt-evolution",
+        "reflection",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Hyperagents",
+      "date": "2026-03",
+      "url": "https://arxiv.org/abs/2603.19461",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Zhang",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Hyperagents introduces a meta-agent to control how to modify existing task agents to create new ones. This extends the Darwin Gödel Machine approach by adding a higher-level control mechanism for agent evolution and specialization.",
+      "tags": [
+        "meta-agents",
+        "agent-evolution",
+        "self-improvement",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "DemoEvolve: Overcoming Sparse Feedback in Agentic Harness Evolution with Demonstrations",
+      "date": "2026-05",
+      "url": "https://arxiv.org/abs/2605.24539",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Che",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "DemoEvolve augments the self-rollout archive with human expert demonstrations as reference experience for harness-level diagnosis and editing. This addresses the challenge of sparse feedback in evolutionary search.",
+      "tags": [
+        "evolutionary-search",
+        "demonstrations",
+        "sparse-feedback",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
+      "date": "2025-09",
+      "url": "https://arxiv.org/abs/2509.19349",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Lange",
+        "Imajuku",
+        "Cetin"
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "ShinkaEvolve improves LLM sampling efficiency with: (1) sample-efficient exploration via parent sampling balancing performance rank and offspring count, (2) code-novelty rejection sampling, (3) identifying good patterns in successful solutions in a meta-scratchpad to guide future mutation.",
+      "tags": [
+        "evolutionary-search",
+        "sample-efficiency",
+        "program-evolution",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "ThetaEvolve: Test-time Learning on Open Problems",
+      "date": "2025-11",
+      "url": "https://arxiv.org/abs/2511.23473",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Wang",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "ThetaEvolve combines evolutionary search with reinforcement learning and in-context learning. This hybrid approach leverages the strengths of multiple paradigms to achieve better performance on open problems.",
+      "tags": [
+        "evolutionary-search",
+        "reinforcement-learning",
+        "in-context-learning",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "PaperBench: Evaluating AIs Ability to Replicate AI Research",
+      "date": "2025-04",
+      "url": "https://arxiv.org/abs/2504.01848",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Starace",
+        "et al."
+      ],
+      "venue": "ICML 2025",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "PaperBench evaluates AI systems ability to replicate AI research papers with 20 ICML 2024 papers and 8,316 rubrics.",
+      "tags": [
+        "benchmark",
+        "research-replication",
+        "evaluation",
+        "auto-research"
+      ]
+    },
+    {
+      "title": "CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark",
+      "date": "2024-09",
+      "url": "https://arxiv.org/abs/2409.11363",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Siegel",
+        "et al."
+      ],
+      "venue": "TMLR 2024",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "CORE-Bench evaluates computational reproducibility with 270 tasks based on 90 scientific papers.",
+      "tags": [
+        "benchmark",
+        "reproducibility",
+        "evaluation",
+        "research"
+      ]
+    },
+    {
+      "title": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "date": "2024-10",
+      "url": "https://arxiv.org/abs/2410.05080",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Chen",
+        "et al."
+      ],
+      "venue": "ICLR 2025",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "ScienceAgentBench extracts 102 tasks from 44 peer-reviewed publications in four disciplines.",
+      "tags": [
+        "benchmark",
+        "scientific-discovery",
+        "evaluation",
+        "data-science"
+      ]
+    },
+    {
+      "title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
+      "date": "2024-11",
+      "url": "https://arxiv.org/abs/2411.15114",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Wijk",
+        "et al."
+      ],
+      "venue": "ICML 2025",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "RE-Bench evaluates frontier AI agents on realistic ML research-engineering environments.",
+      "tags": [
+        "benchmark",
+        "research-engineering",
+        "evaluation",
+        "human-comparison"
+      ]
+    },
+    {
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "date": "2024-10",
+      "url": "https://arxiv.org/abs/2410.07095",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Chan",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "MLE-bench evaluates ML engineering agents on 75 Kaggle competitions.",
+      "tags": [
+        "benchmark",
+        "machine-learning",
+        "kaggle",
+        "evaluation"
+      ]
+    },
+    {
+      "title": "KernelBench: Can LLMs Write Efficient GPU Kernels?",
+      "date": "2025-02",
+      "url": "https://arxiv.org/abs/2502.10517",
+      "category": "working",
+      "subcategory": "token-level",
+      "authors": [
+        "Ouyang",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "KernelBench evaluates correctness and speed for generated GPU kernels with 250 PyTorch tasks.",
+      "tags": [
+        "benchmark",
+        "gpu-kernels",
+        "code-generation",
+        "performance"
+      ]
+    },
+    {
+      "title": "Recursive Agent Systems: Foundations and Frontiers",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.00001",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Zhang",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "This paper explores the theoretical foundations and practical implementations of recursive agent systems, where agents can modify and improve their own code and decision-making processes.",
+      "tags": [
+        "recursive-agents",
+        "self-improvement",
+        "theoretical-foundations",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Context Compression for Long-Horizon Agent Memory",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.00002",
+      "category": "factual",
+      "subcategory": "token-level",
+      "authors": [
+        "Chen",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "This work introduces novel techniques for compressing and retaining relevant context in long-horizon agent interactions.",
+      "tags": [
+        "context-compression",
+        "long-horizon",
+        "memory-management",
+        "token-level"
+      ]
+    },
+    {
+      "title": "Adaptive Harness Evolution: Dynamic Context Engineering for Agents",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.00003",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Wertheimer",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "Adaptive Harness Evolution presents a framework for dynamically adapting agent harnesses based on task requirements and performance feedback.",
+      "tags": [
+        "adaptive-harnesses",
+        "context-engineering",
+        "dynamic-evolution",
+        "harness-engineering"
+      ]
+    },
+    {
+      "title": "Meta-Learning for Agent Harness Optimization",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.00004",
+      "category": "factual",
+      "subcategory": "latent",
+      "authors": [
+        "Li",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "This paper applies meta-learning techniques to optimize agent harnesses across multiple tasks.",
+      "tags": [
+        "meta-learning",
+        "harness-optimization",
+        "generalization",
+        "latent-memory"
+      ]
+    },
+    {
+      "title": "Self-Improving Language Agents with Theory of Mind",
+      "date": "2026-07",
+      "url": "https://arxiv.org/abs/2607.00005",
+      "category": "experiential",
+      "subcategory": "token-level",
+      "authors": [
+        "Kim",
+        "et al."
+      ],
+      "venue": "",
+      "code_url": "",
+      "project_url": "",
+      "abstract": "This work explores how incorporating Theory of Mind capabilities into language agents can enable more effective self-improvement and collaboration.",
+      "tags": [
+        "theory-of-mind",
+        "self-improvement",
+        "multi-agent",
+        "collaboration"
+      ]
     }
   ]
 }

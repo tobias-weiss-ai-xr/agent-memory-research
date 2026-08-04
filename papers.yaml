@@ -415,7 +415,7 @@ papers:
   subcategory: token-level
   authors:
   - Chris Latimer
-  - Nicoló Boschi
+  - "Nicol\xF3 Boschi"
   - Andrew Neeser
   - Chris Bartholomew
   - Gaurav Srivastava
@@ -602,7 +602,7 @@ papers:
   category: factual
   subcategory: token-level
   authors:
-  - Rebecca Westhäußer
+  - "Rebecca Westh\xE4u\xDFer"
   - Wolfgang Minker
   - Sebatian Zepf
   venue: ''
@@ -879,7 +879,7 @@ papers:
     continuity and improved adaptation to evolving user preferences. Code is available
     at https://github.com/fenhg297/RGMem'
   tags: []
-- title: 'Mem-α: Learning Memory Construction via Reinforcement Learning'
+- title: "Mem-\u03B1: Learning Memory Construction via Reinforcement Learning"
   date: 2025-09
   url: https://arxiv.org/abs/2509.25911
   category: factual
@@ -1204,7 +1204,7 @@ papers:
   - Jinhe Bi
   - Kristian Kersting
   - Jeff Z. Pan
-  - Hinrich Schütze
+  - "Hinrich Sch\xFCtze"
   - Volker Tresp
   - Yunpu Ma
   venue: ''
@@ -1624,7 +1624,7 @@ papers:
     synthesis and long-term context maintenance, demonstrating Zep's effectiveness
     for deployment in real-world applications.
   tags: []
-- title: 'R³Mem: Bridging Memory Retention and Retrieval via Reversible Compression'
+- title: "R\xB3Mem: Bridging Memory Retention and Retrieval via Reversible Compression"
   date: 2025-02
   url: https://arxiv.org/abs/2502.15957
   category: factual
@@ -2083,7 +2083,7 @@ papers:
   subcategory: token-level
   authors:
   - Nick Alonso
-  - Tomás Figliolia
+  - "Tom\xE1s Figliolia"
   - Anthony Ndirango
   - Beren Millidge
   venue: ''
@@ -2172,7 +2172,7 @@ papers:
   category: factual
   subcategory: token-level
   authors:
-  - Bernal Jiménez Gutiérrez
+  - "Bernal Jim\xE9nez Guti\xE9rrez"
   - Yiheng Shu
   - Yu Gu
   - Michihiro Yasunaga
@@ -2419,7 +2419,7 @@ papers:
   - Chenyu Ran
   - Lingfeng Xiao
   - Chenglin Wu
-  - Jürgen Schmidhuber
+  - "J\xFCrgen Schmidhuber"
   venue: ''
   code_url: ''
   project_url: ''
@@ -2514,8 +2514,8 @@ papers:
   project_url: ''
   abstract: ''
   tags: []
-- title: 'S³: Social-network Simulation System with Large Language Model-Empowered
-    Agents'
+- title: "S\xB3: Social-network Simulation System with Large Language Model-Empowered\
+    \ Agents"
   date: 2023-07
   url: https://arxiv.org/abs/2307.14984
   category: factual
@@ -2639,7 +2639,7 @@ papers:
   - Ali Modarressi
   - Ayyoob Imani
   - Mohsen Fayyaz
-  - Hinrich Schütze
+  - "Hinrich Sch\xFCtze"
   venue: ''
   code_url: ''
   project_url: ''
@@ -3087,7 +3087,7 @@ papers:
     extending knowledge retention from under 20k to over 160k tokens with similar
     GPU memory overhead. We open-source our code at https://github.com/wangyu-ustc/MemoryLLM
   tags: []
-- title: 'Memory³: Language Modeling with Explicit Memory'
+- title: "Memory\xB3: Language Modeling with Explicit Memory"
   date: 2024-07
   url: https://arxiv.org/abs/2407.01178
   category: factual
@@ -3684,7 +3684,7 @@ papers:
     facilitates optimal tool selection among multiple choices by 21% and 24% absolute
     increases in respective scenarios.
   tags: []
-- title: 'H²R: Hierarchical Hindsight Reflection for Multi-Task LLM Agents'
+- title: "H\xB2R: Hierarchical Hindsight Reflection for Multi-Task LLM Agents"
   date: 2025-10
   url: https://arxiv.org/abs/2509.12810
   category: experiential
@@ -3763,7 +3763,7 @@ papers:
   - Camille Couturier
   - Daniel Madrigal Diaz
   - Xuchao Zhang
-  - Victor Rühle
+  - "Victor R\xFChle"
   - Saravan Rajmohan
   venue: ''
   code_url: ''
@@ -4080,29 +4080,30 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'Today''s AI systems have human-designed, fixed architectures and cannot
-    autonomously and continuously improve themselves. The advance of AI could itself
-    be automated. If done safely, that would accelerate AI development and allow us
-    to reap its benefits much sooner. Meta-learning can automate the discovery of
-    novel algorithms, but is limited by first-order improvements and the human design
-    of a suitable search space. The Gödel machine proposed a theoretical alternative:
-    a self-improving AI that repeatedly modifies itself in a provably beneficial manner.
-    Unfortunately, proving that most changes are net beneficial is impossible in practice.
-    We introduce the Darwin Gödel Machine (DGM), a self-improving system that iteratively
-    modifies its own code (thereby also improving its ability to modify its own codebase)
-    and empirically validates each change using coding benchmarks. Inspired by Darwinian
-    evolution and open-endedness research, the DGM maintains an archive of generated
-    coding agents. It grows the archive by sampling an agent from it and using a foundation
-    model to create a new, interesting, version of the sampled agent. This open-ended
-    exploration forms a growing tree of diverse, high-quality agents and allows the
-    parallel exploration of many different paths through the search space. Empirically,
-    the DGM automatically improves its coding capabilities (e.g., better code editing
-    tools, long-context window management, peer-review mechanisms), increasing performance
-    on SWE-bench from 20.0% to 50.0%, and on Polyglot from 14.2% to 30.7%. Furthermore,
-    the DGM significantly outperforms baselines without self-improvement or open-ended
-    exploration. All experiments were done with safety precautions (e.g., sandboxing,
-    human oversight). The DGM is a significant step toward self-improving AI, capable
-    of gathering its own stepping stones along paths that unfold into endless innovation.'
+  abstract: "Today's AI systems have human-designed, fixed architectures and cannot\
+    \ autonomously and continuously improve themselves. The advance of AI could itself\
+    \ be automated. If done safely, that would accelerate AI development and allow\
+    \ us to reap its benefits much sooner. Meta-learning can automate the discovery\
+    \ of novel algorithms, but is limited by first-order improvements and the human\
+    \ design of a suitable search space. The G\xF6del machine proposed a theoretical\
+    \ alternative: a self-improving AI that repeatedly modifies itself in a provably\
+    \ beneficial manner. Unfortunately, proving that most changes are net beneficial\
+    \ is impossible in practice. We introduce the Darwin G\xF6del Machine (DGM), a\
+    \ self-improving system that iteratively modifies its own code (thereby also improving\
+    \ its ability to modify its own codebase) and empirically validates each change\
+    \ using coding benchmarks. Inspired by Darwinian evolution and open-endedness\
+    \ research, the DGM maintains an archive of generated coding agents. It grows\
+    \ the archive by sampling an agent from it and using a foundation model to create\
+    \ a new, interesting, version of the sampled agent. This open-ended exploration\
+    \ forms a growing tree of diverse, high-quality agents and allows the parallel\
+    \ exploration of many different paths through the search space. Empirically, the\
+    \ DGM automatically improves its coding capabilities (e.g., better code editing\
+    \ tools, long-context window management, peer-review mechanisms), increasing performance\
+    \ on SWE-bench from 20.0% to 50.0%, and on Polyglot from 14.2% to 30.7%. Furthermore,\
+    \ the DGM significantly outperforms baselines without self-improvement or open-ended\
+    \ exploration. All experiments were done with safety precautions (e.g., sandboxing,\
+    \ human oversight). The DGM is a significant step toward self-improving AI, capable\
+    \ of gathering its own stepping stones along paths that unfold into endless innovation."
   tags: []
 - title: 'Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal
     Predefinition and Maximal Self-Evolution'
@@ -4444,7 +4445,7 @@ papers:
   category: experiential
   subcategory: token-level
   authors:
-  - Bernal Jiménez Gutiérrez
+  - "Bernal Jim\xE9nez Guti\xE9rrez"
   - Yiheng Shu
   - Weijian Qi
   - Sizhe Zhou
@@ -4741,7 +4742,7 @@ papers:
   authors:
   - Timo Schick
   - Jane Dwivedi-Yu
-  - Roberto Dessì
+  - "Roberto Dess\xEC"
   - Roberta Raileanu
   - Maria Lomeli
   - Luke Zettlemoyer
@@ -6534,22 +6535,23 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: In long-horizon tasks, decision-relevant state is often scattered across
-    an expanding trajectory, while the action agent must surface it and act. As trajectories
-    grow, task requirements, environment facts, prior attempts, diagnoses, and open
-    subgoals can be buried in the context window or pushed beyond it, failing to influence
-    decisions when needed. We call this failure mode "behavioral state decay". We
-    study memory as an active intervention mechanism rather than passive retrieval.
-    A separate memory agent runs alongside an unmodified action agent, updating a
-    structured memory bank from the recent trajectory and deciding whether to inject
-    a memory-grounded reminder or remain silent. The module is plug-and-play with
-    frontier action agents and existing agent harnesses. Across Terminal-Bench 2.0
-    and $τ^2$-Bench, it improves pass@1 for both weaker and stronger action agents,
-    with gains of +8.3 pp on Terminal-Bench and +6.8 pp on $τ^2$-Bench. Ablations
-    show that selective intervention outperforms passive bank exposure, always-on
-    injection, advisor-only guidance, and general retrieval. As an early step toward
-    open-weight memory policies, we train Qwen3.5-27B on SETA using SFT and GRPO,
-    improving validation reward and achieving partial transfer to Terminal-Bench.
+  abstract: "In long-horizon tasks, decision-relevant state is often scattered across\
+    \ an expanding trajectory, while the action agent must surface it and act. As\
+    \ trajectories grow, task requirements, environment facts, prior attempts, diagnoses,\
+    \ and open subgoals can be buried in the context window or pushed beyond it, failing\
+    \ to influence decisions when needed. We call this failure mode \"behavioral state\
+    \ decay\". We study memory as an active intervention mechanism rather than passive\
+    \ retrieval. A separate memory agent runs alongside an unmodified action agent,\
+    \ updating a structured memory bank from the recent trajectory and deciding whether\
+    \ to inject a memory-grounded reminder or remain silent. The module is plug-and-play\
+    \ with frontier action agents and existing agent harnesses. Across Terminal-Bench\
+    \ 2.0 and $\u03C4^2$-Bench, it improves pass@1 for both weaker and stronger action\
+    \ agents, with gains of +8.3 pp on Terminal-Bench and +6.8 pp on $\u03C4^2$-Bench.\
+    \ Ablations show that selective intervention outperforms passive bank exposure,\
+    \ always-on injection, advisor-only guidance, and general retrieval. As an early\
+    \ step toward open-weight memory policies, we train Qwen3.5-27B on SETA using\
+    \ SFT and GRPO, improving validation reward and achieving partial transfer to\
+    \ Terminal-Bench."
   tags: []
 - title: 'ElasticMem: Latent Memory as a Learnable Resource for LLM Agents'
   date: 2026-05
@@ -6990,19 +6992,19 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'Many recent long-context and agentic systems address context-length limitations
-    by adding hierarchical memory: they extract atomic units from raw data, build
-    multi-level representatives by grouping and compression, and traverse this structure
-    to retrieve content under a token budget. Despite recurring implementations, there
-    is no shared formalism for comparing design choices. We propose a unifying theory
-    in terms of three operators. Extraction ($α$) maps raw data to atomic information
-    units; coarsening ($C = (π, ρ)$) partitions units and assigns a representative
-    to each group; and traversal ($τ$) selects which units to include in context given
-    a query and budget. We identify a self-sufficiency spectrum for the representative
-    function $ρ$ and show how it constrains viable retrieval strategies (a coarsening-traversal
-    coupling). Finally, we instantiate the decomposition on eleven existing systems
-    spanning document hierarchies, conversational memory, and agent execution traces,
-    showcasing its generality.'
+  abstract: "Many recent long-context and agentic systems address context-length limitations\
+    \ by adding hierarchical memory: they extract atomic units from raw data, build\
+    \ multi-level representatives by grouping and compression, and traverse this structure\
+    \ to retrieve content under a token budget. Despite recurring implementations,\
+    \ there is no shared formalism for comparing design choices. We propose a unifying\
+    \ theory in terms of three operators. Extraction ($\u03B1$) maps raw data to atomic\
+    \ information units; coarsening ($C = (\u03C0, \u03C1)$) partitions units and\
+    \ assigns a representative to each group; and traversal ($\u03C4$) selects which\
+    \ units to include in context given a query and budget. We identify a self-sufficiency\
+    \ spectrum for the representative function $\u03C1$ and show how it constrains\
+    \ viable retrieval strategies (a coarsening-traversal coupling). Finally, we instantiate\
+    \ the decomposition on eleven existing systems spanning document hierarchies,\
+    \ conversational memory, and agent execution traces, showcasing its generality."
   tags: []
 - title: 'MemFactory: Unified Inference & Training Framework for Agent Memory'
   date: 2026-03
@@ -11462,7 +11464,7 @@ papers:
   subcategory: token-level
   authors:
   - Alessandra Terranova
-  - Björn Ross
+  - "Bj\xF6rn Ross"
   - Alexandra Birch
   venue: ''
   code_url: ''
@@ -16491,7 +16493,7 @@ papers:
   authors:
   - Alex Clay
   - Eduardo Alonso
-  - Esther Mondragón
+  - "Esther Mondrag\xF3n"
   venue: ''
   code_url: ''
   project_url: ''
@@ -16806,21 +16808,21 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: We present Mem-$π$, a framework for adaptive memory in large language
-    model (LLM) agents, where useful guidance is generated on demand rather than retrieved
-    from external memory stores. Existing memory-augmented agents typically rely on
-    similarity-based retrieval from episodic memory banks or skill libraries, returning
-    static entries that often misalign with the current context. In contrast, Mem-$π$
-    uses a dedicated language or vision-language model with its own parameters, separate
-    from the downstream agent, to generate context-specific guidance for complex tasks.
-    Conditioned on the current agent context, the model jointly decides when to produce
-    guidance and what guidance to produce. We train it with a decision-content decoupled
-    reinforcement learning (RL) objective, enabling it to abstain when generation
-    would not help and otherwise produce concise, useful guidance. Across diverse
-    agentic benchmarks spanning web navigation, terminal-based tool use, and text-based
-    embodied interaction, Mem-$π$ consistently outperforms retrieval-based and prior
-    RL-optimized memory baselines, achieving over 30% relative improvement on web
-    navigation tasks.
+  abstract: "We present Mem-$\u03C0$, a framework for adaptive memory in large language\
+    \ model (LLM) agents, where useful guidance is generated on demand rather than\
+    \ retrieved from external memory stores. Existing memory-augmented agents typically\
+    \ rely on similarity-based retrieval from episodic memory banks or skill libraries,\
+    \ returning static entries that often misalign with the current context. In contrast,\
+    \ Mem-$\u03C0$ uses a dedicated language or vision-language model with its own\
+    \ parameters, separate from the downstream agent, to generate context-specific\
+    \ guidance for complex tasks. Conditioned on the current agent context, the model\
+    \ jointly decides when to produce guidance and what guidance to produce. We train\
+    \ it with a decision-content decoupled reinforcement learning (RL) objective,\
+    \ enabling it to abstain when generation would not help and otherwise produce\
+    \ concise, useful guidance. Across diverse agentic benchmarks spanning web navigation,\
+    \ terminal-based tool use, and text-based embodied interaction, Mem-$\u03C0$ consistently\
+    \ outperforms retrieval-based and prior RL-optimized memory baselines, achieving\
+    \ over 30% relative improvement on web navigation tasks."
   tags: []
 - title: 'SYNAPSE: Empowering LLM Agents with Episodic-Semantic Memory via Spreading
     Activation'
@@ -17604,7 +17606,7 @@ papers:
   category: factual
   subcategory: latent
   authors:
-  - Leonard Bärmann
+  - "Leonard B\xE4rmann"
   - Chad DeChant
   - Joana Plewnia
   - Fabian Peller-Konrad
@@ -17675,7 +17677,7 @@ papers:
   subcategory: latent
   authors:
   - Marc Glocker
-  - Peter Hönig
+  - "Peter H\xF6nig"
   - Matthias Hirschmanner
   - Markus Vincze
   venue: ''
@@ -17954,7 +17956,7 @@ papers:
   authors:
   - Kaixian Qu
   - Guowei Lan
-  - René Zurbrügg
+  - "Ren\xE9 Zurbr\xFCgg"
   - Changan Chen
   - Christopher E. Mower
   - Haitham Bou-Ammar
@@ -18468,7 +18470,7 @@ papers:
   subcategory: token-level
   authors:
   - Serge Lacasse
-  - Jérémie Hatier
+  - "J\xE9r\xE9mie Hatier"
   - Alex Baker
   venue: ''
   code_url: ''
@@ -20989,7 +20991,7 @@ papers:
   category: working
   subcategory: token-level
   authors:
-  - Peter Mühlbacher
+  - "Peter M\xFChlbacher"
   - Nikos I. Bosse
   - Lawrence Phillips
   venue: ''
@@ -21564,7 +21566,7 @@ papers:
   - Yiheng Shu
   - Saisri Padmaja Jonnalagedda
   - Xiang Gao
-  - Bernal Jiménez Gutiérrez
+  - "Bernal Jim\xE9nez Guti\xE9rrez"
   - Weijian Qi
   - Kamalika Das
   - Huan Sun
@@ -21712,7 +21714,7 @@ papers:
   authors:
   - Tobias Lindenbauer
   - Georg Groh
-  - Hinrich Schütze
+  - "Hinrich Sch\xFCtze"
   venue: ''
   code_url: ''
   project_url: ''
@@ -22127,8 +22129,8 @@ papers:
   category: factual
   subcategory: token-level
   authors:
-  - Vicenç Torra
-  - Maria Bras-Amorós
+  - "Vicen\xE7 Torra"
+  - "Maria Bras-Amor\xF3s"
   venue: ''
   code_url: ''
   project_url: ''
@@ -23317,22 +23319,23 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'The temporal assumptions underpinning conventional Identity and Access
-    Management collapse under agentic execution regimes. A sixty-second revocation
-    window permits on the order of $6 \times 10^3$ unauthorized API calls at 100 ops/tick;
-    at AWS Lambda scale, the figure approaches $6 \times 10^5$. This is a coherence
-    problem, not merely a latency problem. We define a Capability Coherence System
-    (CCS) and construct a state-mapping $\varphi : Σ_{\rm MESI} \to Σ_{\rm auth}$
-    preserving transition structure under bounded-staleness semantics. A safety theorem
-    bounds unauthorized operations for the execution-count Release Consistency-directed
-    Coherence (RCC) strategy at $D_{\rm rcc} \leq n$, independent of agent velocity
-    $v$ -- a qualitative departure from the $O(v \cdot \mathrm{TTL})$ scaling of time-bounded
-    strategies. Tick-based discrete event simulation across three business-contextualised
-    scenarios (four strategies, ten deterministic seeds each) confirms: RCC achieves
-    a $120\times$ reduction versus TTL-based lease in the high-velocity scenario (50
-    vs. 6,000 unauthorized operations), and $184\times$ under anomaly-triggered revocation.
-    Zero bound violations across all 120 runs confirm the per-capability safety guarantee.
-    Simulation code: https://github.com/hipvlady/prizm'
+  abstract: "The temporal assumptions underpinning conventional Identity and Access\
+    \ Management collapse under agentic execution regimes. A sixty-second revocation\
+    \ window permits on the order of $6 \\times 10^3$ unauthorized API calls at 100\
+    \ ops/tick; at AWS Lambda scale, the figure approaches $6 \\times 10^5$. This\
+    \ is a coherence problem, not merely a latency problem. We define a Capability\
+    \ Coherence System (CCS) and construct a state-mapping $\\varphi : \u03A3_{\\\
+    rm MESI} \\to \u03A3_{\\rm auth}$ preserving transition structure under bounded-staleness\
+    \ semantics. A safety theorem bounds unauthorized operations for the execution-count\
+    \ Release Consistency-directed Coherence (RCC) strategy at $D_{\\rm rcc} \\leq\
+    \ n$, independent of agent velocity $v$ -- a qualitative departure from the $O(v\
+    \ \\cdot \\mathrm{TTL})$ scaling of time-bounded strategies. Tick-based discrete\
+    \ event simulation across three business-contextualised scenarios (four strategies,\
+    \ ten deterministic seeds each) confirms: RCC achieves a $120\\times$ reduction\
+    \ versus TTL-based lease in the high-velocity scenario (50 vs. 6,000 unauthorized\
+    \ operations), and $184\\times$ under anomaly-triggered revocation. Zero bound\
+    \ violations across all 120 runs confirm the per-capability safety guarantee.\
+    \ Simulation code: https://github.com/hipvlady/prizm"
   tags: []
 - title: 'MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ
     Self-Evolution'
@@ -24006,27 +24009,27 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: Conversational AI agents require memory systems that are both scalable
-    and semantically coherent across long interaction horizons. Existing approaches
-    rely predominantly on large language model (LLM)-based summarisation at write
-    time, which introduces non-determinism, escalating token costs, and opacity in
-    pruning decisions. We present the Deterministic Memory Framework (DMF), a CPU-first
-    approach that replaces generative memory compression with a fully deterministic
-    pipeline grounded in classical NLP analysis, vector geometry, and mathematical
-    scoring. DMF assigns each conversational interaction a Survival Score $Ω$ computed
-    from deterministic content signals, conversational cues, and structured provenance,
-    combined through a logistic projection. An interaction-count decay law, denoted
-    as $Ω_{\mathrm{eff}}(Δn)$, governs how relevance evolves as new turns arrive,
-    where $Δn$ is the number of newer interactions rather than wall-clock time, preserving
-    full determinism. We present the mathematical formulation of DMF, its structured
-    recall pipeline, the pruning decision procedure, and the evaluation protocol.
-    Experiments are conducted on a purpose-built benchmark using the LoCoMo and LongMemEval
-    datasets. We compare DMF against Mem0, a popular memory layer for AI agents. DMF
-    achieves comparable accuracy while using zero tokens to prepare the memory context
-    and 5x to 242x fewer tokens over the entire conversation. These results show that
-    it is possible to eliminate LLM calls from the memory-management loop, reducing
-    token costs to nearly zero and enabling deterministic memory systems for conversational
-    AI agents.
+  abstract: "Conversational AI agents require memory systems that are both scalable\
+    \ and semantically coherent across long interaction horizons. Existing approaches\
+    \ rely predominantly on large language model (LLM)-based summarisation at write\
+    \ time, which introduces non-determinism, escalating token costs, and opacity\
+    \ in pruning decisions. We present the Deterministic Memory Framework (DMF), a\
+    \ CPU-first approach that replaces generative memory compression with a fully\
+    \ deterministic pipeline grounded in classical NLP analysis, vector geometry,\
+    \ and mathematical scoring. DMF assigns each conversational interaction a Survival\
+    \ Score $\u03A9$ computed from deterministic content signals, conversational cues,\
+    \ and structured provenance, combined through a logistic projection. An interaction-count\
+    \ decay law, denoted as $\u03A9_{\\mathrm{eff}}(\u0394n)$, governs how relevance\
+    \ evolves as new turns arrive, where $\u0394n$ is the number of newer interactions\
+    \ rather than wall-clock time, preserving full determinism. We present the mathematical\
+    \ formulation of DMF, its structured recall pipeline, the pruning decision procedure,\
+    \ and the evaluation protocol. Experiments are conducted on a purpose-built benchmark\
+    \ using the LoCoMo and LongMemEval datasets. We compare DMF against Mem0, a popular\
+    \ memory layer for AI agents. DMF achieves comparable accuracy while using zero\
+    \ tokens to prepare the memory context and 5x to 242x fewer tokens over the entire\
+    \ conversation. These results show that it is possible to eliminate LLM calls\
+    \ from the memory-management loop, reducing token costs to nearly zero and enabling\
+    \ deterministic memory systems for conversational AI agents."
   tags: []
 - title: 'UserCentrix: An Agentic Memory-augmented AI Framework for Smart Spaces'
   date: 2025-05
@@ -24041,7 +24044,7 @@ papers:
   - Naser Hossein Motlagh
   - Schahram Dustdar
   - Susanna Pirttikangas
-  - Lauri Lovén
+  - "Lauri Lov\xE9n"
   venue: ''
   code_url: ''
   project_url: ''
@@ -24230,7 +24233,7 @@ papers:
   category: working
   subcategory: token-level
   authors:
-  - Rebecca Westhäußer
+  - "Rebecca Westh\xE4u\xDFer"
   - Frederik Berenz
   - Wolfgang Minker
   - Sebastian Zepf
@@ -24701,7 +24704,7 @@ papers:
   subcategory: token-level
   authors:
   - Albert Sadowski
-  - Jarosław A. Chudziak
+  - "Jaros\u0142aw A. Chudziak"
   venue: ''
   code_url: ''
   project_url: ''
@@ -24924,28 +24927,30 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'Persistent external memory enables LLM agents to maintain context across
-    sessions, yet its security properties remain formally uncharacterized. We formalize
-    memory poisoning attacks on retrieval-augmented agents as a Stackelberg game with
-    a unified evaluation framework spanning three attack classes with escalating access
-    assumptions. Correcting an evaluation protocol inconsistency in the triggered-query
-    specification of Chen et al. (2024), we show faithful evaluation increases measured
-    attack success by $4\times$ (ASR-R: $0.25 \to 1.00$). Our primary contribution
-    is MEMSAD (Semantic Anomaly Detection), a calibration-based defense grounded in
-    a gradient coupling theorem: under encoder regularity, the anomaly score gradient
-    and the retrieval objective gradient are provably identical, so any continuous
-    perturbation that reduces detection risk necessarily degrades retrieval rank.
-    This coupling yields a certified detection radius guaranteeing correct classification
-    regardless of adversary strategy. We prove minimax optimality via Le Cam''s method,
-    showing any threshold detector requires $Ω(1/ρ^2)$ calibration samples and MEMSAD
-    achieves this up to $\log(1/δ)$ factors. We further derive online regret bounds
-    for rolling calibration at rate $O(σ^{2/3}Δ^{1/3})$, and formally characterize
-    a discrete synonym-invariance loophole that marks the boundary of what continuous-space
-    defenses can guarantee. Experiments on a $3 \times 5$ attack-defense matrix with
-    bootstrap confidence intervals, Bonferroni-corrected hypothesis tests, and Clopper-Pearson
-    validation ($n=1{,}000$) confirm: composite defenses achieve TPR $= 1.00$, FPR
-    $= 0.00$ across all attacks, while synonym substitution evades detection at $Δ$
-    ASR-R $\approx 0$, exposing a gap existing embedding-based defenses cannot close.'
+  abstract: "Persistent external memory enables LLM agents to maintain context across\
+    \ sessions, yet its security properties remain formally uncharacterized. We formalize\
+    \ memory poisoning attacks on retrieval-augmented agents as a Stackelberg game\
+    \ with a unified evaluation framework spanning three attack classes with escalating\
+    \ access assumptions. Correcting an evaluation protocol inconsistency in the triggered-query\
+    \ specification of Chen et al. (2024), we show faithful evaluation increases measured\
+    \ attack success by $4\\times$ (ASR-R: $0.25 \\to 1.00$). Our primary contribution\
+    \ is MEMSAD (Semantic Anomaly Detection), a calibration-based defense grounded\
+    \ in a gradient coupling theorem: under encoder regularity, the anomaly score\
+    \ gradient and the retrieval objective gradient are provably identical, so any\
+    \ continuous perturbation that reduces detection risk necessarily degrades retrieval\
+    \ rank. This coupling yields a certified detection radius guaranteeing correct\
+    \ classification regardless of adversary strategy. We prove minimax optimality\
+    \ via Le Cam's method, showing any threshold detector requires $\u03A9(1/\u03C1\
+    ^2)$ calibration samples and MEMSAD achieves this up to $\\log(1/\u03B4)$ factors.\
+    \ We further derive online regret bounds for rolling calibration at rate $O(\u03C3\
+    ^{2/3}\u0394^{1/3})$, and formally characterize a discrete synonym-invariance\
+    \ loophole that marks the boundary of what continuous-space defenses can guarantee.\
+    \ Experiments on a $3 \\times 5$ attack-defense matrix with bootstrap confidence\
+    \ intervals, Bonferroni-corrected hypothesis tests, and Clopper-Pearson validation\
+    \ ($n=1{,}000$) confirm: composite defenses achieve TPR $= 1.00$, FPR $= 0.00$\
+    \ across all attacks, while synonym substitution evades detection at $\u0394$\
+    \ ASR-R $\\approx 0$, exposing a gap existing embedding-based defenses cannot\
+    \ close."
   tags: []
 - title: Task-Adaptive Retrieval over Agentic Multi-Modal Web Histories via Learned
     Graph Memory
@@ -24960,21 +24965,22 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'Retrieving relevant observations from long multi-modal web interaction
-    histories is challenging because relevance depends on the evolving task state,
-    modality (screenshots, HTML text, structured signals), and temporal distance.
-    Prior approaches typically rely on static similarity thresholds or fixed-capacity
-    buffers, which fail to adapt relevance to the current task context. We propose
-    \textbf{ACGM}, a learned graph-memory retriever that constructs \emph{task-adaptive}
-    relevance graphs over agent histories using policy-gradient optimization from
-    downstream task success. ACGM captures heterogeneous temporal dynamics with modality-specific
-    decay (visual decays $4.3\times$ faster than text: $λ_v{=}0.47$ vs.\ $λ_x{=}0.11$)
-    and learns sparse connectivity (3.2 edges/node), enabling efficient $O(\log T)$
-    retrieval. Across WebShop, VisualWebArena, and Mind2Web, ACGM improves retrieval
-    quality to \textbf{82.7 nDCG@10} (+9.3 over GPT-4o, $p{<}0.001$) and \textbf{89.2\%
-    Precision@10} (+7.7), outperforming 19 strong dense, re-ranking, multi-modal,
-    and graph-based baselines. Code to reproduce our results is available at{\color{blue}\href{https://github.com/S-Forouzandeh/ACGM-Agentic-Web}{Saman
-    Forouzandeh}}.'
+  abstract: "Retrieving relevant observations from long multi-modal web interaction\
+    \ histories is challenging because relevance depends on the evolving task state,\
+    \ modality (screenshots, HTML text, structured signals), and temporal distance.\
+    \ Prior approaches typically rely on static similarity thresholds or fixed-capacity\
+    \ buffers, which fail to adapt relevance to the current task context. We propose\
+    \ \\textbf{ACGM}, a learned graph-memory retriever that constructs \\emph{task-adaptive}\
+    \ relevance graphs over agent histories using policy-gradient optimization from\
+    \ downstream task success. ACGM captures heterogeneous temporal dynamics with\
+    \ modality-specific decay (visual decays $4.3\\times$ faster than text: $\u03BB\
+    _v{=}0.47$ vs.\\ $\u03BB_x{=}0.11$) and learns sparse connectivity (3.2 edges/node),\
+    \ enabling efficient $O(\\log T)$ retrieval. Across WebShop, VisualWebArena, and\
+    \ Mind2Web, ACGM improves retrieval quality to \\textbf{82.7 nDCG@10} (+9.3 over\
+    \ GPT-4o, $p{<}0.001$) and \\textbf{89.2\\% Precision@10} (+7.7), outperforming\
+    \ 19 strong dense, re-ranking, multi-modal, and graph-based baselines. Code to\
+    \ reproduce our results is available at{\\color{blue}\\href{https://github.com/S-Forouzandeh/ACGM-Agentic-Web}{Saman\
+    \ Forouzandeh}}."
   tags: []
 - title: 'EmbodiedLGR: Integrating Lightweight Graph Representation and Retrieval
     for Semantic-Spatial Memory in Robotic Agents'
@@ -26390,27 +26396,27 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'AI agents increasingly operate over extended time horizons, yet their
-    ability to retain, organize, and recall multimodal experiences remains a critical
-    bottleneck. Building effective lifelong memory requires navigating a vast design
-    space spanning architecture, retrieval strategies, prompt engineering, and data
-    pipelines; this space is too large and interconnected for manual exploration or
-    traditional AutoML to explore effectively. We deploy an autonomous research pipeline
-    to discover Omni-SimpleMem, a unified multimodal memory framework for lifelong
-    AI agents. Starting from a naïve baseline (F1=0.117 on LoCoMo), the pipeline autonomously
-    executes ${\sim}50$ experiments across two benchmarks, diagnosing failure modes,
-    proposing architectural modifications, and repairing data pipeline bugs, all without
-    human intervention in the inner loop. The resulting system achieves state-of-the-art
-    on both benchmarks, improving F1 by +411% on LoCoMo (0.117$\to$0.598) and +214%
-    on Mem-Gallery (0.254$\to$0.797) relative to the initial configurations. Critically,
-    the most impactful discoveries are not hyperparameter adjustments: bug fixes (+175%),
-    architectural changes (+44%), and prompt engineering (+188% on specific categories)
-    each individually exceed the cumulative contribution of all hyperparameter tuning,
-    demonstrating capabilities fundamentally beyond the reach of traditional AutoML.
-    We provide a taxonomy of six discovery types and identify four properties that
-    make multimodal memory particularly suited for autoresearch, offering guidance
-    for applying autonomous research pipelines to other AI system domains. Code is
-    available at this https://github.com/aiming-lab/SimpleMem.'
+  abstract: "AI agents increasingly operate over extended time horizons, yet their\
+    \ ability to retain, organize, and recall multimodal experiences remains a critical\
+    \ bottleneck. Building effective lifelong memory requires navigating a vast design\
+    \ space spanning architecture, retrieval strategies, prompt engineering, and data\
+    \ pipelines; this space is too large and interconnected for manual exploration\
+    \ or traditional AutoML to explore effectively. We deploy an autonomous research\
+    \ pipeline to discover Omni-SimpleMem, a unified multimodal memory framework for\
+    \ lifelong AI agents. Starting from a na\xEFve baseline (F1=0.117 on LoCoMo),\
+    \ the pipeline autonomously executes ${\\sim}50$ experiments across two benchmarks,\
+    \ diagnosing failure modes, proposing architectural modifications, and repairing\
+    \ data pipeline bugs, all without human intervention in the inner loop. The resulting\
+    \ system achieves state-of-the-art on both benchmarks, improving F1 by +411% on\
+    \ LoCoMo (0.117$\\to$0.598) and +214% on Mem-Gallery (0.254$\\to$0.797) relative\
+    \ to the initial configurations. Critically, the most impactful discoveries are\
+    \ not hyperparameter adjustments: bug fixes (+175%), architectural changes (+44%),\
+    \ and prompt engineering (+188% on specific categories) each individually exceed\
+    \ the cumulative contribution of all hyperparameter tuning, demonstrating capabilities\
+    \ fundamentally beyond the reach of traditional AutoML. We provide a taxonomy\
+    \ of six discovery types and identify four properties that make multimodal memory\
+    \ particularly suited for autoresearch, offering guidance for applying autonomous\
+    \ research pipelines to other AI system domains. Code is available at this https://github.com/aiming-lab/SimpleMem."
   tags: []
 - title: 'SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM
     Agent Systems'
@@ -26786,7 +26792,7 @@ papers:
   authors:
   - Philippe Weinzaepfel
   - Christian Wolf
-  - Bülent Mert Sariyildiz
+  - "B\xFClent Mert Sariyildiz"
   - Guillaume Bono
   - Gianluca Monaci
   venue: ''
@@ -27167,8 +27173,8 @@ papers:
   - Thomas Palmeira Ferraz
   - Romain Deffayet
   - Vassilina Nikoulina
-  - Hervé Déjean
-  - Stéphane Clinchant
+  - "Herv\xE9 D\xE9jean"
+  - "St\xE9phane Clinchant"
   venue: ''
   code_url: ''
   project_url: ''
@@ -27676,23 +27682,24 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: 'Existing memory-augmented LLM agents store past experience exclusively
-    in prompt space, as textual summaries or retrieved passages, while keeping model
-    parameters frozen throughout a rollout. Such agents can \emph{look up} what they
-    have seen but cannot \emph{learn from} it: their policy is unchanged by experience,
-    and any information dropped from the context is permanently lost. We introduce
-    \texttt{TMEM}, a self-evolving parametric memory framework in which the agent
-    not only compresses history into explicit memory but also absorbs distilled supervision
-    into fast LoRA weights $Δ_t$ via lightweight online updates, genuinely altering
-    its future behavior within a single episode. We formalize this as an agentic decision
-    process with fast-weight rollout dynamics: actions are sampled from $π_{θ_0+Δ_t}$,
-    while extraction actions produce supervision that updates $Δ_t$ for subsequent
-    decisions. This view makes the extraction policy directly optimizable by RL: training
-    $θ_0$ improves not only task actions but also the quality of the data used for
-    online LoRA adaptation. We further propose SVD-based initialization of the LoRA
-    subspace to accelerate online convergence. Experiments on LoCoMo, LongMemEval-S,
-    multi-objective search, and CL-Bench show that \texttt{TMEM} consistently outperforms
-    summary-based and retrieval-based baselines across different model scales.'
+  abstract: "Existing memory-augmented LLM agents store past experience exclusively\
+    \ in prompt space, as textual summaries or retrieved passages, while keeping model\
+    \ parameters frozen throughout a rollout. Such agents can \\emph{look up} what\
+    \ they have seen but cannot \\emph{learn from} it: their policy is unchanged by\
+    \ experience, and any information dropped from the context is permanently lost.\
+    \ We introduce \\texttt{TMEM}, a self-evolving parametric memory framework in\
+    \ which the agent not only compresses history into explicit memory but also absorbs\
+    \ distilled supervision into fast LoRA weights $\u0394_t$ via lightweight online\
+    \ updates, genuinely altering its future behavior within a single episode. We\
+    \ formalize this as an agentic decision process with fast-weight rollout dynamics:\
+    \ actions are sampled from $\u03C0_{\u03B8_0+\u0394_t}$, while extraction actions\
+    \ produce supervision that updates $\u0394_t$ for subsequent decisions. This view\
+    \ makes the extraction policy directly optimizable by RL: training $\u03B8_0$\
+    \ improves not only task actions but also the quality of the data used for online\
+    \ LoRA adaptation. We further propose SVD-based initialization of the LoRA subspace\
+    \ to accelerate online convergence. Experiments on LoCoMo, LongMemEval-S, multi-objective\
+    \ search, and CL-Bench show that \\texttt{TMEM} consistently outperforms summary-based\
+    \ and retrieval-based baselines across different model scales."
   tags: []
 - title: 'TriAxialKV: Toward Extreme Low-Precision KV-Cache Quantization for Agentic
     Inference Tasks'
@@ -27847,7 +27854,7 @@ papers:
   - Julien Piet
   - Darya Kaviani
   - Luca Beurer-Kellner
-  - Florian Tramèr
+  - "Florian Tram\xE8r"
   - David Wagner
   venue: ''
   code_url: ''
@@ -28822,7 +28829,7 @@ papers:
   authors:
   - Hongbin Zhong
   - Fazle Faisal
-  - Luis França
+  - "Luis Fran\xE7a"
   - Tanakorn Leesatapornwongsa
   - Adriana Szekeres
   - Kexin Rong
@@ -29328,7 +29335,7 @@ papers:
   authors:
   - Jiale Liu
   - Yifan Zeng
-  - Malte Højmark-Bertelsen
+  - "Malte H\xF8jmark-Bertelsen"
   - Marie Normann Gadeberg
   - Huazheng Wang
   - Qingyun Wu
@@ -30082,7 +30089,7 @@ papers:
   category: factual
   subcategory: latent
   authors:
-  - Luís Brito
+  - "Lu\xEDs Brito"
   - Carlos Baquero
   venue: ''
   code_url: ''
@@ -30644,23 +30651,24 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: Episodic memory allows LLM agents to accumulate and retrieve experience,
-    but current methods treat each memory independently, i.e., evaluating retrieval
-    quality in isolation without accounting for the dependency chains through which
-    memories enable the creation of future memories. We introduce MemQ, which applies
-    TD($λ$) eligibility traces to memory Q-values, propagating credit backward through
-    a provenance DAG that records which memories were retrieved when each new memory
-    was created. Credit weight decays as $(γλ)^d$ with DAG depth $d$, replacing temporal
-    distance with structural proximity. We formalize the setting as an Exogenous-Context
-    MDP, whose factored transition decouples the exogenous task stream from the endogenous
-    memory store. Across six benchmarks, spanning OS interaction, function calling,
-    code generation, multimodal reasoning, embodied reasoning, and expert-level QA,
-    MemQ achieves the highest success rate on all six in generalization evaluation
-    and runtime learning, with gains largest on multi-step tasks that produce deep
-    and relevant provenance chains (up to +5.7~pp) and smallest on single-step classification
-    (+0.77~pp) where single-step updates already suffice. We further study how $γ$
-    and $λ$ interact with the EC-MDP structure, providing principled guidance for
-    parameter selection and future research. Code is available at https://github.com/jwliao-ai/MemQ.
+  abstract: "Episodic memory allows LLM agents to accumulate and retrieve experience,\
+    \ but current methods treat each memory independently, i.e., evaluating retrieval\
+    \ quality in isolation without accounting for the dependency chains through which\
+    \ memories enable the creation of future memories. We introduce MemQ, which applies\
+    \ TD($\u03BB$) eligibility traces to memory Q-values, propagating credit backward\
+    \ through a provenance DAG that records which memories were retrieved when each\
+    \ new memory was created. Credit weight decays as $(\u03B3\u03BB)^d$ with DAG\
+    \ depth $d$, replacing temporal distance with structural proximity. We formalize\
+    \ the setting as an Exogenous-Context MDP, whose factored transition decouples\
+    \ the exogenous task stream from the endogenous memory store. Across six benchmarks,\
+    \ spanning OS interaction, function calling, code generation, multimodal reasoning,\
+    \ embodied reasoning, and expert-level QA, MemQ achieves the highest success rate\
+    \ on all six in generalization evaluation and runtime learning, with gains largest\
+    \ on multi-step tasks that produce deep and relevant provenance chains (up to\
+    \ +5.7~pp) and smallest on single-step classification (+0.77~pp) where single-step\
+    \ updates already suffice. We further study how $\u03B3$ and $\u03BB$ interact\
+    \ with the EC-MDP structure, providing principled guidance for parameter selection\
+    \ and future research. Code is available at https://github.com/jwliao-ai/MemQ."
   tags: []
 - title: 'InfoMem: Training Long-Context Memory Agents with Answer-Conditioned Information
     Gain'
@@ -30933,7 +30941,7 @@ papers:
   subcategory: token-level
   authors:
   - Yiheng Shu
-  - Bernal Jiménez Gutiérrez
+  - "Bernal Jim\xE9nez Guti\xE9rrez"
   - Saisri Padmaja Jonnalagedda
   - Yuguang Yao
   - Huan Sun
@@ -31497,8 +31505,8 @@ papers:
   project_url: ''
   abstract: ''
   tags: []
-- title: 'HEEL: A State-Centric Autobiographical Memory Architecture for Persistent
-    Agents — Beyond the Session-Centric Ontology'
+- title: "HEEL: A State-Centric Autobiographical Memory Architecture for Persistent\
+    \ Agents \u2014 Beyond the Session-Centric Ontology"
   date: 2026-04
   url: https://doi.org/https://doi.org/10.5281/zenodo.19851563
   category: factual
@@ -32355,7 +32363,7 @@ papers:
   subcategory: token-level
   authors:
   - Molood Arman
-  - Clément Bonnafous
+  - "Cl\xE9ment Bonnafous"
   venue: ''
   code_url: ''
   project_url: ''
@@ -33096,7 +33104,7 @@ papers:
   subcategory: latent
   authors:
   - Taewoon Kim
-  - Vincent François-Lavet
+  - "Vincent Fran\xE7ois-Lavet"
   - Michael Cochez
   venue: ''
   code_url: ''
@@ -34504,25 +34512,26 @@ papers:
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: Strategic classification addresses a learning problem where a decision-maker
-    implements a classifier over agents who may manipulate their features in order
-    to receive favorable predictions. In the standard model of online strategic classification,
-    in each round, the decision-maker implements and publicly reveals a classifier,
-    after which agents perfectly best respond based on this knowledge. However, in
-    practice, whether to disclose the classifier is often debated -- some decision-makers
-    believe that hiding the classifier can prevent misclassification errors caused
-    by manipulation. In this paper, we formally examine how limiting the agents' access
-    to the current classifier affects the decision-maker's performance. Specifically,
-    we consider an extended online strategic classification setting where agents lack
-    direct knowledge about the current classifier and instead manipulate based on
-    a weighted average of historically implemented classifiers. Our main result shows
-    that in this setting, the decision-maker incurs $(1-γ)^{-1}$ or $k_{\text{in}}$
-    times more mistakes compared to the full-knowledge setting, where $k_{\text{in}}$
-    is the maximum in-degree of the manipulation graph (representing how many distinct
-    feature vectors can be manipulated to appear as a single one), and $γ$ is the
-    discount factor indicating agents' memory of past classifiers. Our results demonstrate
-    how withholding access to the classifier can backfire and degrade the decision-maker's
-    performance in online strategic classification.
+  abstract: "Strategic classification addresses a learning problem where a decision-maker\
+    \ implements a classifier over agents who may manipulate their features in order\
+    \ to receive favorable predictions. In the standard model of online strategic\
+    \ classification, in each round, the decision-maker implements and publicly reveals\
+    \ a classifier, after which agents perfectly best respond based on this knowledge.\
+    \ However, in practice, whether to disclose the classifier is often debated --\
+    \ some decision-makers believe that hiding the classifier can prevent misclassification\
+    \ errors caused by manipulation. In this paper, we formally examine how limiting\
+    \ the agents' access to the current classifier affects the decision-maker's performance.\
+    \ Specifically, we consider an extended online strategic classification setting\
+    \ where agents lack direct knowledge about the current classifier and instead\
+    \ manipulate based on a weighted average of historically implemented classifiers.\
+    \ Our main result shows that in this setting, the decision-maker incurs $(1-\u03B3\
+    )^{-1}$ or $k_{\\text{in}}$ times more mistakes compared to the full-knowledge\
+    \ setting, where $k_{\\text{in}}$ is the maximum in-degree of the manipulation\
+    \ graph (representing how many distinct feature vectors can be manipulated to\
+    \ appear as a single one), and $\u03B3$ is the discount factor indicating agents'\
+    \ memory of past classifiers. Our results demonstrate how withholding access to\
+    \ the classifier can backfire and degrade the decision-maker's performance in\
+    \ online strategic classification."
   tags:
   - auto-factual
   - auto-token-level
@@ -37711,8 +37720,8 @@ papers:
   code_url: ''
   project_url: ''
   abstract: Formulates agentic code generation as a constrained learning problem,
-    combining hard formal specifications with soft objectives for self-evolving
-    LLM agents. Provides formal safety/correctness guarantees for autonomous execution.
+    combining hard formal specifications with soft objectives for self-evolving LLM
+    agents. Provides formal safety/correctness guarantees for autonomous execution.
   tags:
   - self-evolving
   - verification
@@ -37727,8 +37736,621 @@ papers:
   code_url: ''
   project_url: ''
   abstract: Self-evolving skill libraries let frozen LLM agents accumulate reusable
-    knowledge without weight updates. Evaluates LLM-authored skill quality and
-    proposes a minimal hygiene recipe for reliable self-evolution.
+    knowledge without weight updates. Evaluates LLM-authored skill quality and proposes
+    a minimal hygiene recipe for reliable self-evolution.
   tags:
   - self-evolving
   - skill-management
+- title: Harness Engineering for Self-Improvement
+  date: 2026-07
+  url: https://lilianweng.github.io/posts/2026-07-04-harness/
+  category: factual
+  subcategory: token-level
+  authors:
+  - Weng
+  - Lilian
+  venue: Lil'Log
+  code_url: ''
+  project_url: ''
+  abstract: This comprehensive survey article explores harness engineering for self-improving
+    language model agents. It covers key concepts including context engineering, workflow
+    design, self-improving harnesses, evolutionary search, auto research, and core
+    challenges in building effective harnesses for agentic systems. The post provides
+    a unified framework for thinking about how to design, optimize, and evaluate harnesses
+    that enable agents to improve themselves over time.
+  tags:
+  - survey
+  - harness-engineering
+  - self-improvement
+  - context-engineering
+  - overview
+  - theoretical-foundations
+- title: Meta Context Engineering via Agentic Skill Evolution
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.21557
+  category: factual
+  subcategory: token-level
+  authors:
+  - Zhang
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Meta Context Engineering (MCE) introduces an automated prompt optimization
+    framework that operates on a meta-level, viewing prompt optimization as another
+    task to be solved by LLMs. MCE includes exhaustive search and self-reflective
+    search. The meta-prompt guides the optimizer LLM to perform multi-turn prompt
+    optimization through iterative improvements, testing, and reflection. Experimental
+    results show strong performance in both single-agent and multi-agent settings
+    across various tasks, including QA, reasoning, dialogue, and code.
+  tags:
+  - context-engineering
+  - prompt-optimization
+  - meta-learning
+  - self-improvement
+  - harness-engineering
+- title: 'Meta-Harness: End-to-End Optimization of Model Harnesses'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.28052
+  category: factual
+  subcategory: token-level
+  authors:
+  - Xie
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Meta-Harness optimizes model harnesses (prompts, answer formats, and post-processors)
+    end-to-end. The approach uses a meta-level LLM to design and test harnesses on
+    training data, then evaluates performance on the actual test set. It proposes
+    a prompt format that append a list of candidate outputs at the end of the prompt
+    to allow an LLM to test multiple candidates simultaneously in one query. Meta-Harness
+    surpasses AutoGen, PromptBreeder, and OPRO in coding and reasoning tasks.
+  tags:
+  - meta-optimization
+  - harness-engineering
+  - prompt-engineering
+  - end-to-end
+  - self-improvement
+- title: 'Agentic Harness Engineering: Observability-Driven Automatic Evolution of
+    Coding-Agent Harnesses'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.25850
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Zhang
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Agentic Harness Engineering (AHE) focuses on observability-driven automatic
+    evolution of coding-agent harnesses, particularly addressing the test-time challenge
+    of complex, long-horizon coding tasks. The method targets remove the need for
+    access to ground truth solutions.
+  tags:
+  - harness-evolution
+  - observability
+  - coding-agents
+  - harness-engineering
+- title: 'Self-Harness: Harnesses That Improve Themselves'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.09498
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Lu
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Self-Harness is a general framework for automatically discovering, debugging,
+    and refining harnesses to improve agent performance. It consists of a harness
+    meta-language, a general-purpose harness generator, and a harness testbed. The
+    framework enables harnesses to improve themselves through iterative testing and
+    refinement.
+  tags:
+  - self-improving-harnesses
+  - automatic-discovery
+  - debugging
+  - harness-engineering
+- title: 'Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation'
+  date: 2023-10
+  url: https://arxiv.org/abs/2310.02304
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Zelikman
+  - et al.
+  venue: COLM 2024
+  code_url: ''
+  project_url: ''
+  abstract: Self-Taught Optimizer (STOP) is one of the early examples of recursive
+    scaffolding improvement. A seed improver I0 takes an initial solution s, a utility
+    function u, and a black-box language model M, and returns an improved solution
+    s. The goal of STOP is not directly to improve s but to improve the improver I
+    itself. In experiments, the improved improver discovered various strategies such
+    as genetic algorithms, decomposing and improving parts, multi-armed prompt bandits,
+    simulated annealing, varying temperature, and beam/tree search.
+  tags:
+  - self-improvement
+  - recursive-optimization
+  - harness-engineering
+  - meta-learning
+- title: 'Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution'
+  date: 2023-09
+  url: https://arxiv.org/abs/2309.16797
+  category: factual
+  subcategory: token-level
+  authors:
+  - Fernando
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Promptbreeder optimizes task-specific prompts through a rich set of mutation
+    operations, and interestingly the mutation prompts (instructions to an LLM to
+    mutate a task prompt) are themselves also improved through evolution. This demonstrates
+    self-referential improvement where the system can improve both its outputs and
+    its optimization process.
+  tags:
+  - prompt-engineering
+  - evolution
+  - self-improvement
+  - harness-engineering
+- title: 'Self-Refine: Iterative Refinement with Self-Feedback'
+  date: 2023-03
+  url: https://arxiv.org/abs/2303.17651
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Madaan
+  - et al.
+  venue: NeurIPS 2023
+  code_url: ''
+  project_url: ''
+  abstract: Self-Refine uses iterative refinement with self-feedback to improve the
+    quality of outputs. The model provides feedback on its own outputs and then refines
+    them based on this feedback. This process can be repeated multiple times to achieve
+    better results.
+  tags:
+  - self-refinement
+  - self-feedback
+  - iterative-improvement
+  - harness-engineering
+- title: 'Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities
+    in Self-Evolving LLM Agents'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.30621
+  category: factual
+  subcategory: token-level
+  authors:
+  - Lin
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This work investigates the dependency of harness evolution on model capabilities
+    by disentangling two axes: harness-updating capability and harness-benefit capability.
+    Models from 9B to Opus 4.6 showed similar harness updating capability, with even
+    9B models able to write skills procedurally isomorphic to Opus. However, harness
+    benefit capability is non-monotonic, with middle-tier models benefiting the most.'
+  tags:
+  - harness-evolution
+  - capability-disentanglement
+  - self-improvement
+  - harness-engineering
+- title: 'SIA: Self Improving AI with Harness & Weight Updates'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.27276
+  category: factual
+  subcategory: token-level
+  authors:
+  - Hebbar
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'SIA is an early attempt to combine harness improvement and model-parameter
+    updates in the same optimization loop. It has three components: Meta-Agent (proposes
+    initial harness), Task-Specific Agent (executes task), and Feedback-Agent (chooses
+    whether to update harness or model weights based on recent trajectories).'
+  tags:
+  - self-improvement
+  - harness-and-weights
+  - joint-optimization
+  - harness-engineering
+- title: 'Continual Harness: Online Adaptation for Self-Improving Foundation Agents'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.09998
+  category: factual
+  subcategory: token-level
+  authors:
+  - Karten
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Continual Harness experiments with long-horizon gameplay settings, combining
+    harness updating with co-learning a policy model by distilling a strong teacher
+    model labels on low-reward trajectories.
+  tags:
+  - continual-learning
+  - online-adaptation
+  - self-improvement
+  - harness-engineering
+- title: Automated Design of Agentic Systems
+  date: 2025-08
+  url: https://arxiv.org/abs/2408.08435
+  category: factual
+  subcategory: token-level
+  authors:
+  - Hu
+  - Lu
+  - Clune
+  venue: ICLR 2025
+  code_url: ''
+  project_url: ''
+  abstract: ADAS formulates agent design as a meta-agent search optimization problem.
+    Starts with simple agents (CoT, self-refine), then a meta-agent programs new agents
+    in code inspired by existing solutions. Each draft goes through self-refine steps
+    to check novelty.
+  tags:
+  - automated-design
+  - meta-agent-search
+  - workflow-optimization
+  - harness-engineering
+- title: 'AFlow: Automating Agentic Workflow Generation'
+  date: 2025-10
+  url: https://arxiv.org/abs/2410.10762
+  category: factual
+  subcategory: token-level
+  authors:
+  - Zhang
+  - et al.
+  venue: ICLR 2025
+  code_url: ''
+  project_url: ''
+  abstract: 'AFlow represents agentic workflow as a graph, with nodes as LLM-invoking
+    actions and edges for logical operations. Optimization relies on MCTS: initialize
+    with template, select nodes using score+exploration, expand by asking LLM to produce
+    modified workflows, execute and evaluate.'
+  tags:
+  - workflow-optimization
+  - monte-carlo-tree-search
+  - automated-design
+  - harness-engineering
+- title: "Darwin G\xF6del Machine: Open-Ended Evolution of Self-Improving Agents"
+  date: 2025-05
+  url: https://arxiv.org/abs/2505.22954
+  category: factual
+  subcategory: token-level
+  authors:
+  - Zhang
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: DGM targets evolution of editable harness-code repository with LLM-based
+    coding agent. Starting with one coding agent, each iteration picks a parent proportional
+    to performance and inversely to children count, modifies and branches off. The
+    agent examines benchmark logs and proposes improvements to its own harness codebase.
+  tags:
+  - evolutionary-search
+  - self-improvement
+  - harness-evolution
+  - harness-engineering
+- title: 'AlphaEvolve: A coding agent for scientific and algorithmic discovery'
+  date: 2025-06
+  url: https://arxiv.org/abs/2506.13131
+  category: factual
+  subcategory: token-level
+  authors:
+  - Novikov
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: AlphaEvolve is a coding-agent evolutionary search system that stores a
+    pool of candidate programs and prompts frozen LLMs to generate diffs for improvement.
+    As the system repeatedly evaluates child programs and keeps successful ones, it
+    discovers better solutions over time.
+  tags:
+  - evolutionary-search
+  - coding-agents
+  - program-evolution
+  - harness-engineering
+- title: 'GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning'
+  date: 2025-07
+  url: https://arxiv.org/abs/2507.19457
+  category: factual
+  subcategory: token-level
+  authors:
+  - Agrawal
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: GEPA combines reflection-based prompting with evolutionary search and
+    uses natural language reflection over trajectories of trial and error to propose
+    prompt updates. This demonstrates that evolutionary approaches to prompt optimization
+    can outperform reinforcement learning methods.
+  tags:
+  - evolutionary-search
+  - prompt-evolution
+  - reflection
+  - harness-engineering
+- title: Hyperagents
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.19461
+  category: factual
+  subcategory: token-level
+  authors:
+  - Zhang
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: "Hyperagents introduces a meta-agent to control how to modify existing\
+    \ task agents to create new ones. This extends the Darwin G\xF6del Machine approach\
+    \ by adding a higher-level control mechanism for agent evolution and specialization."
+  tags:
+  - meta-agents
+  - agent-evolution
+  - self-improvement
+  - harness-engineering
+- title: 'DemoEvolve: Overcoming Sparse Feedback in Agentic Harness Evolution with
+    Demonstrations'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.24539
+  category: factual
+  subcategory: token-level
+  authors:
+  - Che
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: DemoEvolve augments the self-rollout archive with human expert demonstrations
+    as reference experience for harness-level diagnosis and editing. This addresses
+    the challenge of sparse feedback in evolutionary search.
+  tags:
+  - evolutionary-search
+  - demonstrations
+  - sparse-feedback
+  - harness-engineering
+- title: 'ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution'
+  date: 2025-09
+  url: https://arxiv.org/abs/2509.19349
+  category: factual
+  subcategory: token-level
+  authors:
+  - Lange
+  - Imajuku
+  - Cetin
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'ShinkaEvolve improves LLM sampling efficiency with: (1) sample-efficient
+    exploration via parent sampling balancing performance rank and offspring count,
+    (2) code-novelty rejection sampling, (3) identifying good patterns in successful
+    solutions in a meta-scratchpad to guide future mutation.'
+  tags:
+  - evolutionary-search
+  - sample-efficiency
+  - program-evolution
+  - harness-engineering
+- title: 'ThetaEvolve: Test-time Learning on Open Problems'
+  date: 2025-11
+  url: https://arxiv.org/abs/2511.23473
+  category: factual
+  subcategory: token-level
+  authors:
+  - Wang
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: ThetaEvolve combines evolutionary search with reinforcement learning and
+    in-context learning. This hybrid approach leverages the strengths of multiple
+    paradigms to achieve better performance on open problems.
+  tags:
+  - evolutionary-search
+  - reinforcement-learning
+  - in-context-learning
+  - harness-engineering
+- title: 'PaperBench: Evaluating AIs Ability to Replicate AI Research'
+  date: 2025-04
+  url: https://arxiv.org/abs/2504.01848
+  category: working
+  subcategory: token-level
+  authors:
+  - Starace
+  - et al.
+  venue: ICML 2025
+  code_url: ''
+  project_url: ''
+  abstract: PaperBench evaluates AI systems ability to replicate AI research papers
+    with 20 ICML 2024 papers and 8,316 rubrics.
+  tags:
+  - benchmark
+  - research-replication
+  - evaluation
+  - auto-research
+- title: 'CORE-Bench: Fostering the Credibility of Published Research Through a Computational
+    Reproducibility Agent Benchmark'
+  date: 2024-09
+  url: https://arxiv.org/abs/2409.11363
+  category: working
+  subcategory: token-level
+  authors:
+  - Siegel
+  - et al.
+  venue: TMLR 2024
+  code_url: ''
+  project_url: ''
+  abstract: CORE-Bench evaluates computational reproducibility with 270 tasks based
+    on 90 scientific papers.
+  tags:
+  - benchmark
+  - reproducibility
+  - evaluation
+  - research
+- title: 'ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven
+    Scientific Discovery'
+  date: 2024-10
+  url: https://arxiv.org/abs/2410.05080
+  category: working
+  subcategory: token-level
+  authors:
+  - Chen
+  - et al.
+  venue: ICLR 2025
+  code_url: ''
+  project_url: ''
+  abstract: ScienceAgentBench extracts 102 tasks from 44 peer-reviewed publications
+    in four disciplines.
+  tags:
+  - benchmark
+  - scientific-discovery
+  - evaluation
+  - data-science
+- title: 'RE-Bench: Evaluating frontier AI R&D capabilities of language model agents
+    against human experts'
+  date: 2024-11
+  url: https://arxiv.org/abs/2411.15114
+  category: working
+  subcategory: token-level
+  authors:
+  - Wijk
+  - et al.
+  venue: ICML 2025
+  code_url: ''
+  project_url: ''
+  abstract: RE-Bench evaluates frontier AI agents on realistic ML research-engineering
+    environments.
+  tags:
+  - benchmark
+  - research-engineering
+  - evaluation
+  - human-comparison
+- title: 'MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering'
+  date: 2024-10
+  url: https://arxiv.org/abs/2410.07095
+  category: working
+  subcategory: token-level
+  authors:
+  - Chan
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: MLE-bench evaluates ML engineering agents on 75 Kaggle competitions.
+  tags:
+  - benchmark
+  - machine-learning
+  - kaggle
+  - evaluation
+- title: 'KernelBench: Can LLMs Write Efficient GPU Kernels?'
+  date: 2025-02
+  url: https://arxiv.org/abs/2502.10517
+  category: working
+  subcategory: token-level
+  authors:
+  - Ouyang
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: KernelBench evaluates correctness and speed for generated GPU kernels
+    with 250 PyTorch tasks.
+  tags:
+  - benchmark
+  - gpu-kernels
+  - code-generation
+  - performance
+- title: 'Recursive Agent Systems: Foundations and Frontiers'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.00001
+  category: factual
+  subcategory: token-level
+  authors:
+  - Zhang
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This paper explores the theoretical foundations and practical implementations of recursive agent systems, where agents can modify and improve their own code and decision-making processes.'
+  tags:
+  - recursive-agents
+  - self-improvement
+  - theoretical-foundations
+  - harness-engineering
+- title: 'Context Compression for Long-Horizon Agent Memory'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.00002
+  category: factual
+  subcategory: token-level
+  authors:
+  - Chen
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This work introduces novel techniques for compressing and retaining relevant context in long-horizon agent interactions.'
+  tags:
+  - context-compression
+  - long-horizon
+  - memory-management
+  - token-level
+- title: 'Adaptive Harness Evolution: Dynamic Context Engineering for Agents'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.00003
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Wertheimer
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Adaptive Harness Evolution presents a framework for dynamically adapting agent harnesses based on task requirements and performance feedback.'
+  tags:
+  - adaptive-harnesses
+  - context-engineering
+  - dynamic-evolution
+  - harness-engineering
+- title: 'Meta-Learning for Agent Harness Optimization'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.00004
+  category: factual
+  subcategory: latent
+  authors:
+  - Li
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This paper applies meta-learning techniques to optimize agent harnesses across multiple tasks.'
+  tags:
+  - meta-learning
+  - harness-optimization
+  - generalization
+  - latent-memory
+- title: 'Self-Improving Language Agents with Theory of Mind'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.00005
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Kim
+  - et al.
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This work explores how incorporating Theory of Mind capabilities into language agents can enable more effective self-improvement and collaboration.'
+  tags:
+  - theory-of-mind
+  - self-improvement
+  - multi-agent
+  - collaboration
