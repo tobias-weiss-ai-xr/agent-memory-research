@@ -1,0 +1,456 @@
+{
+  "metadata": {
+    "total_papers": 1239,
+    "generated_date": "2026-07",
+    "taxonomy": {
+      "categories": 3,
+      "subcategories": 3,
+      "total_cells": 9,
+      "filled_cells": 9,
+      "saturation": 100.0,
+      "empty_cells": 0
+    },
+    "analysis_window": {
+      "last_12m_start": "2025-08"
+    }
+  },
+  "by_category": {
+    "experiential": 254,
+    "factual": 620,
+    "working": 365
+  },
+  "by_subcategory": {
+    "latent": 106,
+    "parametric": 47,
+    "token-level": 1086
+  },
+  "by_year": {
+    "2011": 1,
+    "2013": 1,
+    "2018": 1,
+    "2020": 2,
+    "2021": 3,
+    "2022": 6,
+    "2023": 58,
+    "2024": 95,
+    "2025": 300,
+    "2026": 772
+  },
+  "by_cell": {
+    "factual/token-level": 563,
+    "working/token-level": 299,
+    "experiential/token-level": 224,
+    "working/latent": 55,
+    "factual/latent": 34,
+    "factual/parametric": 23,
+    "experiential/latent": 17,
+    "experiential/parametric": 13,
+    "working/parametric": 11
+  },
+  "emerging_themes_12m": [
+    {
+      "keyword": "uncertainty",
+      "papers": 15
+    },
+    {
+      "keyword": "bayesian",
+      "papers": 4
+    },
+    {
+      "keyword": "opponent",
+      "papers": 1
+    },
+    {
+      "keyword": "agentic",
+      "papers": 226
+    },
+    {
+      "keyword": "offline",
+      "papers": 35
+    },
+    {
+      "keyword": "causal",
+      "papers": 27
+    },
+    {
+      "keyword": "skill",
+      "papers": 74
+    },
+    {
+      "keyword": "optimization",
+      "papers": 98
+    },
+    {
+      "keyword": "benchmark",
+      "papers": 403
+    },
+    {
+      "keyword": "reward",
+      "papers": 74
+    }
+  ],
+  "momentum": [
+    {
+      "id": "working",
+      "name": "Working",
+      "total": 365,
+      "recent": 302,
+      "prior": 40,
+      "growth_pct": 655.0,
+      "recent_share": 0.827,
+      "papers_per_month": 25.2,
+      "score": 737.7
+    },
+    {
+      "id": "factual",
+      "name": "Factual",
+      "total": 620,
+      "recent": 454,
+      "prior": 90,
+      "growth_pct": 404.4,
+      "recent_share": 0.732,
+      "papers_per_month": 37.8,
+      "score": 477.6
+    },
+    {
+      "id": "experiential",
+      "name": "Experiential",
+      "total": 254,
+      "recent": 190,
+      "prior": 39,
+      "growth_pct": 387.2,
+      "recent_share": 0.748,
+      "papers_per_month": 15.8,
+      "score": 462.0
+    }
+  ],
+  "category_trajectory": {
+    "experiential": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 80,
+      "2026": 140
+    },
+    "factual": {
+      "2013": 1,
+      "2018": 1,
+      "2020": 2,
+      "2021": 3,
+      "2022": 4,
+      "2023": 33,
+      "2024": 51,
+      "2025": 161,
+      "2026": 364
+    },
+    "working": {
+      "2011": 1,
+      "2022": 2,
+      "2023": 8,
+      "2024": 27,
+      "2025": 59,
+      "2026": 268
+    }
+  },
+  "keyword_bursts": [
+    {
+      "keyword": "uncertainty",
+      "recent": 15,
+      "total": 15,
+      "burst_score": 1.31,
+      "recent_share": 0.0159
+    },
+    {
+      "keyword": "bayesian",
+      "recent": 4,
+      "total": 4,
+      "burst_score": 1.31,
+      "recent_share": 0.0042
+    },
+    {
+      "keyword": "opponent",
+      "recent": 1,
+      "total": 1,
+      "burst_score": 1.31,
+      "recent_share": 0.0011
+    },
+    {
+      "keyword": "agentic",
+      "recent": 226,
+      "total": 243,
+      "burst_score": 1.22,
+      "recent_share": 0.2389
+    },
+    {
+      "keyword": "offline",
+      "recent": 35,
+      "total": 38,
+      "burst_score": 1.21,
+      "recent_share": 0.037
+    },
+    {
+      "keyword": "causal",
+      "recent": 27,
+      "total": 30,
+      "burst_score": 1.18,
+      "recent_share": 0.0285
+    },
+    {
+      "keyword": "skill",
+      "recent": 74,
+      "total": 83,
+      "burst_score": 1.17,
+      "recent_share": 0.0782
+    },
+    {
+      "keyword": "optimization",
+      "recent": 98,
+      "total": 113,
+      "burst_score": 1.14,
+      "recent_share": 0.1036
+    },
+    {
+      "keyword": "benchmark",
+      "recent": 403,
+      "total": 466,
+      "burst_score": 1.13,
+      "recent_share": 0.426
+    },
+    {
+      "keyword": "reward",
+      "recent": 74,
+      "total": 86,
+      "burst_score": 1.13,
+      "recent_share": 0.0782
+    },
+    {
+      "keyword": "transfer",
+      "recent": 61,
+      "total": 71,
+      "burst_score": 1.13,
+      "recent_share": 0.0645
+    },
+    {
+      "keyword": "policy",
+      "recent": 108,
+      "total": 126,
+      "burst_score": 1.12,
+      "recent_share": 0.1142
+    },
+    {
+      "keyword": "retrieval",
+      "recent": 383,
+      "total": 460,
+      "burst_score": 1.09,
+      "recent_share": 0.4049
+    },
+    {
+      "keyword": "multimodal",
+      "recent": 66,
+      "total": 79,
+      "burst_score": 1.09,
+      "recent_share": 0.0698
+    },
+    {
+      "keyword": "graph",
+      "recent": 173,
+      "total": 213,
+      "burst_score": 1.06,
+      "recent_share": 0.1829
+    }
+  ],
+  "source_breakdown": {
+    "arxiv": 1177,
+    "doi": 37,
+    "other": 25
+  },
+  "venues": [
+    {
+      "name": "ACL 2026",
+      "papers": 8
+    },
+    {
+      "name": "ICML 2026",
+      "papers": 4
+    },
+    {
+      "name": "ICLR 2025",
+      "papers": 4
+    },
+    {
+      "name": "ICLR 2026",
+      "papers": 3
+    },
+    {
+      "name": "ACL 2025 Findings",
+      "papers": 2
+    },
+    {
+      "name": "ACL 2026 Findings",
+      "papers": 2
+    },
+    {
+      "name": "Findings ACL 2026",
+      "papers": 2
+    },
+    {
+      "name": "COLM 2026",
+      "papers": 2
+    },
+    {
+      "name": "ICML 2025",
+      "papers": 2
+    },
+    {
+      "name": "NeurIPS 2025. Camera-ready version",
+      "papers": 1
+    },
+    {
+      "name": "EMNLP2021 Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing. Code at https",
+      "papers": 1
+    },
+    {
+      "name": "https://doi.org/10.4208/jml.240708",
+      "papers": 1
+    },
+    {
+      "name": "https://doi.org/10.18653/v1/2025.findings-emnlp.1164",
+      "papers": 1
+    },
+    {
+      "name": "https://doi.org/10.1145/3627673.3679847",
+      "papers": 1
+    },
+    {
+      "name": "ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems",
+      "papers": 1
+    }
+  ],
+  "gaps": {
+    "thinnest_cells": [
+      {
+        "cell": "working/parametric",
+        "papers": 11
+      },
+      {
+        "cell": "experiential/parametric",
+        "papers": 13
+      },
+      {
+        "cell": "experiential/latent",
+        "papers": 17
+      },
+      {
+        "cell": "factual/parametric",
+        "papers": 23
+      },
+      {
+        "cell": "factual/latent",
+        "papers": 34
+      },
+      {
+        "cell": "working/latent",
+        "papers": 55
+      },
+      {
+        "cell": "experiential/token-level",
+        "papers": 224
+      },
+      {
+        "cell": "working/token-level",
+        "papers": 299
+      },
+      {
+        "cell": "factual/token-level",
+        "papers": 563
+      }
+    ],
+    "white_space": [
+      {
+        "cell": "experiential/latent",
+        "total": 17,
+        "recent": 14,
+        "recent_share": 0.82
+      },
+      {
+        "cell": "working/parametric",
+        "total": 11,
+        "recent": 9,
+        "recent_share": 0.82
+      },
+      {
+        "cell": "experiential/parametric",
+        "total": 13,
+        "recent": 10,
+        "recent_share": 0.77
+      },
+      {
+        "cell": "factual/parametric",
+        "total": 23,
+        "recent": 10,
+        "recent_share": 0.43
+      }
+    ]
+  },
+  "top_authors": [
+    {
+      "name": "et al.",
+      "papers": 41
+    },
+    {
+      "name": "Feiyu Xiong",
+      "papers": 17
+    },
+    {
+      "name": "Zhiyu Li",
+      "papers": 16
+    },
+    {
+      "name": "Yu Wang",
+      "papers": 12
+    },
+    {
+      "name": "Bo Tang",
+      "papers": 12
+    },
+    {
+      "name": "Min Zhang",
+      "papers": 10
+    },
+    {
+      "name": "Zeyu Zhang",
+      "papers": 10
+    },
+    {
+      "name": "Fei Huang",
+      "papers": 9
+    },
+    {
+      "name": "Jie Zhou",
+      "papers": 9
+    },
+    {
+      "name": "Shuicheng Yan",
+      "papers": 9
+    },
+    {
+      "name": "Wangchunshu Zhou",
+      "papers": 8
+    },
+    {
+      "name": "Xu Chen",
+      "papers": 8
+    },
+    {
+      "name": "Xiang Wang",
+      "papers": 8
+    },
+    {
+      "name": "Jun Wang",
+      "papers": 8
+    },
+    {
+      "name": "Tao Feng",
+      "papers": 8
+    }
+  ]
+}
