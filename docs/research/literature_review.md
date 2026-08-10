@@ -1,6 +1,6 @@
 # Literature Review
 
-**Generated:** 2026-08-10  
+**Generated:** 2026-08-11  
 **Corpus:** 1,493 papers across 4 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
@@ -25,9 +25,10 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Working | 365 | 302 | 40 | +655% | 83% | 25.2 |
-| Factual | 620 | 454 | 90 | +404% | 73% | 37.8 |
-| Experiential | 254 | 190 | 39 | +387% | 75% | 15.8 |
+| Working | 448 | 314 | 60 | +423% | 70% | 26.2 |
+| Factual | 686 | 488 | 94 | +419% | 71% | 40.7 |
+| Experiential | 308 | 215 | 46 | +367% | 70% | 17.9 |
+|  | 51 | 39 | 12 | +225% | 76% | 3.2 |
 
 ---
 
@@ -35,14 +36,14 @@
 
 | Cell | Papers |
 |------|--------:|
+| `working/mechanism` | 9 |
+| `experiential/application` | 10 |
+| `experiential/theory` | 10 |
 | `working/parametric` | 11 |
 | `experiential/parametric` | 13 |
+| `experiential/mechanism` | 15 |
 | `experiential/latent` | 17 |
-| `factual/parametric` | 23 |
-| `factual/latent` | 34 |
-| `working/latent` | 55 |
-| `experiential/token-level` | 224 |
-| `working/token-level` | 299 |
+| `factual/development` | 18 |
 
 ---
 

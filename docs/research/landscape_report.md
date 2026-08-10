@@ -1,6 +1,6 @@
 # Paper Landscape Report
 
-**Generated:** 2026-08-10  
+**Generated:** 2026-08-11  
 **Corpus:** 1,493 papers (1961-2027) | 1,228 arXiv preprints · 265 journal/publisher records
 
 ## Category Landscape

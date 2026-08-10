@@ -1,5 +1,99 @@
 [
  {
+  "title": "MultiSent-RAG: A retrieval and memory-augmented system for multilingual sentiment processing.",
+  "date": "2027-01",
+  "url": "https://dblp.org/rec/journals/ipm/MnassriFC27",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Inf. Process. Manag."
+ },
+ {
+  "title": "When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.01619v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Memory-augmented agents can know that a user's stored state is outdated and still plan around the old value. The STALE benchmark calls this the implicit policy adaptation (IPA) gap. We identify one structural contributor: draft-anchored verification checks what a response says, and in an open-ended response the stale dependency is usually unsaid. StateAuditor therefore audits in the opposite direction, from stored state to draft. An LLM proposes candidate old-to-new transitions from timestamped evidence; deterministic code pins each quotation to a single entry, checks that the new evidence really is newer, and lets only these verified transitions trigger repair. What is verified is provenance and chronology - not semantic supersession. On STALE's full protocol (400 scenarios, 50-session histories, one independent response per query), strict single-query VTA scores .736 against .686 for our locked predecessor under the same judge: a +5.0-point paired gain (95% CI [+2.9, +7.2]) coming almost entirely from IPA and premise resistance (PR). The benchmark's own judge, from a third model family, reproduces the gain (.738 vs. .680). On an independent cross-family preference-evolution benchmark (HorizonBench), the full draft-audit-repair pipeline over a gold-derived structured store raises current-preference accuracy (user-clustered p&lt;.01), though a matched control shows most of this external gain is the draft-side audit itself; a harder authored lifecycle set gives no gain, bounding the claim while false invalidation stays controlled. On STALE, by contrast, a matched control (same evidence, adapter, and call budget) scores only .692 (+0.6 over the predecessor, n.s.), attributing the STALE gain to the transition machinery rather than added context or calls. We make no claim about general-purpose agent memory.",
+  "venue": ""
+ },
+ {
+  "title": "TrajWiki: Source-Grounded Memory Trajectories for Long-Horizon Dialogue Agents",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.00967v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Large language model agents have shown strong capabilities in generating coherent and contextually appropriate responses, yet robust long-horizon dialogue remains limited by the lack of external memory that is traceable, updatable, and diagnostically transparent. Existing memory-augmented agents often store memories as isolated records or overwritable states, making it difficult to preserve how information originates, evolves, conflicts, or becomes obsolete over time. We propose TrajWiki, a trajectory-based memory framework for long-horizon conversational agents. Instead of treating memory as static entries, TrajWiki represents each memory as a source-grounded evolution trajectory, maintained through immutable episodic snapshots and claim-level operations such as ADD, REVISE, and DEPRECATE. To reduce fragmentation and retrieval cost, TrajWiki further introduces Memory Wiki, a persistent intermediate layer that incrementally compiles dialogue history into structured and interlinked wiki pages capturing salient entities, events, quantities, topics, and conflicts. At inference time, queries are routed hierarchically from relevant wiki pages to linked memory trajectories, then to corresponding snapshots and source messages for evidence-grounded answer synthesis. Experiments on LoCoMo and MedMT show that TrajWiki improves long-horizon dialogue performance across both open-source and closed-source LLM backbones, while providing greater interpretability and diagnostic visibility into memory evolution, retrieval failures, and answer generation.",
+  "venue": ""
+ },
+ {
+  "title": "MutMem: Cryptographically Authorized Mutation in Persistent Agent Memory",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.02843v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Persistent agent memory must adapt as later outcomes change earlier evidence, yet mutable retrieval weights create an attribution problem: reviewers must distinguish authorized adaptation from database tampering. We present MutMem, an authorized-mutation protocol in HOM-AIMOS, a persistent agent-memory engine. MutMem retains memory content, records signed positive and negative outcome evidence without age-based expiry, and commits each nontrivial weight change as a housekeeper-authorized transition. Each transition binds a terminal provenance node, signer epoch, quantized old and new weights, a no-fork predecessor, and two domain-separated SHA-256 commitments. Ed25519 verification runs in both the database writer and a portable verifier. Content classified as poison-likely is retained with signed, revisable labels used by recall as trust evidence. We evaluate utility, mutation integrity, and poisoning adaptation. HOM-AIMOS answers 459/500 LongMemEval questions correctly under LLM judgment (91.8%). On LoCoMo, it obtains 74.12% judged accuracy and, under a separate upstream-compatible protocol, 58.20 token F1. A native suite passes all declared authorization, topology, tamper, signer-epoch, and post-mutation-recall cases; median signed-transition latency is 4.865 ms. In a declared N=100 PoisonedRAG adaptation, no injected poison appears in attacked top-5 disclosures (0/100; 95% Wilson upper bound 3.70%), while induced target-answer attack success among 98 clean-negative targets is 1/98 (1.02%). A preregistered four-arm ablation attributes the retrieval reduction to signed stored labels: the retriever selects poison for 94/100 targets when epistemic policy is bypassed and 0/100 when labels are restored. MutMem provides evidence of integrity, authorization, traceability, and historical continuity; it does not establish content truth.",
+  "venue": ""
+ },
+ {
+  "title": "V-Mem: Modality-Routed Retrieval for Long-Term Multimodal Agentic Memory",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.01543v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Interaction between users and LLM agents is increasingly multimodal: conversations interleave text with images, and a later question may target either. Yet most agent memories are designed around text, and even the few that support multimodal conversations still fail on vision-related questions. We trace this failure to an assumption behind the similarity search they rely on: in the index space, a query lies close to the relevant evidence that answers it. In multimodal settings, two gaps break it. By the modality gap, a query lies closer to memory content of its own modality than to evidence in another, even in a trained joint embedding space. By the similarity-relevance gap, the content most similar to a query is often not the evidence that answers it, most acutely when a query carries both text and image and its evidence resembles neither part alone. We present V-Mem, a multimodal agentic memory system that routes retrieval by the modality of the query and that of the target evidence, both recognized from the query alone. To cross the modality gap, V-Mem organizes the conversation into rounds and returns the target-modality content from the same round as the match, without comparing across modalities. To close the similarity-relevance gap, it searches with an LLM-generated anchor that sits closer to the relevant evidence than the query does: a hypothetical caption for a text-only query seeking an image, and an enriched search anchor, the query text plus relevant keywords extracted from the query image, when the evidence is reachable only by combining the two. On Mem-Gallery, V-Mem reaches an LLM-judge score of 0.82 versus 0.56 for the second best, with the largest margin on questions carrying an image (0.87, no baseline above 0.47); on LoCoMo it scores 0.69 versus 0.58.",
+  "venue": ""
+ },
+ {
+  "title": "Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.05784v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agent's memory today records what the user said, not what the user did. We compile passively captured screen activity into agent memory with a deterministic, zero-model pipeline: it segments a local capture stream into typed activity frames, bounded episodes carrying application, site, timing, input volume, and evidence pointers back to the raw rows, with no model in the loop, so the output is byte-identical, cacheable, and mechanically auditable. On one professional's single-user corpus of 128,756 frames over 51 active days, the compiler reduces a day of raw capture to a prompt-ready context block 86x smaller in 68 ms, and an agent reading that block answers questions about the day at 98.4% accuracy (Wilson 95% CI 91.7-99.7%) against an independent oracle, versus 66-80% for an LLM summary of the same capture, a mid-tier model reading the block matching a frontier one. The same compiler doubles as a demand-side cost instrument. Read off passive, pre-delegation human activity rather than agent rollouts, it supplies two parameters that agent-cost models assume but, to our knowledge, have not measured: the Routine Overhead Ratio R and the routine recurrence h. We report first values of R, a modeled upper bound, at 60-343x, and a delegable recurrence of 9.0% in-sample and 7.7% out-of-sample, for a realistic all-fleet token ceiling near 8%; a compiled routine replays deterministically with the model out of the loop, demonstrated live at zero model tokens on a guard-matched hit. Schema, compiler, and evaluation harness are open.",
+  "venue": ""
+ },
+ {
+  "title": "PMMC: Prospective Multimodal Memory Compilation for Long-Term LVLM Agents",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.00962v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Long-term memory is essential for LVLM agents to maintain consistency and integrate information across extended multimodal interactions. Existing agent memory systems, however, often reduce visual experiences into textual summaries or rely on static retrieve-then-reason pipelines, which are inefficient at query time and brittle when questions require image-text binding, temporal updates, or visual details. We propose Prospective Multimodal Memory Compilation, a framework that shifts part of the memory reasoning process from query time to memory consolidation time. Given accumulated multimodal interactions, a Questioner predicts future question candidates, a Planner compiles question-conditioned multimodal memory programs, and a Doubter verifies whether the planned evidence path can support the predicted answer. The verified question-program pairs form a structured question bank for efficient query-time routing and evidence retrieval. Experiments on multimodal long-term memory benchmarks show that our method improves answer quality and visual evidence recall while reducing query-time token and latency costs. Extensive ablations analyze the effects of self-feedback, dynamic planning, raw-image access, and question bank coverage.",
+  "venue": ""
+ },
+ {
+  "title": "LeanMem: Simple and Efficient Long-Term Memory for LLM Agents",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.03463v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Long-term memory is essential for LLM-based agents to sustain interactions and reliably leverage distant history. However, existing memory systems typically process heterogeneous dialogue content through a uniform summarization and retrieval pipeline, leading to either excessive token consumption or irreversible loss of fine-grained evidence. We argue that historical dialogue content should be handled differently according to its compressibility, temporal dynamics, and fidelity requirements. Based on this insight, we propose LeanMem, a lightweight long-term memory framework. LeanMem first filters out low-value content, then stores informative segments as compact profile memory, temporally structured event memory, or source-grounded record memory, depending on the nature of the information. During maintenance, only dynamically evolving event memories are selectively updated, avoiding redundant consolidation of stable profiles and immutable records. During inference, LeanMem dynamically selects memory types and allocates retrieval budgets according to query-specific evidence demands, assembling relevant evidence on demand. On LoCoMo and LongMemEval-S with GPT-4.1-mini and Qwen3-8B, LeanMem improves accuracy over the strongest memory-based baseline in every setting, by up to 15.1 points, at the lowest or near-lowest construction cost, inference tokens, and latency. The code and datasets are included in the supplementary materials.",
+  "venue": ""
+ },
+ {
+  "title": "Salami Attack: Stealthy Collusive Memory Poisoning against OpenClaw",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.01637v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Long-term memory enables LLM agents to retain useful information across sessions, but also creates an attack surface through which adversaries may poison an agent's persistent memory to steer its behavior. Existing memory poisoning attacks mainly rely on individually malicious records, overlooking a compositional threat: multiple benign-looking memories may jointly induce unsafe behavior. In this paper, we introduce MemCollusion, an automated red-teaming framework for constructing collusive memory poisoning attacks. MemCollusion applies salami tactics---a strategy that slices an adversarial objective into small, individually innocuous pieces---to generate memory fragments that are individually benign looking but collectively harmful. It constructs memory coalitions using four design constraints, five theory-informed strategies, and a fine-tuned generator. To assess collusive memory poisoning in a realistic cross-session setting, we develop MoltLab, a controlled research reproduction of Moltbook, in which crafted platform content must first be observed and distilled into persistent memory before influencing the agent's behavior in a separate session. We evaluate MemCollusion on OpenClaw using two backbone models across 48 scenarios. Under the strongest memory-saving setting, MemCollusion achieves an average Memory Save Rate of 81.3% and an Attack Success Rate of 75.0%, and remains effective under both benign memory dilution and memory-level defenses.",
+  "venue": ""
+ },
+ {
   "title": "SelfMem: Self-Optimizing Memory for AI Agents",
   "date": "2026-07",
   "url": "https://arxiv.org/abs/2607.03726",
@@ -3065,6 +3159,86 @@
   "venue": "Nature"
  },
  {
+  "title": "MemHarness: Memory Is Reconstructed, Not Replayed",
+  "date": "2026-07",
+  "url": "https://arxiv.org/abs/2607.28272v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Retrieving past experiences has become a common strategy to enhance large language model agents. However, most existing memory-augmented agents treat retrieved experiences as static records to be replayed verbatim, injecting them into the context regardless of whether they align with the agent's current situation. This ``replay'' paradigm ignores the gap between the abstract, general nature of stored experience and the concrete, ever-changing states encountered at decision time, frequently causing negative transfer. In contrast, humans rarely recall past experiences verbatim; instead, they reorganize and adapt retrieved memories to fit the present context. Inspired by this, we propose MemHarness, a framework that equips LLM agents to actively harness and reconstruct past experiences based on the present context. At each decision step, a unified policy model critiques and reconstructs the retrieved experience conditioned on the current state, producing context-grounded guidance before acting. This reconstructive ability emerges naturally through end-to-end training with GRPO. Experiments on ALFWorld and WebShop show that MemHarness substantially outperforms pure RL and static memory-augmented baselines, demonstrating strong robustness in out-of-distribution (OOD) scenarios. Furthermore, our analyses reveal that this reconstruction objective not only prevents negative transfer but also serves as latent guidance during training, fundamentally improving the agent's intrinsic reasoning capabilities.",
+  "venue": ""
+ },
+ {
+  "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding",
+  "date": "2026-07",
+  "url": "https://arxiv.org/abs/2607.28678v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Multimodal agents operating in long-horizon environments must build and continually update multimedia memories to support entity-consistent, temporally grounded reasoning. However, existing agentic memory approaches often discard fine-grained dentity cues under aggressive compression and segment-wise processing. They also rely heavily on vector similarity retrieval, which can surface semantically related yet identity-mismatched evidence, leading to entity confusion, error propagation, and hallucinated answers. We propose ViSAGE, a multimodal agentic memory framework that constructs self-correcting, entity-centric memories. Specifically, ViSAGE anchors entity identity via cross-modal binding over long temporal ranges. It then applies bidirectional memory refinement to propagate delayed identity evidence, retroactively unifying historical records and improving future reasoning. We also introduce multi-agent cross-verification to assess retrieved evidence under an identity-evidence alignment onstraint, enabling abstention instead of unsupported answers when evidence is missing. Extensive results demonstrate that ViSAGE consistently outperforms the strongest baseline, achieving 5.9% higher accuracy.",
+  "venue": ""
+ },
+ {
+  "title": "MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
+  "date": "2026-07",
+  "url": "https://arxiv.org/abs/2607.27080v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Memory systems allow agents to retain and reuse information from past interactions, but they can also let malicious content persist. A malicious instruction crafted by an attacker may be stored in long-term memory, recalled much later, and quietly shape a real action. Recent benchmarks increasingly examine agent memory security, yet few trace the same malicious semantics across persistence, downstream consequences, and selective repair under diverse memory-backend comparisons. To address this gap, we introduce MemSecBench, a task-grounded benchmark for the lifecycle security of agent memory systems. It contains 310 cases drawn from 48 realistic contexts across code and science, daily life, and office work. Each case follows a controlled Write--Execute--Forget protocol in an isolated runtime under an exact agent configuration, defined by an agent harness, a memory backend, and an LLM backend. Evidence-based adjudication combines a deterministic write check, checkpoint-specific judge-model evaluations, and programmatic gates across seven lifecycle checkpoints. The experimental design spans a 24-configuration matrix of two agent harnesses, four memory backends, and three LLM backends. Across all 24 configurations, malicious memory persists in 84.2% of all cases, and the full Write--Execute chain succeeds in 50.3%. Among successfully poisoned cases, 59.6% complete the full Execute chain, while 56.1% achieve selective repair.Compared with matched Native configurations, the largest absolute differences are 16.1 percentage points for end-to-end attack success and 41.3 percentage points for selective repair. These descriptive contrasts indicate that the evaluated memory system stacks differ in lifecycle security, both in the propagation of malicious memory and in selective repair after successful memory poisoning.",
+  "venue": ""
+ },
+ {
+  "title": "IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval",
+  "date": "2026-07",
+  "url": "https://arxiv.org/abs/2607.26072v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Long-term memory is becoming a core capability of LLM-based agents, but existing evaluations largely test conversational recall in open-domain or persona-grounded settings. We argue that a stronger test is whether an agent can reuse information from prior sessions while acting over a live, structured, domain-specific environment. We study this problem in Building Information Modelling (BIM), a professional engineering workflow where agents must query large IFC models while also relying on project specifications, client decisions, and engineering conventions often discussed in conversation but absent from the model. We introduce IFCMemoryBench, a benchmark for evaluating long-term memory in LLM-based BIM information retrieval. IFCMemoryBench contains 143 multi-session tasks across 19 projects and 4,016 prior sessions, derived from incomplete-information questions in IFC-Bench v2. Each task seeds missing project context across earlier conversations and later asks a probe question that can be answered only by combining remembered context with live IFC queries. Our evaluation framework decomposes memory performance into ingestion, retrieval, and utilization, and measures both answer quality and memory quality with expert-validated LLM judges. We evaluate representative vector-, graph-, and file-based memory systems. The strongest system achieves only 32.4% answer accuracy under a deployment-realistic ingestion scope, and remains below 60% under oracle-filtered ingestion or a stronger probe agent. Analysis shows that current general-purpose memory systems often retrieve topically relevant context but store project knowledge as incomplete or fragmented facts. These results reveal a domain-transfer gap in agent memory and suggest that reliable professional agents require domain-aware memory representations linking conversations, project knowledge, and structured model entities.",
+  "venue": ""
+ },
+ {
+  "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
+  "date": "2026-07",
+  "url": "https://arxiv.org/abs/2607.26637v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Deployed LLM agents increasingly keep their long-term memory as a filesystem: a directory tree of markdown files that the agent itself reads, writes, and reorganizes through generic file tools. Yet research has largely passed over this medium: prior systems design bespoke memory representations and study retrieval over them, leaving the default's two working assumptions untested: that an agent can keep a growing store organized as memories accumulate, conflict, and go stale, and that this organization pays. We present the first systematic exploration of filesystem-based memory for LLM agents. We formalize the setting as three roles around one memory filesystem: a management agent integrates and organizes incoming content, a search agent answers queries with cited sources, and an execution agent supplies task trajectories that are distilled into skills, unifying declarative memory and skills in a single store. Across long-conversation benchmarks and embodied tasks, we vary memory shape (agent-organized hierarchy, verbatim dump, chunk retrieval), stream scale, tool harness (sandboxed shell, memory-tool-style functions, varied search tooling), and the strengths of the management and search agents, tracking answer quality, cost, and store health as memory grows. What organization reliably buys is search economy: organized stores roughly halve retrieval cost where material is large. Today's agents, however, fall short of the default's promise: in our growth study, organization erodes for all but the strongest management agent, and no agent we measure converts organization itself into better answers. And the model is not the only lever over a store's shape: changing the tool set alone reshapes the store as strongly as swapping the model. The study turns the filesystem default from an assumption into a design space for agent memory.",
+  "venue": ""
+ },
+ {
+  "title": "NVIDIA-labs OO Agents: Native Python Object-Oriented Agents",
+  "date": "2026-07",
+  "url": "https://arxiv.org/abs/2607.20709v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Traditional agent development is split across prompt templates, tool schemas, callback code, and workflow graphs. We present NVIDIA Object-Oriented Agents (NOOA), a model-agnostic Python framework for building reliable AI agents. NOOA takes a simpler approach: an agent is a Python object. Its methods are the actions the model can take, fields are its state, docstrings are its prompts, and its type annotations are contracts. A method whose code body consists of \"...\" is completed at runtime by an LLM-driven agent loop, while methods with normal bodies remain standard deterministic Python. This gives developers and agents the same interface, so agent behavior can be tested, traced, refactored, and improved just like other software. This paper makes three contributions. (1) We present the agent-as-a-Python-object programming model and the design principles behind it. Where Python has existing abstractions, we adopt them directly. Agent-specific capabilities--context, events, state rendering, long-term memory, and validated LLM loops--are exposed through simple Pythonic APIs, so both developers and agents share one familiar programming model. (2) We identify six model-facing ideas that NOOA is, to our knowledge, the first to combine on a single surface: typed input/output, pass-by-reference over live objects, code as action, programmable loop engineering, explicit object state, and model-callable harness APIs for context and events. We find the community already converging on several of these ideas--often as experimental or partial features--and present the comparison to encourage further adoption. (3) We demonstrate that current models use this interface effectively, both in targeted capability tests and on agentic and reasoning benchmarks such as SWE-bench Verified and Terminal-Bench 2.0 and ARC-AGI-3.",
+  "venue": ""
+ },
+ {
+  "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
+  "date": "2026-07",
+  "url": "https://arxiv.org/abs/2607.26017v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a fundamental stability-plasticity dilemma. External retrieval-based memory can rapidly absorb new evidence, but it often fails to internalize recurring execution patterns and incurs inference-time retrieval overhead. Parametric memory enables stable and efficient execution once learned, but typically relies on explicit task boundaries and fixed parameter budgets. Inspired by the human brain, which balances plasticity and stability through complementary episodic storage and gradual consolidation, we propose UniMem, a self-routing framework for autonomous memory management. UniMem uses learnable routing tokens as memory controllers, enabling adaptive coordination between complementary memory pathways: novel or sparse tasks are retained in an episodic buffer for retrieval-augmented execution, while recurring and reliable patterns are consolidated into expandable parametric memory. By decoupling task identification from task execution with routing tokens and parametric memory blocks, UniMem expands memory on demand without task labels during deployment or uncontrolled parameter growth. Experiments on long-horizon streaming task sequences show that UniMem consistently outperforms baselines while maintaining execution fidelity, achieving an average gain of 4.0 EM points across three backbone models.",
+  "venue": ""
+ },
+ {
+  "title": "Episodic Markov Decision Processes",
+  "date": "2026-07",
+  "url": "https://doi.org/10.1017/9781009711067.007",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [],
+  "abstract": "",
+  "venue": "Reinforcement Learning Foundations"
+ },
+ {
   "title": "Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory",
   "date": "2026-06",
   "url": "https://arxiv.org/abs/2606.10677",
@@ -5058,6 +5232,46 @@
    "et al."
   ],
   "abstract": "The Autodata agent manages a challenger, weak solver, strong solver, and verifier/judge.",
+  "venue": ""
+ },
+ {
+  "title": "A Practice Auditing Framework for Large Language Model Use: Collective Empiricism, Pseudo-Rational Cognition, and Governance of AI-Generated Content",
+  "date": "2026-06",
+  "url": "https://arxiv.org/abs/2607.01248v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Large language models are increasingly used for knowledge acquisition, code generation, academic writing, and agent-based automation. In these settings, users may obtain highly structured answers, plans, and judgments without sufficient domain practice. This paper proposes a practice auditing framework for LLM use and AI-generated content governance. It introduces collective empiricism to describe how LLMs compress and reorganize large-scale human experience into outputs that appear empirical and rational, and pseudo-rational cognition to describe how users may mistake AI-generated structured expression for their own rational understanding. The paper analyzes AI subjectivity illusion, subjectivity structures in input materials, template loops in AI-AI conversations, statistical misjudgment in AIGC detection, and memory pollution when generated content enters future contexts, long-term memory, retrieval spaces, or agent skill systems. To reduce these risks, the paper proposes an auditing process based on requirement definition, problem-boundary identification, evidence-source auditing, practical validation, reverse questioning, logging, version management, rollback, and renewed cognition. The framework does not reject AI productivity; it argues that LLM outputs should be returned to verifiable, reproducible, and intervenable processes of practice. The paper provides a conceptual and auditable framework for cognitive risks in LLM interaction, AI-generated content governance, long-term memory systems, and human-AI interaction.",
+  "venue": ""
+ },
+ {
+  "title": "HighTide: An Agent-Curated Open-Source VLSI Benchmark Suite",
+  "date": "2026-06",
+  "url": "https://arxiv.org/abs/2606.04126v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "We introduce HighTide, an evolving AI-assisted benchmark suite. Specifically, the contributions are: (i) a diverse open-source suite spanning multiple design languages and technology nodes, (ii) Bazel-based incremental RTL-to-GDS compilation with remote caching, (iii) AI-assisted design curation through twelve agent skills covering the design lifecycle, flow optimization, tool reference, and meta-maintenance, backed by per-design decision logs that serve as long-term memory of tuning rationale across the suite, and (iv) an infrastructure with RTL compilation verification for stable releases. The suite is publicly available and designed to grow with the open-source hardware ecosystem.",
+  "venue": ""
+ },
+ {
+  "title": "Continual Learning Bench: Evaluating Frontier AI Systems in Real-World Stateful Environments",
+  "date": "2026-06",
+  "url": "https://arxiv.org/abs/2606.05661v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Continual learning, the ability of AI systems to improve through sequential experience, has attracted substantial interest, but no high-quality benchmark exists to evaluate it. We introduce Continual Learning Bench (CL-Bench), the first difficult, expert-validated benchmark designed to measure whether LLM-based systems genuinely improve with experience. CL-Bench spans six diverse domains (software engineering, signal processing, disease outbreak forecasting, database querying, strategic game-playing, and demand forecasting), each validated by domain experts and designed so that tasks share a learnable latent structure (codebase layout, disease outbreak dynamics, opponent strategies) that a stateful system can discover online but a stateless one cannot. We evaluate frontier models across several agent architectures, from naive in-context learning (ICL) to dedicated memory systems, introducing a gain metric to isolate learning from prior capabilities. We find that these systems leave headroom for improved continual learning: agents frequently overfit to immediate observations or fail to reuse knowledge across instances, and dedicated memory systems do not fix this -- in fact, naive ICL outperforms systems dedicated to memory management. CL-Bench is the first benchmark to evaluate continual learning across diverse real-world domains with expert-validated tasks and isolate online learning from underlying model capability, showing a need for better continual learning systems.",
+  "venue": ""
+ },
+ {
+  "title": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
+  "date": "2026-06",
+  "url": "https://arxiv.org/abs/2608.00009v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Long-term memory remains a critical bottleneck for conversational AI agents, whose finite context windows cannot support coherent recall across thousands of turns. We present AgentMemBench, a unified, reproducible benchmark evaluating five memory management strategies under identical conditions: in-context windowing (ICW), external key-value store (EKV), graph-based episodic memory (GEM), compression-based summarisation (CBS), and web-augmented memory (WAM). All are assessed across three public datasets covering long-term multi-session dialogue (LoCoMo), task-oriented document grounding (MultiDoc2Dial), and persona-grounded multi-session chat (MSC), using Recall@k, MRR, nDCG@k, Answer F1, an LLM-judge Faithfulness score, Memory Footprint, and Latency over 491 annotated question turns. Generation and judging both use Qwen2.5-7B-Instruct (4-bit), with greedy decoding for determinism. Our results show that (1) EKV dominates on every quality axis (macro Recall@5 0.792, MRR 0.677, F1 0.156, Faithfulness 0.354); (2) long-range recall is decisive: on LoCoMo, where the gold turn lies many sessions back, ICW, WAM, GEM, and CBS retrieve almost nothing (Recall@5 &lt;= 0.005) while EKV alone reaches 0.573, showing that recency windows, summaries, and entity graphs collapse at long horizons and only dense retrieval scales; (3) CBS is the runner-up on retrieval (0.556); (4) WAM equals ICW on in-corpus recall by construction, since external results carry no in-corpus provenance; and (5) EKV's recall advantage carries a footprint cost (~5,100 vs ~300 tokens for ICW/WAM), an explicit accuracy-efficiency trade-off. We additionally evaluate two published memory systems (MemGPT/Letta, HippoRAG) against the same harness, and release all code, environment, and result artefacts for full reproducibility.",
   "venue": ""
  },
  {
@@ -7403,6 +7617,26 @@
   "venue": ""
  },
  {
+  "title": "Towards Security-Auditable LLM Agents: A Unified Graph Representation",
+  "date": "2026-05",
+  "url": "https://arxiv.org/abs/2605.06812v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "LLM-based agentic systems are rapidly evolving to perform complex autonomous tasks through dynamic tool invocation, stateful memory management, and multi-agent collaboration. However, this semantics-driven execution paradigm creates a severe semantic gap between low-level physical events and high-level execution intent, making post-hoc security auditing fundamentally difficult. Existing representation mechanisms, including static SBOMs and runtime logs, provide only fragmented evidence and fail to capture cognitive-state evolution, capability bindings, persistent memory contamination, and cascading risk propagation across interacting agents. To bridge this gap, we propose Agent-BOM, a unified structural representation for agent security auditing. Agent-BOM models an agentic system as a hierarchical attributed directed graph that separates static capability bases, such as models, tools, and long-term memory, from dynamic runtime semantic states, such as goals, reasoning trajectories, and actions. These layers are connected through semantic edges and security attributes, transforming fragmented execution traces into queryable audit paths. Building on Agent-BOM, we develop a graph-query-based paradigm for path-level risk assessment and instantiate it with the OWASP Agentic Top 10. We further implement an auditing plugin in the OpenClaw environment to construct Agent-BOM from live executions. Evaluation on representative real-world agentic attack scenarios shows that Agent-BOM can reconstruct stealthy attack chains, including cross-session memory poisoning and tool misuse, capability supply-chain hijacking and unexpected code execution, multi-agent ecosystem hijacking, and privilege and trust abuse. These results demonstrate that Agent-BOM provides a unified and auditable foundation for root-cause analysis and security adjudication in complex agentic ecosystems.",
+  "venue": ""
+ },
+ {
+  "title": "SURGENT: A Surgical Multi-Agent Assistance System Across the Perioperative Workflow",
+  "date": "2026-05",
+  "url": "https://arxiv.org/abs/2605.29368v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "The intricate nature of modern surgical care necessitates intelligent systems that can synthesize extensive patient records, support collaborative decision-making, and provide transparent, auditable reasoning across the entire perioperative workflow. Although web-based Large Language Models (LLMs) possess advanced reasoning capabilities, they are ill-equipped for surgical applications due to critical limitations: input length constraints, incomplete memory management, and limited traceability. To address this issue, we present SURGENT, a surgical multi-agent assistance system that combines a Tree-of-Thought planner, multi-department collaboration agents, and retrieval-augmented reasoning with clinical guidelines and biomedical literature. SURGENT features a novel memory design that manages both long-term patient histories and short-term working summaries, enabling more complete, contextualized, and consistent reasoning. Experimental evaluations across five key perioperative tasks - case analysis, surgical plan simulation, safety monitoring, complication risk assessment, and rehabilitation guidance - show that SURGENT outperforms baseline LLMs and existing medical multi-agent frameworks, yielding recommendations more closely aligned with patient histories. Ablation studies further highlight the advantage of DeepSeek as a locally deployable backbone model, enabling privacy-preserving deployment without reliance on centralized services. These results position SURGENT as a practical and trustworthy advancement toward intelligent, equitable, and secure surgical assistance systems.",
+  "venue": ""
+ },
+ {
   "title": "Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework",
   "date": "2026-04",
   "url": "https://arxiv.org/abs/2604.01707",
@@ -8811,6 +9045,40 @@
   "venue": ""
  },
  {
+  "title": "TrajOnco: a multi-agent framework for temporal reasoning over longitudinal EHR for multi-cancer early detection",
+  "date": "2026-04",
+  "url": "https://arxiv.org/abs/2604.10386v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Accurate estimation of cancer risk from longitudinal electronic health records (EHRs) could support earlier detection and improved care, but modeling such complex patient trajectories remains challenging. We present TrajOnco, a training-free, multi-agent large language model (LLM) framework designed for scalable multi-cancer early detection. Using a chain-of-agents architecture with long-term memory, TrajOnco performs temporal reasoning over sequential clinical events to generate patient-level summaries, evidence-linked rationales, and predicted risk scores. We evaluated TrajOnco on de-identified Truveta EHR data across 15 cancer types using matched case-control cohorts, predicting risk of cancer diagnosis at 1 year. In zero-shot evaluation, TrajOnco achieved AUROCs of 0.64-0.80, performing comparably to supervised machine learning in a lung cancer benchmark while demonstrating better temporal reasoning than single-agent LLMs. The multi-agent design also enabled effective temporal reasoning with smaller-capacity models such as GPT-4.1-mini. The fidelity of TrajOnco's output was validated through human evaluation. Furthermore, TrajOnco's interpretable reasoning outputs can be aggregated to reveal population-level risk patterns that align with established clinical knowledge. These findings highlight the potential of multi-agent LLMs to execute interpretable temporal reasoning over longitudinal EHRs, advancing both scalable multi-cancer early detection and clinical insight generation.",
+  "venue": ""
+ },
+ {
+  "title": "Freshness-Aware Prioritized Experience Replay for LLM/VLM Reinforcement Learning",
+  "date": "2026-04",
+  "url": "https://arxiv.org/abs/2604.16918v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Reinforcement Learning (RL) has achieved impressive success in post-training Large Language Models (LLMs) and Vision-Language Models (VLMs), with on-policy algorithms such as PPO, GRPO, and REINFORCE++ serving as the dominant paradigm. However, these methods discard all collected trajectories after a single gradient update, resulting in poor sample efficiency, particularly wasteful for agentic tasks where multi-turn environment interactions are expensive. While Experience Replay drives sample efficiency in classic RL by allowing agents to reuse past trajectories and prioritize informative ones, directly applying Prioritized Experience Replay (PER) to LLMs fails. The rapid policy evolution of billion-parameter models renders stored priorities stale, causing old high-priority trajectories to dominate sampling long after they have become uninformative. We propose Freshness-Aware PER, which addresses this priority staleness problem by augmenting any PER-based priority with a multiplicative exponential age decay grounded in effective sample size analysis. To the best of our knowledge, Freshness-Aware PER is the first work to successfully apply PER to LLM/VLM reinforcement learning. We evaluate on eight multi-step agentic, reasoning, and math competition tasks with 0.5B, 3B, and 7B models. Freshness-Aware PER significantly outperforms on-policy baselines, achieving +46% on NQ Search, +367% on Sokoban, and +133% on VLM FrozenLake, while standard PER without age decay consistently degrades performance. Our code is publicly available at https://github.com/Vision-CAIR/Freshness-Aware-PER.",
+  "venue": ""
+ },
+ {
+  "title": "Anvi-AI Powered Conversational Agent for Emotion-Aware and Memory Rich Interactions in Telugu",
+  "date": "2026-04",
+  "url": "https://doi.org/10.70528/ijlrp.v7.i4.2092",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "SriSudha Garugu",
+   "Naveen Bandari",
+   "Prasanna Burthula"
+  ],
+  "abstract": "The rapid growth of mobile AI assistants has made it much easier for people to interact with computers. However, most current systems still have trouble adapting to different cultures, supporting regional languages, understanding context, and keeping privacy. This survey paper looks at the latest de",
+  "venue": "International Journal of Leading Research Publication"
+ },
+ {
   "title": "Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers",
   "date": "2026-03",
   "url": "https://arxiv.org/abs/2603.07670",
@@ -10038,6 +10306,58 @@
   "venue": ""
  },
  {
+  "title": "PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent",
+  "date": "2026-03",
+  "url": "https://arxiv.org/abs/2603.29318v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Smartphone GUI agents execute tasks by operating directly on app interfaces, offering a path to broad capability without deep system integration. However, real-world smartphone use is highly personalized: users adopt diverse workflows and preferences, challenging agents to deliver customized assistance rather than generic solutions. Existing GUI agent benchmarks cannot adequately capture this personalization dimension due to sparse user-specific data and the lack of fine-grained evaluation metrics. To address this gap, we present PSPA-Bench, the benchmark dedicated to evaluating personalization in smartphone GUI agents. PSPA-Bench comprises over 12,855 personalized instructions aligned with real-world user behaviors across 10 representative daily-use scenarios and 22 mobile apps, and introduces a structure-aware process evaluation method that measures agents' personalized capabilities at a fine-grained level. Through PSPA-Bench, we benchmark 11 state-of-the-art GUI agents. Results reveal that current methods perform poorly under personalized settings, with even the strongest agent achieving limited success. Our analysis further highlights three directions for advancing personalized GUI agents: (1) reasoning-oriented models consistently outperform general LLMs, (2) perception remains a simple yet critical capability, and (3) reflection and long-term memory mechanisms are key to improving adaptation. Together, these findings establish PSPA-Bench as a foundation for systematic study and future progress in personalized GUI agents.",
+  "venue": ""
+ },
+ {
+  "title": "Elder-Sim: A Psychometrically Validated Platform for Personality-Stable Elderly Digital Twins",
+  "date": "2026-03",
+  "url": "https://arxiv.org/abs/2604.16343v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Background: LLMs enable patient-facing conversational agents, creating a pathway toward digital twins that capture older adults' lived experiences and behavioral responses across time. A central barrier is personality drift -- inconsistent trait expression across repeated interactions -- which undermines reliability of generated trajectories and intervention-response simulation in geriatric care. Objective: To develop ELDER-SIM, a multi-role elderly-care conversational platform for building personality-stable digital twin agents, and to propose a psychometric validation framework for quantifying personality consistency in LLM-based agents. Methods: ELDER-SIM was implemented via n8n workflow orchestration with local LLM inference (Ollama/vLLM), integrating (1) Big Five (OCEAN) trait specifications, (2) a Cognitive Conceptualization Diagram (CCD) grounded in Beck's CBT framework, and (3) a MySQL-based long-term memory module. Ablation studies across four conditions -- Baseline, +Memory, +CCD, and +LoRA (fine-tuned on 19,717 instruction pairs from CHARLS) -- were evaluated via Cronbach's $\u03b1$, ICC, and role discrimination accuracy. Results: Reliability was acceptable to excellent across conditions (Cronbach's $\u03b1$: 0.70--0.94; ICC: 0.85--0.96). Role discrimination improved from 83.3% (Baseline) to 88.9% (+Memory), 94.4% (+CCD), and 97.2% (+LoRA). CCD produced the largest consistency gain (mean $\u03b1$ 0.702$\\to$0.892), while LoRA achieved the highest overall consistency ($\u03b1$ 0.940; ICC 0.958). Conclusions: ELDER-SIM provides a psychometrically validated approach for constructing personality-consistent elderly digital twin agents. Structured cognitive modeling and domain adaptation reduce personality drift, supporting reliable longitudinal simulation for elderly mental health care and reproducible in silico evaluation before clinical deployment.",
+  "venue": ""
+ },
+ {
+  "title": "Training LLMs for Multi-Step Tool Orchestration with Constrained Data Synthesis and Graduated Rewards",
+  "date": "2026-03",
+  "url": "https://arxiv.org/abs/2603.24709v2",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Multi-step tool orchestration remains challenging for LLMs, as state-of-the-art models frequently fail on full sequence execution due to parameter errors. Training for these workflows faces two obstacles: the lack of environments supporting complex real-world API dependencies, and sparse binary rewards that provide no signal for partial correctness. We propose a reinforcement learning framework addressing both challenges. First, we construct a deterministic environment backed by a large-scale cache of real API responses, enabling constrained synthesis of valid multi-step traces with controllable complexity. Second, we introduce a graduated reward that decomposes correctness into atomic validity (call-level correctness at increasing granularity) and orchestration consistency (correct sequencing with dependency respect). On ComplexFuncBench, our approach substantially improves turn accuracy, with ablations confirming both reward components are essential. Cross-benchmark evaluation on BFCL v4 shows that the learned orchestration skills transfer to entirely different API ecosystems (e.g., agentic web search and memory management), yielding consistent gains while maintaining stable single-step performance. Code is available at https://github.com/horizon-rl/ToolOrchestrationReward",
+  "venue": ""
+ },
+ {
+  "title": "AgentHER: Hindsight Experience Replay for LLM Agent Trajectory Relabeling",
+  "date": "2026-03",
+  "url": "https://arxiv.org/abs/2603.21357v4",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "LLM-agent training pipelines routinely discard failed trajectories even though GPT-4o achieves only 14-20% on WebArena and below 55% pass@1 on ToolBench; even specialised systems at 50-65% leave the majority of trajectories unused. We introduce AgentHER, which recovers this lost signal by adapting Hindsight Experience Replay (HER) to natural-language agent trajectories: a trajectory that fails goal A is often a correct demonstration for an achievable alternative goal B. AgentHER realises this through a four-stage pipeline (failure classification, outcome extraction, LLM-guided relabeling with confidence gating, and data packaging) that converts discarded failures into SFT, DPO, and ShareGPT training data. On WebArena and ToolBench under a strict task-disjoint held-out protocol, AgentHER improves over success-only SFT by +7.6-11.4% across four model families (GPT-4o, Qwen2.5-72B/7B, LLaMA-3.1-8B), achieves 2x sample efficiency, and beats the strongest experience-centric baseline (Agent Workflow Memory) by +3.0-6.2%. Two robustness mechanisms, failure-severity weighting and cross-model multi-judge verification (gpt-4o-mini paired with Qwen2.5-72B-Instruct), reduce label noise from 5.9% to 2.9% and raise human-rated relabeling precision to 97.1% on WebArena and 96.0% on ToolBench. A full system-cost audit shows the entire relabeling pipeline costs 2.98 and 26 wall-clock minutes for 3,000 trajectories, i.e. 1.4 x 10^-3 per accepted pair. Code: https://github.com/alphadl/AgentHER",
+  "venue": ""
+ },
+ {
+  "title": "Multimodal Memory-Augmented Multi-Agent Conversational AI with Multilingual Support",
+  "date": "2026-03",
+  "url": "https://doi.org/10.22214/ijraset.2026.78339",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "Durgunala Ranjith"
+  ],
+  "abstract": "Conversational AI technologies have made significant progress in enabling intelligent human\u2013computer interaction;\nhowever, many existing systems still struggle with limitations such as weak contextual memory, reliance on a single interaction\nmodality, and limited multilingual communication capabilit",
+  "venue": "International Journal for Research in Applied Science and Engineering Technology"
+ },
+ {
   "title": "FluxMem: Choosing How to Remember: Adaptive Memory Structures for LLM Agents",
   "date": "2026-02",
   "url": "https://arxiv.org/abs/2602.14038",
@@ -11120,6 +11440,26 @@
   "subcategory": "token-level",
   "authors": [],
   "abstract": "Optimizing CUDA code across multiple generations of GPU architectures is challenging, as achieving peak performance requires an extensive exploration of an increasingly complex, hardware-specific optimization space. Traditional compilers are constrained by fixed heuristics, whereas finetuning Large Language Models (LLMs) can be expensive. However, agentic workflows for CUDA code optimization have limited ability to aggregate knowledge from prior exploration, leading to biased sampling and suboptimal solutions. We propose KernelBlaster, a Memory-Augmented In-context Reinforcement Learning (MAIC-RL) framework designed to improve CUDA optimization search capabilities of LLM-based GPU coding agents. KernelBlaster enables agents to learn from experience and make systematically informed decisions on future tasks by accumulating knowledge into a retrievable Persistent CUDA Knowledge Base. We propose a novel profile-guided, textual-gradient-based agentic flow for CUDA generation and optimization to achieve high performance across generations of GPU architectures. KernelBlaster guides LLM agents to systematically explore high-potential optimization strategies beyond naive rewrites. Compared to the PyTorch baseline, our method achieves geometric mean speedups of 1.43x, 2.50x, and 1.50x on KernelBench Levels 1, 2, and 3, respectively. We release KernelBlaster as an open-source agentic framework, accompanied by a test harness, verification components, and a reproducible evaluation pipeline.",
+  "venue": ""
+ },
+ {
+  "title": "Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections",
+  "date": "2026-02",
+  "url": "https://arxiv.org/abs/2602.15654v2",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Self-evolving LLM agents update their internal state across sessions, often by writing and reusing long-term memory. This design improves performance on long-horizon tasks but creates a security risk: untrusted external content observed during a benign session can be stored as memory and later treated as instruction. We study this risk and formalize a persistent attack we call a Zombie Agent, where an attacker covertly implants a payload that survives across sessions, effectively turning the agent into a puppet of the attacker. We present a black-box attack framework that uses only indirect exposure through attacker-controlled web content. The attack has two phases. During infection, the agent reads a poisoned source while completing a benign task and writes the payload into long-term memory through its normal update process. During trigger, the payload is retrieved or carried forward and causes unauthorized tool behavior. We design mechanism-specific persistence strategies for common memory implementations, including sliding-window and retrieval-augmented memory, to resist truncation and relevance filtering. We evaluate the attack on representative agent setups and tasks, measuring both persistence over time and the ability to induce unauthorized actions while preserving benign task quality. Our results show that memory evolution can convert one-time indirect injection into persistent compromise, which suggests that defenses focused only on per-session prompt filtering are not sufficient for self-evolving agents.",
+  "venue": ""
+ },
+ {
+  "title": "EAA: Automating materials characterization with vision language model agents",
+  "date": "2026-02",
+  "url": "https://arxiv.org/abs/2602.15294v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "We present Experiment Automation Agents (EAA), a vision-language-model-driven agentic system designed to automate complex experimental microscopy workflows. EAA integrates multimodal reasoning, tool-augmented action, and optional long-term memory to support both autonomous procedures and interactive user-guided measurements. Built on a flexible task-manager architecture, the system enables workflows ranging from fully agent-driven automation to logic-defined routines that embed localized LLM queries. EAA further provides a modern tool ecosystem with two-way compatibility for Model Context Protocol (MCP), allowing instrument-control tools to be consumed or served across applications. We demonstrate EAA at an imaging beamline at the Advanced Photon Source, including automated zone plate focusing, natural language-described feature search, and interactive data acquisition. These results illustrate how vision-capable agents can enhance beamline efficiency, reduce operational burden, and lower the expertise barrier for users.",
   "venue": ""
  },
  {
@@ -12520,6 +12860,912 @@
   "venue": ""
  },
  {
+  "title": "OS-Symphony: A Holistic Framework for Robust and Generalist Computer-Using Agent",
+  "date": "2026-01",
+  "url": "https://arxiv.org/abs/2601.07779v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "While Vision-Language Models (VLMs) have significantly advanced Computer-Using Agents (CUAs), current frameworks struggle with robustness in long-horizon workflows and generalization in novel domains. These limitations stem from a lack of granular control over historical visual context curation and the absence of visual-aware tutorial retrieval. To bridge these gaps, we introduce OS-Symphony, a holistic framework that comprises an Orchestrator coordinating two key innovations for robust automation: (1) a Reflection-Memory Agent that utilizes milestone-driven long-term memory to enable trajectory-level self-correction, effectively mitigating visual context loss in long-horizon tasks; (2) Versatile Tool Agents featuring a Multimodal Searcher that adopts a SeeAct paradigm to navigate a browser-based sandbox to synthesize live, visually aligned tutorials, thereby resolving fidelity issues in unseen scenarios. Experimental results demonstrate that OS-Symphony delivers substantial performance gains across varying model scales, establishing new state-of-the-art results on three online benchmarks, notably achieving 65.84% on OSWorld.",
+  "venue": ""
+ },
+ {
+  "title": "GAM-RAG: Gain-Adaptive Memory for Evolving Retrieval in Retrieval-Augmented Generation.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2603-01783",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Memory poisoning attacks on retrieval-augmented Large Language Model agents via deceptive semantic reasoning.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/eaai/JingLDZL26",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Eng. Appl. Artif. Intell."
+ },
+ {
+  "title": "Agentic memory-augmented retrieval and evidence grounding for medical question-answering tasks.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/ijmi/JiaBJLK26",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Int. J. Medical Informatics"
+ },
+ {
+  "title": "Target-aware molecule SMILES generation using a large language model with retrieval-augmented generation, multi-turn memory, and a predictive model.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/jcamd/KarabowiczCCN26",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "J. Comput. Aided Mol. Des."
+ },
+ {
+  "title": "Retrieval-Augmented Pseudo-Image Guided Alignment and Text Domain-Aware Memory Recall for Continual Zero-Shot Captioning.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/tcsv/LiuYLLLZ26",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Circuits Syst. Video Technol."
+ },
+ {
+  "title": "SegMem-RAG: Adaptive Memory for Retrieval-Augmented Generation in Open-Ended Knowledge Environments.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/aaai/FanZCXGPXZSZ26",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "AAAI"
+ },
+ {
+  "title": "Long Context Modeling with Ranked Memory-Augmented Retrieval.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/acl/AlselwiXJSSR26",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ACL"
+ },
+ {
+  "title": "Reasoning with Memory: Adaptive Information Management for Retrieval-Augmented Generation.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/acl/ManTKCH26",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ACL"
+ },
+ {
+  "title": "EgoMemory: Memory-Augmented Personalized Retrieval for Long-Context Egocentric Video.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/acl/TangZQYQGXLRZW26",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ACL"
+ },
+ {
+  "title": "KGMem-RAG: Knowledge Graph Enhanced Memory Retrieval-Augmented Generation for Educational Question Answering.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/icic/GuB26",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ICIC"
+ },
+ {
+  "title": "RAG-GFM: Overcoming In-Memory Bottlenecks in Graph Foundation Models via Retrieval-Augmented Generation.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/www/YuanSTFL26",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "WWW"
+ },
+ {
+  "title": "A Dynamic Retrieval-Augmented Generation System with Selective Memory and Remembrance.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2601-02428",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "IGMiRAG: Intuition-Guided Retrieval-Augmented Generation with Adaptive Mining of In-Depth Memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2602-07525",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "VimRAG: Navigating Massive Visual Context in Retrieval-Augmented Generation via Multimodal Memory Graph.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2602-12735",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2603-09297",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Event-Centric World Modeling with Memory-Augmented Retrieval for Embodied Decision-Making.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2604-07392",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "RAVEN: Retrieval-Augmented Vulnerability Exploration Network for Memory Corruption Analysis in User Code and Binary Programs.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2604-17948",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Working memory capacity",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/b978-0-443-44982-6.00004-1",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [
+   "Christos Constantinidis"
+  ],
+  "abstract": "",
+  "venue": "Working Memory"
+ },
+ {
+  "title": "Working memory duration",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/b978-0-443-44982-6.00002-8",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [
+   "Christos Constantinidis"
+  ],
+  "abstract": "",
+  "venue": "Working Memory"
+ },
+ {
+  "title": "Memory-augmented deep feature extraction and temporal-dependencies prediction for network traffic anomaly detection.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/cn/WangZZMZ26",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Comput. Networks"
+ },
+ {
+  "title": "A 40-nm Training-Inference STT-MRAM Near-Memory Computing Macro for Memory-Augmented Neural Network Acceleration.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/tvlsi/ZhouWMWMZMWX26",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Very Large Scale Integr. Syst."
+ },
+ {
+  "title": "EMA: An Episodic Memory Agent for Efficient and Selective Memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/acl/LanSZLLLJ26",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ACL"
+ },
+ {
+  "title": "E-mem: Multi-agent based Episodic Context Reconstruction for LLM Agent Memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2601-21714",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "ARTEM: Enhancing Large Language Model Agents with Spatial-Temporal Episodic Memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/aaai/TanST26",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "AAAI"
+ },
+ {
+  "title": "Synapse: Empowering LLM Agents with Episodic-Semantic Memory via Spreading Activation.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/acl/JiangCPCYZZAL26",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ACL"
+ },
+ {
+  "title": "Learning from Supervision with Semantic and Episodic Memory: A Reflective Approach to Agent Adaptation.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/cais/HassellZKMH26",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CAIS"
+ },
+ {
+  "title": "TwinMem-Agent: Episodic and Semantic Memory for Repository-Level Program Repair.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/sigsoft/WuLMX26",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "SIGSOFT FSE Companion"
+ },
+ {
+  "title": "Stop the Retrieval Thrash: Brain-Guided Episodic Memory for Repository-Scale Coding Agents.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/sigsoft/ZhangFL26",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "SIGSOFT FSE Companion"
+ },
+ {
+  "title": "MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2601-03192",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "EMemBench: Interactive Benchmarking of Episodic Memory for VLM Agents.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2601-16690",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "CAST: Character-and-Scene Episodic Memory for Agents.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2602-06051",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "REMem: Reasoning with Episodic Memory in Language Agent.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2602-13530",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2605-17625",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Episodic Memory Temporal Consistency for Cooperative Multi-Agent Reinforcement Learning.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2606-04492",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "BOLD fMRI activations and LC contrast associated with successful episodic memory in healthy older adults and MCI.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1002/alz.71682",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Penalba-S\u00e1nchez L",
+   "Yi YJ",
+   "Kurt E"
+  ],
+  "abstract": "<h4>Introduction</h4>We examined whether locus coeruleus (LC) contrast, an indirect proxy for neuronal density and structural health, was related to delayed episodic memory in healthy older adults (OAs) and those with mild cognitive impairment (MCI) and its association with encoding-related brain ac",
+  "venue": "MED"
+ },
+ {
+  "title": "The influence of acute stress on scenario construction.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/j.biopsycho.2026.109345",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Klein N",
+   "Soldan HD",
+   "Wolf OT"
+  ],
+  "abstract": "Stress impairs episodic memory retrieval. During scenario construction, semantic knowledge can complete episodic memories. However, it remains unclear how acute stress influences the interplay between episodic and semantic memories. In this preregistered study, 88 participants (44 women) were expose",
+  "venue": "MED"
+ },
+ {
+  "title": "Context reinstatement reveals preserved context memory specificity in typical ageing.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.3758/s13423-026-02971-y",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Gardette J",
+   "Sz\u0151ll\u0151si \u00c1",
+   "Bencze D"
+  ],
+  "abstract": "Episodic memory specificity declines with healthy ageing, as reflected in older adults' impaired ability to discriminate between similar focal stimuli. Yet, little is known about how ageing alters specificity of contextual memory features. Context reinstatement studies showed that young adults incid",
+  "venue": "MED"
+ },
+ {
+  "title": "Brain signal variability during rest as a neural mechanism underlying cognitive reserve.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/j.neuroimage.2026.122150",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Coors A",
+   "Stern Y",
+   "Habeck C"
+  ],
+  "abstract": "<h4>Background</h4>Resting-state brain signal variability has been found to vary with age and cognitive function. Neural flexibility has been suggested as a neural mechanism underlying cognitive reserve (CR), a construct that describes better than expected cognition given brain status. We examined t",
+  "venue": "MED"
+ },
+ {
+  "title": "Memory-related default-executive coupling across the lifespan and associations with changes in cognitive control. ",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1162/imag.a.1312",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Blakstad EG",
+   "Sneve MH",
+   "Vidal-Pineiro D"
+  ],
+  "abstract": "Episodic memory and cognitive control decline in aging. The default-executive coupling hypothesis of aging (DECHA) suggests that a neural correlate of cognitive decline in aging is increased functional connectivity (FC) between lateral prefrontal areas and the default-mode network. Here, in a lifesp",
+  "venue": "MED"
+ },
+ {
+  "title": "Protecting episodic memory after sleep loss: Similar benefits of exercise and naps via distinct neural contributions.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1073/pnas.2528246123",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Lotlikar MS",
+   "Ayotte B",
+   "Choi A"
+  ],
+  "abstract": "Sleep loss is a public health concern requiring widely accessible cost-effective interventions to counteract the cognitive and brain health impairments caused by it. Sleep loss impairs the brain's capacity to form new episodic memories, which is critical for everyday cognition, future planning, and ",
+  "venue": "MED"
+ },
+ {
+  "title": "Enhanced memory function and reduced perceived stress in older adults with self-reported memory complaints following strawberry leaf extract supplementation: a randomized, double-blind, placebo-controlled study.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/j.jnha.2026.100929",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Dormal V",
+   "Dudonn\u00e9 S",
+   "Gombert C"
+  ],
+  "abstract": "<h4>Background</h4>Age-related changes in cognitive performance represent a growing concern for older adults. Strawberry leaf extract (SLE), a polyphenol-rich botanical supplement containing ellagitannins, has been suggested to exert neuroprotective effects based on preclinical evidence. However, to",
+  "venue": "MED"
+ },
+ {
+  "title": "Bilingualism and Cognitive Aging in Ethnically Diverse Older Adults: Cross-sectional and Longitudinal Evidence from HABS-HD.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1093/geronb/gbag150",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Xia L",
+   "Ren K",
+   "Demetriou I"
+  ],
+  "abstract": "<h4>Objectives</h4>Identifying modifiable factors that shape cognitive aging trajectories is a central goal in aging research. This study examined whether bilingualism is associated with dementia status and longitudinal cognitive decline, and whether associations vary by ethnicity or gender.<h4>Meth",
+  "venue": "MED"
+ },
+ {
+  "title": "Beneficial effects of foreign language learning and aerobic exercise on dentate gyrus volume and mnemonic discrimination in healthy older adults: Results from a randomized controlled trial.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1162/imag.a.1306",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Polk SE",
+   "Fandakova Y",
+   "Berron D"
+  ],
+  "abstract": "Protecting hippocampal structures, such as the <i>cornu ammonis</i> 3 and dentate gyrus (CA3/DG), that are tied to mnemonic discrimination could be a promising approach to mitigate the age-related decline in episodic memory. This study examines the potential benefits of cognitive and physical engage",
+  "venue": "MED"
+ },
+ {
+  "title": "Hippocampal Reactivation Trades Episodic Detail for Semantic Gist in Human Memory.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1162/jocn.a.2592",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Hindy NC",
+   "Coleman R",
+   "Selvam SRM"
+  ],
+  "abstract": "Memory must balance preserving episode-specific details with extracting generalizable structure. Here, we test whether spontaneous hippocampal reactivation during postencoding rest actively transforms memories by strengthening semantic gist at the expense of episodic detail. Twenty-four participants",
+  "venue": "MED"
+ },
+ {
+  "title": "MeMAT: Multi-agent transformer with deep long-term memory, short-term memory, and persistent memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/ijon/SunJZL26",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neurocomputing"
+ },
+ {
+  "title": "Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/acl/YuYXTFLW26",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ACL"
+ },
+ {
+  "title": "Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2605-26252",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Exploring the security of short-term and long-term contextual memory in industrial smart customer agent.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/ase/MaoCWY26",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Autom. Softw. Eng."
+ },
+ {
+  "title": "TALM: Dynamic Tree-Structured Multi-Agent Framework with Long-Term Memory for Scalable Code Generation.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/agent/ShenJ26",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "AGENT@ICSE"
+ },
+ {
+  "title": "Cognitive Modeling for Long-Horizon Agent Learning via Integrated Long-Term Memory and Reasoning.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/cnml/YangGMLFW26",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CNML"
+ },
+ {
+  "title": "Benchmarking Memory Architectures for Mobile Agents in Short-Term and Long-Term Applications.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/mobisys/ZhangYO26",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "MobiSys Workshops"
+ },
+ {
+  "title": "HiMem: Hierarchical Long-Term Memory for LLM Long-Horizon Agents.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2601-06377",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "LSTM-MAS: A Long Short-Term Memory Inspired Multi-Agent System for Long-Context Understanding.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2601-11913",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "M2A: Multimodal Memory Agent with Dual-Layer Hybrid Memory for Long-Term Personalized Interactions.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2602-07624",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2605-12493",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2606-10677",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "G-Long: Graph-Enhanced Memory Management for Efficient Long-Term Dialogue Agents.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2606-13115",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2606-25161",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2607-01935",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Do Agents Dream of False Memories? Black-box Visual Attacks on Long-term Memory in Multimodal AI Agents.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2607-15657",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Fusing memory and attention: A study on LSTM, transformer and hybrid architectures for symbolic music generation.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/eswa/GhoshalCCB26",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Expert Syst. Appl."
+ },
+ {
+  "title": "Nocturnal non-speech sound classification with multi-spectrogram feature fusion and an attention-based stacked hybrid convolutional bidirectional long short-term memory-vision transformer architecture.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/peerj-cs/Sagbas26a",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "venue": "PeerJ Comput. Sci."
+ },
+ {
+  "title": "Throughput Maximization for Transformer Inference on Processing Near-Memory Architectures.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/tcad/GeZCK26",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst."
+ },
+ {
+  "title": "End-to-End Transformer Acceleration Through Processing-in-Memory Architectures.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2601-14260",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Trilinear Compute-in-Memory Architecture for Energy-Efficient Transformer Acceleration.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2604-07628",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
   "title": "From Context to EDUs: Faithful and Structured Context Compression via Elementary Discourse Unit Decomposition",
   "date": "2025-12",
   "url": "https://arxiv.org/abs/2512.14244",
@@ -13202,6 +14448,16 @@
   "venue": ""
  },
  {
+  "title": "Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcement Learning",
+  "date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.07461v3",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "We introduce Native Parallel Reasoner (NPR), a teacher-free framework that enables Large Language Models (LLMs) to self-evolve genuine parallel reasoning capabilities. NPR transforms the model from sequential emulation to native parallel cognition through three key innovations: 1) a self-distilled progressive training paradigm that transitions from ``cold-start'' format discovery to strict topological constraints without external supervision; 2) a novel Parallel-Aware Policy Optimization (PAPO) algorithm that optimizes branching policies directly within the execution graph, allowing the model to learn adaptive decomposition via trial and error; and 3) a robust NPR Engine that refactors memory management and flow control of SGLang to enable stable, large-scale parallel RL training. Across eight reasoning benchmarks, NPR trained on Qwen3-4B achieves performance gains of up to 24.5% and inference speedups up to 4.6x. Unlike prior baselines that often fall back to autoregressive decoding, NPR demonstrates 100% genuine parallel execution, establishing a new standard for self-evolving, efficient, and scalable agentic reasoning.",
+  "venue": ""
+ },
+ {
   "title": "A Simple Yet Strong Baseline for Long-Term Conversational Memory of LLM Agents",
   "date": "2025-11",
   "url": "https://arxiv.org/abs/2511.17208",
@@ -13818,6 +15074,52 @@
   ],
   "abstract": "ThetaEvolve combines evolutionary search with reinforcement learning and in-context learning. This hybrid approach leverages the strengths of multiple paradigms to achieve better performance on open problems.",
   "venue": ""
+ },
+ {
+  "title": "Deep Research: A Systematic Survey",
+  "date": "2025-11",
+  "url": "https://arxiv.org/abs/2512.02038v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Large language models (LLMs) have rapidly evolved from text generators into powerful problem solvers. Yet, many open tasks demand critical thinking, multi-source, and verifiable outputs, which are beyond single-shot prompting or standard retrieval-augmented generation. Recently, numerous studies have explored Deep Research (DR), which aims to combine the reasoning capabilities of LLMs with external tools, such as search engines, thereby empowering LLMs to act as research agents capable of completing complex, open-ended tasks. This survey presents a comprehensive and systematic overview of deep research systems, including a clear roadmap, foundational components, practical implementation techniques, important challenges, and future directions. Specifically, our main contributions are as follows: (i) we formalize a three-stage roadmap and distinguish deep research from related paradigms; (ii) we introduce four key components: query planning, information acquisition, memory management, and answer generation, each paired with fine-grained sub-taxonomies; (iii) we summarize optimization techniques, including prompting, supervised fine-tuning, and agentic reinforcement learning; and (iv) we consolidate evaluation criteria and open challenges, aiming to guide and facilitate future development. As the field of deep research continues to evolve rapidly, we are committed to continuously updating this survey to reflect the latest progress in this area.",
+  "venue": ""
+ },
+ {
+  "title": "Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks",
+  "date": "2025-11",
+  "url": "https://arxiv.org/abs/2511.21726v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "How to enable human-like long-term memory in large language models (LLMs) has been a central question for unlocking more general capabilities such as few-shot generalization. Existing memory frameworks and benchmarks focus on finding the optimal memory compression algorithm for higher performance in tasks that require recollection and sometimes further reasoning. However, such efforts have ended up building more human bias into the compression algorithm, through the search for the best prompts and memory architectures that suit specific benchmarks, rather than finding a general solution that would work on other data distributions. On the other hand, goal-directed search on uncompressed information could potentially exhibit superior performance because compression is lossy, and a predefined compression algorithm will not fit all raw data distributions. Here we present SUMER (Search in Uncompressed Memory via Experience Replay), an end-to-end reinforcement learning agent with verifiable reward (RLVR) that learns to use search tools to gather information and answer a target question. On the LoCoMo dataset for long-context conversation understanding, SUMER with Qwen2.5-7B-Instruct learned to use search tools and outperformed all other biased memory compression approaches and also the full-context baseline, reaching SOTA performance (43% gain over the prior best). We demonstrate that a simple search method applied to raw data outperforms goal-agnostic and biased compression algorithms in current long-context memory tasks, arguing for new paradigms and benchmarks that are more dynamic and autonomously scalable. Code for SUMER and all implemented baselines is publicly available at https://github.com/zycyc/SUMER.",
+  "venue": ""
+ },
+ {
+  "title": "Episodic memory contributions to working memory\u2013supported reinforcement learning.",
+  "date": "2025-11",
+  "url": "https://doi.org/10.1037/xlm0001456",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [
+   "Soobin H. Hong",
+   "Amy R. Zou",
+   "Aspen H. Yoo"
+  ],
+  "abstract": "",
+  "venue": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+ },
+ {
+  "title": "Contextual Coherence in Conversational AI: Leveraging a Memory Agent",
+  "date": "2025-11",
+  "url": "https://doi.org/10.14445/22312803/ijctt-v73i11p103",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "Vidya Vishal Wadkar"
+  ],
+  "abstract": "This study presents a Memory Agent Framework specifically designed for engaging conversational AI while addressing context coherence and memory scalability. The design is based on a Model Context Protocol (MCP) to synchronise many conversational agents over four memory layers inspired by cognitive f",
+  "venue": "International Journal of Computer Trends and Technology"
  },
  {
   "title": "Livia: An Emotion-Aware AR Companion Powered by Modular AI Agents and Progressive Memory Compression",
@@ -14723,6 +16025,36 @@
   "venue": "ICLR 2025"
  },
  {
+  "title": "video-SALMONN S: Memory-Enhanced Streaming Audio-Visual LLM",
+  "date": "2025-10",
+  "url": "https://arxiv.org/abs/2510.11129v2",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Long-duration streaming video understanding is fundamental for future AI agents, yet remains limited by ineffective long-term memory. We introduce video-SALMONN S, a memory-enhanced streaming audio-visual large language model that processes over 3-hour videos at 1 FPS and 360p resolution, outperforming strong non-streaming models under the same memory budget. In addition to token merging or downsampling, video-SALMONN S is the first to employ test-time training (TTT) as a streaming memory mechanism for video understanding. TTT continuously transforms short-term multimodal representations into long-term memory embedded in model parameters. To improve long-range dependency modeling and memory capacity, we propose (i) a TTT_MEM layer with an additional long-span prediction objective, (ii) a two-stage training scheme, and (iii) a modality-aware memory reader. We further introduce the Episodic Learning from Video Memory (ELViM) benchmark, simulating agent-like scenarios where models must learn from videos observed hours earlier. video-SALMONN S consistently outperforms both streaming and non-streaming baselines by 3-7% on long video benchmarks. Notably, video-SALMONN S achieves a 15% absolute accuracy improvement over strong non-streaming models on ELViM, demonstrating strong learning abilities from video memory.",
+  "venue": ""
+ },
+ {
+  "title": "Traj-CoA: Patient Trajectory Modeling via Chain-of-Agents for Lung Cancer Risk Prediction",
+  "date": "2025-10",
+  "url": "https://arxiv.org/abs/2510.10454v2",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Large language models (LLMs) offer a generalizable approach for modeling patient trajectories, but suffer from the long and noisy nature of electronic health records (EHR) data in temporal reasoning. To address these challenges, we introduce Traj-CoA, a multi-agent system involving chain-of-agents for patient trajectory modeling. Traj-CoA employs a chain of worker agents to process EHR data in manageable chunks sequentially, distilling critical events into a shared long-term memory module, EHRMem, to reduce noise and preserve a comprehensive timeline. A final manager agent synthesizes the worker agents' summary and the extracted timeline in EHRMem to make predictions. In a zero-shot one-year lung cancer risk prediction task based on five-year EHR data, Traj-CoA outperforms baselines of four categories. Analysis reveals that Traj-CoA exhibits clinically aligned temporal reasoning, establishing it as a promisingly robust and generalizable approach for modeling complex patient trajectories. Implementation of Traj-CoA is available on https://github.com/zengsihang/Traj-CoA.",
+  "venue": ""
+ },
+ {
+  "title": "Prompt reinforcing for long-term planning of large language models",
+  "date": "2025-10",
+  "url": "https://arxiv.org/abs/2510.05921v3",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Large language models (LLMs) have achieved remarkable success in a wide range of natural language processing tasks and can be adapted through prompting. However, they remain suboptimal in multi-turn interactions, often relying on incorrect early assumptions and failing to track user goals over time, which makes such tasks particularly challenging. Prior works in dialogue systems have shown that long-term planning is essential for handling interactive tasks. In this work, we propose a prompt optimisation framework inspired by reinforcement learning, which enables such planning to take place by only modifying the task instruction prompt of the LLM-based agent. By generating turn-by-turn feedback and leveraging experience replay for prompt rewriting, our proposed method shows significant improvement in multi-turn tasks such as text-to-SQL and task-oriented dialogue. Moreover, it generalises across different LLM-based agents and can leverage diverse LLMs as meta-prompting agents. This warrants future research in reinforcement learning-inspired parameter-free optimisation methods.",
+  "venue": ""
+ },
+ {
   "title": "Mem-\u03b1: Learning Memory Construction via Reinforcement Learning",
   "date": "2025-09",
   "url": "https://arxiv.org/abs/2509.25911",
@@ -15171,6 +16503,26 @@
   "venue": ""
  },
  {
+  "title": "ID-RAG: Identity Retrieval-Augmented Generation for Long-Horizon Persona Coherence in Generative Agents",
+  "date": "2025-09",
+  "url": "https://arxiv.org/abs/2509.25299v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Generative agents powered by language models are increasingly deployed for long-horizon tasks. However, as long-term memory context grows over time, they struggle to maintain coherence. This deficiency leads to critical failures, including identity drift, ignoring established beliefs, and the propagation of hallucinations in multi-agent systems. To mitigate these challenges, this paper introduces Identity Retrieval-Augmented Generation (ID-RAG), a novel mechanism designed to ground an agent's persona and persistent preferences in a dynamic, structured identity model: a knowledge graph of core beliefs, traits, and values. During the agent's decision loop, this model is queried to retrieve relevant identity context, which directly informs action selection. We demonstrate this approach by introducing and implementing a new class of ID-RAG enabled agents called Human-AI Agents (HAis), where the identity model is inspired by the Chronicle structure used in Perspective-Aware AI, a dynamic knowledge graph learned from a real-world entity's digital footprint. In social simulations of a mayoral election, HAis using ID-RAG outperformed baseline agents in long-horizon persona coherence - achieving higher identity recall across all tested models by the fourth timestep - and reduced simulation convergence time by 19% (GPT-4o) and 58% (GPT-4o mini). By treating identity as an explicit, retrievable knowledge structure, ID-RAG offers a foundational approach for developing more temporally coherent, interpretable, and aligned generative agents. Our code is open-source and available at: https://github.com/flybits/humanai-agents.",
+  "venue": ""
+ },
+ {
+  "title": "UltraHorizon: Benchmarking Agent Capabilities in Ultra Long-Horizon Scenarios",
+  "date": "2025-09",
+  "url": "https://arxiv.org/abs/2509.21766v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Autonomous agents have recently achieved remarkable progress across diverse domains, yet most evaluations focus on short-horizon, fully observable tasks. In contrast, many critical real-world tasks, such as large-scale software development, commercial investment, and scientific discovery, unfold in long-horizon and partially observable scenarios where success hinges on sustained reasoning, planning, memory management, and tool use. Existing benchmarks rarely capture these long-horizon challenges, leaving a gap in systematic evaluation. To bridge this gap, we introduce \\textbf{UltraHorizon} a novel benchmark that measures the foundational capabilities essential for complex real-world challenges. We use exploration as a unifying task across three distinct environments to validate these core competencies. Agents are designed in long-horizon discovery tasks where they must iteratively uncover hidden rules through sustained reasoning, planning, memory and tools management, and interaction with environments. Under the heaviest scale setting, trajectories average \\textbf{200k+} tokens and \\textbf{400+} tool calls, whereas in standard configurations they still exceed \\textbf{35k} tokens and involve more than \\textbf{60} tool calls on average. Our extensive experiments reveal that LLM-agents consistently underperform in these settings, whereas human participants achieve higher scores, underscoring a persistent gap in agents' long-horizon abilities. We also observe that simple scaling fails in our task. To better illustrate the failure of agents, we conduct an in-depth analysis of collected trajectories. We identify eight types of errors and attribute them to two primary causes: in-context locking and functional fundamental capability gaps. \\href{https://github.com/StarDewXXX/UltraHorizon}{Our code will be available here.}",
+  "venue": ""
+ },
+ {
   "title": "Building Self-Evolving Agents via Experience-Driven Lifelong Learning: A Framework and Benchmark",
   "date": "2025-08",
   "url": "https://arxiv.org/abs/2508.19005",
@@ -15566,6 +16918,16 @@
   "venue": "ICLR 2025"
  },
  {
+  "title": "ASIC-Agent: An Autonomous Multi-Agent System for ASIC Design with Benchmark Evaluation",
+  "date": "2025-08",
+  "url": "https://arxiv.org/abs/2508.15940v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in Register Transfer Level (RTL) design, enabling high-quality code generation from natural language descriptions. However, LLMs alone face significant limitations in real-world hardware design workflows, including the inability to execute code, lack of debugging capabilities, and absence of long-term memory. To address these challenges, we present ASIC-Agent, an autonomous system designed specifically for digital ASIC design tasks. ASIC-Agent enhances base LLMs with a multi-agent architecture incorporating specialized sub-agents for RTL generation, verification, OpenLane hardening, and Caravel chip integration, all operating within a comprehensive sandbox environment with access to essential hardware design tools. The system leverages a vector database containing documentation, API references, error knowledge, and curated insights from the open-source silicon community. To evaluate ASIC-Agent's performance, we introduce ASIC-Agent-Bench, the first benchmark specifically designed to assess agentic systems in hardware design tasks. We evaluate ASIC-Agent with various base LLMs, providing quantitative comparisons and qualitative insights into agent behavior across different design scenarios. Our results demonstrate that ASIC-Agent, when powered by Claude 4 Sonnet, successfully automates a broad range of ASIC design tasks spanning varying levels of complexity, showing the potential of significantly accelerating the ASIC design workflow.",
+  "venue": ""
+ },
+ {
   "title": "MIRIX: Multi-Agent Memory System for LLM-Based Agents",
   "date": "2025-07",
   "url": "https://arxiv.org/abs/2507.07957",
@@ -15792,6 +17154,26 @@
    "et al."
   ],
   "abstract": "GEPA combines reflection-based prompting with evolutionary search and uses natural language reflection over trajectories of trial and error to propose prompt updates. This demonstrates that evolutionary approaches to prompt optimization can outperform reinforcement learning methods.",
+  "venue": ""
+ },
+ {
+  "title": "Graph-Augmented Large Language Model Agents: Current Progress and Future Prospects",
+  "date": "2025-07",
+  "url": "https://arxiv.org/abs/2507.21407v2",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Autonomous agents based on large language models (LLMs) have demonstrated impressive capabilities in a wide range of applications, including web navigation, software development, and embodied control. While most LLMs are limited in several key agentic procedures, such as reliable planning, long-term memory, tool management, and multi-agent coordination, graphs can serve as a powerful auxiliary structure to enhance structure, continuity, and coordination in complex agent workflows. Given the rapid growth and fragmentation of research on Graph-augmented LLM Agents (GLA), this paper offers a timely and comprehensive overview of recent advances and also highlights key directions for future work. Specifically, we categorize existing GLA methods by their primary functions in LLM agent systems, including planning, memory, and tool usage, and then analyze how graphs and graph learning algorithms contribute to each. For multi-agent systems, we further discuss how GLA solutions facilitate the orchestration, efficiency optimization, and trustworthiness of MAS. Finally, we highlight key future directions to advance this field, from improving structural adaptability to enabling unified, scalable, and multimodal GLA systems. We hope this paper can serve as a roadmap for future research on GLA and foster a deeper understanding of the role of graphs in LLM agent systems.",
+  "venue": ""
+ },
+ {
+  "title": "Magentic-UI: Towards Human-in-the-loop Agentic Systems",
+  "date": "2025-07",
+  "url": "https://arxiv.org/abs/2507.22358v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "AI agents powered by large language models are increasingly capable of autonomously completing complex, multi-step tasks using external tools. Yet, they still fall short of human-level performance in most domains including computer use, software development, and research. Their growing autonomy and ability to interact with the outside world, also introduces safety and security risks including potentially misaligned actions and adversarial manipulation. We argue that human-in-the-loop agentic systems offer a promising path forward, combining human oversight and control with AI efficiency to unlock productivity from imperfect systems. We introduce Magentic-UI, an open-source web interface for developing and studying human-agent interaction. Built on a flexible multi-agent architecture, Magentic-UI supports web browsing, code execution, and file manipulation, and can be extended with diverse tools via Model Context Protocol (MCP). Moreover, Magentic-UI presents six interaction mechanisms for enabling effective, low-cost human involvement: co-planning, co-tasking, multi-tasking, action guards, and long-term memory. We evaluate Magentic-UI across four dimensions: autonomous task completion on agentic benchmarks, simulated user testing of its interaction capabilities, qualitative studies with real users, and targeted safety assessments. Our findings highlight Magentic-UI's potential to advance safe and efficient human-agent collaboration.",
   "venue": ""
  },
  {
@@ -16134,6 +17516,26 @@
    "et al."
   ],
   "abstract": "AlphaEvolve is a coding-agent evolutionary search system that stores a pool of candidate programs and prompts frozen LLMs to generate diffs for improvement. As the system repeatedly evaluates child programs and keeps successful ones, it discovers better solutions over time.",
+  "venue": ""
+ },
+ {
+  "title": "WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks",
+  "date": "2025-06",
+  "url": "https://arxiv.org/abs/2506.01952v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Powered by a large language model (LLM), a web browsing agent operates web browsers in a human-like manner and offers a highly transparent path toward automating a wide range of everyday tasks. As web agents become increasingly capable and demonstrate proficiency in general browsing tasks, a critical question emerges: Can they go beyond general browsing to robustly handle tasks that are tedious and complex, or chores that humans often avoid doing themselves? In this paper, we introduce WebChoreArena, a new fully reproducible benchmark comprising 532 carefully curated tasks designed to extend the scope of WebArena beyond general browsing to more labor-intensive and tedious tasks. WebChoreArena systematically integrates three key challenges: (i) Massive Memory tasks requiring accurate retrieval of large amounts of information in the observations, (ii) Calculation tasks demanding precise mathematical reasoning, and (iii) Long-Term Memory tasks necessitating long-term memory across multiple webpages. Built on top of the fully reproducible and widely adopted four WebArena simulation environments, WebChoreArena ensures strict reproducibility and enables fair, direct comparisons with the established WebArena benchmark, offering key insights into agent progress. Our experimental results demonstrate that as LLMs evolve, represented by GPT-4o, Claude 3.7 Sonnet, and Gemini 2.5 Pro, significant improvements in performance are observed on WebChoreArena. These findings suggest that WebChoreArena is well-suited to measure the advancement of state-of-the-art LLMs with greater clarity. Nevertheless, the results also indicate that even with Gemini 2.5 Pro, there remains substantial room for improvement compared to WebArena, highlighting the increased challenges posed by WebChoreArena.",
+  "venue": ""
+ },
+ {
+  "title": "Chain-of-Memory: Enhancing GUI Agents for Cross-Application Navigation",
+  "date": "2025-06",
+  "url": "https://arxiv.org/abs/2506.18158v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Multimodal large language models (MLLMs) are attracting growing attention in the development of Graphical User Interface (GUI) agents. Existing approaches often rely on historical screenshots or actions to implicitly represent the task state. This reliance poses challenges for GUI agents in accurately understanding task states and underscores the absence of effective mechanisms to store critical information in complex and lengthy cross-app tasks. To address these challenges, we propose Chain-of-Memory (CoM), a novel approach for explicitly modeling short-term and long-term memory in GUI agents. CoM achieves this by capturing action descriptions, integrating task-relevant screen information, and maintaining a dedicated memory module to store and manage this information. By leveraging explicit memory representations, CoM enables GUI agents to better understand task states and retain critical historical information persistently. To equip GUI agents with memory management capabilities and evaluate the effectiveness of CoM, we developed the GUI Odyssey-CoM, a dataset comprising 111k screen-action pairs annotated with Chain-of-Memory. Experimental results demonstrate that CoM significantly improves GUI agents' performance in cross-application tasks. Additionally, GUI Odyssey-CoM enables 7B models to achieve memory management capabilities comparable to 72B models. The dataset and code will be open-sourced.",
   "venue": ""
  },
  {
@@ -16664,6 +18066,46 @@
   "venue": ""
  },
  {
+  "title": "T1: A Tool-Oriented Conversational Dataset for Multi-Turn Agentic Planning",
+  "date": "2025-05",
+  "url": "https://arxiv.org/abs/2505.16986v2",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Large Language Models (LLMs) have demonstrated impressive capabilities as intelligent agents capable of solving complex problems. However, effective planning in scenarios involving dependencies between API or tool calls-particularly in multi-turn conversations-remains a significant challenge. To address this, we introduce T1, a tool-augmented, multi-domain, multi-turn conversational dataset specifically designed to capture and manage inter-tool dependencies across diverse domains. T1 enables rigorous evaluation of agents' ability to coordinate tool use across nine distinct domains (4 single domain and 5 multi-domain) with the help of an integrated caching mechanism for both short- and long-term memory, while supporting dynamic replanning-such as deciding whether to recompute or reuse cached results. Beyond facilitating research on tool use and planning, T1 also serves as a benchmark for evaluating the performance of open-weight and proprietary large language models. We present results powered by T1-Agent, highlighting their ability to plan and reason in complex, tool-dependent scenarios.",
+  "venue": ""
+ },
+ {
+  "title": "PLAICraft: Large-Scale Time-Aligned Vision-Speech-Action Dataset for Embodied AI",
+  "date": "2025-05",
+  "url": "https://arxiv.org/abs/2505.12707v2",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Advances in deep generative modeling have made it increasingly plausible to train human-level embodied agents. Yet progress has been limited by the absence of large-scale, real-time, multi-modal, and socially interactive datasets that reflect the sensory-motor complexity of natural environments. To address this, we present PLAICraft, a novel data collection platform and dataset capturing multiplayer Minecraft interactions across five time-aligned modalities: video, game output audio, microphone input audio, mouse, and keyboard actions. Each modality is logged with millisecond time precision, enabling the study of synchronous, embodied behaviour in a rich, open-ended world. The dataset comprises over 10,000 hours of gameplay from more than 10,000 global participants. Alongside the dataset, we provide an evaluation suite for benchmarking model capabilities in object recognition, spatial awareness, language grounding, and long-term memory. PLAICraft opens a path toward training and evaluating agents that act fluently and purposefully in real time, paving the way for truly embodied artificial intelligence.",
+  "venue": ""
+ },
+ {
+  "title": "DSMentor: Enhancing Data Science Agents with Curriculum Learning and Online Knowledge Accumulation",
+  "date": "2025-05",
+  "url": "https://arxiv.org/abs/2505.14163v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Large language model (LLM) agents have shown promising performance in generating code for solving complex data science problems. Recent studies primarily focus on enhancing in-context learning through improved search, sampling, and planning techniques, while overlooking the importance of the order in which problems are tackled during inference. In this work, we develop a novel inference-time optimization framework, referred to as DSMentor, which leverages curriculum learning -- a strategy that introduces simpler task first and progressively moves to more complex ones as the learner improves -- to enhance LLM agent performance in challenging data science tasks. Our mentor-guided framework organizes data science tasks in order of increasing difficulty and incorporates a growing long-term memory to retain prior experiences, guiding the agent's learning progression and enabling more effective utilization of accumulated knowledge. We evaluate DSMentor through extensive experiments on DSEval and QRData benchmarks. Experiments show that DSMentor using Claude-3.5-Sonnet improves the pass rate by up to 5.2% on DSEval and QRData compared to baseline agents. Furthermore, DSMentor demonstrates stronger causal reasoning ability, improving the pass rate by 8.8% on the causality problems compared to GPT-4 using Program-of-Thoughts prompts. Our work underscores the importance of developing effective strategies for accumulating and utilizing knowledge during inference, mirroring the human learning process and opening new avenues for improving LLM performance through curriculum-based inference optimization.",
+  "venue": ""
+ },
+ {
+  "title": "Unifying Language Agent Algorithms with Graph-based Orchestration Engine for Reproducible Agent Research",
+  "date": "2025-05",
+  "url": "https://arxiv.org/abs/2505.24354v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Language agents powered by large language models (LLMs) have demonstrated remarkable capabilities in understanding, reasoning, and executing complex tasks. However, developing robust agents presents significant challenges: substantial engineering overhead, lack of standardized components, and insufficient evaluation frameworks for fair comparison. We introduce Agent Graph-based Orchestration for Reasoning and Assessment (AGORA), a flexible and extensible framework that addresses these challenges through three key contributions: (1) a modular architecture with a graph-based workflow engine, efficient memory management, and clean component abstraction; (2) a comprehensive suite of reusable agent algorithms implementing state-of-the-art reasoning approaches; and (3) a rigorous evaluation framework enabling systematic comparison across multiple dimensions. Through extensive experiments on mathematical reasoning and multimodal tasks, we evaluate various agent algorithms across different LLMs, revealing important insights about their relative strengths and applicability. Our results demonstrate that while sophisticated reasoning approaches can enhance agent capabilities, simpler methods like Chain-of-Thought often exhibit robust performance with significantly lower computational overhead. AGORA not only simplifies language agent development but also establishes a foundation for reproducible agent research through standardized evaluation protocols.",
+  "venue": ""
+ },
+ {
   "title": "Mem0: Building production-ready ai agents with scalable long-term memory",
   "date": "2025-04",
   "url": "https://arxiv.org/abs/2504.19413",
@@ -16834,6 +18276,16 @@
   ],
   "abstract": "PaperBench evaluates AI systems ability to replicate AI research papers with 20 ICML 2024 papers and 8,316 rubrics.",
   "venue": "ICML 2025"
+ },
+ {
+  "title": "ResearchCodeAgent: An LLM Multi-Agent System for Automated Codification of Research Methodologies",
+  "date": "2025-04",
+  "url": "https://arxiv.org/abs/2504.20117v2",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "In this paper we introduce ResearchCodeAgent, a novel multi-agent system leveraging large language models (LLMs) agents to automate the codification of research methodologies described in machine learning literature. The system bridges the gap between high-level research concepts and their practical implementation, allowing researchers auto-generating code of existing research papers for benchmarking or building on top-of existing methods specified in the literature with availability of partial or complete starter code. ResearchCodeAgent employs a flexible agent architecture with a comprehensive action suite, enabling context-aware interactions with the research environment. The system incorporates a dynamic planning mechanism, utilizing both short and long-term memory to adapt its approach iteratively. We evaluate ResearchCodeAgent on three distinct machine learning tasks with distinct task complexity and representing different parts of the ML pipeline: data augmentation, optimization, and data batching. Our results demonstrate the system's effectiveness and generalizability, with 46.9% of generated code being high-quality and error-free, and 25% showing performance improvements over baseline implementations. Empirical analysis shows an average reduction of 57.9% in coding time compared to manual implementation. We observe higher gains for more complex tasks. ResearchCodeAgent represents a significant step towards automating the research implementation process, potentially accelerating the pace of machine learning research.",
+  "venue": ""
  },
  {
   "title": "M+: Extending MemoryLLM with Scalable Long-Term Memory",
@@ -17034,6 +18486,18 @@
   "authors": [],
   "abstract": "Autonomous LLM-based agents have emerged as a powerful paradigm for complex task execution, yet the field lacks standardized tools for development, deployment, distribution and discovery of agents. We present Cerebrum, an Agent SDK for AIOS that addresses this gap through three key components: (1) a comprehensive SDK featuring a modular four-layer architecture for agent development, encompassing LLM, memory, storage, and tool management; (2) a community-driven Agent Hub for sharing and discovering agents, complete with version control and dependency management; (3) an interactive web interface for testing and evaluating agents. The platform's effectiveness is demonstrated through implementations of various agent architectures, including Chain of Thought (CoT), ReAct, and tool-use agents. Cerebrum advances the field by providing a unified framework that standardizes agent development while maintaining flexibility for researchers and developers to innovate and distribute their agents. The live website is at https://app.aios.foundation, the code is at https://github.com/agiresearch/Cerebrum, and video is at https://app.aios.foundation/video-demo.",
   "venue": ""
+ },
+ {
+  "title": "Enhancing Network Security in Wireless Sensor Networks through Rsa-Based Secure Memory Management and Optimized Resource Allocation: A Comprehensive Survey",
+  "date": "2025-03",
+  "url": "https://doi.org/10.52783/cana.v32.4555",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "C. Visalatchi"
+  ],
+  "abstract": "To improve the safety of networks in Wireless Sensor Networks (WSNs), this study offers a thorough analysis and presents a unique architecture that combines the best utilization of resources with RSA-based secure control of memory. WSNs are essential for many tasks, including weapons systems and tra",
+  "venue": "Communications on Applied Nonlinear Analysis"
  },
  {
   "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
@@ -17493,6 +18957,413 @@
   "venue": ""
  },
  {
+  "title": "External Memory Matters: Generalizable Object-Action Memory for Retrieval-Augmented Long-Term Video Understanding.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/ijcai/DangZWJWYHLC25",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IJCAI"
+ },
+ {
+  "title": "A digital neuromorphic system for working memory based on spiking neuron-astrocyte network.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/nn/AghazadehSANDAP25",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neural Networks"
+ },
+ {
+  "title": "Phasic attractors for flexible and adaptive working memory in spiking recurrent neural networks.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/neuromorphic/GiraoTBTC25",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neuromorph. Comput. Eng."
+ },
+ {
+  "title": "Enabling Lifelong Learning in AI with Biologically-inspired Neural Networks Based on Short-Term, Working, and Long-Term Memory.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/cogmi/Modasiya25",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "venue": "CogMI"
+ },
+ {
+  "title": "Efficient Allocation of Working Memory Resource for Utility Maximization in Humans and Recurrent Neural Networks.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/nips/YangL25a",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "NeurIPS"
+ },
+ {
+  "title": "Enhancing network security with memory-augmented visual attention networks and predator-prey optimization models.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/irjocs/ManiS25",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Iran J. Comput. Sci."
+ },
+ {
+  "title": "A multi-memory-augmented network with a curvy metric method for video anomaly detection.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/nn/LiWWC25",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neural Networks"
+ },
+ {
+  "title": "A 40nm STT-MRAM Near-Memory Computing Macro for Memory-Augmented Neural Network Acceleration.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/iscas/MengWZMMWX25",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ISCAS"
+ },
+ {
+  "title": "A modular architecture for creating multimodal embodied agents with an episodic Knowledge Graph as an explainable and controllable long-term memory.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/dad/BaierSV25",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Dialogue Discourse"
+ },
+ {
+  "title": "MACMPE: Exploration Framework for Multi-agent Reinforcement Learning via Causal Episodic Memory and Potential Evolution.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/icic/TianWZMC25",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ICIC"
+ },
+ {
+  "title": "AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/ijcai/AnokhinSSEK0B25",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IJCAI"
+ },
+ {
+  "title": "Memory Approaches for LLM-Based Agents: A Comparative Study of in-Context and Episodic Architectures.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/ijcci/SantosVR25",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IJCCI"
+ },
+ {
+  "title": "Supplemental Material for Episodic Memory Contributions to Working Memory\u2013Supported Reinforcement Learning",
+  "date": "2025-01",
+  "url": "https://doi.org/10.1037/xlm0001456.supp",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [],
+  "abstract": "",
+  "venue": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+ },
+ {
+  "title": "Improving UAV accuracy and reducing loss through the use of Legendre polynomials (LPs) and enhanced Prioritized Experience Replay (PER) with Least Recently Used Memory (LRUM).",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/data/12/Abrokwa25a",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE DataPort"
+ },
+ {
+  "title": "Non-Uniform Memory Sampling in Experience Replay.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2502-11305",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/acl/0001YHH0LSCPLI025",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ACL"
+ },
+ {
+  "title": "Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2508-09736",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "RoPIM: A Processing-in-Memory Architecture for Accelerating Rotary Positional Embedding in Transformer Models.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/cal/JeonJLJJLSK25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Comput. Archit. Lett."
+ },
+ {
+  "title": "Predicting rapid impact compaction of soil using a parallel transformer and long short-term memory architecture for sequential soil profile encoding.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/eaai/YouwaiD25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Eng. Appl. Artif. Intell."
+ },
+ {
+  "title": "Hybrid SRAM/ROM Compute-in-Memory Architecture for High Task-Level Energy Efficiency in Transformer Models With 8928-kb/mm\u00b2 Density in 28nm CMOS.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/jssc/YinCLDKTCZYYJLL25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE J. Solid State Circuits"
+ },
+ {
+  "title": "SAL-PIM: A Subarray-Level Processing-in-Memory Architecture With LUT-Based Linear Interpolation for Transformer-Based Text Generation.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/tc/HanCKK25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Computers"
+ },
+ {
+  "title": "SHMT: An SRAM and HBM Hybrid Computing-in-Memory Architecture With Optimized KV Cache for Multimodal Transformer.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/tcasI/FuYFLHZ25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Circuits Syst. I Regul. Pap."
+ },
+ {
+  "title": "DATA: A Memory-Efficient Deformable Transformer Accelerator via Neural Architecture Search.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/tvlsi/ZhaoMW25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Very Large Scale Integr. Syst."
+ },
+ {
+  "title": "A Memory-Efficient Framework for Deformable Transformer with Neural Architecture Search.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/apccas/MaoZGDW25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "APCCAS"
+ },
+ {
+  "title": "ETA: Efficient Transformer Attention Mapping for ReRAM-Based Compute-In-Memory Architectures.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/apccas/RhePJK25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "APCCAS"
+ },
+ {
+  "title": "METAL: A Memory-Efficient Transformer Architecture for Long-Context Inference on FPGA.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/asap/HeLZYWH25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ASAP"
+ },
+ {
+  "title": "DIAS: Distance-based Attention Sparsity for Ultra-Long-Sequence Transformer with Tree-like Processing-in-Memory Architecture.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/dac/ChenCWYWYL25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "DAC"
+ },
+ {
+  "title": "C2OPU: Hybrid Compute-in-Memory and Coarse-Grained Reconfigurable Architecture for Overlay Processing of Transformers.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/fccm/MiaoZWLLH25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "FCCM"
+ },
+ {
+  "title": "Hybrid SLC-MLC RRAM Mixed-Signal Processing-in-Memory Architecture for Transformer Acceleration via Gradient Redistribution.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/conf/isca/SongBXKRK25",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ISCA"
+ },
+ {
+  "title": "Resource-Efficient Transformer Architecture: Optimizing Memory and Execution Time for Real-Time Applications.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2501-00042",
+  "category": "working",
+  "subcategory": "systems",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
   "title": "AI PERSONA: Towards Life-long Personalization of LLMs",
   "date": "2024-12",
   "url": "https://arxiv.org/abs/2412.13103",
@@ -17661,6 +19532,16 @@
   ],
   "abstract": "RE-Bench evaluates frontier AI agents on realistic ML research-engineering environments.",
   "venue": "ICML 2025"
+ },
+ {
+  "title": "Towards Next-Generation Medical Agent: How o1 is Reshaping Decision-Making in Medical Scenarios",
+  "date": "2024-11",
+  "url": "https://arxiv.org/abs/2411.14461v1",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Artificial Intelligence (AI) has become essential in modern healthcare, with large language models (LLMs) offering promising advances in clinical decision-making. Traditional model-based approaches, including those leveraging in-context demonstrations and those with specialized medical fine-tuning, have demonstrated strong performance in medical language processing but struggle with real-time adaptability, multi-step reasoning, and handling complex medical tasks. Agent-based AI systems address these limitations by incorporating reasoning traces, tool selection based on context, knowledge retrieval, and both short- and long-term memory. These additional features enable the medical AI agent to handle complex medical scenarios where decision-making should be built on real-time interaction with the environment. Therefore, unlike conventional model-based approaches that treat medical queries as isolated questions, medical AI agents approach them as complex tasks and behave more like human doctors. In this paper, we study the choice of the backbone LLM for medical AI agents, which is the foundation for the agent's overall reasoning and action generation. In particular, we consider the emergent o1 model and examine its impact on agents' reasoning, tool-use adaptability, and real-time information retrieval across diverse clinical scenarios, including high-stakes settings such as intensive care units (ICUs). Our findings demonstrate o1's ability to enhance diagnostic accuracy and consistency, paving the way for smarter, more responsive AI tools that support better patient outcomes and decision-making efficacy in clinical practice.",
+  "venue": ""
  },
  {
   "title": "Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension",
@@ -18090,6 +19971,26 @@
   ],
   "abstract": "CORE-Bench evaluates computational reproducibility with 270 tasks based on 90 scientific papers.",
   "venue": "TMLR 2024"
+ },
+ {
+  "title": "Beyond Prompts: Dynamic Conversational Benchmarking of Large Language Models",
+  "date": "2024-09",
+  "url": "https://arxiv.org/abs/2409.20222v2",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "We introduce a dynamic benchmarking system for conversational agents that evaluates their performance through a single, simulated, and lengthy user$\\leftrightarrow$agent interaction. The interaction is a conversation between the user and agent, where multiple tasks are introduced and then undertaken concurrently. We context switch regularly to interleave the tasks, which constructs a realistic testing scenario in which we assess the Long-Term Memory, Continual Learning, and Information Integration capabilities of the agents. Results from both proprietary and open-source Large-Language Models show that LLMs in general perform well on single-task interactions, but they struggle on the same tasks when they are interleaved. Notably, short-context LLMs supplemented with an LTM system perform as well as or better than those with larger contexts. Our benchmark suggests that there are other challenges for LLMs responding to more natural interactions that contemporary benchmarks have heretofore not been able to capture.",
+  "venue": ""
+ },
+ {
+  "title": "MSI-Agent: Incorporating Multi-Scale Insight into Embodied Agents for Superior Planning and Decision-Making",
+  "date": "2024-09",
+  "url": "https://arxiv.org/abs/2409.16686v2",
+  "category": "",
+  "subcategory": "",
+  "authors": "",
+  "abstract": "Long-term memory is significant for agents, in which insights play a crucial role. However, the emergence of irrelevant insight and the lack of general insight can greatly undermine the effectiveness of insight. To solve this problem, in this paper, we introduce Multi-Scale Insight Agent (MSI-Agent), an embodied agent designed to improve LLMs' planning and decision-making ability by summarizing and utilizing insight effectively across different scales. MSI achieves this through the experience selector, insight generator, and insight selector. Leveraging a three-part pipeline, MSI can generate task-specific and high-level insight, store it in a database, and then use relevant insight from it to aid in decision-making. Our experiments show that MSI outperforms another insight strategy when planning by GPT3.5. Moreover, We delve into the strategies for selecting seed experience and insight, aiming to provide LLM with more useful and relevant insight for better decision-making. Our observations also indicate that MSI exhibits better robustness when facing domain-shifting scenarios.",
+  "venue": ""
  },
  {
   "title": "HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model",
@@ -18893,6 +20794,116 @@
   "venue": ""
  },
  {
+  "title": "Positive-Unlabeled Learning Using Pairwise Similarity and Parametric Minimum Cuts",
+  "date": "2024-01",
+  "url": "https://doi.org/10.5220/0012948100003838",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Torpong Nitayanont",
+   "Dorit Hochbaum"
+  ],
+  "abstract": "",
+  "venue": "Proceedings of the 16th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management"
+ },
+ {
+  "title": "Trained recurrent neural networks develop phase-locked limit cycles in a working memory task.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/ploscb/PalsMB24",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "PLoS Comput. Biol."
+ },
+ {
+  "title": "Hidden Traveling Waves bind Working Memory Variables in Recurrent Neural Networks.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/conf/icml/KaruvallySS24",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ICML"
+ },
+ {
+  "title": "Geometry of naturalistic object representations in recurrent neural network models of working memory.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/conf/nips/LeiIB24",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "NeurIPS"
+ },
+ {
+  "title": "Uncertainty Quantification in Working Memory via Moment Neural Networks.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2411-14196",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Memory-based soft actor-critic with prioritized experience replay for autonomous navigation.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/journals/isrob/WeiXYRCL24",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Intell. Serv. Robotics"
+ },
+ {
+  "title": "XCS with dynamic sized experience replay for memory constrained applications.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/conf/gecco/SurhonneW0WH24",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "GECCO Companion"
+ },
+ {
+  "title": "MGSER-SAM: Memory-Guided Soft Experience Replay with Sharpness-Aware Optimization for Enhanced Continual Learning.",
+  "date": "2024-01",
+  "url": "https://dblp.org/rec/conf/ijcnn/LiT24b",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IJCNN"
+ },
+ {
   "title": "Empowering Working Memory for Large Language Model Agents",
   "date": "2023-12",
   "url": "https://arxiv.org/abs/2312.17259",
@@ -19620,6 +21631,19 @@
   "venue": ""
  },
  {
+  "title": "Answering Student Queries with a Supervised Memory Conversational Agent",
+  "date": "2023-05",
+  "url": "https://doi.org/10.32473/flairs.36.133195",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "Florian Baud",
+   "Alex Aussem"
+  ],
+  "abstract": "This paper describes a discussion-bot that provides answers to students\u2019 questions about the Data Science master program at the University of Lyon 1. Based on a seq2seq architecture combined with a supervised memory module, the bot identifies the questioner\u2019s interest and encodes relevant informatio",
+  "venue": "The International FLAIRS Conference Proceedings"
+ },
+ {
   "title": "Generative agents: Interactive simulacra of human behavior",
   "date": "2023-04",
   "url": "https://arxiv.org/abs/2304.03442",
@@ -19764,6 +21788,129 @@
   "venue": ""
  },
  {
+  "title": "Generalized Key-Value Memory to Flexibly Adjust Redundancy in Memory-Augmented Networks.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/journals/tnn/KleykoKRSR23",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Neural Networks Learn. Syst."
+ },
+ {
+  "title": "A2P-MANN: Adaptive Attention Inference Hops Pruned Memory-Augmented Neural Networks.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/journals/tnn/AhmadzadehKAP23",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Neural Networks Learn. Syst."
+ },
+ {
+  "title": "Recurrent attention unit: A new gated recurrent unit for long-term memory of important parts in sequential data",
+  "date": "2023-01",
+  "url": "https://doi.org/10.1016/j.neucom.2022.10.050",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "Zhaoyang Niu",
+   "Guoqiang Zhong",
+   "Guohua Yue"
+  ],
+  "abstract": "",
+  "venue": "Neurocomputing"
+ },
+ {
+  "title": "Data-Efficient Reinforcement Learning with Data Augmented Episodic Memory",
+  "date": "2023-01",
+  "url": "https://doi.org/10.1016/j.procs.2023.10.623",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [
+   "William Rusdyputra",
+   "Andry Chowanda"
+  ],
+  "abstract": "",
+  "venue": "Procedia Computer Science"
+ },
+ {
+  "title": "Replay Memory as An Empirical MDP: Combining Conservative Estimation with Experience Replay.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/conf/iclr/ZhangXW00023",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ICLR"
+ },
+ {
+  "title": "Map-based experience replay: a memory-efficient solution to catastrophic forgetting in reinforcement learning.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/journals/finr/HafezIWW23",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Frontiers Neurorobotics"
+ },
+ {
+  "title": "Online continual learning with saliency-guided experience replay using tiny episodic memory.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/journals/mva/SahaR23",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Mach. Vis. Appl."
+ },
+ {
+  "title": "Augmented Memory: Capitalizing on Experience Replay to Accelerate De Novo Molecular Design.",
+  "date": "2023-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2305-16160",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Continuous Policy Multi-Agent Deep Reinforcement Learning with Generalizable Episodic Memory",
+  "date": "2022-11",
+  "url": "https://doi.org/10.1109/cac57257.2022.10055953",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [
+   "Wenjing Ni",
+   "Bo Wang",
+   "Hua Zhong"
+  ],
+  "abstract": "",
+  "venue": "2022 China Automation Congress (CAC)"
+ },
+ {
   "title": "Iterative Vision-and-Language Navigation",
   "date": "2022-10",
   "url": "https://arxiv.org/abs/2210.03087",
@@ -19788,6 +21935,19 @@
   ],
   "abstract": "We investigate the computational power of the deterministic single-agent model where the agent and each node are equipped with a limited amount of persistent memory. Tasks are formalized as decision problems on properties of input graphs, i.e., the task is defined as a subset $\\mathcal{T}$ of all possible input graphs, and the agent must decide if the network belongs to $\\mathcal{T}$ or not. We focus on the class of the decision problems which are solvable in a polynomial number of movements, and polynomial-time local computation. The contribution of this paper is the computational power of the very weak system with one-bit agent memory and $O(1)$-bit storage (i.e. node memory) is equivalent to the one with $O(n)$-bit agent memory and $O(1)$-bit storage. We also show that the one-bit agent memory is crucial to lead this equivalence: There exists a decision task which can be solved by the one-bit memory agent but cannot be solved by the zero-bit memory (i.e., oblivious) agent. Our result is deduced by the algorithm of simulating the $O(n)$-bit memory agent by the one-bit memory agent with polynomial-time overhead, which is developed by two novel technical tools. The first one is a dynamic $s$-$t$ path maintenance mechanism which uses only $O(1)$-bit storage per node. The second one is a new lexicographically-ordered DFS algorithm for the mobile agent system with $O(1)$-bit memory and $O(1)$-bit storage per node. These tools are of independent interest.",
   "venue": ""
+ },
+ {
+  "title": "Memory degradation induced by attention in recurrent neural architectures",
+  "date": "2022-09",
+  "url": "https://doi.org/10.1016/j.neucom.2022.06.056",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "Mykola Harvat",
+   "Jos\u00e9 D. Mart\u00edn-Guerrero"
+  ],
+  "abstract": "",
+  "venue": "Neurocomputing"
  },
  {
   "title": "BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage",
@@ -19842,6 +22002,20 @@
   "venue": ""
  },
  {
+  "title": "A Survey on Memory Subsystems for Deep Neural Network Accelerators",
+  "date": "2022-05",
+  "url": "https://doi.org/10.3390/fi14050146",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Arghavan Asad",
+   "Rupinder Kaur",
+   "Farah Mohammadi"
+  ],
+  "abstract": "From self-driving cars to detecting cancer, the applications of modern artificial intelligence (AI) rely primarily on deep neural networks (DNNs). Given raw sensory data, DNNs are able to extract high-level features after the network has been trained using statistical learning. However, due to the m",
+  "venue": "Future Internet"
+ },
+ {
   "title": "FCMNet: Full Communication Memory Net for Team-Level Cooperation in Multi-Agent Systems",
   "date": "2022-01",
   "url": "https://arxiv.org/abs/2201.11994",
@@ -19853,6 +22027,116 @@
   ],
   "abstract": "Decentralized cooperation in partially-observable multi-agent systems requires effective communications among agents. To support this effort, this work focuses on the class of problems where global communications are available but may be unreliable, thus precluding differentiable communication learning methods. We introduce FCMNet, a reinforcement learning based approach that allows agents to simultaneously learn a) an effective multi-hop communications protocol and b) a common, decentralized policy that enables team-level decision-making. Specifically, our proposed method utilizes the hidden states of multiple directional recurrent neural networks as communication messages among agents. Using a simple multi-hop topology, we endow each agent with the ability to receive information sequentially encoded by every other agent at each time step, leading to improved global cooperation. We demonstrate FCMNet on a challenging set of StarCraft II micromanagement tasks with shared rewards, as well as a collaborative multi-agent pathfinding task with individual rewards. There, our comparison results show that FCMNet outperforms state-of-the-art communication-based reinforcement learning methods in all StarCraft II micromanagement tasks, and value decomposition methods in certain tasks. We further investigate the robustness of FCMNet under realistic communication disturbances, such as random message loss or binarized messages (i.e., non-differentiable communication channels), to showcase FMCNet's potential applicability to robotic tasks under a variety of real-world conditions.",
   "venue": ""
+ },
+ {
+  "title": "Decoding Color Visual Working Memory from EEG Signals Using Graph Convolutional Neural Networks.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/journals/ijns/CheZCSL22",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Int. J. Neural Syst."
+ },
+ {
+  "title": "Compound short- and long-term memory for memory augmented neural networks.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/journals/eaai/BidokhtiG22",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Eng. Appl. Artif. Intell."
+ },
+ {
+  "title": "An In-Memory Computing SRAM Macro for Memory-Augmented Neural Network.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/journals/tcasII/KimLKPJ22",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Circuits Syst. II Express Briefs"
+ },
+ {
+  "title": "Memory-Augmented Generative Adversarial Networks for Anomaly Detection.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/journals/tnn/YangZBD22",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Neural Networks Learn. Syst."
+ },
+ {
+  "title": "Abnormal traffic detection-based on memory augmented generative adversarial IIoT-assisted network.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/journals/winet/WangLRYZ22",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Wirel. Networks"
+ },
+ {
+  "title": "Few-shot graph learning with robust and energy-efficient memory-augmented graph neural network (MAGNN) based on homogeneous computing-in-memory.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/conf/vlsit/ZhangWLXDJWGFDN22",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "VLSI Technology and Circuits"
+ },
+ {
+  "title": "Diverse Memory for Experience Replay in Continual Learning.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/conf/esann/KrutsyloM22",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ESANN"
+ },
+ {
+  "title": "Associative Memory Based Experience Replay for Deep Reinforcement Learning.",
+  "date": "2022-01",
+  "url": "https://dblp.org/rec/conf/iccad/LiKLH22",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ICCAD"
  },
  {
   "title": "Detecting Local Insights from Global Labels: Supervised & Zero-Shot Sequence Labeling via a Convolutional Decomposition",
@@ -19875,6 +22159,19 @@
   "venue": ""
  },
  {
+  "title": "Attention-Based Long Short-Term Memory Recurrent Neural Network for Capacity Degradation of Lithium-Ion Batteries",
+  "date": "2021-10",
+  "url": "https://doi.org/10.3390/batteries7040066",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "Tadele Mamo",
+   "Fu-Kwun Wang"
+  ],
+  "abstract": "Monitoring cycle life can provide a prediction of the remaining battery life. To improve the prediction accuracy of lithium-ion battery capacity degradation, we propose a hybrid long short-term memory recurrent neural network model with an attention mechanism. The hyper-parameters of the proposed mo",
+  "venue": "Batteries"
+ },
+ {
   "title": "Editing Factual Knowledge in Language Models",
   "date": "2021-04",
   "url": "https://arxiv.org/abs/2104.08164",
@@ -19887,6 +22184,142 @@
   ],
   "abstract": "The factual knowledge acquired during pre-training and stored in the parameters of Language Models (LMs) can be useful in downstream tasks (e.g., question answering or textual inference). However, some facts can be incorrectly induced or become obsolete over time. We present KnowledgeEditor, a method which can be used to edit this knowledge and, thus, fix 'bugs' or unexpected predictions without the need for expensive re-training or fine-tuning. Besides being computationally efficient, KnowledgeEditordoes not require any modifications in LM pre-training (e.g., the use of meta-learning). In our approach, we train a hyper-network with constrained optimization to modify a fact without affecting the rest of the knowledge; the trained hyper-network is then used to predict the weight update at test time. We show KnowledgeEditor's efficacy with two popular architectures and knowledge-intensive tasks: i) a BERT model fine-tuned for fact-checking, and ii) a sequence-to-sequence BART model for question answering. With our method, changing a prediction on the specific wording of a query tends to result in a consistent change in predictions also for its paraphrases. We show that this can be further encouraged by exploiting (e.g., automatically-generated) paraphrases during training. Interestingly, our hyper-network can be regarded as a 'probe' revealing which components need to be changed to manipulate factual knowledge; our analysis shows that the updates tend to be concentrated on a small subset of components. Source code available at https://github.com/nicola-decao/KnowledgeEditor",
   "venue": "EMNLP2021 Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing. Code at https"
+ },
+ {
+  "title": "Learning the Synaptic and Intrinsic Membrane Dynamics Underlying Working Memory in Spiking Neural Network Models.",
+  "date": "2021-01",
+  "url": "https://dblp.org/rec/journals/neco/LiKS21",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neural Comput."
+ },
+ {
+  "title": "Echo Memory-Augmented Network for time series classification.",
+  "date": "2021-01",
+  "url": "https://dblp.org/rec/journals/nn/MaZZCWW21",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neural Networks"
+ },
+ {
+  "title": "BATMANN: A Binarized-All-Through Memory-Augmented Neural Network for Efficient In-Memory Computing.",
+  "date": "2021-01",
+  "url": "https://dblp.org/rec/conf/asicon/RenLRLTWLW21",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ASICON"
+ },
+ {
+  "title": "Augmenting Machine Learning with Flexible Episodic Memory",
+  "date": "2021-01",
+  "url": "https://doi.org/10.5220/0010674600003063",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [
+   "Hugo Chateau-Laurent",
+   "Fr\u00e9d\u00e9ric Alexandre"
+  ],
+  "abstract": "",
+  "venue": "Proceedings of the 13th International Joint Conference on Computational Intelligence"
+ },
+ {
+  "title": "Memory State Tracker: A Memory Network based Dialogue State Tracker",
+  "date": "2021-01",
+  "url": "https://doi.org/10.5220/0010385705330538",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Di Wang",
+   "Simon O\u2019Keefe"
+  ],
+  "abstract": "",
+  "venue": "Proceedings of the 13th International Conference on Agents and Artificial Intelligence"
+ },
+ {
+  "title": "Cognitive Neuroscience of Visual Working Memory",
+  "date": "2020-11",
+  "url": "https://doi.org/10.1093/oso/9780198842286.003.0012",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [
+   "Bradley R. Postle"
+  ],
+  "abstract": "This chapter takes the perspective that \u2018working memory\u2019 refers to a class of behaviours that can be accomplished by the coordinated recruitment of sensory-, representational-, action-, and control-related mechanisms and representations. There is no working memory system, per se. This idea is illust",
+  "venue": "Working Memory"
+ },
+ {
+  "title": "Manifold Visual Working Memory",
+  "date": "2020-11",
+  "url": "https://doi.org/10.1093/oso/9780198842286.003.0011",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [
+   "Nicole Hakim",
+   "Edward Awh",
+   "Edward K. Vogel"
+  ],
+  "abstract": "Visual working memory allows us to maintain information in mind for use in ongoing cognition. Research on visual working memory often characterizes it within the context of its interaction with long-term memory (LTM). These embedded-processes models describe memory representations as existing in thr",
+  "venue": "Working Memory"
+ },
+ {
+  "title": "Efficient Exploration by Decision Making Considering Curiosity and Episodic Memory in Deep Reinforcement Learning",
+  "date": "2020-11",
+  "url": "https://doi.org/10.1109/candarw51189.2020.00095",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [
+   "Daiki Kuyoshi",
+   "Kuniyasu Imade",
+   "Satoshi Yamane"
+  ],
+  "abstract": "",
+  "venue": "2020 Eighth International Symposium on Computing and Networking Workshops (CANDARW)"
+ },
+ {
+  "title": "Rainbow with Episodic Memory in Deep Reinforcement Learning",
+  "date": "2020-10",
+  "url": "https://doi.org/10.1109/gcce50665.2020.9291872",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [
+   "Daiki Kuyoshi",
+   "Toi Tsuneda",
+   "Satoshi Yamane"
+  ],
+  "abstract": "",
+  "venue": "2020 IEEE 9th Global Conference on Consumer Electronics (GCCE)"
+ },
+ {
+  "title": "Psychometric validation of the survey of autobiographical memory: confirmatory factor analysis and network analysis",
+  "date": "2020-09",
+  "url": "https://doi.org/10.1080/09658211.2020.1812662",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Soledad Picco",
+   "Maria E. Pedreira",
+   "Rodrigo S. Fern\u00e1ndez"
+  ],
+  "abstract": "",
+  "venue": "Memory"
  },
  {
   "title": "A Proposal for Intelligent Agents with Episodic Memory",
@@ -19915,6 +22348,209 @@
   "authors": [],
   "abstract": "",
   "venue": ""
+ },
+ {
+  "title": "Recurrent Neural Networks With External Addressable Long-Term and Working Memory for Learning Long-Term Dependences.",
+  "date": "2020-01",
+  "url": "https://dblp.org/rec/journals/tnn/QuanZLLYY20",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Neural Networks Learn. Syst."
+ },
+ {
+  "title": "A robust deep neural network for denoising task-based fMRI data: An application to working memory and episodic memory.",
+  "date": "2020-01",
+  "url": "https://dblp.org/rec/journals/mia/YangZSMCC20",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Medical Image Anal."
+ },
+ {
+  "title": "Memory Augmented Deep Recurrent Neural Network for Video Question Answering.",
+  "date": "2020-01",
+  "url": "https://dblp.org/rec/journals/tnn/YinTXW20",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IEEE Trans. Neural Networks Learn. Syst."
+ },
+ {
+  "title": "RAMANN: in-SRAM differentiable memory computations for memory-augmented neural networks.",
+  "date": "2020-01",
+  "url": "https://dblp.org/rec/conf/islped/AliA020",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ISLPED"
+ },
+ {
+  "title": "Bootstrapping a DQN Replay Memory with Synthetic Experiences.",
+  "date": "2020-01",
+  "url": "https://dblp.org/rec/conf/ijcci/PilchauSH20",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "IJCCI"
+ },
+ {
+  "title": "Cognitive Perspectives of Working Memory Training",
+  "date": "2019-12",
+  "url": "https://doi.org/10.1093/oso/9780199974467.003.0001",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [
+   "Kenny Hicks",
+   "Randall W. Engle"
+  ],
+  "abstract": "Working memory training is an emergent field aimed at improving general cognitive abilities through targeted brain exercises. The prospect of improving cognitive abilities, such as attention control, comprehension, and reasoning, has piqued the interest of the scientific community and the general pu",
+  "venue": "Cognitive and Working Memory Training"
+ },
+ {
+  "title": "Controlling Attention in a Memory-Augmented Neural Network To Solve Working Memory Tasks.",
+  "date": "2019-01",
+  "url": "https://dblp.org/rec/conf/cogsci/JayramBKMAO19",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CogSci"
+ },
+ {
+  "title": "Neuroevolution of a Modular Memory-Augmented Neural Network for Deep Memory Problems.",
+  "date": "2019-01",
+  "url": "https://dblp.org/rec/journals/ec/KhadkaCT19",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Evol. Comput."
+ },
+ {
+  "title": "Concept learning through deep reinforcement learning with memory-augmented neural networks.",
+  "date": "2019-01",
+  "url": "https://dblp.org/rec/journals/nn/ShiXYX19",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neural Networks"
+ },
+ {
+  "title": "Memory Reduction through Experience Classification f or Deep Reinforcement Learning with Prioritized Experience Replay.",
+  "date": "2019-01",
+  "url": "https://dblp.org/rec/conf/sips/ShenT19",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "SiPS"
+ },
+ {
+  "title": "Memory Efficient Experience Replay for Streaming Learning.",
+  "date": "2019-01",
+  "url": "https://dblp.org/rec/conf/icra/HayesCK19",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ICRA"
+ },
+ {
+  "title": "Parallelized Synchronous Multi-agent Deep Reinforcement Learning with Experience Replay Memory.",
+  "date": "2019-01",
+  "url": "https://dblp.org/rec/conf/sose/GongDXWZF19",
+  "category": "experiential",
+  "subcategory": "mechanism",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "SOSE"
+ },
+ {
+  "title": "Modelling Attitudes of a Conversational Agent",
+  "date": "2019-01",
+  "url": "https://doi.org/10.5220/0008067102250232",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "Mare Koit"
+  ],
+  "abstract": "",
+  "venue": "Proceedings of the 11th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management"
+ },
+ {
+  "title": "Unsupervised Multi-Object Detection for Video Surveillance Using Memory-Based Recurrent Attention Networks",
+  "date": "2018-09",
+  "url": "https://doi.org/10.3390/sym10090375",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "Zhen He",
+   "Hangen He"
+  ],
+  "abstract": "Nowadays, video surveillance has become ubiquitous with the quick development of artificial intelligence. Multi-object detection (MOD) is a key step in video surveillance and has been widely studied for a long time. The majority of existing MOD algorithms follow the \u201cdivide and conquer\u201d pipeline and",
+  "venue": "Symmetry"
+ },
+ {
+  "title": "Uncertain Knowledge in the Survey",
+  "date": "2018-08",
+  "url": "https://doi.org/10.4324/9780429439230-8",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Javed Majeed"
+  ],
+  "abstract": "",
+  "venue": "Colonialism and Knowledge in Grierson\u2019s Linguistic Survey of India"
  },
  {
   "title": "Unsupervised Predictive Memory in a Goal-Directed Agent",
@@ -19952,6 +22588,80 @@
   "venue": ""
  },
  {
+  "title": "A Theory of Sequence Indexing and Working Memory in Recurrent Neural Networks.",
+  "date": "2018-01",
+  "url": "https://dblp.org/rec/journals/neco/FradyKS18",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neural Comput."
+ },
+ {
+  "title": "Working Memory and Attention",
+  "date": "2018-01",
+  "url": "https://doi.org/10.1093/oso/9780198757405.003.0010",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "Jonardon Ganeri"
+  ],
+  "abstract": "Increasingly it is recognized that selection is not the only function of attention; rather, \u2018attention gates what comes to be encoded into short-term memory, helps maintain information in short-term memory, and dynamically modulates the information being maintained\u2019 (Nobre and Kastner 2014: 1215; my",
+  "venue": "Oxford Scholarship Online"
+ },
+ {
+  "title": "Recurrent Attention Network on Memory for Aspect Sentiment Analysis",
+  "date": "2017-01",
+  "url": "https://doi.org/10.18653/v1/d17-1047",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "Peng Chen",
+   "Zhongqian Sun",
+   "Lidong Bing"
+  ],
+  "abstract": "",
+  "venue": "Proceedings of the 2017 Conference on Empirical Methods in Natural\n          Language Processing"
+ },
+ {
+  "title": "A Survey of Prevention/Mitigation against Memory Corruption Attacks",
+  "date": "2016-09",
+  "url": "https://doi.org/10.1109/nbis.2016.11",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Takamichi Saito",
+   "Ryohei Watanabe",
+   "Shuta Kondo"
+  ],
+  "abstract": "",
+  "venue": "2016 19th International Conference on Network-Based Information Systems (NBiS)"
+ },
+ {
+  "title": "Diagnosing Working Memory",
+  "date": "2015-01",
+  "url": "https://doi.org/10.4135/9781036235390.n2",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [],
+  "abstract": "",
+  "venue": "Understanding Working Memory"
+ },
+ {
+  "title": "Working Memory that Mediates Experts\u2019 Performance: Why it is Qualitatively Different from Traditional Working Memory",
+  "date": "2013-10",
+  "url": "https://doi.org/10.4324/9780203094600-14",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [],
+  "abstract": "",
+  "venue": "Working Memory"
+ },
+ {
   "title": "ELLA: An Efficient Lifelong Learning Algorithm",
   "date": "2013-02",
   "url": "https://proceedings.mlr.press/v28/ruvolo13.html",
@@ -19960,6 +22670,59 @@
   "authors": [],
   "abstract": "",
   "venue": ""
+ },
+ {
+  "title": "Economics Network Students Survey 2012",
+  "date": "2012-07",
+  "url": "https://doi.org/10.53593/n3489a",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   ""
+  ],
+  "abstract": "",
+  "venue": ""
+ },
+ {
+  "title": "A neural model of sequential movement planning and control of eye movements: Item-Order-Rank working memory and saccade selection by the supplementary eye fields.",
+  "date": "2012-01",
+  "url": "https://dblp.org/rec/journals/nn/SilverGBHM12",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neural Networks"
+ },
+ {
+  "title": "Modeling neuropathologies as disruption of normal sequence generation in working memory networks.",
+  "date": "2012-01",
+  "url": "https://dblp.org/rec/journals/nn/Verduzco-FloresEB12",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neural Networks"
+ },
+ {
+  "title": "Knowledge affords distinctive processing in memory",
+  "date": "2011-11",
+  "url": "https://doi.org/10.1016/j.jml.2011.07.001",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "R. Reed Hunt",
+   "Katherine A. Rawson"
+  ],
+  "abstract": "",
+  "venue": "Journal of Memory and Language"
  },
  {
   "title": "Agent based reasoning for the non-linear stochastic models of long-range memory",
@@ -19973,5 +22736,470 @@
   ],
   "abstract": "We extend Kirman's model by introducing variable event time scale. The proposed flexible time scale is equivalent to the variable trading activity observed in financial markets. Stochastic version of the extended Kirman's agent based model is compared to the non-linear stochastic models of long-range memory in financial markets. Agent based model providing matching macroscopic description serves as a microscopic reasoning of the earlier proposed stochastic model exhibiting power law statistics.",
   "venue": "https://doi.org/10.1016/j.physa.2011.08.061"
+ },
+ {
+  "title": "A survey of memory error correcting techniques for improved reliability",
+  "date": "2011-03",
+  "url": "https://doi.org/10.1016/j.jnca.2010.11.006",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Altaf Mukati"
+  ],
+  "abstract": "",
+  "venue": "Journal of Network and Computer Applications"
+ },
+ {
+  "title": "A proposed mechanism to memory simulation within a Semantic-Based Conversational Agent framework",
+  "date": "2010-10",
+  "url": "https://doi.org/10.1109/icsmc.2010.5641709",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "Kare O'Shea",
+   "Keeley Crockett",
+   "Zuhair Bandar"
+  ],
+  "abstract": "",
+  "venue": "2010 IEEE International Conference on Systems, Man and Cybernetics"
+ },
+ {
+  "title": "An attention-gating recurrent working memory architecture for emergent speech representation",
+  "date": "2010-06",
+  "url": "https://doi.org/10.1080/09540090903431673",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "Mark Elshaw",
+   "Roger K. Moore",
+   "Michael Klein"
+  ],
+  "abstract": "",
+  "venue": "Connection Science"
+ },
+ {
+  "title": "CHANGING TOPICS OF DIALOGUE FOR NATURAL MIXED-INITIATIVE INTERACTION OF CONVERSATIONAL AGENT BASED ON HUMAN COGNITION AND MEMORY",
+  "date": "2010-01",
+  "url": "https://doi.org/10.5220/0002733501070112",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [],
+  "abstract": "",
+  "venue": "Proceedings of the 2nd International Conference on Agents and Artificial Intelligence"
+ },
+ {
+  "title": "How does knowledge promote memory? The distinctiveness theory of skilled memory\u2606",
+  "date": "2008-04",
+  "url": "https://doi.org/10.1016/j.jml.2007.08.004",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "Katherine A. Rawson",
+   "James P. Van Overschelde"
+  ],
+  "abstract": "",
+  "venue": "Journal of Memory and Language"
+ },
+ {
+  "title": "Episodic Memory for Human-like Agents and Human-like Agents for Episodic Memory.",
+  "date": "2008-01",
+  "url": "https://dblp.org/rec/conf/aaaifs/BromL08",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "AAAI Fall Symposium - Biologically Inspired Cognitive Architectures"
+ },
+ {
+  "title": "Chapter 1: Memory and language: Introduction",
+  "date": "2006-12",
+  "url": "https://doi.org/10.1515/9783110895087.1",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "Hanna Pishwa"
+  ],
+  "abstract": "",
+  "venue": "Language and Memory"
+ },
+ {
+  "title": "Chapter 14: Nonliteral language, persuasion, and memory",
+  "date": "2006-12",
+  "url": "https://doi.org/10.1515/9783110895087.425",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "Roger J. Kreuz",
+   "Aaron Ashley"
+  ],
+  "abstract": "",
+  "venue": "Language and Memory"
+ },
+ {
+  "title": "Language and knowledge",
+  "date": "2005-08",
+  "url": "https://doi.org/10.4324/9780203978733-10",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [],
+  "abstract": "",
+  "venue": "Memory, Thinking and Language"
+ },
+ {
+  "title": "\u201cKnow thyself!\u201d The role of idiosyncratic self-knowledge in recognition memory",
+  "date": "2005-05",
+  "url": "https://doi.org/10.1016/j.jml.2005.02.005",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "Fritz Strack",
+   "Jens F\u00f6rster",
+   "Lioba Werth"
+  ],
+  "abstract": "",
+  "venue": "Journal of Memory and Language"
+ },
+ {
+  "title": "CUMULATIVE ESTIMATION IN SEMI-PARAMETRIC MODELS (NON-PARAMETRIC ESTIMATOR BASE FOR A GENERAL WEIGHT FUNCTION)",
+  "date": "2005-04",
+  "url": "https://doi.org/10.1179/sre.2005.38.296.158",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Hongchang HU",
+   "Haiyan SUN"
+  ],
+  "abstract": "",
+  "venue": "Survey Review"
+ },
+ {
+  "title": "Modified sparse distributed memory as transient episodic memory for cognitive software agents.",
+  "date": "2004-01",
+  "url": "https://dblp.org/rec/conf/smc/RamamurthyDF04",
+  "category": "experiential",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "SMC"
+ },
+ {
+  "title": "The effect of general knowledge on source memory and decision processes",
+  "date": "2003-04",
+  "url": "https://doi.org/10.1016/s0749-596x(02)00537-5",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "J Hicks"
+  ],
+  "abstract": "",
+  "venue": "Journal of Memory and Language"
+ },
+ {
+  "title": "Neural working memory",
+  "date": "2002-06",
+  "url": "https://doi.org/10.4324/9780203194157-16",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [],
+  "abstract": "",
+  "venue": "Working Memory in Perspective"
+ },
+ {
+  "title": "Emotion and Personality in a Conversational Agent",
+  "date": "2000-03",
+  "url": "https://doi.org/10.7551/mitpress/2697.003.0009",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "Gene Ball",
+   "Jack Breese"
+  ],
+  "abstract": "",
+  "venue": "Embodied Conversational Agents"
+ },
+ {
+  "title": "Imaging and neural modelling in episodic and working memory processes.",
+  "date": "2000-01",
+  "url": "https://dblp.org/rec/journals/nn/KrauseTSHMM00",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neural Networks"
+ },
+ {
+  "title": "A neural model of working memory processes in normal subjects, Parkinson&apos;s disease and schizophrenia for fMRI design and predictions.",
+  "date": "2000-01",
+  "url": "https://dblp.org/rec/journals/nn/MonchiTD00",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Neural Networks"
+ },
+ {
+  "title": "Attention and long-term memory",
+  "date": "1998-02",
+  "url": "https://doi.org/10.1093/acprof:oso/9780195119107.003.0006",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "Nelson Cowan"
+  ],
+  "abstract": "",
+  "venue": "Attention and Memory"
+ },
+ {
+  "title": "Introduction: modeling memory and attention",
+  "date": "1998-02",
+  "url": "https://doi.org/10.1093/acprof:oso/9780195119107.003.0001",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "Nelson Cowan"
+  ],
+  "abstract": "",
+  "venue": "Attention and Memory"
+ },
+ {
+  "title": "Children\u2032s Phonological Working Memory: Contributions of Long-Term Knowledge and Rehearsal",
+  "date": "1994-10",
+  "url": "https://doi.org/10.1006/jmla.1994.1032",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "S.E. Gathercole",
+   "A.M. Adams"
+  ],
+  "abstract": "",
+  "venue": "Journal of Memory and Language"
+ },
+ {
+  "title": "Episodic memory and knowledge interactions across adulthood",
+  "date": "1988-11",
+  "url": "https://doi.org/10.1017/cbo9780511575020.012",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "Gary Gillund",
+   "Marion Perlmutter"
+  ],
+  "abstract": "",
+  "venue": "Language, Memory, and Aging"
+ },
+ {
+  "title": "Domain knowledge and linguistic knowledge in the development of writing ability",
+  "date": "1986-08",
+  "url": "https://doi.org/10.1016/0749-596x(86)90036-7",
+  "category": "factual",
+  "subcategory": "method",
+  "authors": [
+   "Deborah McCutchen"
+  ],
+  "abstract": "",
+  "venue": "Journal of Memory and Language"
+ },
+ {
+  "title": "Linear parametric programming\u2014A brief survey",
+  "date": "1984-01",
+  "url": "https://doi.org/10.1007/bfb0121210",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "T. Gal"
+  ],
+  "abstract": "",
+  "venue": "Mathematical Programming Studies"
+ },
+ {
+  "title": "SURVEY OF EXPERIMENTS ON PARAMETRIC INSTABILITIES AND ANOMALOUS ABSORPTION.",
+  "date": "1972-01",
+  "url": "https://doi.org/10.2172/4547745",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "M. Porkolab"
+  ],
+  "abstract": "",
+  "venue": ""
+ },
+ {
+  "title": "ON THE DIFFERENTIAL DIAGNOSIS BETWEEN PARAMETRIC INFLAMMATION OF IRRADIATION FIBROSIS AND PARAMETRIC REACTIVATION FOLLOWING CARCINOMA OF THE CERVIX UTERI WITH THE AID OF GLUCOCORTICOIDS",
+  "date": "1961-04",
+  "url": "https://doi.org/10.1097/00006254-196104000-00038",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "J. WENNEMANN",
+   "K. A. H\u00dcTER"
+  ],
+  "abstract": "",
+  "venue": "Obstetrical &amp; Gynecological Survey"
+ },
+ {
+  "title": "Parametric models for response errors in survey sampling",
+  "date": "",
+  "url": "https://doi.org/10.31274/rtd-180815-647",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "George Edward Battese"
+  ],
+  "abstract": "",
+  "venue": ""
+ },
+ {
+  "title": "Knowledge-based parametric design of high-precision automotive fuse box",
+  "date": "",
+  "url": "https://doi.org/10.14711/thesis-b1255614",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Yaojin Huang"
+  ],
+  "abstract": "",
+  "venue": ""
+ },
+ {
+  "title": "Survey Knowledge",
+  "date": "",
+  "url": "https://doi.org/10.1007/springerreference_63019",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [],
+  "abstract": "",
+  "venue": "SpringerReference"
+ },
+ {
+  "title": "Are working memory models WEIRD? Testing models of working memory in a non-WEIRD sample.",
+  "date": "",
+  "url": "https://doi.org/10.37473/fic/10.1037/neu0000811",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [],
+  "abstract": "",
+  "venue": ""
+ },
+ {
+  "title": "Learning from Memory: Asset Pricing Via Recurrent Neural Network and Attention Mechanism",
+  "date": "",
+  "url": "https://doi.org/10.2139/ssrn.4999011",
+  "category": "working",
+  "subcategory": "method",
+  "authors": [
+   "XI ZHOU",
+   "Yilun Wang"
+  ],
+  "abstract": "",
+  "venue": ""
+ },
+ {
+  "title": "Episodic memory contributions to working memory-supported reinforcement learning",
+  "date": "",
+  "url": "https://doi.org/10.31234/osf.io/64hxe",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [
+   "Soobin H. Hong",
+   "Amy R. Zou",
+   "Aspen H. Yoo"
+  ],
+  "abstract": "Reinforcement learning (RL) frameworks have been extremely successful at capturing how biological agents learn to make rewarding choices. However, there is also increasing evidence that multiple cognitive processes, including working memory (WM) and episodic memory (EM), support such learning in par",
+  "venue": ""
+ },
+ {
+  "title": "Two routes to value-based decisions in Parkinson\u2019s disease: differentiating incremental reinforcement learning from episodic memory",
+  "date": "",
+  "url": "https://doi.org/10.1101/2024.05.03.592414",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [
+   "Leila Montaser-Kouhsari",
+   "Jonathan Nicholas",
+   "Raphael T. Gerraty"
+  ],
+  "abstract": "Abstract\n                Patients with Parkinson\u2019s disease are impaired at incremental reward-based learning. It is typically assumed that this impairment reflects a loss of striatal dopamine. However, many open questions remain about the nature of reward-based learning deficits in Parkinson\u2019s. Rece",
+  "venue": ""
+ },
+ {
+  "title": "Deep learning neural machine translation conversational agent",
+  "date": "",
+  "url": "https://doi.org/10.31979/etd.rwkp-9vpa",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "Abhishek Vaid"
+  ],
+  "abstract": "",
+  "venue": ""
+ },
+ {
+  "title": "Context aware conversational agent for flight search",
+  "date": "",
+  "url": "https://doi.org/10.17760/d20253512",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "Hridya Ramesh"
+  ],
+  "abstract": "",
+  "venue": ""
+ },
+ {
+  "title": "Memory efficient BFGS neural-network learning algorithms using MLP-network: a survey",
+  "date": "",
+  "url": "https://doi.org/10.1109/cca.2004.1387275",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "V.S. Asirvadam",
+   "S.F. McLoone",
+   "G.W. Irwin"
+  ],
+  "abstract": "",
+  "venue": "Proceedings of the 2004 IEEE International Conference on Control Applications, 2004."
+ },
+ {
+  "title": "A Survey and Tutorial on AI-Native Network Operating Systems for 6G Communication Networks: Architectures, Control Loops, Memory, and Governed Autonomy",
+  "date": "",
+  "url": "https://doi.org/10.2139/ssrn.7174399",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Onur Sahin",
+   "Vanlin Sathya",
+   "Lyutianyang Zhang"
+  ],
+  "abstract": "6G communication networks will require coordinated control of radio access, core functions, transport paths, network slices, mobility procedures, service chains, edge workloads, telemetry pipelines, and security functions across heterogeneous programmable domains. The central problem is therefore no",
+  "venue": ""
+ },
+ {
+  "title": "Patient attitude towards lecanemab: results from a survey within the European Alzheimer\u2019s disease consortium (EADC), the German memory clinic network (DNG) and Austrian memory centers",
+  "date": "",
+  "url": "https://doi.org/10.1101/2025.06.16.25329507",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "Jonathan V\u00f6glein",
+   "Johannes Levin",
+   "Elisabeth St\u00f6gmann"
+  ],
+  "abstract": "Abstract\n                \n                  INTRODUCTION\n                  Lecanemab approval was long pending in the EU but has now been granted. European patient attitudes towards anti-amyloid therapies are insufficiently assessed and reported.\n                \n                \n                  M",
+  "venue": ""
  }
 ]
