@@ -115,6 +115,9 @@ def main():
     parser.add_argument(
         "--create-pr", action="store_true", help="Create a GitHub PR with new papers"
     )
+    parser.add_argument(
+        "--local", action="store_true", help="Append discovered papers locally (no GitHub)"
+    )
     args = parser.parse_args()
 
     yaml_path = Path(__file__).resolve().parent.parent.parent / "papers.yaml"
@@ -163,6 +166,39 @@ def main():
 
     if args.dry_run:
         print("\nDry run complete — no files modified", flush=True)
+        return
+
+    if args.local:
+        print(f"\nAppending {len(all_new)} new papers to papers.yaml locally...", flush=True)
+        try:
+            with open(yaml_path, "r") as f:
+                data = yaml.safe_load(f) or {}
+            papers = data.get("papers", [])
+            before = len(papers)
+            for entry in all_new:
+                papers.append(
+                    {
+                        "title": entry.get("title", ""),
+                        "date": entry.get("date", ""),
+                        "url": entry.get("url", ""),
+                        "category": "",
+                        "subcategory": "",
+                        "abstract": entry.get("abstract", ""),
+                    }
+                )
+            data["papers"] = papers
+            with open(yaml_path, "w") as f:
+                yaml.dump(
+                    data,
+                    f,
+                    default_flow_style=False,
+                    allow_unicode=True,
+                    sort_keys=False,
+                )
+            print(f"Saved {len(papers) - before} new papers to papers.yaml", flush=True)
+        except Exception as e:
+            print(f"ERROR: local write failed: {e}", flush=True)
+            sys.exit(1)
         return
 
     if args.create_pr:

@@ -1,0 +1,74 @@
+# Multi-source queries for agent memory research
+# Focus: memory architectures, episodic/factual/experiential memory in AI systems
+
+# ── Factual/knowledge memory ──
+- source: dblp
+  query: knowledge graph memory agent
+  category: factual
+  subcategory_hint: development
+- source: crossref
+  query: knowledge memory language model
+  category: factual
+  subcategory_hint: method
+- source: dblp
+  query: retrieval augmented memory
+  category: factual
+  subcategory_hint: method
+- source: crossref
+  query: parametric knowledge survey
+  category: factual
+  subcategory_hint: review
+
+# ── Working memory in AI ──
+- source: dblp
+  query: working memory neural network
+  category: working
+  subcategory_hint: method
+- source: crossref
+  query: transformer working memory
+  category: working
+  subcategory_hint: mechanism
+- source: dblp
+  query: memory augmented network
+  category: working
+  subcategory_hint: development
+- source: crossref
+  query: recurrent memory attention
+  category: working
+  subcategory_hint: method
+
+# ── Experiential/episodic memory ──
+- source: dblp
+  query: episodic memory agent
+  category: experiential
+  subcategory_hint: method
+- source: crossref
+  query: episodic memory reinforcement learning
+  category: experiential
+  subcategory_hint: application
+- source: dblp
+  query: experience replay memory
+  category: experiential
+  subcategory_hint: mechanism
+- source: europepmc
+  query: episodic memory cognitive neuroscience
+  category: experiential
+  subcategory_hint: theory
+
+# ── General agent memory ──
+- source: dblp
+  query: long-term memory agent
+  category: factual
+  subcategory_hint: development
+- source: crossref
+  query: conversational memory agent
+  category: working
+  subcategory_hint: development
+- source: dblp
+  query: memory transformer architecture
+  category: working
+  subcategory_hint: systems
+- source: crossref
+  query: memory network survey
+  category: factual
+  subcategory_hint: review

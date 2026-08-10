@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-08-07  
-**Corpus:** 1,239 papers across 3 categories
+**Generated:** 2026-08-10  
+**Corpus:** 1,493 papers across 4 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,12 +11,13 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Factual | 620 |
-| 2 | Working | 365 |
-| 3 | Experiential | 254 |
+| 1 | Factual | 686 |
+| 2 | Working | 448 |
+| 3 | Experiential | 308 |
+| 4 |  | 51 |
 
-**Time span:** 2011–2026 (median year 2022)
-**Dominant aspects:** Token Level (1086), Latent (106), Parametric (47)
+**Time span:** 1961–2027 (median year 2011)
+**Dominant aspects:** Token Level (1086), Latent (106), Method (76)
 
 ---
 
@@ -50,19 +51,19 @@
 
 ### Factual (`factual`)
 
-**Corpus size:** 620 papers
+**Corpus size:** 686 papers
 
 **Recent papers:**
 
+- [2027-01] MultiSent-RAG: A retrieval and memory-augmented system for multilingual sentiment processing. — https://dblp.org/rec/journals/ipm/MnassriFC27
 - [2026-07] CMI-Mem: Toward Generalizable Long-Term Memory Management via CMI-Augmented Reinforcement Learn — https://arxiv.org/abs/2607.20553
 - [2026-07] When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents — https://arxiv.org/abs/2607.06595
-- [2026-07] Learning User-Aware Recall: Personalized Retrieval in Long-Term Conversational Memory — https://arxiv.org/abs/2607.00017
 
 ---
 
 ### Working (`working`)
 
-**Corpus size:** 365 papers
+**Corpus size:** 448 papers
 
 **Recent papers:**
 
@@ -74,13 +75,25 @@
 
 ### Experiential (`experiential`)
 
-**Corpus size:** 254 papers
+**Corpus size:** 308 papers
 
 **Recent papers:**
 
 - [2026-07] From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents — https://arxiv.org/abs/2607.16621
 - [2026-07] Experience Memory Graph: One-Shot Error Correction for Agents — https://arxiv.org/abs/2607.13884
 - [2026-07] MemoHarness: Agent Harnesses That Learn from Experience — https://arxiv.org/abs/2607.14159
+
+---
+
+###  (``)
+
+**Corpus size:** 51 papers
+
+**Recent papers:**
+
+- [2026-08] When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalize — https://arxiv.org/abs/2608.01619v1
+- [2026-08] TrajWiki: Source-Grounded Memory Trajectories for Long-Horizon Dialogue Agents — https://arxiv.org/abs/2608.00967v1
+- [2026-08] MutMem: Cryptographically Authorized Mutation in Persistent Agent Memory — https://arxiv.org/abs/2608.02843v1
 
 ---
 
