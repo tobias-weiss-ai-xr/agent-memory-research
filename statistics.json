@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_papers": 1508,
+    "total_papers": 3089,
     "generated_date": "2027-01",
     "taxonomy": {
       "categories": 4,
@@ -15,23 +15,23 @@
     }
   },
   "by_category": {
-    "": 66,
-    "experiential": 308,
-    "factual": 686,
-    "working": 448
+    "": 68,
+    "experiential": 802,
+    "factual": 1604,
+    "working": 615
   },
   "by_subcategory": {
-    "": 66,
+    "": 68,
     "application": 10,
     "development": 46,
-    "latent": 106,
+    "latent": 131,
     "mechanism": 24,
     "method": 76,
-    "parametric": 47,
+    "parametric": 153,
     "review": 19,
     "systems": 18,
     "theory": 10,
-    "token-level": 1086
+    "token-level": 2534
   },
   "by_year": {
     "1961": 1,
@@ -59,128 +59,128 @@
     "2019": 8,
     "2020": 12,
     "2021": 9,
-    "2022": 17,
-    "2023": 67,
-    "2024": 106,
-    "2025": 351,
-    "2026": 885,
+    "2022": 36,
+    "2023": 133,
+    "2024": 302,
+    "2025": 855,
+    "2026": 1681,
     "2027": 1
   },
   "by_cell": {
-    "factual/token-level": 563,
-    "working/token-level": 299,
-    "experiential/token-level": 224,
-    "/": 66,
-    "working/latent": 55,
-    "factual/latent": 34,
+    "factual/token-level": 1411,
+    "experiential/token-level": 668,
+    "working/token-level": 455,
+    "factual/parametric": 79,
+    "/": 68,
+    "working/latent": 57,
+    "experiential/parametric": 54,
+    "factual/latent": 48,
     "factual/method": 29,
     "working/method": 28,
     "working/development": 28,
-    "factual/parametric": 23,
+    "experiential/latent": 26,
+    "working/parametric": 20,
     "factual/review": 19,
     "experiential/method": 19,
     "factual/development": 18,
     "working/systems": 18,
-    "experiential/latent": 17,
     "experiential/mechanism": 15,
-    "experiential/parametric": 13,
-    "working/parametric": 11,
     "experiential/application": 10,
     "experiential/theory": 10,
     "working/mechanism": 9
   },
   "emerging_themes_12m": [
     {
-      "keyword": "bayesian",
-      "papers": 4
+      "keyword": "agentic",
+      "papers": 536
     },
     {
       "keyword": "opponent",
-      "papers": 2
+      "papers": 7
     },
     {
       "keyword": "uncertainty",
-      "papers": 16
-    },
-    {
-      "keyword": "agentic",
-      "papers": 240
-    },
-    {
-      "keyword": "offline",
-      "papers": 35
-    },
-    {
-      "keyword": "skill",
-      "papers": 79
-    },
-    {
-      "keyword": "transfer",
-      "papers": 67
-    },
-    {
-      "keyword": "benchmark",
-      "papers": 428
+      "papers": 47
     },
     {
       "keyword": "policy",
-      "papers": 117
+      "papers": 240
     },
     {
-      "keyword": "retrieval",
-      "papers": 426
+      "keyword": "benchmark",
+      "papers": 883
+    },
+    {
+      "keyword": "skill",
+      "papers": 157
+    },
+    {
+      "keyword": "transfer",
+      "papers": 134
+    },
+    {
+      "keyword": "hierarchical",
+      "papers": 210
+    },
+    {
+      "keyword": "bayesian",
+      "papers": 18
+    },
+    {
+      "keyword": "optimization",
+      "papers": 238
     }
   ],
   "momentum": [
     {
       "id": "working",
       "name": "Working",
-      "total": 448,
-      "recent": 314,
-      "prior": 60,
-      "growth_pct": 423.3,
-      "recent_share": 0.701,
-      "papers_per_month": 26.2,
-      "score": 493.4
-    },
-    {
-      "id": "factual",
-      "name": "Factual",
-      "total": 686,
-      "recent": 488,
-      "prior": 94,
-      "growth_pct": 419.1,
-      "recent_share": 0.711,
-      "papers_per_month": 40.7,
-      "score": 490.2
-    },
-    {
-      "id": "experiential",
-      "name": "Experiential",
-      "total": 308,
-      "recent": 215,
-      "prior": 46,
-      "growth_pct": 367.4,
-      "recent_share": 0.698,
-      "papers_per_month": 17.9,
-      "score": 437.2
+      "total": 615,
+      "recent": 442,
+      "prior": 88,
+      "growth_pct": 402.3,
+      "recent_share": 0.719,
+      "papers_per_month": 36.8,
+      "score": 474.2
     },
     {
       "id": "",
       "name": "",
-      "total": 66,
-      "recent": 54,
+      "total": 68,
+      "recent": 56,
       "prior": 12,
-      "growth_pct": 350.0,
-      "recent_share": 0.818,
-      "papers_per_month": 4.5,
-      "score": 431.8
+      "growth_pct": 366.7,
+      "recent_share": 0.824,
+      "papers_per_month": 4.7,
+      "score": 449.1
+    },
+    {
+      "id": "experiential",
+      "name": "Experiential",
+      "total": 802,
+      "recent": 553,
+      "prior": 145,
+      "growth_pct": 281.4,
+      "recent_share": 0.69,
+      "papers_per_month": 46.1,
+      "score": 350.4
+    },
+    {
+      "id": "factual",
+      "name": "Factual",
+      "total": 1604,
+      "recent": 1081,
+      "prior": 319,
+      "growth_pct": 238.9,
+      "recent_share": 0.674,
+      "papers_per_month": 90.1,
+      "score": 306.3
     }
   ],
   "category_trajectory": {
     "": {
       "2024": 3,
-      "2025": 18,
+      "2025": 20,
       "2026": 45
     },
     "experiential": {
@@ -189,11 +189,11 @@
       "2019": 3,
       "2020": 3,
       "2021": 1,
-      "2022": 3,
-      "2023": 22,
-      "2024": 20,
-      "2025": 88,
-      "2026": 164
+      "2022": 8,
+      "2023": 43,
+      "2024": 88,
+      "2025": 221,
+      "2026": 431
     },
     "factual": {
       "1961": 1,
@@ -213,11 +213,11 @@
       "2018": 2,
       "2020": 3,
       "2021": 4,
-      "2022": 5,
-      "2023": 33,
-      "2024": 52,
-      "2025": 165,
-      "2026": 397,
+      "2022": 19,
+      "2023": 73,
+      "2024": 166,
+      "2025": 483,
+      "2026": 829,
       "2027": 1
     },
     "working": {
@@ -235,121 +235,121 @@
       "2020": 6,
       "2021": 4,
       "2022": 9,
-      "2023": 12,
-      "2024": 31,
-      "2025": 80,
-      "2026": 279
+      "2023": 17,
+      "2024": 45,
+      "2025": 131,
+      "2026": 376
     }
   },
   "keyword_bursts": [
     {
-      "keyword": "bayesian",
-      "recent": 4,
-      "total": 4,
-      "burst_score": 1.41,
-      "recent_share": 0.0037
+      "keyword": "agentic",
+      "recent": 536,
+      "total": 603,
+      "burst_score": 1.29,
+      "recent_share": 0.2514
     },
     {
       "keyword": "opponent",
-      "recent": 2,
-      "total": 2,
-      "burst_score": 1.41,
-      "recent_share": 0.0019
+      "recent": 7,
+      "total": 8,
+      "burst_score": 1.27,
+      "recent_share": 0.0033
     },
     {
       "keyword": "uncertainty",
-      "recent": 16,
-      "total": 17,
-      "burst_score": 1.33,
-      "recent_share": 0.0149
-    },
-    {
-      "keyword": "agentic",
-      "recent": 240,
-      "total": 260,
-      "burst_score": 1.3,
-      "recent_share": 0.2241
-    },
-    {
-      "keyword": "offline",
-      "recent": 35,
-      "total": 38,
-      "burst_score": 1.3,
-      "recent_share": 0.0327
-    },
-    {
-      "keyword": "skill",
-      "recent": 79,
-      "total": 89,
-      "burst_score": 1.25,
-      "recent_share": 0.0738
-    },
-    {
-      "keyword": "transfer",
-      "recent": 67,
-      "total": 77,
-      "burst_score": 1.23,
-      "recent_share": 0.0626
-    },
-    {
-      "keyword": "benchmark",
-      "recent": 428,
-      "total": 498,
-      "burst_score": 1.21,
-      "recent_share": 0.3996
+      "recent": 47,
+      "total": 55,
+      "burst_score": 1.24,
+      "recent_share": 0.022
     },
     {
       "keyword": "policy",
-      "recent": 117,
-      "total": 136,
-      "burst_score": 1.21,
-      "recent_share": 0.1092
+      "recent": 240,
+      "total": 296,
+      "burst_score": 1.17,
+      "recent_share": 0.1126
     },
     {
-      "keyword": "retrieval",
-      "recent": 426,
-      "total": 506,
-      "burst_score": 1.19,
-      "recent_share": 0.3978
+      "keyword": "benchmark",
+      "recent": 883,
+      "total": 1109,
+      "burst_score": 1.15,
+      "recent_share": 0.4142
     },
     {
-      "keyword": "reward",
-      "recent": 77,
-      "total": 91,
-      "burst_score": 1.19,
-      "recent_share": 0.0719
+      "keyword": "skill",
+      "recent": 157,
+      "total": 197,
+      "burst_score": 1.15,
+      "recent_share": 0.0736
     },
     {
-      "keyword": "causal",
-      "recent": 28,
-      "total": 33,
-      "burst_score": 1.19,
-      "recent_share": 0.0261
+      "keyword": "transfer",
+      "recent": 134,
+      "total": 169,
+      "burst_score": 1.15,
+      "recent_share": 0.0629
+    },
+    {
+      "keyword": "hierarchical",
+      "recent": 210,
+      "total": 270,
+      "burst_score": 1.13,
+      "recent_share": 0.0985
+    },
+    {
+      "keyword": "bayesian",
+      "recent": 18,
+      "total": 23,
+      "burst_score": 1.13,
+      "recent_share": 0.0084
     },
     {
       "keyword": "optimization",
-      "recent": 102,
-      "total": 122,
-      "burst_score": 1.18,
-      "recent_share": 0.0952
+      "recent": 238,
+      "total": 312,
+      "burst_score": 1.11,
+      "recent_share": 0.1116
     },
     {
-      "keyword": "agent",
-      "recent": 978,
-      "total": 1224,
-      "burst_score": 1.13,
-      "recent_share": 0.9132
+      "keyword": "causal",
+      "recent": 65,
+      "total": 86,
+      "burst_score": 1.1,
+      "recent_share": 0.0305
     },
     {
-      "keyword": "multimodal",
-      "recent": 78,
-      "total": 97,
-      "burst_score": 1.13,
-      "recent_share": 0.0728
+      "keyword": "diffusion",
+      "recent": 16,
+      "total": 21,
+      "burst_score": 1.1,
+      "recent_share": 0.0075
+    },
+    {
+      "keyword": "retrieval",
+      "recent": 806,
+      "total": 1068,
+      "burst_score": 1.09,
+      "recent_share": 0.378
+    },
+    {
+      "keyword": "offline",
+      "recent": 69,
+      "total": 92,
+      "burst_score": 1.09,
+      "recent_share": 0.0324
+    },
+    {
+      "keyword": "tool",
+      "recent": 466,
+      "total": 627,
+      "burst_score": 1.08,
+      "recent_share": 0.2186
     }
   ],
   "source_breakdown": {
-    "arxiv": 1243,
+    "arxiv": 2824,
     "doi": 115,
     "other": 150
   },
@@ -430,20 +430,8 @@
         "papers": 10
       },
       {
-        "cell": "working/parametric",
-        "papers": 11
-      },
-      {
-        "cell": "experiential/parametric",
-        "papers": 13
-      },
-      {
         "cell": "experiential/mechanism",
         "papers": 15
-      },
-      {
-        "cell": "experiential/latent",
-        "papers": 17
       },
       {
         "cell": "factual/development",
@@ -456,6 +444,18 @@
       {
         "cell": "factual/review",
         "papers": 19
+      },
+      {
+        "cell": "experiential/method",
+        "papers": 19
+      },
+      {
+        "cell": "working/parametric",
+        "papers": 20
+      },
+      {
+        "cell": "experiential/latent",
+        "papers": 26
       }
     ],
     "white_space": [
@@ -472,34 +472,16 @@
         "recent_share": 0.89
       },
       {
-        "cell": "experiential/latent",
-        "total": 17,
-        "recent": 14,
-        "recent_share": 0.82
-      },
-      {
         "cell": "working/parametric",
-        "total": 11,
-        "recent": 9,
-        "recent_share": 0.82
-      },
-      {
-        "cell": "experiential/parametric",
-        "total": 13,
-        "recent": 10,
-        "recent_share": 0.77
+        "total": 20,
+        "recent": 15,
+        "recent_share": 0.75
       },
       {
         "cell": "experiential/method",
         "total": 19,
         "recent": 13,
         "recent_share": 0.68
-      },
-      {
-        "cell": "factual/parametric",
-        "total": 23,
-        "recent": 10,
-        "recent_share": 0.43
       },
       {
         "cell": "working/systems",

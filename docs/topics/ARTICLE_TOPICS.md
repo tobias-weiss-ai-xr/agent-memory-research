@@ -3,19 +3,19 @@
 
 ## Factual
 
-Evidence-based topic: 686 curated papers, 398 in the last 12 months.
-
-
-## Working
-
-Evidence-based topic: 448 curated papers, 279 in the last 12 months.
+Evidence-based topic: 1604 curated papers, 830 in the last 12 months.
 
 
 ## Experiential
 
-Evidence-based topic: 308 curated papers, 164 in the last 12 months.
+Evidence-based topic: 802 curated papers, 431 in the last 12 months.
+
+
+## Working
+
+Evidence-based topic: 615 curated papers, 376 in the last 12 months.
 
 
 ## 
 
-Evidence-based topic: 66 curated papers, 45 in the last 12 months.
+Evidence-based topic: 68 curated papers, 45 in the last 12 months.

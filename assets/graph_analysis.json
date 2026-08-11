@@ -3,56 +3,56 @@
   {
    "id": "",
    "name": "",
-   "count": 66,
+   "count": 68,
    "trajectory": {
     "2024": 3,
-    "2025": 18,
+    "2025": 20,
     "2026": 45
    },
    "momentum": {
     "id": "",
     "name": "",
-    "total": 66,
-    "recent": 54,
+    "total": 68,
+    "recent": 56,
     "prior": 12,
-    "growth_pct": 350.0,
-    "recent_share": 0.818,
-    "papers_per_month": 4.5,
-    "score": 431.8
+    "growth_pct": 366.7,
+    "recent_share": 0.824,
+    "papers_per_month": 4.7,
+    "score": 449.1
    }
   },
   {
    "id": "experiential",
    "name": "Experiential",
-   "count": 308,
+   "count": 802,
    "trajectory": {
     "2004": 1,
     "2008": 1,
     "2019": 3,
     "2020": 3,
     "2021": 1,
-    "2022": 3,
-    "2023": 22,
-    "2024": 20,
-    "2025": 88,
-    "2026": 164
+    "2022": 8,
+    "2023": 43,
+    "2024": 88,
+    "2025": 221,
+    "2026": 431
    },
    "momentum": {
     "id": "experiential",
     "name": "Experiential",
-    "total": 308,
-    "recent": 215,
-    "prior": 46,
-    "growth_pct": 367.4,
-    "recent_share": 0.698,
-    "papers_per_month": 17.9,
-    "score": 437.2
+    "total": 802,
+    "recent": 553,
+    "prior": 145,
+    "growth_pct": 281.4,
+    "recent_share": 0.69,
+    "papers_per_month": 46.1,
+    "score": 350.4
    }
   },
   {
    "id": "factual",
    "name": "Factual",
-   "count": 686,
+   "count": 1604,
    "trajectory": {
     "1961": 1,
     "1972": 1,
@@ -71,29 +71,29 @@
     "2018": 2,
     "2020": 3,
     "2021": 4,
-    "2022": 5,
-    "2023": 33,
-    "2024": 52,
-    "2025": 165,
-    "2026": 397,
+    "2022": 19,
+    "2023": 73,
+    "2024": 166,
+    "2025": 483,
+    "2026": 829,
     "2027": 1
    },
    "momentum": {
     "id": "factual",
     "name": "Factual",
-    "total": 686,
-    "recent": 488,
-    "prior": 94,
-    "growth_pct": 419.1,
-    "recent_share": 0.711,
-    "papers_per_month": 40.7,
-    "score": 490.2
+    "total": 1604,
+    "recent": 1081,
+    "prior": 319,
+    "growth_pct": 238.9,
+    "recent_share": 0.674,
+    "papers_per_month": 90.1,
+    "score": 306.3
    }
   },
   {
    "id": "working",
    "name": "Working",
-   "count": 448,
+   "count": 615,
    "trajectory": {
     "1998": 2,
     "2000": 3,
@@ -109,21 +109,21 @@
     "2020": 6,
     "2021": 4,
     "2022": 9,
-    "2023": 12,
-    "2024": 31,
-    "2025": 80,
-    "2026": 279
+    "2023": 17,
+    "2024": 45,
+    "2025": 131,
+    "2026": 376
    },
    "momentum": {
     "id": "working",
     "name": "Working",
-    "total": 448,
-    "recent": 314,
-    "prior": 60,
-    "growth_pct": 423.3,
-    "recent_share": 0.701,
-    "papers_per_month": 26.2,
-    "score": 493.4
+    "total": 615,
+    "recent": 442,
+    "prior": 88,
+    "growth_pct": 402.3,
+    "recent_share": 0.719,
+    "papers_per_month": 36.8,
+    "score": 474.2
    }
   }
  ],
@@ -131,7 +131,7 @@
   {
    "id": "",
    "name": "",
-   "count": 66
+   "count": 68
   },
   {
    "id": "application",
@@ -146,7 +146,7 @@
   {
    "id": "latent",
    "name": "Latent",
-   "count": 106
+   "count": 131
   },
   {
    "id": "mechanism",
@@ -161,7 +161,7 @@
   {
    "id": "parametric",
    "name": "Parametric",
-   "count": 47
+   "count": 153
   },
   {
    "id": "review",
@@ -181,7 +181,7 @@
   {
    "id": "token-level",
    "name": "Token Level",
-   "count": 1086
+   "count": 2534
   }
  ],
  "timeline": [
@@ -597,6 +597,21 @@
   ],
   [
    "2022-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2022-09",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2022-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2022-09",
    "factual",
    "token-level"
   ],
@@ -607,8 +622,43 @@
   ],
   [
    "2022-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2022-10",
    "factual",
    "latent"
+  ],
+  [
+   "2022-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2022-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2022-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2022-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2022-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2022-10",
+   "factual",
+   "token-level"
   ],
   [
    "2022-11",
@@ -616,6 +666,51 @@
    "application"
   ],
   [
+   "2022-11",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2022-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2022-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2022-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2022-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2022-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2022-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2022-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2022-12",
+   "factual",
+   "token-level"
+  ],
+  [
    "2023-01",
    "experiential",
    "application"
@@ -639,6 +734,21 @@
    "2023-01",
    "experiential",
    "mechanism"
+  ],
+  [
+   "2023-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-01",
+   "factual",
+   "parametric"
   ],
   [
    "2023-01",
@@ -672,6 +782,46 @@
   ],
   [
    "2023-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-02",
+   "factual",
+   "latent"
+  ],
+  [
+   "2023-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2023-02",
    "working",
    "token-level"
   ],
@@ -686,8 +836,18 @@
    "token-level"
   ],
   [
+   "2023-03",
+   "factual",
+   "token-level"
+  ],
+  [
    "2023-04",
    "experiential",
+   "token-level"
+  ],
+  [
+   "2023-04",
+   "factual",
    "token-level"
   ],
   [
@@ -708,11 +868,41 @@
   [
    "2023-05",
    "experiential",
+   "latent"
+  ],
+  [
+   "2023-05",
+   "experiential",
    "token-level"
   ],
   [
    "2023-05",
    "experiential",
+   "token-level"
+  ],
+  [
+   "2023-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-05",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2023-05",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2023-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-05",
+   "factual",
    "token-level"
   ],
   [
@@ -763,6 +953,11 @@
   [
    "2023-06",
    "factual",
+   "parametric"
+  ],
+  [
+   "2023-06",
+   "factual",
    "token-level"
   ],
   [
@@ -773,11 +968,46 @@
   [
    "2023-07",
    "experiential",
+   "latent"
+  ],
+  [
+   "2023-07",
+   "experiential",
    "token-level"
   ],
   [
    "2023-07",
    "experiential",
+   "token-level"
+  ],
+  [
+   "2023-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-07",
+   "factual",
+   "latent"
+  ],
+  [
+   "2023-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-07",
+   "factual",
    "token-level"
   ],
   [
@@ -822,6 +1052,31 @@
   ],
   [
    "2023-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-08",
    "factual",
    "token-level"
   ],
@@ -848,6 +1103,31 @@
   [
    "2023-09",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2023-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-09",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2023-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-09",
+   "factual",
    "token-level"
   ],
   [
@@ -863,6 +1143,21 @@
   [
    "2023-09",
    "working",
+   "token-level"
+  ],
+  [
+   "2023-09",
+   "working",
+   "token-level"
+  ],
+  [
+   "2023-10",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2023-10",
+   "experiential",
    "token-level"
   ],
   [
@@ -917,6 +1212,31 @@
   ],
   [
    "2023-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2023-10",
    "working",
    "token-level"
   ],
@@ -924,6 +1244,26 @@
    "2023-11",
    "experiential",
    "token-level"
+  ],
+  [
+   "2023-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "parametric"
   ],
   [
    "2023-11",
@@ -942,8 +1282,93 @@
   ],
   [
    "2023-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-11",
    "working",
    "latent"
+  ],
+  [
+   "2023-11",
+   "working",
+   "token-level"
+  ],
+  [
+   "2023-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-12",
+   "working",
+   "token-level"
   ],
   [
    "2023-12",
@@ -967,6 +1392,21 @@
   ],
   [
    "2024-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-01",
    "factual",
    "parametric"
   ],
@@ -987,6 +1427,31 @@
   ],
   [
    "2024-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-01",
    "working",
    "method"
   ],
@@ -1017,6 +1482,76 @@
   ],
   [
    "2024-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-02",
    "factual",
    "token-level"
   ],
@@ -1031,6 +1566,41 @@
    "token-level"
   ],
   [
+   "2024-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2024-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2024-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-03",
+   "experiential",
+   "token-level"
+  ],
+  [
    "2024-03",
    "factual",
    "latent"
@@ -1057,6 +1627,36 @@
   ],
   [
    "2024-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-03",
+   "working",
+   "latent"
+  ],
+  [
+   "2024-03",
    "working",
    "latent"
   ],
@@ -1068,7 +1668,22 @@
   [
    "2024-03",
    "working",
-   "latent"
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "experiential",
+   "token-level"
   ],
   [
    "2024-04",
@@ -1078,6 +1693,56 @@
   [
    "2024-04",
    "factual",
+   "parametric"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-04",
+   "factual",
    "token-level"
   ],
   [
@@ -1099,6 +1764,36 @@
    "2024-04",
    "working",
    "latent"
+  ],
+  [
+   "2024-05",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2024-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-05",
+   "experiential",
+   "token-level"
   ],
   [
    "2024-05",
@@ -1152,8 +1847,48 @@
   ],
   [
    "2024-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-05",
    "working",
    "parametric"
+  ],
+  [
+   "2024-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2024-05",
+   "working",
+   "token-level"
   ],
   [
    "2024-05",
@@ -1167,8 +1902,48 @@
   ],
   [
    "2024-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-06",
    "factual",
    "latent"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "token-level"
   ],
   [
    "2024-06",
@@ -1212,6 +1987,31 @@
   ],
   [
    "2024-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-07",
    "factual",
    "latent"
   ],
@@ -1238,6 +2038,46 @@
   [
    "2024-07",
    "factual",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-07",
+   "working",
    "token-level"
   ],
   [
@@ -1252,6 +2092,31 @@
   ],
   [
    "2024-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-08",
    "factual",
    "parametric"
   ],
@@ -1262,8 +2127,53 @@
   ],
   [
    "2024-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-08",
    "working",
    "latent"
+  ],
+  [
+   "2024-08",
+   "working",
+   "token-level"
   ],
   [
    "2024-08",
@@ -1288,6 +2198,31 @@
   [
    "2024-09",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2024-09",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2024-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "experiential",
    "token-level"
   ],
   [
@@ -1308,11 +2243,96 @@
   [
    "2024-09",
    "factual",
+   "parametric"
+  ],
+  [
+   "2024-09",
+   "factual",
    "token-level"
   ],
   [
    "2024-09",
    "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-09",
+   "working",
    "token-level"
   ],
   [
@@ -1352,6 +2372,86 @@
   ],
   [
    "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2024-10",
    "factual",
    "parametric"
   ],
@@ -1404,6 +2504,91 @@
    "2024-10",
    "factual",
    "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-10",
+   "working",
+   "parametric"
   ],
   [
    "2024-10",
@@ -1433,11 +2618,106 @@
   [
    "2024-11",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2024-11",
+   "experiential",
    "token-level"
   ],
   [
    "2024-11",
    "experiential",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "latent"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
    "token-level"
   ],
   [
@@ -1456,8 +2736,113 @@
    "token-level"
   ],
   [
+   "2024-11",
+   "working",
+   "token-level"
+  ],
+  [
    "2024-12",
    "experiential",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
    "token-level"
   ],
   [
@@ -1474,6 +2859,26 @@
    "2024-12",
    "working",
    "latent"
+  ],
+  [
+   "2024-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "working",
+   "token-level"
   ],
   [
    "2024-12",
@@ -1522,6 +2927,26 @@
   ],
   [
    "2025-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-01",
    "factual",
    "development"
   ],
@@ -1529,11 +2954,51 @@
    "2025-01",
    "factual",
    "development"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "latent"
   ],
   [
    "2025-01",
    "factual",
    "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "token-level"
   ],
   [
    "2025-01",
@@ -1688,6 +3153,136 @@
   [
    "2025-02",
    "experiential",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "factual",
    "token-level"
   ],
   [
@@ -1781,9 +3376,59 @@
    "token-level"
   ],
   [
+   "2025-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-02",
+   "working",
+   "token-level"
+  ],
+  [
    "2025-03",
    "experiential",
    "latent"
+  ],
+  [
+   "2025-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "experiential",
+   "token-level"
   ],
   [
    "2025-03",
@@ -1804,6 +3449,16 @@
    "2025-03",
    "factual",
    "latent"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "latent"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "parametric"
   ],
   [
    "2025-03",
@@ -1847,8 +3502,128 @@
   ],
   [
    "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
    "working",
    "latent"
+  ],
+  [
+   "2025-03",
+   "working",
+   "parametric"
+  ],
+  [
+   "2025-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "working",
+   "token-level"
   ],
   [
    "2025-04",
@@ -1858,6 +3633,51 @@
   [
    "2025-04",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2025-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "experiential",
    "token-level"
   ],
   [
@@ -1874,6 +3694,71 @@
    "2025-04",
    "factual",
    "latent"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "latent"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
   ],
   [
    "2025-04",
@@ -1909,6 +3794,16 @@
    "2025-04",
    "working",
    "latent"
+  ],
+  [
+   "2025-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "working",
+   "token-level"
   ],
   [
    "2025-04",
@@ -1948,6 +3843,56 @@
   [
    "2025-05",
    "experiential",
+   "latent"
+  ],
+  [
+   "2025-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "experiential",
    "token-level"
   ],
   [
@@ -2009,6 +3954,236 @@
    "2025-05",
    "factual",
    "latent"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "token-level"
   ],
   [
    "2025-05",
@@ -2079,6 +4254,26 @@
    "2025-05",
    "working",
    "latent"
+  ],
+  [
+   "2025-05",
+   "working",
+   "parametric"
+  ],
+  [
+   "2025-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-05",
+   "working",
+   "token-level"
   ],
   [
    "2025-05",
@@ -2118,6 +4313,96 @@
   [
    "2025-06",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "experiential",
    "token-level"
   ],
   [
@@ -2134,6 +4419,116 @@
    "2025-06",
    "factual",
    "latent"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
   ],
   [
    "2025-06",
@@ -2219,6 +4614,26 @@
    "2025-06",
    "working",
    "latent"
+  ],
+  [
+   "2025-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "working",
+   "token-level"
   ],
   [
    "2025-06",
@@ -2243,6 +4658,41 @@
   [
    "2025-07",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2025-07",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2025-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "experiential",
    "token-level"
   ],
   [
@@ -2258,6 +4708,61 @@
   [
    "2025-07",
    "factual",
+   "parametric"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
    "token-level"
   ],
   [
@@ -2298,6 +4803,101 @@
   [
    "2025-07",
    "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-07",
+   "working",
    "token-level"
   ],
   [
@@ -2314,6 +4914,41 @@
    "2025-08",
    "",
    ""
+  ],
+  [
+   "2025-08",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2025-08",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2025-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "experiential",
+   "token-level"
   ],
   [
    "2025-08",
@@ -2363,6 +4998,146 @@
   [
    "2025-08",
    "factual",
+   "parametric"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
    "token-level"
   ],
   [
@@ -2419,6 +5194,26 @@
    "2025-08",
    "working",
    "latent"
+  ],
+  [
+   "2025-08",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-08",
+   "working",
+   "token-level"
   ],
   [
    "2025-08",
@@ -2448,6 +5243,61 @@
   [
    "2025-09",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2025-09",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2025-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "experiential",
    "token-level"
   ],
   [
@@ -2478,6 +5328,176 @@
   [
    "2025-09",
    "factual",
+   "latent"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
    "token-level"
   ],
   [
@@ -2574,6 +5594,31 @@
    "2025-09",
    "working",
    "token-level"
+  ],
+  [
+   "2025-09",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "",
+   ""
   ],
   [
    "2025-10",
@@ -2603,6 +5648,96 @@
   [
    "2025-10",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "experiential",
    "token-level"
   ],
   [
@@ -2683,6 +5818,231 @@
   [
    "2025-10",
    "factual",
+   "parametric"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
    "token-level"
   ],
   [
@@ -2803,6 +6163,41 @@
   [
    "2025-10",
    "working",
+   "parametric"
+  ],
+  [
+   "2025-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "working",
    "token-level"
   ],
   [
@@ -2839,6 +6234,26 @@
    "2025-10",
    "working",
    "token-level"
+  ],
+  [
+   "2025-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "",
+   ""
   ],
   [
    "2025-11",
@@ -2868,6 +6283,51 @@
   [
    "2025-11",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
    "token-level"
   ],
   [
@@ -2913,6 +6373,211 @@
   [
    "2025-11",
    "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "latent"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "factual",
    "token-level"
   ],
   [
@@ -2989,6 +6654,21 @@
    "2025-11",
    "working",
    "latent"
+  ],
+  [
+   "2025-11",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-11",
+   "working",
+   "token-level"
   ],
   [
    "2025-11",
@@ -3043,6 +6723,66 @@
   [
    "2025-12",
    "experiential",
+   "latent"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
    "token-level"
   ],
   [
@@ -3102,6 +6842,136 @@
   ],
   [
    "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
    "factual",
    "token-level"
   ],
@@ -3208,6 +7078,61 @@
   [
    "2025-12",
    "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "working",
+   "token-level"
+  ],
+  [
+   "2025-12",
+   "working",
    "token-level"
   ],
   [
@@ -3318,7 +7243,17 @@
   [
    "2026-01",
    "experiential",
-   "theory"
+   "parametric"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "parametric"
   ],
   [
    "2026-01",
@@ -3368,6 +7303,61 @@
   [
    "2026-01",
    "experiential",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
    "token-level"
   ],
   [
@@ -3427,8 +7417,78 @@
   ],
   [
    "2026-01",
-   "factual",
-   "development"
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "experiential",
+   "token-level"
   ],
   [
    "2026-01",
@@ -3504,6 +7564,16 @@
    "2026-01",
    "factual",
    "development"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "development"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "latent"
   ],
   [
    "2026-01",
@@ -3604,6 +7674,286 @@
    "2026-01",
    "factual",
    "parametric"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "token-level"
   ],
   [
    "2026-01",
@@ -3858,7 +8208,7 @@
   [
    "2026-01",
    "working",
-   "systems"
+   "parametric"
   ],
   [
    "2026-01",
@@ -3879,6 +8229,46 @@
    "2026-01",
    "working",
    "systems"
+  ],
+  [
+   "2026-01",
+   "working",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-01",
+   "working",
+   "token-level"
   ],
   [
    "2026-01",
@@ -3998,6 +8388,166 @@
   [
    "2026-02",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "experiential",
    "token-level"
   ],
   [
@@ -4049,6 +8599,196 @@
    "2026-02",
    "factual",
    "latent"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "token-level"
   ],
   [
    "2026-02",
@@ -4286,9 +9026,79 @@
    "token-level"
   ],
   [
-   "2026-03",
-   "",
-   ""
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-02",
+   "working",
+   "token-level"
   ],
   [
    "2026-03",
@@ -4304,6 +9114,26 @@
    "2026-03",
    "",
    ""
+  ],
+  [
+   "2026-03",
+   "",
+   ""
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "latent"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "latent"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "latent"
   ],
   [
    "2026-03",
@@ -4329,6 +9159,166 @@
    "2026-03",
    "experiential",
    "parametric"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "token-level"
   ],
   [
    "2026-03",
@@ -4389,6 +9379,311 @@
    "2026-03",
    "factual",
    "latent"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "latent"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "latent"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "latent"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "factual",
+   "token-level"
   ],
   [
    "2026-03",
@@ -4638,6 +9933,71 @@
   [
    "2026-03",
    "working",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "working",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-03",
+   "working",
    "token-level"
   ],
   [
@@ -4719,6 +10079,146 @@
    "2026-04",
    "",
    ""
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "experiential",
+   "token-level"
   ],
   [
    "2026-04",
@@ -4814,6 +10314,276 @@
    "2026-04",
    "factual",
    "parametric"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
   ],
   [
    "2026-04",
@@ -5088,6 +10858,76 @@
   [
    "2026-04",
    "working",
+   "latent"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-04",
+   "working",
    "token-level"
   ],
   [
@@ -5189,6 +11029,31 @@
    "2026-05",
    "experiential",
    "latent"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "latent"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "parametric"
   ],
   [
    "2026-05",
@@ -5347,6 +11212,246 @@
   ],
   [
    "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "latent"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "latent"
+  ],
+  [
+   "2026-05",
    "factual",
    "latent"
   ],
@@ -5363,7 +11468,17 @@
   [
    "2026-05",
    "factual",
-   "latent"
+   "parametric"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "parametric"
   ],
   [
    "2026-05",
@@ -5747,6 +11862,376 @@
   ],
   [
    "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-05",
    "working",
    "latent"
   ],
@@ -5754,6 +12239,11 @@
    "2026-05",
    "working",
    "latent"
+  ],
+  [
+   "2026-05",
+   "working",
+   "parametric"
   ],
   [
    "2026-05",
@@ -5921,6 +12411,91 @@
    "token-level"
   ],
   [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-05",
+   "working",
+   "token-level"
+  ],
+  [
    "2026-06",
    "",
    ""
@@ -5969,6 +12544,16 @@
    "2026-06",
    "experiential",
    "latent"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "parametric"
   ],
   [
    "2026-06",
@@ -6067,6 +12652,211 @@
   ],
   [
    "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-06",
    "factual",
    "latent"
   ],
@@ -6093,6 +12883,346 @@
   [
    "2026-06",
    "factual",
+   "parametric"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "factual",
    "token-level"
   ],
   [
@@ -6449,6 +13579,71 @@
    "2026-06",
    "working",
    "latent"
+  ],
+  [
+   "2026-06",
+   "working",
+   "latent"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
   ],
   [
    "2026-06",
@@ -6653,6 +13848,156 @@
   [
    "2026-07",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "parametric"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "experiential",
    "token-level"
   ],
   [
@@ -6799,6 +14144,226 @@
    "2026-07",
    "factual",
    "latent"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
   ],
   [
    "2026-07",
@@ -7023,6 +14588,66 @@
   [
    "2026-07",
    "working",
+   "parametric"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "working",
    "token-level"
   ],
   [
@@ -7659,6 +15284,286 @@
    "2026-08",
    "",
    ""
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "latent"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "latent"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "working",
+   "token-level"
   ],
   [
    "2027-01",
@@ -7730,109 +15635,109 @@
  ],
  "keyword_bursts": [
   {
-   "keyword": "bayesian",
-   "recent": 4,
-   "total": 4,
-   "burst_score": 1.41,
-   "recent_share": 0.0037
+   "keyword": "agentic",
+   "recent": 536,
+   "total": 603,
+   "burst_score": 1.29,
+   "recent_share": 0.2514
   },
   {
    "keyword": "opponent",
-   "recent": 2,
-   "total": 2,
-   "burst_score": 1.41,
-   "recent_share": 0.0019
+   "recent": 7,
+   "total": 8,
+   "burst_score": 1.27,
+   "recent_share": 0.0033
   },
   {
    "keyword": "uncertainty",
-   "recent": 16,
-   "total": 17,
-   "burst_score": 1.33,
-   "recent_share": 0.0149
-  },
-  {
-   "keyword": "agentic",
-   "recent": 240,
-   "total": 260,
-   "burst_score": 1.3,
-   "recent_share": 0.2241
-  },
-  {
-   "keyword": "offline",
-   "recent": 35,
-   "total": 38,
-   "burst_score": 1.3,
-   "recent_share": 0.0327
-  },
-  {
-   "keyword": "skill",
-   "recent": 79,
-   "total": 89,
-   "burst_score": 1.25,
-   "recent_share": 0.0738
-  },
-  {
-   "keyword": "transfer",
-   "recent": 67,
-   "total": 77,
-   "burst_score": 1.23,
-   "recent_share": 0.0626
-  },
-  {
-   "keyword": "benchmark",
-   "recent": 428,
-   "total": 498,
-   "burst_score": 1.21,
-   "recent_share": 0.3996
+   "recent": 47,
+   "total": 55,
+   "burst_score": 1.24,
+   "recent_share": 0.022
   },
   {
    "keyword": "policy",
-   "recent": 117,
-   "total": 136,
-   "burst_score": 1.21,
-   "recent_share": 0.1092
+   "recent": 240,
+   "total": 296,
+   "burst_score": 1.17,
+   "recent_share": 0.1126
   },
   {
-   "keyword": "retrieval",
-   "recent": 426,
-   "total": 506,
-   "burst_score": 1.19,
-   "recent_share": 0.3978
+   "keyword": "benchmark",
+   "recent": 883,
+   "total": 1109,
+   "burst_score": 1.15,
+   "recent_share": 0.4142
   },
   {
-   "keyword": "reward",
-   "recent": 77,
-   "total": 91,
-   "burst_score": 1.19,
-   "recent_share": 0.0719
+   "keyword": "skill",
+   "recent": 157,
+   "total": 197,
+   "burst_score": 1.15,
+   "recent_share": 0.0736
   },
   {
-   "keyword": "causal",
-   "recent": 28,
-   "total": 33,
-   "burst_score": 1.19,
-   "recent_share": 0.0261
+   "keyword": "transfer",
+   "recent": 134,
+   "total": 169,
+   "burst_score": 1.15,
+   "recent_share": 0.0629
+  },
+  {
+   "keyword": "hierarchical",
+   "recent": 210,
+   "total": 270,
+   "burst_score": 1.13,
+   "recent_share": 0.0985
+  },
+  {
+   "keyword": "bayesian",
+   "recent": 18,
+   "total": 23,
+   "burst_score": 1.13,
+   "recent_share": 0.0084
   },
   {
    "keyword": "optimization",
-   "recent": 102,
-   "total": 122,
-   "burst_score": 1.18,
-   "recent_share": 0.0952
+   "recent": 238,
+   "total": 312,
+   "burst_score": 1.11,
+   "recent_share": 0.1116
   },
   {
-   "keyword": "agent",
-   "recent": 978,
-   "total": 1224,
-   "burst_score": 1.13,
-   "recent_share": 0.9132
+   "keyword": "causal",
+   "recent": 65,
+   "total": 86,
+   "burst_score": 1.1,
+   "recent_share": 0.0305
   },
   {
-   "keyword": "multimodal",
-   "recent": 78,
-   "total": 97,
-   "burst_score": 1.13,
-   "recent_share": 0.0728
+   "keyword": "diffusion",
+   "recent": 16,
+   "total": 21,
+   "burst_score": 1.1,
+   "recent_share": 0.0075
+  },
+  {
+   "keyword": "retrieval",
+   "recent": 806,
+   "total": 1068,
+   "burst_score": 1.09,
+   "recent_share": 0.378
+  },
+  {
+   "keyword": "offline",
+   "recent": 69,
+   "total": 92,
+   "burst_score": 1.09,
+   "recent_share": 0.0324
+  },
+  {
+   "keyword": "tool",
+   "recent": 466,
+   "total": 627,
+   "burst_score": 1.08,
+   "recent_share": 0.2186
   }
  ]
 }

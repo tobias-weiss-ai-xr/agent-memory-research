@@ -1,30 +1,30 @@
 # Paper Landscape Report
 
 **Generated:** 2026-08-11  
-**Corpus:** 1,508 papers (1961-2027) | 1,243 arXiv preprints · 265 journal/publisher records
+**Corpus:** 3,089 papers (1961-2027) | 2,824 arXiv preprints · 265 journal/publisher records
 
 ## Category Landscape
 
 | Category | Total | Prev Yr | This Yr | YoY | 12m Share |
 |----------|------:|--------:|--------:|----:|----------:|
-| Factual | 686 | 165 | 397 | +141% | 46% |
-| Working | 448 | 80 | 279 | +249% | 29% |
-| Experiential | 308 | 88 | 164 | +86% | 20% |
-|  | 66 | 18 | 45 | +150% | 5% |
+| Factual | 1604 | 483 | 829 | +72% | 51% |
+| Experiential | 802 | 221 | 431 | +95% | 26% |
+| Working | 615 | 131 | 376 | +187% | 21% |
+|  | 68 | 20 | 45 | +125% | 3% |
 
 ## Research Aspects
 
-- ****: 66 papers (4%) ##
-- **Application**: 10 papers (1%) 
-- **Development**: 46 papers (3%) #
-- **Latent**: 106 papers (7%) ###
-- **Mechanism**: 24 papers (2%) 
-- **Method**: 76 papers (5%) ##
-- **Parametric**: 47 papers (3%) #
+- ****: 68 papers (2%) #
+- **Application**: 10 papers (0%) 
+- **Development**: 46 papers (1%) 
+- **Latent**: 131 papers (4%) ##
+- **Mechanism**: 24 papers (1%) 
+- **Method**: 76 papers (2%) #
+- **Parametric**: 153 papers (5%) ##
 - **Review**: 19 papers (1%) 
 - **Systems**: 18 papers (1%) 
-- **Theory**: 10 papers (1%) 
-- **Token Level**: 1086 papers (72%) ####################################
+- **Theory**: 10 papers (0%) 
+- **Token Level**: 2534 papers (82%) #########################################
 
 ## Year Trend
 
@@ -55,29 +55,29 @@
 | 2019 | 8 |
 | 2020 | 12 |
 | 2021 | 9 |
-| 2022 | 17 |
-| 2023 | 67 |
-| 2024 | 106 |
-| 2025 | 351 |
-| 2026 | 885 |
+| 2022 | 36 |
+| 2023 | 133 |
+| 2024 | 302 |
+| 2025 | 855 |
+| 2026 | 1681 |
 | 2027 | 1 |
 
 ## Emerging Themes (12-Month Bursts)
 
 | Keyword | Recent | Total | Burst |
 |---------|-------:|------:|------:|
-| bayesian | 4 | 4 | 1.41× |
-| uncertainty | 16 | 17 | 1.33× |
-| agentic | 240 | 260 | 1.3× |
-| offline | 35 | 38 | 1.3× |
-| skill | 79 | 89 | 1.25× |
-| transfer | 67 | 77 | 1.23× |
-| benchmark | 428 | 498 | 1.21× |
-| retrieval | 426 | 506 | 1.19× |
-| causal | 28 | 33 | 1.19× |
-| optimization | 102 | 122 | 1.18× |
-| agent | 978 | 1224 | 1.13× |
-| multimodal | 78 | 97 | 1.13× |
+| agentic | 536 | 603 | 1.29× |
+| uncertainty | 47 | 55 | 1.24× |
+| benchmark | 883 | 1109 | 1.15× |
+| skill | 157 | 197 | 1.15× |
+| transfer | 134 | 169 | 1.15× |
+| hierarchical | 210 | 270 | 1.13× |
+| bayesian | 18 | 23 | 1.13× |
+| optimization | 238 | 312 | 1.11× |
+| causal | 65 | 86 | 1.1× |
+| diffusion | 16 | 21 | 1.1× |
+| retrieval | 806 | 1068 | 1.09× |
+| offline | 69 | 92 | 1.09× |
 
 ## Top Venues
 
@@ -111,26 +111,26 @@
 
 ## Hottest Cells
 
-- `factual/token-level` — 563
-- `working/token-level` — 299
-- `experiential/token-level` — 224
-- `/` — 66
-- `working/latent` — 55
-- `factual/latent` — 34
+- `factual/token-level` — 1411
+- `experiential/token-level` — 668
+- `working/token-level` — 455
+- `factual/parametric` — 79
+- `/` — 68
+- `working/latent` — 57
+- `experiential/parametric` — 54
+- `factual/latent` — 48
 - `factual/method` — 29
 - `working/method` — 28
-- `working/development` — 28
-- `factual/parametric` — 23
 
 ## Thin Cells (White Space)
 
 - `working/mechanism` — 9
 - `experiential/application` — 10
 - `experiential/theory` — 10
-- `working/parametric` — 11
-- `experiential/parametric` — 13
 - `experiential/mechanism` — 15
-- `experiential/latent` — 17
 - `factual/development` — 18
 - `working/systems` — 18
 - `factual/review` — 19
+- `experiential/method` — 19
+- `working/parametric` — 20
+- `experiential/latent` — 26

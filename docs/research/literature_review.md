@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-08-11  
-**Corpus:** 1,508 papers across 4 categories
+**Corpus:** 3,089 papers across 4 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,13 +11,13 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Factual | 686 |
-| 2 | Working | 448 |
-| 3 | Experiential | 308 |
-| 4 |  | 66 |
+| 1 | Factual | 1604 |
+| 2 | Experiential | 802 |
+| 3 | Working | 615 |
+| 4 |  | 68 |
 
 **Time span:** 1961–2027 (median year 2011)
-**Dominant aspects:** Token Level (1086), Latent (106), Method (76)
+**Dominant aspects:** Token Level (2534), Parametric (153), Latent (131)
 
 ---
 
@@ -25,10 +25,10 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Working | 448 | 314 | 60 | +423% | 70% | 26.2 |
-| Factual | 686 | 488 | 94 | +419% | 71% | 40.7 |
-| Experiential | 308 | 215 | 46 | +367% | 70% | 17.9 |
-|  | 66 | 54 | 12 | +350% | 82% | 4.5 |
+| Working | 615 | 442 | 88 | +402% | 72% | 36.8 |
+|  | 68 | 56 | 12 | +367% | 82% | 4.7 |
+| Experiential | 802 | 553 | 145 | +281% | 69% | 46.1 |
+| Factual | 1604 | 1081 | 319 | +239% | 67% | 90.1 |
 
 ---
 
@@ -39,11 +39,11 @@
 | `working/mechanism` | 9 |
 | `experiential/application` | 10 |
 | `experiential/theory` | 10 |
-| `working/parametric` | 11 |
-| `experiential/parametric` | 13 |
 | `experiential/mechanism` | 15 |
-| `experiential/latent` | 17 |
 | `factual/development` | 18 |
+| `working/systems` | 18 |
+| `factual/review` | 19 |
+| `experiential/method` | 19 |
 
 ---
 
@@ -52,43 +52,43 @@
 
 ### Factual (`factual`)
 
-**Corpus size:** 686 papers
+**Corpus size:** 1604 papers
 
 **Recent papers:**
 
 - [2027-01] MultiSent-RAG: A retrieval and memory-augmented system for multilingual sentiment processing. — https://dblp.org/rec/journals/ipm/MnassriFC27
-- [2026-07] CMI-Mem: Toward Generalizable Long-Term Memory Management via CMI-Augmented Reinforcement Learn — https://arxiv.org/abs/2607.20553
-- [2026-07] When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents — https://arxiv.org/abs/2607.06595
-
----
-
-### Working (`working`)
-
-**Corpus size:** 448 papers
-
-**Recent papers:**
-
-- [2026-07] SelfMem: Self-Optimizing Memory for AI Agents — https://arxiv.org/abs/2607.03726
-- [2026-07] Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents — https://arxiv.org/abs/2607.08716
-- [2026-07] AutoMem: Automated Learning of Memory as a Cognitive Skill — https://arxiv.org/abs/2607.01224
+- [2026-08] PI-Mem: Pushing Long-Context Reasoning to 3.6M Tokens with Parallel-Iterative Memory — https://arxiv.org/abs/2608.03048v1
+- [2026-08] PGMem: Tightly Coupled Persona-Memory Graph for Lifelong Personalized Agents — https://arxiv.org/abs/2608.01708v1
 
 ---
 
 ### Experiential (`experiential`)
 
-**Corpus size:** 308 papers
+**Corpus size:** 802 papers
 
 **Recent papers:**
 
-- [2026-07] From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents — https://arxiv.org/abs/2607.16621
-- [2026-07] Experience Memory Graph: One-Shot Error Correction for Agents — https://arxiv.org/abs/2607.13884
-- [2026-07] MemoHarness: Agent Harnesses That Learn from Experience — https://arxiv.org/abs/2607.14159
+- [2026-08] Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems — https://arxiv.org/abs/2608.04746v1
+- [2026-08] RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory vi — https://arxiv.org/abs/2608.02508v3
+- [2026-08] Before Reasoning Can Fail: Pre-Evidence Procedural Failures in Agentic RAG — https://arxiv.org/abs/2608.02011v2
+
+---
+
+### Working (`working`)
+
+**Corpus size:** 615 papers
+
+**Recent papers:**
+
+- [2026-08] CommitKV: Lifecycle-Aware KV Cache Compression via Commit Transitions for Multi-Turn Agents — https://arxiv.org/abs/2608.07855v1
+- [2026-08] Mitigating Over-Personalization in LLMs via Structured Memory — https://arxiv.org/abs/2608.08300v1
+- [2026-08] AiFlow: Token-Native Reactive Orchestration with Bounded Backpressure for Streaming LLM Applica — https://arxiv.org/abs/2608.00558v1
 
 ---
 
 ###  (``)
 
-**Corpus size:** 66 papers
+**Corpus size:** 68 papers
 
 **Recent papers:**
 

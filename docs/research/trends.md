@@ -1,27 +1,27 @@
 # Trends (12-Month View)
 
 **Generated:** 2026-08-11  
-**Window:** since 2025-08 — 1071 of 1508 papers
+**Window:** since 2025-08 — 2132 of 3089 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
-| bayesian | 4 | 4 | 1.4× |
-| opponent | 2 | 2 | 1.4× |
-| agentic | 240 | 260 | 1.3× |
-| offline | 35 | 38 | 1.3× |
-| uncertainty | 16 | 17 | 1.3× |
-| stochastic | 11 | 12 | 1.3× |
-| benchmark | 428 | 498 | 1.2× |
-| retrieval | 426 | 506 | 1.2× |
-| policy | 117 | 136 | 1.2× |
-| optimization | 102 | 122 | 1.2× |
-| skill | 79 | 89 | 1.2× |
-| reward | 77 | 91 | 1.2× |
-| similarity | 70 | 80 | 1.2× |
-| transfer | 67 | 77 | 1.2× |
-| adversarial | 41 | 49 | 1.2× |
+| agentic | 536 | 603 | 1.3× |
+| opponent | 7 | 8 | 1.3× |
+| benchmark | 883 | 1109 | 1.2× |
+| policy | 240 | 296 | 1.2× |
+| skill | 157 | 197 | 1.2× |
+| similarity | 97 | 121 | 1.2× |
+| adversarial | 72 | 90 | 1.2× |
+| uncertainty | 47 | 55 | 1.2× |
+| stochastic | 23 | 28 | 1.2× |
+| agent | 1925 | 2614 | 1.1× |
+| retrieval | 806 | 1068 | 1.1× |
+| tool | 466 | 627 | 1.1× |
+| graph | 331 | 448 | 1.1× |
+| optimization | 238 | 312 | 1.1× |
+| hierarchical | 210 | 270 | 1.1× |
 
 ## 📈 Fastest-Growing Cells
 
@@ -29,18 +29,18 @@
 |------|--------|-------|--------------|
 | `experiential/theory` | 10 | 10 | 100% |
 | `factual/development` | 16 | 18 | 89% |
-| `working/token-level` | 260 | 299 | 87% |
-| `experiential/latent` | 14 | 17 | 82% |
-| `working/parametric` | 9 | 11 | 82% |
-| `/` | 54 | 66 | 82% |
-| `experiential/parametric` | 10 | 13 | 77% |
-| `factual/token-level` | 423 | 563 | 75% |
-| `experiential/token-level` | 166 | 224 | 74% |
+| `working/token-level` | 380 | 455 | 84% |
+| `/` | 56 | 68 | 82% |
+| `experiential/latent` | 20 | 26 | 77% |
+| `working/parametric` | 15 | 20 | 75% |
+| `factual/token-level` | 981 | 1411 | 70% |
+| `experiential/token-level` | 470 | 668 | 70% |
+| `experiential/parametric` | 38 | 54 | 70% |
 | `experiential/method` | 13 | 19 | 68% |
-| `factual/latent` | 21 | 34 | 62% |
 | `factual/method` | 18 | 29 | 62% |
-| `working/latent` | 33 | 55 | 60% |
-| `factual/parametric` | 10 | 23 | 43% |
+| `working/latent` | 35 | 57 | 61% |
+| `factual/latent` | 29 | 48 | 60% |
+| `factual/parametric` | 37 | 79 | 47% |
 | `working/systems` | 5 | 18 | 28% |
 
 Regenerate with `python3 tools/trend_scanner.py --months 12`.
