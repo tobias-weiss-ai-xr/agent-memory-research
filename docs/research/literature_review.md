@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-08-11  
-**Corpus:** 1,493 papers across 4 categories
+**Corpus:** 1,508 papers across 4 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -14,7 +14,7 @@
 | 1 | Factual | 686 |
 | 2 | Working | 448 |
 | 3 | Experiential | 308 |
-| 4 |  | 51 |
+| 4 |  | 66 |
 
 **Time span:** 1961–2027 (median year 2011)
 **Dominant aspects:** Token Level (1086), Latent (106), Method (76)
@@ -28,7 +28,7 @@
 | Working | 448 | 314 | 60 | +423% | 70% | 26.2 |
 | Factual | 686 | 488 | 94 | +419% | 71% | 40.7 |
 | Experiential | 308 | 215 | 46 | +367% | 70% | 17.9 |
-|  | 51 | 39 | 12 | +225% | 76% | 3.2 |
+|  | 66 | 54 | 12 | +350% | 82% | 4.5 |
 
 ---
 
@@ -88,7 +88,7 @@
 
 ###  (``)
 
-**Corpus size:** 51 papers
+**Corpus size:** 66 papers
 
 **Recent papers:**
 

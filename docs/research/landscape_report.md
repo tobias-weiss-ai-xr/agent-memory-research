@@ -1,20 +1,20 @@
 # Paper Landscape Report
 
 **Generated:** 2026-08-11  
-**Corpus:** 1,493 papers (1961-2027) | 1,228 arXiv preprints · 265 journal/publisher records
+**Corpus:** 1,508 papers (1961-2027) | 1,243 arXiv preprints · 265 journal/publisher records
 
 ## Category Landscape
 
 | Category | Total | Prev Yr | This Yr | YoY | 12m Share |
 |----------|------:|--------:|--------:|----:|----------:|
 | Factual | 686 | 165 | 397 | +141% | 46% |
-| Working | 448 | 80 | 279 | +249% | 30% |
+| Working | 448 | 80 | 279 | +249% | 29% |
 | Experiential | 308 | 88 | 164 | +86% | 20% |
-|  | 51 | 18 | 30 | +67% | 4% |
+|  | 66 | 18 | 45 | +150% | 5% |
 
 ## Research Aspects
 
-- ****: 51 papers (3%) #
+- ****: 66 papers (4%) ##
 - **Application**: 10 papers (1%) 
 - **Development**: 46 papers (3%) #
 - **Latent**: 106 papers (7%) ###
@@ -24,7 +24,7 @@
 - **Review**: 19 papers (1%) 
 - **Systems**: 18 papers (1%) 
 - **Theory**: 10 papers (1%) 
-- **Token Level**: 1086 papers (73%) ####################################
+- **Token Level**: 1086 papers (72%) ####################################
 
 ## Year Trend
 
@@ -59,7 +59,7 @@
 | 2023 | 67 |
 | 2024 | 106 |
 | 2025 | 351 |
-| 2026 | 870 |
+| 2026 | 885 |
 | 2027 | 1 |
 
 ## Emerging Themes (12-Month Bursts)
@@ -67,17 +67,17 @@
 | Keyword | Recent | Total | Burst |
 |---------|-------:|------:|------:|
 | bayesian | 4 | 4 | 1.41× |
-| uncertainty | 15 | 16 | 1.33× |
-| agentic | 238 | 258 | 1.3× |
+| uncertainty | 16 | 17 | 1.33× |
+| agentic | 240 | 260 | 1.3× |
 | offline | 35 | 38 | 1.3× |
-| skill | 78 | 88 | 1.25× |
-| transfer | 65 | 75 | 1.23× |
-| benchmark | 423 | 493 | 1.21× |
-| retrieval | 419 | 499 | 1.19× |
-| causal | 27 | 32 | 1.19× |
-| optimization | 101 | 121 | 1.18× |
-| agent | 964 | 1210 | 1.13× |
-| multimodal | 76 | 95 | 1.13× |
+| skill | 79 | 89 | 1.25× |
+| transfer | 67 | 77 | 1.23× |
+| benchmark | 428 | 498 | 1.21× |
+| retrieval | 426 | 506 | 1.19× |
+| causal | 28 | 33 | 1.19× |
+| optimization | 102 | 122 | 1.18× |
+| agent | 978 | 1224 | 1.13× |
+| multimodal | 78 | 97 | 1.13× |
 
 ## Top Venues
 
@@ -114,8 +114,8 @@
 - `factual/token-level` — 563
 - `working/token-level` — 299
 - `experiential/token-level` — 224
+- `/` — 66
 - `working/latent` — 55
-- `/` — 51
 - `factual/latent` — 34
 - `factual/method` — 29
 - `working/method` — 28

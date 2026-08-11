@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_papers": 1493,
+    "total_papers": 1508,
     "generated_date": "2027-01",
     "taxonomy": {
       "categories": 4,
@@ -15,13 +15,13 @@
     }
   },
   "by_category": {
-    "": 51,
+    "": 66,
     "experiential": 308,
     "factual": 686,
     "working": 448
   },
   "by_subcategory": {
-    "": 51,
+    "": 66,
     "application": 10,
     "development": 46,
     "latent": 106,
@@ -63,15 +63,15 @@
     "2023": 67,
     "2024": 106,
     "2025": 351,
-    "2026": 870,
+    "2026": 885,
     "2027": 1
   },
   "by_cell": {
     "factual/token-level": 563,
     "working/token-level": 299,
     "experiential/token-level": 224,
+    "/": 66,
     "working/latent": 55,
-    "/": 51,
     "factual/latent": 34,
     "factual/method": 29,
     "working/method": 28,
@@ -100,11 +100,11 @@
     },
     {
       "keyword": "uncertainty",
-      "papers": 15
+      "papers": 16
     },
     {
       "keyword": "agentic",
-      "papers": 238
+      "papers": 240
     },
     {
       "keyword": "offline",
@@ -112,23 +112,23 @@
     },
     {
       "keyword": "skill",
-      "papers": 78
+      "papers": 79
     },
     {
       "keyword": "transfer",
-      "papers": 65
+      "papers": 67
     },
     {
       "keyword": "benchmark",
-      "papers": 423
+      "papers": 428
     },
     {
       "keyword": "policy",
-      "papers": 113
+      "papers": 117
     },
     {
       "keyword": "retrieval",
-      "papers": 419
+      "papers": 426
     }
   ],
   "momentum": [
@@ -168,20 +168,20 @@
     {
       "id": "",
       "name": "",
-      "total": 51,
-      "recent": 39,
+      "total": 66,
+      "recent": 54,
       "prior": 12,
-      "growth_pct": 225.0,
-      "recent_share": 0.765,
-      "papers_per_month": 3.2,
-      "score": 301.5
+      "growth_pct": 350.0,
+      "recent_share": 0.818,
+      "papers_per_month": 4.5,
+      "score": 431.8
     }
   ],
   "category_trajectory": {
     "": {
       "2024": 3,
       "2025": 18,
-      "2026": 30
+      "2026": 45
     },
     "experiential": {
       "2004": 1,
@@ -247,7 +247,7 @@
       "recent": 4,
       "total": 4,
       "burst_score": 1.41,
-      "recent_share": 0.0038
+      "recent_share": 0.0037
     },
     {
       "keyword": "opponent",
@@ -258,98 +258,98 @@
     },
     {
       "keyword": "uncertainty",
-      "recent": 15,
-      "total": 16,
+      "recent": 16,
+      "total": 17,
       "burst_score": 1.33,
-      "recent_share": 0.0142
+      "recent_share": 0.0149
     },
     {
       "keyword": "agentic",
-      "recent": 238,
-      "total": 258,
+      "recent": 240,
+      "total": 260,
       "burst_score": 1.3,
-      "recent_share": 0.2254
+      "recent_share": 0.2241
     },
     {
       "keyword": "offline",
       "recent": 35,
       "total": 38,
       "burst_score": 1.3,
-      "recent_share": 0.0331
+      "recent_share": 0.0327
     },
     {
       "keyword": "skill",
-      "recent": 78,
-      "total": 88,
+      "recent": 79,
+      "total": 89,
       "burst_score": 1.25,
-      "recent_share": 0.0739
+      "recent_share": 0.0738
     },
     {
       "keyword": "transfer",
-      "recent": 65,
-      "total": 75,
+      "recent": 67,
+      "total": 77,
       "burst_score": 1.23,
-      "recent_share": 0.0616
+      "recent_share": 0.0626
     },
     {
       "keyword": "benchmark",
-      "recent": 423,
-      "total": 493,
+      "recent": 428,
+      "total": 498,
       "burst_score": 1.21,
-      "recent_share": 0.4006
+      "recent_share": 0.3996
     },
     {
       "keyword": "policy",
-      "recent": 113,
-      "total": 132,
+      "recent": 117,
+      "total": 136,
       "burst_score": 1.21,
-      "recent_share": 0.107
+      "recent_share": 0.1092
     },
     {
       "keyword": "retrieval",
-      "recent": 419,
-      "total": 499,
+      "recent": 426,
+      "total": 506,
       "burst_score": 1.19,
-      "recent_share": 0.3968
+      "recent_share": 0.3978
     },
     {
       "keyword": "reward",
-      "recent": 76,
-      "total": 90,
+      "recent": 77,
+      "total": 91,
       "burst_score": 1.19,
-      "recent_share": 0.072
+      "recent_share": 0.0719
     },
     {
       "keyword": "causal",
-      "recent": 27,
-      "total": 32,
+      "recent": 28,
+      "total": 33,
       "burst_score": 1.19,
-      "recent_share": 0.0256
+      "recent_share": 0.0261
     },
     {
       "keyword": "optimization",
-      "recent": 101,
-      "total": 121,
+      "recent": 102,
+      "total": 122,
       "burst_score": 1.18,
-      "recent_share": 0.0956
+      "recent_share": 0.0952
     },
     {
       "keyword": "agent",
-      "recent": 964,
-      "total": 1210,
+      "recent": 978,
+      "total": 1224,
       "burst_score": 1.13,
-      "recent_share": 0.9129
+      "recent_share": 0.9132
     },
     {
       "keyword": "multimodal",
-      "recent": 76,
-      "total": 95,
+      "recent": 78,
+      "total": 97,
       "burst_score": 1.13,
-      "recent_share": 0.072
+      "recent_share": 0.0728
     }
   ],
   "source_breakdown": {
-    "arxiv": 1228,
+    "arxiv": 1243,
     "doi": 115,
     "other": 150
   },

@@ -18,4 +18,4 @@ Evidence-based topic: 308 curated papers, 164 in the last 12 months.
 
 ## 
 
-Evidence-based topic: 51 curated papers, 30 in the last 12 months.
+Evidence-based topic: 66 curated papers, 45 in the last 12 months.
