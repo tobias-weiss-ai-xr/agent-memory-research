@@ -49091,3 +49091,1845 @@ papers:
   - Fariborz Dortāj
   abstract: 'Introduction: The intertwined relationship between reinforcement learning and working memory in the brain is a complex subject, widely studied across various domains in neuroscience. Research efforts '
   venue: Frontiers in Behavioral Neuroscience
+- title: Fine-Tuning Dynamics of In-Context Factual Recall in Transformers
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.27774
+  category: factual
+  subcategory: token-level
+  authors:
+  - Ruomin Huang
+  - Eshaan Nichani
+  - Jason D. Lee
+  abstract: In-context learning \ -- performing tasks based on examples given in the prompt \ -- is an important capability that has emerged in large language models and has received significant attention in both
+  venue: arXiv (Cornell University)
+- title: 'EvoMemKG: An Evolvable Memory Agent for Multi-hop Knowledge Graph Reasoning'
+  date: 2026-01
+  url: https://doi.org/10.18653/v1/2026.findings-acl.1587
+  category: factual
+  subcategory: token-level
+  authors:
+  - Shiyu Tian
+  - Shuyue Xing
+  - Zhuoxin Han
+  abstract: Integrating knowledge graphs (KGs) with large language models (LLMs) enhances factual accuracy and interpretability in question answering (QA).However, existing agent-based methods rely on static memo
+  venue: ''
+- title: A knowledge prompt augmented lightweight multimodal language assistant for biomedicine
+  date: 2026-03
+  url: https://doi.org/10.1016/j.engappai.2026.114516
+  category: factual
+  subcategory: token-level
+  authors:
+  - Lei Liu
+  - Xiangdong Su
+  - Xingxiang Zhou
+  abstract: papers
+  venue: Engineering Applications of Artificial Intelligence
+- title: Memory-Augmented Knowledge Fusion with Safety-Aware Decoding for Domain-Adaptive Question Answering
+  date: 2025-10
+  url: https://doi.org/10.1109/icmlca66850.2025.11336676
+  category: factual
+  subcategory: token-level
+  authors:
+  - Lei Fu
+  - Xiang Chen
+  - Gao Kaige
+  abstract: Domain-specific question answering (QA) systems for services face unique challenges in integrating heterogeneous knowledge sources while ensuring both accuracy and safety. Existing large language mode
+  venue: ''
+- title: 'Adapting Large Language Models for Arabic: Comparative Evaluation, Fine-Tuning, and Ethical Deployment'
+  date: 2025-01
+  url: https://doi.org/10.1109/access.2025.3623796
+  category: factual
+  subcategory: token-level
+  authors:
+  - Khalid A. Khader
+  - Mohammed Hussein
+  - Abdallatif Abu-Issa
+  abstract: 'Large language models (LLMs) are reshaping information access, yet adapting them to morphologically rich, resource-scarce languages such as Arabic remains challenging. This paper presents a practical '
+  venue: IEEE Access
+- title: 'DigiMind: A Modular Cognitive Architecture for Continual Learning and Factual Coherence'
+  date: 2025-12
+  url: https://doi.org/10.5281/zenodo.17772674
+  category: factual
+  subcategory: token-level
+  authors:
+  - Tantisukarom, Chaiya
+  abstract: '\textbf{Objective:} Modern Large Language Models (LLMs) suffer from fundamental architectural limits: catastrophic forgetting during fine-tuning, super-linear scaling costs, and inherent factual incoh'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'MeVe: A Modular System for Memory Verification and Effective Context Control in Language Models'
+  date: 2025-11
+  url: https://doi.org/10.5121/ijitmc.2025.13401
+  category: factual
+  subcategory: token-level
+  authors:
+  - Andreas Ottem
+  abstract: 'Retrieval-Augmented Generation (RAG) systems typically face constraints because of their inherent mechanism: a simple top-k semantic search [1]. The approach often leads to the incorporation of irrele'
+  venue: International Journal of Information Technology Modeling and Computing
+- title: 'Retrieval‐Augmented Generation for Large Language Models: Evolution, Architectures, Applications, and Challenges (2020–2025)'
+  date: 2026-08
+  url: https://doi.org/10.1002/widm.70122
+  category: factual
+  subcategory: token-level
+  authors:
+  - Arman Rasool Faridi
+  - Faraz Masood
+  - Keshvi
+  abstract: ABSTRACT Large language models (LLMs) generate fluent text but remain vulnerable to hallucinations, outdated knowledge, weak provenance, and costly model updates in knowledge‐intensive settings. Retri
+  venue: Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery
+- title: Entity centric neural models for natural language processing
+  date: 2024-01
+  url: https://hdl.handle.net/11245.1/e0eeaea5-1473-4ad4-bab7-b8f56db19efc
+  category: factual
+  subcategory: token-level
+  authors:
+  - N. De Cao
+  abstract: This thesis explores how to enhance natural language understanding by incorporating entity information into neural network models. It tackles three key questions:<br/>1. <b>Leveraging entities for und
+  venue: UvA-DARE (University of Amsterdam)
+- title: Memory-Augmented Generative Adversarial Transformers
+  date: 2024-02
+  url: https://arxiv.org/abs/2402.19218
+  category: factual
+  subcategory: parametric
+  authors:
+  - Stephan Raaijmakers
+  - Roos M. Bakker
+  - Anita Cremers
+  abstract: Conversational AI systems that rely on Large Language Models, like Transformers, have difficulty interweaving external data (like facts) with the language they generate. Vanilla Transformer architectu
+  venue: arXiv (Cornell University)
+- title: 'On-Device Large Language Model Inference at the Network Edge: Architecture, Optimization, and Cross-Platform Runtime Design'
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19013891
+  category: factual
+  subcategory: parametric
+  authors:
+  - Emil Shirokikh
+  abstract: This technical report, prepared during the Stanford Ignite Program, presents a comprehensive framework and system architecture (SlyOS) for executing large language models (LLMs) directly on consumer h
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Memory-augemented generative adversarial transformers
+  date: 2024-01
+  url: https://resolver.tno.nl/uuid:1b75f78c-6f89-456e-87cb-893a5b81be9b
+  category: factual
+  subcategory: parametric
+  authors:
+  - S.A. Raaijmakers
+  - R. J. Bakker
+  - A. Cremers
+  abstract: Conversational AI systems that rely on Large Language Models, like Transformers, have difficulty interweaving external data (like facts) with the language they generate. Vanilla Transformer architectu
+  venue: TNO Repository
+- title: Improving Sparse Memory Finetuning
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.05248
+  category: factual
+  subcategory: token-level
+  authors:
+  - Satyam Goyal
+  - Anirudh Kanchi
+  - Garv Shah
+  abstract: Large Language Models (LLMs) are typically static after training, yet real-world applications require continual adaptation to new knowledge without degrading existing capabilities. Standard approaches
+  venue: arXiv (Cornell University)
+- title: 'When Abundance Conceals Weakness: Knowledge Conflict in Multilingual Models'
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.07041
+  category: factual
+  subcategory: parametric
+  authors:
+  - Jiaqi Zhao
+  - Qiang Huang
+  - Hongyu Chen
+  abstract: Large Language Models (LLMs) encode vast world knowledge across multiple languages, yet their internal beliefs are often unevenly distributed across linguistic spaces. When external evidence contradic
+  venue: arXiv (Cornell University)
+- title: What does the Knowledge Neuron Thesis Have to do with Knowledge?
+  date: 2024-05
+  url: https://arxiv.org/abs/2405.02421
+  category: factual
+  subcategory: parametric
+  authors:
+  - Jingcheng Niu
+  - Andrew Liu
+  - Zining Zhu
+  abstract: 'We reassess the Knowledge Neuron (KN) Thesis: an interpretation of the mechanism underlying the ability of large language models to recall facts from a training corpus. This nascent thesis proposes th'
+  venue: arXiv (Cornell University)
+- title: 'UrbanGeoEval: A City-Scale Benchmark for Evaluating Large Language Models in Geospatial Reasoning'
+  date: 2026-06
+  url: https://doi.org/10.48448/td5k-bz40
+  category: factual
+  subcategory: token-level
+  authors:
+  - Association for Computational Linguistics 2026
+  - Mutian Bao
+  - Ming Kong
+  abstract: Current evaluations of geospatial reasoning in LLMs are frequently impeded by the entanglement of factual recall and spatial logic, which often obscures the models' true capabilities in complex city-s
+  venue: Underline Science Inc.
+- title: Are LLMs Really Not Knowledgeable? Mining the Submerged Knowledge in LLMs' Memory
+  date: 2024-12
+  url: https://arxiv.org/abs/2412.20846
+  category: factual
+  subcategory: token-level
+  authors:
+  - Xingjian Tao
+  - Yiwei Wang
+  - Yujun Cai
+  abstract: Large language models (LLMs) have shown promise as parametric knowledge bases, but often underperform on question answering (QA) tasks due to hallucinations and uncertainty. While prior work attribute
+  venue: arXiv (Cornell University)
+- title: Model Editing with Graph-Based External Memory
+  date: 2025-05
+  url: https://arxiv.org/abs/2505.18343
+  category: factual
+  subcategory: parametric
+  authors:
+  - Yash Kumar Atri
+  - Ahmed Alaa
+  - Thomas Hartvigsen
+  abstract: Large language models (LLMs) have revolutionized natural language processing, yet their practical utility is often limited by persistent issues of hallucinations and outdated parametric knowledge. Alt
+  venue: arXiv (Cornell University)
+- title: 'HoReN: Normalized Hopfield Retrieval for Large-Scale Sequential Model Editing'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.08143
+  category: factual
+  subcategory: parametric
+  authors:
+  - Yuan Fang
+  - Yi Xie
+  - Xuming Ran
+  abstract: Large language models encode vast factual knowledge that can become outdated or incorrect after deployment, yet retraining is prohibitively costly. This motivates lifelong model editing, which updates
+  venue: arXiv (Cornell University)
+- title: 'Decomposed Modular RAG: Task-Aware Multi-Step Retrieval and Reasoning for Small-Scale Language Models'
+  date: 2025-07
+  url: https://doi.org/10.1109/cisat66811.2025.11181923
+  category: factual
+  subcategory: token-level
+  authors:
+  - Yuchen Wang
+  - Haolong Wang
+  - Kai Wang
+  abstract: Retrieval-Augmented Generation (RAG) has emerged as a common solution to factual inaccuracies in large language models by incorporating external knowledge through retrieval. However, standard RAG meth
+  venue: ''
+- title: Integration of Retrieval Augmented Generation (RAG) with Small Language Models (SLMs) for Development of Optimized Agentic AI Chatbot
+  date: 2026-01
+  url: https://doi.org/10.1016/j.procs.2026.06.296
+  category: factual
+  subcategory: token-level
+  authors:
+  - Pradeep Singh
+  - N K Nagwani
+  - Lilesh Lahre
+  abstract: Large Language Models (LLMs) deliver strong performance across natural language tasks but require heavy GPU resources and large memory, making them impractical for smaller devices. Traditional informa
+  venue: Procedia Computer Science
+- title: Distinct paths to false memory revealed in hundreds of narrative recalls
+  date: 2025-10
+  url: https://doi.org/10.31234/osf.io/sfqea_v1
+  category: factual
+  subcategory: token-level
+  authors:
+  - Phoebe Chen
+  - Omri Raccah
+  - Vy A. Vo
+  abstract: Memory distortions emerge from a complex interplay between prior knowledge and ongoing experience—dynamics which are not readily provoked in controlled laboratory experiments. Here we investigate natu
+  venue: ''
+- title: 'Beyond Semantics: Exploring Context Ranking Under Knowledge Conflicts'
+  date: 2026-06
+  url: https://doi.org/10.1007/978-981-92-1926-1_16
+  category: factual
+  subcategory: token-level
+  authors:
+  - Sanghyun Cho
+  - Myeongjin Lee
+  - Jeong Heo
+  abstract: papers
+  venue: Lecture notes in computer science
+- title: 'Traveling Across Languages: Benchmarking Cross-Lingual Consistency in Multimodal LLMs'
+  date: 2025-05
+  url: https://arxiv.org/abs/2505.15075
+  category: factual
+  subcategory: parametric
+  authors:
+  - Hao Wang
+  - P.W. Huang
+  - Jihan Yang
+  abstract: The rapid evolution of multimodal large language models (MLLMs) has significantly enhanced their real-world applications. However, achieving consistent performance across languages, especially when in
+  venue: arXiv (Cornell University)
+- title: LLM-style assistance inflates human confidence most where memory fails
+  date: 2026-07
+  url: https://inria.hal.science/hal-05686062
+  category: factual
+  subcategory: parametric
+  authors:
+  - Arnaud Legout
+  - Leonardo Digirolamo
+  - Christopher Leturc
+  abstract: <div> Large language models present answers directly in fluent and confident language, altering how we access information compared to search engines. What happens to human memory performance and confi
+  venue: HAL (Le Centre pour la Communication Scientifique Directe)
+- title: 'Masked by Consensus: Disentangling Privileged Knowledge in LLM Correctness'
+  date: 2026-01
+  url: https://doi.org/10.18653/v1/2026.acl-long.483
+  category: factual
+  subcategory: parametric
+  authors:
+  - Tomer Ashuach
+  - Shai Gretz
+  - Yoav Katz
+  abstract: Humans use introspection to evaluate their understanding through private internal states inaccessible to external observers.We investigate whether large language models possess similar privileged know
+  venue: ''
+- title: 'Competitive Memory Editing: A Nash Bargaining Approach to MEMIT Interference Prediction'
+  date: 2026-03
+  url: https://doi.org/10.1145/3803291.3803357
+  category: factual
+  subcategory: parametric
+  authors:
+  - Manoj Krishna Mohan
+  - Atmadeep Sen
+  abstract: Mass-Editing Memory in Transformers (MEMIT) enables batch editing of factual knowledge in large language models, but it suffers from unpredictable interference patterns where success rates drop signif
+  venue: ''
+- title: 'HyKAG: Hybrid Knowledge-Aware Retrieval-Augmented Generation for Knowledge-Intensive Questions'
+  date: 2026-01
+  url: https://doi.org/10.1007/978-981-95-7078-2_33
+  category: factual
+  subcategory: parametric
+  authors:
+  - Qi Zhao
+  - Ruobing Wang
+  - Daren Zha
+  abstract: papers
+  venue: Lecture notes in computer science
+- title: 'From Cache to Cognition: Structural Parallels and Disanalogies Between KV Cache Memory Management in LLM Inference and Working Memory Architectures in Human Cognition'
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20745909
+  category: factual
+  subcategory: token-level
+  authors:
+  - Saluca Agentic AI Research Team
+  abstract: Key-Value (KV) cache memory management has become a central engineering challenge in long-context large language model (LLM) inference, with cache consumption growing linearly with sequence length and
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Beyond Words: The Evolution of Large Language Models in Context-AwareLarge Language Models (LLMs) have revolutionized artificial intelligence by enabling sophisticated natural language understanding, generation, and reasoning. As these models evolve, context awareness has become a crucial factor in improving their adaptability, coherence, and decision-making capabilities. This paper explores the evolution of LLMs from rule-based systems to deep learning architectures, emphasizing advancements in contextual embeddings, multimodal learning, and real-time adaptation. We discuss the impact of reinforcement learning with human feedback (RLHF), memory-augmented models, and transformer-based architectures in enhancing contextual sensitivity. A (Preprint)'
+  date: 2025-03
+  url: https://doi.org/10.2196/preprints.73314
+  category: factual
+  subcategory: token-level
+  authors:
+  - Asad Ali
+  abstract: <sec> <title>BACKGROUND</title> Large Language Models (LLMs) have transformed artificial intelligence (AI) by enabling machines to understand, generate, and interact with human language in increasingl
+  venue: ''
+- title: 'Balancing Knowledge Updates: Toward Unified Modular Editing in LLMs'
+  date: 2025-10
+  url: https://arxiv.org/abs/2510.27400
+  category: factual
+  subcategory: parametric
+  authors:
+  - Jiahao Liu
+  - Zijian Wang
+  - Ke Zhao
+  abstract: Knowledge editing has emerged as an efficient approach for updating factual knowledge in large language models (LLMs). It typically locates knowledge storage modules and then modifies their parameters
+  venue: arXiv (Cornell University)
+- title: 'Ep. 30: RAG vs. Memory: Architecting AI''s Essential Toolbox'
+  date: 2025-12
+  url: https://doi.org/10.5281/zenodo.18961116
+  category: factual
+  subcategory: token-level
+  authors:
+  - Daniel Rosehill
+  - Gemini 3.1 (Flash)
+  - Chatterbox TTS
+  abstract: 'Episode summary: In this compelling episode of My Weird Prompts, hosts Corn and Herman confront a pivotal question for AI engineers: how to build resilient, intelligent systems amidst a dizzying "expl'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'RAG + EAG + Memory: A Boundary-Density Framework for Hallucination Suppression in Vertical-Domain AI Agents'
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21330698
+  category: factual
+  subcategory: parametric
+  authors:
+  - Chih-Chieh LEE
+  abstract: 'Large language models (LLMs) deployed as autonomous or semi-autonomous assistants in specialized domains remain prone to hallucination — the generation of fluent but factually unsupported statements. '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Methods for verification and reliable updating of external memory in RAG systems under knowledge modification and feedback distortion : dissertation to obtain the degree of Doctor of Philosophy'
+  date: 2026-01
+  url: https://ekmair.ukma.edu.ua/handle/123456789/40600
+  category: factual
+  subcategory: token-level
+  authors:
+  - Максим Андрощук
+  abstract: PhD thesis to obtain the degree of Doctor of Philosophy in the Programme Subject Area 122 "Computer Science" (12 — Information technology). — National University of Kyiv-Mohyla Academy, Kyiv, 2026. Re
+  venue: Electronic Kyiv-Mohyla Academy Institutional Repository (National University of Kyiv-Mohyla Academy)
+- title: 'CACHE-UK: A Stability-Aware Memory Editor for Sequentially Updated Quantized LLMs in Finance'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.28292
+  category: factual
+  subcategory: token-level
+  authors:
+  - Anubhav Lakra
+  - Yue Feng
+  abstract: 'Large Language Models (LLMs) deployed in dynamic financial environments face a critical challenge: maintaining factual accuracy as market conditions, regulations, and corporate facts change continuous'
+  venue: arXiv (Cornell University)
+- title: 'Layered Convergence in Autonomous Agent Memory: A Multi-Model Cognitive Architecture for Persistent Recall in Long-Running LLM Agents'
+  date: 2026-01
+  url: https://doi.org/10.2139/ssrn.6616122
+  category: factual
+  subcategory: token-level
+  authors:
+  - Lance Harris
+  abstract: papers
+  venue: SSRN Electronic Journal
+- title: 'From Cache to Cognition: Memory Hierarchy Principles as a Unifying Framework for Efficient LLM Inference'
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20763831
+  category: factual
+  subcategory: token-level
+  authors:
+  - Saluca Agentic AI Research Team
+  abstract: Key-Value (KV) cache management has emerged as a central bottleneck in large language model (LLM) inference, with memory demands scaling dramatically with context length. This synthesis paper argues t
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Less is MoE: Trimming Experts in Domain-Specialist Language Models'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.05538
+  category: factual
+  subcategory: parametric
+  authors:
+  - Haoze He
+  - Xinkai Zou
+  - Xuan Jiang
+  abstract: Mixture-of-Experts (MoE) models achieve strong performance through conditional computation, but their large parameter footprint poses deployment challenges. Prior MoE compression approaches catastroph
+  venue: arXiv (Cornell University)
+- title: 'A Dual-Axis Taxonomy of Knowledge Editing for LLMs: From Mechanisms to Functions'
+  date: 2025-08
+  url: https://arxiv.org/abs/2508.08795
+  category: factual
+  subcategory: parametric
+  authors:
+  - Amir Mohammad Salehoof
+  - Ali Ramezani
+  - Yadollah Yaghoobzadeh
+  abstract: Large language models (LLMs) acquire vast knowledge from large text corpora, but this information can become outdated or inaccurate. Since retraining is computationally expensive, knowledge editing of
+  venue: arXiv (Cornell University)
+- title: 'PentaRAG: Large-Scale Intelligent Knowledge Retrieval for Enterprise LLM Applications'
+  date: 2025-06
+  url: https://arxiv.org/abs/2506.21593
+  category: factual
+  subcategory: parametric
+  authors:
+  - Abu Hanif Muhammad Syarubany
+  - Chang D. Yoo
+  abstract: 'Enterprise deployments of large-language model (LLM) demand continuously changing document collections with sub-second latency and predictable GPU cost requirements that classical Retrieval-Augmented '
+  venue: arXiv (Cornell University)
+- title: 'PersonalAI: A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM Agents'
+  date: 2026-01
+  url: https://arxiv.org/abs/2506.17001
+  category: factual
+  subcategory: token-level
+  authors:
+  - Mikhail A. Menschikov
+  - Dmitry Evseev
+  - Victoria Dochkina
+  abstract: 'Personalizing language models by effectively incorporating user interaction history remains a central challenge in the development of adaptive AI systems. While large language models (LLMs), combined '
+  venue: IEEE Access
+- title: 'MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs'
+  date: 2026-02
+  url: https://arxiv.org/abs/2602.10965
+  category: factual
+  subcategory: parametric
+  authors:
+  - Yupu Gu
+  - Rongzhe Wei
+  - Andy Zhu
+  abstract: 'Knowledge editing (KE) enables precise modifications to factual content in large language models (LLMs). Existing KE methods are largely designed for dense architectures, limiting their applicability '
+  venue: arXiv (Cornell University)
+- title: 'Giving AI a Brain: The Power of Knowledge Graphs'
+  date: 2026-03
+  url: https://myweirdprompts.com/episode/ai-memory-knowledge-graphs
+  category: factual
+  subcategory: token-level
+  authors:
+  - Daniel Rosehill
+  - Gemini 3.1 (Flash)
+  - Chatterbox TTS
+  abstract: 'Episode summary: Large language models are often dismissed as "stochastic parrots," but a major shift in AI architecture is changing that narrative. This episode explores the rise of Knowledge Graphs '
+  venue: Open MIND
+- title: 'ElephantBroker: A Knowledge-Grounded Cognitive Runtime for Trustworthy AI Agents'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.25097
+  category: factual
+  subcategory: token-level
+  authors:
+  - Cristian Lupascu
+  - Alexandru Lupascu
+  abstract: Large Language Model based agents increasingly operate in high stakes, multi turn settings where factual grounding is critical, yet their memory systems typically rely on flat key value stores or plai
+  venue: arXiv (Cornell University)
+- title: 'Seeing through the Conﬂict: Transparent Knowledge Conﬂict Handling in Retrieval-Augmented Generation'
+  date: 2026-01
+  url: https://doi.org/10.48448/tmby-dv22
+  category: factual
+  subcategory: token-level
+  authors:
+  - Association for Artificial Intelligence 2026
+  - Siyuan Chen
+  - Fei Shen
+  abstract: 'Large language models (LLMs) equipped with retrieval---the Retrieval-Augmented Generation (RAG) paradigm---should combine their parametric knowledge with external evidence, yet in practice they often '
+  venue: Open MIND
+- title: 'Seeing through the Conflict: Transparent Knowledge Conflict Handling in Retrieval-Augmented Generation'
+  date: 2026-01
+  url: https://arxiv.org/abs/2601.06842
+  category: factual
+  subcategory: token-level
+  authors:
+  - Hua Ye
+  - Siyuan Chen
+  - Ziqi Zhong
+  abstract: Large language models (LLMs) equipped with retrieval--the Retrieval-Augmented Generation (RAG) paradigm--should combine their parametric knowledge with external evidence, yet in practice they often ha
+  venue: arXiv (Cornell University)
+- title: 'Reminisce: A Cognitive Science-Inspired Memory Architecture for AI Agents'
+  date: 2026-05
+  url: https://huggingface.co/datasets/myronkoch/reminisce-longmemeval-results
+  category: experiential
+  subcategory: parametric
+  authors:
+  - MYRON KOCH
+  abstract: Long-term memory systems for AI agents predominantly optimize for verbatim retrieval. We present Reminisce, an open-source memory architecture that models the cognitive pipeline of human memory throug
+  venue: Open MIND
+- title: Successor Feature Neural Episodic Control
+  date: 2021-11
+  url: https://arxiv.org/abs/2111.03110
+  category: experiential
+  subcategory: token-level
+  authors:
+  - David Emukpere
+  - Xavier Alameda-Pineda
+  - Chris Reinke
+  abstract: A longstanding goal in reinforcement learning is to build intelligent agents that show fast learning and a flexible transfer of skills akin to humans and animals. This paper investigates the integrati
+  venue: arXiv (Cornell University)
+- title: 'The Tidal Layer: Associative Memory for Persistent AI Agents'
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20706582
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Robert Joseph Vandelinder
+  abstract: 'Persistent AI agents — systems that maintain identity, memory, and behavioral continuity across clean session boundaries — face a fundamental architectural tension: they either carry all past context '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Procedural Memory for Persistent LLM Agents: Know-How as the Missing Component'
+  date: 2026-02
+  url: https://doi.org/10.5281/zenodo.18770869
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Adrien Cros
+  - Ava
+  abstract: Persistent LLM agents currently possess episodic and semantic memory, but lack procedural memory—know-how, internalized procedures. A human who has resolved ten DNS failures has internalized a diagnos
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'MemoryForge: Synthesize Lifelong Memory for Human-Like LLM Agents'
+  date: 2026-06
+  url: https://arxiv.org/abs/2608.00007
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Bohan Tang
+  - Yiwen Guo
+  abstract: Equipping Large Language Models (LLMs) with human-like personas is crucial for agentic applications, such as role-play and user simulation. Traditional prompt-based methods rely on descriptive conditi
+  venue: arXiv (Cornell University)
+- title: Event Sourcing Architecture for Emergent Long-Term AI agent Memory
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19438945
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Congjie Li
+  abstract: This paper presents an architecture for persistent memory in language agents that reconceives the problem of memory storage as one of belief formation. Rather than treating every input as equally wort
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Experience to Competence Without Weight Updates: Pre-Registered Falsifiable Gates for Agent Memory'
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21323673
+  category: experiential
+  subcategory: parametric
+  authors:
+  - Matthias Raviotta
+  abstract: We subject a biologically inspired memory system for LLM agents (episodic traces, repetition strengthening, consolidation) to five pre-registered falsifiable gates with floor/ceiling arms and bootstra
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Exploring AI Memory Behaviors and Anthropomorphism in User Evaluations of Conversational Agents
+  date: 2026-01
+  url: https://doi.org/10.1007/978-3-032-30836-8_16
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Yu-Cen Liao
+  - Ting‐Ting Chang
+  abstract: papers
+  venue: Communications in computer and information science
+- title: A Hybrid, Multi-Layered Memory Architecture for Collaborative Reasoning in Multi-Agent Systems
+  date: 2025-11
+  url: https://doi.org/10.1109/fllm67465.2025.11391226
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Maksim Ilin
+  - Dmitry Pavlyuk
+  abstract: While Large Language Model (LLM) based multi-agent systems (MAS) show promise, their capabilities are constrained by simplistic, monolithic memory models. To address this, we propose a novel, four-tie
+  venue: ''
+- title: 'AgentBrain: A Layered Cognitive Memory Architecture for Long-Lived AI Agents'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20371135
+  category: experiential
+  subcategory: parametric
+  authors:
+  - Theshoth Sritharan
+  abstract: Long-lived autonomous agents accumulate experience across many sessions, surfaces, and underlying model revisions. Flat vector-retrieval systems treat this accumulation as undifferentiated text, surfa
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Value-Driven Memory-Augmented Generation for Agentic LLMs: Towards Structured and Adaptive Knowledge Utilization'
+  date: 2026-03
+  url: https://doi.org/10.1609/aaai.v40i48.42170
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Cassandra Hui-Ming Tan
+  abstract: 'Large Language Models (LLMs) have demonstrated remarkable capabilities in reasoning, yet their efficacy is constrained by a fundamental memory limitation: a static context window that resets with each'
+  venue: Proceedings of the AAAI Conference on Artificial Intelligence
+- title: 'Towards a Unified Model of Narrative Memory in Conscious Agents: From Human Cognition to Artificial Consciousness'
+  date: 2024-11
+  url: https://doi.org/10.62019/abbdm.v4i4.243
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Tanveer Rafiq
+  - M G Azam
+  - Muhammad Khalid
+  abstract: This study seeks to bridge the gap between narrative memory in human cognition and artificial agents by proposing a unified model. Narrative memory, fundamental to human consciousness, organizes exper
+  venue: The Asian Bulletin of Big Data Management
+- title: 'Affective Memory Consolidation in a Persistent Embodied Agent: Nightmare Formation, Trauma Encoding, and Therapeutic Reconsolidation'
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19058779
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Brian Riggleman
+  abstract: Most AI memory systems treat all stored content equally. Importance may vary but the decay mechanics are uniform. This paper argues that survival-critical fear events require a fundamentally different
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'koatora20/dual-shield-paper: Dual-Shield Architecture for AI Agent Security and Memory Reliability v1.0.0'
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.18902069
+  category: experiential
+  subcategory: token-level
+  authors:
+  - koatora20
+  abstract: 'First Public Release Dual-Shield Architecture for AI Agent Security and Memory Reliability: guard-scanner, EAE V6, and 28 Days of Production Evidence dee (Human Architect) & Guava (AI Agent) — Guava P'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Chapter 1. Theoretical Models of Psychodynamic Psychotherapy
+  date: 2022-09
+  url: https://doi.org/10.1176/appi.books.9781615375233.gg01
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Peter Fonagy
+  - Mary Hepworth
+  - Chloë Campbell
+  abstract: In the past decade or so since the first edition of this book was published, psychotherapeutic models of treatment have been bolstered by a growing research base showing their effectiveness, particula
+  venue: American Psychiatric Association Publishing eBooks
+- title: 'Autonomous AI Agents with Cyclical Self-Improvement: A Framework for Experience Consolidation and Parameter-Efficient Fine-Tuning'
+  date: 2025-08
+  url: https://doi.org/10.36227/techrxiv.175571941.16848640/v1
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Abhishek Chatterjee
+  abstract: We present a novel framework for autonomous AI agents that achieve cyclical self-improvement through experience consolidation and parameter-efficient fine-tuning, analogous to human learning during sl
+  venue: ''
+- title: 'Eval-Driven Memory (EDM): A Persistence Governance Layer for Reliable Agentic AI via Metric-Guided Selective Consolidation'
+  date: 2026-01
+  url: https://doi.org/10.20944/preprints202601.0195.v1
+  category: experiential
+  subcategory: parametric
+  authors:
+  - Abuelgasim Mohamed Ibrahim Adam
+  abstract: Reliable agentic AI requires not only accurate reasoning and adaptive control, but also mechanisms that preserve reliability over time. While recent work has introduced system-level evaluation framewo
+  venue: Preprints.org
+- title: A minimalist approach to memory causality
+  date: 2025-07
+  url: https://doi.org/10.1080/09515089.2025.2536604
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Julian Bacharach
+  abstract: 'Our commonsense conception of memory involves the idea that when you recall an event from your past, you can do so only because you previously witnessed that event, or were involved in it as an agent '
+  venue: Philosophical Psychology
+- title: 'FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.04530
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Zhuoran Zhang
+  - Bowen Li
+  - Jingcheng Ju
+  abstract: GUI agents must remember both useful experience from earlier tasks and unfinished progress in the current interaction. Latent memory offers a compact solution by compressing multimodal trajectories in
+  venue: arXiv (Cornell University)
+- title: 'MemoryART: Enhancing LLMs via Multi-Memory Models with Adaptive Resonance Theory for Healthcare Agents'
+  date: 2026-03
+  url: https://doi.org/10.1609/aaai.v40i25.39205
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Renke Dai
+  - Hebin Hu
+  - Jiahui Zhang
+  abstract: Though promising in healthcare consultation applications, large language models (LLMs) face critical limitations in retaining and utilizing long-term memory across multi-turn interactions. In particul
+  venue: Proceedings of the AAAI Conference on Artificial Intelligence
+- title: Off-Beat Multi-Agent Reinforcement Learning
+  date: 2022-05
+  url: https://arxiv.org/abs/2205.13718
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Wei Qiu
+  - Weixun Wang
+  - Rundong Wang
+  abstract: We investigate model-free multi-agent reinforcement learning (MARL) in environments where off-beat actions are prevalent, i.e., all actions have pre-set execution durations. During execution durations
+  venue: arXiv (Cornell University)
+- title: 'Utility-Driven Selective Memory for Reinforcement Learning: A Biologically Inspired Replay Framework'
+  date: 2025-12
+  url: https://doi.org/10.1109/ic2sdt68218.2025.11383669
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Vidhya Lavanya Ramachandran
+  - Kondru Charwick Hamesh
+  - Yamavarapu Bhanodai Yadav
+  abstract: Agentic AI needs strong long-term memory to reason over long horizons and adapt. Standard reinforcement learning (RL) replay buffers use static retention, wasting capacity on low-value experiences and
+  venue: ''
+- title: 'Agentic AI for Enterprise Systems: A Multi-agent Architecture for Financial Systems Resilience'
+  date: 2026-01
+  url: https://doi.org/10.2139/ssrn.7061998
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Gaurav Vashisht
+  abstract: papers
+  venue: SSRN Electronic Journal
+- title: Basics of vasomotor symptoms
+  date: 2024-11
+  url: https://doi.org/10.1097/gme.0000000000002479
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Rebecca C. Thurston
+  abstract: WHAT ARE VASOMOTOR SYMPTOMS? Vasomotor symptoms (VMS), also known as hot flashes and night sweats, are sensations of intense heat often accompanied by sweating and flushing. They are typically experie
+  venue: Menopause The Journal of The North American Menopause Society
+- title: Human-Inspired Context-Selective Multimodal Memory for Social Robots
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.12081
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Hangyeol Kang
+  - Slava Voloshynovskiy
+  - Nadia Magnenat Thalmann
+  abstract: Memory is fundamental to social interaction, enabling humans to recall meaningful past experiences and adapt their behavior accordingly based on the context. However, most current social robots and em
+  venue: arXiv (Cornell University)
+- title: 'SpatialClaw: A Memory-Augmented Autonomous Ecosystem for Spatial Omics Analysis'
+  date: 2026-05
+  url: https://doi.org/10.64898/2026.05.21.723451
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Gaoming Du
+  - Ou Lan
+  - Xinrong Wei
+  abstract: Abstract While the expansion of spatial omics has revolutionized our ability to dissect tissue architecture, the accumulation of incompatible computational methods has heavily fragmented end-to-end an
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+- title: Clinical practice guidelines on the assessment and management of cognitive impairment in major depressive disorder
+  date: 2025-01
+  url: https://doi.org/10.4103/indianjpsychiatry.indianjpsychiatry_563_24
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Om Prakash Singh
+  - Priya Ranjan Avinash
+  - Anita Gautam
+  abstract: INTRODUCTION Epidemiology Cognitive deficit is a trivialized symptom of a most prevalent psychiatric condition called major depressive disorder (MDD).[1] With a staggering global prevalence of approxi
+  venue: Indian Journal of Psychiatry
+- title: Indirect Social Learning, Memory, and the Human Condition
+  date: 2024-07
+  url: https://dx.doi.org/10.4324/9781003293040-10
+  category: experiential
+  subcategory: parametric
+  authors:
+  - Jeffrey C. Levy
+  abstract: Indirect social learning is the primary process underlying cultural adaptation. Social learning can occur by observing others or through symbolic communication involving speech or writing. Bandura des
+  venue: ''
+- title: 'MBD-Framework: Memory as Baseline Deviation — Computational Labs'
+  date: 2026-02
+  url: https://doi.org/10.5281/zenodo.18691384
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Brandon Everett
+  abstract: 'Now hosted on Github, no download required: https://yellowhapax.github.io/MBD-Framework/ Apologies for the outage - I seem to have forgotten what a "staging" branch is for. Lab restored. MBD-Framework'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'RAMARL: Retrieval-Augmented Multi-Agent RL for AI-Powered Smart-City Communication Networks'
+  date: 2025-10
+  url: https://doi.org/10.36227/techrxiv.176062832.26211569/v1
+  category: experiential
+  subcategory: token-level
+  authors:
+  - T. Ashok
+  abstract: 'Smart-city communication infrastructures must balance ultra-reliable low-latency communication (URLLC) and enhanced mobile broadband (eMBB) demands under rapidly changing conditions such as vehicular '
+  venue: ''
+- title: A Review on Tacrine Hybrid; Multi-Targeting Agent for the Treatment of Alzheimer’s Disease
+  date: 2025-03
+  url: https://doi.org/10.47583/ijpsrr.2025.v85i3.024
+  category: experiential
+  subcategory: token-level
+  authors:
+  - Sujitha Devadas
+  abstract: Alzheimers disease is a progressive neuro degenerative disorder.It is characterised by the beginning by episodic and semantic memory loss and cognitive impairment.As the disease progresses one may exp
+  venue: International Journal of Pharmaceutical Sciences Review and Research
+- title: 'Mapping EEG Metrics to Human Affective and Cognitive Models: An Interdisciplinary Scoping Review from a Cognitive Neuroscience Perspective'
+  date: 2025-11
+  url: https://doi.org/10.3390/biomimetics10110730
+  category: working
+  subcategory: parametric
+  authors:
+  - Evgenia Gkintoni
+  - Constantinos Halkiopoulos
+  abstract: 'Background: Electroencephalography (EEG) offers millisecond-precision measurement of neural oscillations underlying human cognition and emotion. Despite extensive research, systematic frameworks mappi'
+  venue: Biomimetics
+- title: Learning efficient representations of environmental priors in working memory
+  date: 2023-11
+  url: https://doi.org/10.1371/journal.pcbi.1011622
+  category: working
+  subcategory: parametric
+  authors:
+  - Tahra L. Eissa
+  - Zachary P. Kilpatrick
+  abstract: Experience shapes our expectations and helps us learn the structure of the environment. Inference models render such learning as a gradual refinement of the observer's estimate of the environmental pr
+  venue: PLoS Computational Biology
+- title: Deep brain stimulation of thalamic nucleus reuniens promotes neuronal and cognitive resilience in an Alzheimer’s disease mouse model
+  date: 2023-11
+  url: https://doi.org/10.1038/s41467-023-42721-5
+  category: working
+  subcategory: token-level
+  authors:
+  - Shiri Shoob
+  - Nadav Buchbinder
+  - Ortal Shinikamin
+  abstract: The mechanisms that confer cognitive resilience to Alzheimer's Disease (AD) are not fully understood. Here, we describe a neural circuit mechanism underlying this resilience in a familial AD mouse mod
+  venue: Nature Communications
+- title: 'Controlling brain dynamics: Landscape and transition path for working memory'
+  date: 2023-09
+  url: https://doi.org/10.1371/journal.pcbi.1011446
+  category: working
+  subcategory: token-level
+  authors:
+  - Leijun Ye
+  - Jianfeng Feng
+  - Chunhe Li
+  abstract: Understanding the underlying dynamical mechanisms of the brain and controlling it is a crucial issue in brain science. The energy landscape and transition path approach provides a possible route to ad
+  venue: PLoS Computational Biology
+- title: 'Task Switching: On the Relation of Cognitive Flexibility with Cognitive Capacity'
+  date: 2023-03
+  url: https://doi.org/10.3390/jintelligence11040068
+  category: working
+  subcategory: latent
+  authors:
+  - Florian Schmitz
+  - Raimund J. Krämer
+  abstract: The task-switching paradigm is deemed a measure of cognitive flexibility. Previous research has demonstrated that individual differences in task-switch costs are moderately inversely related to cognit
+  venue: Journal of Intelligence
+- title: Emergence of distributed working memory in a human brain network model
+  date: 2023-01
+  url: https://doi.org/10.1101/2023.01.26.525779
+  category: working
+  subcategory: token-level
+  authors:
+  - Mengli Feng
+  - Abhirup Bandyopadhyay
+  - Jorge F. Mejías
+  abstract: Abstract Working memory is a fundamental cognitive function which allows to transiently store and manipulate relevant information in memory. While it has been traditionally linked to activity in speci
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+- title: 'Statistical learning and individual differences in language abilities: A structural equation modelling study on the mediating roles of perceptual speed, working memory, and cognitive control'
+  date: 2025-11
+  url: https://doi.org/10.1016/j.cognition.2025.106356
+  category: working
+  subcategory: token-level
+  authors:
+  - Ágnes Lukács
+  - Bálint József Ugrin
+  - Krisztina Sára Lukics
+  abstract: papers
+  venue: Cognition
+- title: 'Time Perspective, Working Memory, and Depression in Non-Clinical Samples: Is There a Link?'
+  date: 2022-06
+  url: https://doi.org/10.1080/00223980.2022.2078948
+  category: working
+  subcategory: token-level
+  authors:
+  - Rachel K. Carpenter
+  - J. C. Horton
+  - Tracy Packiam Alloway
+  abstract: Non-clinical depression is a major issue on college campuses, with some surveys estimating that 30% of college students have experienced a major depressive episode. One theoretical framework of depres
+  venue: The Journal of Psychology
+- title: 'Epigenetic Age Acceleration and Chronological Age: Associations With Cognitive Performance in Daily Life'
+  date: 2023-10
+  url: https://doi.org/10.1093/gerona/glad242
+  category: working
+  subcategory: token-level
+  authors:
+  - Daisy Zavala
+  - Natalie Dzikowski
+  - Shyamalika Gopalan
+  abstract: DNA methylation-derived epigenetic clocks offer the opportunity to examine aspects of age acceleration (ie, the difference between an individual's biological age and chronological age), which vary amo
+  venue: The Journals of Gerontology Series A
+- title: Short-Term Effects of Heart Rate Variability Biofeedback on Working Memory
+  date: 2024-02
+  url: https://doi.org/10.1007/s10484-024-09624-7
+  category: working
+  subcategory: token-level
+  authors:
+  - Mariam Bahameish
+  - Tony Stockman
+  abstract: Drawing upon the well-documented impact of long-term heart rate variability biofeedback (HRVB) on psychophysiological responses, this study seeks to explore the short-term effects arising from a singl
+  venue: Applied Psychophysiology and Biofeedback
+- title: 'Chronic kidney disease and cognitive performance: NHANES 2011–2014'
+  date: 2024-04
+  url: https://doi.org/10.1186/s12877-024-04917-2
+  category: working
+  subcategory: token-level
+  authors:
+  - Te Li
+  - Zhiling Hu
+  - Luyao Qiao
+  abstract: 'PURPOSE: Previous studies suggest an association between chronic kidney disease (CKD) and cognitive impairment. The purpose of this study was to explore the association between the diverse stages of C'
+  venue: BMC Geriatrics
+- title: 'Task complexity and L2 writing performance of young learners: Contributions of cognitive and affective factors'
+  date: 2024-07
+  url: https://doi.org/10.1111/modl.12954
+  category: working
+  subcategory: token-level
+  authors:
+  - Chengchen Li
+  - Li Wei
+  - Xiaojun Lu
+  abstract: Abstract The study investigated the effect of task complexity (TC) on second language (L2) learners’ affective responses and writing performance and how these were modulated by cognitive and affective
+  venue: Modern Language Journal
+- title: Decoding Color Visual Working Memory from EEG Signals Using Graph Convolutional Neural Networks
+  date: 2021-12
+  url: https://doi.org/10.1142/s0129065722500034
+  category: working
+  subcategory: token-level
+  authors:
+  - Xiaowei Che
+  - Yuanjie Zheng
+  - Xin Chen
+  abstract: Color has an important role in object recognition and visual working memory (VWM). Decoding color VWM in the human brain is helpful to understand the mechanism of visual cognitive process and evaluate
+  venue: International Journal of Neural Systems
+- title: 'The relation between drawing and language in preschoolers: The role of working Memory and executive functions'
+  date: 2021-12
+  url: https://doi.org/10.1016/j.cogdev.2021.101142
+  category: working
+  subcategory: token-level
+  authors:
+  - Sabrina Panesi
+  - Sergio Morra
+  abstract: papers
+  venue: Cognitive Development
+- title: 'Latin Dance and Working Memory: The Mediating Effects of Physical Activity Among Middle-Aged and Older Latinos'
+  date: 2022-04
+  url: https://doi.org/10.3389/fnagi.2022.755154
+  category: working
+  subcategory: token-level
+  authors:
+  - Susan Aguiñaga
+  - Navin Kaushal
+  - Guilherme Moraes Balbim
+  abstract: 'Background: Physical activity (PA) is a promising method to improve cognition among middle-aged and older adults. Latinos are at high risk for cognitive decline and engaging in low levels of PA. Cultu'
+  venue: Frontiers in Aging Neuroscience
+- title: The effects of working memory training on working memory, self‐regulation, and analogical reasoning of preschool children
+  date: 2024-08
+  url: https://doi.org/10.1111/bjep.12709
+  category: working
+  subcategory: token-level
+  authors:
+  - David Tzuriel
+  - Tammy Weiss
+  - Gaby Kashy‐Rosenbaum
+  abstract: 'BACKGROUND AND AIMS: This study examined the effects of working memory training (WMT) on WM and fluid intelligence. A novel four-pronged model of mediated learning, cognitive functions, task character'
+  venue: British Journal of Educational Psychology
+- title: Relationships between hourly cognitive variability and risk of Alzheimer’s disease revealed with mixed-effects location scale models.
+  date: 2023-04
+  url: https://doi.org/10.1037/neu0000905
+  category: working
+  subcategory: token-level
+  authors:
+  - Andrew J. Aschenbrenner
+  - Jason Hassenstab
+  - John C. Morris
+  abstract: 'OBJECTIVE: Observational studies on aging and Alzheimer''s disease (AD) typically focus on mean-level changes in cognitive performance over relatively long periods of time (years or decades). Additiona'
+  venue: Neuropsychology
+- title: Early life exposure to residential green space impacts cognitive functioning in children aged 4 to 6 years
+  date: 2022-01
+  url: https://doi.org/10.1016/j.envint.2022.107094
+  category: working
+  subcategory: token-level
+  authors:
+  - Yinthe Dockx
+  - Esmée M. Bijnens
+  - Leen J. Luyten
+  abstract: 'INTRODUCTION: During early childhood, neuronal networks are highly susceptible to environmental factors. Previous research suggests that green space exposure is beneficial for cognitive functioning. H'
+  venue: Environment International
+- title: Noise-induced auditory damage affects hippocampus causing memory deficits in a model of early age-related hearing loss
+  date: 2023-01
+  url: https://doi.org/10.1016/j.nbd.2023.106024
+  category: working
+  subcategory: token-level
+  authors:
+  - Fabiola Paciello
+  - Anna Pisani
+  - Marco Rinaudo
+  abstract: 'Several studies identified noise-induced hearing loss (NIHL) as a risk factor for sensory aging and cognitive decline processes, including neurodegenerative diseases, such as dementia and age-related '
+  venue: Neurobiology of Disease
+- title: Cognitive Performance and Learning Parameters Predict Response to Working Memory Training in Parkinson’s Disease
+  date: 2022-07
+  url: https://doi.org/10.3233/jpd-223448
+  category: working
+  subcategory: token-level
+  authors:
+  - Anja Ophey
+  - Julian Wenzel
+  - Riya Paul
+  abstract: 'BACKGROUND: Working memory (WM) training (WMT) is a popular intervention approach against cognitive decline in patients with Parkinson''s disease (PD). However, heterogeneity in WM responsiveness sugge'
+  venue: Journal of Parkinson s Disease
+- title: 'Listening to White Noise Improved Verbal Working Memory in Children with Attention-Deficit/Hyperactivity Disorder: A Pilot Study'
+  date: 2022-06
+  url: https://doi.org/10.3390/ijerph19127283
+  category: working
+  subcategory: token-level
+  authors:
+  - I-Chen Chen
+  - Hsun‐Yu Chan
+  - Keh‐chung Lin
+  abstract: Existing research demonstrates that children with attention-deficit/hyperactivity disorder (ADHD) underperform in cognitive tasks involving working memory (WM) due to hypo-arousal, which has led to th
+  venue: International Journal of Environmental Research and Public Health
+- title: Stress-Hormone Dynamics and Working Memory in Healthy Women Who Use Oral Contraceptives Versus Non-Users
+  date: 2021-11
+  url: https://doi.org/10.3389/fendo.2021.731994
+  category: working
+  subcategory: token-level
+  authors:
+  - Emma S. Høgsted
+  - Camilla Borgsted
+  - Vibeke H. Dam
+  abstract: 'Background: Women who use oral contraceptives (OCs) may have a higher risk of developing a depression, which is associated with both vulnerability to stress and cognitive dysfunction. OCs disrupt the '
+  venue: Frontiers in Endocrinology
+- title: 'A Positive Association between Working Memory Capacity and Human Creativity: A Meta-Analytic Evidence'
+  date: 2023-01
+  url: https://doi.org/10.3390/jintelligence11010015
+  category: working
+  subcategory: token-level
+  authors:
+  - Zheng Gong
+  - Kuan Miao
+  - Xuerong Liu
+  abstract: Creativity serves as a fountain for social and scientific development. As one of the most crucial human capabilities, creativity has been believed to be supported by the core component of higher cogni
+  venue: Journal of Intelligence
+- title: State-dependent effects of neural stimulation on brain function and cognition
+  date: 2022-05
+  url: https://doi.org/10.1038/s41583-022-00598-1
+  category: working
+  subcategory: token-level
+  authors:
+  - Claire Bradley
+  - Abbey S. Nydam
+  - Paul E. Dux
+  abstract: papers
+  venue: Nature reviews. Neuroscience
+- title: 'The Jack and Jill Adaptive Working Memory Task: Construction, Calibration and Validation'
+  date: 2022-01
+  url: https://doi.org/10.1371/journal.pone.0262200
+  category: working
+  subcategory: token-level
+  authors:
+  - Elina Tsigeman
+  - Sebastian Silas
+  - Klaus Frieler
+  abstract: Visuospatial working memory (VSWM) is essential to human cognitive abilities and is associated with important life outcomes such as academic performance. Recently, a number of reliable measures of VSW
+  venue: PLoS ONE
+- title: Changing developmental priorities between executive functions, working memory, and reasoning in the formation of g from 6 to 12 years
+  date: 2021-11
+  url: https://doi.org/10.1016/j.intell.2021.101602
+  category: working
+  subcategory: token-level
+  authors:
+  - Ανδρέας Δημητρίου
+  - Antigoni Mougi
+  - George Spanoudis
+  abstract: papers
+  venue: Intelligence
+- title: 'Investigating the impact of in-vehicle warning information complexity on drivers: The role of working memory capacity and cognitive load'
+  date: 2025-06
+  url: https://doi.org/10.1016/j.aap.2025.108138
+  category: working
+  subcategory: token-level
+  authors:
+  - Kunchen Li
+  - Wei Yuan
+  - George Yannis
+  abstract: papers
+  venue: Accident Analysis & Prevention
+- title: Cell type-specific connectome predicts distributed working memory activity in the mouse brain
+  date: 2023-12
+  url: https://doi.org/10.7554/elife.85442
+  category: working
+  subcategory: latent
+  authors:
+  - Xingyu Ding
+  - Seán Froudist‐Walsh
+  - Jorge Jaramillo
+  abstract: 'Recent advances in connectomics and neurophysiology make it possible to probe whole-brain mechanisms of cognition and behavior. We developed a large-scale model of the multiregional mouse brain for a '
+  venue: eLife
+- title: Cognitive effort-based decision-making in major depressive disorder
+  date: 2022-04
+  url: https://doi.org/10.1017/s0033291722000964
+  category: working
+  subcategory: token-level
+  authors:
+  - Yuen‐Siang Ang
+  - Steven E. Gelda
+  - Diego A. Pizzagalli
+  abstract: 'BACKGROUND: The association between major depressive disorder and motivation to invest cognitive effort for rewards is unclear. One reason might be that prior tasks of cognitive effort-based decision-'
+  venue: Psychological Medicine
+- title: Using modular connectome-based predictive modeling to reveal brain-behavior relationships of individual differences in working memory
+  date: 2023-06
+  url: https://doi.org/10.1007/s00429-023-02666-3
+  category: working
+  subcategory: token-level
+  authors:
+  - Huayi Yang
+  - Junjun Zhang
+  - Zhenlan Jin
+  abstract: papers
+  venue: Brain Structure and Function
+- title: 'The Influence of Motor Competence on Broader Aspects of Health: A Systematic Review of the Longitudinal Associations Between Motor Competence and Cognitive and Social-Emotional Outcomes'
+  date: 2023-11
+  url: https://doi.org/10.1007/s40279-023-01939-5
+  category: working
+  subcategory: token-level
+  authors:
+  - Phillip J. Hill
+  - Melitta A. McNarry
+  - Kelly A. Mackintosh
+  abstract: 'BACKGROUND: Motor competence has important developmental associations with aspects of physical health, but there has been no synthesis of longitudinal associations with cognitive and social-emotional '
+  venue: Sports Medicine
+- title: Impairment in Working Memory and Executive Function Associated with Mercury Exposure in Indigenous Populations in Upper Amazonian Peru
+  date: 2022-09
+  url: https://doi.org/10.3390/ijerph191710989
+  category: working
+  subcategory: token-level
+  authors:
+  - Alycia K. Silman
+  - Raveena Chhabria
+  - George W. Hafzalla
+  abstract: The Matsigenka people living traditional lifestyles in remote areas of the Amazon rely on a fish-based diet that exposes them to methylmercury (MeHg) at levels that have been associated with decreased
+  venue: International Journal of Environmental Research and Public Health
+- title: Increased Cognitive Demands Affect Agility Performance in Female Athletes - Implications for Testing and Training of Agility in Team Ball Sports
+  date: 2022-06
+  url: https://doi.org/10.1177/00315125221108698
+  category: working
+  subcategory: token-level
+  authors:
+  - Daniel Büchel
+  - Alli Gokeler
+  - Pieter Heuvelmans
+  abstract: 'Agility, a key component of team ball sports, describes an athlete´s ability to move fast in response to changing environments. While agility requires basic cognitive functions like processing speed, '
+  venue: Perceptual and Motor Skills
+- title: Reduced variability of bursting activity during working memory
+  date: 2022-09
+  url: https://doi.org/10.1038/s41598-022-18577-y
+  category: working
+  subcategory: token-level
+  authors:
+  - Mikael Lundqvist
+  - Jonas Rose
+  - Scott L. Brincat
+  abstract: Working memories have long been thought to be maintained by persistent spiking. However, mounting evidence from multiple-electrode recording (and single-trial analyses) shows that the underlying spiki
+  venue: Scientific Reports
+- title: Long-lasting restoration of memory function and hippocampal synaptic plasticity by focused ultrasound in Alzheimer's disease
+  date: 2023-05
+  url: https://doi.org/10.1016/j.brs.2023.05.014
+  category: working
+  subcategory: token-level
+  authors:
+  - Chanho Kong
+  - Ji Woong Ahn
+  - Sohyun Kim
+  abstract: 'BACKGROUND: Focused ultrasound (FUS) is a medical technology that non-invasively stimulates the brain and has been applied in thermal ablation, blood-brain barrier (BBB) opening, and neuromodulation. '
+  venue: Brain stimulation
+- title: Eye-movements reveal the serial position of the attended item in verbal working memory
+  date: 2021-09
+  url: https://doi.org/10.3758/s13423-021-02005-9
+  category: working
+  subcategory: token-level
+  authors:
+  - Muhammet Ikbal Sahan
+  - Jean‐Philippe van Dijck
+  - Wim Fias
+  abstract: papers
+  venue: Psychonomic Bulletin & Review
+- title: Slow manifolds within network dynamics encode working memory efficiently and robustly
+  date: 2021-09
+  url: https://doi.org/10.1371/journal.pcbi.1009366
+  category: working
+  subcategory: token-level
+  authors:
+  - Elham Ghazizadeh
+  - ShiNung Ching
+  abstract: Working memory is a cognitive function involving the storage and manipulation of latent information over brief intervals of time, thus making it crucial for context-dependent computation. Here, we use
+  venue: PLoS Computational Biology
+- title: Prediction of intrinsic and extraneous cognitive load with oculometric and biometric indicators
+  date: 2025-02
+  url: https://doi.org/10.1038/s41598-025-89336-y
+  category: working
+  subcategory: token-level
+  authors:
+  - Merve Ekin
+  - Krzysztof Krejtz
+  - Carlos Duarte
+  abstract: This study focused on the prediction of intrinsic and extraneous cognitive load using eye-tracking metrics, heart rate variability, and galvanic skin response. Intrinsic cognitive load is associated w
+  venue: Scientific Reports
+- title: 'The Effect of Curcumin Differs on Individual Cognitive Domains across Different Patient Populations: A Systematic Review and Meta-Analysis'
+  date: 2021-11
+  url: https://doi.org/10.3390/ph14121235
+  category: working
+  subcategory: token-level
+  authors:
+  - I‐Chen Tsai
+  - Chih‐Wei Hsu
+  - Chun-Hung Chang
+  abstract: Curcumin is a polyphenol with strong antioxidant and anti-inflammatory effects that has been shown to be effective in ameliorating cognitive decline in animal studies. However, its clinical effectiven
+  venue: Pharmaceuticals
+- title: Randomized trial of cognitive training and brain stimulation in non‐demented older adults
+  date: 2022-01
+  url: https://doi.org/10.1002/trc2.12262
+  category: working
+  subcategory: token-level
+  authors:
+  - Daria Antonenko
+  - Friederike Thams
+  - Ulrike Grittner
+  abstract: 'INTRODUCTION: Given rapid global population aging, developing interventions against age-associated cognitive decline is an important medical and societal goal. We evaluated a cognitive training protoc'
+  venue: Alzheimer s & Dementia Translational Research & Clinical Interventions
+- title: 'Cognitive rehabilitation for improving cognitive functions and reducing the severity of depressive symptoms in adult patients with Major Depressive Disorder: a systematic review and meta-analysis of randomized controlled clinical trials'
+  date: 2023-01
+  url: https://doi.org/10.1186/s12888-023-04554-w
+  category: working
+  subcategory: token-level
+  authors:
+  - Saba Mokhtari
+  - Asieh Mokhtari
+  - Farah Bakizadeh
+  abstract: Abstract Introduction Nearly 40% of patients with Major Depressive Disorder (MDD) have been found to experience cognitive impairment in at least one domain. Cognitive impairment associated with MDD is
+  venue: BMC Psychiatry
+- title: Spatiotemporal EEG Dynamics of Prospective Memory in Ageing and Mild Cognitive Impairment
+  date: 2022-11
+  url: https://doi.org/10.1007/s12559-022-10075-7
+  category: working
+  subcategory: token-level
+  authors:
+  - Mark Crook‐Rumsey
+  - Christina J. Howard
+  - Zohreh Doborjeh
+  abstract: Abstract Prospective memory (PM, the memory of future intentions) is one of the first complaints of those that develop dementia-related disease. Little is known about the neurophysiology of PM in agei
+  venue: Cognitive Computation
+- title: 'Mazed and Confused: A Dataset of Cybersickness, Working Memory, Mental Load, Physical Load, and Attention During a Real Walking Task in VR'
+  date: 2024-10
+  url: https://doi.org/10.1109/ismar62088.2024.00121
+  category: working
+  subcategory: token-level
+  authors:
+  - Jyotirmay Nag Setu
+  - Joshua M Le
+  - Ripan Kumar Kundu
+  abstract: Virtual Reality (VR) is quickly establishing itself in various industries, including training, education, medicine, and entertainment, in which users are frequently required to carry out multiple comp
+  venue: ''
+- title: 'Attention control and process overlap theory: Searching for cognitive processes underpinning the positive manifold'
+  date: 2022-01
+  url: https://doi.org/10.1016/j.intell.2022.101629
+  category: working
+  subcategory: token-level
+  authors:
+  - Alexander P. Burgoyne
+  - Cody A. Mashburn
+  - Jason S. Tsukahara
+  abstract: papers
+  venue: Intelligence
+- title: Transcranial direct current stimulation modulates working memory and prefrontal-insula connectivity after mild-moderate traumatic brain injury
+  date: 2022-10
+  url: https://doi.org/10.3389/fnhum.2022.1026639
+  category: working
+  subcategory: token-level
+  authors:
+  - Davin K. Quinn
+  - Jacqueline Story-Remer
+  - Emma Brandt
+  abstract: 'Background: Persistent posttraumatic symptoms (PPS) may manifest after a mild-moderate traumatic brain injury (mmTBI) even when standard brain imaging appears normal. Transcranial direct current stimu'
+  venue: Frontiers in Human Neuroscience
+- title: 'On prefrontal working memory and hippocampal episodic memory: Unifying memories stored in weights and activity slots'
+  date: 2023-11
+  url: https://doi.org/10.1101/2023.11.05.565662
+  category: working
+  subcategory: parametric
+  authors:
+  - James C. R. Whittington
+  - William Dorrell
+  - Timothy E.J. Behrens
+  abstract: 'ABSTRACT Remembering events in the past is crucial to intelligent behaviour. Flexible memory retrieval, beyond simple recall, requires a cognitive map, or model of how sensations, actions, and latent '
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+- title: Working memory capacity preferentially enhances implementation of proactive control.
+  date: 2022-11
+  url: https://doi.org/10.1037/xlm0001195
+  category: working
+  subcategory: token-level
+  authors:
+  - Yanli Lin
+  - Rachel Elizabeth Brough
+  - Allison Tay
+  abstract: Previous research has linked working memory capacity (WMC) with enhanced proactive control. However, it remains unclear the extent to which this relationship reflects the influence of WMC on the tende
+  venue: Journal of Experimental Psychology Learning Memory and Cognition
+- title: 'Effectiveness of computer-based interventions for community-dwelling people with cognitive decline: a systematic review with meta-analyses'
+  date: 2023-04
+  url: https://doi.org/10.1186/s12877-023-03941-y
+  category: working
+  subcategory: token-level
+  authors:
+  - Julia Zuschnegg
+  - Daniela Schoberer
+  - Alfred Häussl
+  abstract: 'BACKGROUND: Cognitive deficits arise with age and can increase the risk for subjective cognitive decline (SCD) and mild cognitive impairment (MCI), which may result in dementia, leading to health prob'
+  venue: BMC Geriatrics
+- title: Behaviour Hallmarks in Alzheimer’s Disease 5xFAD Mouse Model
+  date: 2024-06
+  url: https://doi.org/10.3390/ijms25126766
+  category: working
+  subcategory: token-level
+  authors:
+  - Mafalda Soares Pádua
+  - José Luis Guil‐Guerrero
+  - Paula A. Lopes
+  abstract: The 5xFAD transgenic mouse model widely used in Alzheimer's disease (AD) research recapitulates many AD-related phenotypes with a relatively early onset and aggressive age-dependent progression. Besid
+  venue: International Journal of Molecular Sciences
+- title: Older Adult Mild Cognitive Impairment Prediction from Multiscale Entropy EEG Patterns in Reminiscent Interior Image Working Memory Paradigm
+  date: 2021-11
+  url: https://doi.org/10.1109/embc46164.2021.9629480
+  category: working
+  subcategory: token-level
+  authors:
+  - Tomasz M. Rutkowski
+  - Masato S. Abe
+  - Tomasz Komendzinski
+  abstract: We discuss the practical employment of a machine learning (ML) technique within AI for a social good application. We present an application for elderly adult dementia onset prognostication. First, the
+  venue: 2021 43rd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC)
+- title: Unsupervised learning for robust working memory
+  date: 2022-05
+  url: https://doi.org/10.1371/journal.pcbi.1009083
+  category: working
+  subcategory: parametric
+  authors:
+  - Jintao Gu
+  - Sukbin Lim
+  abstract: Working memory is a core component of critical cognitive functions such as planning and decision-making. Persistent activity that lasts long after the stimulus offset has been considered a neural subs
+  venue: PLoS Computational Biology
+- title: Rosmarinus officinalis and Mentha piperita Oils Supplementation Enhances Memory in a Rat Model of Scopolamine-Induced Alzheimer’s Disease-like Condition
+  date: 2023-03
+  url: https://doi.org/10.3390/nu15061547
+  category: working
+  subcategory: token-level
+  authors:
+  - Nafe M. Al-Tawarah
+  - Rawand H. Al-dmour
+  - Maha N. Abu Hajleh
+  abstract: Alzheimer’s disease is regarded as a common neurodegenerative disease that may lead to dementia and the loss of memory. We report here the nootropic and anti-amnesic effects of both peppermint and ros
+  venue: Nutrients
+- title: The role of cognitive flexibility on higher level executive functions in mild cognitive impairment and healthy older adults
+  date: 2024-05
+  url: https://doi.org/10.1186/s40359-024-01807-5
+  category: working
+  subcategory: token-level
+  authors:
+  - Ilaria Corbo
+  - Giovanna Troisi
+  - Giulia Marselli
+  abstract: 'BACKGROUND: Mild Cognitive Impairment (MCI) is a preclinical condition between healthy and pathological aging, which is characterized by impairments in executive functions (EFs), including cognitive f'
+  venue: BMC Psychology
+- title: Scaling models of visual working memory to natural images
+  date: 2024-01
+  url: https://doi.org/10.1038/s44271-023-00048-3
+  category: working
+  subcategory: latent
+  authors:
+  - Christopher Bates
+  - George A. Alvarez
+  - Samuel J. Gershman
+  abstract: Over the last few decades, psychologists have developed precise quantitative models of human recall performance in visual working memory (VWM) tasks. However, these models are tailored to a particular
+  venue: Communications Psychology
+- title: Cognitive strategies shift information from single neurons to populations in prefrontal cortex
+  date: 2021-12
+  url: https://doi.org/10.1016/j.neuron.2021.11.021
+  category: working
+  subcategory: token-level
+  authors:
+  - Feng-Kuei Chiang
+  - Joni D. Wallis
+  - Erin L. Rich
+  abstract: papers
+  venue: Neuron
+- title: 'The ventrolateral prefrontal cortex is part of the modular working memory system: A functional neuroanatomical perspective'
+  date: 2023-02
+  url: https://doi.org/10.3389/fnana.2023.1076095
+  category: working
+  subcategory: token-level
+  authors:
+  - Orin Segal
+  - Odelia Elkana
+  abstract: For many years, the functional role of the ventrolateral Pre-Frontal Cortex (PFC) was associated with executive functions, specifically in the context of non-affective cognitive processes. However, re
+  venue: Frontiers in Neuroanatomy
+- title: Association of Neonatal Midazolam Exposure With Hippocampal Growth and Working Memory Performance in Children Born Preterm
+  date: 2023-09
+  url: https://doi.org/10.1212/wnl.0000000000207817
+  category: working
+  subcategory: token-level
+  authors:
+  - Emma G. Duerden
+  - Ting Guo
+  - Cecil M. Y. Chau
+  abstract: 'BACKGROUND AND OBJECTIVES: Early exposure to analgesics and sedatives is a key concern for later learning disorders in children. The hippocampus, a key region for learning and memory, may be selective'
+  venue: Neurology
+- title: 'Personal Space in Human-Robot Interaction at Work: Effect of Room Size and Working Memory Load'
+  date: 2022-05
+  url: https://doi.org/10.1145/3536167
+  category: working
+  subcategory: token-level
+  authors:
+  - Benedikt Leichtmann
+  - Albrecht Lottermoser
+  - Julia Berger
+  abstract: A recent literature review on personal space in human-robot interaction identified a research gap for the influence of contextual factors. At the same time, psychological research on interpersonal dis
+  venue: ACM Transactions on Human-Robot Interaction
+- title: Daily activity diversity and daily working memory in community-dwelling older adults.
+  date: 2023-01
+  url: https://doi.org/10.1037/neu0000878
+  category: working
+  subcategory: token-level
+  authors:
+  - Minxia Luo
+  - Robert Moulder
+  - Laura K Breitfelder
+  abstract: 'OBJECTIVE: Cross-sectional and long-term longitudinal studies have shown that engagement in diverse activities benefits cognitive performance in older age, but it is unknown whether the beneficial eff'
+  venue: Neuropsychology
+- title: 'Cognitive remediation therapy for post-acute persistent cognitive deficits in COVID-19 survivors: A proof-of-concept study'
+  date: 2022-05
+  url: https://doi.org/10.1080/09602011.2022.2075016
+  category: working
+  subcategory: token-level
+  authors:
+  - Mariagrazia Palladini
+  - B. Bravi
+  - Federica Colombo
+  abstract: Cognitive impairments figure prominently in COVID-19 survivors. Cognitive remediation therapy (CRT) improves functional outcomes reducing long-term cognitive deficits in several neurological and psych
+  venue: Neuropsychological Rehabilitation
+- title: 'Mediterranean, DASH, and MIND Dietary Patterns and Cognitive Function: The 2-Year Longitudinal Changes in an Older Spanish Cohort'
+  date: 2021-12
+  url: https://doi.org/10.3389/fnagi.2021.782067
+  category: working
+  subcategory: token-level
+  authors:
+  - Stephanie Nishi
+  - Nancy Babió
+  - Carlos Gómez Martínez
+  abstract: 'Background and Aims: Plant-forward dietary patterns have been associated with cardiometabolic health benefits, which, in turn, have been related to cognitive performance with inconsistent findings. Th'
+  venue: Frontiers in Aging Neuroscience
+- title: Stress specifically deteriorates working memory in peripheral neuropathic pain and fibromyalgia
+  date: 2023-01
+  url: https://doi.org/10.1093/braincomms/fcad194
+  category: working
+  subcategory: token-level
+  authors:
+  - Henrik Børsting Jacobsen
+  - Aurora Brun
+  - Audun Stubhaug
+  abstract: Abstract This study aimed to explore the influence of chronic stress, measured through hair cortisol, on executive functions in individuals with chronic pain. We expected that there would be significa
+  venue: Brain Communications
+- title: 'Oscillations without cortex: Working memory modulates brainwaves in the endbrain of crows'
+  date: 2022-11
+  url: https://doi.org/10.1016/j.pneurobio.2022.102372
+  category: working
+  subcategory: token-level
+  authors:
+  - Lukas Alexander Hahn
+  - Dmitry Balakhonov
+  - Mikael Lundqvist
+  abstract: Complex cognition requires coordinated neuronal activity at the network level. In mammals, this coordination results in distinct dynamics of local field potentials (LFP) central to many models of high
+  venue: Progress in Neurobiology
+- title: There Is no Theory-Free Measure of “Swaps” in Visual Working Memory Experiments
+  date: 2022-09
+  url: https://doi.org/10.1007/s42113-022-00150-5
+  category: working
+  subcategory: token-level
+  authors:
+  - Jamal Williams
+  - Maria M. Robinson
+  - Timothy F. Brady
+  abstract: Visual working memory is highly limited, and its capacity is tied to many indices of cognitive function. For this reason, there is much interest in understanding its architecture and the sources of it
+  venue: Computational Brain & Behavior
+- title: 'Psychoacoustic abilities in pediatric cochlear implant recipients: The relation with short-term memory and working memory capacity'
+  date: 2022-09
+  url: https://doi.org/10.1016/j.ijporl.2022.111307
+  category: working
+  subcategory: token-level
+  authors:
+  - Büşra Köse
+  - Ayşenur Karaman-Demirel
+  - Ayça Çiprut
+  abstract: papers
+  venue: International Journal of Pediatric Otorhinolaryngology
+- title: 'Personalized Prediction of Postconcussive Working Memory Decline: A Feasibility Study'
+  date: 2022-01
+  url: https://doi.org/10.3390/jpm12020196
+  category: working
+  subcategory: token-level
+  authors:
+  - Yung-Chieh Chen
+  - Yung-Li Chen
+  - Duen-Pang Kuo
+  abstract: Concussion, also known as mild traumatic brain injury (mTBI), commonly causes transient neurocognitive symptoms, but in some cases, it causes cognitive impairment, including working memory (WM) defici
+  venue: Journal of Personalized Medicine
+- title: Distinguishing cognitive states using electroencephalography local activation and functional connectivity patterns
+  date: 2022-05
+  url: https://doi.org/10.1016/j.bspc.2022.103742
+  category: working
+  subcategory: token-level
+  authors:
+  - T. A. Suhail
+  - K.P. Indiradevi
+  - E M Suhara
+  abstract: papers
+  venue: Biomedical Signal Processing and Control
+- title: Elevated Dopamine Synthesis as a Mechanism of Cognitive Resilience in Aging
+  date: 2021-09
+  url: https://doi.org/10.1093/cercor/bhab379
+  category: working
+  subcategory: token-level
+  authors:
+  - Claire J. Ciampa
+  - Jourdan H. Parent
+  - Molly R. LaPoint
+  abstract: Aging is associated with declines in multiple components of the dopamine system including loss of dopamine-producing neurons, atrophy of the dopamine system's cortical targets, and reductions in the d
+  venue: Cerebral Cortex
+- title: The niacin receptor HCAR2 modulates microglial response and limits disease progression in a mouse model of Alzheimer’s disease
+  date: 2022-03
+  url: https://doi.org/10.1126/scitranslmed.abl7634
+  category: working
+  subcategory: token-level
+  authors:
+  - Miguel Moutinho
+  - Shweta S. Puntambekar
+  - Andy P. Tsai
+  abstract: Increased dietary intake of niacin has been correlated with reduced risk of Alzheimer’s disease (AD). Niacin serves as a high-affinity ligand for the receptor HCAR2 (GPR109A). In the brain, HCAR2 is e
+  venue: Science Translational Medicine
+- title: Determinants of Adherence to a “GRADIOR” Computer-Based Cognitive Training Program in People with Mild Cognitive Impairment (MCI) and Mild Dementia
+  date: 2022-03
+  url: https://doi.org/10.3390/jcm11061714
+  category: working
+  subcategory: token-level
+  authors:
+  - Angie A. Diaz-Baquero
+  - María Victoria Perea Bartolomé
+  - José Miguel Toribio-Guzmán
+  abstract: 'Background: Computer-based programs have been implemented from a psychosocial approach for the care of people with dementia (PwD). However, several factors may determine adherence of older PwD to this'
+  venue: Journal of Clinical Medicine
+- title: Brief webcam test of hand movements predicts episodic memory, executive function, and working memory in a community sample of cognitively asymptomatic older adults
+  date: 2024-01
+  url: https://doi.org/10.1002/dad2.12520
+  category: working
+  subcategory: token-level
+  authors:
+  - Renjie Li
+  - Xinyi Wang
+  - Katherine Lawler
+  abstract: 'INTRODUCTION: Low-cost simple tests for preclinical Alzheimer''s disease are a research priority. We evaluated whether remote unsupervised webcam recordings of finger-tapping were associated with cogni'
+  venue: Alzheimer s & Dementia Diagnosis Assessment & Disease Monitoring
+- title: 'Cognitive and personality predictors of school performance from preschool to secondary school: An overarching model.'
+  date: 2022-10
+  url: https://doi.org/10.1037/rev0000399
+  category: working
+  subcategory: parametric
+  authors:
+  - Ανδρέας Δημητρίου
+  - George Spanoudis
+  - Constantinos Christou
+  abstract: 'shifts from executive to reasoning and cognizance processes; personality also changes, consolidating in adolescence. There are three major trends in the existing literature: (a) All processes are high'
+  venue: Psychological Review
+- title: Cerebellar and subcortical contributions to working memory manipulation
+  date: 2025-07
+  url: https://doi.org/10.1038/s42003-025-08467-0
+  category: working
+  subcategory: token-level
+  authors:
+  - Joshua B. Tan
+  - Isabella F Orlando
+  - Christopher J. Whyte
+  abstract: Working memory is critical for manipulating and temporarily storing information during cognitive tasks such as problem-solving. Most models focus primarily on cortical-cortical interactions, neglectin
+  venue: Communications Biology
+- title: 'Informational Masking and Listening Effort in Speech Recognition in Noise: The Role of Working Memory Capacity and Inhibitory Control in Older Adults With and Without Hearing Impairment'
+  date: 2022-10
+  url: https://doi.org/10.1044/2022_jslhr-21-00674
+  category: working
+  subcategory: token-level
+  authors:
+  - Victoria Stenbäck
+  - Erik Marsja
+  - Mathias Hällgren
+  abstract: 'PURPOSE: The study aimed to assess the relationship between (a) speech recognition in noise, mask type, working memory capacity (WMC), and inhibitory control and (b) self-rated listening effort, speec'
+  venue: Journal of Speech Language and Hearing Research
+- title: 'Process-oriented intelligence research: A review from the cognitive perspective'
+  date: 2022-07
+  url: https://doi.org/10.1016/j.intell.2022.101681
+  category: working
+  subcategory: token-level
+  authors:
+  - Gidon T. Frischkorn
+  - Oliver Wilhelm
+  - Klaus Oberauer
+  abstract: Despite over a century of research on intelligence, the cognitive processes underlying intelligent behavior are still unclear. In this review, we summarize empirical results investigating the contribu
+  venue: Intelligence
+- title: 'An active inference model of conscious access: How cognitive action selection reconciles the results of report and no-report paradigms'
+  date: 2022-01
+  url: https://doi.org/10.1016/j.crneur.2022.100036
+  category: working
+  subcategory: token-level
+  authors:
+  - Christopher J. Whyte
+  - Jakob Hohwy
+  - Ryan Smith
+  abstract: Cognitive theories of consciousness, such as global workspace theory and higher-order theories, posit that frontoparietal circuits play a crucial role in conscious access. However, recent studies usin
+  venue: Current Research in Neurobiology
+- title: Association of Motor Function With Cognitive Trajectories and Structural Brain Differences
+  date: 2023-09
+  url: https://doi.org/10.1212/wnl.0000000000207745
+  category: working
+  subcategory: token-level
+  authors:
+  - Zhangyu Wang
+  - Jiao Wang
+  - Jie Guo
+  abstract: '<h3>Background and Objectives:</h3> The association of motor function with cognitive health remains controversial, and the mechanisms underlying this relationship are unclear. We aimed to examine the '
+  venue: Neurology
+- title: 'Anxiety severity and cognitive function in primary care patients with anxiety disorder: a cross-sectional study'
+  date: 2021-12
+  url: https://doi.org/10.1186/s12888-021-03618-z
+  category: working
+  subcategory: token-level
+  authors:
+  - Jenny Nyberg
+  - Malin Henriksson
+  - Alexander Wall
+  abstract: 'BACKGROUND: Deficits in cognitive performance are reported in patients with anxiety disorders, but research is limited and inconsistent. We aimed to investigate cross-sectional associations between co'
+  venue: BMC Psychiatry
+- title: Dynamic regulation of neural variability during working memory reflects dopamine, functional integration, and decision-making
+  date: 2022-05
+  url: https://doi.org/10.1101/2022.05.05.490687
+  category: working
+  subcategory: token-level
+  authors:
+  - Douglas D. Garrett
+  - Niels A Kloosterman
+  - Samira Epp
+  abstract: The regulation of moment-to-moment neural variability may permit effective responses to changing cognitive demands. However, the mechanisms that support variability regulation are unknown. In the cont
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+- title: Baseline Working Memory Predicted Response to Low-Dose Ketamine Infusion in Patients with Treatment-Resistant Depression
+  date: 2021-09
+  url: https://doi.org/10.1055/a-1589-6301
+  category: working
+  subcategory: token-level
+  authors:
+  - Mu‐Hong Chen
+  - Wei-Chen Lin
+  - Cheng‐Ta Li
+  abstract: 'INTRODUCTION: Pretreatment neurocognitive function may predict the treatment response to low-dose ketamine infusion in patients with treatment-resistant depression (TRD). However, the association betw'
+  venue: Pharmacopsychiatry
+- title: Contributions of the Catechol-O-Methyltransferase Val158Met Polymorphism to Changes in Brain Iron Across Adulthood and Their Relationships to Working Memory
+  date: 2022-04
+  url: https://doi.org/10.3389/fnhum.2022.838228
+  category: working
+  subcategory: token-level
+  authors:
+  - Jonatan Gustavsson
+  - Goran Papenberg
+  - Farshad Falahati
+  abstract: Ageing is associated with excessive free brain iron, which may induce oxidative stress and neuroinflammation, likely causing cognitive deficits. Lack of dopamine may be a factor behind the increase of
+  venue: Frontiers in Human Neuroscience
+- title: Alternate-day fasting prevents non-alcoholic fatty liver disease and working memory impairment in diet-induced obese mice
+  date: 2022-08
+  url: https://doi.org/10.1016/j.jnutbio.2022.109146
+  category: working
+  subcategory: token-level
+  authors:
+  - Wentong Zhang
+  - Jun Wang
+  - Luanfeng Wang
+  abstract: papers
+  venue: The Journal of Nutritional Biochemistry
+- title: 'Cardiorespiratory fitness is associated with cognitive function in late adulthood: baseline findings from the IGNITE study'
+  date: 2024-12
+  url: https://doi.org/10.1136/bjsports-2024-108257
+  category: working
+  subcategory: latent
+  authors:
+  - Lauren E. Oberlin
+  - Lu Wan
+  - Chaeryon Kang
+  abstract: Objectives To evaluate the association between cardiorespiratory fitness (CRF) and cognition in a large sample of older adults, and to examine clinical and demographic factors that might moderate thes
+  venue: British Journal of Sports Medicine
+- title: 'Manganese exposure and cognitive performance: A meta-analytical approach'
+  date: 2023-05
+  url: https://doi.org/10.1016/j.envpol.2023.121884
+  category: working
+  subcategory: token-level
+  authors:
+  - Thomas Vlasak
+  - Tanja Dujlovic
+  - Alfred Barth
+  abstract: papers
+  venue: Environmental Pollution
+- title: Low-Intensity Focused Ultrasound Stimulation Ameliorates Working Memory Dysfunctions in Vascular Dementia Rats via Improving Neuronal Environment
+  date: 2022-02
+  url: https://doi.org/10.3389/fnagi.2022.814560
+  category: working
+  subcategory: token-level
+  authors:
+  - Faqi Wang
+  - Qian Wang
+  - Ling Wang
+  abstract: Working memory impairment is one of the remarkable cognitive dysfunctions induced by vascular dementia (VD), and it is necessary to explore an effective treatment. Recently, low-intensity focused ultr
+  venue: Frontiers in Aging Neuroscience
+- title: 'Ultra-brief Assessment of Working Memory Capacity: Ambulatory Assessment Study Using Smartphones'
+  date: 2023-01
+  url: https://doi.org/10.2196/40188
+  category: working
+  subcategory: latent
+  authors:
+  - Jonathan G. Hakun
+  - Nelson Roque
+  - Courtney R. Gerver
+  abstract: 'BACKGROUND: The development of mobile technology with substantial computing power (ie, smartphones) has enabled the adaptation of performance-based cognitive assessments to remote administration and n'
+  venue: JMIR Formative Research
+- title: 'A meta-analytic investigation of cognitive remediation for mood disorders: Efficacy and the role of study quality, sample and treatment factors'
+  date: 2023-03
+  url: https://doi.org/10.1016/j.jad.2023.02.137
+  category: working
+  subcategory: token-level
+  authors:
+  - Zoey Goldberg
+  - Brina Kuslak
+  - Matthew M. Kurtz
+  abstract: papers
+  venue: Journal of Affective Disorders
+- title: Working Memory Model and Language Learning
+  date: 2021-09
+  url: https://doi.org/10.34293/education.v9is2-sep.4366
+  category: working
+  subcategory: token-level
+  authors:
+  - Bora Demir
+  abstract: Working Memory (WM) is an essential concept of cognitive science since many aspects of human learning depend on it. Primarily proposed by Baddeley and Hitch (1974) and developed by Baddeley (1986), th
+  venue: Shanlax International Journal of Education
+- title: Ebselen prevents cigarette smoke-induced cognitive dysfunction in mice by preserving hippocampal synaptophysin expression
+  date: 2022-03
+  url: https://doi.org/10.1186/s12974-022-02432-y
+  category: working
+  subcategory: token-level
+  authors:
+  - Simone N. De Luca
+  - Kurt Brassington
+  - Stanley M. H. Chan
+  abstract: 'BACKGROUND: Cigarette smoking (CS) is the leading cause of chronic obstructive pulmonary disease (COPD). The "spill-over" of pulmonary inflammation into the systemic circulation may damage the brain, '
+  venue: Journal of Neuroinflammation
+- title: 'Long‐term course of cognitive functioning in bipolar disorder: A ten‐year follow‐up study'
+  date: 2023-06
+  url: https://doi.org/10.1111/bdi.13364
+  category: working
+  subcategory: token-level
+  authors:
+  - Camilla Bärthel Flaaten
+  - Ingrid Melle
+  - Thomas Bjella
+  abstract: 'INTRODUCTION: Cognitive impairments are common in bipolar disorder (BD), but the long-term course remains understudied. Longitudinal data on cognitive functioning from the start of the first treatment'
+  venue: Bipolar Disorders
+- title: 'Application of artificial intelligence in cognitive load analysis using functional near-infrared spectroscopy: A systematic review'
+  date: 2024-03
+  url: https://doi.org/10.1016/j.eswa.2024.123717
+  category: working
+  subcategory: token-level
+  authors:
+  - Mehshan Ahmed Khan
+  - Houshyar Asadi
+  - Li Zhang
+  abstract: Cognitive load theory suggests that overloading of working memory may negatively affect the performance of human in cognitively demanding tasks. Evaluation of cognitive load is a difficult task; it is
+  venue: Expert Systems with Applications
+- title: Effects of Early Life Adversities upon Memory Processes and Cognition in Rodent Models
+  date: 2022-05
+  url: https://doi.org/10.1016/j.neuroscience.2022.04.023
+  category: working
+  subcategory: token-level
+  authors:
+  - Joelma Alves
+  - Natividade de Sá Couto Pereira
+  - Randriely Merscher Sobreira de Lima
+  abstract: papers
+  venue: Neuroscience
+- title: 'Cognitive load theory in workplace-based learning from the viewpoint of nursing students: application of a path analysis'
+  date: 2024-06
+  url: https://doi.org/10.1186/s12909-024-05664-z
+  category: working
+  subcategory: token-level
+  authors:
+  - Shakiba Sadat Tabatabaee
+  - Sara Jambarsang
+  - Fatemeh Keshmiri‬
+  abstract: 'PURPOSE: The present study aimed to test the relationship between the components of the Cognitive Load Theory (CLT) including memory, intrinsic and extraneous cognitive load in workplace-based learnin'
+  venue: BMC Medical Education
+- title: 'The impact of early and late blindness on language and verbal working memory: A brain-constrained neural model'
+  date: 2024-02
+  url: https://doi.org/10.1016/j.neuropsychologia.2024.108816
+  category: working
+  subcategory: token-level
+  authors:
+  - Rosario Tomasello
+  - Maxime Carriere
+  - Friedemann Pulvermüller
+  abstract: 'Neural circuits related to language exhibit a remarkable ability to reorganize and adapt in response to visual deprivation. Particularly, early and late blindness induce distinct neuroplastic changes '
+  venue: Neuropsychologia
+- title: Inflammatory cytokines in and cognitive function of adolescents with first-episode schizophrenia, bipolar disorder, or major depressive disorder
+  date: 2021-10
+  url: https://doi.org/10.1017/s1092852921000857
+  category: working
+  subcategory: token-level
+  authors:
+  - Mu‐Hong Chen
+  - Ju‐Wei Hsu
+  - Kai‐Lin Huang
+  abstract: Abstract Background Few studies have explored the complex relationship of pro- and anti-inflammatory cytokines with cognitive function in adolescents with first-episode schizophrenia, bipolar disorder
+  venue: CNS Spectrums
+- title: Integrated genomic, proteomic and cognitive assessment in Duchenne Muscular Dystrophy suggest astrocyte centric pathology
+  date: 2023-07
+  url: https://doi.org/10.1016/j.heliyon.2023.e18530
+  category: working
+  subcategory: token-level
+  authors:
+  - Nalaka Wijekoon
+  - Lakmal Gonawala
+  - Pyara Ratnayake
+  abstract: 'Introduction: Documented Duchenne Muscular Dystrophy (DMD) biomarkers are confined to Caucasians and are poor indicators of cognitive difficulties and neuropsychological alterations. Materials and met'
+  venue: Heliyon
+- title: IGF-1 gene therapy prevents spatial memory deficits and modulates dopaminergic neurodegeneration and inflammation in a parkinsonism model
+  date: 2024-05
+  url: https://doi.org/10.1016/j.bbi.2024.05.013
+  category: working
+  subcategory: token-level
+  authors:
+  - Macarena Lorena Herrera
+  - Leandro Gabriel Champarini
+  - Osvaldo Martín Basmadjian
+  abstract: papers
+  venue: Brain Behavior and Immunity
