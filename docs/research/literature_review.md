@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-08-11  
-**Corpus:** 3,089 papers across 4 categories
+**Generated:** 2026-08-13  
+**Corpus:** 3,576 papers across 4 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,13 +11,13 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Factual | 1604 |
-| 2 | Experiential | 802 |
-| 3 | Working | 615 |
-| 4 |  | 68 |
+| 1 | Factual | 1759 |
+| 2 | Working | 902 |
+| 3 | Experiential | 901 |
+| 4 |  | 14 |
 
 **Time span:** 1961–2027 (median year 2011)
-**Dominant aspects:** Token Level (2534), Parametric (153), Latent (131)
+**Dominant aspects:** Token Level (2965), Parametric (238), Latent (156)
 
 ---
 
@@ -25,10 +25,10 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Working | 615 | 442 | 88 | +402% | 72% | 36.8 |
-|  | 68 | 56 | 12 | +367% | 82% | 4.7 |
-| Experiential | 802 | 553 | 145 | +281% | 69% | 46.1 |
-| Factual | 1604 | 1081 | 319 | +239% | 67% | 90.1 |
+|  | 14 | 13 | 1 | +1200% | 93% | 1.1 |
+| Experiential | 901 | 606 | 164 | +270% | 67% | 50.5 |
+| Factual | 1759 | 1181 | 350 | +237% | 67% | 98.4 |
+| Working | 902 | 460 | 173 | +166% | 51% | 38.3 |
 
 ---
 
@@ -39,11 +39,11 @@
 | `working/mechanism` | 9 |
 | `experiential/application` | 10 |
 | `experiential/theory` | 10 |
+| `/` | 14 |
 | `experiential/mechanism` | 15 |
 | `factual/development` | 18 |
 | `working/systems` | 18 |
 | `factual/review` | 19 |
-| `experiential/method` | 19 |
 
 ---
 
@@ -52,49 +52,49 @@
 
 ### Factual (`factual`)
 
-**Corpus size:** 1604 papers
+**Corpus size:** 1759 papers
 
 **Recent papers:**
 
 - [2027-01] MultiSent-RAG: A retrieval and memory-augmented system for multilingual sentiment processing. — https://dblp.org/rec/journals/ipm/MnassriFC27
-- [2026-08] PI-Mem: Pushing Long-Context Reasoning to 3.6M Tokens with Parallel-Iterative Memory — https://arxiv.org/abs/2608.03048v1
-- [2026-08] PGMem: Tightly Coupled Persona-Memory Graph for Lifelong Personalized Agents — https://arxiv.org/abs/2608.01708v1
-
----
-
-### Experiential (`experiential`)
-
-**Corpus size:** 802 papers
-
-**Recent papers:**
-
-- [2026-08] Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems — https://arxiv.org/abs/2608.04746v1
-- [2026-08] RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory vi — https://arxiv.org/abs/2608.02508v3
-- [2026-08] Before Reasoning Can Fail: Pre-Evidence Procedural Failures in Agentic RAG — https://arxiv.org/abs/2608.02011v2
+- [2026-08] MutMem: Cryptographically Authorized Mutation in Persistent Agent Memory — https://arxiv.org/abs/2608.02843
+- [2026-08] V-Mem: Modality-Routed Retrieval for Long-Term Multimodal Agentic Memory — https://arxiv.org/abs/2608.01543
 
 ---
 
 ### Working (`working`)
 
-**Corpus size:** 615 papers
+**Corpus size:** 902 papers
 
 **Recent papers:**
 
-- [2026-08] CommitKV: Lifecycle-Aware KV Cache Compression via Commit Transitions for Multi-Turn Agents — https://arxiv.org/abs/2608.07855v1
-- [2026-08] Mitigating Over-Personalization in LLMs via Structured Memory — https://arxiv.org/abs/2608.08300v1
-- [2026-08] AiFlow: Token-Native Reactive Orchestration with Bounded Backpressure for Streaming LLM Applica — https://arxiv.org/abs/2608.00558v1
+- [2026-08] AiFlow: Token-Native Reactive Orchestration with Bounded Backpressure for Streaming LLM Applica — https://arxiv.org/abs/2608.00558
+- [2026-08] Bole: Efficient Tree Speculation for Hybrid-Attention Language Models — https://arxiv.org/abs/2608.01651
+- [2026-08] CommitKV: Lifecycle-Aware KV Cache Compression via Commit Transitions for Multi-Turn Agents — https://arxiv.org/abs/2608.07855
+
+---
+
+### Experiential (`experiential`)
+
+**Corpus size:** 901 papers
+
+**Recent papers:**
+
+- [2026-08] PMMC: Prospective Multimodal Memory Compilation for Long-Term LVLM Agents — https://arxiv.org/abs/2608.00962
+- [2026-08] Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems — https://arxiv.org/abs/2608.04746
+- [2026-08] RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory vi — https://arxiv.org/abs/2608.02508
 
 ---
 
 ###  (``)
 
-**Corpus size:** 68 papers
+**Corpus size:** 14 papers
 
 **Recent papers:**
 
-- [2026-08] When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalize — https://arxiv.org/abs/2608.01619v1
-- [2026-08] TrajWiki: Source-Grounded Memory Trajectories for Long-Horizon Dialogue Agents — https://arxiv.org/abs/2608.00967v1
-- [2026-08] MutMem: Cryptographically Authorized Mutation in Persistent Agent Memory — https://arxiv.org/abs/2608.02843v1
+- [2026-08] LeanMem: Simple and Efficient Long-Term Memory for LLM Agents — https://arxiv.org/abs/2608.03463
+- [2026-08] MemWM: Memory-Augmented Text-Based World Model — https://arxiv.org/abs/2608.07107
+- [2026-08] Controlled Memory Interference in Continual LLM Agents — https://arxiv.org/abs/2608.07622
 
 ---
 
