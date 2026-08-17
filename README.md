@@ -4,12 +4,12 @@
 <h3 align="center">A data-driven, auto-validated reading list for Agent Memory research</h3>
 
 <div align="center">
-  [![GitHub](https://img.shields.io/badge/GitHub-tobias-weiss-ai-xr/agent--memory--research-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-memory-research)
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/agent--memory--research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/agent-memory-research/actions/workflows/validate.yml)
-  [![Survey Paper (Original)](https://img.shields.io/badge/Survey Paper (Original)-2512.13564-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2512.13564)
-  [![HF Dataset](https://img.shields.io/badge/HF Dataset-2512.13564-292929.svg?logo=huggingface)](https://huggingface.co/papers/2512.13564)
-  [![Agent Learning](https://img.shields.io/badge/Agent Learning-agent--learning--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-learning-research) [![Agent Skill](https://img.shields.io/badge/Agent Skill-agent--skill--research-004D40.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-skill-research) [![Agentic VR](https://img.shields.io/badge/Agentic VR-agentic--vr--research-004D40.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agentic-vr-research)
+  [**GitHub**](https://github.com/tobias-weiss-ai-xr/agent-memory-research)
+  [**License**](LICENSE)
+  [**CI**](https://github.com/tobias-weiss-ai-xr/agent-memory-research/actions/workflows/validate.yml)
+  [**Survey Paper (Original)**](https://arxiv.org/abs/2512.13564)
+  [**HF Dataset**](https://huggingface.co/papers/2512.13564)
+  [**Agent Learning**](https://github.com/tobias-weiss-ai-xr/agent-learning-research) [**Agent Skill**](https://github.com/tobias-weiss-ai-xr/agent-skill-research) [**Agentic VR**](https://github.com/tobias-weiss-ai-xr/agentic-vr-research)
 </div>
 
 > 💾 **Agent memory research corpus:** curated papers for the survey
@@ -283,5 +283,5 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/agent-
 
 ## ⭐️ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=tobias-weiss-ai-xr/agent-memory-research&type=date&legend=top-left)](https://www.star-history.com/#Shichun-Liu/Agent-Memory-Paper-List&type=date&legend=top-left)
+[**Star History Chart**](https://www.star-history.com/#Shichun-Liu/Agent-Memory-Paper-List&type=date&legend=top-left)
 
