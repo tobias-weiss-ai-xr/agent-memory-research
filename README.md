@@ -117,9 +117,9 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/agent-
 
 | Year | Papers | |
 |------|--------|-|
+| 2024 | 393 | ██░░░░░░░░░░ |
 | 2025 | 966 | ██████░░░░░░ |
-| 2026 | 1,768 | ████████████ |
-| 2027 | 1 | ░░░░░░░░░░░░ |
+| 2026 | 1,769 | ████████████ |
 
 
 ### Momentum (hottest categories)
@@ -171,7 +171,7 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/agent-
 
 
 
-*Generated 2027-01 by `scripts/standard_stats.py`.*
+*Generated 2026-08 by `scripts/standard_stats.py`.*
 
 
 ## 📖 Citation

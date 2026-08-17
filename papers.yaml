@@ -87660,7 +87660,7 @@ papers:
   venue: IJCAI
 - title: 'MultiSent-RAG: A retrieval and memory-augmented system for multilingual
     sentiment processing.'
-  date: 2027-01
+  date: 2026-08
   url: https://dblp.org/rec/journals/ipm/MnassriFC27
   category: factual
   subcategory: method
