@@ -87490,8 +87490,8 @@ papers:
 - title: 'LeanMem: Simple and Efficient Long-Term Memory for LLM Agents'
   date: 2026-08
   url: https://arxiv.org/abs/2608.03463
-  category: ''
-  subcategory: ''
+  category: experiential
+  subcategory: token-level
   abstract: Long-term memory is essential for LLM-based agents to sustain interactions
     and reliably leverage distant history. However, existing memory systems typically
     process heterogeneous dialogue content through a uniform summarization and retrieval
@@ -87514,8 +87514,8 @@ papers:
     Knowledge Accumulation'
   date: 2025-05
   url: https://arxiv.org/abs/2505.14163
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: Large language model (LLM) agents have shown promising performance in
     generating code for solving complex data science problems. Recent studies primarily
     focus on enhancing in-context learning through improved search, sampling, and
@@ -89894,8 +89894,8 @@ papers:
 - title: 'MemWM: Memory-Augmented Text-Based World Model'
   date: 2026-08
   url: https://arxiv.org/abs/2608.07107
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: 'World models are increasingly used to support planning in agents by predicting
     how environment states evolve in response to agent actions. Yet fluent next-state
     predictions can still omit task-critical facts, corrupt product attributes, or
@@ -89915,8 +89915,8 @@ papers:
 - title: Controlled Memory Interference in Continual LLM Agents
   date: 2026-08
   url: https://arxiv.org/abs/2608.07622
-  category: ''
-  subcategory: ''
+  category: experiential
+  subcategory: token-level
   abstract: 'Long-term memory enables AI agents to maintain continuity across sessions,
     personalize behavior, and evolve through accumulated experience. Yet memory evolution
     is not simply a process of storing more information: new experiences may reinforce,
@@ -89941,8 +89941,8 @@ papers:
     for Personalized Generation'
   date: 2026-08
   url: https://arxiv.org/abs/2608.08446
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: Personalized generation systems retrieve user history by request--memory
     relevance and inject it into the model context. Yet relevant history may concern
     the wrong preference aspect, duplicate public information, or provide insufficient
@@ -89963,8 +89963,8 @@ papers:
     Teacher Memory'
   date: 2026-08
   url: https://arxiv.org/abs/2608.07169
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: parametric
   abstract: 'Memory systems have shown promise for improving agent performance, but
     their potential remains largely unexplored for small language models, which struggle
     to generate sufficient successful trajectories on their own. We propose Agent
@@ -89986,8 +89986,8 @@ papers:
     and Memory-Grounded LLM Systems'
   date: 2026-07
   url: https://arxiv.org/abs/2608.00033
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: SIRIN (Semantic Inconsistency Recognition and Inspection Nexus) is a unified
     toolkit and interactive web UI for detecting contextual hallucinations (fluent,
     plausible responses unsupported by the provided evidence) in retrieval-augmented,
@@ -90005,8 +90005,8 @@ papers:
     for Goal-Oriented Embodied Navigation in Urban Airspace
   date: 2026-04
   url: https://arxiv.org/abs/2604.07973
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: 'Large multimodal models (LMMs) show strong visual-linguistic reasoning
     but their capacity for spatial decision-making and action remains unclear. In
     this work, we investigate whether LMMs can achieve embodied spatial action like
@@ -90027,8 +90027,8 @@ papers:
     with LLM Agents'
   date: 2026-07
   url: https://arxiv.org/abs/2607.27879
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: Large language model (LLM) agents optimize the power, performance, and
     area (PPA) of register-transfer-level (RTL) designs by iterating over edits, synthesis,
     and PPA analysis, paying a dollar cost for every LLM call. Prior agents report
@@ -90051,8 +90051,8 @@ papers:
     Agents with Independent Consciousness'
   date: 2026-06
   url: https://arxiv.org/abs/2606.10413
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: 'Breakthroughs in large language models and multimodal generation technologies
     have propelled the digital reconstruction of human mental traits, emotional patterns,
     and long-term memory from science fiction toward engineering practice. Yet current
@@ -90075,8 +90075,8 @@ papers:
 - title: 'TEPA: Revoking Stale Memories for Conflict-Robust Language Agents'
   date: 2026-08
   url: https://arxiv.org/abs/2608.07429
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: 'Long-term memory enables language agents to reuse past facts, preferences,
     and task experience. Persistence also creates a central falsifiability problem:
     when the world changes, stale memories can remain retrievable and pollute the
@@ -90102,8 +90102,8 @@ papers:
     Verifiers for Large Language Model Agents'
   date: 2026-08
   url: https://arxiv.org/abs/2608.03137
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: Large language model (LLM) agents must retain reusable information, control
     a bounded active context, and recover earlier evidence during long-horizon interaction.
     Existing methods commonly optimize long-term memory (LTM) and short-term memory
@@ -90128,8 +90128,8 @@ papers:
     Counseling'
   date: 2025-10
   url: https://arxiv.org/abs/2510.25758
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: The shortage of mental health professionals has driven the web to become
     a primary avenue for accessible psychological support. While Large Language Models
     (LLMs) offer promise for scalable web-based counseling, existing approaches often
@@ -90154,8 +90154,8 @@ papers:
     and Dual-Scale Memory in SuperIntelliAgent'
   date: 2025-11
   url: https://arxiv.org/abs/2511.23436
-  category: ''
-  subcategory: ''
+  category: factual
+  subcategory: token-level
   abstract: 'We introduce SuperIntelliAgent, an agentic learning framework that couples
     a trainable small diffusion model (the learner) with a frozen large language model
     (the verifier) to enable continual intelligence growth through self-supervised

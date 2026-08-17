@@ -1,29 +1,9 @@
 {
  "categories": [
   {
-   "id": "",
-   "name": "",
-   "count": 14,
-   "trajectory": {
-    "2025": 3,
-    "2026": 11
-   },
-   "momentum": {
-    "id": "",
-    "name": "",
-    "total": 14,
-    "recent": 13,
-    "prior": 1,
-    "growth_pct": 1200.0,
-    "recent_share": 0.929,
-    "papers_per_month": 1.1,
-    "score": 1292.9
-   }
-  },
-  {
    "id": "experiential",
    "name": "Experiential",
-   "count": 901,
+   "count": 903,
    "trajectory": {
     "2004": 1,
     "2008": 1,
@@ -34,24 +14,24 @@
     "2023": 53,
     "2024": 102,
     "2025": 246,
-    "2026": 467
+    "2026": 469
    },
    "momentum": {
     "id": "experiential",
     "name": "Experiential",
-    "total": 901,
-    "recent": 606,
+    "total": 903,
+    "recent": 608,
     "prior": 164,
-    "growth_pct": 269.5,
+    "growth_pct": 270.7,
     "recent_share": 0.673,
-    "papers_per_month": 50.5,
-    "score": 336.8
+    "papers_per_month": 50.7,
+    "score": 338.0
    }
   },
   {
    "id": "factual",
    "name": "Factual",
-   "count": 1759,
+   "count": 1771,
    "trajectory": {
     "1961": 1,
     "1972": 1,
@@ -73,20 +53,20 @@
     "2022": 22,
     "2023": 82,
     "2024": 184,
-    "2025": 527,
-    "2026": 909,
+    "2025": 530,
+    "2026": 918,
     "2027": 1
    },
    "momentum": {
     "id": "factual",
     "name": "Factual",
-    "total": 1759,
-    "recent": 1181,
-    "prior": 350,
-    "growth_pct": 237.4,
-    "recent_share": 0.671,
-    "papers_per_month": 98.4,
-    "score": 304.5
+    "total": 1771,
+    "recent": 1192,
+    "prior": 351,
+    "growth_pct": 239.6,
+    "recent_share": 0.673,
+    "papers_per_month": 99.3,
+    "score": 306.9
    }
   },
   {
@@ -128,11 +108,6 @@
  ],
  "subcategories": [
   {
-   "id": "",
-   "name": "",
-   "count": 14
-  },
-  {
    "id": "application",
    "name": "Application",
    "count": 10
@@ -160,7 +135,7 @@
   {
    "id": "parametric",
    "name": "Parametric",
-   "count": 238
+   "count": 239
   },
   {
    "id": "review",
@@ -180,7 +155,7 @@
   {
    "id": "token-level",
    "name": "Token Level",
-   "count": 2965
+   "count": 2978
   }
  ],
  "timeline": [
@@ -5491,11 +5466,6 @@
   ],
   [
    "2025-05",
-   "",
-   ""
-  ],
-  [
-   "2025-05",
    "experiential",
    "latent"
   ],
@@ -5941,6 +5911,11 @@
   ],
   [
    "2025-05",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-05",
    "working",
    "latent"
   ],
@@ -7443,11 +7418,6 @@
    "2025-09",
    "working",
    "token-level"
-  ],
-  [
-   "2025-10",
-   "",
-   ""
   ],
   [
    "2025-10",
@@ -8021,6 +7991,11 @@
   ],
   [
    "2025-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-10",
    "working",
    "latent"
   ],
@@ -8138,11 +8113,6 @@
    "2025-10",
    "working",
    "token-level"
-  ],
-  [
-   "2025-11",
-   "",
-   ""
   ],
   [
    "2025-11",
@@ -8328,6 +8298,11 @@
    "2025-11",
    "factual",
    "latent"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "token-level"
   ],
   [
    "2025-11",
@@ -12286,11 +12261,6 @@
   ],
   [
    "2026-04",
-   "",
-   ""
-  ],
-  [
-   "2026-04",
    "experiential",
    "parametric"
   ],
@@ -12558,6 +12528,11 @@
    "2026-04",
    "factual",
    "parametric"
+  ],
+  [
+   "2026-04",
+   "factual",
+   "token-level"
   ],
   [
    "2026-04",
@@ -14811,11 +14786,6 @@
   ],
   [
    "2026-06",
-   "",
-   ""
-  ],
-  [
-   "2026-06",
    "experiential",
    "latent"
   ],
@@ -15921,6 +15891,11 @@
   ],
   [
    "2026-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-06",
    "working",
    "latent"
   ],
@@ -16143,16 +16118,6 @@
    "2026-06",
    "working",
    "token-level"
-  ],
-  [
-   "2026-07",
-   "",
-   ""
-  ],
-  [
-   "2026-07",
-   "",
-   ""
   ],
   [
    "2026-07",
@@ -16926,6 +16891,16 @@
   ],
   [
    "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-07",
    "working",
    "latent"
   ],
@@ -17623,46 +17598,21 @@
    "2026-07",
    "working",
    "token-level"
-  ],
-  [
-   "2026-08",
-   "",
-   ""
-  ],
-  [
-   "2026-08",
-   "",
-   ""
-  ],
-  [
-   "2026-08",
-   "",
-   ""
-  ],
-  [
-   "2026-08",
-   "",
-   ""
-  ],
-  [
-   "2026-08",
-   "",
-   ""
-  ],
-  [
-   "2026-08",
-   "",
-   ""
-  ],
-  [
-   "2026-08",
-   "",
-   ""
   ],
   [
    "2026-08",
    "experiential",
    "latent"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
   ],
   [
    "2026-08",
@@ -17793,6 +17743,31 @@
    "2026-08",
    "factual",
    "parametric"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "token-level"
   ],
   [
    "2026-08",

@@ -3,14 +3,17 @@
 </h1>
 <h3 align="center">A data-driven, auto-validated reading list for Agent Memory research</h3>
 
-<div align="center">
-  [**GitHub**](https://github.com/tobias-weiss-ai-xr/agent-memory-research)
-  [**License**](LICENSE)
-  [**CI**](https://github.com/tobias-weiss-ai-xr/agent-memory-research/actions/workflows/validate.yml)
-  [**Survey Paper (Original)**](https://arxiv.org/abs/2512.13564)
-  [**HF Dataset**](https://huggingface.co/papers/2512.13564)
-  [**Agent Learning**](https://github.com/tobias-weiss-ai-xr/agent-learning-research) [**Agent Skill**](https://github.com/tobias-weiss-ai-xr/agent-skill-research) [**Agentic VR**](https://github.com/tobias-weiss-ai-xr/agentic-vr-research)
-</div>
+### 🔗 Links
+
+- **GitHub**: https://github.com/tobias-weiss-ai-xr/agent-memory-research
+- **License**: https://github.com/tobias-weiss-ai-xr/agent-memory-research/blob/main/LICENSE
+- **CI**: https://github.com/tobias-weiss-ai-xr/agent-memory-research/actions/workflows/validate.yml
+- **Survey Paper (Original)**: https://arxiv.org/abs/2512.13564
+- **HF Dataset**: https://huggingface.co/papers/2512.13564
+- **Agent Learning**: https://github.com/tobias-weiss-ai-xr/agent-learning-research
+- **Agent Skill**: https://github.com/tobias-weiss-ai-xr/agent-skill-research
+- **Agentic VR**: https://github.com/tobias-weiss-ai-xr/agentic-vr-research
+
 
 > 💾 **Agent memory research corpus:** curated papers for the survey
 > "Memory in the Age of AI Agents" (arXiv:2512.13564). Part of the family of
@@ -97,7 +100,7 @@ This fork maintains the same taxonomy but makes the paper list **data-driven and
 
 ## 📊 Corpus Statistics
 
-**3,576 papers** across **4 categories**.  
+**3,576 papers** across **3 categories**.  
 Sources: **arXiv** 2,883 (80%) · **DOI** 530 (14%) · **Other** 163 (4%).  
 Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/agent-memory-research).
 
@@ -105,10 +108,9 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/agent-
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| factual | **1,759** | 0 | ████████████ |
+| factual | **1,771** | 0 | ████████████ |
+| experiential | **903** | 0 | ██████░░░░░░ |
 | working | **902** | 0 | ██████░░░░░░ |
-| experiential | **901** | 0 | ██████░░░░░░ |
-|  | **14** | 0 | ░░░░░░░░░░░░ |
 
 
 ### By year
@@ -124,9 +126,8 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/agent-
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
-|  | 14 | 1.1/mo | 93% | 1293 |
-| Experiential | 901 | 50.5/mo | 67% | 337 |
-| Factual | 1,759 | 98.4/mo | 67% | 304 |
+| Experiential | 903 | 50.7/mo | 67% | 338 |
+| Factual | 1,771 | 99.3/mo | 67% | 307 |
 | Working | 902 | 38.3/mo | 51% | 217 |
 
 
@@ -165,12 +166,13 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/agent-
 | `working/mechanism` | 9 |
 | `experiential/application` | 10 |
 | `experiential/theory` | 10 |
-| `/` | 14 |
 | `experiential/mechanism` | 15 |
+| `factual/development` | 18 |
 
 
 
 *Generated 2027-01 by `scripts/standard_stats.py`.*
+
 
 ## 📖 Citation
 

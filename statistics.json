@@ -3,35 +3,33 @@
     "total_papers": 3576,
     "generated_date": "2027-01",
     "taxonomy": {
-      "categories": 4,
-      "subcategories": 11,
-      "total_cells": 44,
-      "filled_cells": 21,
-      "saturation": 47.7,
-      "empty_cells": 23
+      "categories": 3,
+      "subcategories": 10,
+      "total_cells": 30,
+      "filled_cells": 20,
+      "saturation": 66.7,
+      "empty_cells": 10
     },
     "analysis_window": {
       "last_12m_start": "2025-08"
     }
   },
   "by_category": {
-    "": 14,
-    "experiential": 901,
-    "factual": 1759,
+    "experiential": 903,
+    "factual": 1771,
     "working": 902
   },
   "by_subcategory": {
-    "": 14,
     "application": 10,
     "development": 46,
     "latent": 156,
     "mechanism": 24,
     "method": 76,
-    "parametric": 238,
+    "parametric": 239,
     "review": 19,
     "systems": 18,
     "theory": 10,
-    "token-level": 2965
+    "token-level": 2978
   },
   "by_year": {
     "1961": 1,
@@ -67,10 +65,10 @@
     "2027": 1
   },
   "by_cell": {
-    "factual/token-level": 1509,
-    "experiential/token-level": 745,
+    "factual/token-level": 1520,
+    "experiential/token-level": 747,
     "working/token-level": 711,
-    "factual/parametric": 136,
+    "factual/parametric": 137,
     "working/latent": 75,
     "experiential/parametric": 69,
     "factual/latent": 48,
@@ -84,7 +82,6 @@
     "factual/development": 18,
     "working/systems": 18,
     "experiential/mechanism": 15,
-    "/": 14,
     "experiential/application": 10,
     "experiential/theory": 10,
     "working/mechanism": 9
@@ -133,37 +130,26 @@
   ],
   "momentum": [
     {
-      "id": "",
-      "name": "",
-      "total": 14,
-      "recent": 13,
-      "prior": 1,
-      "growth_pct": 1200.0,
-      "recent_share": 0.929,
-      "papers_per_month": 1.1,
-      "score": 1292.9
-    },
-    {
       "id": "experiential",
       "name": "Experiential",
-      "total": 901,
-      "recent": 606,
+      "total": 903,
+      "recent": 608,
       "prior": 164,
-      "growth_pct": 269.5,
+      "growth_pct": 270.7,
       "recent_share": 0.673,
-      "papers_per_month": 50.5,
-      "score": 336.8
+      "papers_per_month": 50.7,
+      "score": 338.0
     },
     {
       "id": "factual",
       "name": "Factual",
-      "total": 1759,
-      "recent": 1181,
-      "prior": 350,
-      "growth_pct": 237.4,
-      "recent_share": 0.671,
-      "papers_per_month": 98.4,
-      "score": 304.5
+      "total": 1771,
+      "recent": 1192,
+      "prior": 351,
+      "growth_pct": 239.6,
+      "recent_share": 0.673,
+      "papers_per_month": 99.3,
+      "score": 306.9
     },
     {
       "id": "working",
@@ -178,10 +164,6 @@
     }
   ],
   "category_trajectory": {
-    "": {
-      "2025": 3,
-      "2026": 11
-    },
     "experiential": {
       "2004": 1,
       "2008": 1,
@@ -192,7 +174,7 @@
       "2023": 53,
       "2024": 102,
       "2025": 246,
-      "2026": 467
+      "2026": 469
     },
     "factual": {
       "1961": 1,
@@ -215,8 +197,8 @@
       "2022": 22,
       "2023": 82,
       "2024": 184,
-      "2025": 527,
-      "2026": 909,
+      "2025": 530,
+      "2026": 918,
       "2027": 1
     },
     "working": {
@@ -429,10 +411,6 @@
         "papers": 10
       },
       {
-        "cell": "/",
-        "papers": 14
-      },
-      {
         "cell": "experiential/mechanism",
         "papers": 15
       },
@@ -455,6 +433,10 @@
       {
         "cell": "working/method",
         "papers": 28
+      },
+      {
+        "cell": "working/development",
+        "papers": 28
       }
     ],
     "white_space": [
@@ -463,12 +445,6 @@
         "total": 10,
         "recent": 10,
         "recent_share": 1.0
-      },
-      {
-        "cell": "/",
-        "total": 14,
-        "recent": 13,
-        "recent_share": 0.93
       },
       {
         "cell": "factual/development",
