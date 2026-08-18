@@ -1,0 +1,302 @@
+topic:
+  name: Agent Memory
+  short: agent-memory
+  description: '- GitHub: https://github.com/tobias-weiss-ai-xr/agent-memory-research'
+  openalex_mailto: research@tobias-weiss-ai-xr.de
+taxonomy:
+  categories:
+  - id: factual
+    display: Factual
+  - id: working
+    display: Working
+  - id: experiential
+    display: Experiential
+  - id: survey
+    display: Survey
+  - id: method
+    display: Method
+  subcategories:
+  - id: method
+    display: Method
+  - id: theory
+    display: Theory
+  - id: application
+    display: Application
+  - id: survey
+    display: Survey
+  - id: experiment
+    display: Experiment
+  - id: systems
+    display: Systems
+  - id: development
+    display: Development
+arxiv_queries:
+- query: abs:"knowledge graph memory agent"
+  category: factual
+  subcategory_hint: development
+- query: abs:"knowledge memory language model"
+  category: factual
+  subcategory_hint: method
+- query: abs:"retrieval augmented memory"
+  category: factual
+  subcategory_hint: method
+- query: abs:"parametric knowledge survey"
+  category: factual
+  subcategory_hint: review
+- query: abs:"working memory neural network"
+  category: working
+  subcategory_hint: method
+- query: abs:"transformer working memory"
+  category: working
+  subcategory_hint: mechanism
+- query: abs:"memory augmented network"
+  category: working
+  subcategory_hint: development
+- query: abs:"recurrent memory attention"
+  category: working
+  subcategory_hint: method
+- query: abs:"episodic memory agent"
+  category: experiential
+  subcategory_hint: method
+- query: abs:"episodic memory reinforcement learning"
+  category: experiential
+  subcategory_hint: application
+- query: abs:"experience replay memory"
+  category: experiential
+  subcategory_hint: mechanism
+- query: abs:"episodic memory cognitive neuroscience"
+  category: experiential
+  subcategory_hint: theory
+- query: abs:"long-term memory agent"
+  category: factual
+  subcategory_hint: development
+- query: abs:"conversational memory agent"
+  category: working
+  subcategory_hint: development
+- query: abs:"memory transformer architecture"
+  category: working
+  subcategory_hint: systems
+- query: abs:"memory network survey"
+  category: factual
+  subcategory_hint: review
+other_sources_queries:
+- source: dblp
+  query: knowledge graph memory agent
+  category: factual
+  subcategory_hint: development
+- source: crossref
+  query: knowledge memory language model
+  category: factual
+  subcategory_hint: method
+- source: dblp
+  query: retrieval augmented memory
+  category: factual
+  subcategory_hint: method
+- source: crossref
+  query: parametric knowledge survey
+  category: factual
+  subcategory_hint: review
+- source: dblp
+  query: working memory neural network
+  category: working
+  subcategory_hint: method
+- source: crossref
+  query: transformer working memory
+  category: working
+  subcategory_hint: mechanism
+- source: dblp
+  query: memory augmented network
+  category: working
+  subcategory_hint: development
+- source: crossref
+  query: recurrent memory attention
+  category: working
+  subcategory_hint: method
+- source: dblp
+  query: episodic memory agent
+  category: experiential
+  subcategory_hint: method
+- source: crossref
+  query: episodic memory reinforcement learning
+  category: experiential
+  subcategory_hint: application
+- source: dblp
+  query: experience replay memory
+  category: experiential
+  subcategory_hint: mechanism
+- source: europepmc
+  query: episodic memory cognitive neuroscience
+  category: experiential
+  subcategory_hint: theory
+- source: dblp
+  query: long-term memory agent
+  category: factual
+  subcategory_hint: development
+- source: crossref
+  query: conversational memory agent
+  category: working
+  subcategory_hint: development
+- source: dblp
+  query: memory transformer architecture
+  category: working
+  subcategory_hint: systems
+- source: crossref
+  query: memory network survey
+  category: factual
+  subcategory_hint: review
+openalex_queries:
+- category: factual
+  query: knowledge graph memory agent
+- category: factual
+  query: knowledge memory language model
+- category: factual
+  query: retrieval augmented memory
+- category: factual
+  query: parametric knowledge survey
+- category: working
+  query: working memory neural network
+- category: working
+  query: transformer working memory
+- category: working
+  query: memory augmented network
+- category: working
+  query: recurrent memory attention
+- category: experiential
+  query: episodic memory agent
+- category: experiential
+  query: episodic memory reinforcement learning
+- category: experiential
+  query: experience replay memory
+- category: experiential
+  query: episodic memory cognitive neuroscience
+- category: factual
+  query: long-term memory agent
+- category: working
+  query: conversational memory agent
+- category: working
+  query: memory transformer architecture
+- category: factual
+  query: memory network survey
+subcategory_keywords:
+- id: theory
+  keywords:
+  - theory
+  - theoretical
+  - proof
+  - convergence
+  - bound
+  - consistency
+  - asymptotic
+- id: method
+  keywords:
+  - method
+  - algorithm
+  - approach
+  - technique
+  - framework
+  - novel
+  - scheme
+- id: application
+  keywords:
+  - application
+  - applied
+  - real-world
+  - case study
+  - empirical
+- id: evaluation
+  keywords:
+  - benchmark
+  - evaluation
+  - comparison
+  - baseline
+  - empirical study
+- id: development
+  keywords:
+  - implementation
+  - software
+  - package
+  - library
+  - toolkit
+  - open-source
+- id: systems
+  keywords:
+  - system
+  - framework
+  - platform
+  - scalable
+  - distributed
+  - GPU
+  - parallel
+- id: survey
+  keywords:
+  - survey
+  - review
+  - literature
+  - tutorial
+  - overview
+  - taxonomy
+- id: experiment
+  keywords:
+  - experiment
+  - experimental
+  - simulation study
+  - numerical study
+  - synthetic
+relevance_keywords:
+- agent
+- architecture
+- attention
+- augmented
+- cognitive
+- conversational
+- episodic
+- experience
+- experiential
+- factual
+- graph
+- knowledge
+- language
+- learning
+- long-term
+- memory
+- model
+- network
+- neural
+- neuroscience
+- parametric
+- recurrent
+- reinforcement
+- replay
+- retrieval
+- survey
+- transformer
+- working
+trend_keywords:
+- agent
+- architecture
+- attention
+- augmented
+- cognitive
+- conversational
+- episodic
+- experience
+- experiential
+- factual
+- graph
+- knowledge
+- language
+- learning
+- long-term
+- memory
+- model
+- network
+- neural
+- neuroscience
+- parametric
+- recurrent
+- reinforcement
+- replay
+- retrieval
+- survey
+- transformer
+- working
