@@ -776,6 +776,87 @@
   "venue": "arXiv (Cornell University)"
  },
  {
+  "title": "RippleMem: From Isolated Retrieval to Associative Recollection for Long-Term Agent Memory",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.13334",
+  "category": "experiential",
+  "subcategory": "token-level",
+  "authors": [
+   "Jingbo Ji",
+   "Lingyi Li",
+   "Xilong Cheng"
+  ],
+  "abstract": "LLM-based agents increasingly rely on external memory to support long-horizon reasoning and interaction. However, the main bottleneck is not simply storing past experience, but recovering the right se",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "title": "Tacit Fragments: Operationalising Tacit Knowledge as a Governed Memory Layer for Agentic AI",
+  "date": "2026-08",
+  "url": "https://doi.org/10.20944/preprints202608.0927.v1",
+  "category": "experiential",
+  "subcategory": "token-level",
+  "authors": [
+   "Arsalan Shahid",
+   "Gordon Suttie",
+   "Philip Black"
+  ],
+  "abstract": "For more than half a century, tacit knowledge has explained why skilled organisational work cannot be reduced to written rules or formal procedures. Competent action relies on situated judgement, perc",
+  "venue": "Preprints.org"
+ },
+ {
+  "title": "SCU3.0 Architecture and Extension Plan: Three-Dimensional Separation of Data Flow, Dependency Direction, and Cross-Cutting Guard in a Four-Layer Cognitive Framework",
+  "date": "2026-08",
+  "url": "https://doi.org/10.5281/zenodo.21937452",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Ruoshui Xiaoxiang"
+  ],
+  "abstract": "This document presents the SCU3.0 architecture, which achieves three-dimensional separation of concerns by orthogonalizing data flow, dependency direction, and cross-cutting guard auditing into indepe",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "Cognitive trajectories in the nine months following recent-onset major depressive disorder",
+  "date": "2026-08",
+  "url": "https://doi.org/10.1016/j.jad.2026.122371",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Alexandra Stainton",
+   "Caroline X. Gao",
+   "Georgina D. Thomas"
+  ],
+  "abstract": "papers",
+  "venue": "Journal of Affective Disorders"
+ },
+ {
+  "title": "A Noisy Guessing Mixture Circular Diffusion Model of Visual Working Memory",
+  "date": "2026-08",
+  "url": "https://doi.org/10.31234/osf.io/pg5tk_v1",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Amir Hosein Hadian Rasanan",
+   "Nathan J. Evans"
+  ],
+  "abstract": "Visual working memory (VWM) is central to human cognition, providing an interface between visual processing and higher-level cognition. While several cognitive models have been proposed to explain VWM",
+  "venue": ""
+ },
+ {
+  "title": "Characterising semantic prioritisation in visual working memory",
+  "date": "2026-08",
+  "url": "https://doi.org/10.7554/elife.111859",
+  "category": "working",
+  "subcategory": "latent",
+  "authors": [
+   "Casper Kerr\u00e9n",
+   "Carlos Gonz\u00e1lez\u2010Garc\u00eda",
+   "Juan Linde-Domingo"
+  ],
+  "abstract": "Cognitive operations require recently encountered information to remain available beyond the moment of sensory input. However, how such transient representations are accessed, and how they differ from",
+  "venue": "eLife"
+ },
+ {
   "title": "SelfMem: Self-Optimizing Memory for AI Agents",
   "date": "2026-07",
   "url": "https://arxiv.org/abs/2607.03726",
@@ -4952,6 +5033,113 @@
   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
  },
  {
+  "title": "Agent-on-Graph: An Autonomous Agent Framework for\u00a0Multi-hop Reasoning over\u00a0Knowledge Graph",
+  "date": "2026-07",
+  "url": "https://doi.org/10.1007/978-981-92-2856-0_44",
+  "category": "factual",
+  "subcategory": "parametric",
+  "authors": [
+   "S Liu",
+   "Qinggele Qi",
+   "Xiaohong Wu"
+  ],
+  "abstract": "papers",
+  "venue": "Lecture notes in computer science"
+ },
+ {
+  "title": "MANAGING WORKING MEMORY AND COGNITIVE LOAD IN SIMULTANEOUS INTERPRETATION",
+  "date": "2026-07",
+  "url": "https://doi.org/10.66345/st.7021",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Qayimova Mohinur"
+  ],
+  "abstract": "Simultaneous interpretation (SI) is widely recognized as an exceptionally demanding mental activity, as it forces the human brain to manage multiple linguistic tasks at the same time under strict time",
+  "venue": "SCIENCE TIME"
+ },
+ {
+  "title": "Beyond memory capacity: A probabilistic, dual store model of visuospatial working memory",
+  "date": "2026-07",
+  "url": "https://doi.org/10.1371/journal.pcbi.1014535",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Eduardo A. Aponte",
+   "Thanneer M. Perumal",
+   "Francesca Cormack"
+  ],
+  "abstract": "The last decades have seen a great improvement in our understanding of visuospatial working memory (VSWM). Despite this progress, less is known about how information is stored, retained, and removed f",
+  "venue": "PLoS Computational Biology"
+ },
+ {
+  "title": "Working memory capacity and emotion regulation strategies differentially predict proactive and reactive cognitive control",
+  "date": "2026-07",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1798190",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Ping Xu",
+   "Junming Qi",
+   "Wenchang Wen"
+  ],
+  "abstract": "Introduction: Extensive evidence suggests that both working memory (WM) and emotion regulation shape cognitive control, yet their distinct contributions to proactive and reactive control remain unclea",
+  "venue": "Frontiers in Psychology"
+ },
+ {
+  "title": "Emotional Modulation of Working Memory in Older Adults: Dissociable Contributions of Cognitive Reserve and Emotional Intelligence",
+  "date": "2026-07",
+  "url": "https://doi.org/10.3390/brainsci16070725",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Stefania Lucia",
+   "Bianca Monachesi",
+   "Elisabetta Pisanu"
+  ],
+  "abstract": "Background/Objectives: Working memory declines with age, particularly under conditions of high cognitive load. Emotional information can modulate performance depending on its task relevance and on ind",
+  "venue": "Brain Sciences"
+ },
+ {
+  "title": "Model-based evidence for task-dependent representations in psychological similarity and working memory",
+  "date": "2026-07",
+  "url": "https://osf.io/fm9vz",
+  "category": "working",
+  "subcategory": "parametric",
+  "authors": [
+   "Michael Lee",
+   "William XQ Ngiam"
+  ],
+  "abstract": "A central question in visual working memory (VWM) is what psychological representation underlies performance. Standard measurement models assume recall error spreads over the physical stimulus space (",
+  "venue": "PsyArXiv (OSF Preprints)"
+ },
+ {
+  "title": "Interaction between dynamic reinforcement learning and working memory of pigeon: a comparative modeling study",
+  "date": "2026-07",
+  "url": "https://doi.org/10.1242/jeb.252383",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Zhigang Shang",
+   "Yinghui Wang",
+   "Mengmeng Li"
+  ],
+  "abstract": "In animal decision-making research, reinforcement learning (RL) and working memory (WM) are regarded as two fundamental cognitive mechanisms, corresponding respectively to the accumulation of reward-b",
+  "venue": "Journal of Experimental Biology"
+ },
+ {
+  "title": "Memory Saturation and Insight Formation A Hierarchical Cognitive Restructuring Framework",
+  "date": "2026-07",
+  "url": "https://doi.org/10.5281/zenodo.21240485",
+  "category": "working",
+  "subcategory": "latent",
+  "authors": [
+   "HyeongWoo Kim"
+  ],
+  "abstract": "Human cognition often moves from fragmented information toward more coherent ab-stract representations, yet the dynamics linking memory saturation, abstraction, and insightremain incompletely specifie",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
   "title": "Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory",
   "date": "2026-06",
   "url": "https://arxiv.org/abs/2606.10677",
@@ -8381,6 +8569,220 @@
   ],
   "abstract": "Equipping Large Language Models (LLMs) with human-like personas is crucial for agentic applications, such as role-play and user simulation. Traditional prompt-based methods rely on descriptive conditi",
   "venue": "arXiv (Cornell University)"
+ },
+ {
+  "title": "LPD-Edit: Latent principal denoising for robust lifelong knowledge editing",
+  "date": "2026-06",
+  "url": "https://doi.org/10.1016/j.ins.2026.123848",
+  "category": "factual",
+  "subcategory": "parametric",
+  "authors": [
+   "R C Liu",
+   "Fulong Lin",
+   "Xin Wang"
+  ],
+  "abstract": "papers",
+  "venue": "Information Sciences"
+ },
+ {
+  "title": "Smalltalk-KG: A Knowledge Graph Construction Framework for Dialog Personalization in Human-Robot Interaction",
+  "date": "2026-06",
+  "url": "https://doi.org/10.1109/arso68304.2026.11536127",
+  "category": "factual",
+  "subcategory": "parametric",
+  "authors": [
+   "Niklas Wils",
+   "Sergio Peral Garijo",
+   "Kai Michael Blum"
+  ],
+  "abstract": "For older adults, sustained loneliness is a major risk factor for mental and physical health, motivating the use of socially assistive robots as long-term companions rather than short-term interfaces.",
+  "venue": ""
+ },
+ {
+  "title": "From Cache to Cognition: A Grounded Cross-Domain Synthesis of KV Cache Management and Cognitive Memory Frameworks in LLM Inference",
+  "date": "2026-06",
+  "url": "https://doi.org/10.5281/zenodo.20519577",
+  "category": "factual",
+  "subcategory": "token-level",
+  "authors": [
+   "Saluca Agentic AI Research Team"
+  ],
+  "abstract": "The key-value (KV) cache has become a primary memory bottleneck in long-context large language model (LLM) inference, prompting a wave of compression and eviction strategies. Separately, cognitive and",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "Decoupling Knowledge and Reasoning: A Brain-Inspired Architecture for Traceable, Hallucination-Free AI with Quantified Uncertainty",
+  "date": "2026-06",
+  "url": "https://doi.org/10.5281/zenodo.20683132",
+  "category": "factual",
+  "subcategory": "token-level",
+  "authors": [
+   "Yi-Chuan Wang"
+  ],
+  "abstract": "Large language models (LLMs) exhibit two fundamental failure modes: knowledge hallucination, where models generate factually incorrect outputs with false confidence, and reasoning opacity, where concl",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "AI for Sustainable Cultural Industries: A Screenplay-Aware Knowledge-Enhanced State Space Model with LLM-Derived Narrative Features for Forecasting Film Industry Sustainability Across National Economies",
+  "date": "2026-06",
+  "url": "https://doi.org/10.3390/su18126117",
+  "category": "factual",
+  "subcategory": "parametric",
+  "authors": [
+   "Peixuan Qi",
+   "Weidong Zhu"
+  ],
+  "abstract": "This paper examines how artificial intelligence can support sustainability assessment in cultural industries, using national film industries as a test case. The Film Industry Sustainability Index (FIS",
+  "venue": "Sustainability"
+ },
+ {
+  "title": "Experience replay in reinforcement learning: A systematic review",
+  "date": "2026-06",
+  "url": "https://doi.org/10.1016/j.neucom.2026.134403",
+  "category": "experiential",
+  "subcategory": "token-level",
+  "authors": [
+   "Roya Khalili Amirabadi",
+   "Mohsen Jalaeian-F.",
+   "Omid Solaymani Fard"
+  ],
+  "abstract": "Background: Experience Replay (ER) has become a cornerstone of modern reinforcement learning (RL), enabling improved sample efficiency and training stability by reusing past experiences. Since its int",
+  "venue": "Neurocomputing"
+ },
+ {
+  "title": "Divergent transcriptomic pathways underlie sex-biased cognitive rescue by developmental GSK3B inhibition in a mouse model of 22q11.2 deletion syndrome",
+  "date": "2026-06",
+  "url": "https://doi.org/10.1038/s41398-026-04108-0",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Johannes Passecker",
+   "Chia\u2010Yuan Chang",
+   "Aleksandra Dagunts"
+  ],
+  "abstract": "Abstract Neuropsychiatric disorders such as schizophrenia frequently exhibit marked sex differences in onset, clinical features, and treatment response. However, the molecular and developmental bases ",
+  "venue": "Translational Psychiatry"
+ },
+ {
+  "title": "Untangling relationships between cognitive development and child and adolescent mental health: Findings from the ABCD Study",
+  "date": "2026-06",
+  "url": "https://doi.org/10.1016/j.dcn.2026.101772",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Yulan D. Chen",
+   "Shriya Agrawal",
+   "Andrey P. Anokhin"
+  ],
+  "abstract": "Adolescence marks a period of profound neurocognitive maturation, during which cognitive, neural, and biological systems dynamically interact with emerging mental health symptoms. The Adolescent Brain",
+  "venue": "Developmental Cognitive Neuroscience"
+ },
+ {
+  "title": "Clinical and Cognitive Mediators Underlying Subsequent Depression in Individuals With Attention-Deficit/Hyperactivity Disorder: A Developmental Approach",
+  "date": "2026-06",
+  "url": "https://doi.org/10.1016/j.jaac.2026.06.001",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Egl\u0117 Padaigait\u0117",
+   "Gemma Hammerton",
+   "Jon Heron"
+  ],
+  "abstract": "OBJECTIVE: Attention-deficit/hyperactivity disorder (ADHD) may lead to depression, but little is known about its underlying mechanisms. We examined whether clinical factors (irritability, anxiety), co",
+  "venue": "Journal of the American Academy of Child & Adolescent Psychiatry"
+ },
+ {
+  "title": "The P300 event-related potential as a physiological signature of cognitive reserve: links to working memory in aging",
+  "date": "2026-06",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1795165",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Agnese U\u0161acka",
+   "Marija Skrule",
+   "Krist\u0131\u0304ne \u0160neidere"
+  ],
+  "abstract": "Cognitive reserve (CR) may help explain why older adults differ in cognitive functioning despite comparable age- or pathology-related changes. However, the electrophysiological expression of CR across",
+  "venue": "Frontiers in Psychology"
+ },
+ {
+  "title": "COGNITIVE STRATEGIES IN LEARNING: SELF-REPORTED WORKING MEMORY STRATEGY USE AMONG UNIVERSITY STUDENTS",
+  "date": "2026-06",
+  "url": "https://doi.org/10.35631/ijepc.1163080",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Zatul Iffah Abd Latiff",
+   "Aznilinda Zainuddin",
+   "Maisarah Noorezam"
+  ],
+  "abstract": "Working memory supports higher-order learning and information processing, particularly attention control, information retention, visual-spatial processing, and verbal rehearsal. Although prior studies",
+  "venue": "International Journal of Education Psychology and Counseling"
+ },
+ {
+  "title": "An\u00e1lisis del Impacto de las Funciones Ejecutivas en la Comprensi\u00f3n Lectora en escolares con dislexia",
+  "date": "2026-06",
+  "url": "https://doi.org/10.15517/ap.v40i140.65047",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Mar\u00eda Cecilia Agost Carre\u00f1o",
+   "Ariel Cuadro"
+  ],
+  "abstract": "Objective. The aim of this study was to analyze whether executive functions (working memory, inhibition and flexibility) account for differences in reading comprehension between strong and weak reader",
+  "venue": "Actualidades en Psicolog\u00eda"
+ },
+ {
+  "title": "Penny for your thoughts: A review and proposed model of socioeconomic status, working memory and worry",
+  "date": "2026-06",
+  "url": "https://doi.org/10.1111/bjdp.70056",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Colton L. Hunter"
+  ],
+  "abstract": "Socioeconomic status is a complex psychological construct linked to a number of professional and personal barriers, including cognitive deficits. Current explanations of the link between socioeconomic",
+  "venue": "British Journal of Developmental Psychology"
+ },
+ {
+  "title": "CORRELATION BETWEEN LEVELS OF PHYSICAL ACTIVITY WITH INHIBITORY CONTROL, WORKING MEMORY AND COGNITIVE FLEXIBILITY IN PRESCHOOLERS",
+  "date": "2026-06",
+  "url": "https://doi.org/10.82161/qr7z-vg86",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Jimena Bernal Monroy",
+   "Angie Natalia Romero Rivera",
+   "Catherine Escobar Restrepo"
+  ],
+  "abstract": "J. Bernal Monroy1, A.N. Romero Rivera1, C. Escobar Restrepo1, M.L. Ocampo Plazas11Universidad Nacional de Colombia, Bogota, ColombiaBackground: Inhibitory control (IC), working memory (WM) and cogniti",
+  "venue": "World Physiotherapy Congress Archive"
+ },
+ {
+  "title": "Central Nervous System T-cell immune architecture, and not HIV burden, tracks with cognition under long-term viral suppression",
+  "date": "2026-06",
+  "url": "https://doi.org/10.1371/journal.ppat.1014351",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Mattia Trunfio",
+   "Gemma Caballero",
+   "Vanessa Gomez\u2010Moreno"
+  ],
+  "abstract": "Despite effective antiretroviral therapy, HIV persists in the central nervous system (CNS) and may contribute to neuroinflammation and cognitive impairment. How viral persistence, immune responses, an",
+  "venue": "PLoS Pathogens"
+ },
+ {
+  "title": "From Cache to Cognition: Structural Parallels and Disanalogies Between KV Cache Memory Management and Working Memory in Large Language Model Inference",
+  "date": "2026-06",
+  "url": "https://doi.org/10.5281/zenodo.20683162",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Saluca Agentic AI Research Team"
+  ],
+  "abstract": "Recent advances in large language model (LLM) inference have produced a family of KV cache management techniques\u2014including XKV, MEDA, ReST-KV, IceCache, and latent-reasoning approaches such as RiM\u2014tha",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
  },
  {
   "title": "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
@@ -12344,6 +12746,268 @@
   "venue": "bioRxiv (Cold Spring Harbor Laboratory)"
  },
  {
+  "title": "Serverless Cross-Device Knowledge Transfer with Collaborative LLM Fine-Tuning via Wireless Ad Hoc Federated Learning",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1109/cai68641.2026.11536207",
+  "category": "factual",
+  "subcategory": "token-level",
+  "authors": [
+   "Kota Nakajima",
+   "Hiroshi Esaki",
+   "Hideya Ochiai"
+  ],
+  "abstract": "We investigate whether parameter-efficient, LoRA-only model exchange under Wireless Ad Hoc Federated Learning (WAFL) can enable cross-device knowledge transfer for large language models (LLMs) under a",
+  "venue": ""
+ },
+ {
+  "title": "ShadowStream: A Trainable Auxiliary State Stream for Frozen LLMs: Improving Dialogue-state Retention and Persona Persistence in a Japanese 3B Model",
+  "date": "2026-05",
+  "url": "https://doi.org/10.5281/zenodo.20392056",
+  "category": "factual",
+  "subcategory": "token-level",
+  "authors": [
+   "Yusuke Maeda"
+  ],
+  "abstract": "Description This paper introduces ShadowStream, a trainable auxiliary state stream added to a frozen Transformer-based language model. The goal is not to increase the model\u2019s factual knowledge, but to",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "Affordance Agent Harness: Verification-Gated Skill Orchestration",
+  "date": "2026-05",
+  "url": "https://arxiv.org/abs/2605.00663",
+  "category": "experiential",
+  "subcategory": "token-level",
+  "authors": [
+   "Haojian Huang",
+   "Jiahao Shi",
+   "Yinchuan Li"
+  ],
+  "abstract": "Affordance grounding requires identifying where and how an agent should interact in open-world scenes, where actionable regions are often small, occluded, reflective, and visually ambiguous. Recent sy",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
+  "title": "Alpha phase coding supports feature binding during working memory maintenance",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1038/s42003-026-10071-9",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Mattia F. Pagnotta",
+   "Aniol Santo-Angles",
+   "Ainsley Temudo"
+  ],
+  "abstract": "Abstract The ability to successfully retain and manipulate information in working memory (WM) requires that objects\u2019 individual features are bound into cohesive representations; yet, the mechanisms su",
+  "venue": "Communications Biology"
+ },
+ {
+  "title": "Emotion Recognition Accuracy Across Nonverbal Modalities: Associations with Working Memory",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1007/s10919-026-00507-5",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Peyton Nault",
+   "Michele Morningstar"
+  ],
+  "abstract": "papers",
+  "venue": "Journal of Nonverbal Behavior"
+ },
+ {
+  "title": "Assessing working memory test performance with a cognitive psychometric race model",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1016/j.intell.2026.102024",
+  "category": "working",
+  "subcategory": "parametric",
+  "authors": [
+   "Raimund J. Kr\u00e4mer",
+   "Tobias Sch\u00e4fer",
+   "Christopher Kannen"
+  ],
+  "abstract": "The present study tested the properties of a cognitive psychometric model for the joint analysis of responses and response times in binding-type working memory capacity (WMC) tasks. These models aim t",
+  "venue": "Intelligence"
+ },
+ {
+  "title": "Phase of transcranial alternating current stimulation modulates working memory processing speed",
+  "date": "2026-05",
+  "url": "https://doi.org/10.64898/2026.05.26.727793",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Julie Dimmendaal",
+   "Xiaojuan Wang",
+   "Bas J Dijkslag"
+  ],
+  "abstract": "Abstract Background Theta-frequency transcranial alternating current stimulation (tACS) over prefrontal cortex has been proposed to modulate working memory (WM), yet behavioral effects are often incon",
+  "venue": "bioRxiv (Cold Spring Harbor Laboratory)"
+ },
+ {
+  "title": "The relationship between subjective cognitive complaints and objective cognitive assessment in severe mental disorders: a systematic review and meta-analysis",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1093/arclin/acag046",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Ezgi \u0130nce",
+   "Emine Ilg\u0131n Ho\u015fgelen",
+   "Emre Bora"
+  ],
+  "abstract": "OBJECTIVE: The study aims to examine the relationship between subjective cognitive complaints (SCC) and objective cognitive performance (OCP) in severe mental disorders, including schizophrenia (SCZ),",
+  "venue": "Archives of Clinical Neuropsychology"
+ },
+ {
+  "title": "Multi-Dimensional Assessment for AI Cognition (MAAC): A Theoretical Framework for Process-Oriented Cognitive Evaluation of Text-Based AI Systems",
+  "date": "2026-05",
+  "url": "https://doi.org/10.5281/zenodo.20114581",
+  "category": "working",
+  "subcategory": "parametric",
+  "authors": [
+   "A Doleh",
+   "Ratna Chinnam"
+  ],
+  "abstract": "This paper introduces the Multi-Dimensional Assessment for AI Cognition (MAAC), a theoretically grounded framework for evaluating AI systems through the lens of cognitive processes rather than task ou",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "Ketogenic diet enhances cognitive-behavioral function and hippocampal neurogenesis while attenuating amyloid pathology in Tg-SwDI mice",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1177/13872877261445916",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Victoria Pulido\u2010Correa",
+   "Ariana Hernandez",
+   "Eleanor Wind"
+  ],
+  "abstract": "BackgroundThe ketogenic diet (KD), characterized by high-fat, low-carbohydrate, and moderate protein intake, has gained attention for its therapeutic potential in patients with neurodegenerative disea",
+  "venue": "Journal of Alzheimer s Disease"
+ },
+ {
+  "title": "Screen Time Patterns and Cognitive Development Among Preschool Children",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1016/j.amepre.2026.108420",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Valerie Carson",
+   "Madison Boyd",
+   "Yao Zheng"
+  ],
+  "abstract": "INTRODUCTION: Major gaps limit the comprehensive understanding of the associations between screen time and cognitive development in preschool years. The objectives of this study were to examine (1) sc",
+  "venue": "American Journal of Preventive Medicine"
+ },
+ {
+  "title": "Association between emotion recognition and cognitive functioning in multiple sclerosis: a multilevel correlational meta-analysis",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1038/s41598-026-52969-8",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "B\u00e9atrice Degraeve",
+   "Audrey Henry",
+   "Bruno Lenne"
+  ],
+  "abstract": "Multiple sclerosis (MS) is a chronic neuroinflammatory and neurodegenerative disease marked by both cognitive and socio-cognitive impairments, including difficulties in recognizing emotions. While def",
+  "venue": "Scientific Reports"
+ },
+ {
+  "title": "State Rumination Disrupts Working Memory and Increases Cognitive Effort Through Cognitive Interference",
+  "date": "2026-05",
+  "url": "https://doi.org/10.31234/osf.io/53qga_v2",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Denise Chisom Jaeschke",
+   "Isaac Fradkin",
+   "Noham Wolpe"
+  ],
+  "abstract": "Background:Objective and subjective cognitive difficulties, particularly in working memory (WM), are common across psychiatric conditions, yet their underlying mechanisms remain unclear. Notably, subj",
+  "venue": ""
+ },
+ {
+  "title": "A novel bifunctional peptide predicted to target neuropeptide Y4 and GLP-1 receptors alleviates cognitive deficits in 5\u00a0\u00d7\u00a0FAD mice by modulating cGAS-STING-mediated neuroinflammation",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1016/j.bcp.2026.118074",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Yijie Feng",
+   "\u5f20\u5f69\u5229",
+   "Yinuo Wei"
+  ],
+  "abstract": "papers",
+  "venue": "Biochemical Pharmacology"
+ },
+ {
+  "title": "Neurocognitive changes in lithium-treated older adult bipolar patients on antipsychotics",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1177/02698811261443673",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Evangelia Maria Tsapakis",
+   "Kalliopi E. Diakaki",
+   "G. Zioris"
+  ],
+  "abstract": "Background: Lithium is the gold-standard mood stabilizer in bipolar disorder (BD) showing putative neuroprotective effects, but its association with cognition in older adults with BD (OABD) remains un",
+  "venue": "Journal of Psychopharmacology"
+ },
+ {
+  "title": "Dissociable contributions of working memory capacity and lapses of attention to cognitive deficits in schizophrenia",
+  "date": "2026-05",
+  "url": "https://doi.org/10.31234/osf.io/fu6de_v1",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Sonia Bansal",
+   "Kirsten Adam",
+   "John Kiat"
+  ],
+  "abstract": "Working Memory (WM) impairment is a central feature of schizophrenia, yet it remains unclear whether WM deficits primarily reflect reduced storage capacity or inconsistent attentional engagement of av",
+  "venue": ""
+ },
+ {
+  "title": "Behavioral phenotypes and neuronal biomarkers in F1 mutant macaque model of SHANK3-associated autism spectrum disorders",
+  "date": "2026-05",
+  "url": "https://doi.org/10.1016/j.neuron.2026.04.018",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Minqing Jiang",
+   "Ronghui Li",
+   "Xing Yang"
+  ],
+  "abstract": "papers",
+  "venue": "Neuron"
+ },
+ {
+  "title": "Why faster thinkers are smarter thinkers: Working memory binding as the link between processing speed and cognitive ability",
+  "date": "2026-05",
+  "url": "https://doi.org/10.31234/osf.io/t2jve_v1",
+  "category": "working",
+  "subcategory": "latent",
+  "authors": [
+   "Anna-Lena Schubert",
+   "Linda Eileen Leydecker",
+   "Henrike Maria Jungeblut"
+  ],
+  "abstract": "Individuals who process information faster tend to score higher on cognitive ability tests, but the mechanism linking processing speed to general cognitive ability (g) remains unresolved. We tested wh",
+  "venue": ""
+ },
+ {
+  "title": "NAACA: Training-Free NeuroAuditory Attentive Cognitive Architecture with Oscillatory Working Memory for Salience-Driven Attention Gating",
+  "date": "2026-05",
+  "url": "https://arxiv.org/abs/2605.13651",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Zhongju Yuan",
+   "GA Wiggins",
+   "Dick Botteldooren"
+  ],
+  "abstract": "Audio provides critical situational cues, yet current Audio Language Models (ALMs) face an attention bottleneck in long-form recordings where dominant background patterns can dilute rare, salient even",
+  "venue": "arXiv (Cornell University)"
+ },
+ {
   "title": "Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework",
   "date": "2026-04",
   "url": "https://arxiv.org/abs/2604.01707",
@@ -14884,6 +15548,251 @@
   "venue": "Trends in Cognitive Sciences"
  },
  {
+  "title": "Path-of-Thought: A Neuron-Chain Knowledge Representation System with Parallel Wavefront Recognition",
+  "date": "2026-04",
+  "url": "https://doi.org/10.5281/zenodo.19436523",
+  "category": "factual",
+  "subcategory": "token-level",
+  "authors": [
+   "Jennifer Pearl"
+  ],
+  "abstract": "We present Sara Brain, a cognitive architecture for artificial intelligence based on the **path-of-thought** model: the thesis that a thought is a path through recorded knowledge, and that recognition",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "Knowledge Grounded Conversational Academic Guidance via OCR Enabled Hybrid Retrieval, Retrieval Augmented Generation, and Neuro Symbolic Validation",
+  "date": "2026-04",
+  "url": "https://doi.org/10.21203/rs.3.rs-9481282/v1",
+  "category": "factual",
+  "subcategory": "parametric",
+  "authors": [
+   "Veerababu Reddy",
+   "Krishnaveni Kaki",
+   "Bharath Kesineni"
+  ],
+  "abstract": "papers",
+  "venue": "Research Square"
+ },
+ {
+  "title": "Structure matters more: efficient domain adaptation for SLMs via QA-based data reconstruction",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1117/12.3109069",
+  "category": "factual",
+  "subcategory": "parametric",
+  "authors": [
+   "Wangming Li",
+   "Shenghao Ye",
+   "Dong Jin"
+  ],
+  "abstract": "The sequential paradigm of Continued Pre-Training (CPT) followed by Supervised Fine-Tuning (SFT)1 has become the standard for adapting Large Language Models (LLMs) to vertical domains. However, direct",
+  "venue": ""
+ },
+ {
+  "title": "Veritas: Structuring and verifying LLM knowledge for logically consistent behavior tree generation in LLM-based agents",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1016/j.ipm.2026.104830",
+  "category": "factual",
+  "subcategory": "parametric",
+  "authors": [
+   "Hao Tang",
+   "Feng Zhang",
+   "Kejia Wan"
+  ],
+  "abstract": "Behavior trees (BTs) have been widely adopted in autonomous task planning because of their modularity and reactivity. Recently, automatic BT generation based on Large Language Models (LLMs) has attrac",
+  "venue": "Information Processing & Management"
+ },
+ {
+  "title": "ZERO Mind: Self-Evolving Lifelong Multimodal Memory Architectures for Autonomous Space Digital Twins",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1109/qpain69676.2026.11545864",
+  "category": "experiential",
+  "subcategory": "latent",
+  "authors": [
+   "K Dhinakaran",
+   "Balavigneshwar T G",
+   "Kavin V"
+  ],
+  "abstract": "Autonomous long-duration space missions require agents that retain decades of multimodal experience, self-adapt to novel physical phenomena, and operate safely amid communication blackouts. We present",
+  "venue": ""
+ },
+ {
+  "title": "Cognitive and Brain Reserve as Modifiers of Early Alzheimer Disease\u2013Related Cognitive Vulnerability",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1212/wnl.0000000000214833",
+  "category": "working",
+  "subcategory": "latent",
+  "authors": [
+   "Kelsey R. Sewell",
+   "Patricio Solis-Urra",
+   "Haiqing Huang"
+  ],
+  "abstract": "BACKGROUND AND OBJECTIVES: Maintaining cognitive function despite the presence of Alzheimer disease (AD) pathology is the foundation of cognitive reserve. Although the theory of cognitive reserve is s",
+  "venue": "Neurology"
+ },
+ {
+  "title": "Leveraging cognitively inspired working memory models for robotic referring expression generation",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1016/j.cogsys.2026.101472",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Rafael Sousa Silva",
+   "Tom Williams"
+  ],
+  "abstract": "Working memory (WM) is an important component of human cognition that shapes reasoning, planning, learning, language understanding, and language generation. Given its importance to humans, we believe ",
+  "venue": "Cognitive Systems Research"
+ },
+ {
+  "title": "Beyond Accuracy: Cognitive Speed in Speech-in-Noise Processing and Its Implications for the Ease of Language Understanding Model",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1044/2026_jslhr-25-00773",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Jer\u00adker R\u00f6nnberg",
+   "Erik Marsja",
+   "Henrik Danielsson"
+  ],
+  "abstract": "PURPOSE: The ease of language understanding (ELU) model predicts two processing streams-fast, implicit prediction and slower, explicit postdiction-challenging single-factor \"general speed\" accounts. T",
+  "venue": "Journal of Speech Language and Hearing Research"
+ },
+ {
+  "title": "Comparing the Effect of Semi\u2010Immersive Virtual Reality, Computerized Cognitive Training, and Traditional Rehabilitation on Cognitive Function in Multiple Sclerosis: A Randomized Clinical Trial",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1002/acn3.70390",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Maria Grazia Maggio",
+   "D\u00e8sir\u00e9\u00e8 Latella",
+   "Lilla Bonanno"
+  ],
+  "abstract": "BACKGROUND: Cognitive impairment is a common non-motor symptom in Multiple Sclerosis (MS), negatively affecting autonomy and Quality of Life (QoL). Innovative rehabilitation strategies, such as semi-i",
+  "venue": "Annals of Clinical and Translational Neurology"
+ },
+ {
+  "title": "Working Memory, Attention Control, and Vocabulary Retention in AI (ChatGPT)-Assisted Foreign Language Learning: A Structural Cognitive Modelling Approach",
+  "date": "2026-04",
+  "url": "https://doi.org/10.3390/jintelligence14040062",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Mohammad H. Al-khresheh",
+   "Mayez Almayez",
+   "Shatha F. Alruwaili"
+  ],
+  "abstract": "This study examined how working memory, attention control, and frequency of ChatGPT-4 use are structurally associated with vocabulary retention in foreign language learning. A quantitative cross-secti",
+  "venue": "Journal of Intelligence"
+ },
+ {
+  "title": "Association Between Traffic Noise and Cognitive Function: A Cross-Sectional Study in a Mid-Sized City in Northern Colombia",
+  "date": "2026-04",
+  "url": "https://doi.org/10.3390/environments13040204",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Mar\u00eda Taboada-Alquerque",
+   "Felipe Figueroa",
+   "Juan Carlos Valdelamar Villegas"
+  ],
+  "abstract": "Exposure to road traffic noise is an increasing public health concern in developing countries. However, limited research has explored its effect on children\u2019s cognitive function in contexts with commo",
+  "venue": "Environments"
+ },
+ {
+  "title": "The interplay between executive function and learning disabilities: Developmental cognitive neuroscience perspectives on reading, math, and ADHD",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1016/j.dcn.2026.101722",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Tzipi Horowitz\u2010Kraus",
+   "Paul T. Cirino",
+   "Laurie E. Cutting"
+  ],
+  "abstract": "The term \"Executive function\" (EF) describes domain-general cognitive processes including working memory, inhibitory control, and cognitive flexibility among others, that are essential for academic le",
+  "venue": "Developmental Cognitive Neuroscience"
+ },
+ {
+  "title": "Linking spontaneous speech synchronization and cognitive abilities: evidence from a syllable-timed language",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1007/s00426-026-02302-9",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Mar\u00eda de Lourdes Noboa",
+   "Csaba Kert\u00e9sz",
+   "Ne\u017ea Marija Slosar"
+  ],
+  "abstract": "Sensorimotor synchronization (SMS) refers to the coordination of audio and motor areas with external rhythmic stimuli, such as music or speech. The Speech-to-Speech Synchronization test (SSST) has bee",
+  "venue": "Psychological Research"
+ },
+ {
+  "title": "Effects of Vitamin D Supplementation on Cognitive Function in Older Adults: A Grading of Recommendations Assessment, Development, and Evaluation (GRADE) Methodology\u2013Assessed Systematic Review and Meta-Analysis of Randomized Clinical Trials",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1093/nutrit/nuaf284",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Roya Behrouzi",
+   "Hossein Shahinfar",
+   "Shima Jazayeri"
+  ],
+  "abstract": "CONTEXT: The increasing number of older adults suffering from cognitive decline is a global public health challenge. Current evidence suggests that vitamin D supplementation may be related to better c",
+  "venue": "Nutrition Reviews"
+ },
+ {
+  "title": "The Role of Working Memory in SLA",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1017/9781009400640.007",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Nuria Sagarra"
+  ],
+  "abstract": "Working memory (WM), our ability to hold a small amount of information readily available for ongoing use, is crucial to language processing. This chapter examines verbal WM models/tests and then cover",
+  "venue": "Cambridge University Press eBooks"
+ },
+ {
+  "title": "Eye movement analysis during working memory tasks correlates with cognitive, clinical, and anatomical metrics in multiple sclerosis",
+  "date": "2026-04",
+  "url": "https://doi.org/10.1177/20552173261446213",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Cecilie Fjeldstad Pardo",
+   "Gerardo Fernandez",
+   "Bujana Allushi"
+  ],
+  "abstract": "Background: Cognitive dysfunction involving working memory is common in multiple sclerosis (MS) but is often under-detected in clinical assessments. Noninvasive digital biomarkers like oculomotor metr",
+  "venue": "Multiple Sclerosis Journal - Experimental Translational and Clinical"
+ },
+ {
+  "title": "Optimising Metamath Proofs for Human Working Memory",
+  "date": "2026-04",
+  "url": "https://doi.org/10.26188/32018343",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Jeremy Lindsay",
+   "Cezary Kaliszyk",
+   "Christine Rizkallah"
+  ],
+  "abstract": "<pre>Mathematical proofs vary in legibility. While most proof optimisation techniques seek to minimise proof size, the strategic reordering of inferences can reduce a reader's working memory consumpti",
+  "venue": "University of Melbourne data repository"
+ },
+ {
+  "title": "Fable: The Shape of Thought - A Measurement Programme for the Shapes That Let Cognition Survive Substrate Transitions",
+  "date": "2026-04",
+  "url": "https://doi.org/10.5281/zenodo.19826509",
+  "category": "working",
+  "subcategory": "parametric",
+  "authors": [
+   "Peter Cooper"
+  ],
+  "abstract": "Cognition has always written itself onto something. Clay, papyrus, neural tissue, silicon. This paper argues that wherever cognition stores anything, it does so in five recurrent data shapes: binary, ",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
   "title": "Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers",
   "date": "2026-03",
   "url": "https://arxiv.org/abs/2603.07670",
@@ -17421,6 +18330,325 @@
   "venue": "Proceedings of the AAAI Conference on Artificial Intelligence"
  },
  {
+  "title": "MultiMedBench: A Scenario-Aware Benchmark for Evaluating Knowledge Editing in Medical VQA",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1609/aaai.v40i40.40679",
+  "category": "factual",
+  "subcategory": "parametric",
+  "authors": [
+   "Shengtao Wen",
+   "Haodong Chen",
+   "Yadong Wang"
+  ],
+  "abstract": "Knowledge editing (KE) provides a scalable approach for updating factual knowledge in large language models without full retraining. While previous studies have demonstrated effectiveness in general d",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence"
+ },
+ {
+  "title": "Knowledge-Adaptive Question Answering with Retrieval-Augmented Generation on Amazon Bedrock",
+  "date": "2026-03",
+  "url": "https://doi.org/10.5281/zenodo.20161538",
+  "category": "factual",
+  "subcategory": "token-level",
+  "authors": [
+   "Duru Juliet Chinenye, Ogbuagu Chinedu Samuel, Chima Aguocha Obingonye, Hilary Prince-Daniel Chikaodi"
+  ],
+  "abstract": "Abstract Knowledge-intensive question answering in high-stakes domains such as medicine, law, and finance demands systems that deliver accurate, verifiable, and temporally current information. While l",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "Zero-PII Architecture: An Exploratory Structural Precondition for Safer Human-Machine Interaction in the Age of Cognitive Biomarkers",
+  "date": "2026-03",
+  "url": "https://doi.org/10.5281/zenodo.19219978",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Murali Swayambu"
+  ],
+  "abstract": "Every human-machine interaction leaves traces. In most contexts, these traces are manageable\u2014a click, a page view, a purchase. In specific high-risk contexts\u2014cognitive overload, fraud pressure, emotio",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "When Threat Comes from Within: First Evidence that Anticipatory Emotion Impairs Working Memory",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1007/s42761-026-00363-y",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Hippolyte Fournier",
+   "Lou Pardon Tommasini",
+   "Aur\u00e9lie Walter"
+  ],
+  "abstract": "Although anticipating threat is known to capture attentional resources, its direct impact on working memory (WM), a core cognitive function supporting everyday activities, has yet to be empirically ex",
+  "venue": "Affective Science"
+ },
+ {
+  "title": "Double-decision Response Time Models of Recall and Recognition Support Resource Accounts of Visual Working Memory",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1007/s42113-026-00265-z",
+  "category": "working",
+  "subcategory": "latent",
+  "authors": [
+   "Paul M. Garrett",
+   "Anthony Lua",
+   "Daniel Feuerriegel"
+  ],
+  "abstract": "We use response time decision models to determine whether visual working memory (VWM) is best described by a fixed-capacity \u2018slot\u2019 model or a continuously allocated \u2018resource\u2019 model. We used a double-",
+  "venue": "Computational Brain & Behavior"
+ },
+ {
+  "title": "Fish consumption and cognitive function in aging: a systematic review of observational studies",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1007/s11357-026-02188-w",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Justyna Godos",
+   "Giuseppe Caruso",
+   "Agnieszka Micek"
+  ],
+  "abstract": "Epidemiological studies consistently link higher fish intake with slower rates of cognitive decline and lower dementia incidence. The aim of the present study was to systematically review existing obs",
+  "venue": "GeroScience"
+ },
+ {
+  "title": "A compound enhancing lysosomal function reduces tau pathology, microglial reactivity and rescues working memory in 3xTg AD mice",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1007/s11357-026-02139-5",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Zachary Mayeri",
+   "Georgia Woods",
+   "Anand Rane"
+  ],
+  "abstract": "papers",
+  "venue": "GeroScience"
+ },
+ {
+  "title": "Ketamine as a potential cognitive enhancer in neurological disorders: evidence from preclinical and clinical studies",
+  "date": "2026-03",
+  "url": "https://doi.org/10.3389/fneur.2026.1786249",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Jose E. Leon-Rojas",
+   "Guido Mascialino",
+   "Lizeth Vinueza Mera"
+  ],
+  "abstract": "Subanesthetic ketamine shows rapid neuroplastic and antidepressant effects in psychiatric conditions, prompting interest in its potential relevance for cognitive dysfunction in neurological disorders.",
+  "venue": "Frontiers in Neurology"
+ },
+ {
+  "title": "Theory of Troubleshooting: The Developer\u2019s Cognitive Experience of Overcoming Confusion",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1145/3800945",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Arty Starr",
+   "Margaret-Anne Storey"
+  ],
+  "abstract": "This paper introduces a Theory of Troubleshooting that is rooted in cognitive science. This theory helps software developers explain the challenges they face and the project risks that emerge as troub",
+  "venue": "ACM Transactions on Software Engineering and Methodology"
+ },
+ {
+  "title": "Objective Memory Impairment in Post-Traumatic Stress Disorder: a Systematic Review and Multilevel Meta-Analysis of Trauma-Exposed Adult Populations",
+  "date": "2026-03",
+  "url": "https://doi.org/10.2478/prilozi-2026-0003",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Haris Sulejmani",
+   "Nada Pop-Jordanova"
+  ],
+  "abstract": "Abstract Background : Post-traumatic stress disorder (PTSD) is traditionally conceptualized as a disorder of fear learning and emotional dysregulation; however, accumulating evidence indicates that ob",
+  "venue": "PRILOZI"
+ },
+ {
+  "title": "Fluctuations in emotional valence and arousal are differentially linked to cognitive performance and subjective mental effort",
+  "date": "2026-03",
+  "url": "https://doi.org/10.31234/osf.io/7uvwn_v1",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Daniel Harlev",
+   "Rivka Hoffman",
+   "Nitsan Schwarz"
+  ],
+  "abstract": "Emotional states fluctuate continuously, yet it remains unclear how momentary emotional states and their temporal variability relate to cognition in daily life. We examined how fluctuations along the ",
+  "venue": ""
+ },
+ {
+  "title": "Lipopolysaccharide-induced Neuroimmune Alteration and Memory Decline in Aging Mice: The Role of Augmented Cellular Senescence",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1007/s12640-026-00785-3",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Miracle Kii Nekabari",
+   "Benneth  Ben-Azu",
+   "Bienose S. Chijioke"
+  ],
+  "abstract": "papers",
+  "venue": "Neurotoxicity Research"
+ },
+ {
+  "title": "Excitation-inhibition imbalance and impaired neuronal interactions contribute to cognitive impairments in neuroinflammation by disrupting neuronal avalanche dynamics and criticality",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1016/j.bbi.2026.106569",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Xiaoyi Hu",
+   "Hai-peng Wu",
+   "Qiu-li He"
+  ],
+  "abstract": "papers",
+  "venue": "Brain Behavior and Immunity"
+ },
+ {
+  "title": "Efficacy of dual-task training on motor performance and cognitive function in patients with stroke disease: an umbrella review comprising meta-analyses of randomized controlled trials",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1186/s12883-026-04805-9",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Yezheng Wang",
+   "Congcong Li",
+   "Lijuan Wang"
+  ],
+  "abstract": "BACKGROUND: Stroke poses a major threat to human health, often causing motor, balance, and cognitive impairments that profoundly disrupt patients\u2019 daily lives and markedly reduce their quality of life",
+  "venue": "BMC Neurology"
+ },
+ {
+  "title": "Intellectual disability and structural defects of the CaV2.1 channel in episodic ataxia type 2: correlation using an AI prediction model",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1007/s00415-026-13731-2",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Hyojung Kim",
+   "Jin\u2010Ok Lee",
+   "Sejoon Lee"
+  ],
+  "abstract": "BACKGROUND: Episodic ataxia type 2 (EA2) results from pathogenic variants in CACNA1A that encodes the CaV2.1 P/Q-type calcium channel. The molecular basis of cognitive impairments requires further elu",
+  "venue": "Journal of Neurology"
+ },
+ {
+  "title": "Neurodevelopmental effects of early life stress: PFC and cognition",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1016/j.neubiorev.2026.106663",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Lital Rachmany",
+   "Fab\u00edula Francisca de Abreu",
+   "Victoria Walker"
+  ],
+  "abstract": "Early life stress (ELS) exerts lasting effects on prefrontal cortex (PFC) development and function, contributing to cognitive and emotional vulnerabilities later in life. This review synthesizes findi",
+  "venue": "Neuroscience & Biobehavioral Reviews"
+ },
+ {
+  "title": "A cognitive architecture for modeling human memory and consciousness",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1007/s00521-026-11906-6",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Nicol\u00e1s Torres"
+  ],
+  "abstract": "papers",
+  "venue": "Neural Computing and Applications"
+ },
+ {
+  "title": "The Cognitive Infrastructure of Learning: Attention, Working Memory, and the Foundations of Education",
+  "date": "2026-03",
+  "url": "https://doi.org/10.5281/zenodo.18999889",
+  "category": "working",
+  "subcategory": "parametric",
+  "authors": [
+   "David (Daoud) Matta"
+  ],
+  "abstract": "Educational systems traditionally emphasize the acquisition of knowledge and procedural skills through the development of long-term memory. However, cognitive science suggests that learning depends on",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "Specification Impossibility in Organizational Design: A High-Dimensional Geometric Analysis",
+  "date": "2026-03",
+  "url": "https://doi.org/10.5281/zenodo.18945591",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Dmitry Zharnikov"
+  ],
+  "abstract": "Organizational design frameworks prescribe configurations across multiple interdependent levels yet no existing theory quantifies the fundamental limits of exhaustive specification. This paper applies",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "The Foundations of Arabic Word Reading: Evidence from a 2-Year Longitudinal Study",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1080/10888438.2026.2640910",
+  "category": "working",
+  "subcategory": "parametric",
+  "authors": [
+   "Sana Tibi",
+   "Young\u2010Suk Grace Kim",
+   "Soheil Hussain Salha"
+  ],
+  "abstract": "Purpose Given the limited longitudinal research on Arabic reading development, this study examined cognitive and linguistic predictors of Arabic word reading using two year longitudinal data from kind",
+  "venue": "Scientific Studies of Reading"
+ },
+ {
+  "title": "A Meta-Analytical Review of Executive Function Skills in Adults Who Stutter",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1044/2025_jslhr-25-00303",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Levi C. Ofoe",
+   "Katerina Ntourou",
+   "Shari Clifton"
+  ],
+  "abstract": "Purpose: Executive function has been identified as a potential area of vulnerability in individuals who stutter. The present study identified and analyzed the data across empirical studies of the exec",
+  "venue": "Journal of Speech Language and Hearing Research"
+ },
+ {
+  "title": "Assistive Augmented Reality for Enhancing Executive Functions in Learners with Hearing Impairments: Embedded Experimental Study",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1080/1034912x.2026.2636721",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Pattrawadee Makmee",
+   "Peera Wongupparaj"
+  ],
+  "abstract": "This study investigated the effectiveness of an Augmented Reality (AR) application in enhancing executive functions among primary school students with hearing impairments. Using a mixed-methods embedd",
+  "venue": "International Journal of Disability Development and Education"
+ },
+ {
+  "title": "Working Memory in L2 Speaking: An Overview",
+  "date": "2026-03",
+  "url": "https://mue.repo.nii.ac.jp/records/2000318",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Diego Elisandro Dardon"
+  ],
+  "abstract": "Second language (L2) speaking is a complex, cognitively demanding skill that requires learners to simultaneously access vocabulary, retrieve syntactic structures and maintain f luency during interacti",
+  "venue": "Institutional Repositories DataBase (IRDB)"
+ },
+ {
+  "title": "Working Memory in Second Language Research",
+  "date": "2026-03",
+  "url": "https://doi.org/10.1002/9781405198431.wbeal1286.pub2",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Nuria Sagarra"
+  ],
+  "abstract": "Abstract Working memory (WM) plays a prominent role in SLA because adult SLA requires additional computation and activation, which in turn imposes extra load on WM resources. This article offers a com",
+  "venue": "The Encyclopedia of Applied Linguistics"
+ },
+ {
   "title": "FluxMem: Choosing How to Remember: Adaptive Memory Structures for LLM Agents",
   "date": "2026-02",
   "url": "https://arxiv.org/abs/2602.14038",
@@ -19484,6 +20712,154 @@
    "Brandon Everett"
   ],
   "abstract": "Now hosted on Github, no download required: https://yellowhapax.github.io/MBD-Framework/ Apologies for the outage - I seem to have forgotten what a \"staging\" branch is for. Lab restored. MBD-Framework",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "Ep. 846: Beyond the Vector: Building Long-Standing AI Memory",
+  "date": "2026-02",
+  "url": "https://doi.org/10.5281/zenodo.19361457",
+  "category": "factual",
+  "subcategory": "token-level",
+  "authors": [
+   "Daniel Rosehill",
+   "Gemini 3.1 (Flash)",
+   "Chatterbox TTS"
+  ],
+  "abstract": "Episode summary: Most AI systems today find information by \"shouting into a library\" and hoping the right book falls off the shelf, but the industry is rapidly moving toward a more elegant, structured",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "The Missing Link: Validating the Working Memory Adaptive Fatigue with N-Back Difficulty Protocol for Active Cognitive Fatigue Induction",
+  "date": "2026-02",
+  "url": "https://doi.org/10.31234/osf.io/h4n2w_v1",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Brodie Edward Mangan",
+   "Simone A. Tomaz",
+   "Dimitrios Kourtis"
+  ],
+  "abstract": "Cognitive fatigue is widely invoked to explain performance breakdowns, yet many laboratory inductions are repurposed tasks that may inadvertently confound fatigue with learning, monotony, or disengage",
+  "venue": ""
+ },
+ {
+  "title": "Intraindividual variability and language instability in post-stroke aphasia: Effects of working memory demand and associations with language performance",
+  "date": "2026-02",
+  "url": "https://doi.org/10.1016/j.bandl.2026.105734",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Lilla Zakari\u00e1s",
+   "\u00c1gnes Luk\u00e1cs"
+  ],
+  "abstract": "\u2022 Language performance was more variable in people with post-stroke aphasia than in controls. \u2022 Intraindividual variability increased under high working memory demand in aphasia. \u2022 Greater performance",
+  "venue": "Brain and Language"
+ },
+ {
+  "title": "Self-video modeling combined with self-feedback in youth sport: an opinion on cognitive load, attention, and learning design",
+  "date": "2026-02",
+  "url": "https://doi.org/10.3389/fpsyg.2026.1775088",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Amayra Tannoubi",
+   "Vlad Adrian Geant\u0103",
+   "Vasile Emil Ursu"
+  ],
+  "abstract": "The rapid diffusion of digital technologies in physical education and youth sport has led to the widespread adoption of video-based learning practices. Among these, self-video modeling is increasingly",
+  "venue": "Frontiers in Psychology"
+ },
+ {
+  "title": "Gami-Guibitang Attenuates Anxiety-like Behaviors and Modulates Hippocampal Synaptic Signaling in a Valproic Acid-Induced Mouse Model of Autism",
+  "date": "2026-02",
+  "url": "https://doi.org/10.3390/brainsci16030259",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Ji Hye Yoon",
+   "Duk Jin Jung",
+   "Mikyung Kim"
+  ],
+  "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition characterized by social deficits, repetitive behaviors, and heightened anxiety. Despite extensive research, effective inter",
+  "venue": "Brain Sciences"
+ },
+ {
+  "title": "Sources of individual variability in a pragmatic reference game: Effects of logical reasoning and Theory of Mind",
+  "date": "2026-02",
+  "url": "https://doi.org/10.1371/journal.pone.0339899",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Alexandra Mayn",
+   "Vera Demberg"
+  ],
+  "abstract": "While in theory people are expected to adhere to rational communicative principles, a growing body of work shows that people vary widely in their tendency to draw pragmatic inferences. It has been sug",
+  "venue": "PLoS ONE"
+ },
+ {
+  "title": "The diffusion model\u2019s drift rate parameter primarily reflects efficiency, rather than speed, of evidence accumulation",
+  "date": "2026-02",
+  "url": "https://doi.org/10.3758/s13423-026-02861-3",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Alexander Weigard",
+   "M. Fiona Molloy",
+   "Chandra Sripada"
+  ],
+  "abstract": "Applications of the diffusion decision model (DDM) to the study of cognitive individual differences consistently find that the model's drift rate (v) parameter forms a cohesive factor across many task",
+  "venue": "Psychonomic Bulletin & Review"
+ },
+ {
+  "title": "Nobiletin Ameliorates Alzheimer\u2019s Disease Pathology by Reducing Oxidative Stress and Neuroinflammation Through the AMPK/SIRT1/PGC-1\u03b1 and PI3K/Akt\u2013CREB\u2013BDNF Pathways in 5XFAD Mice",
+  "date": "2026-02",
+  "url": "https://doi.org/10.3390/biomedicines14030561",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Hana Baek",
+   "Miey Park",
+   "Hae-Jeung Lee"
+  ],
+  "abstract": "Background/Objectives: Alzheimer\u2019s disease (AD) involves amyloid-\u03b2 (A\u03b2) deposition, oxidative stress, and neuroinflammation, leading to cognitive decline. Nobiletin, a citrus-derived polymethoxylated ",
+  "venue": "Biomedicines"
+ },
+ {
+  "title": "Shodh-Memory: A Neuroscience-Grounded Cognitive Memory Architecture for Artificial Intelligence Agents",
+  "date": "2026-02",
+  "url": "https://github.com/varun29ankuS/shodh-memory",
+  "category": "working",
+  "subcategory": "parametric",
+  "authors": [
+   "Varun Sharma"
+  ],
+  "abstract": "We present Shodh-Memory, a cognitive memory system for AI agents that implements biologically-inspired mechanisms including Hebbian synaptic learning, hybrid exponential-power-law decay, three-tier me",
+  "venue": "Open MIND"
+ },
+ {
+  "title": "Lower metacognitive abilities predict procrastination: a cross-sectional study of a healthy adult sample",
+  "date": "2026-02",
+  "url": "https://doi.org/10.1186/s40359-026-04221-1",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Rannveig Gr\u00f8m S\u00e6le",
+   "Per M. Aslaksen",
+   "Frode Svartdal"
+  ],
+  "abstract": "BACKGROUND: Procrastination, the tendency to delay tasks despite negative consequences, is a widespread issue linked to poor mental health and reduced daily functioning. While often attributed to self",
+  "venue": "BMC Psychology"
+ },
+ {
+  "title": "Cognitive Context Management: Brain-Inspired Architecture for Bounded AI Memory",
+  "date": "2026-02",
+  "url": "https://doi.org/10.5281/zenodo.18752096",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Alexander Zanfir"
+  ],
+  "abstract": "Large Language Models face a fundamental limitation: context windows are finite, but reasoning is not. Current approaches -- summarization at capacity limits, sliding windows, retrieval-augmented gene",
   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
  },
  {
