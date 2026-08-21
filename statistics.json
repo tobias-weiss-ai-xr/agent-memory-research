@@ -1,25 +1,27 @@
 {
   "metadata": {
-    "total_papers": 3683,
+    "total_papers": 3691,
     "generated_date": "2026-08",
     "taxonomy": {
-      "categories": 3,
-      "subcategories": 10,
-      "total_cells": 30,
-      "filled_cells": 20,
-      "saturation": 66.7,
-      "empty_cells": 10
+      "categories": 4,
+      "subcategories": 11,
+      "total_cells": 44,
+      "filled_cells": 21,
+      "saturation": 47.7,
+      "empty_cells": 23
     },
     "analysis_window": {
       "last_12m_start": "2025-08"
     }
   },
   "by_category": {
+    "": 8,
     "experiential": 909,
     "factual": 1786,
     "working": 988
   },
   "by_subcategory": {
+    "": 8,
     "application": 10,
     "development": 46,
     "latent": 162,
@@ -61,7 +63,7 @@
     "2023": 202,
     "2024": 393,
     "2025": 966,
-    "2026": 1876
+    "2026": 1884
   },
   "by_cell": {
     "factual/token-level": 1527,
@@ -83,12 +85,13 @@
     "experiential/mechanism": 15,
     "experiential/application": 10,
     "experiential/theory": 10,
-    "working/mechanism": 9
+    "working/mechanism": 9,
+    "/": 8
   },
   "emerging_themes_12m": [
     {
       "keyword": "agentic",
-      "papers": 547
+      "papers": 549
     },
     {
       "keyword": "opponent",
@@ -104,15 +107,15 @@
     },
     {
       "keyword": "benchmark",
-      "papers": 891
+      "papers": 895
     },
     {
       "keyword": "skill",
-      "papers": 163
+      "papers": 164
     },
     {
       "keyword": "transfer",
-      "papers": 137
+      "papers": 138
     },
     {
       "keyword": "hierarchical",
@@ -124,7 +127,7 @@
     },
     {
       "keyword": "retrieval",
-      "papers": 834
+      "papers": 840
     }
   ],
   "momentum": [
@@ -160,9 +163,23 @@
       "recent_share": 0.553,
       "papers_per_month": 45.5,
       "score": 270.9
+    },
+    {
+      "id": "",
+      "name": "",
+      "total": 8,
+      "recent": 8,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 0.7,
+      "score": 100.0
     }
   ],
   "category_trajectory": {
+    "": {
+      "2026": 8
+    },
     "experiential": {
       "2004": 1,
       "2008": 1,
@@ -223,73 +240,73 @@
   "keyword_bursts": [
     {
       "keyword": "agentic",
-      "recent": 547,
-      "total": 614,
+      "recent": 549,
+      "total": 616,
       "burst_score": 1.39,
-      "recent_share": 0.2311
+      "recent_share": 0.2312
     },
     {
       "keyword": "opponent",
       "recent": 7,
       "total": 8,
       "burst_score": 1.36,
-      "recent_share": 0.003
+      "recent_share": 0.0029
     },
     {
       "keyword": "uncertainty",
       "recent": 48,
       "total": 59,
-      "burst_score": 1.27,
-      "recent_share": 0.0203
+      "burst_score": 1.26,
+      "recent_share": 0.0202
     },
     {
       "keyword": "policy",
       "recent": 241,
       "total": 299,
       "burst_score": 1.25,
-      "recent_share": 0.1018
+      "recent_share": 0.1015
     },
     {
       "keyword": "benchmark",
-      "recent": 891,
-      "total": 1120,
+      "recent": 895,
+      "total": 1124,
       "burst_score": 1.24,
-      "recent_share": 0.3764
+      "recent_share": 0.3768
     },
     {
       "keyword": "skill",
-      "recent": 163,
-      "total": 207,
+      "recent": 164,
+      "total": 208,
       "burst_score": 1.23,
-      "recent_share": 0.0689
+      "recent_share": 0.0691
     },
     {
       "keyword": "transfer",
-      "recent": 137,
-      "total": 174,
+      "recent": 138,
+      "total": 175,
       "burst_score": 1.23,
-      "recent_share": 0.0579
+      "recent_share": 0.0581
     },
     {
       "keyword": "hierarchical",
       "recent": 212,
       "total": 272,
       "burst_score": 1.21,
-      "recent_share": 0.0896
+      "recent_share": 0.0893
     },
     {
       "keyword": "optimization",
       "recent": 240,
       "total": 315,
-      "burst_score": 1.19,
-      "recent_share": 0.1014
+      "burst_score": 1.18,
+      "recent_share": 0.1011
     },
     {
       "keyword": "retrieval",
-      "recent": 834,
-      "total": 1106,
+      "recent": 840,
+      "total": 1112,
       "burst_score": 1.17,
-      "recent_share": 0.3523
+      "recent_share": 0.3537
     },
     {
       "keyword": "bayesian",
@@ -300,35 +317,35 @@
     },
     {
       "keyword": "tool",
-      "recent": 470,
-      "total": 632,
+      "recent": 471,
+      "total": 633,
       "burst_score": 1.16,
-      "recent_share": 0.1986
+      "recent_share": 0.1983
     },
     {
       "keyword": "reward",
       "recent": 151,
       "total": 203,
       "burst_score": 1.16,
-      "recent_share": 0.0638
+      "recent_share": 0.0636
+    },
+    {
+      "keyword": "causal",
+      "recent": 67,
+      "total": 90,
+      "burst_score": 1.16,
+      "recent_share": 0.0282
     },
     {
       "keyword": "offline",
       "recent": 69,
       "total": 93,
       "burst_score": 1.15,
-      "recent_share": 0.0292
-    },
-    {
-      "keyword": "causal",
-      "recent": 66,
-      "total": 89,
-      "burst_score": 1.15,
-      "recent_share": 0.0279
+      "recent_share": 0.0291
     }
   ],
   "source_breakdown": {
-    "arxiv": 2887,
+    "arxiv": 2895,
     "doi": 630,
     "other": 166
   },
@@ -397,6 +414,10 @@
   "gaps": {
     "thinnest_cells": [
       {
+        "cell": "/",
+        "papers": 8
+      },
+      {
         "cell": "working/mechanism",
         "papers": 9
       },
@@ -431,10 +452,6 @@
       {
         "cell": "working/method",
         "papers": 28
-      },
-      {
-        "cell": "working/development",
-        "papers": 28
       }
     ],
     "white_space": [
@@ -442,6 +459,12 @@
         "cell": "experiential/theory",
         "total": 10,
         "recent": 10,
+        "recent_share": 1.0
+      },
+      {
+        "cell": "/",
+        "total": 8,
+        "recent": 8,
         "recent_share": 1.0
       },
       {
@@ -526,5 +549,5 @@
       "papers": 8
     }
   ],
-  "last_openalex_fetch": "2026-08-21T15:17:05.654281"
+  "last_openalex_fetch": "2026-08-21T21:53:40.822132"
 }

@@ -1,6 +1,25 @@
 {
  "categories": [
   {
+   "id": "",
+   "name": "",
+   "count": 8,
+   "trajectory": {
+    "2026": 8
+   },
+   "momentum": {
+    "id": "",
+    "name": "",
+    "total": 8,
+    "recent": 8,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 1.0,
+    "papers_per_month": 0.7,
+    "score": 100.0
+   }
+  },
+  {
    "id": "experiential",
    "name": "Experiential",
    "count": 909,
@@ -106,6 +125,11 @@
   }
  ],
  "subcategories": [
+  {
+   "id": "",
+   "name": "",
+   "count": 8
+  },
   {
    "id": "application",
    "name": "Application",
@@ -16570,6 +16594,11 @@
   ],
   [
    "2026-07",
+   "",
+   ""
+  ],
+  [
+   "2026-07",
    "experiential",
    "application"
   ],
@@ -18090,6 +18119,41 @@
   ],
   [
    "2026-08",
+   "",
+   ""
+  ],
+  [
+   "2026-08",
+   "",
+   ""
+  ],
+  [
+   "2026-08",
+   "",
+   ""
+  ],
+  [
+   "2026-08",
+   "",
+   ""
+  ],
+  [
+   "2026-08",
+   "",
+   ""
+  ],
+  [
+   "2026-08",
+   "",
+   ""
+  ],
+  [
+   "2026-08",
+   "",
+   ""
+  ],
+  [
+   "2026-08",
    "experiential",
    "latent"
   ],
@@ -18579,73 +18643,73 @@
  "keyword_bursts": [
   {
    "keyword": "agentic",
-   "recent": 547,
-   "total": 614,
+   "recent": 549,
+   "total": 616,
    "burst_score": 1.39,
-   "recent_share": 0.2311
+   "recent_share": 0.2312
   },
   {
    "keyword": "opponent",
    "recent": 7,
    "total": 8,
    "burst_score": 1.36,
-   "recent_share": 0.003
+   "recent_share": 0.0029
   },
   {
    "keyword": "uncertainty",
    "recent": 48,
    "total": 59,
-   "burst_score": 1.27,
-   "recent_share": 0.0203
+   "burst_score": 1.26,
+   "recent_share": 0.0202
   },
   {
    "keyword": "policy",
    "recent": 241,
    "total": 299,
    "burst_score": 1.25,
-   "recent_share": 0.1018
+   "recent_share": 0.1015
   },
   {
    "keyword": "benchmark",
-   "recent": 891,
-   "total": 1120,
+   "recent": 895,
+   "total": 1124,
    "burst_score": 1.24,
-   "recent_share": 0.3764
+   "recent_share": 0.3768
   },
   {
    "keyword": "skill",
-   "recent": 163,
-   "total": 207,
+   "recent": 164,
+   "total": 208,
    "burst_score": 1.23,
-   "recent_share": 0.0689
+   "recent_share": 0.0691
   },
   {
    "keyword": "transfer",
-   "recent": 137,
-   "total": 174,
+   "recent": 138,
+   "total": 175,
    "burst_score": 1.23,
-   "recent_share": 0.0579
+   "recent_share": 0.0581
   },
   {
    "keyword": "hierarchical",
    "recent": 212,
    "total": 272,
    "burst_score": 1.21,
-   "recent_share": 0.0896
+   "recent_share": 0.0893
   },
   {
    "keyword": "optimization",
    "recent": 240,
    "total": 315,
-   "burst_score": 1.19,
-   "recent_share": 0.1014
+   "burst_score": 1.18,
+   "recent_share": 0.1011
   },
   {
    "keyword": "retrieval",
-   "recent": 834,
-   "total": 1106,
+   "recent": 840,
+   "total": 1112,
    "burst_score": 1.17,
-   "recent_share": 0.3523
+   "recent_share": 0.3537
   },
   {
    "keyword": "bayesian",
@@ -18656,31 +18720,31 @@
   },
   {
    "keyword": "tool",
-   "recent": 470,
-   "total": 632,
+   "recent": 471,
+   "total": 633,
    "burst_score": 1.16,
-   "recent_share": 0.1986
+   "recent_share": 0.1983
   },
   {
    "keyword": "reward",
    "recent": 151,
    "total": 203,
    "burst_score": 1.16,
-   "recent_share": 0.0638
+   "recent_share": 0.0636
+  },
+  {
+   "keyword": "causal",
+   "recent": 67,
+   "total": 90,
+   "burst_score": 1.16,
+   "recent_share": 0.0282
   },
   {
    "keyword": "offline",
    "recent": 69,
    "total": 93,
    "burst_score": 1.15,
-   "recent_share": 0.0292
-  },
-  {
-   "keyword": "causal",
-   "recent": 66,
-   "total": 89,
-   "burst_score": 1.15,
-   "recent_share": 0.0279
+   "recent_share": 0.0291
   }
  ]
 }
