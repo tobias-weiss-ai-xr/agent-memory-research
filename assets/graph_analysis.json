@@ -3,7 +3,7 @@
   {
    "id": "experiential",
    "name": "Experiential",
-   "count": 908,
+   "count": 909,
    "trajectory": {
     "2004": 1,
     "2008": 1,
@@ -14,18 +14,18 @@
     "2023": 53,
     "2024": 102,
     "2025": 246,
-    "2026": 474
+    "2026": 475
    },
    "momentum": {
     "id": "experiential",
     "name": "Experiential",
-    "total": 908,
-    "recent": 613,
+    "total": 909,
+    "recent": 614,
     "prior": 164,
-    "growth_pct": 273.8,
+    "growth_pct": 274.4,
     "recent_share": 0.675,
-    "papers_per_month": 51.1,
-    "score": 341.3
+    "papers_per_month": 51.2,
+    "score": 341.9
    }
   },
   {
@@ -71,7 +71,7 @@
   {
    "id": "working",
    "name": "Working",
-   "count": 984,
+   "count": 988,
    "trajectory": {
     "1998": 2,
     "2000": 3,
@@ -90,18 +90,18 @@
     "2023": 67,
     "2024": 107,
     "2025": 190,
-    "2026": 463
+    "2026": 467
    },
    "momentum": {
     "id": "working",
     "name": "Working",
-    "total": 984,
-    "recent": 542,
+    "total": 988,
+    "recent": 546,
     "prior": 173,
-    "growth_pct": 213.3,
-    "recent_share": 0.551,
-    "papers_per_month": 45.2,
-    "score": 268.4
+    "growth_pct": 215.6,
+    "recent_share": 0.553,
+    "papers_per_month": 45.5,
+    "score": 270.9
    }
   }
  ],
@@ -134,7 +134,7 @@
   {
    "id": "parametric",
    "name": "Parametric",
-   "count": 254
+   "count": 255
   },
   {
    "id": "review",
@@ -154,7 +154,7 @@
   {
    "id": "token-level",
    "name": "Token Level",
-   "count": 3059
+   "count": 3063
   }
  ],
  "timeline": [
@@ -11351,6 +11351,11 @@
   [
    "2026-03",
    "experiential",
+   "parametric"
+  ],
+  [
+   "2026-03",
+   "experiential",
    "token-level"
   ],
   [
@@ -16317,6 +16322,11 @@
    "2026-06",
    "working",
    "latent"
+  ],
+  [
+   "2026-06",
+   "working",
+   "token-level"
   ],
   [
    "2026-06",
@@ -18487,6 +18497,21 @@
    "2026-08",
    "working",
    "token-level"
+  ],
+  [
+   "2026-08",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "working",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "working",
+   "token-level"
   ]
  ],
  "venues": [
@@ -18557,7 +18582,7 @@
    "recent": 547,
    "total": 614,
    "burst_score": 1.39,
-   "recent_share": 0.2316
+   "recent_share": 0.2311
   },
   {
    "keyword": "opponent",
@@ -18577,50 +18602,50 @@
    "keyword": "policy",
    "recent": 241,
    "total": 299,
-   "burst_score": 1.26,
-   "recent_share": 0.102
+   "burst_score": 1.25,
+   "recent_share": 0.1018
   },
   {
    "keyword": "benchmark",
    "recent": 891,
    "total": 1120,
    "burst_score": 1.24,
-   "recent_share": 0.3772
+   "recent_share": 0.3764
   },
   {
    "keyword": "skill",
    "recent": 163,
    "total": 207,
    "burst_score": 1.23,
-   "recent_share": 0.069
+   "recent_share": 0.0689
   },
   {
    "keyword": "transfer",
    "recent": 137,
    "total": 174,
    "burst_score": 1.23,
-   "recent_share": 0.058
+   "recent_share": 0.0579
   },
   {
    "keyword": "hierarchical",
    "recent": 212,
    "total": 272,
    "burst_score": 1.21,
-   "recent_share": 0.0898
+   "recent_share": 0.0896
   },
   {
    "keyword": "optimization",
    "recent": 240,
    "total": 315,
    "burst_score": 1.19,
-   "recent_share": 0.1016
+   "recent_share": 0.1014
   },
   {
    "keyword": "retrieval",
-   "recent": 833,
-   "total": 1105,
+   "recent": 834,
+   "total": 1106,
    "burst_score": 1.17,
-   "recent_share": 0.3527
+   "recent_share": 0.3523
   },
   {
    "keyword": "bayesian",
@@ -18634,28 +18659,28 @@
    "recent": 470,
    "total": 632,
    "burst_score": 1.16,
-   "recent_share": 0.199
+   "recent_share": 0.1986
   },
   {
    "keyword": "reward",
    "recent": 151,
    "total": 203,
    "burst_score": 1.16,
-   "recent_share": 0.0639
+   "recent_share": 0.0638
   },
   {
    "keyword": "offline",
    "recent": 69,
    "total": 93,
-   "burst_score": 1.16,
+   "burst_score": 1.15,
    "recent_share": 0.0292
   },
   {
-   "keyword": "agent",
-   "recent": 1975,
-   "total": 2685,
+   "keyword": "causal",
+   "recent": 66,
+   "total": 89,
    "burst_score": 1.15,
-   "recent_share": 0.8362
+   "recent_share": 0.0279
   }
  ]
 }

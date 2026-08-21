@@ -857,6 +857,46 @@
   "venue": "eLife"
  },
  {
+  "title": "Network Analysis on Cognitive Processes in Cancer-Related Cognitive Impairment: Central Role of Working Memory and Retrieval Processes",
+  "date": "2026-08",
+  "url": "https://doi.org/10.31234/osf.io/76egc_v1",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Ruben D. Potthoff",
+   "Sanne van Schagen",
+   "Renaud Tissier"
+  ],
+  "abstract": "ObjectiveMany cancer patients exhibit cognitive problems in memory, working memory, attention, and executive function. The outcome measures of traditional neuropsychological tests do not fully capture",
+  "venue": ""
+ },
+ {
+  "title": "A nomogram for predicting cognitive decline in mild cognitive impairment based on visual working memory: prospective cohort study",
+  "date": "2026-08",
+  "url": "https://doi.org/10.1186/s12888-026-08521-z",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Xiao Yuan",
+   "Junxi Xu",
+   "Chenxi Pan"
+  ],
+  "abstract": "A nomogram was developed to predict cognitive decline in individuals with mild cognitive impairment (MCI) using visual working memory performance and clinical features, aiding in early detection and p",
+  "venue": "BMC Psychiatry"
+ },
+ {
+  "title": "Reconsidering the Mechanism of Listening Comprehension: Integrating the Two-Phase Model, Three-Phase Model, and Working Memory",
+  "date": "2026-08",
+  "url": "https://doi.org/10.17951/j.2026.39.2.119-146",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Yoshiaki Ishii"
+  ],
+  "abstract": "This study addresses the inherent difficulty of second language (L2) listening, particularly its unobservable cognitive nature, by proposing an integrated model of listening comprehension. Previous re",
+  "venue": "Annales Universitatis Mariae Curie-Sk\u0142odowska sectio J \u2013 Paedagogia-Psychologia"
+ },
+ {
   "title": "SelfMem: Self-Optimizing Memory for AI Agents",
   "date": "2026-07",
   "url": "https://arxiv.org/abs/2607.03726",
@@ -8783,6 +8823,20 @@
   ],
   "abstract": "Recent advances in large language model (LLM) inference have produced a family of KV cache management techniques\u2014including XKV, MEDA, ReST-KV, IceCache, and latent-reasoning approaches such as RiM\u2014tha",
   "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+ },
+ {
+  "title": "Integrity in six key brain regions predicts numeric working memory performance in 30,000 middle-aged and older adults: A UK Biobank magnetic resonance imaging study.",
+  "date": "2026-06",
+  "url": "https://doi.org/10.1037/neu0001096",
+  "category": "working",
+  "subcategory": "token-level",
+  "authors": [
+   "Sarah Ellen Carnemolla",
+   "Tanmoy Debnath",
+   "Md Geaur Rahman"
+  ],
+  "abstract": "Objective: This study investigated the neuroanatomical correlates of working memory using the UK Biobank Numeric Memory Test (NMT; a visual backward digit-span task) in a large sample of middle-aged a",
+  "venue": "Neuropsychology"
  },
  {
   "title": "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
@@ -18647,6 +18701,20 @@
   ],
   "abstract": "Abstract Working memory (WM) plays a prominent role in SLA because adult SLA requires additional computation and activation, which in turn imposes extra load on WM resources. This article offers a com",
   "venue": "The Encyclopedia of Applied Linguistics"
+ },
+ {
+  "title": "From Language to Action: Can LLM-Based Agents Be Used for Embodied Robot Cognition?",
+  "date": "2026-03",
+  "url": "https://arxiv.org/abs/2603.03148",
+  "category": "experiential",
+  "subcategory": "parametric",
+  "authors": [
+   "Shinas Shaji",
+   "Fabian Huppertz",
+   "Alex Mitrevski"
+  ],
+  "abstract": "In order to flexibly act in an everyday environment, a robotic agent needs a variety of cognitive capabilities that enable it to reason about plans and perform execution recovery. Large language model",
+  "venue": "Publication Server of Bonn-Rhein-Sieg University of Applied Sciences (Bonn-Rhein-Sieg University of Applied Sciences)"
  },
  {
   "title": "FluxMem: Choosing How to Remember: Adaptive Memory Structures for LLM Agents",
