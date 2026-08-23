@@ -1557,25 +1557,6 @@
       ]
     },
     {
-      "term": "consistently improves",
-      "kind": "emergent",
-      "seed": false,
-      "df": 47,
-      "match": {
-        "type": "text",
-        "forms": [
-          "consistently improves"
-        ]
-      },
-      "papers": 47,
-      "top_cells": [
-        "experiential/token-level",
-        "factual/token-level",
-        "working/token-level",
-        "experiential/latent"
-      ]
-    },
-    {
       "term": "long-horizon reasoning",
       "kind": "emergent",
       "seed": false,
@@ -1592,6 +1573,25 @@
         "experiential/token-level",
         "working/token-level",
         "experiential/parametric"
+      ]
+    },
+    {
+      "term": "consistently improves",
+      "kind": "emergent",
+      "seed": false,
+      "df": 47,
+      "match": {
+        "type": "text",
+        "forms": [
+          "consistently improves"
+        ]
+      },
+      "papers": 47,
+      "top_cells": [
+        "experiential/token-level",
+        "factual/token-level",
+        "working/token-level",
+        "experiential/latent"
       ]
     },
     {
