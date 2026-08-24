@@ -1,14 +1,14 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 5 concepts, 0 relationships from 3691 papers. Edges = co-occurrence (shared papers).
+**Generated:** 5 concepts, 0 relationships from 5190 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
 | Concept | Kind | Papers |
 |----------|------|--------|
-| Factual | taxonomy | 1786 |
-| Working | taxonomy | 988 |
-| Experiential | taxonomy | 909 |
+| Factual | taxonomy | 2396 |
+| Working | taxonomy | 1660 |
+| Experiential | taxonomy | 1126 |
 | Survey | taxonomy | 0 |
 | Method | taxonomy | 0 |
 

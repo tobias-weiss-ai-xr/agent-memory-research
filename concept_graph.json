@@ -4,19 +4,19 @@
       "id": 0,
       "term": "Factual",
       "kind": "taxonomy",
-      "df": 1786
+      "df": 2396
     },
     {
       "id": 1,
       "term": "Working",
       "kind": "taxonomy",
-      "df": 988
+      "df": 1660
     },
     {
       "id": 2,
       "term": "Experiential",
       "kind": "taxonomy",
-      "df": 909
+      "df": 1126
     },
     {
       "id": 3,
@@ -35,6 +35,6 @@
   "stats": {
     "concepts": 5,
     "edges": 0,
-    "papers": 3691
+    "papers": 5190
   }
 }

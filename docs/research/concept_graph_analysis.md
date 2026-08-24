@@ -4,9 +4,9 @@
 
 ## Top hubs (by PageRank)
 
-- **Factual** — PR 0.0000, degree 0, df 1786
-- **Working** — PR 0.0000, degree 0, df 988
-- **Experiential** — PR 0.0000, degree 0, df 909
+- **Factual** — PR 0.0000, degree 0, df 2396
+- **Working** — PR 0.0000, degree 0, df 1660
+- **Experiential** — PR 0.0000, degree 0, df 1126
 - **Survey** — PR 0.0000, degree 0, df 0
 - **Method** — PR 0.0000, degree 0, df 0
 

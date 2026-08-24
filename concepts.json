@@ -5,7 +5,7 @@
       "term": "Factual",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1786,
+      "df": 2396,
       "match": {
         "type": "field",
         "field": "category",
@@ -13,17 +13,17 @@
       },
       "top_cells": [
         "factual/token-level",
-        "factual/parametric",
-        "factual/latent",
-        "factual/method"
+        "factual/method",
+        "factual/theory",
+        "factual/parametric"
       ],
-      "papers": 1786
+      "papers": 2396
     },
     {
       "term": "Working",
       "kind": "taxonomy",
       "seed": true,
-      "df": 988,
+      "df": 1660,
       "match": {
         "type": "field",
         "field": "category",
@@ -31,17 +31,17 @@
       },
       "top_cells": [
         "working/token-level",
-        "working/latent",
-        "working/parametric",
-        "working/method"
+        "working/method",
+        "working/theory",
+        "working/latent"
       ],
-      "papers": 988
+      "papers": 1660
     },
     {
       "term": "Experiential",
       "kind": "taxonomy",
       "seed": true,
-      "df": 909,
+      "df": 1126,
       "match": {
         "type": "field",
         "field": "category",
@@ -49,11 +49,11 @@
       },
       "top_cells": [
         "experiential/token-level",
-        "experiential/parametric",
-        "experiential/latent",
-        "experiential/method"
+        "experiential/theory",
+        "experiential/method",
+        "experiential/parametric"
       ],
-      "papers": 909
+      "papers": 1126
     },
     {
       "term": "Survey",
