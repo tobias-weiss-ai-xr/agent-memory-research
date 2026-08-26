@@ -4,55 +4,55 @@
       "id": 0,
       "term": "Factual",
       "kind": "taxonomy",
-      "df": 2396
+      "df": 2409
     },
     {
       "id": 1,
       "term": "framework",
       "kind": "curated",
-      "df": 1847
+      "df": 1856
     },
     {
       "id": 2,
       "term": "Working",
       "kind": "taxonomy",
-      "df": 1660
+      "df": 1671
     },
     {
       "id": 3,
       "term": "Experiential",
       "kind": "taxonomy",
-      "df": 1126
+      "df": 1130
     },
     {
       "id": 4,
       "term": "benchmark",
       "kind": "curated",
-      "df": 714
+      "df": 719
     },
     {
       "id": 5,
       "term": "survey",
       "kind": "curated",
-      "df": 387
+      "df": 389
     },
     {
       "id": 6,
       "term": "dataset",
       "kind": "curated",
-      "df": 332
+      "df": 336
     },
     {
       "id": 7,
       "term": "taxonomy",
       "kind": "curated",
-      "df": 114
+      "df": 115
     },
     {
       "id": 8,
       "term": "quantitative",
       "kind": "curated",
-      "df": 90
+      "df": 93
     },
     {
       "id": 9,
@@ -94,7 +94,7 @@
       "id": 15,
       "term": "interview",
       "kind": "curated",
-      "df": 6
+      "df": 7
     },
     {
       "id": 16,
@@ -155,17 +155,17 @@
     {
       "source": 0,
       "target": 1,
-      "weight": 926
+      "weight": 931
     },
     {
       "source": 0,
       "target": 5,
-      "weight": 345
+      "weight": 347
     },
     {
       "source": 0,
       "target": 7,
-      "weight": 75
+      "weight": 76
     },
     {
       "source": 5,
@@ -185,22 +185,22 @@
     {
       "source": 1,
       "target": 6,
-      "weight": 156
+      "weight": 158
     },
     {
       "source": 0,
       "target": 4,
-      "weight": 388
+      "weight": 390
     },
     {
       "source": 1,
       "target": 4,
-      "weight": 311
+      "weight": 313
     },
     {
       "source": 4,
       "target": 6,
-      "weight": 87
+      "weight": 88
     },
     {
       "source": 1,
@@ -215,7 +215,7 @@
     {
       "source": 0,
       "target": 8,
-      "weight": 52
+      "weight": 55
     },
     {
       "source": 0,
@@ -235,7 +235,7 @@
     {
       "source": 1,
       "target": 7,
-      "weight": 40
+      "weight": 41
     },
     {
       "source": 4,
@@ -250,12 +250,12 @@
     {
       "source": 4,
       "target": 7,
-      "weight": 22
+      "weight": 23
     },
     {
       "source": 1,
       "target": 5,
-      "weight": 80
+      "weight": 81
     },
     {
       "source": 6,
@@ -285,12 +285,12 @@
     {
       "source": 4,
       "target": 8,
-      "weight": 10
+      "weight": 11
     },
     {
       "source": 7,
       "target": 8,
-      "weight": 4
+      "weight": 5
     },
     {
       "source": 1,
@@ -335,7 +335,7 @@
     {
       "source": 1,
       "target": 8,
-      "weight": 34
+      "weight": 36
     },
     {
       "source": 0,
@@ -420,7 +420,7 @@
     {
       "source": 5,
       "target": 8,
-      "weight": 29
+      "weight": 30
     },
     {
       "source": 5,
@@ -445,7 +445,7 @@
     {
       "source": 0,
       "target": 15,
-      "weight": 4
+      "weight": 5
     },
     {
       "source": 5,
@@ -515,7 +515,7 @@
     {
       "source": 1,
       "target": 3,
-      "weight": 500
+      "weight": 501
     },
     {
       "source": 3,
@@ -525,27 +525,27 @@
     {
       "source": 3,
       "target": 6,
-      "weight": 80
+      "weight": 81
     },
     {
       "source": 3,
       "target": 4,
-      "weight": 186
+      "weight": 187
     },
     {
       "source": 1,
       "target": 2,
-      "weight": 415
+      "weight": 418
     },
     {
       "source": 2,
       "target": 4,
-      "weight": 138
+      "weight": 140
     },
     {
       "source": 2,
       "target": 6,
-      "weight": 103
+      "weight": 106
     },
     {
       "source": 2,
@@ -656,6 +656,6 @@
   "stats": {
     "concepts": 25,
     "edges": 100,
-    "papers": 5190
+    "papers": 5218
   }
 }

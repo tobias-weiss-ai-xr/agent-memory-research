@@ -1,21 +1,21 @@
 # Concept Graph Analysis
 
-**Generated:** 25 nodes, 100 edges, 1 components, 1 communities (modularity -1817.357). Edges = co-occurrence.
+**Generated:** 25 nodes, 100 edges, 1 components, 1 communities (modularity -1846.344). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2149, degree 15, df 1847
-- **Factual** — PR 0.2011, degree 18, df 2396
-- **benchmark** — PR 0.1047, degree 14, df 714
-- **Experiential** — PR 0.0772, degree 12, df 1126
-- **Working** — PR 0.0766, degree 13, df 1660
-- **survey** — PR 0.0672, degree 17, df 387
-- **dataset** — PR 0.0583, degree 13, df 332
-- **quantitative** — PR 0.0282, degree 15, df 90
-- **taxonomy** — PR 0.0273, degree 10, df 114
-- **qualitative** — PR 0.0265, degree 11, df 81
-- **reproducibility** — PR 0.0163, degree 11, df 49
-- **experiment** — PR 0.0163, degree 9, df 66
+- **framework** — PR 0.2148, degree 15, df 1856
+- **Factual** — PR 0.2012, degree 18, df 2409
+- **benchmark** — PR 0.1048, degree 14, df 719
+- **Experiential** — PR 0.0769, degree 12, df 1130
+- **Working** — PR 0.0767, degree 13, df 1671
+- **survey** — PR 0.0670, degree 17, df 389
+- **dataset** — PR 0.0585, degree 13, df 336
+- **quantitative** — PR 0.0287, degree 15, df 93
+- **taxonomy** — PR 0.0275, degree 10, df 115
+- **qualitative** — PR 0.0262, degree 11, df 81
+- **reproducibility** — PR 0.0162, degree 11, df 49
+- **experiment** — PR 0.0162, degree 9, df 66
 
 ## Bridge nodes (high betweenness — connect clusters)
 
@@ -36,7 +36,7 @@
 - Factual ↔ open access (weight 2, EB 20.0)
 - Factual ↔ peer review (weight 3, EB 20.0)
 - Factual ↔ mixed methods (weight 3, EB 7.5)
-- Factual ↔ interview (weight 4, EB 7.5)
+- Factual ↔ interview (weight 5, EB 7.5)
 - Factual ↔ literature review (weight 7, EB 6.6267)
 - Factual ↔ research gap (weight 2, EB 6.4839)
 - Factual ↔ systematic review (weight 8, EB 6.4339)
