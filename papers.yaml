@@ -146257,3 +146257,1097 @@ papers:
     parallel algorithms to achieve genuine sub-millisecond latency at scale. Analysis
     is grounded in complexity theory and practical performance observations.'
   venue: International Journal for Research in Applied Science and Engineering Technology
+- title: 'KRAKEN: A provenance-tracked knowledge graph for multiomic and wellness
+    research'
+  date: 2026-08
+  url: https://doi.org/10.64898/2026.08.18.745544
+  category: factual
+  subcategory: systems
+  authors:
+  - Amy K. Glen
+  - Drew Witherington
+  - Trent Leslie
+  abstract: Existing general-purpose biomedical knowledge graphs tend to focus on
+    disease mechanisms and drug repurposing, leaving multiomic and wellness-relevant
+    content underrepresented. KRAKEN (Knowledge Research & Analysis Kit for Evidence
+    Networks) addresses this gap by integrating existing graphs (including Translator
+    KG Open, RTX-KG2, and ROBOKOP) with specialized sources such as RefMet, LIPID
+    MAPS, NIH Common Data Elements, Polygenic Score Catalog, and derived wellness
+    measures including biological age and biological BMI. The resulting graph spans
+    ~15M nodes and ~113M edges across 62 entity types. KRAKEN adopts the Biolink Model
+    as its semantic layer, ensuring compatibility with standardized resources emerging
+    from the NIH NCATS Biomedical Data Translator program. A lightweight, modular
+    build system rebuilds the full graph (including entity resolution), with peak
+    memory consumption under 48 GB, and supports flexible inclusion or exclusion of
+    sources, allowing the user to scope the graph to a domain of interest. Built-in
+    analytical tools include multi-hop reasoning, subgraph extraction, text, vector
+    and hybrid entity search, and enrichment analyses, all accessible through an interactive
+    web interface, a REST API, and a Model Context Protocol server, the last enabling
+    direct consumption by agentic and LLM-based systems. KRAKEN is freely available
+    at https://app.krakenkg.com.
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+- title: 'Optimization in large language models: innovative approaches leveraging
+    knowledge distillation and pruning'
+  date: 2026-08
+  url: https://amsdottorato.unibo.it/view/dottorati/DOT536/>,
+  category: factual
+  subcategory: method
+  authors:
+  - Paolo <1997> Italiani
+  abstract: 'Large Language Models (LLMs) exhibit impressive capabilities in crucial
+    tasks such as natural language understanding, generation, and complex reasoning,
+    holding the potential to significantly influence our society. Nevertheless, these
+    capabilities are accompanied by substantial computational and memory demands,
+    underscoring the pressing need to devise effective techniques that address their
+    efficiency challenges. This thesis investigates a spectrum of optimization methodologies
+    aimed at improving the efficiency and performance of LLMs. It first explores two
+    principal paradigms, token pruning, which dynamically reduces redundant computation
+    during inference, and knowledge distillation, which transfers knowledge from a
+    larger teacher model to a smaller, more efficient student. Both techniques target
+    efficiency, seeking to minimize resource consumption while maintaining competitive
+    performance. Beyond these compression-oriented strategies, the thesis also examines
+    a complementary dimension of optimization: architectural refinement. This line
+    of inquiry focuses on enhancing model performance through minimal yet strategically
+    chosen structural modifications. Rather than compressing or accelerating models,
+    these methods aim to optimize their representational and inductive capacities
+    via subtle, computationally economical adjustments, such as introducing gating
+    mechanisms, reparameterizing attention, or altering normalization strategies.
+    The unifying principle is that small architectural interventions can yield measurable
+    improvements in generalization, robustness, and accuracy. Collectively, these
+    approaches illuminate a broader understanding of LLM optimization—one that spans
+    both efficiency-driven compression and performance-driven architectural enhancement—demonstrating
+    that thoughtful design at multiple levels of abstraction can lead to more capable
+    and resource-conscious language models.'
+  venue: AMS Dottorato Institutional Doctoral Theses Repository (University of Bologna)
+- title: 'Topology Stores but Does Not Protect: Rewiring as a Memory Medium in Small
+    Language Models'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22071714
+  category: factual
+  subcategory: theory
+  authors:
+  - ArcticFox
+  abstract: 'This work tests whether a language model can store new knowledge more
+    durably by changing its connectivity rather than its weights. We introduce EPMem,
+    an adapter with frozen random weights that learns only which connections are active.
+    Under matched storage and write-compute budgets, EPMem successfully learns new
+    facts but fails to preserve them as later facts are added. On both TinyStories-33M
+    and Pythia-410M, it retains no more than LoRA and performs worse than an otherwise
+    identical adapter with trainable continuous weights. Increasing model size makes
+    facts easier to write, but not harder to forget. The analysis identifies the cause:
+    interference grows with the square root of the number of changed connections,
+    while gradient-based rewiring alters previously useful edges more often than random
+    replacement would predict. The results show that topology can store information,
+    but durability depends on'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Facts as First Class Objects: Knowledge Objects for Persistent LLM Memory'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.17781
+  category: factual
+  subcategory: evaluation
+  authors:
+  - Oliver Zahn
+  - Simran Chana
+  abstract: 'Large language models increasingly serve as persistent knowledge workers,
+    with in-context memory - facts stored in the prompt - as the default strategy.
+    We benchmark in-context memory against Knowledge Objects (KOs), discrete hash-addressed
+    tuples with O(1) retrieval. Within the context window, Claude Sonnet 4.5 achieves
+    100% exact-match accuracy from 10 to 7,000 facts (97.5% of its 200K window). However,
+    production deployment reveals three failure modes: capacity limits (prompts overflow
+    at 8,000 facts), compaction loss (summarization destroys 60% of facts), and goal
+    drift (cascading compaction erodes 54% of project constraints while the model
+    continues with full confidence). KOs achieve 100% accuracy across all conditions
+    at 252x lower cost. On multi-hop reasoning, KOs reach 78.9% versus 31.6% for in-context.
+    Cross-model replication across four frontier models confirms compaction loss is
+    architectural, not model-specific. We additionally show that embedding retrieval
+    fails on adversarial facts (20% precision at 1) and that neural memory (Titans)
+    stores facts but fails to retrieve them on demand. We introduce density-adaptive
+    retrieval as a switching mechanism and release the benchmark suite.'
+  venue: arXiv (Cornell University)
+- title: 'DynaGraph-LLM: a dynamic ontological memory framework with multi-scale retrieval
+    for mitigating contextual amnesia in large language models'
+  date: 2026-08
+  url: https://doi.org/10.1007/s10586-026-06436-8
+  category: factual
+  subcategory: method
+  authors:
+  - Abdelweheb Gueddes
+  - Borhen Louhichi
+  - Mohamed Ali Mahjoub
+  abstract: ''
+  venue: Cluster Computing
+- title: An On-Premise Multilingual Academic Chatbot using Retrieval-Augmented Generation
+    and Context-Aware Memory for University Assistance
+  date: 2026-07
+  url: https://doi.org/10.1109/icssit69151.2026.11656515
+  category: factual
+  subcategory: theory
+  authors:
+  - Maddali Yaswanth
+  - Kopparapu Sai Amar Durgesh
+  - Mogili Harsha Vardhan
+  abstract: ''
+  venue: ''
+- title: Exploration of Unregulated Diapers Disposal Practices Their Effects of in
+    Port Harcourt Metropolis, Rivers State
+  date: 2026-08
+  url: https://doi.org/10.56201/ijgem.vol.12.no5.2026.pg213.235
+  category: factual
+  subcategory: method
+  authors:
+  - Miracle Chinwe Owhorji
+  abstract: This study assessed the knowledge, attitudes, practices, and environmental
+    impacts of unregulated disposable diaper disposal in Port Harcourt metropolis,
+    Rivers State, Nigeria. The aim was to examine the extent of public awareness,
+    variations in disposal behaviour across socio-economic groups, and associated
+    environmental risks. A cross-sectional survey design was deployed, and data were
+    collected from 397 respondents using a structured questionnaire. Respondents were
+    drawn from low-, middle-, and high-income neighbourhoods through a multistage
+    sampling method. Data were analysed using SPSS version 25, with descriptive and
+    non-parametric inferential statistics applied. Findings revealed that 56.7% of
+    respondents reported disposing used diapers in open dumps, 19.4% disposed them
+    in water drains, 14.4% practiced open burning, and only 9.6% used government-provided
+    waste bins. Only 31.5% of respondents strongly agreed that burning used diapers
+    releases toxic chemicals, and just 26.9% acknowledged that improper diaper disposal
+    can pollute surface and groundwater. The Kruskal-Wallis test indicated a significant
+    difference in environmental awareness across income groups [X² = 18.62, p = 0.000],
+    with Dunn’s post hoc test showing significant disparities between low- and high-income
+    respondents (mean rank difference = 48.3, p = 0.002). Demographically, 61.2% of
+    respondents were female, and 64.7% had children under five, which contributed
+    to high diaper usage rates. Moreover, 72.3% admitted they had never received any
+    public education on proper diaper disposal. The lack of waste infrastructure and
+    poor public awareness were cited as major contributing factors to improper practices.
+    The study concludes that improper disposable diaper waste handling is widespread
+    and environmentally hazardous in Port Harcourt, particularly in low-income areas.
+    The study recommends targeted environmental education campaigns, provision of
+    public diaper disposal units, zoning policies to control illegal dumping, and
+    the implementation of extended producer responsibility (EPR) policies to involve
+    manufacturers in post-consumer diaper waste management.
+  venue: IIARD INTERNATIONAL JOURNAL OF GEOGRAPHY AND ENVIRONMENTAL MANAGEMENT
+- title: 'N-body simulation of a bimetric Janus cosmology: structure segregation,
+    negative-mass cavity in halos, and observational confrontation'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20310634
+  category: factual
+  subcategory: theory
+  authors:
+  - Alain Jean Pares
+  abstract: 'We present, to our knowledge, the first complete N-body simulation of
+    the bimetric Janus cosmological model (JCM, Petit & D''Agostini), with proper
+    bimetric expansion. The simulation evolves N = 2.2×10⁷ particles in a 250 Mpc
+    volume from z = 99 to z = 0, with two gravitationally opposed mass species (m⁺
+    and m⁻, ratio μ = N⁻/N⁺ = 19) coupled through an anti-Newtonian bimetric interaction.
+    We report nine quantitative signatures that distinguish Janus from ΛCDM in a falsifiable
+    and quantitative manner: - spatial anti-correlation of m⁺ and m⁻ populations-
+    cross-power spectrum P+−(k) negative in 24 of 25 bins- spectral anti-correlation
+    r(k) → −0.99 (dynamical attractor)- σR(8 h⁻¹ Mpc) suppression of −23% vs ΛCDM
+    Twin (S₈ tension)- fσ₈(z=0.5) suppression of −28% vs ΛCDM Twin (RSD tension)-
+    HMF suppression at M = 10¹⁴ M☉ (factor ~10) (cluster tension)- central m⁻ cavity
+    in 27% of massive m⁺ halos- κ⁻ component dominates 95-98% of lensing convergence
+    at void cores- void-lensing signature at void cores A rigorous Pantheon+ MCMC
+    fit yields ΔAIC = +47 relative to standard ΛCDM, the honest geometric limitation
+    of the model in its current parametric form. We document this result through six
+    independent sensitivity tests (numerical robustness, VSL convention, M_B nuisance
+    marginalization, high-z SNIa removal, SH0ES sub-sample removal, and extended Janus-Ω_k
+    model) demonstrating that ΔAIC = +47 is robust to ±2 units against numerical and
+    methodological choices, and that the penalty is concentrated as a geometric signature
+    at z > 1.6 rather than driven by calibration artifacts. The Janus model thus sacrifices
+    SNIa geometric fit quality in exchange for an intrinsic explanation of several
+    structural anomalies, distinguishing itself from standard ΛCDM in a falsifiable
+    and quantitative manner. Companion source code: https://github.com/ajp-git/janus-simFalsifiable
+    predictions for DESI Y1 RSD, eROSITA cluster counts, LSST cluster lensing, and
+    void lensing surveys are presented for the 2025-2030 horizon.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Person Distillation: Foundations and Principles for Personalized AI'
+  date: 2026-08
+  url: https://doi.org/10.20944/preprints202608.1530.v1
+  category: factual
+  subcategory: theory
+  authors:
+  - Minxing Zhang
+  - Yi Yang
+  - Jian Pei
+  abstract: 'Large language models are rapidly evolving from general-purpose assistants
+    into personalized AI systems that collaborate with individuals over long periods
+    of time. Emerging applications increasingly seek not only to answer questions,
+    but also to reason, communicate, and act in ways that faithfully reflect a particular
+    person. Recent systems have begun to distill personal knowledge, workplace experience,
+    communication history, and behavioral traces into AI assistants, skill libraries,
+    memory systems, and personalized agents. Despite this rapid progress, the field
+    remains fragmented. Existing work differs substantially in the evidence it uses,
+    the aspects of a person it preserves, the representations it constructs, the methods
+    it employs, and the way it evaluates fidelity, leaving no common conceptual foundation
+    for person distillation. This paper presents the first comprehensive framework
+    for person distillation: the problem of transforming heterogeneous traces of a
+    particular real person into faithful, evidence-grounded, and revisable computational
+    representations. We organize the field as an end-to-end lifecycle consisting of
+    four tightly coupled components: source evidence, distilled person representations,
+    distillation methods, and evaluation. For each component, we develop a taxonomy
+    that unifies existing research and identifies open design choices. We further
+    organize the methodological landscape into six complementary families, ranging
+    from prompt-based trace-to-profile distillation to memory-based, parametric and
+    adapter-based, preference- and reward-based, behavioral and trajectory-based,
+    and hybrid and revisable distillation. Finally, we propose a comprehensive evaluation
+    framework covering person-fidelity objectives, benchmark construction protocols,
+    quantitative metrics, and diagnostic analyses for measuring evidence grounding,
+    person specificity, boundary awareness, and evaluation reliability. Beyond surveying
+    existing work, this paper establishes a common vocabulary, a conceptual framework,
+    and a research agenda for person distillation. By connecting advances in role-playing
+    LLMs, personalized generation, agent memory, skill learning, and preference modeling,
+    we identify the fundamental challenges that distinguish modeling a particular
+    real person from modeling generic users, roles, or personas. As AI systems become
+    increasingly personalized, collaborative, and long-lived, we believe person distillation
+    will become a foundational capability for the next generation of AI assistants,
+    digital coworkers, and human-centered intelligent systems.'
+  venue: Preprints.org
+- title: Working memory retention by medial entorhinal cortex low-dimensional neural
+    dynamics
+  date: 2026-08
+  url: https://doi.org/10.64898/2026.08.18.745500
+  category: working
+  subcategory: theory
+  authors:
+  - Li Yuan
+  - Jiarui Wang
+  - Xiaohe Li
+  abstract: The ability to retain information over tens of seconds is essential for
+    carrying out many routine tasks. Recurrently connected circuits are thought to
+    support memory over these timescales, yet how they maintain and represent remembered
+    information remains unclear. We asked whether the medial entorhinal cortex (mEC),
+    where recurrent attractor dynamics generate grid-cell firing patterns and single
+    toroidal attractor manifolds in two-dimensional environments, also supports low-dimensional
+    neural activity patterns during memory retention. During a working-memory task,
+    delay-period mEC dynamics did not show key features of grid firing in simple environments.
+    Instead, broader mEC populations, not limited to grid cells, expressed multiple
+    sequences and recurring activity patterns. Periodically repeating delay-period
+    sequences retained task-relevant information, including past locations and future
+    turn directions. These findings suggest that the mEC network generates low-dimensional
+    dynamics more broadly, with grid-cell activity representing one manifestation
+    and more complex manifold topologies supporting task-related representations during
+    working memory.
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+- title: 'MemPerceiver: Adaptive multi-scale memory reveals biome-specific temporal
+    fingerprints in carbon flux prediction'
+  date: 2026-07
+  url: https://eprints.whiterose.ac.uk/id/eprint/244624/
+  category: working
+  subcategory: theory
+  authors:
+  - G. Bi
+  - M. Zhou
+  - X. Wang
+  abstract: 'Terrestrial carbon flux prediction is critical for quantifying ecosystem
+    carbon sources and sinks. However, current deep learning models still struggle
+    with cross-ecosystem generalisation across the heterogeneous biomes covered by
+    global eddy-covariance networks. A fundamental reason is that different ecosystems
+    are shaped by past climate over very different timescales: climate may continue
+    to influence ecosystem processes for only weeks in tropical savannas but for months
+    in temperate forests, while existing models apply a single uniform temporal context
+    window to all ecosystems. To address this challenge, we propose MemPerceiver,
+    a multimodal framework that augments the EcoPerceiver backbone with six ecologically
+    motivated memory scales (−180 to −7 days) and a per-scale gating network, allowing
+    the model to autonomously select which temporal horizons matter for each ecosystem
+    without any ecological prior. On the CarbonSense benchmark of 385 eddy-covariance
+    sites across 15 IGBP classes, MemPerceiver achieves state-of-the-art performance
+    on both Net Ecosystem Exchange (NEE) and Gross Primary Production (GPP), with
+    the largest gains where cross-ecosystem generalisation is hardest: a 23% RMSE
+    reduction on the one-shot WAT class and a 24% NSE improvement on the zero-shot
+    SNO class. Averaging the learned gate activations within each biome yields an
+    interpretable temporal fingerprint, and within-biome consistency analysis shows
+    that these fingerprints provide a stable, model-derived view of biome-specific
+    ecological memory. The code is available at https://anonymous.4open.science/r/MemPerceiver-C000.'
+  venue: White Rose Research Online (University of Leeds, The University of Sheffield,
+    University of York)
+- title: 'Global‐Frequency Synergy: A Novel Paradigm for Radar Echo Extrapolation
+    via Attention and Fourier Convolution'
+  date: 2026-05
+  url: https://doi.org/10.1029/2025jd045579
+  category: working
+  subcategory: method
+  authors:
+  - Wei Wu
+  - Guangxin He
+  - Xiaoran Zhuang
+  abstract: Abstract Accurate radar echo extrapolation is critical for short‐term
+    weather forecasting, yet existing deep learning methods often suffer from echo
+    ambiguity, intensity decay, and insufficient global context utilization. To address
+    these limitations, this paper proposes Global‐Frequency Spatiotemporal Long Short‐Term
+    Memory ( GFST‐LSTM), a novel model that integrates a global attention mechanism
+    and Fourier convolutional modules into the Spatiotemporal LSTM ( ST‐LSTM) architecture.
+    The attention module dynamically weights multi‐scale spatiotemporal features by
+    enhancing channel and spatial correlations, while the Fourier convolution module
+    captures global periodic patterns via frequency‐domain transformations. Evaluated
+    on the Moving Modified National Institute of Standards and Technology database
+    (Moving MNIST) benchmark and Jiangsu Province radar data sets (2019–2021), GFST‐LSTM
+    achieves a 22.9% improvement in Critical Success Index and 13.1% in Heidke Skill
+    Score over Predictive Recurrent Neural Network at the 40 dBZ threshold. Notably,
+    it excels in preserving strong echo regions during 60–120 min predictions, reducing
+    positional bias by 6.6% compared to the Motion Gated Recurrent Unit (MotionGRU).
+    Ablation studies confirm the synergistic effect of both modules, with the full
+    model outperforming variants that lack either component.
+  venue: Journal of Geophysical Research Atmospheres
+- title: 'The Western Trophy: Plato, Stonehenge, and the Memory of a Landscape'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22079599
+  category: working
+  subcategory: theory
+  authors:
+  - Christoforos Panagis
+  abstract: 'Plato’s Atlantis narrative contains an unusual conjunction of claims:
+    a powerful island civilisation beyond the Pillars of Heracles, further islands
+    leading toward an opposite continent, a war dated to roughly 9600 BCE, subsequent
+    destruction by earthquakes and floods, and an explicit account of recurrent catastrophes
+    erasing Greek historical memory. This paper examines whether these elements may
+    preserve transformed historical or geographical information rather than functioning
+    solely as philosophical invention. Particular attention is given to the Stonehenge
+    landscape, whose monumental history substantially post-dates Plato’s chronology
+    but whose human significance extends deep into the Mesolithic. Archaeological
+    evidence for persistent occupation, repeated monumentalisation, long-distance
+    social networks and Atlantic–Mediterranean exchange is integrated with palaeogeographic
+    and palaeoclimatic evidence from the terminal Younger Dryas and early-Holocene
+    sea-level rise. A Persistent-Locus Ratchet Hypothesis is proposed to explain how
+    particular landscapes can acquire cumulative social authority across profound
+    cultural and demographic change. No identification of Stonehenge with Plato’s
+    victory trophy is claimed. Rather, the paper isolates a set of independently testable
+    correspondences and identifies the missing evidential bridge required to transform
+    an intriguing convergence into a historical hypothesis.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Rank-Bounded Memory: Self-Poisoning and Attribution Laundering in LLM Agents'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21994003
+  category: experiential
+  subcategory: theory
+  authors:
+  - Ivan Verbovoy
+  abstract: 'An agent that consolidates its own notes launders where its claims came
+    from. With no attacker at all, 24–33% of its speculations resurface as the owner''s
+    words or as sensor facts, at the very first rewrite, across flat notes, a self-edit
+    block and three production memory systems (mem0, Letta, Graphiti). Persistent
+    memory then carries the corruption across the session boundary, where it becomes
+    the baseline the next session''s episodic defenses faithfully defend. The defense
+    is a storage schema, enforceable by any harness that mediates memory writes. Every
+    record carries an ownership path ([self], [self, user], [self, user, self]) and
+    a ground. Five invariants close the rank axis by construction: no promotion (I1),
+    routing by origin (I2), de-quotation to the speaker''s layer (I2′), derivation
+    labeling (I4), and an action monopoly for the agent''s own layer (I3). "Foreign
+    content becomes the agent''s own belief" is therefore unreachable rather than
+    filtered out. The ground axis carries its own non-elevation (I1′), specified and
+    measured here rather than yet enforced. Three measurements. The label is computable:
+    blind path self-agreement of the single annotator (the author) is 97.4%, with
+    87.0–88.9% against the adjudicated keys; an LLM panel under the same written rules
+    scores no lower with zero rank ≥ 1 path errors on the live corpus, and on the
+    one ground boundary I1′ guards, human and panel agree at 94.6–97.4% (tested upward
+    in one direction so far). Attribution has to be stored, not re-derived: against
+    that band the attributed store holds 3–6% (its compressed variant up to 11%, a
+    scoring artifact, on the replication storyline), and two stripped-label controls
+    split the protection into verbatim storage, which keeps the hedges consolidation
+    destroys, and the structural label, which alone survives compression: 6.2% with
+    labels, 28% without, at the same compressor and budget. The labels hold under
+    attack: MINJA memory injection falls from 47% on flat notes to 10% with the read
+    rule as a prompt and to 1 of 128 tasks with it enforced in code, write-time promotion
+    staying zero throughout — reproducing TMA-NM''s conclusion that action authority
+    belongs in code, not in a prompt. The mechanism concentrates trust rather than
+    eliminating it. The base is enumerated and measured: channel identification, a
+    mechanical router over it, one isolated annotator seat, a directive parser at
+    ceiling on a 48-utterance keyed deck, the deployment norms, the read-side projection.
+    On benign guest and document questions the enforced read costs no measured content
+    — fact delivery at or above the flat-notes baseline, every delivered fact sourced;
+    its price on benign actions relayed through third parties is the open question.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Algorithmic Resilience Memory: Designing Agentic AI Systems For Organizational
+    Learning And Climate-Crisis Adaptation'
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20676882
+  category: experiential
+  subcategory: theory
+  authors:
+  - Dr. Harsha Sammangi
+  - Aditya Jagatha
+  - Navyasri Maddukuri
+  abstract: 'Climate disruption has become a persistent organizational condition rather
+    than an episodic event, yet most information systems designed to support organizational
+    resilience treat each disruption as an isolated incident. Existing digital resilience
+    platforms, disaster recovery systems, and AI-driven decision support tools lack
+    the capacity to accumulate, encode, and reuse organizational knowledge across
+    successive climate-related crises. This paper introduces Algorithmic Resilience
+    Memory (ARM), a novel IS construct defined as an AI-enabled organizational capability
+    through which agentic AI systems sense climate-related disruptions, encode prior
+    organizational responses, preserve decision rationale, generate contextually adaptive
+    recommendations, and reconfigure future actions through structured outcome feedback.
+    Drawing on Design Science Research (DSR), we propose and develop an Agentic AI-Based
+    Algorithmic Resilience Memory Framework as the primary artifact. The framework
+    integrates six interdependent functional layers—environmental sensing, knowledge
+    encoding, agentic AI reasoning, explainable decision support, human governance,
+    and adaptive learning—grounded in organizational memory theory, dynamic capabilities
+    theory, sociotechnical systems theory, and responsible AI governance principles.
+    We demonstrate the framework through a detailed scenario involving a regional
+    flood disrupting a manufacturing firm''s supply chain operations and evaluate
+    its utility using scenario-based assessment and expert panel validation. The paper
+    makes three primary contributions: it introduces ARM as a theoretically grounded
+    IS construct that advances digital resilience research; it offers a design-science
+    artifact that organizations can adopt for AI-driven climate-crisis adaptation;
+    and it establishes design principles for building agentic AI systems capable of
+    institutional learning across repeated climate disruptions.'
+  venue: International Journal of Scientific Research and Engineering Trends
+- title: 'Homeostatic Event-Driven Control Architecture: Autonomous Central-Place
+    Foraging, Binary Memory Indexing, and Swarm Federation'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22069878
+  category: experiential
+  subcategory: application
+  authors:
+  - Darius Puzinas
+  abstract: Autonomous robotic exploration in resource-constrained, unstructured environments
+    is often bottlenecked by the high computational overhead, sample inefficiency,
+    and opacity of deep reinforcement learning (RL). This paper presents the Homeostatic
+    Event-Driven Control Architecture (HEDCA)—a transparent, compute-efficient paradigm
+    grounded in cybernetics, biological homeostasis, and case-based episodic memory
+    reuse. HEDCA monitors physiological vitals via ternary event-driven neurons with
+    adaptive noise-floor deadbands, projecting state deviations into a sparse Meaning
+    Space to generate compact, binary-quantized Relationship Vectors (RVbin) requiring
+    only 256 bytes per episode—a memory reduction of >99.9% compared to raw continuous
+    trajectories. Closed-loop error nullification is achieved via an energy-aware
+    Experience Map evaluated via bitwise Hamming distance, accelerating query times
+    to ≤10.3 μs. The system introduces a Dynamic Energy Return Horizon (Leash) and
+    a Closed-Loop Heading Gate to prevent spatial divergence. Key extensions include:-
+    Nested Spike Handling (fallback actions)- Memory Temperature (usage-based heat)-
+    Consolidation (hot-sharpening, cold-compression)- Meaning Nodes (sensor-correlation
+    detectors that influence global caution) Across sequential empirical benchmarks
+    (395,000 simulation steps) and swarm scaling tests (N=1 to 16), HEDCA achieves
+    100% survival rates, near-linear collective knowledge accumulation (O(N^1.09)),
+    +92.3% exploratory play gain, and a total RAM footprint under 35 KB, operating
+    entirely without offline pre-training or external reward engineering. A visual
+    tool, FossilView, renders the memory tree, revealing the system's internal structure.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Towards Faithful Simulation of Human Shopping Behavior
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.20707
+  category: experiential
+  subcategory: theory
+  authors:
+  - Jiakai Tang
+  - Yan Mi
+  - Jing Yu
+  abstract: 'Simulating realistic user shopping behavior underpins offline evaluation
+    and reinforcement learning in e-commerce scenarios. While recent LLM- and VLM-based
+    simulators have made encouraging progress, reproducing a real browsing session
+    remains difficult for two reasons. (i) Memory Challenge: a shopping session spans
+    dozens of pages, yet existing agents either discard long-range observation histories,
+    losing the evolving user state, or naively concatenate them, overwhelming the
+    context window and even degrading simulation quality. (ii) Optimization Challenge:
+    current user simulators are typically supervised to match each logged action via
+    imitation or step-level rewards; the resulting sessions often display unrealistic
+    patterns, such as over-exploration or excessive passivity, which per-step supervision
+    can neither detect nor correct. To address the above challenges, we present RecVerse,
+    a GUI-grounded simulation agent that perceives pages through screenshots and produces
+    faithful multi-turn trajectories. For the memory challenge, RecVerse adopts a
+    cognitive-inspired hierarchical memory: Working Memory for short-term focus, Episodic
+    Memory for in-session traces, and Preference Memory for high-level intent, with
+    memory updates treated as actions so that the agent adaptively learns when and
+    what to memorize. For the optimization challenge, RecVerse is optimized with a
+    trajectory-level RL objective that scores entire sessions, aligning both macro-level
+    action-type distributions and micro-level shopping intent with real users. We
+    further release USB (User Simulation Benchmark), an interactive e-commerce GUI
+    trajectory dataset for multi-turn user simulation. Experiments show that RecVerse
+    significantly outperforms existing baselines in both behavioral fidelity and intent
+    consistency.'
+  venue: arXiv (Cornell University)
+- title: 'DEDMAC: Disentangling Environment and Decision Messages for Multi-Agent
+    Communication'
+  date: 2026-04
+  url: https://doi.org/10.3390/info17040332
+  category: factual
+  subcategory: method
+  authors:
+  - Yihan Liang
+  - Jinlong Li
+  abstract: In cooperative multi-agent reinforcement learning (MARL), communication
+    can address the challenges of partial observability and environmental non-stationarity
+    by conveying environmental features and decision intents, respectively. However,
+    existing methods either focus on only one type of information—failing to tackle
+    both challenges simultaneously—or conflate these signals, causing agents to confuse
+    environmental context with decision intents. This paper introduces Disentangling
+    Environment and Decision messages for Multi-Agent Communication (DEDMAC), a framework
+    that explicitly separates these two information types into two distinct message
+    streams and processes them independently. Specifically, environment messages are
+    integrated into long-term memory to resolve partial observability, while decision
+    messages provide instantaneous intent signals to mitigate non-stationarity and
+    facilitate coordination. To prevent semantic confusion between the two message
+    streams, we employ mutual information constraints to ensure semantic disentanglement.
+    Furthermore, we design a mechanism that leverages global information to correct
+    intent biases in decision messages resulting from limited local perspectives during
+    generation. Evaluations across complex multi-agent benchmarks demonstrate that
+    DEDMAC significantly outperforms state-of-the-art communication-based methods.
+    These findings indicate that the explicit separation and specialized processing
+    of environment and decision semantics are critical for achieving optimal performance
+    in dynamic, collaborative multi-agent systems.
+  venue: Information
+- title: 'Correction: The realism of behavioral theory-based vs. non-theory-based
+    AI agents during a simulated infant formula shortage'
+  date: 2026-04
+  url: https://doi.org/10.3389/frai.2026.1812447
+  category: factual
+  subcategory: theory
+  authors:
+  - Linda Desens
+  - Brandon Walling
+  - Rhys O’Neill
+  abstract: 'As autonomous agent/digital twin (DT) systems become integrated into
+    public policy and health system planning, the credibility of agent behavior is
+    critical. This study provides evidence for policymakers and researchers regarding
+    the realism of behavioral theory-informed autonomous AI agents in crisis situations
+    such as food shortages.The ability to simulate the behavior of households related
+    to health and social systems, and to have confidence that those simulations are
+    realistic ones, would provide an important capacity for policymakers. However,
+    in order to trust the simulations, there is a critical need to assess the accuracy
+    of simulated agents during a crisis. Grounding autonomous agents in behavioral
+    theories could improve their capacity to reflect realistic human decision-making.
+    Our research addresses existing gaps in the literature by making the following
+    contributions:1. Assessing the realism of autonomous agents that are grounded
+    in behavioral theory, comparing them with agents that are not. 2. Building an
+    autonomous agent/DT simulation related to food access.We use this research question:
+    "Do participants perceive theory-based AI agents as behaving more realistically
+    than non-theory-based agents?"This study highlights the importance of incorporating
+    behavioral theory in the design of AI agents. AI agent modeling and simulation
+    should advance from a rule-based decision tree to agent designs that are grounded
+    in empirically validated behavioral theory. To achieve greater realism, agents
+    should be designed with socially adaptive mechanisms that enable them to adjust
+    their strategies based on evolving human norms, values and behaviors to reflect
+    realistic human behavior (Rahwan et al., 2019) and internal processes such as
+    cooperation that reflect human behavior (Diau, 2025). Agents should include reflective
+    reasoning, goal representations, memory, and behavioral theoretical grounding
+    to maintain consistency and behavioral coherency over time (Park et al., 2023).
+    Capturing these nuances in a simulated environment is essential to ensure that
+    autonomous AI agents realistically reflect the decision-making patterns of the
+    populations they represent. In this study, incorporating well-established behavioral
+    theories into agent design ensures that simulated actions are grounded in how
+    people react during a crisis.This study models the behavior of households through
+    the use case of an infant formula shortage. Food security is shaped by an interplay
+    of policy, economic, geographic, and social systems (Roggio, 2019;Sawyer et al.,
+    2021), as was demonstrated during the 2022 infant formula crisis. Families with
+    infants are uniquely susceptible to disruptions across these systems, a concern
+    that has drawn the attention of policymakers (U.S. Department of Health and Human
+    Services, 2025; United States, 2022).The use of autonomous agents and DTs to simulate
+    health and social systems has been growing, including in contexts directly related
+    to our research, such as emergency response and urban Deleted: . ¶ ©2025 The MITRE
+    Corporation. ALL RIGHTS RESERVED health (Jiang et al., 2022;Khan et al., 2023;Park
+    et al., 2025). Review articles emphasize that DT use in these areas is in its
+    infancy, and they point to technical, ethical, financial, and other barriers (Katsoulakis
+    et al., 2024;Ringeval et al., 2025). Despite these challenges, promising case
+    studies have validated the accuracy of DT/autonomous agent simulations (Bilal
+    et al., 2025;Jiang et al., 2022;Park et al., 2025;Von Hoene et al., 2025) or provide
+    a conceptual model for their use in health emergencies (Rodríguez-Aguilar, R.,
+    & Marmolejo-Saucedo, J., 2020). The Bilal study (2025) is noteworthy in that it
+    demonstrated predictive validity of an epidemic DT/autonomous agent model, comparing
+    its results to observed COVID-19 data: the model closely matched actual trends
+    in cases, hospitalizations, and deaths (Bilal et al., 2025). Assessing the accuracy
+    of simulations is imperative to their future use: as Park et al. state, "we must
+    develop tools and methodologies so [policymakers] know when they can, and can''t,
+    trust these simulations" (Park et al., 2025). Some validation methods, such as
+    Immersive Face Validation, are primarily used to judge the believability of autonomous
+    agents that appear in human form on-screen, for example in videos or games (Bogdanovych
+    et al., 2016;Louloudi & Klügl, 2012). Other methods focus on agent behavior rather
+    than visual aspects. For example, the Virtual Overlay Multi-Agent System uses
+    supervisory agents that monitor the simulation''s adherence to predefined behavioral
+    constraints set by human experts (Niazi, 2017). The Standardized Test Suite, which
+    involves human success/failure ratings on agent-generated continuations of real
+    human interaction scenarios, reveals alignment with human judgments (Abramson
+    et al., 2022).Other research that assesses the realism of autonomous AI agents
+    using human raters focuses on specific contexts. For example, a growing body of
+    work assesses the accuracy of autonomous agents for clinical decision support
+    by comparing them to the ratings of expert physicians (Hayat et al., 2025;Ringeval
+    et al., 2025). Park et al.''s 2023 study is similar to our research, in that it
+    uses human raters as participants to assess agent decisions and actions (rather
+    than visual appearance) in simulated non-clinical environments. Park et al. (2023)
+    created 25 generative agents that stored and synthesized memories and were embedded
+    in a sandbox city environment. The researchers "interviewed" agents, asking questions
+    across five categories (self-knowledge, memory, plans, reactions, and reflections).
+    Participants then compared agent interview responses created under different agent
+    types (full, no reflection, no reflection/plan, no reflection/plan/observation,
+    and human baseline) and rated believability across the same five question categories.
+    Results that the generative agent ability to and the behavior (Park et al., 2023).
+    Our research on this the of agents to in with behavioral the use of autonomous
+    agents in simulation into such as crisis public and social policy, that agent
+    behavior realistic human critical. studies have grounded agent in behavioral validation
+    focus on internal consistency or rather than and behaviors (Bogdanovych et al.,
+    This study from the Health and the of into autonomous agent theories were they
+    provide The MITRE Corporation. ALL RIGHTS RESERVED for how people decisions under
+    perceive and to social and which are during such as food studies have integrated
+    behavioral theory into agent or of agent et al.''s of existing research (2025)
+    used to that agent behavior over and behavioral et al., 2025). this is a for the
+    of decision-making and in autonomous AI agents over it a model that behavioral
+    theory into agent study that so on using modeling to simulate behavioral and in
+    the of The model simulated of how in agents they are in that a of agents over
+    their environment to their a of Our study into the use of behavioral theory for
+    agent incorporating behavioral theories and using human participants as raters
+    for The behavioral theories used in this study are in are in our for and The is
+    used by participants to assess the behavioral realism of the autonomous agents.
+    of of which are based on theoretical from and as in 2. were they directly to and
+    and are and by participants The in with from the Health and the of as in the The
+    were the for the behavioral ratings used by the participants The is based on an
+    that real decision contexts from the 2022 infant formula & et al., et al., For
+    example, of the agents to the same to formula crisis decision-making or an Other
+    agents support from social when they were to formula from As a example, agents
+    their of infant formula was of this study was to empirically theory-based autonomous
+    AI agents behavioral realism as by in to autonomous AI agents theoretical the
+    following research question and participants perceive theory-based AI agents as
+    behaving more realistically than non-theory-based AI agents using behavioral theories
+    realism study a design the realism of autonomous agent behaviors under agents
+    that are grounded in behavioral theory and non-theory-based agents The was the
+    agent theory-based The were the realism ratings for of the of and of from the
+    2022 formula including actions and the constraints on formula our The 2022 formula
+    was by the of a for of the formula and was by related to the COVID-19 2025). constraints
+    a in the formula shortage. for for and for were it for to the infant formula et
+    al., and such as in food or to to to the for et al., on the other as to formula
+    through and et al., et al., of and to the 2022 infant formula the types of actions
+    into our actions were into behavioral by responses and patterns from the 2022
+    and them the behavioral theory For example, responses from the 2022 to to for
+    it et al., et al., and it through and including food et al., et al., et al., Other
+    2022 actions the of formula that was an of our The MITRE Corporation. ALL RIGHTS
+    RESERVED they were to used including formula or it with such as or infant formula
+    & et al., and by in 2022 were used to the crisis For example, strategies based
+    on households were more to formula than in a for households compared to for other
+    households et al., households were more to have the to to over a of these households
+    or more and more than to infant formula et al., In of of time and to formula et
+    al., households constraints that other households they were to using the Food
+    and of to of or of infant formula during the (U.S. 2025). were more than to use
+    & et al., of that their infant to in they as et al., behaviors how and shaped
+    responses during the which has a food than the as a provides a for our Food is
+    as or of and or or ability to in socially (U.S. Department of food and and have
+    and health for et al., et al., food in was in 2023 compared to the of and food
+    was compared to the of has of the in and the was compared to the of in 2023 (U.S.
+    in the are as and to food (U.S. Department of and were food (U.S. Department of
+    the interplay of that were for our of raters was from a This was based on a a
+    and a of raters was ©2025 The MITRE Corporation. ALL RIGHTS RESERVED for a et
+    al., participants a behavioral health or public health no in the behavioral and
+    social or was The were designed to be by behaviors were simulated in a twin of
+    during a infant formula twin to as closely as the to provide the agents with for
+    infant formula during the crisis To provide the twin and AI accuracy the of the
+    real were into their state, and were and into and of the twin of barriers for
+    the AI twin five in specific were drawn as for the agents would on and to formula
+    in the 2023). The to formula in were formula and for was integrated into the of
+    the simulation modeling to more the and of infant formula from to The and and
+    that the agent of infant and were based on 2022 (U.S. Food and 2023). The model
+    was designed to disruptions and such as and emergency To model the for based on
+    and behavior when of were into the and were used as policy to as realistic to
+    infant formula were into this of the twin to provide realistic barriers for with
+    infant formula This integrated 2025) to provide realistic for the agents, including
+    and across the a and model were from (U.S. 2025) and integrated into the This
+    to formula for agents. and that infant formula in the specific on realistic and
+    were when with This during emergency response used the to assess the realism of
+    the behavior across the by a on the for of the of and of was to the consistency
+    realism ratings to participants on how to and the of that the response was with
+    how a real under similar crisis would be to a of behavior that was realistic For
+    example, on the an agent an or a of was rated a In formula was was rated and a
+    were for the of of to ensure across were an that the study and the of their the
+    participants were a to the form that and the a of actions over the simulation
+    and include theoretical from for a of The theory-based agents behaviors of theoretical
+    from and and non-theory-based agents that with no theoretical an of in a order
+    using the To order participants were into with different This ©2025 The MITRE
+    Corporation. ALL RIGHTS RESERVED that in in the an of across theory-based agents
+    in this study were designed to simulate realistic human decision processes by
+    from and The decision was by the agents to reflect on the strategies that their
+    and in response to et al., 2023). and were into the theory-based agents agent
+    that used for were embedded into a of and social the goal of infant and were as
+    strategies social to food or was on the theory-based and the of the agents a rule-based
+    decision tree social or adaptive This a for Agents a decision are from and social
+    then by that To a is during behavioral theoretical is and agent for the of the
+    of the is in example how a theory-based agent into a decision using behavioral
+    theory the the the agent infant formula is its is The agent and from households
+    similar are as rather than the Health the of formula and the of and the of and
+    work constraints behavioral for to other households formula through the of The
+    MITRE Corporation. ALL RIGHTS the internal the The on infant its from through
+    social and The agent then an with this such as a food or to constraints such as
+    and agent behavior to over time in response to grounded in behavioral theory,
+    actions that reflect realistic human decision-making under crisis rather than
+    of to behavioral theory and decision is in the non-theory-based agents decisions
+    based on rule-based The agents a decision tree that a when was and was the agent
+    a and when was the agent would for The decision tree different under different
+    of and However, the non-theory-based agents have that social or adaptive This
+    created a for the to which into the agents realism in simulated crisis For a of
+    theory-based non-theory-based agents, non-theory-based agents were designed as
+    a rather than as a realistic or predictive was to provide a that rule-based used
+    in the study to the of behavioral theory to realism decision tree was for validity
+    by experts with in public health food systems, and crisis to ensure that the actions
+    were and of or was as the study realism agent types rather than behavioral for
+    agents were using from the Food and (U.S. Department of 2025) and the (U.S. 2025)
+    to and the the of need or ability to formula during or the need to a time of and
+    to different the System (U.S. for and 2025) and health were to agent or adaptive
+    with the to to from and (U.S. Department ©2025 The MITRE Corporation. ALL RIGHTS
+    RESERVED of Food and 2025) and to which and are through agents to areas and are
+    by based on realistic and for crisis simulation a set of agents that and support
+    mechanisms that would be during an infant formula shortage. As an of the into
+    the these systems agents food and or agent was designed with and so that their
+    behavior with how these systems realistically including these agents, the model
+    the households and the responses that during a agent types were created to model
+    crisis response The agent food from Health and Human 2025) and 2025) to model
+    to agents emergency formula when households were in the The twin simulated to
+    be to the 2022 infant formula in five in five were they a of food and The model
+    integrated This simulation was using and with and to support and of the agent
+    decision-making validation ensures for for and system the of agents the agent
+    the twin the research question and comparing realism for the theory-based compared
+    to non-theory-based agents, a was the compared realism for theory-based non-theory-based
+    For to the realism by of the a was used to the in ratings or were as for and for
+    participants rated the theory-based and non-theory-based AI agents for realism
+    across the for As in theory-based agents realism compared to non-theory-based
+    agents the confidence for these with the of the theory-based the of the non-theory-based
+    evidence of a in realism theory-based and assess the consistency of ratings using
+    the were for the ratings across and was that the realism across and were and by
+    agent was for ratings than for theory-based The results consistency raters across
+    values for theory-based reflect the greater behavioral by from behavioral theory.
+    Some agent behaviors were in In agents to decision consistency across for are
+    in and the realism and confidence for theory-based and non-theory-based agents
+    across for of the realism by for theory-based non-theory-based agents and compared
+    to non-theory-based agents, greater realism and consistency in agent the research
+    question and and participants the theory-based agents to be more realistic when
+    compared to non-theory-based agents, a was used to the realism across The results
+    that the in realism across was was with and as of were to the that the of was
+    for and for the interaction were in the to the same as the a for a for and a interaction
+    results are in the of the of using were over the from the of other the were Participants
+    rated the theory-based agents as more realistic than non-theory-based agents for
+    the and the of in the and of were for a of the of agent for agents, the of from
+    the and from the of For non-theory-based agents, the from the of other were that
+    the interaction was primarily by realism ratings for agents in the and of and
+    by specific the agent or assess the of our the a using confidence for the theory-based
+    and non-theory-based across The confidence that the observed are with confidence
+    for the of and of results provide evidence that the of theory-based agent design
+    is across with the constraints of our results of the study provide support for
+    the that the behavior of autonomous AI agents grounded in behavioral theory is
+    as more realistic by participants compared to the behavior of agents that the
+    same theoretical This addresses a in the literature the validation of twin agents,
+    accuracy to behavior as by the of realism decision of and use of social theory-based
+    agents realism The in realism ratings theory-based and non-theory-based agents
+    was with a that the of behavioral theory the realism of ©2025 The MITRE Corporation.
+    ALL RIGHTS RESERVED agent behavior in food The of this was through confidence
+    which demonstrated that theory-based agents were rated across when for on these
+    for agent and realism as as a interaction agent and This that theory-based agents
+    non-theory-based agents in realism, the of this across the different of the realism
+    was for the use of social the importance of modeling social and adaptive behaviors
+    during crisis and including that the and behavior of social with research that
+    agents are of social and processes and that human raters their behavior more and
+    in simulated (Park et al., of the study the of as a design and from and into agent
+    and with these this study a for and behavioral realism in autonomous agent This
+    addresses a critical in the rule-based theory-informed agent design that the of
+    human decision-making and behavior under crisis results have for the and of autonomous
+    AI agents in twin related to food and crisis the that theory-based agents are
+    rated as more realistic by participants the importance of behavioral theory into
+    agent This or accuracy and that realistic behavior is critical for simulations
+    that are and be by This that behavioral theories into the AI design the of decision
+    support tools in of these to the of simulation models in public emergency and
+    social As twin to the realism of agent behavior is essential for simulation agent
+    design to ensure that simulation results have for for crisis a question of trust
+    in Our that grounding agents in behavioral theory behavioral agents decisions
+    how real people and their actions become to the experts must on simulation when
+    are or public health need agents that decisions based on social they and theory-based
+    provides that policy contexts agent behavior with validated theories and for twin
+    This could of decision support in public health and emergency for realism and
+    simulation used in this study be as this However, these be to researchers to and
+    are to this participants agent realism through that an the infant formula shortage.
+    The agent are and to for during the constraints that use which would the participants
+    to assess the agents a agents decisions how real people and their actions become
+    to the experts must on simulation compared to the agent the are that of how the
+    agents were on the realism of agents, assess theory-based agents would to behavioral
+    behavioral theory was used to agent the goal was to assess realism, that more
+    or realistic agent models be to behavioral this on the and embedded in the rather
+    than agent studies should how be designed to support or behaviors in response
+    to crisis our use case was and on infant formula shortage. Other public health
+    crisis or emergency different is in the theory-based compared to non-theory-based
+    for the which that more work to be to the for realism theory-based However, the
+    realism ratings across and of realism was used to theory-based to non-theory-based
+    for was which the ratings across raters provides a for This is in with in social
+    and behavioral ratings are used to and the of (Bogdanovych et al., et al., study
+    which for or the design by through and the confidence the of our the to of or
+    the of a was based on it for the across or the interaction studies should to improve
+    of and enable more modeling of in realism our have the specific This research
+    on participants to an infant formula which is a crisis populations The to which
+    these would in populations or contexts infant social support trust in and across
+    contexts and actual behavior and of agent work should behavioral theory-based
+    agents in and across different types of and under of to the validity of these
+    behavioral theories and the of agent AI model with the grounding of the autonomous
+    agents with behavioral theories and using human for the this the of which from
+    such as theory and in the simulation environment that across populations or The
+    study behavioral and to of these However, future research should include as of
+    twin et al., et al., study that when autonomous AI agents are designed with behavioral
+    theory, they are as more realistic in how they decisions and with In the simulated
+    infant formula theory-based agents more closely with human than non-theory-based
+    agents. This the importance of behavioral theory into the of have that it is to
+    and the realism of these agents in a a for behavioral a simulation that people
+    trust to reflect under crisis credibility is critical are to be used in and The
+    MITRE Corporation. ALL RIGHTS RESERVED this work a for the and of AI agents that
+    are by behavioral theory. studies the to different and more social As policymakers
+    and researchers on simulation for planning, this research provides an and a for
+    that autonomous agents grounded in human are for future research that could on
+    this for future research is to a simulations and behavioral Park et al. (2023)
+    agents for of time to set for how they is validation comparing simulated agent
+    behavior to from real during the infant formula of the from human more in the
+    design of the agents their realism with is to autonomous agents a decision-making
+    that uses behavioral drawn from behavioral research et al., et al., In that research,
+    the decision were to and research that decision-making when with health or et
+    al., et al., important for future research involves across the this to scenarios,
+    systems, and urban contexts would its and for For example, use models to responses
+    during or agents would provide more realistic simulations of and assess patterns
+    In could simulate decisions adherence and could use theory-based agents to simulate
+    responses to or with and modeling the use of human raters and the provide a and
+    for agent behavioral theory with agent behavior and a for the design and of AI
+    agents and This addresses a in the validation have on internal or rather than
+    the realism of agent behavior by human raters (Bogdanovych et al., agent design
+    and with behavioral theory, this a for the validation across and that autonomous
+    agents are and as Health and to The in the of the or and the no is to the to internal
+    or or that to or behavior & et al., et al., 2012). The and confidence in ability
+    to a specific behavior & et al., et al., 2012). barriers and The in the or barriers
+    that behavior or health and the that the behavior or health could to health &
+    et al., et al., 2012). to The to internal or or that to or behavior by which to
+    the social and the specific behavior & et al., et al., to a to a behavior 2020).
+    behavioral The or has over the specific by that or behavior et al., & et al.,
+    the behavior The the of a specific by behavioral specific to the of a behavior
+    & et al., by which are based on or of the in to an to the to which an to ©2025
+    The MITRE Corporation. ALL RIGHTS RESERVED with & et al., to behaviors through
+    and by and et al., et al., 2023). the and of the of a specific by social et al.,
+    & 2020). behavior in The of a specific behavior by a model, is the are when models
+    are to be the et al., and to behavior that how the specific behavior are to specific
+    behaviors when or et al., 2. and real and The for crisis decision-making the ability
+    to and in response to the infant formula crisis as as their ability to strategies
+    and to the is by the of the their to the and the to such as a of infant formula
+    on behavioral which agent based on and et al., 2020). and how it & assesses agents
+    a or confidence in to a ©2025 The MITRE Corporation. ALL RIGHTS RESERVED or on
+    behavior barriers or behavioral the their ability to a behavior or actions et
+    al., 2020). and agents adjust their behavior based on and the results & theoretical
+    for the of actions that agents actions their constraints as as with their and
+    the and barriers they actions the behavior assesses a an as or & 2017). behavior
+    in that behavior realistic constraints and & of theoretical for this agents with
+    or that reflect real human to through highlights that social an agent to on and
+    in with and the infant formula by has of uses to for an and to for support the
+    strategies to maintain with to and a that which have formula has a the of the
+    infant formula formula making is using and with to and uses to with formula in
+    the of the has to formula to future has to and social on and in with and the infant
+    formula decisions on how formula has the has on so to formula so to the and to
+    the the same when formula a when has the of the infant formula has to to no a
+    is of and has a formula the has on when for the'
+  venue: Frontiers in Artificial Intelligence
+- title: 'A Comparative Study of Deep Learning Architectures for Anomaly Detection
+    in PWRs: Achieving Optimal Accuracy, Efficiency, and Interpretability with a Feature-Engineered
+    Multi-layer Perceptron'
+  date: 2026-05
+  url: https://doi.org/10.1007/s42979-026-05085-3
+  category: working
+  subcategory: theory
+  authors:
+  - Ihtesham Ibn Malek
+  - S. M. Shohorab Hossain Hasib
+  - Shakhawat Parvez
+  abstract: ''
+  venue: SN Computer Science
+- title: A Hierarchical Adaptive Posit-CIM Architecture for Edge Transformer Inference
+  date: 2026-08
+  url: https://doi.org/10.1007/978-981-92-4805-6_24
+  category: working
+  subcategory: theory
+  authors:
+  - Xuchang Liu
+  - Chang Liu
+  - Jun Wang
+  abstract: ''
+  venue: Lecture notes in computer science
+- title: 'Helios: Scalable Multi-accelerator FPGA Architecture for Efficient Inference
+    of Transformer-Based Models'
+  date: 2026-08
+  url: https://doi.org/10.1007/978-981-92-4805-6_23
+  category: working
+  subcategory: systems
+  authors:
+  - Yanwei Wang
+  - Jun Li
+  - Wei Huang
+  abstract: ''
+  venue: Lecture notes in computer science
+- title: Efficient Transformer-Based Drowsiness Detection on the Edge using a Hybrid
+    MobileViT-LSTM Architecture
+  date: 2026-04
+  url: https://doi.org/10.1145/3746271.3776603
+  category: working
+  subcategory: method
+  authors:
+  - Shams Rahman
+  - Noel E. O’Connor
+  - GRAHAM HEALY
+  abstract: This work addresses the challenge of deploying accurate, real-time drowsiness
+    detection systems on resource-constrained mobile devices using video data. We
+    propose a novel hybrid deep learning architecture that integrates MobileViT, an
+    efficient vision transformer, with a Long Short-Term Memory (LSTM) network. In
+    our approach, MobileViT extracts robust spatial features from individual frames
+    within 5-second video windows, and the LSTM network aggregates these features
+    temporally to effectively capture subtle transitions indicative of drowsiness.
+    Evaluated through rigorous subject-independent 5-fold cross-validation, our MobileViT-LSTM
+    model not only significantly surpasses the standalone MobileViT baseline but also
+    outperforms a computationally demanding full Vision Transformer (ViT), achieving
+    superior accuracy with significantly reduced computational overhead. Leveraging
+    mixed-precision training to further enhance efficiency, our best-performing model
+    is exported to ONNX format, facilitating seamless deployment on edge devices.
+    This research contributes a practical, high-performance solution, effectively
+    bridging the gap between state-of-the-art deep learning models and the stringent
+    computational limitations of mobile edge platforms, specifically addressing critical
+    applications such as driver safety monitoring.
+  venue: ''
+- title: 'F-Transformer: a federated transformer for efficient and privacy-preserving
+    sequence generation'
+  date: 2026-05
+  url: https://doi.org/10.1038/s41598-026-40881-0
+  category: working
+  subcategory: theory
+  authors:
+  - Nihar Patel
+  - Sanjana Brahmbhatt
+  - Fenil Ramoliya
+  abstract: Transformer models have demonstrated remarkable success in natural language
+    processing (NLP) tasks, but their deployment in distributed environments faces
+    critical challenges including high computational demands, large memory footprints,
+    and privacy concerns when handling sensitive data. Existing federated learning
+    (FL) implementations with transformers often sacrifice either model performance
+    for privacy or resource efficiency for accuracy. We propose the F-Transformer,
+    a lightweight federated transformer framework that addresses these limitations
+    through integrated privacy-preserving mechanisms and architectural optimizations.
+    Our framework employs a compact architecture with 4 attention heads, 4 layers,
+    and 64 embedding dimensions, achieving only 0.87 million trainable parameters.
+    We implement an incremental FL strategy where local clients continuously train
+    on newly arriving data while the global model aggregates updates through the FedAvg
+    algorithm. The framework integrates privacy objectives directly into the optimization
+    process through a novel regularization formulation. We evaluate the F-Transformer
+    on the WikiText-2 dataset using validation perplexity as the primary metric, along
+    with central processing unit (CPU) utilization, memory consumption, and training
+    loss convergence. Our results demonstrate a validation perplexity of 5.9894, surpassing
+    state-of-the-art (SOTA) models including BERT-Large, GPT-2, and SparseGPT while
+    using significantly fewer parameters. The framework achieves 40% reduction in
+    CPU utilization and 34% reduction in memory consumption compared to centralized
+    training. These results establish the F-Transformer as an effective solution for
+    privacy-preserving sequence generation in resource-constrained federated environments.
+  venue: Scientific Reports
+- title: A Novel Lightweight Transformer-Free Neuro-Scattering Mamba-KAN Architecture
+    for Respiratory Sound Classification
+  date: 2026-08
+  url: https://doi.org/10.3390/app16168342
+  category: working
+  subcategory: method
+  authors:
+  - Florin Bogdan
+  - Mihaela-Ruxandra Lascu
+  abstract: 'Automated pulmonary auscultation demands rapid and reliable anomaly detection.
+    Contemporary deep learning frameworks frequently face deployment barriers due
+    to their reliance on memory-intensive Transformer mechanisms and high-cost processing
+    hardware. Addressing this limitation, the present study introduces the Neuro Scatter
+    Mamba Kolmogorov–Arnold Neural Network (NSMK-Net), a lightweight, Transformer-free
+    architecture. The model integrates 1D Wavelet Scattering, bi-directional Selective
+    State Space Models (Mamba), and Kolmogorov–Arnold Networks (KAN). By substituting
+    quadratic self-attention with continuous-time differential discretization, the
+    framework achieves very good computational efficiency under severe hardware constraints.
+    Model optimization followed an eco-friendly “Green-AI” methodology, successfully
+    converging on a standard 4 GB VRAM graphics unit. Regarding real-world deployment,
+    the finalized architecture can be considered as a possible candidate for future
+    “Edge-AI” applications, because it requires only 0.34 MB of parameter storage
+    (89,342 parameters) and executes inference in approximately 48 milliseconds per
+    respiratory cycle. Evaluated on the SPRSound dataset, the proposed model achieved
+    a cycle-level accuracy of 84.67% (Macro-F1: 0.48). When tested under the strict
+    official 60/40 partition of the ICBHI 2017 dataset, the network delivered a global
+    accuracy of 41.56% (Macro-F1: 0.31) alongside an official reported ICBHI Score
+    of 49.38%. These metrics indicate a stable detection capability when processing
+    highly imbalanced clinical data. By replacing fixed activation nodes with learnable
+    edge non-linearities and utilizing linear sequence memory, this new structural
+    approach reduces the dependency on high-end hardware for medical acoustic processing.'
+  venue: Applied Sciences
+- title: Comparative analysis of lightweight CNN, vision transformer and hybrid architectures
+    for lung histopathological image classification
+  date: 2026-06
+  url: https://doi.org/10.1007/s11227-026-08653-9
+  category: working
+  subcategory: method
+  authors:
+  - Doğu Manalı
+  - Hasan Demırel
+  abstract: 'Abstract This study presents a comprehensive comparative analysis of
+    10 state-of-the-art lightweight deep learning architectures for lung histopathological
+    image classification, encompassing Convolutional Neural Networks, Vision Transformers,
+    and hybrid CNN–Transformer models. All architectures were evaluated under identical
+    and fully deterministic experimental conditions on a balanced dataset of 15,000
+    images representing Lung Adenocarcinoma, Lung Squamous Cell Carcinoma, and benign
+    lung tissue. Two different experimental settings were used to assess the performance
+    of each model: training without data augmentation and training with augmentation
+    techniques. Performance was assessed using Accuracy, F1-score, AUC, Sensitivity,
+    Specificity, final training loss, average epoch time, inference time, and memory
+    consumption. Among all evaluated models, the CNN-based GhostNet-100 achieved the
+    highest overall performance in both experimental settings. Without data augmentation,
+    it reached 99.95% accuracy and a 99.95% F1-score, while with data augmentation
+    it achieved 99.96% accuracy and a 99.96% F1-score. Hybrid architectures such as
+    LeViT-128S also demonstrated competitive performance, whereas lightweight Vision
+    Transformers, including ViT-Tiny and EVA-Tiny, exhibited comparatively lower performance
+    across both settings. Overall, the findings demonstrate that GhostNet-100 provides
+    the optimal balance between predictive accuracy and computational efficiency under
+    the controlled experimental conditions of this study, suggesting its potential
+    as a candidate architecture for future clinical decision-support applications
+    pending prospective clinical validation.'
+  venue: The Journal of Supercomputing
+- title: 'Bounded ecological memory in coral reefs: divergent demographic pathways
+    under recurrent heatwaves and collapse under extreme thermal stress'
+  date: 2026-08
+  url: https://doi.org/10.64898/2026.08.21.746008
+  category: factual
+  subcategory: theory
+  authors:
+  - Tooba Varasteh
+  - Andy Curran
+  - Olivia Mathews
+  abstract: 'Anthropogenic warming exposes coral reefs to recurrent marine heatwaves
+    (MHWs), yet responses to comparable thermal stress remain highly variable. A central
+    challenge is determining whether reduced bleaching reflects acclimatization-like
+    persistence of existing colonies or mortality-driven filtering that produces demographically
+    depleted assemblages. Using colony-level surveys across the Florida Reef Tract
+    (2014-2023), we show bleaching sensitivity declined from 2014 through 2022, consistent
+    with ecological memory. A spatial matched-event framework integrating bleaching
+    severity and adult colony density resolved these reduced-bleaching outcomes into
+    two distinct pathways: demographic persistence (stable/increasing density) and
+    mortality-filtered tolerance (declining density). Persistence pathways were maintained
+    under predictable exposure regimes characterized by lower interannual thermal
+    variability. This persistence was driven by weedy life-history taxa (e.g., Porites
+    spp.) replacing historical framework builders, indicating stability reflects ecological
+    reassembly rather than uniform increases in thermal tolerance. Under the unprecedented
+    extremes of the 2023 MHW, this acclimatization-like buffering broke down, causing
+    widespread sensitization and collapse of previously persistent networks. These
+    results support a bounded ecological memory framework; prior exposure reduces
+    bleaching sensitivity under predictable thermal regimes but fails under extreme
+    heat stress. Consequently, modern refugia are best defined by adult standing stock
+    retention representing systems undergoing selective ecological reassembly rather
+    than full functional recovery.'
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+- title: A Comprehensive Survey on Infrastructure-Independent and Adaptive Ultrasonic
+    Parking Slot Detection Systems
+  date: 2026-08
+  url: https://doi.org/10.22214/ijraset.2026.84620
+  category: factual
+  subcategory: theory
+  authors:
+  - Akshath V Nadig
+  - Ajay Jayaram
+  - Hruthik S
+  abstract: Urban infrastructure frequently demonstrates vulnerability during extreme
+    conditions and complicated parking scenarios, where depending on expensive LiDAR
+    or vision-centric modules results in operational failures during severe weather
+    or network blackouts. This study introduces an innovative, software-oriented framework
+    formulated to close the divide between economical consumer hardware and highly
+    accurate spatial recognition. The proposed model is driven by the Adaptive Spatial
+    Positioning (ASP) algorithm, employing conventional ultrasonic transducers to
+    secure exact boundary localization by evaluating multiple sound wave reflections.
+    To counteract the "ghost" signals and acoustic interference common in ultrasonic
+    devices, the architecture integrates an adaptive filtering protocol and a decision-tree
+    fusion mechanism analyzing inputs from ipsilateral sensors. Engineered for maximum
+    computational brevity, the ASP logic functions on a highly restricted memory footprint,
+    rendering it exceptionally appropriate for standard microcontrollers. To corroborate
+    the proposed architecture, a physical prototype encompassing four parking bays
+    serves as a scaled proof-ofconcept. It processes a variety of ultrasonic metrics
+    to pinpoint physical obstacles alongside the intervening vacant areas. Final quantitative
+    metrics concerning processing speed, memory utilization, and boundary detection
+    precision will be explicitly measured following the conclusion of the hardware
+    trials. By combining a localized ESP32 processor with Wi-Fi connectivity, a Backend
+    API, a MySQL Database, and a live Web Dashboard, the system guarantees uninterrupted
+    remote tracking and data archiving. This bypasses the need for resource-heavy,
+    cloud-dependent control units for essential detection tasks. Ultimately, this
+    inquiry provides a highly scalable, infrastructure-agnostic strategy for automated
+    parking using widely available components
+  venue: International Journal for Research in Applied Science and Engineering Technology
