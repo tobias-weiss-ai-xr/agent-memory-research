@@ -30,6 +30,30 @@ taxonomy:
     display: Systems
   - id: development
     display: Development
+  - id: token-level
+    display: Token-Level
+    description: Token-level memory representations
+    category: factual
+  - id: parametric
+    display: Parametric
+    description: Parametric memory models
+    category: factual
+  - id: latent
+    display: Latent
+    description: Latent memory spaces
+    category: factual
+  - id: review
+    display: Review
+    description: Survey/review papers
+    category: factual
+  - id: mechanism
+    display: Mechanism
+    description: Memory mechanisms
+    category: factual
+  - id: evaluation
+    display: Evaluation
+    description: Memory evaluation benchmarks
+    category: factual
 arxiv_queries:
 - query: abs:"knowledge graph memory agent"
   category: factual
