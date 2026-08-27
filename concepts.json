@@ -284,6 +284,21 @@
       ]
     },
     {
+      "term": "Method",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 8,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "method"
+      },
+      "top_cells": [
+        "method/method"
+      ],
+      "papers": 8
+    },
+    {
       "term": "interview",
       "kind": "curated",
       "seed": true,
@@ -413,19 +428,6 @@
         "type": "field",
         "field": "category",
         "value": "survey"
-      },
-      "top_cells": [],
-      "papers": 0
-    },
-    {
-      "term": "Method",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 0,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "method"
       },
       "top_cells": [],
       "papers": 0

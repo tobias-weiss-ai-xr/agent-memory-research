@@ -92,55 +92,55 @@
     },
     {
       "id": 15,
+      "term": "Method",
+      "kind": "taxonomy",
+      "df": 8
+    },
+    {
+      "id": 16,
       "term": "interview",
       "kind": "curated",
       "df": 7
     },
     {
-      "id": 16,
+      "id": 17,
       "term": "research gap",
       "kind": "curated",
       "df": 6
     },
     {
-      "id": 17,
+      "id": 18,
       "term": "peer review",
       "kind": "curated",
       "df": 4
     },
     {
-      "id": 18,
+      "id": 19,
       "term": "mixed methods",
       "kind": "curated",
       "df": 3
     },
     {
-      "id": 19,
+      "id": 20,
       "term": "triangulation",
       "kind": "curated",
       "df": 3
     },
     {
-      "id": 20,
+      "id": 21,
       "term": "grounded theory",
       "kind": "curated",
       "df": 2
     },
     {
-      "id": 21,
+      "id": 22,
       "term": "open access",
       "kind": "curated",
       "df": 2
     },
     {
-      "id": 22,
-      "term": "Survey",
-      "kind": "taxonomy",
-      "df": 0
-    },
-    {
       "id": 23,
-      "term": "Method",
+      "term": "Survey",
       "kind": "taxonomy",
       "df": 0
     },
@@ -299,7 +299,7 @@
     },
     {
       "source": 0,
-      "target": 17,
+      "target": 18,
       "weight": 3
     },
     {
@@ -319,7 +319,7 @@
     },
     {
       "source": 0,
-      "target": 21,
+      "target": 22,
       "weight": 2
     },
     {
@@ -394,22 +394,22 @@
     },
     {
       "source": 0,
-      "target": 16,
+      "target": 17,
       "weight": 2
     },
     {
       "source": 1,
-      "target": 16,
+      "target": 17,
       "weight": 2
     },
     {
       "source": 6,
-      "target": 16,
+      "target": 17,
       "weight": 3
     },
     {
       "source": 0,
-      "target": 19,
+      "target": 20,
       "weight": 3
     },
     {
@@ -444,22 +444,22 @@
     },
     {
       "source": 0,
-      "target": 15,
+      "target": 16,
       "weight": 5
     },
     {
       "source": 5,
-      "target": 15,
+      "target": 16,
       "weight": 4
     },
     {
       "source": 8,
-      "target": 15,
+      "target": 16,
       "weight": 2
     },
     {
       "source": 9,
-      "target": 15,
+      "target": 16,
       "weight": 3
     },
     {
@@ -474,27 +474,27 @@
     },
     {
       "source": 0,
-      "target": 18,
+      "target": 19,
       "weight": 3
     },
     {
       "source": 9,
-      "target": 18,
+      "target": 19,
       "weight": 3
     },
     {
       "source": 5,
-      "target": 18,
+      "target": 19,
       "weight": 2
     },
     {
       "source": 8,
-      "target": 18,
+      "target": 19,
       "weight": 2
     },
     {
       "source": 5,
-      "target": 16,
+      "target": 17,
       "weight": 2
     },
     {
@@ -504,7 +504,7 @@
     },
     {
       "source": 14,
-      "target": 16,
+      "target": 17,
       "weight": 2
     },
     {
@@ -614,8 +614,18 @@
     },
     {
       "source": 2,
-      "target": 16,
+      "target": 17,
       "weight": 4
+    },
+    {
+      "source": 1,
+      "target": 15,
+      "weight": 6
+    },
+    {
+      "source": 4,
+      "target": 15,
+      "weight": 2
     },
     {
       "source": 2,
@@ -644,7 +654,7 @@
     },
     {
       "source": 4,
-      "target": 16,
+      "target": 17,
       "weight": 2
     },
     {
@@ -655,7 +665,7 @@
   ],
   "stats": {
     "concepts": 25,
-    "edges": 100,
+    "edges": 102,
     "papers": 5218
   }
 }

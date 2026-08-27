@@ -1,6 +1,6 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 25 concepts, 100 relationships from 5218 papers. Edges = co-occurrence (shared papers).
+**Generated:** 25 concepts, 102 relationships from 5218 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
@@ -21,6 +21,7 @@
 | reproducibility | curated | 49 |
 | systematic review | curated | 44 |
 | literature review | curated | 17 |
+| Method | taxonomy | 8 |
 | interview | curated | 7 |
 | research gap | curated | 6 |
 | peer review | curated | 4 |
@@ -29,7 +30,6 @@
 | grounded theory | curated | 2 |
 | open access | curated | 2 |
 | Survey | taxonomy | 0 |
-| Method | taxonomy | 0 |
 | meta analysis | curated | 0 |
 
 ## Relationships (top concepts → related concepts)
@@ -197,6 +197,11 @@
 - quantitative — 2 shared paper(s)
 - research gap — 2 shared paper(s)
 - Experiential — 2 shared paper(s)
+
+### Method
+
+- framework — 6 shared paper(s)
+- benchmark — 2 shared paper(s)
 
 ### interview
 
