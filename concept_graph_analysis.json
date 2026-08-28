@@ -1,278 +1,278 @@
 {
   "stats": {
     "nodes": 25,
-    "edges": 102,
+    "edges": 120,
     "components": 1,
     "communities": 1,
-    "modularity": -1778.0538
+    "modularity": -3080.424
   },
   "nodes": [
     {
-      "id": 1,
+      "id": 2,
       "term": "framework",
       "kind": "curated",
-      "df": 1856,
-      "degree": 16,
-      "weighted_degree": 2576,
-      "degree_centrality": 0.6667,
-      "pagerank": 0.217359,
-      "betweenness": 14.9652,
-      "clustering": 0.625
+      "df": 2585,
+      "degree": 18,
+      "weighted_degree": 3608,
+      "degree_centrality": 0.75,
+      "pagerank": 0.199947,
+      "betweenness": 18.7337,
+      "clustering": 0.6078
     },
     {
       "id": 0,
       "term": "Factual",
       "kind": "taxonomy",
-      "df": 2409,
+      "df": 3623,
       "degree": 18,
-      "weighted_degree": 2117,
+      "weighted_degree": 3144,
       "degree_centrality": 0.75,
-      "pagerank": 0.199116,
-      "betweenness": 68.2909,
-      "clustering": 0.3725
+      "pagerank": 0.188841,
+      "betweenness": 24.1036,
+      "clustering": 0.4837
+    },
+    {
+      "id": 1,
+      "term": "Working",
+      "kind": "taxonomy",
+      "df": 3401,
+      "degree": 13,
+      "weighted_degree": 1551,
+      "degree_centrality": 0.5417,
+      "pagerank": 0.090083,
+      "betweenness": 1.937,
+      "clustering": 0.7821
     },
     {
       "id": 4,
       "term": "benchmark",
       "kind": "curated",
-      "df": 719,
+      "df": 920,
       "degree": 15,
-      "weighted_degree": 1226,
+      "weighted_degree": 1584,
       "degree_centrality": 0.625,
-      "pagerank": 0.105421,
-      "betweenness": 12.6462,
-      "clustering": 0.6571
-    },
-    {
-      "id": 3,
-      "term": "Experiential",
-      "kind": "taxonomy",
-      "df": 1130,
-      "degree": 12,
-      "weighted_degree": 894,
-      "degree_centrality": 0.5,
-      "pagerank": 0.076607,
-      "betweenness": 2.8647,
-      "clustering": 0.697
-    },
-    {
-      "id": 2,
-      "term": "Working",
-      "kind": "taxonomy",
-      "df": 1671,
-      "degree": 13,
-      "weighted_degree": 820,
-      "degree_centrality": 0.5417,
-      "pagerank": 0.076018,
-      "betweenness": 4.0409,
-      "clustering": 0.6538
+      "pagerank": 0.089446,
+      "betweenness": 9.7269,
+      "clustering": 0.7238
     },
     {
       "id": 5,
       "term": "survey",
       "kind": "curated",
-      "df": 389,
-      "degree": 17,
-      "weighted_degree": 651,
-      "degree_centrality": 0.7083,
-      "pagerank": 0.065861,
-      "betweenness": 13.5486,
-      "clustering": 0.5882
+      "df": 754,
+      "degree": 20,
+      "weighted_degree": 1180,
+      "degree_centrality": 0.8333,
+      "pagerank": 0.078322,
+      "betweenness": 29.067,
+      "clustering": 0.5158
     },
     {
       "id": 6,
       "term": "dataset",
       "kind": "curated",
-      "df": 336,
-      "degree": 13,
-      "weighted_degree": 640,
-      "degree_centrality": 0.5417,
-      "pagerank": 0.057894,
-      "betweenness": 2.72,
-      "clustering": 0.7821
+      "df": 723,
+      "degree": 16,
+      "weighted_degree": 1234,
+      "degree_centrality": 0.6667,
+      "pagerank": 0.071809,
+      "betweenness": 5.4837,
+      "clustering": 0.725
     },
     {
-      "id": 8,
-      "term": "quantitative",
-      "kind": "curated",
-      "df": 93,
-      "degree": 15,
-      "weighted_degree": 223,
-      "degree_centrality": 0.625,
-      "pagerank": 0.028028,
-      "betweenness": 9.5795,
-      "clustering": 0.6381
+      "id": 3,
+      "term": "Experiential",
+      "kind": "taxonomy",
+      "df": 1730,
+      "degree": 13,
+      "weighted_degree": 1184,
+      "degree_centrality": 0.5417,
+      "pagerank": 0.068667,
+      "betweenness": 2.7608,
+      "clustering": 0.7436
     },
     {
       "id": 7,
-      "term": "taxonomy",
+      "term": "quantitative",
       "kind": "curated",
-      "df": 115,
-      "degree": 10,
-      "weighted_degree": 248,
-      "degree_centrality": 0.4167,
-      "pagerank": 0.026987,
-      "betweenness": 1.1172,
-      "clustering": 0.8667
+      "df": 192,
+      "degree": 17,
+      "weighted_degree": 443,
+      "degree_centrality": 0.7083,
+      "pagerank": 0.034676,
+      "betweenness": 12.6067,
+      "clustering": 0.6176
     },
     {
       "id": 9,
       "term": "qualitative",
       "kind": "curated",
-      "df": 81,
-      "degree": 11,
-      "weighted_degree": 189,
-      "degree_centrality": 0.4583,
-      "pagerank": 0.025604,
-      "betweenness": 5.2244,
-      "clustering": 0.6727
+      "df": 135,
+      "degree": 14,
+      "weighted_degree": 331,
+      "degree_centrality": 0.5833,
+      "pagerank": 0.027915,
+      "betweenness": 5.4737,
+      "clustering": 0.6923
     },
     {
-      "id": 12,
-      "term": "reproducibility",
+      "id": 8,
+      "term": "taxonomy",
       "kind": "curated",
-      "df": 49,
-      "degree": 11,
-      "weighted_degree": 112,
-      "degree_centrality": 0.4583,
-      "pagerank": 0.015824,
-      "betweenness": 1.0577,
-      "clustering": 0.8909
+      "df": 144,
+      "degree": 12,
+      "weighted_degree": 314,
+      "degree_centrality": 0.5,
+      "pagerank": 0.023748,
+      "betweenness": 0.7642,
+      "clustering": 0.8788
     },
     {
       "id": 10,
       "term": "experiment",
       "kind": "curated",
-      "df": 66,
-      "degree": 9,
-      "weighted_degree": 114,
-      "degree_centrality": 0.375,
-      "pagerank": 0.015795,
-      "betweenness": 0.7244,
-      "clustering": 0.9167
+      "df": 133,
+      "degree": 11,
+      "weighted_degree": 223,
+      "degree_centrality": 0.4583,
+      "pagerank": 0.018255,
+      "betweenness": 0.4281,
+      "clustering": 0.9091
     },
     {
       "id": 11,
       "term": "case study",
       "kind": "curated",
-      "df": 52,
-      "degree": 9,
-      "weighted_degree": 92,
-      "degree_centrality": 0.375,
-      "pagerank": 0.014079,
-      "betweenness": 0.7244,
-      "clustering": 0.9167
+      "df": 88,
+      "degree": 10,
+      "weighted_degree": 160,
+      "degree_centrality": 0.4167,
+      "pagerank": 0.01508,
+      "betweenness": 0.3281,
+      "clustering": 0.9111
     },
     {
       "id": 13,
+      "term": "reproducibility",
+      "kind": "curated",
+      "df": 63,
+      "degree": 12,
+      "weighted_degree": 144,
+      "degree_centrality": 0.5,
+      "pagerank": 0.014361,
+      "betweenness": 0.7503,
+      "clustering": 0.8788
+    },
+    {
+      "id": 12,
       "term": "systematic review",
       "kind": "curated",
-      "df": 44,
-      "degree": 8,
-      "weighted_degree": 70,
-      "degree_centrality": 0.3333,
-      "pagerank": 0.012591,
-      "betweenness": 0.8355,
-      "clustering": 0.8571
+      "df": 72,
+      "degree": 11,
+      "weighted_degree": 122,
+      "degree_centrality": 0.4583,
+      "pagerank": 0.013861,
+      "betweenness": 0.7503,
+      "clustering": 0.8545
     },
     {
       "id": 14,
       "term": "literature review",
       "kind": "curated",
-      "df": 17,
-      "degree": 7,
-      "weighted_degree": 29,
-      "degree_centrality": 0.2917,
-      "pagerank": 0.009855,
-      "betweenness": 1.0672,
-      "clustering": 0.7619
+      "df": 33,
+      "degree": 10,
+      "weighted_degree": 64,
+      "degree_centrality": 0.4167,
+      "pagerank": 0.010849,
+      "betweenness": 0.7209,
+      "clustering": 0.8444
     },
     {
-      "id": 17,
-      "term": "research gap",
+      "id": 15,
+      "term": "interview",
       "kind": "curated",
-      "df": 6,
-      "degree": 7,
-      "weighted_degree": 17,
-      "degree_centrality": 0.2917,
-      "pagerank": 0.008563,
-      "betweenness": 0.5934,
-      "clustering": 0.8571
+      "df": 17,
+      "degree": 6,
+      "weighted_degree": 33,
+      "degree_centrality": 0.25,
+      "pagerank": 0.00864,
+      "betweenness": 0.0769,
+      "clustering": 0.9333
     },
     {
       "id": 16,
-      "term": "interview",
+      "term": "research gap",
       "kind": "curated",
-      "df": 7,
+      "df": 9,
+      "degree": 9,
+      "weighted_degree": 26,
+      "degree_centrality": 0.375,
+      "pagerank": 0.008376,
+      "betweenness": 0.288,
+      "clustering": 0.9167
+    },
+    {
+      "id": 18,
+      "term": "mixed methods",
+      "kind": "curated",
+      "df": 8,
       "degree": 4,
-      "weighted_degree": 14,
+      "weighted_degree": 20,
       "degree_centrality": 0.1667,
-      "pagerank": 0.008121,
+      "pagerank": 0.008041,
       "betweenness": 0.0,
       "clustering": 1.0
     },
     {
       "id": 19,
-      "term": "mixed methods",
+      "term": "open access",
       "kind": "curated",
-      "df": 3,
+      "df": 7,
       "degree": 4,
-      "weighted_degree": 10,
+      "weighted_degree": 12,
       "degree_centrality": 0.1667,
-      "pagerank": 0.007789,
+      "pagerank": 0.007429,
       "betweenness": 0.0,
       "clustering": 1.0
     },
     {
-      "id": 15,
+      "id": 21,
+      "term": "triangulation",
+      "kind": "curated",
+      "df": 5,
+      "degree": 3,
+      "weighted_degree": 8,
+      "degree_centrality": 0.125,
+      "pagerank": 0.007268,
+      "betweenness": 0.0,
+      "clustering": 1.0
+    },
+    {
+      "id": 17,
       "term": "Method",
       "kind": "taxonomy",
       "df": 8,
       "degree": 2,
       "weighted_degree": 8,
       "degree_centrality": 0.0833,
-      "pagerank": 0.007395,
+      "pagerank": 0.007197,
       "betweenness": 0.0,
       "clustering": 1.0
     },
     {
-      "id": 18,
+      "id": 20,
       "term": "peer review",
       "kind": "curated",
-      "df": 4,
-      "degree": 1,
-      "weighted_degree": 3,
-      "degree_centrality": 0.0417,
-      "pagerank": 0.007058,
+      "df": 7,
+      "degree": 2,
+      "weighted_degree": 7,
+      "degree_centrality": 0.0833,
+      "pagerank": 0.007186,
       "betweenness": 0.0,
-      "clustering": 0.0
-    },
-    {
-      "id": 20,
-      "term": "triangulation",
-      "kind": "curated",
-      "df": 3,
-      "degree": 1,
-      "weighted_degree": 3,
-      "degree_centrality": 0.0417,
-      "pagerank": 0.007058,
-      "betweenness": 0.0,
-      "clustering": 0.0
+      "clustering": 1.0
     },
     {
       "id": 22,
-      "term": "open access",
-      "kind": "curated",
-      "df": 2,
-      "degree": 1,
-      "weighted_degree": 2,
-      "degree_centrality": 0.0417,
-      "pagerank": 0.006978,
-      "betweenness": 0.0,
-      "clustering": 0.0
-    },
-    {
-      "id": 21,
       "term": "grounded theory",
       "kind": "curated",
       "df": 2,
@@ -340,117 +340,117 @@
   "top_hubs": [
     "framework",
     "Factual",
-    "benchmark",
-    "Experiential",
     "Working",
+    "benchmark",
     "survey",
     "dataset",
-    "quantitative",
-    "taxonomy",
-    "qualitative"
-  ],
-  "bridge_nodes": [
-    "Factual",
-    "framework",
-    "survey",
-    "benchmark",
+    "Experiential",
     "quantitative",
     "qualitative",
-    "Working",
-    "Experiential",
+    "taxonomy"
+  ],
+  "bridge_nodes": [
+    "survey",
+    "Factual",
+    "framework",
+    "quantitative",
+    "benchmark",
     "dataset",
+    "qualitative",
+    "Experiential",
+    "Working",
     "taxonomy"
   ],
   "bridge_edges": [
     {
-      "source": "Factual",
-      "target": "triangulation",
-      "weight": 3,
-      "edge_betweenness": 21.0
+      "source": "framework",
+      "target": "Method",
+      "weight": 6,
+      "edge_betweenness": 12.0
     },
     {
-      "source": "Factual",
-      "target": "open access",
+      "source": "survey",
+      "target": "peer review",
       "weight": 2,
-      "edge_betweenness": 21.0
+      "edge_betweenness": 11.5
     },
     {
       "source": "Factual",
       "target": "peer review",
-      "weight": 3,
-      "edge_betweenness": 21.0
-    },
-    {
-      "source": "framework",
-      "target": "Method",
-      "weight": 6,
-      "edge_betweenness": 11.0
+      "weight": 5,
+      "edge_betweenness": 9.5
     },
     {
       "source": "benchmark",
       "target": "Method",
       "weight": 2,
-      "edge_betweenness": 10.0
+      "edge_betweenness": 9.0
+    },
+    {
+      "source": "survey",
+      "target": "triangulation",
+      "weight": 2,
+      "edge_betweenness": 7.8333
+    },
+    {
+      "source": "Factual",
+      "target": "triangulation",
+      "weight": 4,
+      "edge_betweenness": 6.8333
+    },
+    {
+      "source": "survey",
+      "target": "mixed methods",
+      "weight": 3,
+      "edge_betweenness": 6.3333
+    },
+    {
+      "source": "quantitative",
+      "target": "triangulation",
+      "weight": 2,
+      "edge_betweenness": 6.3333
+    },
+    {
+      "source": "survey",
+      "target": "open access",
+      "weight": 2,
+      "edge_betweenness": 6.0
     },
     {
       "source": "Factual",
       "target": "mixed methods",
-      "weight": 3,
-      "edge_betweenness": 7.75
-    },
-    {
-      "source": "Factual",
-      "target": "interview",
-      "weight": 5,
-      "edge_betweenness": 7.75
-    },
-    {
-      "source": "Factual",
-      "target": "benchmark",
-      "weight": 390,
-      "edge_betweenness": 7.5339
-    },
-    {
-      "source": "Factual",
-      "target": "framework",
-      "weight": 931,
-      "edge_betweenness": 7.391
-    },
-    {
-      "source": "Factual",
-      "target": "literature review",
       "weight": 7,
-      "edge_betweenness": 6.6267
+      "edge_betweenness": 5.6667
     },
     {
-      "source": "Factual",
-      "target": "research gap",
+      "source": "framework",
+      "target": "open access",
       "weight": 2,
-      "edge_betweenness": 6.4839
+      "edge_betweenness": 5.5
     },
     {
       "source": "Factual",
-      "target": "systematic review",
+      "target": "open access",
+      "weight": 5,
+      "edge_betweenness": 5.3333
+    },
+    {
+      "source": "quantitative",
+      "target": "mixed methods",
+      "weight": 4,
+      "edge_betweenness": 5.0
+    },
+    {
+      "source": "survey",
+      "target": "interview",
       "weight": 8,
-      "edge_betweenness": 6.4339
+      "edge_betweenness": 4.3333
     },
     {
-      "source": "Factual",
-      "target": "case study",
-      "weight": 30,
-      "edge_betweenness": 6.1549
-    },
-    {
-      "source": "Factual",
-      "target": "experiment",
-      "weight": 28,
-      "edge_betweenness": 6.1549
-    },
-    {
-      "source": "Factual",
-      "target": "taxonomy",
-      "weight": 76,
-      "edge_betweenness": 5.9744
+      "source": "framework",
+      "target": "interview",
+      "weight": 3,
+      "edge_betweenness": 4.25
     }
   ]
 }

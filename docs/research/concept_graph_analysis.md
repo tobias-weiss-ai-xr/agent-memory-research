@@ -1,47 +1,47 @@
 # Concept Graph Analysis
 
-**Generated:** 25 nodes, 102 edges, 1 components, 1 communities (modularity -1778.054). Edges = co-occurrence.
+**Generated:** 25 nodes, 120 edges, 1 components, 1 communities (modularity -3080.424). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2174, degree 16, df 1856
-- **Factual** — PR 0.1991, degree 18, df 2409
-- **benchmark** — PR 0.1054, degree 15, df 719
-- **Experiential** — PR 0.0766, degree 12, df 1130
-- **Working** — PR 0.0760, degree 13, df 1671
-- **survey** — PR 0.0659, degree 17, df 389
-- **dataset** — PR 0.0579, degree 13, df 336
-- **quantitative** — PR 0.0280, degree 15, df 93
-- **taxonomy** — PR 0.0270, degree 10, df 115
-- **qualitative** — PR 0.0256, degree 11, df 81
-- **reproducibility** — PR 0.0158, degree 11, df 49
-- **experiment** — PR 0.0158, degree 9, df 66
+- **framework** — PR 0.1999, degree 18, df 2585
+- **Factual** — PR 0.1888, degree 18, df 3623
+- **Working** — PR 0.0901, degree 13, df 3401
+- **benchmark** — PR 0.0894, degree 15, df 920
+- **survey** — PR 0.0783, degree 20, df 754
+- **dataset** — PR 0.0718, degree 16, df 723
+- **Experiential** — PR 0.0687, degree 13, df 1730
+- **quantitative** — PR 0.0347, degree 17, df 192
+- **qualitative** — PR 0.0279, degree 14, df 135
+- **taxonomy** — PR 0.0237, degree 12, df 144
+- **experiment** — PR 0.0183, degree 11, df 133
+- **case study** — PR 0.0151, degree 10, df 88
 
 ## Bridge nodes (high betweenness — connect clusters)
 
+- survey
 - Factual
 - framework
-- survey
-- benchmark
 - quantitative
-- qualitative
-- Working
-- Experiential
+- benchmark
 - dataset
+- qualitative
+- Experiential
+- Working
 - taxonomy
 
 ## Bridge edges (high edge-betweenness)
 
-- Factual ↔ triangulation (weight 3, EB 21.0)
-- Factual ↔ open access (weight 2, EB 21.0)
-- Factual ↔ peer review (weight 3, EB 21.0)
-- framework ↔ Method (weight 6, EB 11.0)
-- benchmark ↔ Method (weight 2, EB 10.0)
-- Factual ↔ mixed methods (weight 3, EB 7.75)
-- Factual ↔ interview (weight 5, EB 7.75)
-- Factual ↔ benchmark (weight 390, EB 7.5339)
-- Factual ↔ framework (weight 931, EB 7.391)
-- Factual ↔ literature review (weight 7, EB 6.6267)
+- framework ↔ Method (weight 6, EB 12.0)
+- survey ↔ peer review (weight 2, EB 11.5)
+- Factual ↔ peer review (weight 5, EB 9.5)
+- benchmark ↔ Method (weight 2, EB 9.0)
+- survey ↔ triangulation (weight 2, EB 7.8333)
+- Factual ↔ triangulation (weight 4, EB 6.8333)
+- survey ↔ mixed methods (weight 3, EB 6.3333)
+- quantitative ↔ triangulation (weight 2, EB 6.3333)
+- survey ↔ open access (weight 2, EB 6.0)
+- Factual ↔ mixed methods (weight 7, EB 5.6667)
 
 ## Communities (clusters of related concepts)
 

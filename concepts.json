@@ -5,7 +5,7 @@
       "term": "Factual",
       "kind": "taxonomy",
       "seed": true,
-      "df": 2409,
+      "df": 3623,
       "match": {
         "type": "field",
         "field": "category",
@@ -17,50 +17,50 @@
         "factual/theory",
         "factual/parametric"
       ],
-      "papers": 2409
-    },
-    {
-      "term": "framework",
-      "kind": "curated",
-      "seed": true,
-      "df": 1856,
-      "match": {
-        "type": "text",
-        "forms": [
-          "framework"
-        ]
-      },
-      "papers": 1856,
-      "top_cells": [
-        "factual/token-level",
-        "experiential/token-level",
-        "working/token-level",
-        "working/method"
-      ]
+      "papers": 3623
     },
     {
       "term": "Working",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1671,
+      "df": 3401,
       "match": {
         "type": "field",
         "field": "category",
         "value": "working"
       },
       "top_cells": [
-        "working/token-level",
         "working/method",
         "working/theory",
-        "working/latent"
+        "working/token-level",
+        "working/systems"
       ],
-      "papers": 1671
+      "papers": 3401
+    },
+    {
+      "term": "framework",
+      "kind": "curated",
+      "seed": true,
+      "df": 2585,
+      "match": {
+        "type": "text",
+        "forms": [
+          "framework"
+        ]
+      },
+      "papers": 2585,
+      "top_cells": [
+        "factual/token-level",
+        "experiential/token-level",
+        "factual/method",
+        "working/method"
+      ]
     },
     {
       "term": "Experiential",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1130,
+      "df": 1730,
       "match": {
         "type": "field",
         "field": "category",
@@ -72,115 +72,96 @@
         "experiential/method",
         "experiential/parametric"
       ],
-      "papers": 1130
+      "papers": 1730
     },
     {
       "term": "benchmark",
       "kind": "curated",
       "seed": true,
-      "df": 719,
+      "df": 920,
       "match": {
         "type": "text",
         "forms": [
           "benchmark"
         ]
       },
-      "papers": 719,
+      "papers": 920,
       "top_cells": [
         "factual/token-level",
         "experiential/token-level",
-        "working/token-level",
-        "factual/method"
+        "factual/method",
+        "working/method"
       ]
     },
     {
       "term": "survey",
       "kind": "curated",
       "seed": true,
-      "df": 389,
+      "df": 754,
       "match": {
         "type": "text",
         "forms": [
           "survey"
         ]
       },
-      "papers": 389,
+      "papers": 754,
       "top_cells": [
         "factual/method",
-        "factual/token-level",
         "factual/theory",
-        "experiential/token-level"
+        "factual/token-level",
+        "factual/survey"
       ]
     },
     {
       "term": "dataset",
       "kind": "curated",
       "seed": true,
-      "df": 336,
+      "df": 723,
       "match": {
         "type": "text",
         "forms": [
           "dataset"
         ]
       },
-      "papers": 336,
+      "papers": 723,
       "top_cells": [
-        "factual/token-level",
         "working/method",
-        "experiential/token-level",
-        "factual/method"
-      ]
-    },
-    {
-      "term": "taxonomy",
-      "kind": "curated",
-      "seed": true,
-      "df": 115,
-      "match": {
-        "type": "text",
-        "forms": [
-          "taxonomy"
-        ]
-      },
-      "papers": 115,
-      "top_cells": [
         "factual/token-level",
-        "experiential/token-level",
         "factual/method",
-        "working/token-level"
+        "experiential/token-level"
       ]
     },
     {
       "term": "quantitative",
       "kind": "curated",
       "seed": true,
-      "df": 93,
+      "df": 192,
       "match": {
         "type": "text",
         "forms": [
           "quantitative"
         ]
       },
-      "papers": 93,
+      "papers": 192,
       "top_cells": [
         "factual/method",
-        "factual/token-level",
         "factual/theory",
-        "working/method"
+        "working/method",
+        "working/theory"
       ]
     },
     {
-      "term": "qualitative",
+      "term": "taxonomy",
       "kind": "curated",
       "seed": true,
-      "df": 81,
+      "df": 144,
       "match": {
         "type": "text",
         "forms": [
-          "qualitative"
+          "taxonomy"
         ]
       },
-      "papers": 81,
+      "papers": 144,
       "top_cells": [
         "factual/token-level",
         "factual/method",
@@ -189,21 +170,40 @@
       ]
     },
     {
+      "term": "qualitative",
+      "kind": "curated",
+      "seed": true,
+      "df": 135,
+      "match": {
+        "type": "text",
+        "forms": [
+          "qualitative"
+        ]
+      },
+      "papers": 135,
+      "top_cells": [
+        "factual/method",
+        "factual/token-level",
+        "factual/theory",
+        "working/method"
+      ]
+    },
+    {
       "term": "experiment",
       "kind": "curated",
       "seed": true,
-      "df": 66,
+      "df": 133,
       "match": {
         "type": "text",
         "forms": [
           "experiment"
         ]
       },
-      "papers": 66,
+      "papers": 133,
       "top_cells": [
+        "working/method",
         "factual/token-level",
         "experiential/token-level",
-        "working/token-level",
         "factual/method"
       ]
     },
@@ -211,75 +211,113 @@
       "term": "case study",
       "kind": "curated",
       "seed": true,
-      "df": 52,
+      "df": 88,
       "match": {
         "type": "text",
         "forms": [
           "case study"
         ]
       },
-      "papers": 52,
+      "papers": 88,
       "top_cells": [
         "factual/token-level",
-        "experiential/token-level",
         "working/method",
-        "factual/method"
-      ]
-    },
-    {
-      "term": "reproducibility",
-      "kind": "curated",
-      "seed": true,
-      "df": 49,
-      "match": {
-        "type": "text",
-        "forms": [
-          "reproducibility"
-        ]
-      },
-      "papers": 49,
-      "top_cells": [
-        "factual/token-level",
-        "experiential/token-level",
         "factual/method",
-        "working/token-level"
+        "factual/theory"
       ]
     },
     {
       "term": "systematic review",
       "kind": "curated",
       "seed": true,
-      "df": 44,
+      "df": 72,
       "match": {
         "type": "text",
         "forms": [
           "systematic review"
         ]
       },
-      "papers": 44,
+      "papers": 72,
       "top_cells": [
         "working/token-level",
         "working/method",
         "factual/method",
-        "factual/token-level"
+        "experiential/theory"
+      ]
+    },
+    {
+      "term": "reproducibility",
+      "kind": "curated",
+      "seed": true,
+      "df": 63,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reproducibility"
+        ]
+      },
+      "papers": 63,
+      "top_cells": [
+        "factual/token-level",
+        "factual/method",
+        "experiential/token-level",
+        "working/method"
       ]
     },
     {
       "term": "literature review",
       "kind": "curated",
       "seed": true,
-      "df": 17,
+      "df": 33,
       "match": {
         "type": "text",
         "forms": [
           "literature review"
         ]
       },
-      "papers": 17,
+      "papers": 33,
       "top_cells": [
         "factual/method",
         "working/method",
+        "experiential/theory",
+        "experiential/method"
+      ]
+    },
+    {
+      "term": "interview",
+      "kind": "curated",
+      "seed": true,
+      "df": 17,
+      "match": {
+        "type": "text",
+        "forms": [
+          "interview"
+        ]
+      },
+      "papers": 17,
+      "top_cells": [
+        "factual/method",
+        "factual/theory",
+        "experiential/theory",
+        "experiential/token-level"
+      ]
+    },
+    {
+      "term": "research gap",
+      "kind": "curated",
+      "seed": true,
+      "df": 9,
+      "match": {
+        "type": "text",
+        "forms": [
+          "research gap"
+        ]
+      },
+      "papers": 9,
+      "top_cells": [
         "working/token-level",
+        "working/method",
+        "factual/method",
         "experiential/theory"
       ]
     },
@@ -299,39 +337,39 @@
       "papers": 8
     },
     {
-      "term": "interview",
+      "term": "mixed methods",
+      "kind": "curated",
+      "seed": true,
+      "df": 8,
+      "match": {
+        "type": "text",
+        "forms": [
+          "mixed methods"
+        ]
+      },
+      "papers": 8,
+      "top_cells": [
+        "factual/method",
+        "factual/theory",
+        "experiential/theory"
+      ]
+    },
+    {
+      "term": "open access",
       "kind": "curated",
       "seed": true,
       "df": 7,
       "match": {
         "type": "text",
         "forms": [
-          "interview"
+          "open access"
         ]
       },
       "papers": 7,
       "top_cells": [
+        "factual/token-level",
+        "factual/method",
         "factual/theory",
-        "factual/method",
-        "experiential/token-level",
-        "working/theory"
-      ]
-    },
-    {
-      "term": "research gap",
-      "kind": "curated",
-      "seed": true,
-      "df": 6,
-      "match": {
-        "type": "text",
-        "forms": [
-          "research gap"
-        ]
-      },
-      "papers": 6,
-      "top_cells": [
-        "working/token-level",
-        "factual/method",
         "working/method"
       ]
     },
@@ -339,51 +377,37 @@
       "term": "peer review",
       "kind": "curated",
       "seed": true,
-      "df": 4,
+      "df": 7,
       "match": {
         "type": "text",
         "forms": [
           "peer review"
         ]
       },
-      "papers": 4,
+      "papers": 7,
       "top_cells": [
         "factual/token-level",
-        "working/theory"
-      ]
-    },
-    {
-      "term": "mixed methods",
-      "kind": "curated",
-      "seed": true,
-      "df": 3,
-      "match": {
-        "type": "text",
-        "forms": [
-          "mixed methods"
-        ]
-      },
-      "papers": 3,
-      "top_cells": [
         "factual/method",
-        "factual/theory"
+        "working/theory",
+        "experiential/theory"
       ]
     },
     {
       "term": "triangulation",
       "kind": "curated",
       "seed": true,
-      "df": 3,
+      "df": 5,
       "match": {
         "type": "text",
         "forms": [
           "triangulation"
         ]
       },
-      "papers": 3,
+      "papers": 5,
       "top_cells": [
         "factual/method",
-        "factual/theory"
+        "factual/theory",
+        "working/method"
       ]
     },
     {
@@ -400,22 +424,6 @@
       "papers": 2,
       "top_cells": [
         "experiential/parametric",
-        "factual/token-level"
-      ]
-    },
-    {
-      "term": "open access",
-      "kind": "curated",
-      "seed": true,
-      "df": 2,
-      "match": {
-        "type": "text",
-        "forms": [
-          "open access"
-        ]
-      },
-      "papers": 2,
-      "top_cells": [
         "factual/token-level"
       ]
     },
