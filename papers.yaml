@@ -88119,14 +88119,6 @@ papers:
     has piqued the interest of the scientific community and the general pu
   doi: 10.1093/oso/9780199974467.003.0001
   venue: Cognitive and Working Memory Training
-- title: Are working memory models WEIRD? Testing models of working memory in a non-WEIRD
-    sample.
-  date: 2024-01
-  url: https://doi.org/10.37473/fic/10.1037/neu0000811
-  category: working
-  subcategory: mechanism
-  authors: []
-  doi: 10.37473/fic/10.1037/neu0000811
 - title: Neural working memory
   date: 2002-06
   url: https://doi.org/10.4324/9780203194157-16
@@ -121011,40 +121003,6 @@ papers:
     other baselines in balancing latency, reliability, and cost, and achieves up to
     a 19% improvement in slice availability ratio.
   venue: IEEE Network
-- title: 'ChainGuard: A Blockchain- and IoT-Augmented Framework for Real-Time Database
-    Integrity Assurance in Distributed Healthcare Information Systems'
-  date: 2026-03
-  url: https://doi.org/10.63646/datamind.2026.040102
-  category: working
-  subcategory: theory
-  authors:
-  - Liang Wei
-  - Fatima Al-Rashidi
-  - Ananya Krishnamurthy
-  abstract: The integrity of distributed healthcare databases is continuously threatened
-    by unauthorized modifications, hardware faults, software vulnerabilities, and
-    increasingly sophisticated cyberattacks. Traditional relational and NoSQL database
-    systems rely on centralized access-control mechanisms and periodic audit logs
-    that cannot provide cryptographic proof of unaltered history or real-time anomaly
-    detection. This paper presents ChainGuard, a novel middleware framework that integrates
-    Ethereum-based smart contracts, a network of IoT integrity-sensing nodes, and
-    an AI-powered anomaly classifier to provide end-to-end, tamper-evident integrity
-    assurance for distributed healthcare information systems. ChainGuard records SHA-256
-    hash digests of critical database state snapshots onto a permissioned Ethereum
-    ledger, while a constellation of lightweight IoT agents embedded at database server
-    nodes continuously monitors system-level indicators—I/O throughput, memory bus
-    activity, and cryptographic nonce validation—at ten-second intervals. Deviations
-    from baseline behavior trigger smart-contract-enforced quarantine procedures that
-    freeze suspect transactions and emit verifiable incident records onto the immutable
-    ledger. A Random Forest classifier trained on 12,000 synthetic database-event
-    logs achieves 96.4% accuracy in discriminating legitimate bulk insertions from
-    covert data-tampering attempts. Evaluation across three clinical deployment scenarios
-    demonstrates that ChainGuard reduces mean time to tamper detection from 47 minutes
-    (baseline centralized audit) to 38 seconds, with a false-positive rate of 1.7%.
-    The framework is deployable on existing PostgreSQL and MongoDB infrastructure
-    without schema modification, making it an immediately practicable path toward
-    regulatory compliance with HIPAA, GDPR, and the forthcoming NIS2 Directive.
-  venue: DATAMIND
 - title: 'Dynamic branch expansion: A hypergraph-augmented adaptive continual learning
     framework for machine health prognosis under time-varying conditions'
   date: 2026-05
@@ -123727,35 +123685,6 @@ papers:
   - Shaofan Wang
   abstract: ''
   venue: Displays
-- title: Knowledge-Augmented Deep Learning Framework for Chinese Literary Text Analysis
-    Using ARO-HA-BiLSTM
-  date: 2026-05
-  url: https://doi.org/10.31449/inf.v50i13.13505
-  category: working
-  subcategory: method
-  authors:
-  - Li Zhang
-  abstract: Chinese literary texts spanning classical, modern, and contemporary periods
-    present significant challenges for computational interpretation due to their deep
-    semantic structures, metaphorical richness, and historical context. Traditional
-    NLP approaches often fail to capture hierarchical narrative dependencies and culturally
-    embedded meanings. This study proposes a Knowledge-Augmented Literary Text Analysis
-    Framework that integrates ChatGLM-based knowledge-enriched embeddings with a Hierarchical
-    Attention-based Bidirectional Long Short-Term Memory (HA-Bi-LSTM) network, optimized
-    using the Adaptive Remora Optimization (ARO) algorithm. A corpus of 2000 Chinese
-    literary texts was pre-processed using tokenization, rule-guided normalization,
-    and structure-aware segmentation to preserve linguistic and contextual integrity.
-    The proposed ARO-HA-BiLSTM model achieved an accuracy of 0.9724, precision of
-    0.9851, recall of 0.9718, and F1-score of 0.9734, outperforming existing models
-    such as EL-GCN (accuracy 0.8855) and TextCNN (accuracy 0.8613). Ablation analysis
-    further confirms the effectiveness of knowledge-enriched embeddings and adaptive
-    hyperparameter optimization in enhancing semantic and thematic classification.
-    The results demonstrate that integrating knowledge- augmented Chinese large language
-    models with hierarchical deep learning significantly improves cross- era literary
-    interpretation. This framework provides a robust computational methodology for
-    digital humanities research and supports scalable, machine-assisted analysis of
-    culturally rich literary corpora.
-  venue: Informatica
 - title: A spatiotemporal settlement estimation framework integrating augmented clustering
     and state-space modeling during subway deep foundation excavation
   date: 2026-03
@@ -146224,7 +146153,7 @@ papers:
 - title: 'Optimization in large language models: innovative approaches leveraging
     knowledge distillation and pruning'
   date: 2026-08
-  url: https://amsdottorato.unibo.it/view/dottorati/DOT536/>,
+  url: https://amsdottorato.unibo.it/view/dottorati/DOT536/
   category: factual
   subcategory: method
   authors:
@@ -152151,38 +152080,6 @@ papers:
   - Jing Hu
   abstract: ''
   venue: Expert Systems with Applications
-- title: '258 - Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic
-    Workspaces'
-  date: 2026-01
-  url: https://doi.org/10.48448/7h2n-qh04
-  category: factual
-  subcategory: method
-  authors:
-  - Association for Artificial Intelligence 2026
-  - David Chong
-  - Chenda Duan
-  abstract: 'Large Language Models (LLMs) face fundamental challenges in long-context
-    reasoning: many documents exceed their finite context windows, while performance
-    on texts that do fit degrades with sequence length, necessitating their augmentation
-    with external memory frameworks. Current solutions, which have evolved from retrieval
-    using semantic embeddings to more sophisticated structured knowledge graphs representations
-    for improved sense-making and associativity, are tailored for fact-based retrieval
-    and fail to build the space-time-anchored narrative representations required for
-    tracking entities through episodic events. To bridge this gap, we propose the
-    Generative Semantic Workspace (GSW), a neuro-inspired generative memory framework
-    that builds structured, interpretable representations of evolving situations,
-    enabling LLMs to reason over evolving roles, actions, and spatiotemporal contexts.
-    Our framework comprises an Operator, which maps incoming observations to intermediate
-    semantic structures, and a Reconciler, which integrates these into a persistent
-    workspace that enforces temporal, spatial, and logical coherence. On the Episodic
-    Memory Benchmark (EpBench) comprising corpora ranging from 100k to 1M tokens in
-    length, GSW outperforms existing RAG based baselines by up to 20%. Furthermore,
-    GSW is highly efficient, reducing query-time context tokens by 51% compared to
-    the next most token-efficient baseline, reducing inference time costs considerably.
-    More broadly, GSW offers a concrete blueprint for endowing LLMs with human-like
-    episodic memory, paving the way for more capable agents that can reason over long
-    horizons.'
-  venue: Underline Science Inc.
 - title: 'The Markdown Fallacy: Empirical Evidence That Format Is the Wrong Debate
     for LLM Memory Architecture'
   date: 2026-03
@@ -178145,37 +178042,6 @@ papers:
     and knowledge sharing have a positive impact on the performance of PT Pertamina
     Patra Niaga employees
   venue: ''
-- title: “Level of knowledge about oral health hygiene of parents of children under
-    5 years of age in the Manú parish, Saraguro canton, province of Loja”
-  date: 2024-04
-  url: https://dx.doi.org/10.22533/at.ed.1594382417049
-  category: factual
-  subcategory: application
-  authors:
-  - Gahona Carrión Diana
-  - Piedra Burneo Claudia
-  - Gonzalez Eras Susana
-  abstract: 'In the parish of Manú there is a high prevalence rate of oral pathologies
-    in children and pregnant women, so it is essential to act through a set of actions
-    to reduce their prevalence.The objective of this study was to evaluate the level
-    of knowledge about oral hygiene of parents of infants under 5 years of age and
-    pregnant women in this parish, before and after the application of an oral health
-    program, aimed at promotion and prevention.The study carried out is qualitative,
-    transversal, descriptive and comparative.Two validated surveys were applied and
-    the data were processed in the SPSS v.28.0 statistical program.Obtaining the following
-    results: prior to the application of the education program there was 100% lack
-    of knowledge, and after it an increase in the level of knowledge was evident,
-    with a total average of 96.6% correct answers.According to the Kolmogorov Smirnov
-    normality test, it indicates that the results are not parametric, there are significant
-    differences between the results of the pre-and post-Education surveys.The non-parametric
-    Wilconson test shows a significant change, resulting in P value = 0.000000 being
-    less than 0.05.Furthermore, McNemar''s non-parametric test indicates that the
-    treatment applied to improve the level of knowledge worked, the P value = 0.000000
-    is less than 0.05.Concluding that the oral hygiene education program improved
-    parents'' knowledge, allowing the transmission of a culture of oral health promotion
-    and prevention that contributed to improving the quality of life of this intervention
-    group.'
-  venue: International Journal of Health Science
 - title: 'Italian Hygiene and Preventive Medicine Medical Doctor Residents’ interest
     in a Preventive Medicine Physician: a national survey'
   date: 2024-02
@@ -205398,126 +205264,6 @@ papers:
     cheap and highly precise when estimating SOH under fixed current and dynamic current
     profiles.
   venue: ''
-- title: Pозробка письмового асистента за допомогою сучасних нейромережевих підходів
-    для умовної генерації тексту
-  date: 2024-01
-  url: https://ir.library.knu.ua/handle/15071834/1824
-  category: working
-  subcategory: method
-  authors:
-  - Скуржанський Олександр Григорович
-  abstract: 'The work is devoted to the study of building neural networks for conditional
-    text generation for the development of efficient writing assistant. In today''s
-    world, where the flow of information is gaining exponential momentum, there is
-    an urgent need for innovative technologies to effectively process and interpret
-    these data sets. They include large and heterogeneous sets of information: texts,
-    videos, audio, images, and tabular data. The use of traditional methods to analyze
-    such broad and heterogeneous information is becoming inefficient, which necessitates
-    the creation of innovations in the field of artificial intelligence to effectively
-    address these challenges. In this context, one of the most promising and influential
-    areas of artificial intelligence is natural language processing (NLP). The importance
-    of this field today goes far beyond academic research, penetrating most areas
-    of modern digital life: from daily communication to automation of complex business
-    processes. The emergence of large language models such as ChatGPT, which, despite
-    working exclusively with textual data, has made a breakthrough in bringing artificial
-    intelligence capabilities closer to the human level. Their impressive ability
-    to generate contextually relevant text has opened the door to more complex applications.
-    The development of NLP-based writing assistants is particularly relevant, as these
-    systems play an important role in improving the productivity and quality of daily
-    communication. In a society immersed in a continuous flow of information through
-    numerous platforms, the ability to express thoughts quickly and clearly is key.
-    The market for writing assistants, with its significant economic potential, has
-    demonstrated impressive growth, which is projected to continue its upward trend
-    in the coming years. Recent estimates of the market capitalization reach tens
-    of billions of dollars. Beyond the scope of textual data, the realm of natural
-    language processing is rapidly expanding into multimodal AI, which integrates
-    text, image, and audio processing to create more comprehensive and intuitive systems.
-    This integration reflects the way humans communicate and process information,
-    involving various sensory inputs. With the advancement of multimodal AI, systems
-    can now interpret visual cues alongside textual information, enhancing understanding
-    and interaction. This capability is particularly transformative for industries
-    such as healthcare, where AI can analyze medical images in conjunction with clinical
-    notes to aid in diagnostics, and in customer service, where chatbots can understand
-    and respond to visual and verbal cues, creating a more human-like and satisfying
-    user experience. The integration of these complex functionalities is not only
-    a technological triumph but also a step towards more natural and efficient human-computer
-    interaction, with applications that were previously unattainable in the field
-    of artificial intelligence. In light of these challenges and opportunities, developing
-    your own writing assistant as part of your dissertation is becoming a relevant
-    and promising area in the field of NLP. With the expansion of digital communication,
-    there is a growing need for automated systems that would not only speed up but
-    also increase the accuracy of communication processes. Such an assistant has the
-    potential to become an indispensable tool in everyday life, contributing to professional
-    efficiency and personal growth. This work aims to develop a universal writing
-    assistant that embodies advanced solutions in the field of neural networks to
-    solve a set of tasks for automatically correcting grammatical and spelling errors,
-    paraphrasing text, and simplifying it. By integrating advanced artificial intelligence
-    and machine learning technologies, the tool aims to provide a more efficient and
-    convenient way to improve user messages, which significantly increases the productivity
-    and quality of interpersonal communication. The paper analyzes existing solutions
-    for writing assistant tasks. The principle of operation of the leading practices
-    for solving the above-mentioned tasks of conditional text generation is considered
-    in detail. The common features of the approaches with the method of building a
-    universal solution for solving a combination of tasks are analyzed. The main disadvantage
-    of existing methods is their specialization in specific tasks, which makes it
-    difficult to transfer the acquired practices from one task to another. The article
-    analyzes the methods of text editing based on the use of different types of neural
-    networks for the semantic representation of text elements at the sentence level.
-    The expediency of the transformer architecture for designing a neural network
-    model is noted, while convolutional and recurrent neural networks are considered
-    as alternative solutions. Based on the comparative analysis of methods, the effectiveness
-    of using neural networks to solve the tasks of a writing assistant is shown. In
-    accordance with the goal and objectives of the thesis, the architecture was built
-    and the neural network was trained to perform the tasks of a writing assistant
-    with high quality and efficiency. Below are the main results and scientific novelty.
-    As a result of a comparative analysis of existing leading approaches to solving
-    the tasks of correcting grammatical and spelling errors, simplifying text and
-    paraphrasing, the expediency of • use of a context-aware transformer-type architecture
-    in an encoder-decoder configuration with a large number of attention layers pre-trained
-    on universal tasks of noisy text recovery or generation; • implementation of multi-stage
-    training from the most frequent and lowest quality data to the highest quality
-    data; filtering of training data using reward models. For the first time, a method
-    of combined evaluation of the quality of a writing assistant''s work is proposed,
-    which summarizes the key indicators of efficiency and adequacy of text corrections.
-    A study of existing leading works on the most representative test samples for
-    the relevant tasks is carried out. The analysis of the results shows that not
-    all metrics correlate with human evaluation of the quality of the models'' performance
-    and that it is necessary to apply normalization factors for a balanced combination
-    of tasks. In addition, the literature analysis revealed that some tasks are more
-    important for a writing assistant than others. For example, the task of correcting
-    grammatical and spelling errors is the most important according to users'' expectations.
-    A new training dataset was created from scratch for the tasks of grammatical and
-    spelling error correction, text simplification, and paraphrasing. A state-of-the-art
-    approach using large-scale language models was applied. Using carefully selected
-    textual prompts, rewrites are generated by the advanced ChatGPT model using existing
-    datasets as input sentences; in addition, the generated rewrites are automatically
-    evaluated in terms of rewrite quality by another large language model LLaMA-2
-    to improve the quality of the final dataset. Furthermore, it is shown that the
-    generated data significantly improves the quality of individual and universal
-    models on the test sets. A large number of experiments have been conducted to
-    build an optimal configuration for training neural networks capable of performing
-    individual tasks of a writing assistant: 1. an individual baseline neural network
-    was trained for each of the above tasks; 2. a comparative analysis of the obtained
-    models in relation to the existing leading approaches; 3. the influence of training
-    parameters (learning rate, number of steps, training optimization, schedule, and
-    batch size) was evaluated; 4. different types of neural networks and architectures
-    and their impact on the final quality of the model are considered; 5. different
-    existing datasets and their combination during training, multi-stage approach
-    are used; 6. analyzed various pre-trained models and conducted our own pre-training
-    attempts; 7. the impact of using a dataset generated by large language models
-    was evaluated. Experiments were conducted to combine tasks of a writing assistant
-    for a single universal meta-model. Various approaches were used: training specialized
-    tokens of vector representations, dividing the layers of the neural network into
-    common (reused between tasks) and individual (for individual tasks), and using
-    the architecture of adapters. The resulting universal systems are analyzed using
-    the proposed combined metric. The effectiveness of the approaches in terms of
-    the number of parameters per task and quality unit is calculated. Finally, the
-    resulting model is optimized to speed up its operation, avoiding a significant
-    loss of quality on the tasks of a writing assistant and the combined metric. Various
-    strategies are considered, such as quantizing weights into lower-precision formats,
-    distributed inference, efficient memory management, and knowledge distillation.
-    We also analyze software libraries for accelerating text generation such as ONNX.'
-  venue: eKNUTSHIR
 - title: 'Ep. 490: The Day the Walls Fell: Erasing Jerusalem''s City Line'
   date: 2026-02
   url: https://myweirdprompts.com/episode/jerusalem-city-line-demolition
@@ -229322,28 +229068,6 @@ papers:
     underscore its robustness, making it a reliable solution for rolling bearing fault
     diagnosis in rotor motors, particularly for dynamic UAV applications.
   venue: Mathematics
-- title: Short-term Electricity Load Forecasting with CEEMDAN-BiGRU-TCN Model based
-    on Dual Attention Mechanism
-  date: 2024-03
-  url: https://doi.org/10.53469/jrse.2024.06(03).14
-  category: working
-  subcategory: method
-  authors: []
-  abstract: A CEEMDAN-BiGRU-TCN model based on the dual-attention mechanism is proposed
-    for the short-term load forecasting problem of power systems. The model combines
-    the advantages of adaptive noise Complete Ensemble Empirical Mode Decomposition
-    (CEEMDAN), Bi-directional Gated Recurrent Unit (BiGRU) and Temporal Convolutional
-    Network (Temporal Convolutional Network (TCN). The CEEMDAN algorithm effectively
-    separates multi-scale features in power load data and reduces non-smoothness,
-    while BiGRU and TCN process long-term and local memory information respectively,
-    and jointly capture complex dynamic changes. The self-attention mechanism and
-    channel-attention mechanism further strengthen the model's attention to key input
-    information and improve the prediction accuracy. Experiments demonstrate that
-    the proposed CEEMDAN-BiGRU-TCN model exhibits excellent forecasting performance
-    when simulating actual load data changes, and outperforms traditional forecasting
-    techniques in several evaluation indexes, providing accurate data support for
-    power dispatch decision making.
-  venue: ''
 - title: Research on GNSS ionospheric forecasting in China based on the BiLSTM-GRU-Attention
     model
   date: 2025-09
@@ -236467,34 +236191,6 @@ papers:
     adulthood and highlight sex differences within. Our results provide a foundation
     for understanding functionally-based gradients between these two regions.'
   venue: bioRxiv (Cold Spring Harbor Laboratory)
-- title: 'A Systematic Literature Review: A Comparison Of Available Approaches In
-    Chatbot And Dialogue Manager Development'
-  date: 2023-11
-  url: https://doi.org/10.46729/ijstm.v4i6.983
-  category: experiential
-  subcategory: method
-  authors:
-  - Arya Jayavardhana
-  - Samuel Ady Sanjaya
-  abstract: The present study reviewed a number of articles chosen from a screening
-    and selecting process on the various different methods that can be used in the
-    context of chatbot development and dialogue managers. Since chatbots have seen
-    a significant rise in popularity and have played an important role in helping
-    humans complete daily tasks, this systematic literature review (SLR) aims to act
-    as a guidance for future research. During the process of analyzing and extracting
-    data from the 13 articles chosen, it has been identified that Artificial Neural
-    Network (ANN), Ensemble Learning, Recurrent Neural Network (RNN), and Long-Short
-    Term Memory (LSTM) is among some of the most popular algorithms used for developing
-    a chatbot. Where all of these algorithms are suitable for each unique use case
-    where it offers different advantages when implemented. Other than that, dialogue
-    managers lean more towards the field of Deep Reinforcement Learning (DRL), where
-    Deep Q-Networks (DQN) and its variants such as Double Deep-Q Networks (DDQN) and
-    DDQN with Personalized Experience Replay (DDQN-PER) is commonly used. All these
-    variants have different averages on episodic reward and dialogue length, along
-    with different training time needed which indicates the computational power needed.
-    This SLR aims to identify the methods that can be used and identify the best proven
-    method to be applied in future research.
-  venue: International Journal Of Science Technology & Management
 - title: Neurocomputational underpinnings of suboptimal beliefs in recurrent neural
     network-based agents
   date: 2025-03
@@ -241542,37 +241238,6 @@ papers:
     speed and high decision-making accuracy in environments where deceptive jamming
     and suppressive jamming coexist.
   venue: Electronics
-- title: '123 - GIER: Addressing Class Imbalance in GNNs Through Experience Replay'
-  date: 2026-01
-  url: https://doi.org/10.48448/s5t0-ew37
-  category: experiential
-  subcategory: method
-  authors:
-  - Association for Artificial Intelligence 2026
-  - Tingxuan Chen
-  - Mengni Chen
-  abstract: 'The prevalent class imbalance in real-world graphs significantly affects
-    the performance of Graph Neural Networks (GNNs). Existing methods for analyzing
-    graph imbalance ignore the influence of minority nodes during the dynamic model
-    training process, resulting in performance limitations. In this paper, we focus
-    on minority class information during model training, identifying and defining
-    the minority class forgetting phenomenon that exists in graph imbalanced method
-    training processes. To address this issue, we propose Graph Imbalance Experience
-    Replay(GIER) framework. On one hand, the method enhances the model''s ability
-    to mine minority node information in historical data, thereby achieving feature
-    completion for minority class nodes. On the other hand, the proposed short-term
-    confidence mechanism allows the model to adaptively calibrate the topological
-    relationships in high-confidence nodes, thereby mitigating the model''s tendency
-    to propagate erroneous information about minority classes during training. GIER
-    is a unified framework consisting of two synergistic components: Long-term Subgraph
-    Memory (LSM) constructs multi-period feature-representative subgraphs to address
-    distribution imbalance, and Short-term Confidence Calibration (SCC) dynamically
-    reconstructs graph topology through degree-aware node selection and confidence-based
-    filtering to address topological imbalance. The extensive experimental results
-    demonstrate that GIER effectively improves the classification performance of GNNs
-    on imbalanced graphs, achieving up to a 3.44\% improvement in BAcc over the state-of-the-art,
-    and is particularly effective in extreme scenarios with very small minority classes.'
-  venue: Underline Science Inc.
 - title: Green Computation Offloading With DRL in Multi‐Access Edge Computing
   date: 2024-11
   url: https://doi.org/10.1002/ett.70003
@@ -244722,7 +244387,7 @@ papers:
 - title: 'Chinese tourists in Italy: design for extending Chinese tourists’ possible
     experience in cultural activities'
   date: 2025-01
-  url: https://amsdottorato.unibo.it/view/dottorati/DOT563/>,
+  url: https://amsdottorato.unibo.it/view/dottorati/DOT563/
   category: experiential
   subcategory: theory
   authors:

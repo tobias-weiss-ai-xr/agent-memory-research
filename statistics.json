@@ -1,39 +1,38 @@
 {
   "metadata": {
-    "total_papers": 5218,
+    "total_papers": 8753,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 4,
-      "subcategories": 14,
-      "total_cells": 56,
-      "filled_cells": 36,
-      "saturation": 64.3,
-      "empty_cells": 20
+      "subcategories": 13,
+      "total_cells": 52,
+      "filled_cells": 37,
+      "saturation": 71.2,
+      "empty_cells": 15
     },
     "analysis_window": {
       "last_12m_start": "2025-08"
     }
   },
   "by_category": {
-    "": 8,
-    "experiential": 1130,
-    "factual": 2409,
-    "working": 1671
+    "experiential": 1728,
+    "factual": 3621,
+    "method": 8,
+    "working": 3396
   },
   "by_subcategory": {
-    "": 8,
-    "application": 71,
-    "development": 64,
-    "evaluation": 68,
-    "experiment": 11,
+    "application": 198,
+    "development": 93,
+    "evaluation": 130,
+    "experiment": 34,
     "latent": 162,
-    "mechanism": 24,
-    "method": 824,
+    "mechanism": 23,
+    "method": 2842,
     "parametric": 255,
     "review": 19,
-    "survey": 27,
-    "systems": 74,
-    "theory": 548,
+    "survey": 78,
+    "systems": 207,
+    "theory": 1649,
     "token-level": 3063
   },
   "by_year": {
@@ -63,128 +62,129 @@
     "2020": 12,
     "2021": 46,
     "2022": 128,
-    "2023": 202,
-    "2024": 393,
-    "2025": 966,
-    "2026": 3411
+    "2023": 564,
+    "2024": 1795,
+    "2025": 2342,
+    "2026": 3818
   },
   "by_cell": {
     "factual/token-level": 1527,
+    "working/method": 1320,
+    "factual/method": 1140,
+    "working/theory": 803,
     "working/token-level": 785,
     "experiential/token-level": 751,
-    "factual/method": 394,
-    "working/method": 325,
-    "working/theory": 267,
-    "factual/theory": 165,
+    "factual/theory": 467,
+    "experiential/theory": 379,
+    "experiential/method": 374,
     "factual/parametric": 145,
-    "experiential/theory": 116,
-    "experiential/method": 105,
+    "working/systems": 122,
+    "working/application": 89,
+    "factual/application": 81,
     "working/latent": 80,
     "experiential/parametric": 70,
-    "working/systems": 49,
+    "working/evaluation": 67,
+    "factual/systems": 57,
+    "factual/survey": 49,
     "factual/latent": 48,
-    "working/evaluation": 42,
+    "working/development": 48,
+    "factual/evaluation": 46,
     "working/parametric": 40,
-    "working/development": 35,
+    "factual/development": 36,
     "experiential/latent": 34,
-    "factual/application": 29,
-    "working/application": 26,
-    "factual/development": 25,
-    "factual/evaluation": 20,
+    "experiential/application": 28,
+    "experiential/systems": 28,
     "factual/review": 19,
-    "factual/survey": 18,
-    "factual/systems": 17,
-    "experiential/application": 16,
+    "working/experiment": 18,
+    "experiential/evaluation": 17,
+    "working/survey": 16,
     "experiential/mechanism": 15,
-    "working/mechanism": 9,
-    "working/survey": 9,
-    "/": 8,
-    "experiential/systems": 8,
-    "experiential/evaluation": 6,
-    "experiential/experiment": 5,
-    "working/experiment": 4,
-    "experiential/development": 4,
-    "factual/experiment": 2
+    "experiential/survey": 13,
+    "experiential/experiment": 10,
+    "experiential/development": 9,
+    "working/mechanism": 8,
+    "method/method": 8,
+    "factual/experiment": 6
   },
   "emerging_themes_12m": [
     {
-      "keyword": "survey",
-      "papers": 397
+      "keyword": "factual",
+      "papers": 166
     },
     {
-      "keyword": "parametric",
-      "papers": 283
+      "keyword": "conversational",
+      "papers": 266
     },
     {
-      "keyword": "recurrent",
-      "papers": 233
+      "keyword": "agent",
+      "papers": 2549
+    },
+    {
+      "keyword": "experiential",
+      "papers": 47
+    },
+    {
+      "keyword": "retrieval",
+      "papers": 1344
     },
     {
       "keyword": "architecture",
-      "papers": 1022
+      "papers": 1273
     },
     {
-      "keyword": "attention",
-      "papers": 488
-    },
-    {
-      "keyword": "network",
-      "papers": 719
+      "keyword": "long-term",
+      "papers": 681
     },
     {
       "keyword": "graph",
-      "papers": 685
+      "papers": 949
     },
     {
-      "keyword": "transformer",
-      "papers": 379
+      "keyword": "episodic",
+      "papers": 476
     },
     {
-      "keyword": "neural",
-      "papers": 477
-    },
-    {
-      "keyword": "neuroscience",
-      "papers": 69
+      "keyword": "language",
+      "papers": 1792
     }
   ],
   "momentum": [
     {
-      "id": "working",
-      "name": "Working",
-      "total": 1671,
-      "recent": 1229,
-      "prior": 173,
-      "growth_pct": 610.4,
-      "recent_share": 0.735,
-      "papers_per_month": 102.4,
-      "score": 683.9
-    },
-    {
       "id": "factual",
       "name": "Factual",
-      "total": 2409,
-      "recent": 1830,
-      "prior": 351,
-      "growth_pct": 421.4,
-      "recent_share": 0.76,
-      "papers_per_month": 152.5,
-      "score": 497.4
+      "total": 3621,
+      "recent": 2255,
+      "prior": 801,
+      "growth_pct": 181.5,
+      "recent_share": 0.623,
+      "papers_per_month": 187.9,
+      "score": 243.8
     },
     {
       "id": "experiential",
       "name": "Experiential",
-      "total": 1130,
-      "recent": 835,
-      "prior": 164,
-      "growth_pct": 409.1,
-      "recent_share": 0.739,
-      "papers_per_month": 69.6,
-      "score": 483.0
+      "total": 1728,
+      "recent": 1054,
+      "prior": 380,
+      "growth_pct": 177.4,
+      "recent_share": 0.61,
+      "papers_per_month": 87.8,
+      "score": 238.4
     },
     {
-      "id": "",
-      "name": "",
+      "id": "working",
+      "name": "Working",
+      "total": 3396,
+      "recent": 1514,
+      "prior": 894,
+      "growth_pct": 69.4,
+      "recent_share": 0.446,
+      "papers_per_month": 126.2,
+      "score": 114.0
+    },
+    {
+      "id": "method",
+      "name": "Method",
       "total": 8,
       "recent": 8,
       "prior": 0,
@@ -195,9 +195,6 @@
     }
   ],
   "category_trajectory": {
-    "": {
-      "2026": 8
-    },
     "experiential": {
       "2004": 1,
       "2008": 1,
@@ -205,10 +202,10 @@
       "2020": 3,
       "2021": 6,
       "2022": 17,
-      "2023": 53,
-      "2024": 102,
-      "2025": 246,
-      "2026": 696
+      "2023": 104,
+      "2024": 279,
+      "2025": 515,
+      "2026": 799
     },
     "factual": {
       "1961": 1,
@@ -229,10 +226,13 @@
       "2020": 3,
       "2021": 5,
       "2022": 22,
-      "2023": 82,
-      "2024": 184,
-      "2025": 530,
-      "2026": 1557
+      "2023": 172,
+      "2024": 590,
+      "2025": 1039,
+      "2026": 1770
+    },
+    "method": {
+      "2026": 8
     },
     "working": {
       "1998": 2,
@@ -249,289 +249,277 @@
       "2020": 6,
       "2021": 35,
       "2022": 89,
-      "2023": 67,
-      "2024": 107,
-      "2025": 190,
-      "2026": 1150
+      "2023": 288,
+      "2024": 926,
+      "2025": 788,
+      "2026": 1241
     }
   },
   "keyword_bursts": [
     {
-      "keyword": "survey",
-      "recent": 397,
-      "total": 447,
-      "burst_score": 1.19,
-      "recent_share": 0.1017
-    },
-    {
-      "keyword": "parametric",
-      "recent": 283,
-      "total": 320,
-      "burst_score": 1.18,
-      "recent_share": 0.0725
-    },
-    {
-      "keyword": "recurrent",
-      "recent": 233,
-      "total": 265,
-      "burst_score": 1.18,
-      "recent_share": 0.0597
-    },
-    {
-      "keyword": "architecture",
-      "recent": 1022,
-      "total": 1192,
-      "burst_score": 1.15,
-      "recent_share": 0.2619
-    },
-    {
-      "keyword": "attention",
-      "recent": 488,
-      "total": 567,
-      "burst_score": 1.15,
-      "recent_share": 0.1251
-    },
-    {
-      "keyword": "network",
-      "recent": 719,
-      "total": 851,
-      "burst_score": 1.13,
-      "recent_share": 0.1843
-    },
-    {
-      "keyword": "graph",
-      "recent": 685,
-      "total": 813,
-      "burst_score": 1.13,
-      "recent_share": 0.1756
-    },
-    {
-      "keyword": "transformer",
-      "recent": 379,
-      "total": 449,
-      "burst_score": 1.13,
-      "recent_share": 0.0971
-    },
-    {
-      "keyword": "neural",
-      "recent": 477,
-      "total": 574,
-      "burst_score": 1.11,
-      "recent_share": 0.1222
-    },
-    {
-      "keyword": "neuroscience",
-      "recent": 69,
-      "total": 85,
-      "burst_score": 1.09,
-      "recent_share": 0.0177
-    },
-    {
-      "keyword": "retrieval",
-      "recent": 1133,
-      "total": 1405,
-      "burst_score": 1.08,
-      "recent_share": 0.2904
+      "keyword": "factual",
+      "recent": 166,
+      "total": 220,
+      "burst_score": 1.37,
+      "recent_share": 0.0344
     },
     {
       "keyword": "conversational",
-      "recent": 232,
-      "total": 291,
-      "burst_score": 1.07,
-      "recent_share": 0.0595
+      "recent": 266,
+      "total": 354,
+      "burst_score": 1.36,
+      "recent_share": 0.0551
     },
     {
-      "keyword": "replay",
-      "recent": 179,
-      "total": 223,
-      "burst_score": 1.07,
-      "recent_share": 0.0459
+      "keyword": "agent",
+      "recent": 2549,
+      "total": 3413,
+      "burst_score": 1.35,
+      "recent_share": 0.5276
+    },
+    {
+      "keyword": "experiential",
+      "recent": 47,
+      "total": 65,
+      "burst_score": 1.31,
+      "recent_share": 0.0097
+    },
+    {
+      "keyword": "retrieval",
+      "recent": 1344,
+      "total": 1867,
+      "burst_score": 1.3,
+      "recent_share": 0.2782
+    },
+    {
+      "keyword": "architecture",
+      "recent": 1273,
+      "total": 1803,
+      "burst_score": 1.28,
+      "recent_share": 0.2635
     },
     {
       "keyword": "long-term",
-      "recent": 571,
-      "total": 719,
-      "burst_score": 1.06,
-      "recent_share": 0.1463
+      "recent": 681,
+      "total": 1000,
+      "burst_score": 1.23,
+      "recent_share": 0.141
+    },
+    {
+      "keyword": "graph",
+      "recent": 949,
+      "total": 1426,
+      "burst_score": 1.21,
+      "recent_share": 0.1964
+    },
+    {
+      "keyword": "episodic",
+      "recent": 476,
+      "total": 773,
+      "burst_score": 1.12,
+      "recent_share": 0.0985
+    },
+    {
+      "keyword": "language",
+      "recent": 1792,
+      "total": 2923,
+      "burst_score": 1.11,
+      "recent_share": 0.3709
+    },
+    {
+      "keyword": "survey",
+      "recent": 543,
+      "total": 885,
+      "burst_score": 1.11,
+      "recent_share": 0.1124
+    },
+    {
+      "keyword": "transformer",
+      "recent": 493,
+      "total": 827,
+      "burst_score": 1.08,
+      "recent_share": 0.102
+    },
+    {
+      "keyword": "augmented",
+      "recent": 1039,
+      "total": 1752,
+      "burst_score": 1.07,
+      "recent_share": 0.2151
     },
     {
       "keyword": "experience",
-      "recent": 588,
-      "total": 748,
+      "recent": 750,
+      "total": 1272,
+      "burst_score": 1.07,
+      "recent_share": 0.1552
+    },
+    {
+      "keyword": "parametric",
+      "recent": 420,
+      "total": 725,
       "burst_score": 1.05,
-      "recent_share": 0.1507
+      "recent_share": 0.0869
     }
   ],
   "source_breakdown": {
-    "arxiv": 3136,
-    "doi": 1828,
-    "other": 254
+    "arxiv": 3411,
+    "doi": 4985,
+    "other": 357
   },
   "venues": [
     {
-      "name": "Zenodo (CERN European Organization for Nuclear Research)",
-      "papers": 316
+      "name": "arXiv (Cornell University)",
+      "papers": 498
     },
     {
-      "name": "arXiv (Cornell University)",
-      "papers": 257
+      "name": "Zenodo (CERN European Organization for Nuclear Research)",
+      "papers": 412
     },
     {
       "name": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "papers": 40
+      "papers": 94
+    },
+    {
+      "name": "SSRN Electronic Journal",
+      "papers": 82
+    },
+    {
+      "name": "Scientific Reports",
+      "papers": 82
+    },
+    {
+      "name": "Lecture notes in computer science",
+      "papers": 66
     },
     {
       "name": "Open MIND",
-      "papers": 39
+      "papers": 57
+    },
+    {
+      "name": "Research Square",
+      "papers": 50
+    },
+    {
+      "name": "IEEE Access",
+      "papers": 50
+    },
+    {
+      "name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "papers": 44
+    },
+    {
+      "name": "Expert Systems with Applications",
+      "papers": 43
+    },
+    {
+      "name": "Sensors",
+      "papers": 34
+    },
+    {
+      "name": "Preprints.org",
+      "papers": 33
     },
     {
       "name": "CoRR",
       "papers": 31
     },
     {
-      "name": "Scientific Reports",
-      "papers": 22
-    },
-    {
-      "name": "Research Square",
-      "papers": 21
-    },
-    {
-      "name": "Underline Science Inc.",
-      "papers": 19
-    },
-    {
-      "name": "Proceedings of the AAAI Conference on Artificial Intelligence",
-      "papers": 16
-    },
-    {
-      "name": "Preprints.org",
-      "papers": 16
-    },
-    {
-      "name": "Lecture notes in computer science",
-      "papers": 16
-    },
-    {
-      "name": "Neural Networks",
-      "papers": 15
-    },
-    {
-      "name": "Neurocomputing",
-      "papers": 14
-    },
-    {
-      "name": "Figshare",
-      "papers": 13
-    },
-    {
-      "name": "MED",
-      "papers": 10
+      "name": "Engineering Applications of Artificial Intelligence",
+      "papers": 30
     }
   ],
   "gaps": {
     "thinnest_cells": [
       {
         "cell": "factual/experiment",
-        "papers": 2
-      },
-      {
-        "cell": "working/experiment",
-        "papers": 4
-      },
-      {
-        "cell": "experiential/development",
-        "papers": 4
-      },
-      {
-        "cell": "experiential/experiment",
-        "papers": 5
-      },
-      {
-        "cell": "experiential/evaluation",
         "papers": 6
       },
       {
-        "cell": "/",
-        "papers": 8
-      },
-      {
-        "cell": "experiential/systems",
-        "papers": 8
-      },
-      {
         "cell": "working/mechanism",
+        "papers": 8
+      },
+      {
+        "cell": "method/method",
+        "papers": 8
+      },
+      {
+        "cell": "experiential/development",
         "papers": 9
       },
       {
-        "cell": "working/survey",
-        "papers": 9
+        "cell": "experiential/experiment",
+        "papers": 10
+      },
+      {
+        "cell": "experiential/survey",
+        "papers": 13
       },
       {
         "cell": "experiential/mechanism",
         "papers": 15
+      },
+      {
+        "cell": "working/survey",
+        "papers": 16
+      },
+      {
+        "cell": "experiential/evaluation",
+        "papers": 17
+      },
+      {
+        "cell": "working/experiment",
+        "papers": 18
       }
     ],
     "white_space": [
       {
-        "cell": "factual/evaluation",
-        "total": 20,
-        "recent": 20,
-        "recent_share": 1.0
-      },
-      {
-        "cell": "factual/survey",
-        "total": 18,
-        "recent": 18,
-        "recent_share": 1.0
-      },
-      {
-        "cell": "factual/systems",
-        "total": 17,
-        "recent": 17,
-        "recent_share": 1.0
-      },
-      {
-        "cell": "working/survey",
-        "total": 9,
-        "recent": 9,
-        "recent_share": 1.0
-      },
-      {
-        "cell": "/",
-        "total": 8,
-        "recent": 8,
-        "recent_share": 1.0
-      },
-      {
-        "cell": "experiential/systems",
+        "cell": "method/method",
         "total": 8,
         "recent": 8,
         "recent_share": 1.0
       },
       {
         "cell": "experiential/evaluation",
-        "total": 6,
-        "recent": 6,
-        "recent_share": 1.0
-      },
-      {
-        "cell": "experiential/experiment",
-        "total": 5,
-        "recent": 5,
-        "recent_share": 1.0
-      },
-      {
-        "cell": "working/experiment",
-        "total": 4,
-        "recent": 4,
-        "recent_share": 1.0
+        "total": 17,
+        "recent": 16,
+        "recent_share": 0.94
       },
       {
         "cell": "experiential/development",
-        "total": 4,
+        "total": 9,
+        "recent": 6,
+        "recent_share": 0.67
+      },
+      {
+        "cell": "factual/experiment",
+        "total": 6,
         "recent": 4,
-        "recent_share": 1.0
+        "recent_share": 0.67
+      },
+      {
+        "cell": "working/survey",
+        "total": 16,
+        "recent": 10,
+        "recent_share": 0.62
+      },
+      {
+        "cell": "experiential/experiment",
+        "total": 10,
+        "recent": 6,
+        "recent_share": 0.6
+      },
+      {
+        "cell": "experiential/survey",
+        "total": 13,
+        "recent": 4,
+        "recent_share": 0.31
+      },
+      {
+        "cell": "working/experiment",
+        "total": 18,
+        "recent": 5,
+        "recent_share": 0.28
       }
     ]
   },
@@ -541,8 +529,20 @@
       "papers": 41
     },
     {
+      "name": "Daniel Rosehill",
+      "papers": 23
+    },
+    {
+      "name": "Gemini 3.1 (Flash)",
+      "papers": 23
+    },
+    {
+      "name": "Chatterbox TTS",
+      "papers": 23
+    },
+    {
       "name": "Association for Computational Linguistics 2026",
-      "papers": 19
+      "papers": 21
     },
     {
       "name": "Feiyu Xiong",
@@ -553,48 +553,36 @@
       "papers": 16
     },
     {
-      "name": "Daniel Rosehill",
-      "papers": 15
-    },
-    {
-      "name": "Gemini 3.1 (Flash)",
-      "papers": 15
-    },
-    {
-      "name": "Chatterbox TTS",
-      "papers": 15
-    },
-    {
       "name": "Yu Wang",
-      "papers": 12
+      "papers": 14
     },
     {
       "name": "Bo Tang",
-      "papers": 12
+      "papers": 14
+    },
+    {
+      "name": "Hao Wang",
+      "papers": 13
+    },
+    {
+      "name": "Yang Liu",
+      "papers": 13
     },
     {
       "name": "Jun Wang",
-      "papers": 11
+      "papers": 12
     },
     {
       "name": "Min Zhang",
       "papers": 10
     },
     {
+      "name": "Fei Huang",
+      "papers": 10
+    },
+    {
       "name": "Zeyu Zhang",
       "papers": 10
-    },
-    {
-      "name": "Jie Zhou",
-      "papers": 10
-    },
-    {
-      "name": "Fei Huang",
-      "papers": 9
-    },
-    {
-      "name": "Shuicheng Yan",
-      "papers": 9
     }
   ]
 }
