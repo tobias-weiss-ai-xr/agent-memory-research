@@ -4,31 +4,31 @@
       "id": 0,
       "term": "Factual",
       "kind": "taxonomy",
-      "df": 3623
+      "df": 3621
     },
     {
       "id": 1,
       "term": "Working",
       "kind": "taxonomy",
-      "df": 3401
+      "df": 3396
     },
     {
       "id": 2,
       "term": "framework",
       "kind": "curated",
-      "df": 2585
+      "df": 2581
     },
     {
       "id": 3,
       "term": "Experiential",
       "kind": "taxonomy",
-      "df": 1730
+      "df": 1728
     },
     {
       "id": 4,
       "term": "benchmark",
       "kind": "curated",
-      "df": 920
+      "df": 919
     },
     {
       "id": 5,
@@ -40,7 +40,7 @@
       "id": 6,
       "term": "dataset",
       "kind": "curated",
-      "df": 723
+      "df": 722
     },
     {
       "id": 7,
@@ -58,7 +58,7 @@
       "id": 9,
       "term": "qualitative",
       "kind": "curated",
-      "df": 135
+      "df": 134
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "id": 14,
       "term": "literature review",
       "kind": "curated",
-      "df": 33
+      "df": 32
     },
     {
       "id": 15,
@@ -155,7 +155,7 @@
     {
       "source": 0,
       "target": 2,
-      "weight": 1235
+      "weight": 1234
     },
     {
       "source": 0,
@@ -175,7 +175,7 @@
     {
       "source": 0,
       "target": 9,
-      "weight": 86
+      "weight": 85
     },
     {
       "source": 0,
@@ -190,12 +190,12 @@
     {
       "source": 0,
       "target": 4,
-      "weight": 475
+      "weight": 474
     },
     {
       "source": 2,
       "target": 4,
-      "weight": 394
+      "weight": 393
     },
     {
       "source": 4,
@@ -595,7 +595,7 @@
     {
       "source": 1,
       "target": 2,
-      "weight": 682
+      "weight": 680
     },
     {
       "source": 1,
@@ -605,7 +605,7 @@
     {
       "source": 1,
       "target": 6,
-      "weight": 370
+      "weight": 369
     },
     {
       "source": 1,
@@ -680,7 +680,7 @@
     {
       "source": 2,
       "target": 3,
-      "weight": 662
+      "weight": 661
     },
     {
       "source": 3,
@@ -705,7 +705,7 @@
     {
       "source": 3,
       "target": 14,
-      "weight": 8
+      "weight": 7
     },
     {
       "source": 3,
@@ -756,6 +756,6 @@
   "stats": {
     "concepts": 25,
     "edges": 120,
-    "papers": 8762
+    "papers": 8753
   }
 }
