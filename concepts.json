@@ -5,7 +5,7 @@
       "term": "Factual",
       "kind": "taxonomy",
       "seed": true,
-      "df": 3621,
+      "df": 3637,
       "match": {
         "type": "field",
         "field": "category",
@@ -17,13 +17,13 @@
         "factual/theory",
         "factual/parametric"
       ],
-      "papers": 3621
+      "papers": 3637
     },
     {
       "term": "Working",
       "kind": "taxonomy",
       "seed": true,
-      "df": 3396,
+      "df": 3411,
       "match": {
         "type": "field",
         "field": "category",
@@ -35,24 +35,24 @@
         "working/token-level",
         "working/systems"
       ],
-      "papers": 3396
+      "papers": 3411
     },
     {
       "term": "framework",
       "kind": "curated",
       "seed": true,
-      "df": 2581,
+      "df": 2592,
       "match": {
         "type": "text",
         "forms": [
           "framework"
         ]
       },
-      "papers": 2581,
+      "papers": 2592,
       "top_cells": [
         "factual/token-level",
-        "experiential/token-level",
         "factual/method",
+        "experiential/token-level",
         "working/method"
       ]
     },
@@ -78,14 +78,14 @@
       "term": "benchmark",
       "kind": "curated",
       "seed": true,
-      "df": 919,
+      "df": 922,
       "match": {
         "type": "text",
         "forms": [
           "benchmark"
         ]
       },
-      "papers": 919,
+      "papers": 922,
       "top_cells": [
         "factual/token-level",
         "experiential/token-level",
@@ -97,14 +97,14 @@
       "term": "survey",
       "kind": "curated",
       "seed": true,
-      "df": 754,
+      "df": 759,
       "match": {
         "type": "text",
         "forms": [
           "survey"
         ]
       },
-      "papers": 754,
+      "papers": 759,
       "top_cells": [
         "factual/method",
         "factual/theory",
@@ -116,14 +116,14 @@
       "term": "dataset",
       "kind": "curated",
       "seed": true,
-      "df": 722,
+      "df": 727,
       "match": {
         "type": "text",
         "forms": [
           "dataset"
         ]
       },
-      "papers": 722,
+      "papers": 727,
       "top_cells": [
         "working/method",
         "factual/token-level",
@@ -135,14 +135,14 @@
       "term": "quantitative",
       "kind": "curated",
       "seed": true,
-      "df": 192,
+      "df": 193,
       "match": {
         "type": "text",
         "forms": [
           "quantitative"
         ]
       },
-      "papers": 192,
+      "papers": 193,
       "top_cells": [
         "factual/method",
         "factual/theory",
@@ -173,14 +173,14 @@
       "term": "qualitative",
       "kind": "curated",
       "seed": true,
-      "df": 134,
+      "df": 137,
       "match": {
         "type": "text",
         "forms": [
           "qualitative"
         ]
       },
-      "papers": 134,
+      "papers": 137,
       "top_cells": [
         "factual/method",
         "factual/token-level",
@@ -192,14 +192,14 @@
       "term": "experiment",
       "kind": "curated",
       "seed": true,
-      "df": 133,
+      "df": 135,
       "match": {
         "type": "text",
         "forms": [
           "experiment"
         ]
       },
-      "papers": 133,
+      "papers": 135,
       "top_cells": [
         "working/method",
         "factual/token-level",
@@ -268,14 +268,14 @@
       "term": "literature review",
       "kind": "curated",
       "seed": true,
-      "df": 32,
+      "df": 33,
       "match": {
         "type": "text",
         "forms": [
           "literature review"
         ]
       },
-      "papers": 32,
+      "papers": 33,
       "top_cells": [
         "factual/method",
         "working/method",
@@ -300,6 +300,25 @@
         "factual/theory",
         "experiential/theory",
         "experiential/token-level"
+      ]
+    },
+    {
+      "term": "mixed methods",
+      "kind": "curated",
+      "seed": true,
+      "df": 9,
+      "match": {
+        "type": "text",
+        "forms": [
+          "mixed methods"
+        ]
+      },
+      "papers": 9,
+      "top_cells": [
+        "factual/method",
+        "factual/theory",
+        "experiential/theory",
+        "working/method"
       ]
     },
     {
@@ -335,24 +354,6 @@
         "method/method"
       ],
       "papers": 8
-    },
-    {
-      "term": "mixed methods",
-      "kind": "curated",
-      "seed": true,
-      "df": 8,
-      "match": {
-        "type": "text",
-        "forms": [
-          "mixed methods"
-        ]
-      },
-      "papers": 8,
-      "top_cells": [
-        "factual/method",
-        "factual/theory",
-        "experiential/theory"
-      ]
     },
     {
       "term": "open access",
