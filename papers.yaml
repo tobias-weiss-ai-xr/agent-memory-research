@@ -251231,3 +251231,1034 @@ papers:
     presentation is essential to timely diagnosis and appropriate management and to
     to primary disorders or metabolic and of in analysis of a evaluation the India'
   venue: Indian Journal of Psychiatry
+- title: Research on Pattern Recognition of Agricultural Product Safety Incidents
+    and Intelligent Tracing of Traceability Paths Based on Artificial Intelligence
+  date: 2025-06
+  url: https://doi.org/10.1109/prmvai65741.2025.11108662
+  category: factual
+  subcategory: method
+  authors:
+  - Weihong Tian
+  - Zhongliang Xiao
+  - Li Zhang
+  abstract: 'Ensuring the safety of agricultural products has become an urgent global
+    concern, especially in the context of increasingly complex supply chains and frequent
+    contamination incidents. However, most existing traceability approaches remain
+    fragmented and static, focusing on isolated functions such as event logging or
+    basic product tracking, and lacking an integrated framework for dynamic path reconstruction
+    and causal reasoning. To address these limitations, this study proposes a unified
+    AI-powered framework that integrates pattern recognition, intelligent path tracing,
+    and knowledge graph-based reasoning to enhance both detection accuracy and traceability
+    depth for agricultural safety incidents. The proposed framework employs machine
+    learning models-including Long Short-Term Memory (LSTM) and XGBoost-for risk pattern
+    recognition, while incorporating intelligent path tracing algorithms such as$\mathbf{A}^{*}$search
+    and reinforcement learning (RL) to dynamically reconstruct contamination pathways.
+    Furthermore, a domain-specific knowledge graph is developed to support causal
+    chain analysis and interpretable decision-making. Experimental results on a multi-source
+    dataset demonstrate the system''s effectiveness: the LSTM model achieved an F1-score
+    of 0.788 in identifying high-risk batches, and the RL-based tracing agent reached
+    an F1score of 0.87 in reconstructing contamination paths. These findings validate
+    the framework''s potential as a scalable and interpretable solution for intelligent
+    agricultural product traceability and risk management.'
+  venue: ''
+- title: 'CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25500
+  category: factual
+  subcategory: method
+  authors:
+  - Zhiyuan Li
+  - Linyuan Gao
+  - Xuechun Ding
+  abstract: 'Reusable skill libraries allow large language model (LLM) agents to reuse
+    procedural knowledge across tasks, but they also turn memory access into a challenging
+    retrieval problem. Full-library prompting preserves coverage at high context cost,
+    vector retrieval returns compact neighborhoods but treats skills as independent
+    text, and graph-based retrieval can recover workflow context only when the edges
+    that carry relevance are reliable. We propose CaSKG, a counterfactual-causal skill
+    graph framework that calibrates procedural relations before retrieval. CaSKG first
+    builds a high-recall directed candidate graph from semantic, lexical, input/output,
+    and structural evidence, with repair evidence and an optional LLM judge further
+    refining candidate scores. It then applies direction-conditioned textual counterfactual
+    probes that remove, substitute, and reorder skill pairs, aggregates the evidence
+    with Bayesian smoothing, and publishes a state-filtered weighted graph for task-conditioned
+    expansion. The graph is constructed offline and used without changing the downstream
+    agent policy or task interface. Across six LLM backbones on ALFWorld ID-140 and
+    ScienceWorld U211, CaSKG achieves the highest task score in all twelve combinations
+    of model and benchmark. Relative to Graph-of-Skills (GoS), it improves the six-model
+    macro-average ScienceWorld score from 72.62 to 80.50 and ALFWorld success from
+    80.01\% to 86.79\%, while reducing mean environment steps on both benchmarks.
+    Qualitative and ablation analyses further show that calibrated edges help retrieval
+    preserve prerequisites, state-changing actions, verification routines, and final
+    completion steps. These results position edge-confidence calibration as an effective
+    route to compact and executable skill retrieval at scale\footnote{Code is available
+    at: https://github.com/ZhiyuanLi218/Caskg }.'
+  venue: arXiv (Cornell University)
+- title: '258 - Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic
+    Workspaces'
+  date: 2026-01
+  url: https://doi.org/10.48448/7h2n-qh04
+  category: factual
+  subcategory: method
+  authors:
+  - Association for Artificial Intelligence 2026
+  - David Chong
+  - Chenda Duan
+  abstract: 'Large Language Models (LLMs) face fundamental challenges in long-context
+    reasoning: many documents exceed their finite context windows, while performance
+    on texts that do fit degrades with sequence length, necessitating their augmentation
+    with external memory frameworks. Current solutions, which have evolved from retrieval
+    using semantic embeddings to more sophisticated structured knowledge graphs representations
+    for improved sense-making and associativity, are tailored for fact-based retrieval
+    and fail to build the space-time-anchored narrative representations required for
+    tracking entities through episodic events. To bridge this gap, we propose the
+    Generative Semantic Workspace (GSW), a neuro-inspired generative memory framework
+    that builds structured, interpretable representations of evolving situations,
+    enabling LLMs to reason over evolving roles, actions, and spatiotemporal contexts.
+    Our framework comprises an Operator, which maps incoming observations to intermediate
+    semantic structures, and a Reconciler, which integrates these into a persistent
+    workspace that enforces temporal, spatial, and logical coherence. On the Episodic
+    Memory Benchmark (EpBench) comprising corpora ranging from 100k to 1M tokens in
+    length, GSW outperforms existing RAG based baselines by up to 20%. Furthermore,
+    GSW is highly efficient, reducing query-time context tokens by 51% compared to
+    the next most token-efficient baseline, reducing inference time costs considerably.
+    More broadly, GSW offers a concrete blueprint for endowing LLMs with human-like
+    episodic memory, paving the way for more capable agents that can reason over long
+    horizons.'
+  venue: Underline Science Inc.
+- title: 'Memory$^3$: Language Modeling with Explicit Memory'
+  date: 2024-09
+  url: https://doi.org/10.4208/jml.240708
+  category: factual
+  subcategory: theory
+  authors:
+  - Hongkang Yang
+  - Zehao Lin
+  - Wenjin Wang
+  abstract: The training and inference of large language models (LLMs) are together
+    a costly process that transports knowledge from raw data to meaningful computation.
+    Inspired by the memory hierarchy of the human brain, we reduce this cost by equipping
+    LLMs with explicit memory, a memory format cheaper than model parameters and text
+    retrieval-augmented generation (RAG). Conceptually, with most of its knowledge
+    externalized to explicit memories, the LLM can enjoy a smaller parameter size,
+    training cost, and inference cost, all proportional to the amount of remaining
+    “abstract knowledge”. As a preliminary proof of concept, we train from scratch
+    a 2.4 B LLM, which achieves better performance than much larger LLMs as well as
+    RAG models, and maintains higher decoding speed than RAG. The model is named ${\rm
+    Memory}^3$, since explicit memory is the third form of memory in LLMs after implicit
+    memory (model parameters) and working memory (context key-values). We introduce
+    a memory circuitry theory to support the externalization of knowledge, and present
+    novel techniques including a memory sparsification mechanism that makes storage
+    tractable and a two-stage pretraining scheme that facilitates memory formation.
+  venue: Journal of Machine Learning
+- title: Dynamic Token Contextualization for Adaptive Knowledge Synthesis in Large
+    Language Models
+  date: 2024-11
+  url: https://doi.org/10.31219/osf.io/8dsa7
+  category: factual
+  subcategory: theory
+  authors:
+  - Amanda Murph
+  - Charlotte Marston
+  - Dexter Bramley
+  abstract: Dynamic Token Contextualization introduces a novel paradigm for enhancing
+    token representation within transformer-based architectures, enabling adaptive
+    embeddings that respond to shifting contextual requirements in real time. Through
+    the integration of secondary attention matrices and iterative refinement layers,
+    the proposed methodology significantly improves both local semantic accuracy and
+    global coherence in processing extended or complex input sequences. Empirical
+    evaluations demonstrate reductions in computational overhead and memory utilization,
+    highlighting the model's capacity for efficient handling of large datasets. Comparative
+    analysis with baseline methods reveals substantial gains in performance metrics,
+    including accuracy and generalization across diverse tasks such as summarization,
+    translation, and sentiment analysis. The ability to recalibrate token significance
+    dynamically allows the model to mitigate errors associated with static embeddings
+    and maintain consistency over long-range dependencies. Observations from experimental
+    results further indicate that the enhanced architectural modifications achieve
+    a balanced distribution of layer-wise contributions, reducing dependency on specific
+    depths within the transformer stack. The integration of contextual adaptiveness
+    into the model’s attention mechanisms not only facilitates improved linguistic
+    reasoning but also expands its applicability to specialized and domain-specific
+    challenges. By aligning token representations with evolving informational hierarchies,
+    the methodology bridges critical gaps in traditional transformer designs while
+    maintaining computational scalability. Quantitative and qualitative evaluations
+    underscore the robustness of the approach in addressing token-level redundancies,
+    optimizing representational precision, and achieving superior context retention.
+    The insights derived from token dynamics and architectural improvements establish
+    a foundational framework for advancing future transformer-based models in natural
+    language tasks. The study provides a comprehensive methodology that enhances both
+    the theoretical understanding and practical implementation of large-scale language
+    modeling.
+  venue: ''
+- title: 'From Complexity to Simplicity: Advancements in Large Language Model Compression'
+  date: 2024-12
+  url: https://doi.org/10.20944/preprints202412.2132.v1
+  category: factual
+  subcategory: method
+  authors:
+  - Abdur Rashid Junaid
+  - Idowu Callixtus
+  abstract: The rapid evolution of large language models (LLMs) has brought transformative
+    advancements to natural language processing (NLP), enabling unprecedented performance
+    in tasks such as machine translation, text generation, and conversational AI.
+    However, the immense computational demands, memory requirements, and energy consumption
+    of these models pose significant challenges for real-world deployment, particularly
+    on resource-constrained devices and systems. Knowledge distillation has emerged
+    as a pivotal technique for addressing these challenges, providing a framework
+    for transferring knowledge from large, complex teacher models to smaller, efficient
+    student models.This survey presents a comprehensive review of knowledge distillation
+    methods tailored to LLMs, highlighting key advancements, applications, and unresolved
+    challenges. We explore traditional distillation strategies, including logit matching
+    and feature alignment, alongside contemporary approaches such as task-specific
+    adaptations, attention map transfer, and progressive layer-by-layer distillation.
+    Additionally, the integration of knowledge distillation with complementary compression
+    techniques, such as quantization, pruning, and low-rank factorization, is examined,
+    demonstrating their synergistic potential in optimizing LLMs for practical use.Applications
+    of knowledge distillation span diverse domains, including edge computing, real-time
+    systems, and fine-tuning for specialized tasks. The technique has facilitated
+    the democratization of LLMs, enabling accessibility for organizations with limited
+    computational resources. Despite these successes, challenges such as the efficient
+    distillation of emergent behaviors, generalization in low-resource domains, and
+    scalability for ultra-large teacher models remain significant barriers. Furthermore,
+    the environmental impact and ethical considerations associated with LLM compression
+    and deployment underscore the need for responsible innovation.Future directions
+    in knowledge distillation research include the development of dynamic and adaptive
+    distillation frameworks, automated processes leveraging neural architecture search,
+    and benchmarks tailored to evaluate distillation outcomes comprehensively. By
+    addressing these challenges, knowledge distillation can further enhance the efficiency,
+    scalability, and inclusivity of LLMs, shaping the next generation of NLP systems.
+  venue: Preprints.org
+- title: 'Hybrid User Memory Filtering Algorithm for LLM-Based Knowledge Management
+    Systems: Reducing Contextual Noise in Industrial Automation'
+  date: 2026-07
+  url: https://doi.org/10.3390/automation7040106
+  category: factual
+  subcategory: method
+  authors:
+  - Viktor A. Vedeneev
+  - Viktor V. Kondratiev
+  - Konstantin Suslov
+  abstract: This paper presents a single-company field study on hybrid user memory
+    filtering for Large Language Model (LLM)-based knowledge management systems, aiming
+    to reduce contextual noise from irrelevant or outdated persistent memories. We
+    propose the Hybrid Adaptive Filtering Engine (HAFE), which combines intent classification,
+    ontology-based filtering, behavioral reuse prediction, and collaborative role-level
+    comparison. HAFE was integrated into an industrial KM platform deployed at a major
+    steel producer. In a field experiment with 120 engineers, HAFE reduced irrelevant
+    memory retention by 41%, improved Mean Reciprocal Rank (MRR) by 12.5%, and increased
+    user satisfaction (SUS score) by 18% (all p < 0.01). The results suggest that
+    proactive memory quality control can improve effectiveness and user experience
+    in this specific industrial KMS setting, while further cross-domain validation
+    is required.
+  venue: Automation
+- title: Personalized Language Learning Using Spaced Repetition Scheduling
+  date: 2025-01
+  url: https://doi.org/10.1007/978-3-031-98459-4_19
+  category: factual
+  subcategory: theory
+  authors:
+  - Boxuan Ma
+  - Sora Fukui
+  - Yuji Ando
+  abstract: ''
+  venue: Lecture notes in computer science
+- title: 'Artificial Intelligence in Higher Education: A State-of-the-Art Overview
+    of Pedagogical Integrity, Artificial Intelligence Literacy, and Policy Integration'
+  date: 2025-10
+  url: https://doi.org/10.3390/encyclopedia5040180
+  category: factual
+  subcategory: method
+  authors:
+  - Manolis Adamakis
+  - Theodoros Rachiotis
+  abstract: Artificial Intelligence (AI), particularly Generative AI (GenAI) and Large
+    Language Models (LLMs), is rapidly reshaping higher education by transforming
+    teaching, learning, assessment, research, and institutional management. This entry
+    provides a state-of-the-art, comprehensive, evidence-based synthesis of established
+    AI applications and their implications within the higher education landscape,
+    emphasizing mature knowledge aimed at educators, researchers, and policymakers.
+    AI technologies now support personalized learning pathways, enhance instructional
+    efficiency, and improve academic productivity by facilitating tasks such as automated
+    grading, adaptive feedback, and academic writing assistance. The widespread adoption
+    of AI tools among students and faculty members has created a critical need for
+    AI literacy—encompassing not only technical proficiency but also critical evaluation,
+    ethical awareness, and metacognitive engagement with AI-generated content. Key
+    opportunities include the deployment of adaptive tutoring and real-time feedback
+    mechanisms that tailor instruction to individual learning trajectories; automated
+    content generation, grading assistance, and administrative workflow optimization
+    that reduce faculty workload; and AI-driven analytics that inform curriculum design
+    and early intervention to improve student outcomes. At the same time, AI poses
+    challenges related to academic integrity (e.g., plagiarism and misuse of generative
+    content), algorithmic bias and data privacy, digital divides that exacerbate inequities,
+    and risks of “cognitive debt” whereby over-reliance on AI tools may degrade working
+    memory, creativity, and executive function. The lack of standardized AI policies
+    and fragmented institutional governance highlight the urgent necessity for transparent
+    frameworks that balance technological adoption with academic values. Anchored
+    in several foundational pillars (such as a brief description of AI higher education,
+    AI literacy, AI tools for educators and teaching staff, ethical use of AI, and
+    institutional integration of AI in higher education), this entry emphasizes that
+    AI is neither a panacea nor an intrinsic threat but a “technology of selection”
+    whose impact depends on the deliberate choices of educators, institutions, and
+    learners. When embraced with ethical discernment and educational accountability,
+    AI holds the potential to foster a more inclusive, efficient, and democratic future
+    for higher education; however, its success depends on purposeful integration,
+    balancing innovation with academic values such as integrity, creativity, and inclusivity.
+  venue: Encyclopedia
+- title: ENHANCING NATURAL LANGUAGE PROCESSING USING WALRUS OPTIMIZER WITH SELF-ATTENTION
+    DEEP LEARNING MODEL IN APPLIED LINGUISTICS
+  date: 2024-07
+  url: https://doi.org/10.1142/s0218348x25400067
+  category: factual
+  subcategory: method
+  authors:
+  - Abdulkhaleq Q. A. Hassan
+  - Alya Alshammari
+  - Belal Zaqaibeh
+  abstract: Sentiment analysis (SA) is the popular natural language processing (NLP)
+    problem utilized for analyzing texts, including uploaded reviews and user posts
+    on e-commerce portals, forums, and social media platforms, regarding their opinions
+    about the event or person, product, and service. The SA task comprises analyzing
+    text to determine whether the sentiment expressed is negative, positive, or neutral,
+    aiming for precise subjective data analysis. The deep learning (DL) technique
+    enables various architectures to model SA tasks and has surpassed other machine
+    learning (ML) techniques as the first method to perform SA tasks. Recent advancements
+    in the DL model depart from the growing dominance of transformer language algorithms
+    and convolutional neural network (CNN) and recurrent neural network (RNN) models.
+    Utilizing pre-trained transformer language models to transfer knowledge to downstream
+    tasks has emerged as a cutting-edge model in NLP. Therefore, the study designs
+    a fractal walrus optimizer with self-attention DL-based SA in applied linguistics
+    (WOSADL-SAAL) method. The WOSADL-SAAL method aims to recognize and classify the
+    presence of sentiments in social media content. In the WOSADL-SAAL technique,
+    data preprocessing is initially performed to transform the input dataset into
+    a meaningful format. In addition, the WOSADL-SAAL technique uses the bag of words
+    (BoW) model for extracting features. The self-attention bidirectional long short-term
+    memory (SA-BiLSTM) network is applied to classify sentiment. The walrus optimizer
+    (WO) model performs the hyperparameter tuning model to boost the detection outcomes
+    of the SA-BiLSTM network. The performance evaluation of the WOSADL-SAAL method
+    takes place under the benchmark SA dataset. The experimental analysis of the WOSADL-SAAL
+    method exhibited a superior accuracy value of 99.07% and 99.24% under TUSA and
+    IMDB datasets over existing approaches.
+  venue: Fractals
+- title: A Storage-Retrieval Gap in Parametric Knowledge Graph Memory
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25489
+  category: factual
+  subcategory: theory
+  authors:
+  - Martino M. L. Pulici
+  - Cuong Xuan Chu
+  - Evgeny Kharlamov
+  abstract: 'Graph retrieval-augmented generation places retrieved subgraphs into
+    the model''s context window at query time, paying a recurring token cost and exposing
+    source data on every call. We study an alternative: compiling a knowledge graph
+    offline into a bank of LoRA adapters, one per entity, that serve as a parametric
+    knowledge layer queried by injecting weights rather than text, at zero query-time
+    context cost. On the MetaQA dataset, we find that subgraph-trained adapters encode
+    context-free factual knowledge that generalizes to unseen questions: on single-valued
+    relations the adapter gains $+0.243$ exact-match score over a base model that
+    is nearly blind closed-book ($0.007$), and only the correct adapter recovers this
+    knowledge (an oracle gap of $+0.283$ over the base model). However, the stored
+    knowledge is not recoverable by similarity: given a query with no subgraph, embedding-based
+    and weight-space geometry retrieval both perform at chance, because a semantically
+    neighbouring entity''s adapter does not contain the answer - knowledge is stored
+    locally and does not transfer. Weight geometry correlates with subgraph semantics
+    ($ρ= +0.329$) but not with functional retrievability. We quantify the byte and
+    context-token costs against graph retrieval-augmented generation and discuss deployment
+    implications. Our results establish that parametric knowledge graph memory is
+    feasible for storing knowledge, and identify selecting and composing the right
+    adapters by a mechanism other than semantic similarity as the central open problem
+    - motivating a learned, query-conditioned composition mechanism.'
+  venue: arXiv (Cornell University)
+- title: 'Medical-ethical knowledge, moral attitudes and end-of-life decision- making
+    among physicians attending intensive care medicine training courses in Germany:
+    A national survey'
+  date: 2026-08
+  url: https://doi.org/10.21203/rs.3.rs-10654958/v1
+  category: factual
+  subcategory: survey
+  authors:
+  - Christian Burisch
+  - Klara Linß
+  - Jan Ehlers
+  abstract: ''
+  venue: Research Square
+- title: “Level of knowledge about oral health hygiene of parents of children under
+    5 years of age in the Manú parish, Saraguro canton, province of Loja”
+  date: 2024-04
+  url: https://dx.doi.org/10.22533/at.ed.1594382417049
+  category: factual
+  subcategory: application
+  authors:
+  - Gahona Carrión Diana
+  - Piedra Burneo Claudia
+  - Gonzalez Eras Susana
+  abstract: 'In the parish of Manú there is a high prevalence rate of oral pathologies
+    in children and pregnant women, so it is essential to act through a set of actions
+    to reduce their prevalence.The objective of this study was to evaluate the level
+    of knowledge about oral hygiene of parents of infants under 5 years of age and
+    pregnant women in this parish, before and after the application of an oral health
+    program, aimed at promotion and prevention.The study carried out is qualitative,
+    transversal, descriptive and comparative.Two validated surveys were applied and
+    the data were processed in the SPSS v.28.0 statistical program.Obtaining the following
+    results: prior to the application of the education program there was 100% lack
+    of knowledge, and after it an increase in the level of knowledge was evident,
+    with a total average of 96.6% correct answers.According to the Kolmogorov Smirnov
+    normality test, it indicates that the results are not parametric, there are significant
+    differences between the results of the pre-and post-Education surveys.The non-parametric
+    Wilconson test shows a significant change, resulting in P value = 0.000000 being
+    less than 0.05.Furthermore, McNemar''s non-parametric test indicates that the
+    treatment applied to improve the level of knowledge worked, the P value = 0.000000
+    is less than 0.05.Concluding that the oral hygiene education program improved
+    parents'' knowledge, allowing the transmission of a culture of oral health promotion
+    and prevention that contributed to improving the quality of life of this intervention
+    group.'
+  venue: International Journal of Health Science
+- title: 'AI Literacy and Attitudes Toward Artificial Intelligence Among Undergraduate
+    Nursing Students: A Cross-Sectional Survey'
+  date: 2026-08
+  url: https://doi.org/10.21203/rs.3.rs-10433761/v1
+  category: factual
+  subcategory: survey
+  authors:
+  - Sienna Marie Jurado Gonzalez
+  - Soney Varghese
+  - Veena Joseph
+  abstract: ''
+  venue: Research Square
+- title: 'Retrieval-Augmented Generation: Architecting Trustworthy Knowledge Systems
+    on Top of Large Language Models'
+  date: 2026-08
+  url: https://doi.org/10.70917/ijcisim-2026-5213
+  category: factual
+  subcategory: method
+  authors:
+  - Balakrishna Sreeram
+  abstract: 'Fluency and reliability are not the same property, and large language
+    models have far more of the first than the second. A model''s factual content
+    is fixed at the point training concludes; its errors are distributed through billions
+    of parameters rather than isolated in any inspectable location; and no signal
+    in its output distinguishes a memorized fact from a well-phrased guess. These
+    three properties — staleness, hallucination, and opacity — are not independent
+    defects but different symptoms of the same design choice: knowledge stored implicitly
+    in weights instead of explicitly in a retrievable structure. Retrieval-augmented
+    generation (RAG) responds by splitting question answering into two stages, one
+    that retrieves candidate evidence from an external, updatable corpus, and one
+    that conditions generation on that evidence rather than on parametric memory alone.
+    This review treats RAG as a systems-engineering discipline. Beginning from the
+    specific failure modes that motivate retrieval augmentation, the discussion works
+    through the component design of a production pipeline — ingestion, chunking, embedding,
+    indexing, hybrid retrieval, and reranking — before turning to the evaluation methodology
+    needed to determine whether a deployed system is actually behaving reliably. The
+    literature surveyed spans dense passage retrieval, approximate nearest-neighbor
+    search, vector database engineering, and automated RAG evaluation, and it converges
+    on a claim central to this review: retrieval quality, not generator choice, is
+    what governs whether a RAG system can be trusted. Consequences for high-stakes
+    domains — finance, healthcare, law — are discussed, along with adaptive retrieval,
+    agentic RAG, and evaluation standardization as directions likely to shape where
+    the field goes next.'
+  venue: International Journal of Computer Information Systems and Industrial Management
+    Applications
+- title: INVESTIGATION OF FARMERS KNOWLEDGE, ATTITUDE AND PRACTICES ON THE USE OF
+    ANTIMICROBIALS AMONG CATTLE FARMERS, WITH IN KOINADUGU DISTRICT SIERRA LEONE
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22145265
+  category: factual
+  subcategory: method
+  authors:
+  - Sesay Emkay Mahmud
+  - Dr. Bagla Patrick Victor
+  - Dr. Kanu Saidu
+  abstract: Antimicrobial resistance (AMR) is an increasing One Health threat, particularly
+    in low-resource livestock systems where veterinary services, diagnostic capacity
+    and antimicrobial-use surveillance are limited. This study assessed cattle farmers’
+    knowledge, attitudes and practices regarding antimicrobial use and AMR in extensive
+    production systems in Koinadugu District, Northern Sierra Leone. A cross-sectional
+    survey of 187 cattle farmers was conducted using a structured questionnaire adapted
+    from the World Health Organization KAP framework. Data were analyzed in R using
+    descriptive statistics, composite KAP scores, chi-square and Fisher’s exact tests,
+    non-parametric tests, Spearman correlation and binary logistic regression. The
+    findings revealed marked deficiencies in foundational antimicrobial knowledge,
+    including limited understanding of antibiotics, their specificity against bacterial
+    infections and differentiation from other veterinary medicines. Although respondents
+    generally expressed favorable attitudes towards veterinary guidance, responsible
+    antimicrobial use and AMR control, these attitudes were not consistently translated
+    into practice. Major stewardship deficiencies included inconsistent veterinary
+    consultation, poor adherence to recommended dosage and treatment duration, premature
+    treatment discontinuation, poor observance of withdrawal periods, absence of treatment
+    records, inappropriate antimicrobial storage and disposal, low vaccination coverage,
+    inconsistent biosecurity, lack of laboratory diagnosis before treatment and limited
+    participation in extension programmes. Conversely, isolation of sick animals and
+    avoidance of sharing or reusing leftover antibiotics were comparatively positive
+    practices. The findings demonstrate a substantial knowledge–attitude–practice
+    gap, suggesting that inappropriate antimicrobial use is shaped not only by knowledge
+    deficits but also by structural, economic and veterinary-service constraints.
+    The study concludes that strengthening AMR control in Northern Sierra Leone requires
+    integrated One Health interventions combining farmer education, improved veterinary
+    access, laboratory diagnostic support, vaccination, biosecurity, antimicrobial-use
+    surveillance, treatment record systems and stronger regulation of veterinary medicines.
+    These findings provide baseline evidence for targeted antimicrobial stewardship
+    policies in Sierra Leone’s cattle sector. Implementation should prioritize practical,
+    appropriate extension strategies that convert positive intentions into sustained
+    stewardship behavior.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Memory Under Stress: How Post Traumatic Stress Disorder Affects Working
+    Memory in Adults: A Scoping Review'
+  date: 2025-12
+  url: https://doi.org/10.3390/ijcs1010004
+  category: working
+  subcategory: method
+  authors:
+  - Olga Ganis
+  - Anna Tsiakiri
+  - Foteini Christidi
+  abstract: Post-Traumatic Stress Disorder (PTSD) is consistently linked to multidimensional
+    working memory (WM) impairments, encompassing deficits in sustained attention,
+    verbal and visuospatial processing, and executive control, with inhibitory dysfunction
+    emerging as a key feature. This scoping review synthesizes evidence from 39 studies
+    examining neurobiological mechanisms, trauma-related factors, genetic and hormonal
+    influences, gender differences, and task-specific variability. Findings indicated
+    that PTSD is associated with altered activation and connectivity in the prefrontal
+    cortex, hippocampus, and related neural networks, often resulting in compensatory
+    but inefficient recruitment patterns. Emotional distraction and comorbidities
+    such as depression, alcohol use, and traumatic brain injury can exacerbate cognitive
+    deficits. Performance impairments are evident across both emotional and neutral
+    WM tasks, with visuospatial and updating processes being particularly vulnerable.
+    Risk factors include chronic trauma exposure, older age, APOE ε4 allele, and the
+    BDNF Val66Met (rs6265) polymorphism, while modulators such as oxytocin, cortisol,
+    and physical activity show potential cognitive benefits under specific conditions.
+    Methodological heterogeneity and limited longitudinal data restrict generalizability.
+    These findings underscore the importance of early screening, targeted cognitive
+    interventions, and inclusion of underrepresented populations to refine prevention
+    and treatment strategies for PTSD-related WM deficits.
+  venue: International Journal of Cognitive Sciences
+- title: The Neural Impact of a Brief Mindfulness and Improvisational Singing Practice
+    on Music Performance Anxiety
+  date: 2025-03
+  url: https://doi.org/10.15845/voices.v25i1.4210
+  category: working
+  subcategory: method
+  authors:
+  - Angela Boland
+  - Kayla Boileau
+  - Nicola Oddy
+  abstract: 'Music Performance Anxiety (MPA) negatively impacts musicians’ personal
+    lives, professional functioning, and performance quality, and is most prevalent
+    in young adulthood. This mixed methods study investigated whether two weeks of
+    a novel intervention called Environmental Vocal Exploration (EVE; Oddy, 2022),
+    combining mindfulness and vocal improvisation, could alter neural activity associated
+    with MPA in young musicians. The EVE intervention was compared with 1) a traditional
+    two-week mindfulness program and 2) no intervention. Pre- and post-intervention,
+    27 musicians aged 18–28 (n = 7: EVE, n = 10: mindfulness, n = 10: no intervention)
+    completed an anxietyprovoking task and a letter N-back working memory task during
+    fMRI. A thematic analysis was also conducted on discussion transcripts from EVE
+    sessions. During the anxietyprovoking task, blood flow in emotional processing
+    and attention-related brain areas (e.g., limbic and salience network areas) increased
+    from pre- to post-EVE, consistent with themes (e.g., present-moment awareness).
+    During the post-intervention N-back, EVE participants showed less activity than
+    the other groups in cognitive processing areas (e.g., middle cingulate gyrus),
+    indicating enhanced neural efficiency. Both interventions may impact neural activation
+    linked to MPA, through increased attentional and emotional regulation. Vocal improvisation
+    in a mindfulness intervention seemed to augment such effects. Results support
+    further study of EVE’s use for MPA. Acknowledgements The authors would like to
+    acknowledge the Brain Imaging Centre, including Rahim Ismaili, Katie Dinelle,
+    and Reggie Taylor, for their support.'
+  venue: Voices A World Forum for Music Therapy
+- title: 'Pathformer3D: A 3D Scanpath Transformer for $$360^{\circ }$$ Images'
+  date: 2024-09
+  url: https://doi.org/10.1007/978-3-031-72761-0_5
+  category: working
+  subcategory: theory
+  authors:
+  - Rong Quan
+  - Yantao Lai
+  - Mengyu Qiu
+  abstract: ''
+  venue: Lecture notes in computer science
+- title: 'DEEP LEARNING ARCHITECTURES: CNN, RNN, LSTM, GRU, GAN, TRANSFORMERS, AND
+    AUTOENCODERS'
+  date: 2026-07
+  url: https://doi.org/10.58532/nbennur3314c8
+  category: working
+  subcategory: method
+  authors:
+  - Omkar Dengi
+  - SHEETAL SHEVKARI
+  - Shivani Mahajan
+  abstract: 'Deep learning has moved from a specialised research topic to the default
+    toolkit for problems involving images, sequences, language, and generative content.
+    Yet the field is not a single technique; it is a collection of architectural ideas,
+    each shaped by the structure of the data it was designed to model. This chapter
+    offers a conceptual and practical tour of seven architectures that a student or
+    early researcher is most likely to encounter: convolutional neural networks, recurrent
+    neural networks, long short-term memory networks, gated recurrent units, generative
+    adversarial networks, the transformer, and autoencoders. Rather than presenting
+    these models as isolated equations, the chapter builds each one from the limitations
+    of the one before it, so that the reasoning behind gates, attention, and adversarial
+    training becomes intuitive rather than memorised. Working mechanisms, simplified
+    mathematical intuition, architecture diagrams, comparative tables, advantages,
+    limitations, and real-world applications are provided for every model, followed
+    by a discussion of when to prefer one architecture over another and where the
+    field is heading.'
+  venue: ''
+- title: 'Detecting Error in AI-Generated Text: The Effects of Authorship and Word
+    Presentation Speed'
+  date: 2026-01
+  url: https://stars.library.ucf.edu/gradstudies_etd_2026/265
+  category: working
+  subcategory: theory
+  authors:
+  - Gabriela Flores Cruz
+  abstract: 'The increased us of artificial intelligent (AI) chatbots powered by Generative
+    Pre-trained Transformers has raised concerns about users’ ability to detect errors
+    of AI-generated text. This dissertation examined how readers identify inconsistencies
+    in AI-generated expository passages using the inconsistency detection paradigm
+    from comprehension monitoring research. Across two experiments, it investigated
+    whether perceived authorship and word presentation speed influenced inconsistency
+    detection. Experiment 1 used a 3 (author: human, AI, no author) × 2 (inconsistency
+    type: internal, external) between-subjects design. Perceived authorship did not
+    significantly affect hit rates, sensitivity, or response bias. Exploratory analyses
+    indicated that reading comprehension and working memory predicted error detection.
+    Experiment 2 used a 2 (inconsistency type: internal, external) × 3 (word presentation
+    speed: 100, 300, 600 words per minute [WPM]) between-subjects design to examine
+    effects on inconsistency detection and attitudes toward AI. Competing predictions
+    were derived from system attitudes research, which suggests that faster systems
+    are evaluated positively, and cognitive psychology, which predicts that presentation
+    may impair comprehension. Participants in the 100 WPM condition had significantly
+    higher hit rates and a more liberal response bias than those in the 600 WPM condition,
+    suggesting that slower presentation enhanced inconsistency detection. Presentation
+    speed did not influence sensitivity or attitudes toward AI. Overall, the findings
+    supported the cognitive perspective but not the system attitudes perspective.
+    These results extend comprehension monitoring research by showing how external
+    factors such as speed may shape inconsistency detection and inform chatbot design
+    by demonstrating that speed can affect whether users notice and evaluate errors.'
+  venue: Journal of International Crisis and Risk Communication Research
+- title: Pозробка письмового асистента за допомогою сучасних нейромережевих підходів
+    для умовної генерації тексту
+  date: 2024-01
+  url: https://ir.library.knu.ua/handle/15071834/1824
+  category: working
+  subcategory: method
+  authors:
+  - Скуржанський Олександр Григорович
+  abstract: 'The work is devoted to the study of building neural networks for conditional
+    text generation for the development of efficient writing assistant. In today''s
+    world, where the flow of information is gaining exponential momentum, there is
+    an urgent need for innovative technologies to effectively process and interpret
+    these data sets. They include large and heterogeneous sets of information: texts,
+    videos, audio, images, and tabular data. The use of traditional methods to analyze
+    such broad and heterogeneous information is becoming inefficient, which necessitates
+    the creation of innovations in the field of artificial intelligence to effectively
+    address these challenges. In this context, one of the most promising and influential
+    areas of artificial intelligence is natural language processing (NLP). The importance
+    of this field today goes far beyond academic research, penetrating most areas
+    of modern digital life: from daily communication to automation of complex business
+    processes. The emergence of large language models such as ChatGPT, which, despite
+    working exclusively with textual data, has made a breakthrough in bringing artificial
+    intelligence capabilities closer to the human level. Their impressive ability
+    to generate contextually relevant text has opened the door to more complex applications.
+    The development of NLP-based writing assistants is particularly relevant, as these
+    systems play an important role in improving the productivity and quality of daily
+    communication. In a society immersed in a continuous flow of information through
+    numerous platforms, the ability to express thoughts quickly and clearly is key.
+    The market for writing assistants, with its significant economic potential, has
+    demonstrated impressive growth, which is projected to continue its upward trend
+    in the coming years. Recent estimates of the market capitalization reach tens
+    of billions of dollars. Beyond the scope of textual data, the realm of natural
+    language processing is rapidly expanding into multimodal AI, which integrates
+    text, image, and audio processing to create more comprehensive and intuitive systems.
+    This integration reflects the way humans communicate and process information,
+    involving various sensory inputs. With the advancement of multimodal AI, systems
+    can now interpret visual cues alongside textual information, enhancing understanding
+    and interaction. This capability is particularly transformative for industries
+    such as healthcare, where AI can analyze medical images in conjunction with clinical
+    notes to aid in diagnostics, and in customer service, where chatbots can understand
+    and respond to visual and verbal cues, creating a more human-like and satisfying
+    user experience. The integration of these complex functionalities is not only
+    a technological triumph but also a step towards more natural and efficient human-computer
+    interaction, with applications that were previously unattainable in the field
+    of artificial intelligence. In light of these challenges and opportunities, developing
+    your own writing assistant as part of your dissertation is becoming a relevant
+    and promising area in the field of NLP. With the expansion of digital communication,
+    there is a growing need for automated systems that would not only speed up but
+    also increase the accuracy of communication processes. Such an assistant has the
+    potential to become an indispensable tool in everyday life, contributing to professional
+    efficiency and personal growth. This work aims to develop a universal writing
+    assistant that embodies advanced solutions in the field of neural networks to
+    solve a set of tasks for automatically correcting grammatical and spelling errors,
+    paraphrasing text, and simplifying it. By integrating advanced artificial intelligence
+    and machine learning technologies, the tool aims to provide a more efficient and
+    convenient way to improve user messages, which significantly increases the productivity
+    and quality of interpersonal communication. The paper analyzes existing solutions
+    for writing assistant tasks. The principle of operation of the leading practices
+    for solving the above-mentioned tasks of conditional text generation is considered
+    in detail. The common features of the approaches with the method of building a
+    universal solution for solving a combination of tasks are analyzed. The main disadvantage
+    of existing methods is their specialization in specific tasks, which makes it
+    difficult to transfer the acquired practices from one task to another. The article
+    analyzes the methods of text editing based on the use of different types of neural
+    networks for the semantic representation of text elements at the sentence level.
+    The expediency of the transformer architecture for designing a neural network
+    model is noted, while convolutional and recurrent neural networks are considered
+    as alternative solutions. Based on the comparative analysis of methods, the effectiveness
+    of using neural networks to solve the tasks of a writing assistant is shown. In
+    accordance with the goal and objectives of the thesis, the architecture was built
+    and the neural network was trained to perform the tasks of a writing assistant
+    with high quality and efficiency. Below are the main results and scientific novelty.
+    As a result of a comparative analysis of existing leading approaches to solving
+    the tasks of correcting grammatical and spelling errors, simplifying text and
+    paraphrasing, the expediency of • use of a context-aware transformer-type architecture
+    in an encoder-decoder configuration with a large number of attention layers pre-trained
+    on universal tasks of noisy text recovery or generation; • implementation of multi-stage
+    training from the most frequent and lowest quality data to the highest quality
+    data; filtering of training data using reward models. For the first time, a method
+    of combined evaluation of the quality of a writing assistant''s work is proposed,
+    which summarizes the key indicators of efficiency and adequacy of text corrections.
+    A study of existing leading works on the most representative test samples for
+    the relevant tasks is carried out. The analysis of the results shows that not
+    all metrics correlate with human evaluation of the quality of the models'' performance
+    and that it is necessary to apply normalization factors for a balanced combination
+    of tasks. In addition, the literature analysis revealed that some tasks are more
+    important for a writing assistant than others. For example, the task of correcting
+    grammatical and spelling errors is the most important according to users'' expectations.
+    A new training dataset was created from scratch for the tasks of grammatical and
+    spelling error correction, text simplification, and paraphrasing. A state-of-the-art
+    approach using large-scale language models was applied. Using carefully selected
+    textual prompts, rewrites are generated by the advanced ChatGPT model using existing
+    datasets as input sentences; in addition, the generated rewrites are automatically
+    evaluated in terms of rewrite quality by another large language model LLaMA-2
+    to improve the quality of the final dataset. Furthermore, it is shown that the
+    generated data significantly improves the quality of individual and universal
+    models on the test sets. A large number of experiments have been conducted to
+    build an optimal configuration for training neural networks capable of performing
+    individual tasks of a writing assistant: 1. an individual baseline neural network
+    was trained for each of the above tasks; 2. a comparative analysis of the obtained
+    models in relation to the existing leading approaches; 3. the influence of training
+    parameters (learning rate, number of steps, training optimization, schedule, and
+    batch size) was evaluated; 4. different types of neural networks and architectures
+    and their impact on the final quality of the model are considered; 5. different
+    existing datasets and their combination during training, multi-stage approach
+    are used; 6. analyzed various pre-trained models and conducted our own pre-training
+    attempts; 7. the impact of using a dataset generated by large language models
+    was evaluated. Experiments were conducted to combine tasks of a writing assistant
+    for a single universal meta-model. Various approaches were used: training specialized
+    tokens of vector representations, dividing the layers of the neural network into
+    common (reused between tasks) and individual (for individual tasks), and using
+    the architecture of adapters. The resulting universal systems are analyzed using
+    the proposed combined metric. The effectiveness of the approaches in terms of
+    the number of parameters per task and quality unit is calculated. Finally, the
+    resulting model is optimized to speed up its operation, avoiding a significant
+    loss of quality on the tasks of a writing assistant and the combined metric. Various
+    strategies are considered, such as quantizing weights into lower-precision formats,
+    distributed inference, efficient memory management, and knowledge distillation.
+    We also analyze software libraries for accelerating text generation such as ONNX.'
+  venue: eKNUTSHIR
+- title: Scaling Supervised Local Learning with Augmented Auxiliary Networks
+  date: 2024-02
+  url: https://arxiv.org/abs/2402.17318
+  category: working
+  subcategory: method
+  authors:
+  - Chenxiang Ma
+  - Jibin Wu
+  - Chenyang Si
+  abstract: Deep neural networks are typically trained using global error signals
+    that backpropagate (BP) end-to-end, which is not only biologically implausible
+    but also suffers from the update locking problem and requires huge memory consumption.
+    Local learning, which updates each layer independently with a gradient-isolated
+    auxiliary network, offers a promising alternative to address the above problems.
+    However, existing local learning methods are confronted with a large accuracy
+    gap with the BP counterpart, particularly for large-scale networks. This is due
+    to the weak coupling between local layers and their subsequent network layers,
+    as there is no gradient communication across layers. To tackle this issue, we
+    put forward an augmented local learning method, dubbed AugLocal. AugLocal constructs
+    each hidden layer's auxiliary network by uniformly selecting a small subset of
+    layers from its subsequent network layers to enhance their synergy. We also propose
+    to linearly reduce the depth of auxiliary networks as the hidden layer goes deeper,
+    ensuring sufficient network capacity while reducing the computational cost of
+    auxiliary networks. Our extensive experiments on four image classification datasets
+    (i.e., CIFAR-10, SVHN, STL-10, and ImageNet) demonstrate that AugLocal can effectively
+    scale up to tens of local layers with a comparable accuracy to BP-trained networks
+    while reducing GPU memory usage by around 40%. The proposed AugLocal method, therefore,
+    opens up a myriad of opportunities for training high-performance deep neural networks
+    on resource-constrained platforms.Code is available at https://github.com/ChenxiangMA/AugLocal.
+  venue: arXiv (Cornell University)
+- title: Relational Neural Networks with Memory-Augmented Attention
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22137017
+  category: working
+  subcategory: theory
+  authors:
+  - Jincheng Zhang
+  abstract: This paper introduces a novel neural network architecture, Relational
+    Neural Networks with Memory-Augmented Attention (RNN-MAA), designed to address
+    the limitations of traditional Recurrent Neural Networks (RNNs) in capturing long-range
+    dependencies and effectively utilizing external memory. The core idea is to augment
+    RNNs with a memory module coupled with an attention mechanism. The attention mechanism
+    enables the network to selectively retrieve and integrate relevant information
+    from the memory, guided by both the current input and the internal state of the
+    RNN. This integration significantly enhances the network's ability to model complex,
+    sequential data with long-range dependencies. We demonstrate, through a theoretical
+    analysis and a detailed architectural description, how this combination of relational
+    learning, memory augmentation, and attention provides a robust solution for tasks
+    requiring understanding of intricate temporal and relational patterns. The proposed
+    architecture offers a significant step forward in neural network design for tasks
+    such as natural language processing, time series analysis, and graph neural networks.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Graph Neural Networks with Memory-Augmented Attention
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22154123
+  category: working
+  subcategory: theory
+  authors:
+  - Jincheng Zhang
+  abstract: This paper explores the integration of memory augmentation with attention
+    mechanisms within Graph Neural Networks (GNNs). Traditional GNNs often struggle
+    to effectively model long-range dependencies in graphs due to the limitations
+    of message passing. We propose a novel architecture where attention mechanisms
+    are augmented with an external memory module. This memory module acts as a repository
+    for storing and retrieving relevant graph state information, enabling the model
+    to capture and utilize long-range dependencies more effectively. The core claim
+    is that attention mechanisms in GNNs can be significantly enhanced by incorporating
+    external memory. The proposed mechanism improves the model's ability to learn
+    complex graph representations and perform tasks requiring understanding of global
+    graph structure. We demonstrate the effectiveness of this approach through theoretical
+    analysis and a conceptual framework. The primary contribution is a new paradigm
+    for GNN design focused on explicitly incorporating external memory to address
+    the limitations of standard GNN architectures.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Dynamic Neural Networks with Memory-Augmented Attention
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22136100
+  category: working
+  subcategory: method
+  authors:
+  - Jincheng Zhang
+  abstract: This paper proposes a novel dynamic neural network architecture designed
+    to overcome the limitations of traditional networks in handling long-term dependencies.
+    The core idea is to integrate a memory module with an attention mechanism, enabling
+    the network to selectively attend to and retain pertinent information from its
+    past experiences. We introduce a framework where the memory module acts as a temporal
+    buffer, storing past states, and the attention mechanism dynamically weights the
+    importance of these stored states when processing current inputs. This approach
+    allows the network to learn and utilize complex temporal patterns more effectively.
+    The architecture is formally defined with equations detailing the memory update
+    rule, the attention weighting process, and the overall network flow. The resulting
+    system demonstrates improved performance in tasks requiring long-range context
+    understanding compared to standard recurrent neural networks. The key contribution
+    lies in the synergistic combination of memory augmentation and attention, providing
+    a robust solution for dynamic sequence modeling.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Taking lessons from history: Memory Augmented Self Distillation for graph
+    neural networks'
+  date: 2026-08
+  url: https://doi.org/10.1007/s10618-026-01258-z
+  category: working
+  subcategory: theory
+  authors:
+  - Saurabh Sharma
+  - Souvik Chowdhury
+  - Joydeep Chandra
+  abstract: ''
+  venue: Data Mining and Knowledge Discovery
+- title: A survey on AI-augmented Secure RTL design for hardware trojan prevention
+  date: 2025-03
+  url: https://doi.org/10.30574/ijsra.2025.14.3.0644
+  category: working
+  subcategory: method
+  authors:
+  - Raj Parikh
+  - Kejal Parikh
+  abstract: 'Once, discrete circuit elements, called components, were heaped up on
+    boards inside steel cages using wire-lead technology in just five short years.
+    Fast forward to today, and your computer CPU fits about half an inch square on
+    a chip. Both this constant miniaturization of electronic circuits and the rapid
+    growth in the prevalence of third-party intellectual property parts have made
+    hardware protection more worrisome than ever. Among all these issues, Hardware
+    Trojans (HTs)—which represent corrupted or harmful additions during various design
+    and fabrication stages—pose significant threats to system integrity, privacy of
+    data, and essential infrastructure. Recent studies have investigated machine learning
+    (ML) and artificial intelligence (AI) techniques designed to enable Hardware Trojans
+    to be found, located, and eliminated in all stages from the register transfer
+    level (RTL) and beyond. This survey gives an in-depth look at how AI can enhance
+    RTL security. It classifies these AI-based techniques into four main categories:
+    Graph-Based Techniques GNNs, for instance, can be used to estimate the topology
+    of circuits, extract structural characteristics, and thus find where some corruption
+    has occurred. The SALTY framework applies Jumping-Knowledge GNNs to improve the
+    accuracy location for hardware Trojans. Deep Learning in Side-Channel and Power-Analysis
+    Techniques Deep learning methods—such as Siamese Neural Networks (SNNs) and Long
+    Short-Term Memory (LSTM) models—have been developed to detect abnormalities brought
+    about by Trojans in power consumption or electromagnetic (EM) radiation, granting
+    non-invasive practices clear security benefits. Studies show that these techniques
+    are superior to the traditional golden-model side-channel detection techniques.
+    Machine Learning Analysis of RTL Code: In conjunction with AI, research teams
+    are now building nearest-neighbor classifiers and decision trees and using reinforcement
+    learning (RL) to recognize occurrences of Trojans inside RTL code. Some research
+    uses Verilog/VHDL conditional statements as features for ML, making it possible
+    for early warning signals to be effectively detected and introducing a proactive
+    security mechanism during the design phase. Comprehensive Security Measures and
+    Logic Locking: A step-by-step methodology has evolved for prevention measures
+    such as logic locking and layout hardening, which aims against a splendid prospect
+    within reach. The TroLLoc framework uses logic obfuscation combined with security-aware
+    placement and routing, thus mitigating security exposures post-design. However,
+    comprehensive studies point out several outstanding problems: key recovery attacks
+    and unintended data leakage related to security in logic locking. In this way,
+    the paper evaluates various AI-driven security strategies in an organized, facilitative
+    manner, thereby highlighting significant challenges and proposing future research
+    directions.'
+  venue: International Journal of Science and Research Archive
+- title: 'AI-Powered Shield: Transforming Cybersecurity with Neural Network Innovations
+    (Preprint)'
+  date: 2024-11
+  url: https://dx.doi.org/10.2196/preprints.69000
+  category: working
+  subcategory: theory
+  authors:
+  - Asad Ali
+  abstract: 'BACKGROUND The increasing sophistication and frequency of cyber threats
+    have rendered traditional cybersecurity measures insufficient. Cyberattacks such
+    as phishing, ransomware, and advanced persistent threats (APTs) now exploit vulnerabilities
+    in complex, interconnected systems, necessitating more robust and adaptive defenses.
+    Artificial intelligence (AI), particularly neural network-based technologies,
+    has emerged as a transformative force in this domain. Neural networks, inspired
+    by the human brain''s structure, excel in pattern recognition, anomaly detection,
+    and predictive modeling, making them ideal for combating dynamic and unpredictable
+    cyber threats. Over the past decade, advancements in deep learning have enabled
+    the development of powerful architectures like convolutional neural networks (CNNs)
+    for pattern recognition, recurrent neural networks (RNNs) for sequential data
+    analysis, and generative adversarial networks (GANs) for simulating attack scenarios.
+    These innovations have been integrated into cybersecurity systems to enhance real-time
+    threat detection, automate incident response, and improve overall resilience.
+    Despite their promise, challenges remain, including adversarial attacks that can
+    deceive neural networks, computational overhead, and ethical concerns related
+    to AI''s deployment. This background sets the stage for exploring how neural network
+    innovations are transforming cybersecurity by addressing these challenges and
+    providing adaptive, intelligent defenses against evolving threats. OBJECTIVE The
+    objective of this study is to explore the transformative role of neural network
+    innovations in enhancing cybersecurity systems. Specifically, the study aims to:
+    1. Investigate Neural Network Applications: Analyze how advanced neural network
+    architectures, such as CNNs, RNNs, and GANs, are applied to detect, predict, and
+    mitigate diverse cyber threats in real-time. 2. Enhance Cyber Defense Capabilities:
+    Assess the effectiveness of neural networks in improving anomaly detection, threat
+    intelligence, and automated incident response mechanisms. 3. Address Challenges
+    in Implementation: Identify and propose solutions to challenges such as adversarial
+    vulnerabilities, computational costs, and ethical concerns associated with neural
+    network-based cybersecurity systems. 4. Propose an Integrated Framework: Develop
+    recommendations for integrating AI-powered neural networks into existing cybersecurity
+    infrastructures to bolster adaptive and proactive threat management. By achieving
+    these objectives, the study seeks to contribute to the development of resilient,
+    intelligent, and scalable cybersecurity solutions for protecting critical systems
+    and data in an increasingly interconnected digital landscape. METHODS This study
+    employs a mixed-methods approach to explore the role of neural network innovations
+    in cybersecurity. The methodology includes: 1. Literature Review: o Conduct an
+    in-depth review of existing research on AI and neural networks in cybersecurity.
+    o Analyze key advancements in architectures such as convolutional neural networks
+    (CNNs), recurrent neural networks (RNNs), and generative adversarial networks
+    (GANs). 2. Experimental Analysis: o Design and implement neural network models
+    for specific cybersecurity applications, including anomaly detection, threat prediction,
+    and automated incident response. o Use publicly available datasets, such as NSL-KDD
+    and CICIDS, to train, test, and validate the models. 3. Comparative Evaluation:
+    o Compare the performance of neural network models with traditional cybersecurity
+    techniques based on metrics such as accuracy, detection speed, and false positive
+    rates. 4. Case Studies: o Analyze real-world implementations of neural network-based
+    cybersecurity systems in industries such as finance, healthcare, and critical
+    infrastructure. o Evaluate their effectiveness in mitigating cyber threats and
+    enhancing defense mechanisms. 5. Challenges and Solutions Analysis: o Identify
+    potential adversarial vulnerabilities, ethical concerns, and resource constraints
+    in deploying neural networks. o Propose strategies for overcoming these challenges,
+    including explainability frameworks and adversarial training. 6. Framework Development:
+    o Develop an integrated framework for incorporating AI-powered neural networks
+    into existing cybersecurity infrastructures. o Ensure scalability, adaptability,
+    and compliance with ethical and regulatory standards. This methodological approach
+    combines theoretical insights, experimental validation, and practical applications
+    to provide a comprehensive understanding of the potential and limitations of neural
+    network innovations in cybersecurity. RESULTS Results The study yielded the following
+    key findings: 1. Improved Threat Detection Accuracy: Neural network models, such
+    as convolutional neural networks (CNNs) and recurrent neural networks (RNNs),
+    demonstrated superior accuracy in detecting both known and zero-day cyber threats
+    compared to traditional methods. The CNN-based model achieved a detection accuracy
+    of 97.8% on the CICIDS dataset. 2. Real-Time Anomaly Detection: Recurrent neural
+    networks (RNNs) and long short-term memory (LSTM) networks effectively identified
+    anomalous patterns in network traffic with minimal latency, showcasing their ability
+    to operate in real-time environments. 3. Enhanced Resilience to Evolving Threats:
+    Generative adversarial networks (GANs) proved effective in simulating diverse
+    attack scenarios, enabling proactive defense strategies. Models trained with GAN-augmented
+    datasets were more resilient to advanced persistent threats (APTs). 4. Reduced
+    False Positives: AI-powered models reduced false positive rates by 23% compared
+    to traditional signature-based systems, minimizing unnecessary alerts and improving
+    response efficiency. 5. Automated Incident Response: Neural networks integrated
+    with reinforcement learning frameworks enabled dynamic decision-making for automated
+    incident response, reducing response times by 45%. 6. Addressing Adversarial Vulnerabilities:
+    Adversarial training techniques improved model robustness, reducing susceptibility
+    to adversarial attacks by up to 30%. 7. Challenges Identified: o Computational
+    costs of training deep learning models were significant, requiring optimization
+    for practical deployment. o Ethical concerns, including privacy and bias in data
+    handling, were highlighted as critical areas for improvement. These results demonstrate
+    the transformative potential of neural network innovations in cybersecurity, emphasizing
+    their ability to enhance detection accuracy, adapt to evolving threats, and improve
+    overall system efficiency. CONCLUSIONS The study highlights the transformative
+    potential of neural network innovations in addressing the growing complexity of
+    cybersecurity threats. By leveraging advanced architectures such as CNNs, RNNs,
+    and GANs, AI-powered systems can significantly enhance threat detection, anomaly
+    identification, and automated incident response. The findings underscore the following
+    conclusions: 1. Effectiveness in Cyber Defense: Neural networks outperform traditional
+    methods in detecting and mitigating both known and emerging threats, providing
+    robust and adaptive solutions to modern cybersecurity challenges. 2. Proactive
+    and Real-Time Capabilities: Models such as GANs and reinforcement learning frameworks
+    enable proactive threat simulations and real-time responses, improving the resilience
+    of cybersecurity systems against evolving attack vectors. 3. Reduction of Operational
+    Inefficiencies: The integration of neural networks reduces false positive rates
+    and response times, streamlining incident management and minimizing resource wastage.
+    4. Challenges and Ethical Considerations: While neural networks offer substantial
+    benefits, challenges such as adversarial vulnerabilities, high computational costs,
+    and ethical concerns around data privacy and bias need to be addressed to ensure
+    widespread adoption and trust. 5. Future Prospects: The development of explainable
+    AI (XAI), adversarial training methods, and resource-efficient neural network
+    models is critical for advancing the practical implementation of these technologies
+    in cybersecurity. In conclusion, neural network innovations are reshaping the
+    cybersecurity landscape, offering intelligent, adaptive, and scalable solutions
+    to counter increasingly sophisticated cyber threats. However, addressing technical
+    and ethical challenges will be essential to fully realize their potential and
+    build secure, trustworthy systems.'
+  venue: ''
+- title: Quantum Computing Impacts on Smart City Cybersecurity Through Resilient Defense
+    Framework
+  date: 2025-01
+  url: https://doi.org/10.71346/utj.v1i1.8
+  category: working
+  subcategory: theory
+  authors:
+  - Amna Khatoon
+  - Rubina Riaz
+  abstract: The research investigates the implications of quantum computing on smart
+    city infrastructure with a specific focus on addressing cybersecurity challenges.
+    Smart cities, reliant on interconnected systems, are increasingly vulnerable to
+    zero-day attacks exacerbated by quantum computing advancements. This study aims
+    to develop a robust defense framework integrating quantum-resilient cryptographic
+    techniques, artificial intelligence-based anomaly detection systems, and hybrid
+    quantum-classical simulations. The methodology utilizes lattice-based encryption
+    schemes and hash-based signatures to fortify communications, while machine learning
+    models such as Long Short-Term Memory networks and Convolutional Neural Networks
+    identify complex patterns indicative of cyber threats. Evaluation within a simulated
+    smart city environment demonstrates high detection accuracy of 97.8 percent, reduced
+    false positive rates, and efficient resource consumption, validating the framework’s
+    practical applicability. By bridging theoretical advancements and practical implementation,
+    this work enhances the resilience of urban infrastructures against quantum-augmented
+    threats. Findings contribute to the growing body of knowledge by offering scalable
+    and adaptable solutions tailored to the resource-constrained nature of smart cities.
+    Future research can extend this work by addressing energy efficiency, interoperability
+    across sectors, and incorporating federated learning paradigms to enhance distributed
+    anomaly detection. These advancements hold significant implications for securing
+    next-generation urban systems while ensuring sustainability and operational efficiency.
+  venue: Ubiquitous Technology Journal
+- title: The early warning method for offshore wind turbine gearbox oil temperature
+    based on FSTAE-ATT
+  date: 2025-08
+  url: https://doi.org/10.1016/j.suscom.2025.101180
+  category: working
+  subcategory: method
+  authors:
+  - Anping Wan
+  - Shuai Peng
+  - Khalil AL-Bukhaiti
+  abstract: ''
+  venue: Sustainable Computing Informatics and Systems
