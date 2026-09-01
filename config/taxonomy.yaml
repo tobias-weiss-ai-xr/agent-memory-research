@@ -2,7 +2,7 @@ topic:
   name: Agent Memory
   short: agent-memory
   description: '- GitHub: https://github.com/tobias-weiss-ai-xr/agent-memory-research'
-  openalex_mailto: research@tobias-weiss-ai-xr.de
+  openalex_mailto: tobias@tobias-weiss.org
 taxonomy:
   categories:
   - id: factual
