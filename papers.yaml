@@ -289381,3 +289381,170 @@ papers:
     for dataset design and open benchmarking to enable reproducible TinyML development
     for 6G edge intelligence.'
   venue: IEEE Wireless Communications
+- title: Addressing hallucinations in generative AI agents using observability and
+    dual memory knowledge graphs.
+  date: 2026-01
+  url: https://dblp.org/rec/journals/kbs/MatharaarachchiMMGSM26
+  category: factual
+  subcategory: development
+  authors:
+  - ''
+  - ''
+  - ''
+  doi: 10.1016/J.KNOSYS.2026.115469
+  venue: Knowl. Based Syst.
+- title: 'EvoMemKG: An Evolvable Memory Agent for Multi-hop Knowledge Graph Reasoning.'
+  date: 2026-01
+  url: https://dblp.org/rec/conf/acl/TianXHYW26
+  category: factual
+  subcategory: development
+  authors:
+  - ''
+  - ''
+  - ''
+  doi: 10.18653/V1/2026.FINDINGS-ACL.1587
+  venue: ACL
+- title: 'EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting
+    Manipulative Communication in Longitudinal Dialogue.'
+  date: 2026-01
+  url: https://dblp.org/rec/journals/corr/abs-2603-04815
+  category: factual
+  subcategory: development
+  authors:
+  - ''
+  - ''
+  - ''
+  doi: 10.48550/ARXIV.2603.04815
+  venue: CoRR
+- title: 'Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs
+    and Agentic Memory.'
+  date: 2026-01
+  url: https://dblp.org/rec/journals/corr/abs-2604-11544
+  category: factual
+  subcategory: development
+  authors:
+  - ''
+  - ''
+  - ''
+  doi: 10.48550/ARXIV.2604.11544
+  venue: CoRR
+- title: 'FundaPod: A Multi-Persona Agent Pod Platform with Knowledge Graph Memory
+    for AI-Assisted Fundamental Investment Research.'
+  date: 2026-01
+  url: https://dblp.org/rec/journals/corr/abs-2605-27864
+  category: factual
+  subcategory: development
+  authors:
+  - ''
+  - ''
+  - ''
+  doi: 10.48550/ARXIV.2605.27864
+  venue: CoRR
+- title: 'Zep: A Temporal Knowledge Graph Architecture for Agent Memory.'
+  date: 2025-01
+  url: https://dblp.org/rec/journals/corr/abs-2501-13956
+  category: factual
+  subcategory: development
+  authors:
+  - ''
+  - ''
+  - ''
+  doi: 10.48550/ARXIV.2501.13956
+  venue: CoRR
+- title: 'Parametric optimization: Pivoting and predictor-corrector continuation,
+    a survey'
+  date: 1987-12
+  url: https://doi.org/10.1515/9783112720936-010
+  category: factual
+  subcategory: review
+  authors:
+  - J. Guddat
+  doi: 10.1515/9783112720936-010
+  venue: Parametric Optimization and Related Topics
+- title: 'Knowledge Graph: A Survey'
+  date: 2023-06
+  url: https://doi.org/10.33140/jrar.04.02.01
+  category: factual
+  subcategory: review
+  authors: []
+  abstract: This survey discusses the concept of knowledge graphs, including their
+    construction, extraction, and applications. Various tools such as Zotero, Web
+    of Science, Google Scholar, EndNote, and VosViewer are used to analyze and visualize
+    collected data. A Boolean query mechanism ensures the gathered mat
+  doi: 10.33140/jrar.04.02.01
+  venue: Journal of Robotics and Automation Research
+- title: Are working memory models WEIRD? Testing models of working memory in a non-WEIRD
+    sample.
+  date: ''
+  url: https://doi.org/10.37473/dac/10.1037/neu0000811
+  category: working
+  subcategory: mechanism
+  authors: []
+  doi: 10.37473/dac/10.1037/neu0000811
+- title: Working memory training
+  date: 2026-01
+  url: https://doi.org/10.1016/b978-0-443-44982-6.00013-2
+  category: working
+  subcategory: mechanism
+  authors:
+  - Christos Constantinidis
+  doi: 10.1016/b978-0-443-44982-6.00013-2
+  venue: Working Memory
+- title: Working memory modalities
+  date: 2026-01
+  url: https://doi.org/10.1016/b978-0-443-44982-6.00003-x
+  category: working
+  subcategory: mechanism
+  authors:
+  - Christos Constantinidis
+  doi: 10.1016/b978-0-443-44982-6.00003-x
+  venue: Working Memory
+- title: Episodic memory transfer for multi-task reinforcement learning
+  date: 2018-10
+  url: https://doi.org/10.1016/j.bica.2018.09.003
+  category: experiential
+  subcategory: application
+  authors:
+  - Artyom Y. Sorokin
+  - Mikhail S. Burtsev
+  doi: 10.1016/j.bica.2018.09.003
+  venue: Biologically Inspired Cognitive Architectures
+- title: Neural Organization of Episodic Memory and Navigation in Children and Adults.
+  date: 2026-09
+  url: https://doi.org/10.1162/jocn.a.2688
+  category: experiential
+  subcategory: theory
+  authors:
+  - Nguyen KV
+  - Skalaban LJ
+  - Tanriverdi B
+  abstract: Episodic memory and spatial navigation are often viewed as interlinked,
+    in part due to their shared reliance on medial-temporal lobe (MTL) structures.
+    At the same time, there are important differences, for example, natural spatial
+    navigation requires moving one's body through space while episodic me
+  doi: 10.1162/jocn.a.2688
+  venue: MED
+- title: Worry modulates recognition memory and ERP correlates of retrieval.
+  date: 2026-01
+  url: https://doi.org/10.1016/j.neuroscience.2026.08.035
+  category: experiential
+  subcategory: theory
+  authors:
+  - Irak M
+  - Çamoğlu Ö
+  abstract: Worry, as a core cognitive feature of anxiety, is known to impair attention
+    and memory. However, its effects on episodic memory retrieval and the associated
+    neural mechanisms are still underexplored. The present study aimed to explore
+    the relationship between of worry and episodic memory retrieval b
+  doi: 10.1016/j.neuroscience.2026.08.035
+  venue: MED
+- title: Emotion Selection in a Multi-Personality Conversational Agent
+  date: 2017-01
+  url: https://doi.org/10.5220/0006113600340041
+  category: working
+  subcategory: development
+  authors:
+  - Jean-Claude Heudin
+  doi: 10.5220/0006113600340041
+  venue: Proceedings of the 9th International Conference on Agents and Artificial
+    Intelligence

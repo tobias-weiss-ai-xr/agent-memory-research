@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_papers": 10147,
-    "generated_date": "2026-08",
+    "total_papers": 10162,
+    "generated_date": "2026-09",
     "taxonomy": {
       "categories": 4,
       "subcategories": 13,
@@ -15,24 +15,24 @@
     }
   },
   "by_category": {
-    "experiential": 1737,
-    "factual": 4371,
+    "experiential": 1740,
+    "factual": 4379,
     "method": 8,
-    "working": 4031
+    "working": 4035
   },
   "by_subcategory": {
-    "application": 255,
-    "development": 102,
+    "application": 256,
+    "development": 109,
     "evaluation": 157,
     "experiment": 42,
     "latent": 162,
-    "mechanism": 23,
+    "mechanism": 26,
     "method": 3700,
     "parametric": 255,
-    "review": 19,
+    "review": 21,
     "survey": 121,
     "systems": 265,
-    "theory": 1983,
+    "theory": 1985,
     "token-level": 3063
   },
   "by_year": {
@@ -40,6 +40,7 @@
     "1972": 1,
     "1984": 1,
     "1986": 1,
+    "1987": 1,
     "1988": 1,
     "1994": 1,
     "1998": 2,
@@ -56,16 +57,16 @@
     "2013": 2,
     "2015": 1,
     "2016": 1,
-    "2017": 1,
-    "2018": 5,
+    "2017": 2,
+    "2018": 6,
     "2019": 8,
     "2020": 12,
     "2021": 46,
     "2022": 128,
-    "2023": 685,
+    "2023": 686,
     "2024": 2349,
-    "2025": 2913,
-    "2026": 3966
+    "2025": 2914,
+    "2026": 3975
   },
   "by_cell": {
     "working/method": 1694,
@@ -75,8 +76,8 @@
     "working/token-level": 785,
     "experiential/token-level": 751,
     "factual/theory": 620,
+    "experiential/theory": 382,
     "experiential/method": 381,
-    "experiential/theory": 380,
     "factual/parametric": 145,
     "working/systems": 144,
     "working/application": 120,
@@ -87,22 +88,22 @@
     "working/latent": 80,
     "experiential/parametric": 70,
     "factual/evaluation": 57,
-    "working/development": 51,
+    "working/development": 52,
     "factual/latent": 48,
-    "factual/development": 42,
+    "factual/development": 48,
     "working/parametric": 40,
     "experiential/latent": 34,
+    "experiential/application": 29,
     "experiential/systems": 29,
-    "experiential/application": 28,
     "working/experiment": 24,
-    "factual/review": 19,
+    "factual/review": 21,
     "working/survey": 19,
     "experiential/evaluation": 17,
     "experiential/mechanism": 15,
     "experiential/survey": 13,
+    "working/mechanism": 11,
     "experiential/experiment": 10,
     "experiential/development": 9,
-    "working/mechanism": 8,
     "method/method": 8,
     "factual/experiment": 8
   },
@@ -113,11 +114,11 @@
     },
     {
       "keyword": "retrieval",
-      "papers": 1336
+      "papers": 1337
     },
     {
       "keyword": "agent",
-      "papers": 2617
+      "papers": 2622
     },
     {
       "keyword": "experiential",
@@ -129,11 +130,11 @@
     },
     {
       "keyword": "graph",
-      "papers": 977
+      "papers": 982
     },
     {
       "keyword": "episodic",
-      "papers": 471
+      "papers": 473
     },
     {
       "keyword": "long-term",
@@ -152,24 +153,24 @@
     {
       "id": "experiential",
       "name": "Experiential",
-      "total": 1737,
-      "recent": 1033,
+      "total": 1740,
+      "recent": 1035,
       "prior": 388,
-      "growth_pct": 166.2,
+      "growth_pct": 166.8,
       "recent_share": 0.595,
-      "papers_per_month": 86.1,
-      "score": 225.7
+      "papers_per_month": 86.2,
+      "score": 226.3
     },
     {
       "id": "factual",
       "name": "Factual",
-      "total": 4371,
-      "recent": 2320,
-      "prior": 1180,
-      "growth_pct": 96.6,
+      "total": 4379,
+      "recent": 2325,
+      "prior": 1181,
+      "growth_pct": 96.9,
       "recent_share": 0.531,
-      "papers_per_month": 193.3,
-      "score": 149.7
+      "papers_per_month": 193.8,
+      "score": 150.0
     },
     {
       "id": "method",
@@ -185,19 +186,20 @@
     {
       "id": "working",
       "name": "Working",
-      "total": 4031,
-      "recent": 1615,
+      "total": 4035,
+      "recent": 1617,
       "prior": 1157,
-      "growth_pct": 39.6,
+      "growth_pct": 39.8,
       "recent_share": 0.401,
-      "papers_per_month": 134.6,
-      "score": 79.7
+      "papers_per_month": 134.8,
+      "score": 79.9
     }
   ],
   "category_trajectory": {
     "experiential": {
       "2004": 1,
       "2008": 1,
+      "2018": 1,
       "2019": 3,
       "2020": 3,
       "2021": 6,
@@ -205,13 +207,14 @@
       "2023": 105,
       "2024": 279,
       "2025": 515,
-      "2026": 807
+      "2026": 809
     },
     "factual": {
       "1961": 1,
       "1972": 1,
       "1984": 1,
       "1986": 1,
+      "1987": 1,
       "1988": 1,
       "1994": 1,
       "2003": 1,
@@ -226,10 +229,10 @@
       "2020": 3,
       "2021": 5,
       "2022": 22,
-      "2023": 245,
+      "2023": 246,
       "2024": 896,
-      "2025": 1345,
-      "2026": 1835
+      "2025": 1346,
+      "2026": 1840
     },
     "method": {
       "2026": 8
@@ -243,7 +246,7 @@
       "2012": 2,
       "2013": 1,
       "2015": 1,
-      "2017": 1,
+      "2017": 2,
       "2018": 3,
       "2019": 5,
       "2020": 6,
@@ -252,7 +255,7 @@
       "2023": 335,
       "2024": 1174,
       "2025": 1053,
-      "2026": 1316
+      "2026": 1318
     }
   },
   "keyword_bursts": [
@@ -261,21 +264,21 @@
       "recent": 169,
       "total": 230,
       "burst_score": 1.5,
-      "recent_share": 0.034
+      "recent_share": 0.0339
     },
     {
       "keyword": "retrieval",
-      "recent": 1336,
-      "total": 1922,
+      "recent": 1337,
+      "total": 1923,
       "burst_score": 1.42,
-      "recent_share": 0.2685
+      "recent_share": 0.2682
     },
     {
       "keyword": "agent",
-      "recent": 2617,
-      "total": 3823,
+      "recent": 2622,
+      "total": 3830,
       "burst_score": 1.4,
-      "recent_share": 0.5259
+      "recent_share": 0.526
     },
     {
       "keyword": "experiential",
@@ -287,85 +290,85 @@
     {
       "keyword": "conversational",
       "recent": 341,
-      "total": 515,
+      "total": 516,
       "burst_score": 1.35,
-      "recent_share": 0.0685
+      "recent_share": 0.0684
     },
     {
       "keyword": "graph",
-      "recent": 977,
-      "total": 1584,
+      "recent": 982,
+      "total": 1591,
       "burst_score": 1.26,
-      "recent_share": 0.1963
+      "recent_share": 0.197
     },
     {
       "keyword": "episodic",
-      "recent": 471,
-      "total": 782,
+      "recent": 473,
+      "total": 785,
       "burst_score": 1.23,
-      "recent_share": 0.0947
+      "recent_share": 0.0949
     },
     {
       "keyword": "long-term",
       "recent": 718,
       "total": 1207,
       "burst_score": 1.21,
-      "recent_share": 0.1443
+      "recent_share": 0.144
     },
     {
       "keyword": "architecture",
       "recent": 1372,
-      "total": 2378,
+      "total": 2379,
       "burst_score": 1.18,
-      "recent_share": 0.2757
+      "recent_share": 0.2752
     },
     {
       "keyword": "language",
       "recent": 1802,
       "total": 3190,
       "burst_score": 1.15,
-      "recent_share": 0.3621
+      "recent_share": 0.3615
     },
     {
       "keyword": "augmented",
       "recent": 1013,
       "total": 1797,
       "burst_score": 1.15,
-      "recent_share": 0.2036
+      "recent_share": 0.2032
     },
     {
       "keyword": "experience",
       "recent": 748,
       "total": 1355,
       "burst_score": 1.13,
-      "recent_share": 0.1503
+      "recent_share": 0.1501
     },
     {
       "keyword": "parametric",
       "recent": 401,
-      "total": 730,
+      "total": 731,
       "burst_score": 1.12,
-      "recent_share": 0.0806
+      "recent_share": 0.0804
     },
     {
       "keyword": "knowledge",
-      "recent": 1402,
-      "total": 2610,
+      "recent": 1407,
+      "total": 2617,
       "burst_score": 1.1,
-      "recent_share": 0.2818
+      "recent_share": 0.2822
     },
     {
       "keyword": "replay",
       "recent": 287,
       "total": 555,
       "burst_score": 1.05,
-      "recent_share": 0.0577
+      "recent_share": 0.0576
     }
   ],
   "source_breakdown": {
     "arxiv": 3523,
-    "doi": 6243,
-    "other": 381
+    "doi": 6252,
+    "other": 387
   },
   "venues": [
     {
@@ -432,10 +435,6 @@
   "gaps": {
     "thinnest_cells": [
       {
-        "cell": "working/mechanism",
-        "papers": 8
-      },
-      {
         "cell": "method/method",
         "papers": 8
       },
@@ -452,6 +451,10 @@
         "papers": 10
       },
       {
+        "cell": "working/mechanism",
+        "papers": 11
+      },
+      {
         "cell": "experiential/survey",
         "papers": 13
       },
@@ -464,12 +467,12 @@
         "papers": 17
       },
       {
-        "cell": "factual/review",
+        "cell": "working/survey",
         "papers": 19
       },
       {
-        "cell": "working/survey",
-        "papers": 19
+        "cell": "factual/review",
+        "papers": 21
       }
     ],
     "white_space": [
@@ -508,6 +511,12 @@
         "total": 8,
         "recent": 4,
         "recent_share": 0.5
+      },
+      {
+        "cell": "working/mechanism",
+        "total": 11,
+        "recent": 4,
+        "recent_share": 0.36
       },
       {
         "cell": "experiential/survey",

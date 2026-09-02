@@ -1,5 +1,19 @@
 [
  {
+  "title": "Neural Organization of Episodic Memory and Navigation in Children and Adults.",
+  "date": "2026-09",
+  "url": "https://doi.org/10.1162/jocn.a.2688",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Nguyen KV",
+   "Skalaban LJ",
+   "Tanriverdi B"
+  ],
+  "abstract": "Episodic memory and spatial navigation are often viewed as interlinked, in part due to their shared reliance on medial-temporal lobe (MTL) structures. At the same time, there are important differences, for example, natural spatial navigation requires moving one's body through space while episodic me",
+  "venue": "MED"
+ },
+ {
   "title": "MutMem: Cryptographically Authorized Mutation in Persistent Agent Memory",
   "date": "2026-08",
   "url": "https://arxiv.org/abs/2608.02843",
@@ -52298,6 +52312,113 @@
   "venue": "IEEE Access"
  },
  {
+  "title": "Addressing hallucinations in generative AI agents using observability and dual memory knowledge graphs.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/kbs/MatharaarachchiMMGSM26",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "Knowl. Based Syst."
+ },
+ {
+  "title": "EvoMemKG: An Evolvable Memory Agent for Multi-hop Knowledge Graph Reasoning.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/conf/acl/TianXHYW26",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "ACL"
+ },
+ {
+  "title": "EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2603-04815",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2604-11544",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "FundaPod: A Multi-Persona Agent Pod Platform with Knowledge Graph Memory for AI-Assisted Fundamental Investment Research.",
+  "date": "2026-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2605-27864",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
+ },
+ {
+  "title": "Working memory training",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/b978-0-443-44982-6.00013-2",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [
+   "Christos Constantinidis"
+  ],
+  "abstract": "",
+  "venue": "Working Memory"
+ },
+ {
+  "title": "Working memory modalities",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/b978-0-443-44982-6.00003-x",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [
+   "Christos Constantinidis"
+  ],
+  "abstract": "",
+  "venue": "Working Memory"
+ },
+ {
+  "title": "Worry modulates recognition memory and ERP correlates of retrieval.",
+  "date": "2026-01",
+  "url": "https://doi.org/10.1016/j.neuroscience.2026.08.035",
+  "category": "experiential",
+  "subcategory": "theory",
+  "authors": [
+   "Irak M",
+   "\u00c7amo\u011flu \u00d6"
+  ],
+  "abstract": "Worry, as a core cognitive feature of anxiety, is known to impair attention and memory. However, its effects on episodic memory retrieval and the associated neural mechanisms are still underexplored. The present study aimed to explore the relationship between of worry and episodic memory retrieval b",
+  "venue": "MED"
+ },
+ {
   "title": "From Context to EDUs: Faithful and Structured Context Compression via Elementary Discourse Unit Decomposition",
   "date": "2025-12",
   "url": "https://arxiv.org/abs/2512.14244",
@@ -90949,6 +91070,20 @@
   ],
   "abstract": "",
   "venue": "SSRN Electronic Journal"
+ },
+ {
+  "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory.",
+  "date": "2025-01",
+  "url": "https://dblp.org/rec/journals/corr/abs-2501-13956",
+  "category": "factual",
+  "subcategory": "development",
+  "authors": [
+   "",
+   "",
+   ""
+  ],
+  "abstract": "",
+  "venue": "CoRR"
  },
  {
   "title": "AI PERSONA: Towards Life-long Personalization of LLMs",
@@ -130668,6 +130803,16 @@
   "venue": "Bipolar Disorders"
  },
  {
+  "title": "Knowledge Graph: A Survey",
+  "date": "2023-06",
+  "url": "https://doi.org/10.33140/jrar.04.02.01",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [],
+  "abstract": "This survey discusses the concept of knowledge graphs, including their construction, extraction, and applications. Various tools such as Zotero, Web of Science, Google Scholar, EndNote, and VosViewer are used to analyze and visualize collected data. A Boolean query mechanism ensures the gathered mat",
+  "venue": "Journal of Robotics and Automation Research"
+ },
+ {
   "title": "RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text",
   "date": "2023-05",
   "url": "https://arxiv.org/abs/2305.13304",
@@ -134416,6 +134561,19 @@
   "venue": "Proceedings of the 11th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management"
  },
  {
+  "title": "Episodic memory transfer for multi-task reinforcement learning",
+  "date": "2018-10",
+  "url": "https://doi.org/10.1016/j.bica.2018.09.003",
+  "category": "experiential",
+  "subcategory": "application",
+  "authors": [
+   "Artyom Y. Sorokin",
+   "Mikhail S. Burtsev"
+  ],
+  "abstract": "",
+  "venue": "Biologically Inspired Cognitive Architectures"
+ },
+ {
   "title": "Unsupervised Multi-Object Detection for Video Surveillance Using Memory-Based Recurrent Attention Networks",
   "date": "2018-09",
   "url": "https://doi.org/10.3390/sym10090375",
@@ -134514,6 +134672,18 @@
   ],
   "abstract": "",
   "venue": "Proceedings of the 2017 Conference on Empirical Methods in Natural\n          Language Processing"
+ },
+ {
+  "title": "Emotion Selection in a Multi-Personality Conversational Agent",
+  "date": "2017-01",
+  "url": "https://doi.org/10.5220/0006113600340041",
+  "category": "working",
+  "subcategory": "development",
+  "authors": [
+   "Jean-Claude Heudin"
+  ],
+  "abstract": "",
+  "venue": "Proceedings of the 9th International Conference on Agents and Artificial Intelligence"
  },
  {
   "title": "A Survey of Prevention/Mitigation against Memory Corruption Attacks",
@@ -134891,6 +135061,18 @@
   "venue": "Language, Memory, and Aging"
  },
  {
+  "title": "Parametric optimization: Pivoting and predictor-corrector continuation, a survey",
+  "date": "1987-12",
+  "url": "https://doi.org/10.1515/9783112720936-010",
+  "category": "factual",
+  "subcategory": "review",
+  "authors": [
+   "J. Guddat"
+  ],
+  "abstract": "",
+  "venue": "Parametric Optimization and Related Topics"
+ },
+ {
   "title": "Domain knowledge and linguistic knowledge in the development of writing ability",
   "date": "1986-08",
   "url": "https://doi.org/10.1016/0749-596x(86)90036-7",
@@ -134938,5 +135120,15 @@
   ],
   "abstract": "",
   "venue": "Obstetrical &amp; Gynecological Survey"
+ },
+ {
+  "title": "Are working memory models WEIRD? Testing models of working memory in a non-WEIRD sample.",
+  "date": "",
+  "url": "https://doi.org/10.37473/dac/10.1037/neu0000811",
+  "category": "working",
+  "subcategory": "mechanism",
+  "authors": [],
+  "abstract": "",
+  "venue": ""
  }
 ]
