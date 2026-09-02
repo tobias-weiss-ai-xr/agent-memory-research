@@ -3,7 +3,7 @@
   {
    "id": "experiential",
    "name": "Experiential",
-   "count": 1728,
+   "count": 1737,
    "trajectory": {
     "2004": 1,
     "2008": 1,
@@ -11,27 +11,27 @@
     "2020": 3,
     "2021": 6,
     "2022": 17,
-    "2023": 104,
+    "2023": 105,
     "2024": 279,
     "2025": 515,
-    "2026": 799
+    "2026": 807
    },
    "momentum": {
     "id": "experiential",
     "name": "Experiential",
-    "total": 1728,
-    "recent": 1054,
-    "prior": 380,
-    "growth_pct": 177.4,
-    "recent_share": 0.61,
-    "papers_per_month": 87.8,
-    "score": 238.4
+    "total": 1737,
+    "recent": 1033,
+    "prior": 388,
+    "growth_pct": 166.2,
+    "recent_share": 0.595,
+    "papers_per_month": 86.1,
+    "score": 225.7
    }
   },
   {
    "id": "factual",
    "name": "Factual",
-   "count": 3621,
+   "count": 4371,
    "trajectory": {
     "1961": 1,
     "1972": 1,
@@ -51,21 +51,21 @@
     "2020": 3,
     "2021": 5,
     "2022": 22,
-    "2023": 172,
-    "2024": 590,
-    "2025": 1039,
-    "2026": 1770
+    "2023": 245,
+    "2024": 896,
+    "2025": 1345,
+    "2026": 1835
    },
    "momentum": {
     "id": "factual",
     "name": "Factual",
-    "total": 3621,
-    "recent": 2255,
-    "prior": 801,
-    "growth_pct": 181.5,
-    "recent_share": 0.623,
-    "papers_per_month": 187.9,
-    "score": 243.8
+    "total": 4371,
+    "recent": 2320,
+    "prior": 1180,
+    "growth_pct": 96.6,
+    "recent_share": 0.531,
+    "papers_per_month": 193.3,
+    "score": 149.7
    }
   },
   {
@@ -90,7 +90,7 @@
   {
    "id": "working",
    "name": "Working",
-   "count": 3396,
+   "count": 4031,
    "trajectory": {
     "1998": 2,
     "2000": 3,
@@ -106,21 +106,21 @@
     "2020": 6,
     "2021": 35,
     "2022": 89,
-    "2023": 288,
-    "2024": 926,
-    "2025": 788,
-    "2026": 1241
+    "2023": 335,
+    "2024": 1174,
+    "2025": 1053,
+    "2026": 1316
    },
    "momentum": {
     "id": "working",
     "name": "Working",
-    "total": 3396,
-    "recent": 1514,
-    "prior": 894,
-    "growth_pct": 69.4,
-    "recent_share": 0.446,
-    "papers_per_month": 126.2,
-    "score": 114.0
+    "total": 4031,
+    "recent": 1615,
+    "prior": 1157,
+    "growth_pct": 39.6,
+    "recent_share": 0.401,
+    "papers_per_month": 134.6,
+    "score": 79.7
    }
   }
  ],
@@ -128,22 +128,22 @@
   {
    "id": "application",
    "name": "Application",
-   "count": 198
+   "count": 255
   },
   {
    "id": "development",
    "name": "Development",
-   "count": 93
+   "count": 102
   },
   {
    "id": "evaluation",
    "name": "Evaluation",
-   "count": 130
+   "count": 157
   },
   {
    "id": "experiment",
    "name": "Experiment",
-   "count": 34
+   "count": 42
   },
   {
    "id": "latent",
@@ -158,7 +158,7 @@
   {
    "id": "method",
    "name": "Method",
-   "count": 2842
+   "count": 3700
   },
   {
    "id": "parametric",
@@ -173,17 +173,17 @@
   {
    "id": "survey",
    "name": "Survey",
-   "count": 78
+   "count": 121
   },
   {
    "id": "systems",
    "name": "Systems",
-   "count": 207
+   "count": 265
   },
   {
    "id": "theory",
    "name": "Theory",
-   "count": 1649
+   "count": 1983
   },
   {
    "id": "token-level",
@@ -2100,6 +2100,21 @@
   [
    "2023-09",
    "factual",
+   "method"
+  ],
+  [
+   "2023-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-09",
+   "factual",
    "parametric"
   ],
   [
@@ -2110,6 +2125,11 @@
   [
    "2023-09",
    "factual",
+   "theory"
+  ],
+  [
+   "2023-09",
+   "factual",
    "token-level"
   ],
   [
@@ -2256,6 +2276,36 @@
    "2023-09",
    "working",
    "method"
+  ],
+  [
+   "2023-09",
+   "working",
+   "method"
+  ],
+  [
+   "2023-09",
+   "working",
+   "method"
+  ],
+  [
+   "2023-09",
+   "working",
+   "method"
+  ],
+  [
+   "2023-09",
+   "working",
+   "method"
+  ],
+  [
+   "2023-09",
+   "working",
+   "method"
+  ],
+  [
+   "2023-09",
+   "working",
+   "theory"
   ],
   [
    "2023-09",
@@ -2540,6 +2590,76 @@
   [
    "2023-10",
    "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-10",
+   "factual",
    "parametric"
   ],
   [
@@ -2550,7 +2670,22 @@
   [
    "2023-10",
    "factual",
-   "theory"
+   "survey"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "systems"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "systems"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "systems"
   ],
   [
    "2023-10",
@@ -2595,7 +2730,27 @@
   [
    "2023-10",
    "factual",
-   "token-level"
+   "theory"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "theory"
   ],
   [
    "2023-10",
@@ -2646,6 +2801,21 @@
    "2023-10",
    "factual",
    "token-level"
+  ],
+  [
+   "2023-10",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2023-10",
+   "working",
+   "application"
+  ],
+  [
+   "2023-10",
+   "working",
+   "application"
   ],
   [
    "2023-10",
@@ -2860,12 +3030,57 @@
   [
    "2023-10",
    "working",
+   "method"
+  ],
+  [
+   "2023-10",
+   "working",
+   "method"
+  ],
+  [
+   "2023-10",
+   "working",
+   "method"
+  ],
+  [
+   "2023-10",
+   "working",
+   "method"
+  ],
+  [
+   "2023-10",
+   "working",
+   "method"
+  ],
+  [
+   "2023-10",
+   "working",
+   "method"
+  ],
+  [
+   "2023-10",
+   "working",
+   "method"
+  ],
+  [
+   "2023-10",
+   "working",
+   "method"
+  ],
+  [
+   "2023-10",
+   "working",
    "survey"
   ],
   [
    "2023-10",
    "working",
    "survey"
+  ],
+  [
+   "2023-10",
+   "working",
+   "systems"
   ],
   [
    "2023-10",
@@ -2970,7 +3185,27 @@
   [
    "2023-10",
    "working",
-   "token-level"
+   "theory"
+  ],
+  [
+   "2023-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2023-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2023-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2023-10",
+   "working",
+   "theory"
   ],
   [
    "2023-10",
@@ -2986,6 +3221,16 @@
    "2023-10",
    "working",
    "token-level"
+  ],
+  [
+   "2023-10",
+   "working",
+   "token-level"
+  ],
+  [
+   "2023-11",
+   "experiential",
+   "method"
   ],
   [
    "2023-11",
@@ -3135,12 +3380,97 @@
   [
    "2023-11",
    "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-11",
+   "factual",
    "parametric"
   ],
   [
    "2023-11",
    "factual",
    "parametric"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "survey"
   ],
   [
    "2023-11",
@@ -3156,6 +3486,36 @@
    "2023-11",
    "factual",
    "systems"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "factual",
+   "theory"
   ],
   [
    "2023-11",
@@ -3256,6 +3616,11 @@
    "2023-11",
    "working",
    "development"
+  ],
+  [
+   "2023-11",
+   "working",
+   "experiment"
   ],
   [
    "2023-11",
@@ -3440,7 +3805,32 @@
   [
    "2023-11",
    "working",
-   "parametric"
+   "method"
+  ],
+  [
+   "2023-11",
+   "working",
+   "method"
+  ],
+  [
+   "2023-11",
+   "working",
+   "method"
+  ],
+  [
+   "2023-11",
+   "working",
+   "method"
+  ],
+  [
+   "2023-11",
+   "working",
+   "method"
+  ],
+  [
+   "2023-11",
+   "working",
+   "method"
   ],
   [
    "2023-11",
@@ -3450,6 +3840,16 @@
   [
    "2023-11",
    "working",
+   "parametric"
+  ],
+  [
+   "2023-11",
+   "working",
+   "systems"
+  ],
+  [
+   "2023-11",
+   "working",
    "systems"
   ],
   [
@@ -3461,6 +3861,26 @@
    "2023-11",
    "working",
    "systems"
+  ],
+  [
+   "2023-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2023-11",
+   "working",
+   "theory"
   ],
   [
    "2023-11",
@@ -3695,7 +4115,17 @@
   [
    "2023-12",
    "factual",
+   "application"
+  ],
+  [
+   "2023-12",
+   "factual",
    "development"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "evaluation"
   ],
   [
    "2023-12",
@@ -3755,6 +4185,96 @@
   [
    "2023-12",
    "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2023-12",
+   "factual",
    "survey"
   ],
   [
@@ -3766,6 +4286,26 @@
    "2023-12",
    "factual",
    "systems"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2023-12",
+   "factual",
+   "theory"
   ],
   [
    "2023-12",
@@ -4050,12 +4590,77 @@
   [
    "2023-12",
    "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
+   "method"
+  ],
+  [
+   "2023-12",
+   "working",
    "systems"
   ],
   [
    "2023-12",
    "working",
    "systems"
+  ],
+  [
+   "2023-12",
+   "working",
+   "systems"
+  ],
+  [
+   "2023-12",
+   "working",
+   "theory"
   ],
   [
    "2023-12",
@@ -4420,6 +5025,161 @@
   [
    "2024-01",
    "factual",
+   "evaluation"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "experiment"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-01",
+   "factual",
    "method"
   ],
   [
@@ -4735,6 +5495,31 @@
   [
    "2024-01",
    "factual",
+   "survey"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2024-01",
+   "factual",
    "systems"
   ],
   [
@@ -4860,7 +5645,57 @@
   [
    "2024-01",
    "factual",
-   "token-level"
+   "theory"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "theory"
   ],
   [
    "2024-01",
@@ -4901,6 +5736,16 @@
    "2024-01",
    "factual",
    "token-level"
+  ],
+  [
+   "2024-01",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-01",
+   "working",
+   "application"
   ],
   [
    "2024-01",
@@ -4936,6 +5781,11 @@
    "2024-01",
    "working",
    "development"
+  ],
+  [
+   "2024-01",
+   "working",
+   "evaluation"
   ],
   [
    "2024-01",
@@ -5450,7 +6300,92 @@
   [
    "2024-01",
    "working",
-   "parametric"
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
+  ],
+  [
+   "2024-01",
+   "working",
+   "method"
   ],
   [
    "2024-01",
@@ -5460,7 +6395,7 @@
   [
    "2024-01",
    "working",
-   "systems"
+   "parametric"
   ],
   [
    "2024-01",
@@ -5491,6 +6426,86 @@
    "2024-01",
    "working",
    "systems"
+  ],
+  [
+   "2024-01",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-01",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-01",
+   "working",
+   "theory"
   ],
   [
    "2024-01",
@@ -5781,6 +6796,16 @@
    "2024-02",
    "factual",
    "application"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "development"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "evaluation"
   ],
   [
    "2024-02",
@@ -5865,6 +6890,31 @@
   [
    "2024-02",
    "factual",
+   "method"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-02",
+   "factual",
    "parametric"
   ],
   [
@@ -5905,6 +6955,16 @@
   [
    "2024-02",
    "factual",
+   "theory"
+  ],
+  [
+   "2024-02",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-02",
+   "factual",
    "token-level"
   ],
   [
@@ -6140,7 +7200,37 @@
   [
    "2024-02",
    "working",
-   "systems"
+   "method"
+  ],
+  [
+   "2024-02",
+   "working",
+   "method"
+  ],
+  [
+   "2024-02",
+   "working",
+   "method"
+  ],
+  [
+   "2024-02",
+   "working",
+   "method"
+  ],
+  [
+   "2024-02",
+   "working",
+   "method"
+  ],
+  [
+   "2024-02",
+   "working",
+   "method"
+  ],
+  [
+   "2024-02",
+   "working",
+   "method"
   ],
   [
    "2024-02",
@@ -6156,6 +7246,36 @@
    "2024-02",
    "working",
    "systems"
+  ],
+  [
+   "2024-02",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-02",
+   "working",
+   "theory"
   ],
   [
    "2024-02",
@@ -6490,6 +7610,71 @@
   [
    "2024-03",
    "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-03",
+   "factual",
    "parametric"
   ],
   [
@@ -6540,6 +7725,41 @@
   [
    "2024-03",
    "factual",
+   "theory"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-03",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-03",
+   "factual",
    "token-level"
   ],
   [
@@ -6585,7 +7805,17 @@
   [
    "2024-03",
    "working",
-   "development"
+   "application"
+  ],
+  [
+   "2024-03",
+   "working",
+   "application"
+  ],
+  [
+   "2024-03",
+   "working",
+   "application"
   ],
   [
    "2024-03",
@@ -6595,7 +7825,12 @@
   [
    "2024-03",
    "working",
-   "latent"
+   "development"
+  ],
+  [
+   "2024-03",
+   "working",
+   "evaluation"
   ],
   [
    "2024-03",
@@ -6606,6 +7841,66 @@
    "2024-03",
    "working",
    "latent"
+  ],
+  [
+   "2024-03",
+   "working",
+   "latent"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
+  ],
+  [
+   "2024-03",
+   "working",
+   "method"
   ],
   [
    "2024-03",
@@ -6815,6 +8110,16 @@
   [
    "2024-03",
    "working",
+   "systems"
+  ],
+  [
+   "2024-03",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-03",
+   "working",
    "theory"
   ],
   [
@@ -6970,6 +8275,96 @@
   [
    "2024-04",
    "factual",
+   "application"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "application"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "application"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-04",
+   "factual",
    "method"
   ],
   [
@@ -7051,6 +8446,41 @@
    "2024-04",
    "factual",
    "parametric"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "survey"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "factual",
+   "theory"
   ],
   [
    "2024-04",
@@ -7390,12 +8820,92 @@
   [
    "2024-04",
    "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
+   "method"
+  ],
+  [
+   "2024-04",
+   "working",
    "systems"
   ],
   [
    "2024-04",
    "working",
    "systems"
+  ],
+  [
+   "2024-04",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-04",
+   "working",
+   "theory"
   ],
   [
    "2024-04",
@@ -7670,6 +9180,26 @@
   [
    "2024-05",
    "factual",
+   "application"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "application"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "development"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "evaluation"
+  ],
+  [
+   "2024-05",
+   "factual",
    "latent"
   ],
   [
@@ -7785,7 +9315,97 @@
   [
    "2024-05",
    "factual",
-   "parametric"
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "method"
   ],
   [
    "2024-05",
@@ -7795,6 +9415,16 @@
   [
    "2024-05",
    "factual",
+   "parametric"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "systems"
+  ],
+  [
+   "2024-05",
+   "factual",
    "systems"
   ],
   [
@@ -7845,6 +9475,26 @@
   [
    "2024-05",
    "factual",
+   "theory"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-05",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-05",
+   "factual",
    "token-level"
   ],
   [
@@ -7906,6 +9556,76 @@
    "2024-05",
    "working",
    "application"
+  ],
+  [
+   "2024-05",
+   "working",
+   "application"
+  ],
+  [
+   "2024-05",
+   "working",
+   "experiment"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
+  ],
+  [
+   "2024-05",
+   "working",
+   "method"
   ],
   [
    "2024-05",
@@ -8180,6 +9900,36 @@
   [
    "2024-05",
    "working",
+   "theory"
+  ],
+  [
+   "2024-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-05",
+   "working",
    "token-level"
   ],
   [
@@ -8336,6 +10086,16 @@
    "2024-06",
    "factual",
    "application"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "development"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "evaluation"
   ],
   [
    "2024-06",
@@ -8440,6 +10200,96 @@
   [
    "2024-06",
    "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-06",
+   "factual",
    "survey"
   ],
   [
@@ -8451,6 +10301,36 @@
    "2024-06",
    "factual",
    "systems"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "systems"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "factual",
+   "theory"
   ],
   [
    "2024-06",
@@ -8536,6 +10416,16 @@
    "2024-06",
    "working",
    "development"
+  ],
+  [
+   "2024-06",
+   "working",
+   "evaluation"
+  ],
+  [
+   "2024-06",
+   "working",
+   "evaluation"
   ],
   [
    "2024-06",
@@ -8650,6 +10540,86 @@
   [
    "2024-06",
    "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "method"
+  ],
+  [
+   "2024-06",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-06",
+   "working",
    "systems"
   ],
   [
@@ -8661,6 +10631,41 @@
    "2024-06",
    "working",
    "systems"
+  ],
+  [
+   "2024-06",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-06",
+   "working",
+   "theory"
   ],
   [
    "2024-06",
@@ -8880,7 +10885,77 @@
   [
    "2024-07",
    "factual",
+   "application"
+  ],
+  [
+   "2024-07",
+   "factual",
    "latent"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "method"
   ],
   [
    "2024-07",
@@ -8980,12 +11055,52 @@
   [
    "2024-07",
    "factual",
+   "survey"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "survey"
+  ],
+  [
+   "2024-07",
+   "factual",
    "systems"
   ],
   [
    "2024-07",
    "factual",
    "systems"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "systems"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "factual",
+   "theory"
   ],
   [
    "2024-07",
@@ -9300,6 +11415,51 @@
   [
    "2024-07",
    "working",
+   "method"
+  ],
+  [
+   "2024-07",
+   "working",
+   "method"
+  ],
+  [
+   "2024-07",
+   "working",
+   "method"
+  ],
+  [
+   "2024-07",
+   "working",
+   "method"
+  ],
+  [
+   "2024-07",
+   "working",
+   "method"
+  ],
+  [
+   "2024-07",
+   "working",
+   "method"
+  ],
+  [
+   "2024-07",
+   "working",
+   "method"
+  ],
+  [
+   "2024-07",
+   "working",
+   "method"
+  ],
+  [
+   "2024-07",
+   "working",
+   "method"
+  ],
+  [
+   "2024-07",
+   "working",
    "systems"
   ],
   [
@@ -9315,6 +11475,36 @@
   [
    "2024-07",
    "working",
+   "systems"
+  ],
+  [
+   "2024-07",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "working",
    "theory"
   ],
   [
@@ -9531,6 +11721,101 @@
    "2024-08",
    "experiential",
    "token-level"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "application"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "development"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "method"
   ],
   [
    "2024-08",
@@ -9630,7 +11915,7 @@
   [
    "2024-08",
    "factual",
-   "theory"
+   "systems"
   ],
   [
    "2024-08",
@@ -9660,7 +11945,17 @@
   [
    "2024-08",
    "factual",
-   "token-level"
+   "theory"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "theory"
   ],
   [
    "2024-08",
@@ -9701,6 +11996,21 @@
    "2024-08",
    "factual",
    "token-level"
+  ],
+  [
+   "2024-08",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-08",
+   "working",
+   "application"
+  ],
+  [
+   "2024-08",
+   "working",
+   "application"
   ],
   [
    "2024-08",
@@ -9870,12 +12180,42 @@
   [
    "2024-08",
    "working",
+   "method"
+  ],
+  [
+   "2024-08",
+   "working",
+   "method"
+  ],
+  [
+   "2024-08",
+   "working",
+   "method"
+  ],
+  [
+   "2024-08",
+   "working",
+   "method"
+  ],
+  [
+   "2024-08",
+   "working",
+   "method"
+  ],
+  [
+   "2024-08",
+   "working",
+   "method"
+  ],
+  [
+   "2024-08",
+   "working",
    "parametric"
   ],
   [
    "2024-08",
    "working",
-   "systems"
+   "survey"
   ],
   [
    "2024-08",
@@ -9896,6 +12236,21 @@
    "2024-08",
    "working",
    "systems"
+  ],
+  [
+   "2024-08",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-08",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-08",
+   "working",
+   "theory"
   ],
   [
    "2024-08",
@@ -10315,6 +12670,61 @@
   [
    "2024-09",
    "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-09",
+   "factual",
    "parametric"
   ],
   [
@@ -10331,6 +12741,61 @@
    "2024-09",
    "factual",
    "survey"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "survey"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "systems"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "factual",
+   "theory"
   ],
   [
    "2024-09",
@@ -10481,6 +12946,16 @@
    "2024-09",
    "working",
    "development"
+  ],
+  [
+   "2024-09",
+   "working",
+   "evaluation"
+  ],
+  [
+   "2024-09",
+   "working",
+   "experiment"
   ],
   [
    "2024-09",
@@ -10660,7 +13135,67 @@
   [
    "2024-09",
    "working",
-   "systems"
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
+  ],
+  [
+   "2024-09",
+   "working",
+   "method"
   ],
   [
    "2024-09",
@@ -10671,6 +13206,41 @@
    "2024-09",
    "working",
    "systems"
+  ],
+  [
+   "2024-09",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-09",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-09",
+   "working",
+   "theory"
   ],
   [
    "2024-09",
@@ -11135,6 +13705,111 @@
   [
    "2024-10",
    "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-10",
+   "factual",
    "parametric"
   ],
   [
@@ -11165,7 +13840,47 @@
   [
    "2024-10",
    "factual",
+   "survey"
+  ],
+  [
+   "2024-10",
+   "factual",
    "systems"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "systems"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "factual",
+   "theory"
   ],
   [
    "2024-10",
@@ -11340,6 +14055,101 @@
   [
    "2024-10",
    "working",
+   "evaluation"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
+   "method"
+  ],
+  [
+   "2024-10",
+   "working",
    "method"
   ],
   [
@@ -11615,6 +14425,46 @@
   [
    "2024-10",
    "working",
+   "systems"
+  ],
+  [
+   "2024-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "working",
    "theory"
   ],
   [
@@ -11826,6 +14676,21 @@
    "2024-11",
    "experiential",
    "token-level"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "application"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "application"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "application"
   ],
   [
    "2024-11",
@@ -11945,11 +14810,106 @@
   [
    "2024-11",
    "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-11",
+   "factual",
    "parametric"
   ],
   [
    "2024-11",
    "factual",
+   "survey"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-11",
+   "factual",
    "theory"
   ],
   [
@@ -12061,6 +15021,16 @@
    "2024-11",
    "working",
    "application"
+  ],
+  [
+   "2024-11",
+   "working",
+   "application"
+  ],
+  [
+   "2024-11",
+   "working",
+   "development"
   ],
   [
    "2024-11",
@@ -12200,7 +15170,87 @@
   [
    "2024-11",
    "working",
-   "systems"
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
+  ],
+  [
+   "2024-11",
+   "working",
+   "method"
   ],
   [
    "2024-11",
@@ -12236,6 +15286,56 @@
    "2024-11",
    "working",
    "systems"
+  ],
+  [
+   "2024-11",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-11",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-11",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-11",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-11",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-11",
+   "working",
+   "theory"
   ],
   [
    "2024-11",
@@ -12490,7 +15590,112 @@
   [
    "2024-12",
    "factual",
+   "application"
+  ],
+  [
+   "2024-12",
+   "factual",
    "evaluation"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "method"
   ],
   [
    "2024-12",
@@ -12640,6 +15845,66 @@
   [
    "2024-12",
    "factual",
+   "survey"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "survey"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "survey"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "systems"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "factual",
    "theory"
   ],
   [
@@ -12685,7 +15950,7 @@
   [
    "2024-12",
    "factual",
-   "token-level"
+   "theory"
   ],
   [
    "2024-12",
@@ -12756,6 +16021,16 @@
    "2024-12",
    "factual",
    "token-level"
+  ],
+  [
+   "2024-12",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2024-12",
+   "working",
+   "application"
   ],
   [
    "2024-12",
@@ -12771,6 +16046,11 @@
    "2024-12",
    "working",
    "evaluation"
+  ],
+  [
+   "2024-12",
+   "working",
+   "experiment"
   ],
   [
    "2024-12",
@@ -12975,6 +16255,71 @@
   [
    "2024-12",
    "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
+   "method"
+  ],
+  [
+   "2024-12",
+   "working",
    "parametric"
   ],
   [
@@ -12996,6 +16341,36 @@
    "2024-12",
    "working",
    "systems"
+  ],
+  [
+   "2024-12",
+   "working",
+   "systems"
+  ],
+  [
+   "2024-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "working",
+   "theory"
   ],
   [
    "2024-12",
@@ -13535,6 +16910,26 @@
   [
    "2025-01",
    "factual",
+   "application"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "application"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "application"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "development"
+  ],
+  [
+   "2025-01",
+   "factual",
    "development"
   ],
   [
@@ -13835,7 +17230,157 @@
   [
    "2025-01",
    "factual",
-   "parametric"
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "method"
   ],
   [
    "2025-01",
@@ -13845,6 +17390,51 @@
   [
    "2025-01",
    "factual",
+   "parametric"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2025-01",
+   "factual",
    "systems"
   ],
   [
@@ -13860,6 +17450,66 @@
   [
    "2025-01",
    "factual",
+   "systems"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "factual",
    "theory"
   ],
   [
@@ -14011,6 +17661,31 @@
    "2025-01",
    "factual",
    "token-level"
+  ],
+  [
+   "2025-01",
+   "working",
+   "application"
+  ],
+  [
+   "2025-01",
+   "working",
+   "application"
+  ],
+  [
+   "2025-01",
+   "working",
+   "application"
+  ],
+  [
+   "2025-01",
+   "working",
+   "application"
+  ],
+  [
+   "2025-01",
+   "working",
+   "application"
   ],
   [
    "2025-01",
@@ -14056,6 +17731,16 @@
    "2025-01",
    "working",
    "development"
+  ],
+  [
+   "2025-01",
+   "working",
+   "evaluation"
+  ],
+  [
+   "2025-01",
+   "working",
+   "experiment"
   ],
   [
    "2025-01",
@@ -14370,7 +18055,162 @@
   [
    "2025-01",
    "working",
-   "systems"
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
+  ],
+  [
+   "2025-01",
+   "working",
+   "method"
   ],
   [
    "2025-01",
@@ -14456,6 +18296,91 @@
    "2025-01",
    "working",
    "systems"
+  ],
+  [
+   "2025-01",
+   "working",
+   "systems"
+  ],
+  [
+   "2025-01",
+   "working",
+   "systems"
+  ],
+  [
+   "2025-01",
+   "working",
+   "systems"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-01",
+   "working",
+   "theory"
   ],
   [
    "2025-01",
@@ -14890,7 +18815,52 @@
   [
    "2025-02",
    "factual",
-   "parametric"
+   "method"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "method"
   ],
   [
    "2025-02",
@@ -14911,6 +18881,21 @@
    "2025-02",
    "factual",
    "parametric"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "survey"
   ],
   [
    "2025-02",
@@ -14921,6 +18906,31 @@
    "2025-02",
    "factual",
    "systems"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "systems"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-02",
+   "factual",
+   "theory"
   ],
   [
    "2025-02",
@@ -15106,6 +19116,21 @@
    "2025-02",
    "working",
    "application"
+  ],
+  [
+   "2025-02",
+   "working",
+   "application"
+  ],
+  [
+   "2025-02",
+   "working",
+   "development"
+  ],
+  [
+   "2025-02",
+   "working",
+   "evaluation"
   ],
   [
    "2025-02",
@@ -15280,12 +19305,67 @@
   [
    "2025-02",
    "working",
+   "method"
+  ],
+  [
+   "2025-02",
+   "working",
+   "method"
+  ],
+  [
+   "2025-02",
+   "working",
+   "method"
+  ],
+  [
+   "2025-02",
+   "working",
+   "method"
+  ],
+  [
+   "2025-02",
+   "working",
+   "method"
+  ],
+  [
+   "2025-02",
+   "working",
+   "method"
+  ],
+  [
+   "2025-02",
+   "working",
+   "method"
+  ],
+  [
+   "2025-02",
+   "working",
+   "method"
+  ],
+  [
+   "2025-02",
+   "working",
+   "method"
+  ],
+  [
+   "2025-02",
+   "working",
    "systems"
   ],
   [
    "2025-02",
    "working",
    "systems"
+  ],
+  [
+   "2025-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-02",
+   "working",
+   "theory"
   ],
   [
    "2025-02",
@@ -15531,6 +19611,81 @@
    "2025-03",
    "factual",
    "latent"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "method"
   ],
   [
    "2025-03",
@@ -15675,7 +19830,12 @@
   [
    "2025-03",
    "factual",
-   "theory"
+   "systems"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "systems"
   ],
   [
    "2025-03",
@@ -15700,7 +19860,22 @@
   [
    "2025-03",
    "factual",
-   "token-level"
+   "theory"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "theory"
   ],
   [
    "2025-03",
@@ -15846,6 +20021,26 @@
    "2025-03",
    "factual",
    "token-level"
+  ],
+  [
+   "2025-03",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-03",
+   "working",
+   "application"
+  ],
+  [
+   "2025-03",
+   "working",
+   "application"
+  ],
+  [
+   "2025-03",
+   "working",
+   "development"
   ],
   [
    "2025-03",
@@ -16000,6 +20195,61 @@
   [
    "2025-03",
    "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
+   "method"
+  ],
+  [
+   "2025-03",
+   "working",
    "parametric"
   ],
   [
@@ -16016,6 +20266,26 @@
    "2025-03",
    "working",
    "systems"
+  ],
+  [
+   "2025-03",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-03",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-03",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-03",
+   "working",
+   "theory"
   ],
   [
    "2025-03",
@@ -16305,12 +20575,122 @@
   [
    "2025-04",
    "factual",
+   "experiment"
+  ],
+  [
+   "2025-04",
+   "factual",
    "latent"
   ],
   [
    "2025-04",
    "factual",
    "latent"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "method"
   ],
   [
    "2025-04",
@@ -16515,6 +20895,16 @@
   [
    "2025-04",
    "factual",
+   "survey"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "systems"
+  ],
+  [
+   "2025-04",
+   "factual",
    "systems"
   ],
   [
@@ -16545,7 +20935,17 @@
   [
    "2025-04",
    "factual",
-   "token-level"
+   "theory"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "theory"
   ],
   [
    "2025-04",
@@ -16621,6 +21021,16 @@
    "2025-04",
    "factual",
    "token-level"
+  ],
+  [
+   "2025-04",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-04",
+   "working",
+   "application"
   ],
   [
    "2025-04",
@@ -16815,7 +21225,92 @@
   [
    "2025-04",
    "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
+   "method"
+  ],
+  [
+   "2025-04",
+   "working",
    "systems"
+  ],
+  [
+   "2025-04",
+   "working",
+   "systems"
+  ],
+  [
+   "2025-04",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-04",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-04",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-04",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-04",
+   "working",
+   "theory"
   ],
   [
    "2025-04",
@@ -17160,6 +21655,21 @@
   [
    "2025-05",
    "factual",
+   "application"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "evaluation"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "evaluation"
+  ],
+  [
+   "2025-05",
+   "factual",
    "evaluation"
   ],
   [
@@ -17265,7 +21775,102 @@
   [
    "2025-05",
    "factual",
-   "parametric"
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "method"
   ],
   [
    "2025-05",
@@ -17291,11 +21896,41 @@
    "2025-05",
    "factual",
    "parametric"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "survey"
   ],
   [
    "2025-05",
    "factual",
    "systems"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "systems"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "factual",
+   "theory"
   ],
   [
    "2025-05",
@@ -17800,6 +22435,66 @@
   [
    "2025-05",
    "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
+   "method"
+  ],
+  [
+   "2025-05",
+   "working",
    "parametric"
   ],
   [
@@ -17811,6 +22506,61 @@
    "2025-05",
    "working",
    "systems"
+  ],
+  [
+   "2025-05",
+   "working",
+   "systems"
+  ],
+  [
+   "2025-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "working",
+   "theory"
   ],
   [
    "2025-05",
@@ -18160,6 +22910,16 @@
   [
    "2025-06",
    "factual",
+   "application"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "application"
+  ],
+  [
+   "2025-06",
+   "factual",
    "development"
   ],
   [
@@ -18345,12 +23105,77 @@
   [
    "2025-06",
    "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-06",
+   "factual",
    "parametric"
   ],
   [
    "2025-06",
    "factual",
    "parametric"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "systems"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "systems"
   ],
   [
    "2025-06",
@@ -18390,7 +23215,17 @@
   [
    "2025-06",
    "factual",
-   "token-level"
+   "theory"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "theory"
   ],
   [
    "2025-06",
@@ -18576,6 +23411,16 @@
    "2025-06",
    "factual",
    "token-level"
+  ],
+  [
+   "2025-06",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-06",
+   "working",
+   "application"
   ],
   [
    "2025-06",
@@ -18585,7 +23430,7 @@
   [
    "2025-06",
    "working",
-   "latent"
+   "experiment"
   ],
   [
    "2025-06",
@@ -18596,6 +23441,51 @@
    "2025-06",
    "working",
    "latent"
+  ],
+  [
+   "2025-06",
+   "working",
+   "latent"
+  ],
+  [
+   "2025-06",
+   "working",
+   "method"
+  ],
+  [
+   "2025-06",
+   "working",
+   "method"
+  ],
+  [
+   "2025-06",
+   "working",
+   "method"
+  ],
+  [
+   "2025-06",
+   "working",
+   "method"
+  ],
+  [
+   "2025-06",
+   "working",
+   "method"
+  ],
+  [
+   "2025-06",
+   "working",
+   "method"
+  ],
+  [
+   "2025-06",
+   "working",
+   "method"
+  ],
+  [
+   "2025-06",
+   "working",
+   "method"
   ],
   [
    "2025-06",
@@ -18751,6 +23641,26 @@
    "2025-06",
    "working",
    "systems"
+  ],
+  [
+   "2025-06",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-06",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-06",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-06",
+   "working",
+   "theory"
   ],
   [
    "2025-06",
@@ -19060,6 +23970,81 @@
   [
    "2025-07",
    "factual",
+   "application"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "application"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-07",
+   "factual",
    "method"
   ],
   [
@@ -19185,7 +24170,62 @@
   [
    "2025-07",
    "factual",
+   "survey"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-07",
+   "factual",
    "systems"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "factual",
+   "theory"
   ],
   [
    "2025-07",
@@ -19430,7 +24470,92 @@
   [
    "2025-07",
    "working",
+   "evaluation"
+  ],
+  [
+   "2025-07",
+   "working",
    "latent"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
+  ],
+  [
+   "2025-07",
+   "working",
+   "method"
   ],
   [
    "2025-07",
@@ -19615,6 +24740,36 @@
   [
    "2025-07",
    "working",
+   "systems"
+  ],
+  [
+   "2025-07",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-07",
+   "working",
    "theory"
   ],
   [
@@ -19946,6 +25101,11 @@
    "2025-08",
    "experiential",
    "token-level"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "application"
   ],
   [
    "2025-08",
@@ -19981,6 +25141,91 @@
    "2025-08",
    "factual",
    "latent"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "method"
   ],
   [
    "2025-08",
@@ -20165,12 +25410,47 @@
   [
    "2025-08",
    "factual",
+   "survey"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-08",
+   "factual",
    "systems"
   ],
   [
    "2025-08",
    "factual",
    "systems"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-08",
+   "factual",
+   "theory"
   ],
   [
    "2025-08",
@@ -20406,6 +25686,26 @@
    "2025-08",
    "working",
    "application"
+  ],
+  [
+   "2025-08",
+   "working",
+   "application"
+  ],
+  [
+   "2025-08",
+   "working",
+   "application"
+  ],
+  [
+   "2025-08",
+   "working",
+   "evaluation"
+  ],
+  [
+   "2025-08",
+   "working",
+   "evaluation"
   ],
   [
    "2025-08",
@@ -20545,7 +25845,107 @@
   [
    "2025-08",
    "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "method"
+  ],
+  [
+   "2025-08",
+   "working",
+   "survey"
+  ],
+  [
+   "2025-08",
+   "working",
    "systems"
+  ],
+  [
+   "2025-08",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-08",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-08",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-08",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-08",
+   "working",
+   "theory"
   ],
   [
    "2025-08",
@@ -20831,6 +26231,11 @@
    "2025-09",
    "experiential",
    "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "application"
   ],
   [
    "2025-09",
@@ -20950,12 +26355,67 @@
   [
    "2025-09",
    "factual",
+   "method"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-09",
+   "factual",
    "parametric"
   ],
   [
    "2025-09",
    "factual",
-   "theory"
+   "systems"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "systems"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "systems"
   ],
   [
    "2025-09",
@@ -20995,7 +26455,22 @@
   [
    "2025-09",
    "factual",
-   "token-level"
+   "theory"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "theory"
   ],
   [
    "2025-09",
@@ -21236,6 +26711,16 @@
    "2025-09",
    "factual",
    "token-level"
+  ],
+  [
+   "2025-09",
+   "factual",
+   "token-level"
+  ],
+  [
+   "2025-09",
+   "working",
+   "application"
   ],
   [
    "2025-09",
@@ -21286,6 +26771,81 @@
    "2025-09",
    "working",
    "latent"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
+  ],
+  [
+   "2025-09",
+   "working",
+   "method"
   ],
   [
    "2025-09",
@@ -21495,6 +27055,26 @@
   [
    "2025-09",
    "working",
+   "theory"
+  ],
+  [
+   "2025-09",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-09",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-09",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-09",
+   "working",
    "token-level"
   ],
   [
@@ -21846,6 +27426,11 @@
    "2025-10",
    "experiential",
    "token-level"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "application"
   ],
   [
    "2025-10",
@@ -21975,7 +27560,67 @@
   [
    "2025-10",
    "factual",
-   "parametric"
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "method"
   ],
   [
    "2025-10",
@@ -22001,6 +27646,21 @@
    "2025-10",
    "factual",
    "parametric"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "survey"
   ],
   [
    "2025-10",
@@ -22021,6 +27681,46 @@
    "2025-10",
    "factual",
    "systems"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "systems"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "systems"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "factual",
+   "theory"
   ],
   [
    "2025-10",
@@ -22425,12 +28125,27 @@
   [
    "2025-10",
    "working",
+   "application"
+  ],
+  [
+   "2025-10",
+   "working",
+   "application"
+  ],
+  [
+   "2025-10",
+   "working",
    "development"
   ],
   [
    "2025-10",
    "working",
    "development"
+  ],
+  [
+   "2025-10",
+   "working",
+   "evaluation"
   ],
   [
    "2025-10",
@@ -22515,6 +28230,51 @@
   [
    "2025-10",
    "working",
+   "method"
+  ],
+  [
+   "2025-10",
+   "working",
+   "method"
+  ],
+  [
+   "2025-10",
+   "working",
+   "method"
+  ],
+  [
+   "2025-10",
+   "working",
+   "method"
+  ],
+  [
+   "2025-10",
+   "working",
+   "method"
+  ],
+  [
+   "2025-10",
+   "working",
+   "method"
+  ],
+  [
+   "2025-10",
+   "working",
+   "method"
+  ],
+  [
+   "2025-10",
+   "working",
+   "method"
+  ],
+  [
+   "2025-10",
+   "working",
+   "method"
+  ],
+  [
+   "2025-10",
+   "working",
    "parametric"
   ],
   [
@@ -22526,6 +28286,31 @@
    "2025-10",
    "working",
    "systems"
+  ],
+  [
+   "2025-10",
+   "working",
+   "systems"
+  ],
+  [
+   "2025-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "working",
+   "theory"
   ],
   [
    "2025-10",
@@ -23011,6 +28796,11 @@
    "2025-11",
    "factual",
    "development"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "evaluation"
   ],
   [
    "2025-11",
@@ -23150,12 +28940,127 @@
   [
    "2025-11",
    "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-11",
+   "factual",
    "survey"
   ],
   [
    "2025-11",
    "factual",
    "survey"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "survey"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-11",
+   "factual",
+   "theory"
   ],
   [
    "2025-11",
@@ -23580,12 +29485,102 @@
   [
    "2025-11",
    "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
+   "method"
+  ],
+  [
+   "2025-11",
+   "working",
    "parametric"
   ],
   [
    "2025-11",
    "working",
    "systems"
+  ],
+  [
+   "2025-11",
+   "working",
+   "systems"
+  ],
+  [
+   "2025-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-11",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-11",
+   "working",
+   "theory"
   ],
   [
    "2025-11",
@@ -24060,7 +30055,7 @@
   [
    "2025-12",
    "factual",
-   "evaluation"
+   "development"
   ],
   [
    "2025-12",
@@ -24081,6 +30076,106 @@
    "2025-12",
    "factual",
    "evaluation"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "evaluation"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "evaluation"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "method"
   ],
   [
    "2025-12",
@@ -24280,6 +30375,36 @@
   [
    "2025-12",
    "factual",
+   "systems"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "factual",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "factual",
    "theory"
   ],
   [
@@ -24730,12 +30855,117 @@
   [
    "2025-12",
    "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
+   "method"
+  ],
+  [
+   "2025-12",
+   "working",
    "systems"
   ],
   [
    "2025-12",
    "working",
    "systems"
+  ],
+  [
+   "2025-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "working",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "working",
+   "theory"
   ],
   [
    "2025-12",
@@ -25060,6 +31290,11 @@
   [
    "2026-01",
    "experiential",
+   "method"
+  ],
+  [
+   "2026-01",
+   "experiential",
    "parametric"
   ],
   [
@@ -25535,7 +31770,7 @@
   [
    "2026-01",
    "factual",
-   "development"
+   "application"
   ],
   [
    "2026-01",
@@ -25616,6 +31851,21 @@
    "2026-01",
    "factual",
    "development"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "development"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "evaluation"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "evaluation"
   ],
   [
    "2026-01",
@@ -25955,6 +32205,96 @@
   [
    "2026-01",
    "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-01",
+   "factual",
    "parametric"
   ],
   [
@@ -26050,6 +32390,61 @@
   [
    "2026-01",
    "factual",
+   "survey"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "survey"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "factual",
    "systems"
   ],
   [
@@ -26086,6 +32481,51 @@
    "2026-01",
    "factual",
    "systems"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "factual",
+   "theory"
   ],
   [
    "2026-01",
@@ -26856,6 +33296,11 @@
    "2026-01",
    "working",
    "development"
+  ],
+  [
+   "2026-01",
+   "working",
+   "evaluation"
   ],
   [
    "2026-01",
@@ -27055,7 +33500,77 @@
   [
    "2026-01",
    "working",
-   "parametric"
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
+  ],
+  [
+   "2026-01",
+   "working",
+   "method"
   ],
   [
    "2026-01",
@@ -27065,7 +33580,7 @@
   [
    "2026-01",
    "working",
-   "systems"
+   "parametric"
   ],
   [
    "2026-01",
@@ -27096,6 +33611,76 @@
    "2026-01",
    "working",
    "systems"
+  ],
+  [
+   "2026-01",
+   "working",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "working",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "working",
+   "theory"
   ],
   [
    "2026-01",
@@ -27725,7 +34310,7 @@
   [
    "2026-02",
    "factual",
-   "evaluation"
+   "application"
   ],
   [
    "2026-02",
@@ -27735,7 +34320,7 @@
   [
    "2026-02",
    "factual",
-   "latent"
+   "evaluation"
   ],
   [
    "2026-02",
@@ -27746,6 +34331,51 @@
    "2026-02",
    "factual",
    "latent"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "latent"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "method"
   ],
   [
    "2026-02",
@@ -28085,6 +34715,21 @@
   [
    "2026-02",
    "factual",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "factual",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "factual",
    "token-level"
   ],
   [
@@ -28455,6 +35100,11 @@
   [
    "2026-02",
    "working",
+   "application"
+  ],
+  [
+   "2026-02",
+   "working",
    "development"
   ],
   [
@@ -28481,6 +35131,26 @@
    "2026-02",
    "working",
    "latent"
+  ],
+  [
+   "2026-02",
+   "working",
+   "method"
+  ],
+  [
+   "2026-02",
+   "working",
+   "method"
+  ],
+  [
+   "2026-02",
+   "working",
+   "method"
+  ],
+  [
+   "2026-02",
+   "working",
+   "method"
   ],
   [
    "2026-02",
@@ -28705,6 +35375,41 @@
   [
    "2026-02",
    "working",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "working",
    "token-level"
   ],
   [
@@ -28916,6 +35621,11 @@
    "2026-03",
    "experiential",
    "latent"
+  ],
+  [
+   "2026-03",
+   "experiential",
+   "method"
   ],
   [
    "2026-03",
@@ -30595,6 +37305,11 @@
   [
    "2026-03",
    "working",
+   "application"
+  ],
+  [
+   "2026-03",
+   "working",
    "development"
   ],
   [
@@ -31055,6 +37770,21 @@
   [
    "2026-03",
    "working",
+   "method"
+  ],
+  [
+   "2026-03",
+   "working",
+   "method"
+  ],
+  [
+   "2026-03",
+   "working",
+   "method"
+  ],
+  [
+   "2026-03",
+   "working",
    "parametric"
   ],
   [
@@ -31116,6 +37846,11 @@
    "2026-03",
    "working",
    "systems"
+  ],
+  [
+   "2026-03",
+   "working",
+   "theory"
   ],
   [
    "2026-03",
@@ -32395,6 +39130,11 @@
   [
    "2026-04",
    "factual",
+   "method"
+  ],
+  [
+   "2026-04",
+   "factual",
    "parametric"
   ],
   [
@@ -33465,12 +40205,17 @@
   [
    "2026-04",
    "working",
+   "method"
+  ],
+  [
+   "2026-04",
+   "working",
    "parametric"
   ],
   [
    "2026-04",
    "working",
-   "systems"
+   "survey"
   ],
   [
    "2026-04",
@@ -33486,6 +40231,16 @@
    "2026-04",
    "working",
    "systems"
+  ],
+  [
+   "2026-04",
+   "working",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "working",
+   "theory"
   ],
   [
    "2026-04",
@@ -35905,6 +42660,11 @@
   [
    "2026-05",
    "working",
+   "application"
+  ],
+  [
+   "2026-05",
+   "working",
    "development"
   ],
   [
@@ -36210,6 +42970,11 @@
   [
    "2026-05",
    "working",
+   "method"
+  ],
+  [
+   "2026-05",
+   "working",
    "parametric"
   ],
   [
@@ -36251,6 +43016,11 @@
    "2026-05",
    "working",
    "systems"
+  ],
+  [
+   "2026-05",
+   "working",
+   "theory"
   ],
   [
    "2026-05",
@@ -39265,7 +46035,17 @@
   [
    "2026-06",
    "working",
-   "systems"
+   "method"
+  ],
+  [
+   "2026-06",
+   "working",
+   "method"
+  ],
+  [
+   "2026-06",
+   "working",
+   "method"
   ],
   [
    "2026-06",
@@ -39281,6 +46061,21 @@
    "2026-06",
    "working",
    "systems"
+  ],
+  [
+   "2026-06",
+   "working",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "working",
+   "theory"
   ],
   [
    "2026-06",
@@ -40316,6 +47111,11 @@
    "2026-07",
    "factual",
    "latent"
+  ],
+  [
+   "2026-07",
+   "factual",
+   "method"
   ],
   [
    "2026-07",
@@ -41310,7 +48110,7 @@
   [
    "2026-07",
    "working",
-   "evaluation"
+   "application"
   ],
   [
    "2026-07",
@@ -41340,7 +48140,12 @@
   [
    "2026-07",
    "working",
-   "latent"
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "working",
+   "evaluation"
   ],
   [
    "2026-07",
@@ -41386,6 +48191,26 @@
    "2026-07",
    "working",
    "latent"
+  ],
+  [
+   "2026-07",
+   "working",
+   "latent"
+  ],
+  [
+   "2026-07",
+   "working",
+   "method"
+  ],
+  [
+   "2026-07",
+   "working",
+   "method"
+  ],
+  [
+   "2026-07",
+   "working",
+   "method"
   ],
   [
    "2026-07",
@@ -41661,6 +48486,16 @@
    "2026-07",
    "working",
    "systems"
+  ],
+  [
+   "2026-07",
+   "working",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "working",
+   "theory"
   ],
   [
    "2026-07",
@@ -42625,7 +49460,27 @@
   [
    "2026-08",
    "experiential",
-   "theory"
+   "method"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "method"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "method"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "method"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "systems"
   ],
   [
    "2026-08",
@@ -42725,7 +49580,12 @@
   [
    "2026-08",
    "experiential",
-   "token-level"
+   "theory"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "theory"
   ],
   [
    "2026-08",
@@ -42851,6 +49711,16 @@
    "2026-08",
    "experiential",
    "token-level"
+  ],
+  [
+   "2026-08",
+   "experiential",
+   "token-level"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "application"
   ],
   [
    "2026-08",
@@ -43145,7 +50015,32 @@
   [
    "2026-08",
    "factual",
-   "parametric"
+   "method"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "method"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "method"
   ],
   [
    "2026-08",
@@ -43161,6 +50056,21 @@
    "2026-08",
    "factual",
    "parametric"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "parametric"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "survey"
+  ],
+  [
+   "2026-08",
+   "factual",
+   "survey"
   ],
   [
    "2026-08",
@@ -43300,6 +50210,11 @@
   [
    "2026-08",
    "factual",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "factual",
    "token-level"
   ],
   [
@@ -43536,6 +50451,11 @@
    "2026-08",
    "method",
    "method"
+  ],
+  [
+   "2026-08",
+   "working",
+   "application"
   ],
   [
    "2026-08",
@@ -43556,6 +50476,16 @@
    "2026-08",
    "working",
    "development"
+  ],
+  [
+   "2026-08",
+   "working",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "working",
+   "evaluation"
   ],
   [
    "2026-08",
@@ -43705,7 +50635,17 @@
   [
    "2026-08",
    "working",
-   "survey"
+   "method"
+  ],
+  [
+   "2026-08",
+   "working",
+   "method"
+  ],
+  [
+   "2026-08",
+   "working",
+   "method"
   ],
   [
    "2026-08",
@@ -43715,7 +50655,7 @@
   [
    "2026-08",
    "working",
-   "systems"
+   "survey"
   ],
   [
    "2026-08",
@@ -43736,6 +50676,36 @@
    "2026-08",
    "working",
    "systems"
+  ],
+  [
+   "2026-08",
+   "working",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "working",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "working",
+   "theory"
   ],
   [
    "2026-08",
@@ -43961,170 +50931,170 @@
  "venues": [
   {
    "name": "arXiv (Cornell University)",
-   "papers": 498
+   "papers": 582
   },
   {
    "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 412
-  },
-  {
-   "name": "bioRxiv (Cold Spring Harbor Laboratory)",
-   "papers": 94
+   "papers": 442
   },
   {
    "name": "SSRN Electronic Journal",
-   "papers": 82
+   "papers": 104
   },
   {
    "name": "Scientific Reports",
-   "papers": 82
+   "papers": 101
+  },
+  {
+   "name": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "papers": 97
   },
   {
    "name": "Lecture notes in computer science",
-   "papers": 66
-  },
-  {
-   "name": "Open MIND",
-   "papers": 57
-  },
-  {
-   "name": "Research Square",
-   "papers": 50
+   "papers": 90
   },
   {
    "name": "IEEE Access",
+   "papers": 85
+  },
+  {
+   "name": "Open MIND",
+   "papers": 61
+  },
+  {
+   "name": "Research Square",
+   "papers": 56
+  },
+  {
+   "name": "Expert Systems with Applications",
+   "papers": 53
+  },
+  {
+   "name": "Sensors",
    "papers": 50
   },
   {
    "name": "Proceedings of the AAAI Conference on Artificial Intelligence",
-   "papers": 44
-  },
-  {
-   "name": "Expert Systems with Applications",
-   "papers": 43
-  },
-  {
-   "name": "Sensors",
-   "papers": 34
+   "papers": 47
   },
   {
    "name": "Preprints.org",
-   "papers": 33
+   "papers": 40
   },
   {
-   "name": "CoRR",
-   "papers": 31
+   "name": "Neurocomputing",
+   "papers": 39
   },
   {
-   "name": "Engineering Applications of Artificial Intelligence",
-   "papers": 30
+   "name": "Applied Sciences",
+   "papers": 39
   }
  ],
  "keyword_bursts": [
   {
    "keyword": "factual",
-   "recent": 166,
-   "total": 220,
-   "burst_score": 1.37,
-   "recent_share": 0.0344
-  },
-  {
-   "keyword": "conversational",
-   "recent": 266,
-   "total": 354,
-   "burst_score": 1.36,
-   "recent_share": 0.0551
-  },
-  {
-   "keyword": "agent",
-   "recent": 2549,
-   "total": 3413,
-   "burst_score": 1.35,
-   "recent_share": 0.5276
-  },
-  {
-   "keyword": "experiential",
-   "recent": 47,
-   "total": 65,
-   "burst_score": 1.31,
-   "recent_share": 0.0097
+   "recent": 169,
+   "total": 230,
+   "burst_score": 1.5,
+   "recent_share": 0.034
   },
   {
    "keyword": "retrieval",
-   "recent": 1344,
-   "total": 1867,
-   "burst_score": 1.3,
-   "recent_share": 0.2782
+   "recent": 1336,
+   "total": 1922,
+   "burst_score": 1.42,
+   "recent_share": 0.2685
   },
   {
-   "keyword": "architecture",
-   "recent": 1273,
-   "total": 1803,
-   "burst_score": 1.28,
-   "recent_share": 0.2635
+   "keyword": "agent",
+   "recent": 2617,
+   "total": 3823,
+   "burst_score": 1.4,
+   "recent_share": 0.5259
   },
   {
-   "keyword": "long-term",
-   "recent": 681,
-   "total": 1000,
-   "burst_score": 1.23,
-   "recent_share": 0.141
+   "keyword": "experiential",
+   "recent": 46,
+   "total": 68,
+   "burst_score": 1.38,
+   "recent_share": 0.0092
+  },
+  {
+   "keyword": "conversational",
+   "recent": 341,
+   "total": 515,
+   "burst_score": 1.35,
+   "recent_share": 0.0685
   },
   {
    "keyword": "graph",
-   "recent": 949,
-   "total": 1426,
-   "burst_score": 1.21,
-   "recent_share": 0.1964
+   "recent": 977,
+   "total": 1584,
+   "burst_score": 1.26,
+   "recent_share": 0.1963
   },
   {
    "keyword": "episodic",
-   "recent": 476,
-   "total": 773,
-   "burst_score": 1.12,
-   "recent_share": 0.0985
+   "recent": 471,
+   "total": 782,
+   "burst_score": 1.23,
+   "recent_share": 0.0947
+  },
+  {
+   "keyword": "long-term",
+   "recent": 718,
+   "total": 1207,
+   "burst_score": 1.21,
+   "recent_share": 0.1443
+  },
+  {
+   "keyword": "architecture",
+   "recent": 1372,
+   "total": 2378,
+   "burst_score": 1.18,
+   "recent_share": 0.2757
   },
   {
    "keyword": "language",
-   "recent": 1792,
-   "total": 2923,
-   "burst_score": 1.11,
-   "recent_share": 0.3709
-  },
-  {
-   "keyword": "survey",
-   "recent": 543,
-   "total": 885,
-   "burst_score": 1.11,
-   "recent_share": 0.1124
-  },
-  {
-   "keyword": "transformer",
-   "recent": 493,
-   "total": 827,
-   "burst_score": 1.08,
-   "recent_share": 0.102
+   "recent": 1802,
+   "total": 3190,
+   "burst_score": 1.15,
+   "recent_share": 0.3621
   },
   {
    "keyword": "augmented",
-   "recent": 1039,
-   "total": 1752,
-   "burst_score": 1.07,
-   "recent_share": 0.2151
+   "recent": 1013,
+   "total": 1797,
+   "burst_score": 1.15,
+   "recent_share": 0.2036
   },
   {
    "keyword": "experience",
-   "recent": 750,
-   "total": 1272,
-   "burst_score": 1.07,
-   "recent_share": 0.1552
+   "recent": 748,
+   "total": 1355,
+   "burst_score": 1.13,
+   "recent_share": 0.1503
   },
   {
    "keyword": "parametric",
-   "recent": 420,
-   "total": 725,
+   "recent": 401,
+   "total": 730,
+   "burst_score": 1.12,
+   "recent_share": 0.0806
+  },
+  {
+   "keyword": "knowledge",
+   "recent": 1402,
+   "total": 2610,
+   "burst_score": 1.1,
+   "recent_share": 0.2818
+  },
+  {
+   "keyword": "replay",
+   "recent": 287,
+   "total": 555,
    "burst_score": 1.05,
-   "recent_share": 0.0869
+   "recent_share": 0.0577
   }
  ]
 }
