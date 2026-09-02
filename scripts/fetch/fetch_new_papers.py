@@ -112,7 +112,7 @@ def classify_subcategory(title, abstract="", cfg=None, category=None):
 
 
 # ── Dedup cache (shared logic with fetch_openalex_bulk.py) ───────────────
-_DEDUP_DIR = Path(os.environ.get("XDG_CACHE_HOME", "~/.cache")) / "research-runner/dedup"
+_DEDUP_DIR = Path(os.path.expanduser(os.environ.get("XDG_CACHE_HOME", "~/.cache"))) / "research-runner/dedup"
 
 def _cache_path(yaml_path):
     st = yaml_path.stat()
