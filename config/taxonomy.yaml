@@ -170,17 +170,17 @@ other_sources_queries:
   subcategory_hint: review
 openalex_queries:
 - category: factual
-  query: knowledge graph memory agent
+  query: knowledge graph memory
 - category: factual
-  query: knowledge memory language model
+  query: memory language model
 - category: factual
   query: retrieval augmented memory
 - category: factual
   query: parametric knowledge survey
 - category: working
-  query: working memory neural network
+  query: working memory network
 - category: working
-  query: transformer working memory
+  query: transformer memory
 - category: working
   query: memory augmented network
 - category: working
@@ -188,11 +188,11 @@ openalex_queries:
 - category: experiential
   query: episodic memory agent
 - category: experiential
-  query: episodic memory reinforcement learning
+  query: episodic memory learning
 - category: experiential
   query: experience replay memory
 - category: experiential
-  query: episodic memory cognitive neuroscience
+  query: memory cognitive neuroscience
 - category: factual
   query: long-term memory agent
 - category: working
