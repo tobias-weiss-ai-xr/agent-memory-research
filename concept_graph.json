@@ -4,31 +4,31 @@
       "id": 0,
       "term": "Factual",
       "kind": "taxonomy",
-      "df": 4371
+      "df": 4379
     },
     {
       "id": 1,
       "term": "Working",
       "kind": "taxonomy",
-      "df": 4031
+      "df": 4035
     },
     {
       "id": 2,
       "term": "framework",
       "kind": "curated",
-      "df": 2848
+      "df": 2849
     },
     {
       "id": 3,
       "term": "Experiential",
       "kind": "taxonomy",
-      "df": 1737
+      "df": 1740
     },
     {
       "id": 4,
       "term": "survey",
       "kind": "curated",
-      "df": 1111
+      "df": 1113
     },
     {
       "id": 5,
@@ -155,12 +155,12 @@
     {
       "source": 0,
       "target": 2,
-      "weight": 1361
+      "weight": 1362
     },
     {
       "source": 0,
       "target": 4,
-      "weight": 1032
+      "weight": 1034
     },
     {
       "source": 0,
@@ -781,6 +781,6 @@
   "stats": {
     "concepts": 25,
     "edges": 125,
-    "papers": 10147
+    "papers": 10162
   }
 }

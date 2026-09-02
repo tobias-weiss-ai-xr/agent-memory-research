@@ -5,7 +5,7 @@
       "term": "Factual",
       "kind": "taxonomy",
       "seed": true,
-      "df": 4371,
+      "df": 4379,
       "match": {
         "type": "field",
         "field": "category",
@@ -17,13 +17,13 @@
         "factual/theory",
         "factual/parametric"
       ],
-      "papers": 4371
+      "papers": 4379
     },
     {
       "term": "Working",
       "kind": "taxonomy",
       "seed": true,
-      "df": 4031,
+      "df": 4035,
       "match": {
         "type": "field",
         "field": "category",
@@ -35,20 +35,20 @@
         "working/token-level",
         "working/systems"
       ],
-      "papers": 4031
+      "papers": 4035
     },
     {
       "term": "framework",
       "kind": "curated",
       "seed": true,
-      "df": 2848,
+      "df": 2849,
       "match": {
         "type": "text",
         "forms": [
           "framework"
         ]
       },
-      "papers": 2848,
+      "papers": 2849,
       "top_cells": [
         "factual/token-level",
         "factual/method",
@@ -60,7 +60,7 @@
       "term": "Experiential",
       "kind": "taxonomy",
       "seed": true,
-      "df": 1737,
+      "df": 1740,
       "match": {
         "type": "field",
         "field": "category",
@@ -68,24 +68,24 @@
       },
       "top_cells": [
         "experiential/token-level",
-        "experiential/method",
         "experiential/theory",
+        "experiential/method",
         "experiential/parametric"
       ],
-      "papers": 1737
+      "papers": 1740
     },
     {
       "term": "survey",
       "kind": "curated",
       "seed": true,
-      "df": 1111,
+      "df": 1113,
       "match": {
         "type": "text",
         "forms": [
           "survey"
         ]
       },
-      "papers": 1111,
+      "papers": 1113,
       "top_cells": [
         "factual/method",
         "factual/theory",
